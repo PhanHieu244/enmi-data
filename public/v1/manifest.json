@@ -1,6 +1,42 @@
 {
  "v": 1,
- "at": "2026-10-27T15:53:48.704Z",
+ "at": "2026-10-27T16:01:06.063Z",
+ "featured": [
+  {
+   "pack": "qbank.en",
+   "title": {
+    "vi": "Kho đề tiếng Anh",
+    "en": "English question bank"
+   },
+   "sub": {
+    "vi": "Ngữ pháp + TOEIC Part 1–7, có giải thích từng phương án",
+    "en": "Grammar + TOEIC Parts 1–7, every option explained"
+   }
+  },
+  {
+   "pack": "qbank.ja",
+   "title": {
+    "vi": "Luyện JLPT N5 → N1",
+    "en": "JLPT practice N5 → N1"
+   },
+   "sub": {
+    "vi": "Ngữ pháp, 読解, 聴解, 文字・語彙",
+    "en": "Grammar, 読解, 聴解, 文字・語彙"
+   }
+  },
+  {
+   "pack": "qbank.de",
+   "title": {
+    "vi": "Ôn thi Goethe",
+    "en": "Goethe exam prep"
+   },
+   "sub": {
+    "vi": "Lesen, Hören, Schreiben, Sprechen",
+    "en": "Lesen, Hören, Schreiben, Sprechen"
+   }
+  }
+ ],
+ "collections": [],
  "packs": [
   {
    "id": "qbank.de",
@@ -8,6 +44,61 @@
    "lang": "de",
    "count": 1491,
    "size": 1015315,
+   "items": [
+    {
+     "id": "grammar",
+     "t": {
+      "vi": "Ngữ pháp",
+      "en": "Grammar"
+     },
+     "n": 1153,
+     "u": "q"
+    },
+    {
+     "id": "hoeren",
+     "t": "Hören",
+     "n": 90,
+     "u": "q"
+    },
+    {
+     "id": "lesen",
+     "t": "Lesen",
+     "n": 96,
+     "u": "q"
+    },
+    {
+     "id": "schreiben",
+     "t": "Schreiben",
+     "n": 40,
+     "u": "q"
+    },
+    {
+     "id": "sprachbausteine",
+     "t": "Sprachbausteine",
+     "n": 72,
+     "u": "q"
+    },
+    {
+     "id": "sprechen",
+     "t": "Sprechen",
+     "n": 40,
+     "u": "q"
+    },
+    {
+     "id": "theory",
+     "t": {
+      "vi": "Lý thuyết",
+      "en": "Theory"
+     },
+     "n": 48,
+     "u": "lesson"
+    }
+   ],
+   "level": "A1–C1",
+   "desc": {
+    "vi": "Ngữ pháp tiếng Đức theo bậc và các phần thi Goethe.",
+    "en": "German grammar by level plus Goethe exam sections."
+   },
    "files": [
     {
      "name": "grammar.json",
@@ -52,7 +143,8 @@
      "path": "f/c53460ae950f0ba1.json"
     }
    ],
-   "ver": "3a533c6eec"
+   "ver": "3a533c6eec",
+   "up": "2026-10-27"
   },
   {
    "id": "qbank.en",
@@ -60,6 +152,95 @@
    "lang": "en",
    "count": 5301,
    "size": 4708746,
+   "items": [
+    {
+     "id": "grammar",
+     "t": {
+      "vi": "Ngữ pháp",
+      "en": "Grammar"
+     },
+     "n": 3249,
+     "u": "q"
+    },
+    {
+     "id": "p1",
+     "t": {
+      "vi": "Part 1",
+      "en": "Part 1"
+     },
+     "n": 25,
+     "u": "q"
+    },
+    {
+     "id": "p2",
+     "t": {
+      "vi": "Part 2",
+      "en": "Part 2"
+     },
+     "n": 301,
+     "u": "q"
+    },
+    {
+     "id": "p3",
+     "t": {
+      "vi": "Part 3",
+      "en": "Part 3"
+     },
+     "n": 270,
+     "u": "q"
+    },
+    {
+     "id": "p4",
+     "t": {
+      "vi": "Part 4",
+      "en": "Part 4"
+     },
+     "n": 216,
+     "u": "q"
+    },
+    {
+     "id": "p5",
+     "t": {
+      "vi": "Part 5",
+      "en": "Part 5"
+     },
+     "n": 692,
+     "u": "q"
+    },
+    {
+     "id": "p6",
+     "t": {
+      "vi": "Part 6",
+      "en": "Part 6"
+     },
+     "n": 192,
+     "u": "q"
+    },
+    {
+     "id": "p7",
+     "t": {
+      "vi": "Part 7",
+      "en": "Part 7"
+     },
+     "n": 356,
+     "u": "q"
+    },
+    {
+     "id": "theory",
+     "t": {
+      "vi": "Lý thuyết",
+      "en": "Theory"
+     },
+     "n": 60,
+     "u": "lesson"
+    }
+   ],
+   "badge": "hot",
+   "level": "A1–C1",
+   "desc": {
+    "vi": "Câu hỏi soạn sẵn theo 60 chủ điểm ngữ pháp và đủ 7 phần thi TOEIC. Mỗi câu có lời giải và lý do từng phương án đúng / sai.",
+    "en": "Ready-made questions for 60 grammar topics and all 7 TOEIC parts, with an explanation for every option."
+   },
    "files": [
     {
      "name": "grammar.json",
@@ -266,7 +447,8 @@
      "path": "f/5108b7c8376de977.json"
     }
    ],
-   "ver": "3c66c90535"
+   "ver": "3c66c90535",
+   "up": "2026-10-27"
   },
   {
    "id": "qbank.ja",
@@ -274,6 +456,49 @@
    "lang": "ja",
    "count": 1582,
    "size": 1153226,
+   "items": [
+    {
+     "id": "grammar",
+     "t": {
+      "vi": "Ngữ pháp",
+      "en": "Grammar"
+     },
+     "n": 1320,
+     "u": "q"
+    },
+    {
+     "id": "choukai",
+     "t": "聴解",
+     "n": 40,
+     "u": "q"
+    },
+    {
+     "id": "dokkai",
+     "t": "読解",
+     "n": 72,
+     "u": "q"
+    },
+    {
+     "id": "moji",
+     "t": "文字・語彙",
+     "n": 150,
+     "u": "q"
+    },
+    {
+     "id": "theory",
+     "t": {
+      "vi": "Lý thuyết",
+      "en": "Theory"
+     },
+     "n": 60,
+     "u": "lesson"
+    }
+   ],
+   "level": "N5–N1",
+   "desc": {
+    "vi": "Ngữ pháp tiếng Nhật theo bậc JLPT, đọc hiểu, nghe hiểu và từ vựng – chữ Hán.",
+    "en": "Japanese grammar by JLPT level, reading, listening and kanji vocabulary."
+   },
    "files": [
     {
      "name": "choukai.json",
@@ -306,7 +531,8 @@
      "path": "f/eb47ca967a3e4d25.json"
     }
    ],
-   "ver": "bdb0ffa893"
+   "ver": "bdb0ffa893",
+   "up": "2026-10-27"
   },
   {
    "id": "qbank.ko",
@@ -314,6 +540,43 @@
    "lang": "ko",
    "count": 1358,
    "size": 927386,
+   "items": [
+    {
+     "id": "grammar",
+     "t": {
+      "vi": "Ngữ pháp",
+      "en": "Grammar"
+     },
+     "n": 1224,
+     "u": "q"
+    },
+    {
+     "id": "deutgi",
+     "t": "듣기",
+     "n": 62,
+     "u": "q"
+    },
+    {
+     "id": "ilgi",
+     "t": "읽기",
+     "n": 72,
+     "u": "q"
+    },
+    {
+     "id": "theory",
+     "t": {
+      "vi": "Lý thuyết",
+      "en": "Theory"
+     },
+     "n": 51,
+     "u": "lesson"
+    }
+   ],
+   "level": "TOPIK 1–6",
+   "desc": {
+    "vi": "Ngữ pháp tiếng Hàn theo bậc TOPIK, đọc hiểu và nghe hiểu.",
+    "en": "Korean grammar by TOPIK level, reading and listening."
+   },
    "files": [
     {
      "name": "deutgi.json",
@@ -340,7 +603,8 @@
      "path": "f/5a14fb564f04e671.json"
     }
    ],
-   "ver": "12261cbb9e"
+   "ver": "12261cbb9e",
+   "up": "2026-10-27"
   },
   {
    "id": "qbank.zh",
@@ -348,6 +612,43 @@
    "lang": "zh",
    "count": 1354,
    "size": 796838,
+   "items": [
+    {
+     "id": "grammar",
+     "t": {
+      "vi": "Ngữ pháp",
+      "en": "Grammar"
+     },
+     "n": 1176,
+     "u": "q"
+    },
+    {
+     "id": "tingli",
+     "t": "听力",
+     "n": 82,
+     "u": "q"
+    },
+    {
+     "id": "yuedu",
+     "t": "阅读",
+     "n": 96,
+     "u": "q"
+    },
+    {
+     "id": "theory",
+     "t": {
+      "vi": "Lý thuyết",
+      "en": "Theory"
+     },
+     "n": 49,
+     "u": "lesson"
+    }
+   ],
+   "level": "HSK 1–6",
+   "desc": {
+    "vi": "Ngữ pháp tiếng Trung theo bậc HSK, đọc hiểu và nghe hiểu.",
+    "en": "Chinese grammar by HSK level, reading and listening."
+   },
    "files": [
     {
      "name": "grammar.json",
@@ -374,7 +675,8 @@
      "path": "f/4925bcf6401448e8.json"
     }
    ],
-   "ver": "3e2c8b93c3"
+   "ver": "3e2c8b93c3",
+   "up": "2026-10-27"
   }
  ]
 }
