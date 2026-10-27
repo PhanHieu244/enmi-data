@@ -1,0 +1,370 @@
+{
+ "v": 1,
+ "at": "2026-10-27T15:42:53.705Z",
+ "packs": [
+  {
+   "id": "qbank.de",
+   "kind": "qbank",
+   "lang": "de",
+   "size": 1015315,
+   "files": [
+    {
+     "name": "grammar.json",
+     "size": 474814,
+     "sha256": "c0bd68a7ff3b8407c7ce105cf67c5d45441bce638a2bfd06684facaa431c9f9f",
+     "path": "f/c0bd68a7ff3b8407.json"
+    },
+    {
+     "name": "hoeren.json",
+     "size": 97053,
+     "sha256": "85445dbb06c3e8a6604b0f634c0fc91873e907e5b96cfcbf956d9d553d848732",
+     "path": "f/85445dbb06c3e8a6.json"
+    },
+    {
+     "name": "lesen.json",
+     "size": 100691,
+     "sha256": "643b1a79bbb419312adabd010f427169bfede8587074b5c4c1ca062d07f075a9",
+     "path": "f/643b1a79bbb41931.json"
+    },
+    {
+     "name": "schreiben.json",
+     "size": 57915,
+     "sha256": "be5ce8fd29fc9d70e6c4105d14c27f9c2366495d94031b47d36b7fe81a888179",
+     "path": "f/be5ce8fd29fc9d70.json"
+    },
+    {
+     "name": "sprachbausteine.json",
+     "size": 46289,
+     "sha256": "9e0e93db052fd635b87e32afd60289652fb604b96275410be81116401ce13e49",
+     "path": "f/9e0e93db052fd635.json"
+    },
+    {
+     "name": "sprechen.json",
+     "size": 51506,
+     "sha256": "e5a1caadaca1ec4d785fbc039796f1da12218fb55301c1885f06a00c2f8e2adb",
+     "path": "f/e5a1caadaca1ec4d.json"
+    },
+    {
+     "name": "theory.json",
+     "size": 187047,
+     "sha256": "c53460ae950f0ba10355ca86389c5932853c03d5e9da13e6a97b2d86b0a08d4c",
+     "path": "f/c53460ae950f0ba1.json"
+    }
+   ]
+  },
+  {
+   "id": "qbank.en",
+   "kind": "qbank",
+   "lang": "en",
+   "size": 4708746,
+   "files": [
+    {
+     "name": "grammar.json",
+     "size": 1240277,
+     "sha256": "d21c986ecc909504d33d95d7db5577785f0fa0091cebef1e42a476086c3f6c10",
+     "path": "f/d21c986ecc909504.json"
+    },
+    {
+     "name": "img/p1-01.jpg",
+     "size": 83394,
+     "sha256": "daca4f11a6ab36a288deb56dde82b9cc31c6b30949291ceebe15e15670beef87",
+     "path": "f/daca4f11a6ab36a2.jpg"
+    },
+    {
+     "name": "img/p1-02.jpg",
+     "size": 58531,
+     "sha256": "ec90ac12ba4da25f77a1dde0ad90ee24bde9252cce4e413b3921b1f5e382d4b0",
+     "path": "f/ec90ac12ba4da25f.jpg"
+    },
+    {
+     "name": "img/p1-03.jpg",
+     "size": 88448,
+     "sha256": "3845dc8ffed84fee268f8ed0c757f7072331f2f843e9b92c7886e72531c63219",
+     "path": "f/3845dc8ffed84fee.jpg"
+    },
+    {
+     "name": "img/p1-04.jpg",
+     "size": 61914,
+     "sha256": "ae479fcf389e348a947568b1ce98186a831778d9645d1278388c94da380a2b4a",
+     "path": "f/ae479fcf389e348a.jpg"
+    },
+    {
+     "name": "img/p1-05.jpg",
+     "size": 57053,
+     "sha256": "117d0822de0f00c425d05e2ba76ead7b590b1b2ebf6d3845a6e0bc58bee330d6",
+     "path": "f/117d0822de0f00c4.jpg"
+    },
+    {
+     "name": "img/p1-06.jpg",
+     "size": 46521,
+     "sha256": "d1d9025cdf20b061af06be45562f6f3433f69a36e54695b751cf2ca0fb233e32",
+     "path": "f/d1d9025cdf20b061.jpg"
+    },
+    {
+     "name": "img/p1-07.jpg",
+     "size": 79921,
+     "sha256": "1f3052d05039aac35e4dd9cb7b210d75ee78c9ac08a8b818dfab6f0352dd6791",
+     "path": "f/1f3052d05039aac3.jpg"
+    },
+    {
+     "name": "img/p1-08.jpg",
+     "size": 70041,
+     "sha256": "f7daa82d44d54efcb3016cbc0c6bd133a6fbe5d28cb8481c5b6a7719c067dca4",
+     "path": "f/f7daa82d44d54efc.jpg"
+    },
+    {
+     "name": "img/p1-09.jpg",
+     "size": 65405,
+     "sha256": "59805c7333e5f2ebfc228514c03053935716eebf7622b00b81551d37ef7cf51e",
+     "path": "f/59805c7333e5f2eb.jpg"
+    },
+    {
+     "name": "img/p1-10.jpg",
+     "size": 43499,
+     "sha256": "36a605d4c6fe4eaa18b78fef957f3e0446aa79383b26d66c33209b28b6754eec",
+     "path": "f/36a605d4c6fe4eaa.jpg"
+    },
+    {
+     "name": "img/p1-11.jpg",
+     "size": 45510,
+     "sha256": "54b3d74fb1950af2997ab7d162239e72b043877b7e3649a0e6926984ec229537",
+     "path": "f/54b3d74fb1950af2.jpg"
+    },
+    {
+     "name": "img/p1-12.jpg",
+     "size": 30406,
+     "sha256": "71e7ec4131a18843ef3aa2856a48531fe03636f7e4e748aa9529aa8c5f9bd792",
+     "path": "f/71e7ec4131a18843.jpg"
+    },
+    {
+     "name": "img/p1-13.jpg",
+     "size": 75449,
+     "sha256": "f081a03a9f65aec83eeb37b33bd4b7566506690f285bf942cec4ed1ba281ed67",
+     "path": "f/f081a03a9f65aec8.jpg"
+    },
+    {
+     "name": "img/p1-14.jpg",
+     "size": 74061,
+     "sha256": "89fe9868791b6b24eb5cacf21b7a064b91c265c605216dcc88f3ca550ec5ad31",
+     "path": "f/89fe9868791b6b24.jpg"
+    },
+    {
+     "name": "img/p1-15.jpg",
+     "size": 51775,
+     "sha256": "3b5e81c30ac556446f6df03051ad88b064020ff8645197e9e526f83d7d12e7ff",
+     "path": "f/3b5e81c30ac55644.jpg"
+    },
+    {
+     "name": "img/p1-16.jpg",
+     "size": 76138,
+     "sha256": "fb2e5df134332d072b06f69aaa3264407a40c791f7f5bd8bc613ac19e39f8d6c",
+     "path": "f/fb2e5df134332d07.jpg"
+    },
+    {
+     "name": "img/p1-17.jpg",
+     "size": 36836,
+     "sha256": "08d909ad0ef6df0168546ecdf505ea7e9eff558340d88b5638e0e9a2a3e10116",
+     "path": "f/08d909ad0ef6df01.jpg"
+    },
+    {
+     "name": "img/p1-18.jpg",
+     "size": 66765,
+     "sha256": "c1f0337e230397aa2cb500954a9463d7627359e709f22b2b1b4a4c1875de6394",
+     "path": "f/c1f0337e230397aa.jpg"
+    },
+    {
+     "name": "img/p1-19.jpg",
+     "size": 80129,
+     "sha256": "0fe9612aafddbc0331516adb2a2193f793aee1fbc3efae2f6dcf3ef3fcc23829",
+     "path": "f/0fe9612aafddbc03.jpg"
+    },
+    {
+     "name": "img/p1-20.jpg",
+     "size": 80005,
+     "sha256": "da783ae4148aa54666f526a72086d91f49689f70eab905986d25d692cecc1630",
+     "path": "f/da783ae4148aa546.jpg"
+    },
+    {
+     "name": "img/p1-21.jpg",
+     "size": 46935,
+     "sha256": "1ae5b75477177bc794e3ccfe6c0164fafce5af7710bb83947cdb02a9815fcbd6",
+     "path": "f/1ae5b75477177bc7.jpg"
+    },
+    {
+     "name": "img/p1-22.jpg",
+     "size": 48796,
+     "sha256": "d2291d904730c6bab848193bb87f3d1ee449747a4a4b183dcd233c8c0c756a15",
+     "path": "f/d2291d904730c6ba.jpg"
+    },
+    {
+     "name": "img/p1-23.jpg",
+     "size": 47533,
+     "sha256": "883fc30180ead765ed296715dec519587b508cca8f1fe5fb97d76d582f86c459",
+     "path": "f/883fc30180ead765.jpg"
+    },
+    {
+     "name": "img/p1-24.jpg",
+     "size": 57636,
+     "sha256": "15ea1135076045f4d9c0ab31041bd321e96d732c996628d23769a23e378939bb",
+     "path": "f/15ea1135076045f4.jpg"
+    },
+    {
+     "name": "img/p1-25.jpg",
+     "size": 63928,
+     "sha256": "9085f8e9be1d8299eca71af4613c4bef67113277ac2c76a49c7840de124eb36a",
+     "path": "f/9085f8e9be1d8299.jpg"
+    },
+    {
+     "name": "p1.json",
+     "size": 29957,
+     "sha256": "8d549f1b056a825e4fcba71b37285bff72bb9f8181d00b92d76ecc494511fd50",
+     "path": "f/8d549f1b056a825e.json"
+    },
+    {
+     "name": "p2.json",
+     "size": 217886,
+     "sha256": "f5865d8bb488e30e05b8698526aadb7b0fb241eb8a778def0e209b85738e53bd",
+     "path": "f/f5865d8bb488e30e.json"
+    },
+    {
+     "name": "p3.json",
+     "size": 263096,
+     "sha256": "051ad2bbd8860c265533b1e666438fc79dd3b210e759ae7b427b14c056d2f85f",
+     "path": "f/051ad2bbd8860c26.json"
+    },
+    {
+     "name": "p4.json",
+     "size": 203501,
+     "sha256": "543510b370ee46bef37189ddb12b9a3aaa5afd2addbb6269a484799b0c41a36e",
+     "path": "f/543510b370ee46be.json"
+    },
+    {
+     "name": "p5.json",
+     "size": 420796,
+     "sha256": "adb27086d2269bfcdec1b1d01aee1dc320b4908ae6b5fc5ad3f8cfe0126eccd4",
+     "path": "f/adb27086d2269bfc.json"
+    },
+    {
+     "name": "p6.json",
+     "size": 192600,
+     "sha256": "8275c784072ae5b0a3749c596fe35c7f11c2a15cb8e036c1ac42075a204ef6e8",
+     "path": "f/8275c784072ae5b0.json"
+    },
+    {
+     "name": "p7.json",
+     "size": 374726,
+     "sha256": "79b7b7fc3977a38ba908c2ff3a429ea565b862a6f1e55f212b1a7eb037048cb7",
+     "path": "f/79b7b7fc3977a38b.json"
+    },
+    {
+     "name": "theory.json",
+     "size": 229278,
+     "sha256": "5108b7c8376de977dd09f43c09cabda90f9c567f3fc3d9e909091c129c40fe57",
+     "path": "f/5108b7c8376de977.json"
+    }
+   ]
+  },
+  {
+   "id": "qbank.ja",
+   "kind": "qbank",
+   "lang": "ja",
+   "size": 1153226,
+   "files": [
+    {
+     "name": "choukai.json",
+     "size": 64999,
+     "sha256": "fc3c6790ed2695c9938b1efc28754c02a04f1fca8cd064136d13ebd7fdc20852",
+     "path": "f/fc3c6790ed2695c9.json"
+    },
+    {
+     "name": "dokkai.json",
+     "size": 81055,
+     "sha256": "aff06b9ddb6d46e99c2f2b9e5b066c22847b05c972f1be227662ca374093f298",
+     "path": "f/aff06b9ddb6d46e9.json"
+    },
+    {
+     "name": "grammar.json",
+     "size": 629065,
+     "sha256": "89ecd2e6e9ec2758ad8246de0b1a5204ede294ac21c6383d65fedb6cac190a3f",
+     "path": "f/89ecd2e6e9ec2758.json"
+    },
+    {
+     "name": "moji.json",
+     "size": 95068,
+     "sha256": "ceaa7d865093276b3a0d4e683397f07f3c1857436caeb0d567d582e3bd060bf8",
+     "path": "f/ceaa7d865093276b.json"
+    },
+    {
+     "name": "theory.json",
+     "size": 283039,
+     "sha256": "eb47ca967a3e4d25db2caaaec7a06ea1758063822114780a8407ef182c1a1e58",
+     "path": "f/eb47ca967a3e4d25.json"
+    }
+   ]
+  },
+  {
+   "id": "qbank.ko",
+   "kind": "qbank",
+   "lang": "ko",
+   "size": 927386,
+   "files": [
+    {
+     "name": "deutgi.json",
+     "size": 84279,
+     "sha256": "b33815398bd2cb5b633b8b557f99441d4a768f97510d69b07cff7806ee43b3a3",
+     "path": "f/b33815398bd2cb5b.json"
+    },
+    {
+     "name": "grammar.json",
+     "size": 562324,
+     "sha256": "b9bf0a9747a879379409c6176249499cb96829a5f5f206778952bbdfeeaac043",
+     "path": "f/b9bf0a9747a87937.json"
+    },
+    {
+     "name": "ilgi.json",
+     "size": 77087,
+     "sha256": "c8638fb9fb8d8765214f766690918374495236e6bc577d2179b7206f04054942",
+     "path": "f/c8638fb9fb8d8765.json"
+    },
+    {
+     "name": "theory.json",
+     "size": 203696,
+     "sha256": "5a14fb564f04e671caf0919b398943a2cbab718231432e36248c6a693d32276a",
+     "path": "f/5a14fb564f04e671.json"
+    }
+   ]
+  },
+  {
+   "id": "qbank.zh",
+   "kind": "qbank",
+   "lang": "zh",
+   "size": 796838,
+   "files": [
+    {
+     "name": "grammar.json",
+     "size": 459483,
+     "sha256": "9f4826777676b20003bde9417c122edbe65b2fbba1604e253b75d6bb9b50343a",
+     "path": "f/9f4826777676b200.json"
+    },
+    {
+     "name": "theory.json",
+     "size": 165526,
+     "sha256": "71d12755c88b88bbfe43bceabbf1aaca0ab9fdfa9f2e79e64f012aac70936d73",
+     "path": "f/71d12755c88b88bb.json"
+    },
+    {
+     "name": "tingli.json",
+     "size": 90989,
+     "sha256": "38ab0d4bb9d618b85a6d175c79b9840d857d0457fb67ca744eddd0467b46f44d",
+     "path": "f/38ab0d4bb9d618b8.json"
+    },
+    {
+     "name": "yuedu.json",
+     "size": 80840,
+     "sha256": "4925bcf6401448e853fe8af645715e1c5b018f85b948a16444ae0d3e7aebe7e2",
+     "path": "f/4925bcf6401448e8.json"
+    }
+   ]
+  }
+ ]
+}
