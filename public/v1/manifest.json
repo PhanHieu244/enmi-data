@@ -1,11 +1,12 @@
 {
  "v": 1,
- "at": "2026-10-27T15:42:53.705Z",
+ "at": "2026-10-27T15:53:48.704Z",
  "packs": [
   {
    "id": "qbank.de",
    "kind": "qbank",
    "lang": "de",
+   "count": 1491,
    "size": 1015315,
    "files": [
     {
@@ -50,12 +51,14 @@
      "sha256": "c53460ae950f0ba10355ca86389c5932853c03d5e9da13e6a97b2d86b0a08d4c",
      "path": "f/c53460ae950f0ba1.json"
     }
-   ]
+   ],
+   "ver": "3a533c6eec"
   },
   {
    "id": "qbank.en",
    "kind": "qbank",
    "lang": "en",
+   "count": 5301,
    "size": 4708746,
    "files": [
     {
@@ -262,12 +265,14 @@
      "sha256": "5108b7c8376de977dd09f43c09cabda90f9c567f3fc3d9e909091c129c40fe57",
      "path": "f/5108b7c8376de977.json"
     }
-   ]
+   ],
+   "ver": "3c66c90535"
   },
   {
    "id": "qbank.ja",
    "kind": "qbank",
    "lang": "ja",
+   "count": 1582,
    "size": 1153226,
    "files": [
     {
@@ -300,12 +305,14 @@
      "sha256": "eb47ca967a3e4d25db2caaaec7a06ea1758063822114780a8407ef182c1a1e58",
      "path": "f/eb47ca967a3e4d25.json"
     }
-   ]
+   ],
+   "ver": "bdb0ffa893"
   },
   {
    "id": "qbank.ko",
    "kind": "qbank",
    "lang": "ko",
+   "count": 1358,
    "size": 927386,
    "files": [
     {
@@ -332,12 +339,14 @@
      "sha256": "5a14fb564f04e671caf0919b398943a2cbab718231432e36248c6a693d32276a",
      "path": "f/5a14fb564f04e671.json"
     }
-   ]
+   ],
+   "ver": "12261cbb9e"
   },
   {
    "id": "qbank.zh",
    "kind": "qbank",
    "lang": "zh",
+   "count": 1354,
    "size": 796838,
    "files": [
     {
@@ -364,7 +373,8 @@
      "sha256": "4925bcf6401448e853fe8af645715e1c5b018f85b948a16444ae0d3e7aebe7e2",
      "path": "f/4925bcf6401448e8.json"
     }
-   ]
+   ],
+   "ver": "3e2c8b93c3"
   }
  ]
 }
