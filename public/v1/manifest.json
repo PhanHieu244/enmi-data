@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T14:34:46.513Z",
+ "at": "2026-10-28T14:53:29.274Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -1543,12 +1543,13 @@
    "sdk": 1,
    "pw": [],
    "rewards": "own",
+   "full": true,
    "cover": {
     "c1": "#1b2d3c",
     "c2": "#e2a24a"
    },
    "count": 0,
-   "size": 2102172,
+   "size": 2103935,
    "badge": "beta",
    "title": {
     "vi": "Lời khai",
@@ -1777,9 +1778,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 53344,
-     "sha256": "f7ee26e3fe90ff3bcdcd0beb959cf5d3aab5cb542ac6e82907dece66a29401f9",
-     "path": "f/f7ee26e3fe90ff3b.js"
+     "size": 54920,
+     "sha256": "c47e4fda13d0150c7fdcd06b6244fac74bd6d46bacfd05bf7cb15aababf5f5f5",
+     "path": "f/c47e4fda13d0150c.js"
     },
     {
      "name": "lib/story/mech.js",
@@ -1789,12 +1790,12 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 55156,
-     "sha256": "ea9f3aefa700ee58d9f2ebd1f8a685d88e55f8ee5d7a86dd843fedbb6dc435ba",
-     "path": "f/ea9f3aefa700ee58.css"
+     "size": 55343,
+     "sha256": "af06932c04d3fa4c16ef8e1e45c9aad60fedd773685a0768c4421b2980a28759",
+     "path": "f/af06932c04d3fa4c.css"
     }
    ],
-   "ver": "d1feea871d",
+   "ver": "2cd9941c56",
    "up": "2026-10-28"
   }
  ]
