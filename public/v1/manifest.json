@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T14:53:29.274Z",
+ "at": "2026-10-28T15:02:43.125Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -1549,7 +1549,7 @@
     "c2": "#e2a24a"
    },
    "count": 0,
-   "size": 2103935,
+   "size": 2120463,
    "badge": "beta",
    "title": {
     "vi": "Lời khai",
@@ -1772,30 +1772,30 @@
     },
     {
      "name": "story/story.js",
-     "size": 3417,
-     "sha256": "a394ba7b0813678a6db67c6350564eb56eac233f301c1d91b11ee120fa93965b",
-     "path": "f/a394ba7b0813678a.js"
+     "size": 4105,
+     "sha256": "f06bf34cc39b160f1a459b4ee6f3137a56f3d9e3334150e4e8f02e5096015f52",
+     "path": "f/f06bf34cc39b160f.js"
     },
     {
      "name": "lib/story/core.js",
-     "size": 54920,
-     "sha256": "c47e4fda13d0150c7fdcd06b6244fac74bd6d46bacfd05bf7cb15aababf5f5f5",
-     "path": "f/c47e4fda13d0150c.js"
+     "size": 63031,
+     "sha256": "cd51eb601012ec37892ef6ac94afd8d56e49d0b7c0c504ddcc67524af8cabfe8",
+     "path": "f/cd51eb601012ec37.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 38399,
-     "sha256": "57417af5b22ab1110cf82c7e1066bb88fdb3652a32e821228d93bd69ebed1e72",
-     "path": "f/57417af5b22ab111.js"
+     "size": 38863,
+     "sha256": "bda75ef5830924dcf7e555d106aa229359697ef244698a22f6379bd9ff328cf1",
+     "path": "f/bda75ef5830924dc.js"
     },
     {
      "name": "lib/story/ui.css",
-     "size": 55343,
-     "sha256": "af06932c04d3fa4c16ef8e1e45c9aad60fedd773685a0768c4421b2980a28759",
-     "path": "f/af06932c04d3fa4c.css"
+     "size": 62608,
+     "sha256": "8536dc12fd5d819967d70cfd2b5dd3085316d6dc5671eb73e977ed978f984410",
+     "path": "f/8536dc12fd5d8199.css"
     }
    ],
-   "ver": "2cd9941c56",
+   "ver": "9403eb0676",
    "up": "2026-10-28"
   }
  ]
