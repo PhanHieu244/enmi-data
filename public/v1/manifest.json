@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T06:43:17.423Z",
+ "at": "2026-10-28T06:51:14.009Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -1033,13 +1033,13 @@
     }
    ],
    "vocabN": 8,
-   "size": 41806,
+   "size": 41826,
    "files": [
     {
      "name": "story.json",
-     "size": 13943,
-     "sha256": "098a9022f2854487096a4e66cbf7d7b7c57fb7467921e9b866262626c5eafb0e",
-     "path": "f/098a9022f2854487.json"
+     "size": 13963,
+     "sha256": "4f1af0d0b630823dab738555205c797c496feb81e9468b6c8eb43664ad15de91",
+     "path": "f/4f1af0d0b630823d.json"
     },
     {
      "name": "img/cafe.svg",
@@ -1097,7 +1097,7 @@
     "f/e879d97c93eba5ed.svg"
    ],
    "art": "f/8ffd8064136c1ba0.svg",
-   "ver": "7e0ea72227",
+   "ver": "c4dd517d48",
    "up": "2026-10-28"
   },
   {

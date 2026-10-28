@@ -1,0 +1,194 @@
+{
+ "_": "Truyện nhập vai mẫu (Enmi, 28/10/2026). Định dạng: xem đầu mobile/screens/drama.js. Ảnh: img/ (FLUX.1-schnell trên máy, prompt ở tools/dramas/rainy-cafe/art.json).",
+ "lang": "en",
+ "level": "A2",
+ "title": { "vi": "Quán cà phê ngày mưa", "en": "The Rainy Café" },
+ "desc": {
+  "vi": "Ngày đầu đi làm ở London, trời đổ mưa. Bạn trú vào một quán cà phê nhỏ — gọi đồ, trả tiền, làm quen. Mỗi câu bạn chọn dẫn tới một kết thúc khác.",
+  "en": "Your first workday in London, and it's pouring. You step into a tiny café to order, pay and make friends. Every line you pick leads to a different ending."
+ },
+ "cover": "img/cover.jpg",
+ "bgs": { "cafe": "img/cafe.jpg", "counter": "img/counter.jpg", "window": "img/window.jpg", "street": "img/street.jpg" },
+ "cast": {
+  "me": { "name": { "vi": "Bạn", "en": "You" } },
+  "mia": { "name": "Mia", "role": { "vi": "Pha chế, vui tính", "en": "Barista, cheerful" }, "img": "img/mia.jpg", "color": "#f472b6", "g": "W", "rate": 0.95 },
+  "leo": { "name": "Leo", "role": { "vi": "Khách quen, chơi guitar", "en": "Regular, plays guitar" }, "img": "img/leo.jpg", "color": "#38bdf8", "g": "M", "rate": 0.9 }
+ },
+ "start": "s1",
+ "nodes": {
+  "s1": {
+   "bg": "cafe",
+   "goal": { "vi": "Gọi một đồ uống", "en": "Order a drink" },
+   "steps": [
+    { "n": { "vi": "London, 8 giờ sáng. Mưa lất phất từ lúc bạn ra khỏi ga. Hôm nay là ngày đầu bạn đi làm — còn 30 phút nữa.", "en": "London, 8 a.m. It has been drizzling since you left the station. It's your first day at work — 30 minutes to go." } },
+    { "n": { "vi": "Bạn đẩy cửa một quán cà phê nhỏ. Mùi cà phê ấm áp. Cô gái sau quầy ngẩng lên mỉm cười.", "en": "You push open the door of a small café. It smells of warm coffee. The girl behind the counter looks up and smiles." } },
+    { "c": "mia", "t": "Morning! You look a bit wet. What can I get you?", "tr": { "vi": "Chào buổi sáng! Trông bạn hơi ướt đấy. Bạn muốn dùng gì?", "en": "Good morning! You look a little wet. What would you like?" } },
+    { "choose": [
+     { "t": "Good morning! A hot latte, please.", "tr": { "vi": "Chào buổi sáng! Cho tôi một ly latte nóng nhé.", "en": "A polite, simple order." }, "tag": "polite", "set": { "mia": 1 }, "go": "order" },
+     { "t": "Hi! It's my first day in London. What do you recommend?", "tr": { "vi": "Chào! Hôm nay là ngày đầu tôi ở London. Bạn gợi ý món gì?", "en": "Friendly — you share something about yourself." }, "tag": "friendly", "set": { "mia": 2 }, "go": "recommend" },
+     { "t": "Coffee. Quick, please. I'm late.", "tr": { "vi": "Cà phê. Nhanh giúp, tôi đang muộn.", "en": "Short and in a hurry." }, "tag": "direct", "set": { "mia": -1, "rush": 1 }, "go": "rush" }
+    ] }
+   ]
+  },
+  "order": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": "Sure! Small or large?", "tr": { "vi": "Được thôi! Cỡ nhỏ hay lớn?", "en": "Sure! Which size?" } },
+    { "choose": [
+     { "t": "Large, please. It's a long day.", "tr": { "vi": "Cỡ lớn nhé. Hôm nay dài lắm.", "en": "A large one — it's going to be a long day." }, "tag": "friendly", "set": { "mia": 1 }, "go": "pay" },
+     { "t": "Small is fine, thanks.", "tr": { "vi": "Cỡ nhỏ là được, cảm ơn.", "en": "A small one is enough, thank you." }, "tag": "polite", "go": "pay" }
+    ] }
+   ]
+  },
+  "recommend": {
+   "bg": "counter",
+   "goal": { "vi": "Nghe gợi ý và chọn món", "en": "Get a recommendation and choose" },
+   "steps": [
+    { "c": "mia", "t": "Welcome to London! Try our honey latte. It's perfect on a rainy day.", "tr": { "vi": "Chào mừng tới London! Thử latte mật ong của quán đi. Hợp nhất với ngày mưa.", "en": "Welcome! She suggests the honey latte for a rainy day." } },
+    { "n": { "vi": "Cô ấy chỉ vào tấm bảng phấn có hình con ong nhỏ. Bạn để ý quán cũng có rất nhiều loại trà.", "en": "She points at a chalkboard with a little bee drawn on it. You notice there are lots of teas too." } },
+    { "choose": [
+     { "t": "That sounds perfect. I'll have one.", "tr": { "vi": "Nghe tuyệt đấy. Cho tôi một ly.", "en": "You accept her suggestion." }, "tag": "friendly", "set": { "mia": 1 }, "go": "pay" },
+     { "t": "Hmm, do you have any tea?", "tr": { "vi": "Ừm, quán có trà không?", "en": "You ask for tea instead." }, "tag": "polite", "go": "tea" }
+    ] }
+   ]
+  },
+  "tea": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": "Of course! This is England. Earl Grey or English Breakfast?", "tr": { "vi": "Tất nhiên! Đây là nước Anh mà. Earl Grey hay English Breakfast?", "en": "Of course — it's England. She offers two classic teas." } },
+    { "choose": [
+     { "t": "English Breakfast, with milk, please.", "tr": { "vi": "English Breakfast, thêm sữa nhé.", "en": "The classic British way." }, "tag": "polite", "set": { "mia": 1 }, "go": "pay" },
+     { "t": "Earl Grey. No milk, thank you.", "tr": { "vi": "Earl Grey. Không sữa, cảm ơn.", "en": "Earl Grey, plain." }, "tag": "polite", "go": "pay" }
+    ] }
+   ]
+  },
+  "rush": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": "No problem. One black coffee, coming right up.", "tr": { "vi": "Không sao. Một cà phê đen, có ngay đây.", "en": "No problem — she makes it quickly." } },
+    { "n": { "vi": "Cô ấy pha rất nhanh, nhưng nụ cười đã nhạt đi một chút.", "en": "She makes it fast, but her smile fades a little." } },
+    { "go": "pay" }
+   ]
+  },
+  "pay": {
+   "bg": "counter",
+   "goal": { "vi": "Trả tiền", "en": "Pay for your drink" },
+   "steps": [
+    { "c": "mia", "t": "That's three pounds fifty, please.", "tr": { "vi": "Của bạn ba bảng năm mươi xu.", "en": "It costs £3.50." } },
+    { "n": { "vi": "Bạn sờ vào túi áo khoác… rồi túi quần… Ví đâu rồi?", "en": "You check your coat pocket… then your trouser pocket… Where is your wallet?" } },
+    { "choose": [
+     { "t": "Can I pay by phone?", "tr": { "vi": "Tôi trả bằng điện thoại được không?", "en": "You remember your phone has a payment app." }, "tag": "polite", "go": "paid" },
+     { "t": "Oh no… I think I left my wallet at home.", "tr": { "vi": "Ôi không… Hình như tôi để quên ví ở nhà rồi.", "en": "You admit you forgot your wallet." }, "tag": "direct", "go": "wallet" }
+    ] }
+   ]
+  },
+  "wallet": {
+   "bg": "counter",
+   "steps": [
+    { "if": "mia>=2", "go": "free", "else": "atm" }
+   ]
+  },
+  "free": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": "Don't worry. It's your first day — this one's on me!", "tr": { "vi": "Đừng lo. Ngày đầu tiên mà — ly này mình mời!", "en": "Don't worry — it's on the house." } },
+    { "choose": [
+     { "t": "Really? Thank you so much! I'll pay you back tomorrow.", "tr": { "vi": "Thật à? Cảm ơn bạn nhiều lắm! Mai tôi trả lại nhé.", "en": "You thank her and promise to come back." }, "tag": "friendly", "set": { "mia": 1 }, "go": "leo" }
+    ] }
+   ]
+  },
+  "atm": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": "Hmm… there's a cash machine across the street.", "tr": { "vi": "Ừm… bên kia đường có cây rút tiền đấy.", "en": "She points to an ATM across the road." } },
+    { "n": { "vi": "Bạn nhìn ra cửa sổ. Mưa đang to hơn.", "en": "You look out of the window. The rain is getting heavier." } },
+    { "end": "rain" }
+   ]
+  },
+  "paid": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": "Of course. Just tap here.", "tr": { "vi": "Được chứ. Chạm vào đây là xong.", "en": "Sure — tap your phone here." } },
+    { "if": "rush>=1", "go": "rushend" },
+    { "go": "leo" }
+   ]
+  },
+  "rushend": {
+   "bg": "street",
+   "steps": [
+    { "n": { "vi": "Bạn cầm ly cà phê, chạy vội ra cửa. Không ai kịp nói thêm câu nào.", "en": "You grab your coffee and rush out. Nobody has time to say anything else." } },
+    { "end": "rush" }
+   ]
+  },
+  "leo": {
+   "bg": "window",
+   "goal": { "vi": "Làm quen với một người lạ", "en": "Make conversation with a stranger" },
+   "steps": [
+    { "n": { "vi": "Bạn ngồi xuống cạnh cửa sổ. Một chàng trai đeo hộp đàn guitar ngồi bàn bên quay sang.", "en": "You sit down by the window. A guy with a guitar case at the next table turns to you." } },
+    { "c": "leo", "t": "Rainy first day, huh? I heard you say you're new here.", "tr": { "vi": "Ngày đầu mà mưa nhỉ? Mình nghe bạn nói bạn mới tới đây.", "en": "He overheard that you're new in London." } },
+    { "choose": [
+     { "t": "Yes! I start my new job today. I'm a bit nervous.", "tr": { "vi": "Đúng rồi! Hôm nay tôi bắt đầu công việc mới. Hơi run một chút.", "en": "You open up about your new job." }, "tag": "friendly", "set": { "leo": 2 }, "go": "friends" },
+     { "t": "Yes. Sorry, I'm in a bit of a hurry.", "tr": { "vi": "Vâng. Xin lỗi, tôi đang hơi vội.", "en": "You politely end the conversation." }, "tag": "polite", "go": "okend" },
+     { "t": "Nice guitar! Do you play here?", "tr": { "vi": "Đàn đẹp đấy! Bạn có chơi ở đây không?", "en": "You ask about his guitar." }, "tag": "funny", "set": { "leo": 1 }, "go": "music" }
+    ] }
+   ]
+  },
+  "music": {
+   "bg": "window",
+   "steps": [
+    { "c": "leo", "t": "Every Friday night! Mia makes the best hot chocolate for the show.", "tr": { "vi": "Tối thứ Sáu nào cũng chơi! Mia pha sô-cô-la nóng ngon nhất cho buổi diễn.", "en": "He plays every Friday night here." } },
+    { "c": "mia", "t": "And he never pays for it!", "tr": { "vi": "Và cậu ấy chẳng bao giờ trả tiền!", "en": "Mia teases him." } },
+    { "go": "friends" }
+   ]
+  },
+  "friends": {
+   "bg": "window",
+   "steps": [
+    { "c": "leo", "t": "Mia and I come here every morning. Come back tomorrow? We'll show you around.", "tr": { "vi": "Mình với Mia sáng nào cũng ở đây. Mai quay lại nhé? Tụi mình dẫn bạn đi một vòng.", "en": "He invites you back tomorrow." } },
+    { "choose": [
+     { "t": "I'd love to. See you tomorrow!", "tr": { "vi": "Tôi rất muốn. Hẹn mai gặp lại!", "en": "You accept happily." }, "tag": "friendly", "set": { "leo": 1, "mia": 1 }, "go": "end_good" },
+     { "t": "Maybe. Thanks for asking!", "tr": { "vi": "Có thể. Cảm ơn đã rủ nhé!", "en": "A friendly maybe." }, "tag": "polite", "go": "okend" }
+    ] }
+   ]
+  },
+  "end_good": {
+   "bg": "window",
+   "steps": [
+    { "if": "mia>=3", "go": "best" },
+    { "end": "friends" }
+   ]
+  },
+  "best": {
+   "bg": "window",
+   "steps": [
+    { "c": "mia", "t": "Wait! Take a cookie for your first day. Good luck!", "tr": { "vi": "Khoan đã! Cầm cái bánh quy cho ngày đầu tiên này. Chúc may mắn!", "en": "Mia gives you a cookie for luck." } },
+    { "me": "Thank you! You two made my day.", "tr": { "vi": "Cảm ơn! Hai bạn làm ngày của tôi vui hẳn lên.", "en": "You say goodbye warmly." } },
+    { "end": "best" }
+   ]
+  },
+  "okend": {
+   "bg": "street",
+   "steps": [
+    { "n": { "vi": "Bạn chào mọi người rồi bước ra phố. Mưa đã nhẹ hơn. Một buổi sáng bình thường — nhưng bạn đã nói tiếng Anh với người London!", "en": "You say goodbye and step outside. The rain is lighter now. A normal morning — but you spoke English with real Londoners!" } },
+    { "end": "ok" }
+   ]
+  }
+ },
+ "ends": {
+  "best": { "kind": "good", "title": { "vi": "Bánh quy may mắn", "en": "The lucky cookie" }, "desc": { "vi": "Bạn có hai người bạn đầu tiên ở London — và một chiếc bánh quy.", "en": "Your first two friends in London — and a cookie." }, "img": "img/friends.jpg" },
+  "friends": { "kind": "good", "title": { "vi": "Những người bạn đầu tiên", "en": "First friends" }, "desc": { "vi": "Ngày mai bạn sẽ quay lại quán. Có người đang chờ bạn.", "en": "You'll be back tomorrow. Someone is waiting for you." }, "img": "img/window.jpg" },
+  "ok": { "kind": "ok", "title": { "vi": "Một buổi sáng bình thường", "en": "Just a normal morning" }, "desc": { "vi": "Không có gì đặc biệt — nhưng bạn đã gọi đồ, trả tiền và trò chuyện.", "en": "Nothing special — but you ordered, paid and chatted." }, "img": "img/street.jpg" },
+  "rush": { "kind": "bad", "title": { "vi": "Vội vã", "en": "In a rush" }, "desc": { "vi": "Bạn tới công ty đúng giờ… nhưng chẳng quen thêm ai.", "en": "You got to work on time… but met nobody." }, "img": "img/street.jpg" },
+  "rain": { "kind": "bad", "title": { "vi": "Chạy trong mưa", "en": "Running in the rain" }, "desc": { "vi": "Ướt sũng và muộn 5 phút. Lần sau hãy mang ví — và thử thân thiện hơn!", "en": "Soaked and five minutes late. Bring your wallet next time — and try being friendlier!" }, "img": "img/street.jpg" }
+ },
+ "vocab": [
+  { "w": "latte", "m": { "vi": "cà phê sữa (latte)", "en": "coffee with steamed milk" } },
+  { "w": "recommend", "m": { "vi": "gợi ý, giới thiệu", "en": "to suggest something good" } },
+  { "w": "be on me", "m": { "vi": "để tôi trả / tôi mời", "en": "I'll pay for it" } },
+  { "w": "cash machine", "m": { "vi": "cây rút tiền (ATM)", "en": "ATM" } },
+  { "w": "pay back", "m": { "vi": "trả lại tiền", "en": "to return money you owe" } },
+  { "w": "nervous", "m": { "vi": "hồi hộp, lo lắng", "en": "a bit worried or excited" } },
+  { "w": "show around", "m": { "vi": "dẫn đi tham quan", "en": "to give someone a tour" } },
+  { "w": "make someone's day", "m": { "vi": "làm ai đó vui cả ngày", "en": "to make someone very happy" } }
+ ]
+}
