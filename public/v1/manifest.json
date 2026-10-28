@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T06:51:14.009Z",
+ "at": "2026-10-28T12:36:57.410Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -987,120 +987,6 @@
    "up": "2026-10-28"
   },
   {
-   "id": "drama.rainy-cafe",
-   "kind": "drama",
-   "lang": "en",
-   "level": "A2",
-   "title": {
-    "vi": "Quán cà phê ngày mưa",
-    "en": "The Rainy Café"
-   },
-   "desc": {
-    "vi": "Ngày đầu đi làm ở London, trời đổ mưa. Bạn trú vào một quán cà phê nhỏ — gọi đồ, trả tiền, làm quen. Mỗi câu bạn chọn dẫn tới một kết thúc khác.",
-    "en": "Your first workday in London, and it's pouring. You step into a tiny café to order, pay and make friends. Every line you pick leads to a different ending."
-   },
-   "count": 32,
-   "ends": 5,
-   "cover": {
-    "c1": "#fb7185",
-    "c2": "#7c3aed"
-   },
-   "items": [
-    {
-     "id": "scenes",
-     "t": {
-      "vi": "Cảnh",
-      "en": "Scenes"
-     },
-     "n": 17,
-     "u": "lesson"
-    },
-    {
-     "id": "choices",
-     "t": {
-      "vi": "Lựa chọn",
-      "en": "Choices"
-     },
-     "n": 8
-    },
-    {
-     "id": "ends",
-     "t": {
-      "vi": "Kết thúc",
-      "en": "Endings"
-     },
-     "n": 5
-    }
-   ],
-   "vocabN": 8,
-   "size": 41826,
-   "files": [
-    {
-     "name": "story.json",
-     "size": 13963,
-     "sha256": "4f1af0d0b630823dab738555205c797c496feb81e9468b6c8eb43664ad15de91",
-     "path": "f/4f1af0d0b630823d.json"
-    },
-    {
-     "name": "img/cafe.svg",
-     "size": 4389,
-     "sha256": "c6686c95e05c5ddfcbb3050d8c766924aa6a7caaede4f7dcefbbb02cb6380cab",
-     "path": "f/c6686c95e05c5ddf.svg"
-    },
-    {
-     "name": "img/counter.svg",
-     "size": 4388,
-     "sha256": "ef3139f84245a80599eabfa4a853f34725b00cbe4847f106b15c5aace87896e6",
-     "path": "f/ef3139f84245a805.svg"
-    },
-    {
-     "name": "img/cover.svg",
-     "size": 4415,
-     "sha256": "8ffd8064136c1ba002eb462bc5d76d28fe88a4dabf30f6ac110abf91b431600a",
-     "path": "f/8ffd8064136c1ba0.svg"
-    },
-    {
-     "name": "img/friends.svg",
-     "size": 4408,
-     "sha256": "c04b3df584abce6c3398a0d470d81790b63fe7026c3615c5551a3a10f3a6e3db",
-     "path": "f/c04b3df584abce6c.svg"
-    },
-    {
-     "name": "img/leo.svg",
-     "size": 746,
-     "sha256": "2652fc17003d2848d3cacae9be07158c6f2e4e5cd2b9844e7a3db0630801e524",
-     "path": "f/2652fc17003d2848.svg"
-    },
-    {
-     "name": "img/mia.svg",
-     "size": 746,
-     "sha256": "dc9eb7e422388952cd72a38051abe792ae41d4f087da254a0a4ebf96bef393a7",
-     "path": "f/dc9eb7e422388952.svg"
-    },
-    {
-     "name": "img/street.svg",
-     "size": 4384,
-     "sha256": "e879d97c93eba5ed226aa086950c4a805d92db5c29d7439de319d681dbf5e8f6",
-     "path": "f/e879d97c93eba5ed.svg"
-    },
-    {
-     "name": "img/window.svg",
-     "size": 4387,
-     "sha256": "95b2b953da7af5ec337d042c873fb803af2621c9485e6d987564ce77af01c05a",
-     "path": "f/95b2b953da7af5ec.svg"
-    }
-   ],
-   "shots": [
-    "f/c6686c95e05c5ddf.svg",
-    "f/ef3139f84245a805.svg",
-    "f/95b2b953da7af5ec.svg",
-    "f/e879d97c93eba5ed.svg"
-   ],
-   "art": "f/8ffd8064136c1ba0.svg",
-   "ver": "c4dd517d48",
-   "up": "2026-10-28"
-  },
-  {
    "id": "font.atkinson",
    "kind": "font",
    "title": {
@@ -1484,6 +1370,169 @@
     }
    ],
    "ver": "3afa137f7d",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "drama.rainy-cafe",
+   "kind": "drama",
+   "lang": "",
+   "langs": [
+    "en",
+    "de",
+    "ja",
+    "zh",
+    "ko"
+   ],
+   "level": "A2",
+   "title": {
+    "vi": "Quán cà phê ngày mưa",
+    "en": "The Rainy Café"
+   },
+   "desc": {
+    "vi": "Ngày đầu đi làm ở một thành phố mới, trời đổ mưa. Bạn trú vào một quán cà phê nhỏ — gọi đồ, trả tiền, làm quen. Mỗi câu bạn chọn dẫn tới một kết thúc khác.",
+    "en": "Your first workday in a new city, and it's pouring. You step into a tiny café to order, pay and make friends. Every line you pick leads to a different ending."
+   },
+   "count": 32,
+   "ends": 5,
+   "cover": {
+    "c1": "#fb7185",
+    "c2": "#7c3aed"
+   },
+   "items": [
+    {
+     "id": "scenes",
+     "t": {
+      "vi": "Cảnh",
+      "en": "Scenes"
+     },
+     "n": 17,
+     "u": "lesson"
+    },
+    {
+     "id": "choices",
+     "t": {
+      "vi": "Lựa chọn",
+      "en": "Choices"
+     },
+     "n": 8
+    },
+    {
+     "id": "ends",
+     "t": {
+      "vi": "Kết thúc",
+      "en": "Endings"
+     },
+     "n": 5
+    }
+   ],
+   "vocabN": 8,
+   "size": 659775,
+   "files": [
+    {
+     "name": "story.json",
+     "size": 23410,
+     "sha256": "7337d80d48b83674afdfe1f14d72f5056c518fc6856c6c229a3d89a58b1028a3",
+     "path": "f/7337d80d48b83674.json"
+    },
+    {
+     "name": "img/cafe.jpg",
+     "size": 55977,
+     "sha256": "148141182e5e8bdfe74af9afe5ff775876e7d3ab8518e3dddf69db8ebc21d483",
+     "path": "f/148141182e5e8bdf.jpg"
+    },
+    {
+     "name": "img/counter.jpg",
+     "size": 64256,
+     "sha256": "a7e199f76dbd0177b816ffcedc76b8cb7148878391a49b0ef733395382b36e33",
+     "path": "f/a7e199f76dbd0177.jpg"
+    },
+    {
+     "name": "img/cover.jpg",
+     "size": 106860,
+     "sha256": "671772766f0613646ea3c4636d8e8122a4178f94256537abc7bc8cf8c4e28d76",
+     "path": "f/671772766f061364.jpg"
+    },
+    {
+     "name": "img/friends.jpg",
+     "size": 69556,
+     "sha256": "b75ca25c05f6c485349a72f57dc2c01390be7d9cffb02b443bc49645a4c81ecb",
+     "path": "f/b75ca25c05f6c485.jpg"
+    },
+    {
+     "name": "img/leo-laugh.jpg",
+     "size": 19412,
+     "sha256": "2ba6a5b520705e0736a046610e8c718de44b6df8a2b426ebf9f9c4a83b63e8a4",
+     "path": "f/2ba6a5b520705e07.jpg"
+    },
+    {
+     "name": "img/leo-smile.jpg",
+     "size": 18270,
+     "sha256": "ae1ce1f423f5b4c7e5e0638ff3b4782c3503363ccc4ceeff0c366219ccb8aa93",
+     "path": "f/ae1ce1f423f5b4c7.jpg"
+    },
+    {
+     "name": "img/leo-surprised.jpg",
+     "size": 18298,
+     "sha256": "a4ca2350a3db25a8c0ed69bbca0e50d222325dbddc51a68843879c9bc2cb2f76",
+     "path": "f/a4ca2350a3db25a8.jpg"
+    },
+    {
+     "name": "img/leo.jpg",
+     "size": 17928,
+     "sha256": "d1ab151dfc0eb413e5a3aa8cb7e12f6605b75fa60eab12c482a9e095eff1fe89",
+     "path": "f/d1ab151dfc0eb413.jpg"
+    },
+    {
+     "name": "img/mia-laugh.jpg",
+     "size": 16809,
+     "sha256": "7f21da5644857c874ccd2deaed1e5a752c36c32ab8a07324dd146967fc5f7156",
+     "path": "f/7f21da5644857c87.jpg"
+    },
+    {
+     "name": "img/mia-smile.jpg",
+     "size": 19476,
+     "sha256": "16f7ba3a1dc9de7b1395d576d7d6b503585082feee54e4c8c1cbb7b54861d5e7",
+     "path": "f/16f7ba3a1dc9de7b.jpg"
+    },
+    {
+     "name": "img/mia-surprised.jpg",
+     "size": 20143,
+     "sha256": "fcd18d31d9cd670362e1a9d073e91b248adab3b0db69ddff30eafa9a63d5c07b",
+     "path": "f/fcd18d31d9cd6703.jpg"
+    },
+    {
+     "name": "img/mia-worried.jpg",
+     "size": 20304,
+     "sha256": "415afc1031c70c013d5cac92c31d00f5a0ded67f099dfe40c7dc2040d385820e",
+     "path": "f/415afc1031c70c01.jpg"
+    },
+    {
+     "name": "img/mia.jpg",
+     "size": 18917,
+     "sha256": "f80152e5e78de15073419302b24c434b86082c2bb07d2490707366fffa03f420",
+     "path": "f/f80152e5e78de150.jpg"
+    },
+    {
+     "name": "img/street.jpg",
+     "size": 116850,
+     "sha256": "7944f863c3c2757be6845b8dd4927addb36f3bdb5ff3854a88734a9bfad9fde1",
+     "path": "f/7944f863c3c2757b.jpg"
+    },
+    {
+     "name": "img/window.jpg",
+     "size": 53309,
+     "sha256": "08db354ca83bc7491afe8118dd32ffbfbf5a6209dbda5837f69e336252dbdd55",
+     "path": "f/08db354ca83bc749.jpg"
+    }
+   ],
+   "shots": [
+    "f/148141182e5e8bdf.jpg",
+    "f/a7e199f76dbd0177.jpg",
+    "f/08db354ca83bc749.jpg",
+    "f/7944f863c3c2757b.jpg"
+   ],
+   "art": "f/671772766f061364.jpg",
+   "ver": "31c1ef3503",
    "up": "2026-10-28"
   }
  ]

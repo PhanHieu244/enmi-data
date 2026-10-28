@@ -1,0 +1,189 @@
+{
+ "_": "Truyện nhập vai mẫu (Enmi, 28/10/2026) — ĐA NGÔN NGỮ: câu thoại t / me / lựa chọn / từ vựng ghi theo thứ tiếng học { en, de, ja, zh, ko }; lời dẫn n + nghĩa tr theo ngôn ngữ gốc { vi, en }. Định dạng: đầu mobile/screens/drama.js. Ảnh: img/ (FLUX trên máy, prompt ở art.json).",
+ "langs": ["en", "de", "ja", "zh", "ko"],
+ "level": "A2",
+ "title": { "vi": "Quán cà phê ngày mưa", "en": "The Rainy Café" },
+ "desc": {
+  "vi": "Ngày đầu đi làm ở một thành phố mới, trời đổ mưa. Bạn trú vào một quán cà phê nhỏ — gọi đồ, trả tiền, làm quen. Mỗi câu bạn chọn dẫn tới một kết thúc khác.",
+  "en": "Your first workday in a new city, and it's pouring. You step into a tiny café to order, pay and make friends. Every line you pick leads to a different ending."
+ },
+ "cover": "img/cover.jpg",
+ "bgs": { "cafe": "img/cafe.jpg", "counter": "img/counter.jpg", "window": "img/window.jpg", "street": "img/street.jpg" },
+ "cast": {
+  "me": { "name": { "vi": "Bạn", "en": "You" } },
+  "mia": { "name": "Mia", "role": { "vi": "Pha chế, vui tính", "en": "Barista, cheerful" }, "img": "img/mia.jpg", "color": "#f472b6", "g": "W", "rate": 0.95,
+   "faces": { "smile": "img/mia-smile.jpg", "laugh": "img/mia-laugh.jpg", "worried": "img/mia-worried.jpg", "surprised": "img/mia-surprised.jpg" } },
+  "leo": { "name": "Leo", "role": { "vi": "Khách quen, chơi guitar", "en": "Regular, plays guitar" }, "img": "img/leo.jpg", "color": "#38bdf8", "g": "M", "rate": 0.9,
+   "faces": { "smile": "img/leo-smile.jpg", "laugh": "img/leo-laugh.jpg", "surprised": "img/leo-surprised.jpg" } }
+ },
+ "start": "s1",
+ "nodes": {
+  "s1": {
+   "bg": "cafe",
+   "goal": { "vi": "Gọi một đồ uống", "en": "Order a drink" },
+   "steps": [
+    { "n": { "vi": "8 giờ sáng ở một thành phố mới. Mưa lất phất từ lúc bạn ra khỏi ga. Hôm nay là ngày đầu bạn đi làm — còn 30 phút nữa.", "en": "8 a.m. in a new city. It has been drizzling since you left the station. It's your first day at work — 30 minutes to go." } },
+    { "n": { "vi": "Bạn đẩy cửa một quán cà phê nhỏ. Mùi cà phê ấm áp. Cô gái sau quầy ngẩng lên mỉm cười.", "en": "You push open the door of a small café. It smells of warm coffee. The girl behind the counter looks up and smiles." } },
+    { "c": "mia", "mood": "smile", "t": { "en": "Morning! You look a bit wet. What can I get you?", "de": "Guten Morgen! Du bist ja ganz nass. Was darf's sein?", "ja": "おはようございます！ちょっと濡れていますね。ご注文は何にしますか？", "zh": "早上好！你身上有点湿了。想喝点什么？", "ko": "안녕하세요! 비에 좀 젖으셨네요. 뭐 드릴까요?" },
+     "tr": { "vi": "Chào buổi sáng! Trông bạn hơi ướt đấy. Bạn muốn dùng gì?", "en": "Good morning! You look a little wet. What would you like?" } },
+    { "choose": [
+     { "t": { "en": "Good morning! A hot latte, please.", "de": "Guten Morgen! Einen heißen Latte, bitte.", "ja": "おはようございます！ホットのラテをお願いします。", "zh": "早上好！请给我一杯热拿铁。", "ko": "안녕하세요! 따뜻한 라테 한 잔 주세요." },
+      "tr": { "vi": "Chào buổi sáng! Cho tôi một ly latte nóng nhé.", "en": "A polite, simple order." }, "tag": "polite", "set": { "mia": 1 }, "go": "order" },
+     { "t": { "en": "Hi! It's my first day in this city. What do you recommend?", "de": "Hallo! Ich bin heute zum ersten Mal in der Stadt. Was empfiehlst du?", "ja": "こんにちは！この町は今日が初めてなんです。おすすめは何ですか？", "zh": "你好！今天是我来这座城市的第一天。你推荐什么？", "ko": "안녕하세요! 오늘 이 도시에 처음 왔어요. 뭐 추천해 주실래요?" },
+      "tr": { "vi": "Chào! Hôm nay là ngày đầu tôi ở thành phố này. Bạn gợi ý món gì?", "en": "Friendly — you share something about yourself." }, "tag": "friendly", "set": { "mia": 2 }, "go": "recommend" },
+     { "t": { "en": "Coffee. Quick, please. I'm late.", "de": "Kaffee. Schnell, bitte. Ich bin spät dran.", "ja": "コーヒー。急いでください、遅れているので。", "zh": "咖啡。快点，我要迟到了。", "ko": "커피요. 빨리 주세요, 늦었어요." },
+      "tr": { "vi": "Cà phê. Nhanh giúp, tôi đang muộn.", "en": "Short and in a hurry." }, "tag": "direct", "set": { "mia": -1, "rush": 1 }, "go": "rush" }
+    ] }
+   ]
+  },
+  "order": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "mood": "smile", "t": { "en": "Sure! Small or large?", "de": "Klar! Klein oder groß?", "ja": "かしこまりました！サイズはSとL、どちらにしますか？", "zh": "好的！小杯还是大杯？", "ko": "네! 작은 거요, 큰 거요?" }, "tr": { "vi": "Được thôi! Cỡ nhỏ hay lớn?", "en": "Sure! Which size?" } },
+    { "choose": [
+     { "t": { "en": "Large, please. It's a long day.", "de": "Groß, bitte. Heute wird ein langer Tag.", "ja": "Lでお願いします。今日は長い一日になりそうで。", "zh": "大杯，谢谢。今天会很漫长。", "ko": "큰 걸로 주세요. 오늘 하루가 길 것 같아요." }, "tr": { "vi": "Cỡ lớn nhé. Hôm nay dài lắm.", "en": "A large one — it's going to be a long day." }, "tag": "friendly", "set": { "mia": 1 }, "go": "pay" },
+     { "t": { "en": "Small is fine, thanks.", "de": "Klein reicht, danke.", "ja": "Sで大丈夫です、ありがとう。", "zh": "小杯就好，谢谢。", "ko": "작은 걸로 괜찮아요, 감사해요." }, "tr": { "vi": "Cỡ nhỏ là được, cảm ơn.", "en": "A small one is enough, thank you." }, "tag": "polite", "go": "pay" }
+    ] }
+   ]
+  },
+  "recommend": {
+   "bg": "counter",
+   "goal": { "vi": "Nghe gợi ý và chọn món", "en": "Get a recommendation and choose" },
+   "steps": [
+    { "c": "mia", "mood": "laugh", "t": { "en": "Welcome! Try our honey latte. It's perfect on a rainy day.", "de": "Willkommen! Probier unseren Honig-Latte. Perfekt an einem Regentag.", "ja": "ようこそ！はちみつラテがおすすめです。雨の日にぴったりですよ。", "zh": "欢迎！试试我们的蜂蜜拿铁吧，下雨天喝最合适。", "ko": "환영해요! 꿀 라테 드셔 보세요. 비 오는 날에 딱이에요." }, "tr": { "vi": "Chào mừng bạn! Thử latte mật ong của quán đi. Hợp nhất với ngày mưa.", "en": "Welcome! She suggests the honey latte for a rainy day." } },
+    { "n": { "vi": "Cô ấy chỉ vào tấm bảng phấn có hình con ong nhỏ. Bạn để ý quán cũng có rất nhiều loại trà.", "en": "She points at a chalkboard with a little bee drawn on it. You notice there are lots of teas too." } },
+    { "choose": [
+     { "t": { "en": "That sounds perfect. I'll have one.", "de": "Klingt perfekt. Den nehme ich.", "ja": "いいですね。それをひとつください。", "zh": "听起来不错，我要一杯。", "ko": "좋네요. 그걸로 한 잔 주세요." }, "tr": { "vi": "Nghe tuyệt đấy. Cho tôi một ly.", "en": "You accept her suggestion." }, "tag": "friendly", "set": { "mia": 1 }, "go": "pay" },
+     { "t": { "en": "Hmm, do you have any tea?", "de": "Hm, habt ihr auch Tee?", "ja": "うーん、紅茶はありますか？", "zh": "嗯，你们有茶吗？", "ko": "음, 차도 있어요?" }, "tr": { "vi": "Ừm, quán có trà không?", "en": "You ask for tea instead." }, "tag": "polite", "go": "tea" }
+    ] }
+   ]
+  },
+  "tea": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "mood": "smile", "t": { "en": "Of course! Green tea or black tea?", "de": "Natürlich! Grüner Tee oder Schwarztee?", "ja": "もちろんです！緑茶と紅茶、どちらにしますか？", "zh": "当然有！绿茶还是红茶？", "ko": "그럼요! 녹차랑 홍차 중에 뭘로 하실래요?" }, "tr": { "vi": "Tất nhiên! Trà xanh hay hồng trà?", "en": "Of course — green or black tea?" } },
+    { "choose": [
+     { "t": { "en": "Black tea with milk, please.", "de": "Schwarztee mit Milch, bitte.", "ja": "紅茶をミルク入りでお願いします。", "zh": "请给我一杯加奶的红茶。", "ko": "홍차에 우유 넣어 주세요." }, "tr": { "vi": "Hồng trà thêm sữa nhé.", "en": "Black tea with milk." }, "tag": "polite", "set": { "mia": 1 }, "go": "pay" },
+     { "t": { "en": "Green tea, thank you.", "de": "Grüner Tee, danke.", "ja": "緑茶をお願いします。", "zh": "绿茶，谢谢。", "ko": "녹차 주세요, 감사합니다." }, "tr": { "vi": "Trà xanh, cảm ơn.", "en": "Green tea, plain." }, "tag": "polite", "go": "pay" }
+    ] }
+   ]
+  },
+  "rush": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": { "en": "No problem. One black coffee, coming right up.", "de": "Kein Problem. Ein schwarzer Kaffee, kommt sofort.", "ja": "かしこまりました。ブラックコーヒー、すぐお持ちします。", "zh": "没问题。一杯黑咖啡，马上就好。", "ko": "알겠습니다. 블랙커피 한 잔, 바로 드릴게요." }, "tr": { "vi": "Không sao. Một cà phê đen, có ngay đây.", "en": "No problem — she makes it quickly." } },
+    { "n": { "vi": "Cô ấy pha rất nhanh, nhưng nụ cười đã nhạt đi một chút.", "en": "She makes it fast, but her smile fades a little." } },
+    { "go": "pay" }
+   ]
+  },
+  "pay": {
+   "bg": "counter",
+   "goal": { "vi": "Trả tiền", "en": "Pay for your drink" },
+   "steps": [
+    { "c": "mia", "mood": "smile", "t": { "en": "That's three fifty, please.", "de": "Das macht drei Euro fünfzig.", "ja": "450円になります。", "zh": "一共二十五块。", "ko": "4,500원입니다." }, "tr": { "vi": "Cô ấy báo giá đồ uống của bạn.", "en": "She tells you the price." } },
+    { "n": { "vi": "Bạn sờ vào túi áo khoác… rồi túi quần… Ví đâu rồi?", "en": "You check your coat pocket… then your trouser pocket… Where is your wallet?" } },
+    { "choose": [
+     { "t": { "en": "Can I pay by phone?", "de": "Kann ich mit dem Handy bezahlen?", "ja": "スマホで払えますか？", "zh": "可以用手机付款吗？", "ko": "휴대폰으로 결제해도 돼요?" }, "tr": { "vi": "Tôi trả bằng điện thoại được không?", "en": "You remember your phone has a payment app." }, "tag": "polite", "go": "paid" },
+     { "t": { "en": "Oh no… I think I left my wallet at home.", "de": "Oh nein … Ich glaube, ich habe mein Portemonnaie zu Hause vergessen.", "ja": "あっ…財布を家に忘れたみたいです。", "zh": "糟了……我好像把钱包忘在家里了。", "ko": "아이고… 지갑을 집에 두고 온 것 같아요." }, "tr": { "vi": "Ôi không… Hình như tôi để quên ví ở nhà rồi.", "en": "You admit you forgot your wallet." }, "tag": "direct", "go": "wallet" }
+    ] }
+   ]
+  },
+  "wallet": { "bg": "counter", "steps": [ { "if": "mia>=2", "go": "free", "else": "atm" } ] },
+  "free": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "mood": "laugh", "t": { "en": "Don't worry. It's your first day — this one's on me!", "de": "Keine Sorge. Es ist dein erster Tag – der geht auf mich!", "ja": "大丈夫ですよ。初日ですもんね、これは私のおごりです！", "zh": "别担心。今天是你第一天，这杯我请！", "ko": "걱정 마세요. 첫날이잖아요, 이건 제가 살게요!" }, "tr": { "vi": "Đừng lo. Ngày đầu tiên mà — ly này mình mời!", "en": "Don't worry — it's on the house." } },
+    { "choose": [
+     { "t": { "en": "Really? Thank you so much! I'll pay you back tomorrow.", "de": "Wirklich? Vielen Dank! Ich zahle es dir morgen zurück.", "ja": "本当ですか？ありがとうございます！明日お返しします。", "zh": "真的吗？太谢谢你了！我明天还你。", "ko": "정말요? 정말 감사해요! 내일 갚을게요." }, "tr": { "vi": "Thật à? Cảm ơn bạn nhiều lắm! Mai tôi trả lại nhé.", "en": "You thank her and promise to come back." }, "tag": "friendly", "set": { "mia": 1 }, "go": "leo" }
+    ] }
+   ]
+  },
+  "atm": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "mood": "worried", "t": { "en": "Hmm… there's a cash machine across the street.", "de": "Hm … gegenüber ist ein Geldautomat.", "ja": "うーん…通りの向こうにATMがありますよ。", "zh": "嗯……街对面有一台取款机。", "ko": "음… 길 건너편에 ATM이 있어요." }, "tr": { "vi": "Ừm… bên kia đường có cây rút tiền đấy.", "en": "She points to an ATM across the road." } },
+    { "n": { "vi": "Bạn nhìn ra cửa sổ. Mưa đang to hơn.", "en": "You look out of the window. The rain is getting heavier." } },
+    { "end": "rain" }
+   ]
+  },
+  "paid": {
+   "bg": "counter",
+   "steps": [
+    { "c": "mia", "t": { "en": "Of course. Just tap here.", "de": "Klar. Einfach hier dranhalten.", "ja": "はい、こちらにタッチしてください。", "zh": "可以，在这里扫一下就行。", "ko": "그럼요. 여기에 대 주세요." }, "tr": { "vi": "Được chứ. Chạm vào đây là xong.", "en": "Sure — tap your phone here." } },
+    { "if": "rush>=1", "go": "rushend" },
+    { "go": "leo" }
+   ]
+  },
+  "rushend": {
+   "bg": "street",
+   "steps": [
+    { "n": { "vi": "Bạn cầm ly cà phê, chạy vội ra cửa. Không ai kịp nói thêm câu nào.", "en": "You grab your coffee and rush out. Nobody has time to say anything else." } },
+    { "end": "rush" }
+   ]
+  },
+  "leo": {
+   "bg": "window",
+   "goal": { "vi": "Làm quen với một người lạ", "en": "Make conversation with a stranger" },
+   "steps": [
+    { "n": { "vi": "Bạn ngồi xuống cạnh cửa sổ. Một chàng trai đeo hộp đàn guitar ngồi bàn bên quay sang.", "en": "You sit down by the window. A guy with a guitar case at the next table turns to you." } },
+    { "c": "leo", "mood": "smile", "t": { "en": "Rainy first day, huh? I heard you're new here.", "de": "Regnerischer erster Tag, was? Ich hab gehört, du bist neu hier.", "ja": "初日から雨なんて大変だね。ここに来たばかりなんだって？", "zh": "第一天就下雨啊？我听说你是新来的。", "ko": "첫날부터 비가 오네요? 여기 처음 오셨다면서요." }, "tr": { "vi": "Ngày đầu mà mưa nhỉ? Mình nghe nói bạn mới tới đây.", "en": "He overheard that you're new in town." } },
+    { "choose": [
+     { "t": { "en": "Yes! I start my new job today. I'm a bit nervous.", "de": "Ja! Ich fange heute meinen neuen Job an. Ich bin ein bisschen nervös.", "ja": "はい！今日から新しい仕事なんです。ちょっと緊張しています。", "zh": "是的！我今天开始新工作，有点紧张。", "ko": "네! 오늘부터 새 직장에 다녀요. 좀 긴장돼요." }, "tr": { "vi": "Đúng rồi! Hôm nay tôi bắt đầu công việc mới. Hơi run một chút.", "en": "You open up about your new job." }, "tag": "friendly", "set": { "leo": 2 }, "go": "friends" },
+     { "t": { "en": "Yes. Sorry, I'm in a bit of a hurry.", "de": "Ja. Tut mir leid, ich hab's ein bisschen eilig.", "ja": "はい。すみません、ちょっと急いでいて。", "zh": "是的。不好意思，我有点赶时间。", "ko": "네. 죄송해요, 좀 바빠서요." }, "tr": { "vi": "Vâng. Xin lỗi, tôi đang hơi vội.", "en": "You politely end the conversation." }, "tag": "polite", "go": "okend" },
+     { "t": { "en": "Nice guitar! Do you play here?", "de": "Schöne Gitarre! Spielst du hier?", "ja": "素敵なギターですね！ここで弾いているんですか？", "zh": "吉他真好看！你在这里演奏吗？", "ko": "기타 멋지네요! 여기서 연주하세요?" }, "tr": { "vi": "Đàn đẹp đấy! Bạn có chơi ở đây không?", "en": "You ask about his guitar." }, "tag": "funny", "set": { "leo": 1 }, "go": "music" }
+    ] }
+   ]
+  },
+  "music": {
+   "bg": "window",
+   "steps": [
+    { "c": "leo", "mood": "laugh", "t": { "en": "Every Friday night! Mia makes the best hot chocolate for the show.", "de": "Jeden Freitagabend! Mia macht die beste heiße Schokolade für die Show.", "ja": "毎週金曜の夜にね！ミアがライブ用に最高のホットチョコを作ってくれるんだ。", "zh": "每个星期五晚上！米娅会为演出做最好喝的热巧克力。", "ko": "매주 금요일 밤에요! 미아가 공연 때 최고의 핫초코를 만들어 줘요." }, "tr": { "vi": "Tối thứ Sáu nào cũng chơi! Mia pha sô-cô-la nóng ngon nhất cho buổi diễn.", "en": "He plays every Friday night here." } },
+    { "c": "mia", "mood": "laugh", "t": { "en": "And he never pays for it!", "de": "Und er bezahlt sie nie!", "ja": "しかも一度もお金を払ったことがないの！", "zh": "而且他从来不付钱！", "ko": "그리고 한 번도 돈을 안 내요!" }, "tr": { "vi": "Và cậu ấy chẳng bao giờ trả tiền!", "en": "Mia teases him." } },
+    { "go": "friends" }
+   ]
+  },
+  "friends": {
+   "bg": "window",
+   "steps": [
+    { "c": "leo", "mood": "smile", "t": { "en": "Mia and I come here every morning. Come back tomorrow? We'll show you around.", "de": "Mia und ich sind jeden Morgen hier. Kommst du morgen wieder? Wir zeigen dir die Gegend.", "ja": "ミアと僕は毎朝ここにいるんだ。明日も来る？街を案内するよ。", "zh": "我和米娅每天早上都在这儿。明天再来吧？我们带你到处逛逛。", "ko": "미아랑 저는 매일 아침 여기 와요. 내일도 올래요? 동네 구경시켜 줄게요." }, "tr": { "vi": "Mình với Mia sáng nào cũng ở đây. Mai quay lại nhé? Tụi mình dẫn bạn đi một vòng.", "en": "He invites you back tomorrow." } },
+    { "choose": [
+     { "t": { "en": "I'd love to. See you tomorrow!", "de": "Sehr gern. Bis morgen!", "ja": "ぜひ！また明日！", "zh": "太好了。明天见！", "ko": "좋아요. 내일 봐요!" }, "tr": { "vi": "Tôi rất muốn. Hẹn mai gặp lại!", "en": "You accept happily." }, "tag": "friendly", "set": { "leo": 1, "mia": 1 }, "go": "end_good" },
+     { "t": { "en": "Maybe. Thanks for asking!", "de": "Vielleicht. Danke für die Einladung!", "ja": "たぶん。誘ってくれてありがとう！", "zh": "也许吧。谢谢你邀请我！", "ko": "아마도요. 물어봐 줘서 고마워요!" }, "tr": { "vi": "Có thể. Cảm ơn đã rủ nhé!", "en": "A friendly maybe." }, "tag": "polite", "go": "okend" }
+    ] }
+   ]
+  },
+  "end_good": { "bg": "window", "steps": [ { "if": "mia>=3", "go": "best" }, { "end": "friends" } ] },
+  "best": {
+   "bg": "window",
+   "steps": [
+    { "c": "mia", "mood": "surprised", "t": { "en": "Wait! Take a cookie for your first day. Good luck!", "de": "Warte! Nimm einen Keks für deinen ersten Tag. Viel Glück!", "ja": "待って！初日のお祝いにクッキーをどうぞ。がんばってね！", "zh": "等一下！拿块饼干，祝你第一天顺利！", "ko": "잠깐만요! 첫날 기념으로 쿠키 가져가요. 행운을 빌어요!" }, "tr": { "vi": "Khoan đã! Cầm cái bánh quy cho ngày đầu tiên này. Chúc may mắn!", "en": "Mia gives you a cookie for luck." } },
+    { "me": { "en": "Thank you! You two made my day.", "de": "Danke! Ihr zwei habt mir den Tag versüßt.", "ja": "ありがとう！おかげで最高の一日になりました。", "zh": "谢谢！你们俩让我今天特别开心。", "ko": "고마워요! 두 분 덕분에 오늘 정말 좋아요." }, "tr": { "vi": "Cảm ơn! Hai bạn làm ngày của tôi vui hẳn lên.", "en": "You say goodbye warmly." } },
+    { "end": "best" }
+   ]
+  },
+  "okend": {
+   "bg": "street",
+   "steps": [
+    { "n": { "vi": "Bạn chào mọi người rồi bước ra phố. Mưa đã nhẹ hơn. Một buổi sáng bình thường — nhưng bạn đã dùng ngoại ngữ thật với người ở đây!", "en": "You say goodbye and step outside. The rain is lighter now. A normal morning — but you used a real foreign language with locals!" } },
+    { "end": "ok" }
+   ]
+  }
+ },
+ "ends": {
+  "best": { "kind": "good", "title": { "vi": "Bánh quy may mắn", "en": "The lucky cookie" }, "desc": { "vi": "Bạn có hai người bạn đầu tiên ở thành phố mới — và một chiếc bánh quy.", "en": "Your first two friends in the new city — and a cookie." }, "img": "img/friends.jpg" },
+  "friends": { "kind": "good", "title": { "vi": "Những người bạn đầu tiên", "en": "First friends" }, "desc": { "vi": "Ngày mai bạn sẽ quay lại quán. Có người đang chờ bạn.", "en": "You'll be back tomorrow. Someone is waiting for you." }, "img": "img/window.jpg" },
+  "ok": { "kind": "ok", "title": { "vi": "Một buổi sáng bình thường", "en": "Just a normal morning" }, "desc": { "vi": "Không có gì đặc biệt — nhưng bạn đã gọi đồ, trả tiền và trò chuyện.", "en": "Nothing special — but you ordered, paid and chatted." }, "img": "img/street.jpg" },
+  "rush": { "kind": "bad", "title": { "vi": "Vội vã", "en": "In a rush" }, "desc": { "vi": "Bạn tới công ty đúng giờ… nhưng chẳng quen thêm ai.", "en": "You got to work on time… but met nobody." }, "img": "img/street.jpg" },
+  "rain": { "kind": "bad", "title": { "vi": "Chạy trong mưa", "en": "Running in the rain" }, "desc": { "vi": "Ướt sũng và muộn 5 phút. Lần sau hãy mang ví — và thử thân thiện hơn!", "en": "Soaked and five minutes late. Bring your wallet next time — and try being friendlier!" }, "img": "img/street.jpg" }
+ },
+ "vocab": [
+  { "w": { "en": "latte", "de": "der Latte", "ja": "ラテ", "zh": "拿铁", "ko": "라테" }, "m": { "vi": "cà phê sữa (latte)", "en": "coffee with steamed milk" } },
+  { "w": { "en": "recommend", "de": "empfehlen", "ja": "おすすめ", "zh": "推荐", "ko": "추천하다" }, "m": { "vi": "gợi ý, giới thiệu", "en": "to suggest something good" } },
+  { "w": { "en": "it's on me", "de": "das geht auf mich", "ja": "おごり", "zh": "我请", "ko": "제가 살게요" }, "m": { "vi": "để tôi trả / tôi mời", "en": "I'll pay for it" } },
+  { "w": { "en": "cash machine", "de": "der Geldautomat", "ja": "ATM", "zh": "取款机", "ko": "ATM" }, "m": { "vi": "cây rút tiền (ATM)", "en": "ATM" } },
+  { "w": { "en": "wallet", "de": "das Portemonnaie", "ja": "財布", "zh": "钱包", "ko": "지갑" }, "m": { "vi": "cái ví", "en": "wallet" } },
+  { "w": { "en": "pay back", "de": "zurückzahlen", "ja": "返す", "zh": "还钱", "ko": "갚다" }, "m": { "vi": "trả lại tiền", "en": "to return money you owe" } },
+  { "w": { "en": "nervous", "de": "nervös", "ja": "緊張する", "zh": "紧张", "ko": "긴장되다" }, "m": { "vi": "hồi hộp, lo lắng", "en": "a bit worried or excited" } },
+  { "w": { "en": "show around", "de": "die Gegend zeigen", "ja": "案内する", "zh": "带…逛逛", "ko": "구경시켜 주다" }, "m": { "vi": "dẫn đi tham quan", "en": "to give someone a tour" } }
+ ]
+}
