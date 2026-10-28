@@ -1,0 +1,4 @@
+{
+ "vi": { "how": "Lật 2 thẻ: 1 từ và nghĩa của nó. Ghép hết các cặp trước khi hết giờ — ghép liền tay để được combo.", "start": "Bắt đầu", "combo": "Combo ×{n}", "win": "Xong cả bàn!", "timeup": "Hết giờ!", "best": "Kỷ lục: {n}", "record": "Kỷ lục mới!", "again": "Chơi lại", "home": "Về sảnh", "few": "Cần ít nhất 4 từ có nghĩa — lưu thêm từ rồi chơi nhé.", "close": "Đóng", "sub": "{n}/{all} cặp", "bonus": "+{n} thời gian" },
+ "en": { "how": "Flip two cards: a word and its meaning. Match every pair before time runs out — match in a row for combos.", "start": "Start", "combo": "Combo ×{n}", "win": "Board cleared!", "timeup": "Time's up!", "best": "Best: {n}", "record": "New record!", "again": "Play again", "home": "Back to arcade", "few": "You need at least 4 words with meanings — save a few more, then play.", "close": "Close", "sub": "{n}/{all} pairs", "bonus": "+{n} time" }
+}

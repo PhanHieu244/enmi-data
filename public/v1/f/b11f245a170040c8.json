@@ -1,0 +1,4 @@
+{
+ "vi": { "ask": "Chạm từ có nghĩa:", "how": "Sao băng mang từ đang rơi. Chạm đúng sao có nghĩa ở dưới trước khi nó chạm đất.", "start": "Bắt đầu", "combo": "Combo ×{n}", "level": "Cấp {n}!", "over": "Hết mạng!", "best": "Kỷ lục: {n}", "record": "Kỷ lục mới!", "again": "Chơi lại", "home": "Về sảnh", "few": "Cần ít nhất 4 từ có nghĩa — lưu thêm từ rồi chơi nhé.", "close": "Đóng", "miss": "Trượt!", "sub": "{n} từ đúng" },
+ "en": { "ask": "Tap the word meaning:", "how": "Meteors carry words. Tap the one that matches the meaning below before it hits the ground.", "start": "Start", "combo": "Combo ×{n}", "level": "Level {n}!", "over": "Out of lives!", "best": "Best: {n}", "record": "New record!", "again": "Play again", "home": "Back to arcade", "few": "You need at least 4 words with meanings — save a few more, then play.", "close": "Close", "miss": "Miss!", "sub": "{n} words right" }
+}
