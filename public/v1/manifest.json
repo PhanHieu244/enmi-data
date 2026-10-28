@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T12:36:57.410Z",
+ "at": "2026-10-28T13:50:44.831Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -1533,6 +1533,76 @@
    ],
    "art": "f/671772766f061364.jpg",
    "ver": "31c1ef3503",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "game.the-interpreter",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "cover": {
+    "c1": "#1b2d3c",
+    "c2": "#e2a24a"
+   },
+   "count": 0,
+   "size": 187613,
+   "badge": "beta",
+   "title": {
+    "vi": "Người phiên dịch",
+    "en": "The Interpreter"
+   },
+   "desc": {
+    "vi": "Trinh thám nhiều nhánh: bạn là phiên dịch viên cho cảnh sát ở một thị trấn cảng nước Anh. Dịch sai một chữ, người vô tội vào tù. Chương 1.",
+    "en": "A branching detective story: you interpret for the police in an English port town. One wrong word can put an innocent man in prison. Chapter 1."
+   },
+   "files": [
+    {
+     "name": "art.js",
+     "size": 6861,
+     "sha256": "3a3e2baa85fe60384bdd9a3c8d43c833061227acb0751383b2e188e36aaae47e",
+     "path": "f/3a3e2baa85fe6038.js"
+    },
+    {
+     "name": "boot.js",
+     "size": 133,
+     "sha256": "c18f1bd609fcbcffdeca94e5ac4ac65d06b5b29b1303b4f580ec5fefa78cd801",
+     "path": "f/c18f1bd609fcbcff.js"
+    },
+    {
+     "name": "index.html",
+     "size": 623,
+     "sha256": "e2c8f7c7c3d57f1fb8312e21b5ff6b4683291f006ce1d5b8127344353efba5ca",
+     "path": "f/e2c8f7c7c3d57f1f.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 77072,
+     "sha256": "8da66a7e348bbbea157cc46001f8bf9a5f57597a9a0b1fd3858856a7c550d15f",
+     "path": "f/8da66a7e348bbbea.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 39300,
+     "sha256": "cc9d6e841872e413c58e84da57e5a73b25a203eb2dd191a8cf3e768c041e2c05",
+     "path": "f/cc9d6e841872e413.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 33161,
+     "sha256": "fd177c4421880ee1214310226d69798b493eccdb3d72c8fcc7c93425509b636e",
+     "path": "f/fd177c4421880ee1.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 30463,
+     "sha256": "230dcababa70d065ca08615c6131b738e1cca555f8f7954067e5ac0931210222",
+     "path": "f/230dcababa70d065.css"
+    }
+   ],
+   "ver": "3bbe8c39e2",
    "up": "2026-10-28"
   }
  ]
