@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T13:50:44.831Z",
+ "at": "2026-10-28T14:34:46.513Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -1548,17 +1548,23 @@
     "c2": "#e2a24a"
    },
    "count": 0,
-   "size": 187613,
+   "size": 2102172,
    "badge": "beta",
    "title": {
-    "vi": "Người phiên dịch",
-    "en": "The Interpreter"
+    "vi": "Lời khai",
+    "en": "The Statement"
    },
    "desc": {
-    "vi": "Trinh thám nhiều nhánh: bạn là phiên dịch viên cho cảnh sát ở một thị trấn cảng nước Anh. Dịch sai một chữ, người vô tội vào tù. Chương 1.",
-    "en": "A branching detective story: you interpret for the police in an English port town. One wrong word can put an innocent man in prison. Chapter 1."
+    "vi": "Trinh thám nhiều nhánh: bạn là thám tử tập sự ở một thị trấn cảng nước Anh. Hỏi cung, khám xét, suy luận — ghi sai một chữ, người vô tội vào tù. Chương 1.",
+    "en": "A branching detective story: you are a trainee detective in an English port town. Question, search, deduce — one wrong word can put an innocent man in prison. Chapter 1."
    },
    "files": [
+    {
+     "name": "art.css",
+     "size": 2370,
+     "sha256": "3acebff2ee520c9f4b17a04925f0a5c8bf05b8e55df162aeb36a41b8dac7a812",
+     "path": "f/3acebff2ee520c9f.css"
+    },
     {
      "name": "art.js",
      "size": 6861,
@@ -1567,42 +1573,228 @@
     },
     {
      "name": "boot.js",
-     "size": 133,
-     "sha256": "c18f1bd609fcbcffdeca94e5ac4ac65d06b5b29b1303b4f580ec5fefa78cd801",
-     "path": "f/c18f1bd609fcbcff.js"
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
+    },
+    {
+     "name": "img/car.jpg",
+     "size": 61492,
+     "sha256": "b5768b58bd8de56aca5ce76ed39061fcb90e71b8de3b9161b027a2b01d9770e7",
+     "path": "f/b5768b58bd8de56a.jpg"
+    },
+    {
+     "name": "img/cg-body.jpg",
+     "size": 54007,
+     "sha256": "94a6f0c9a5f999d8241443139272ac25606c8448a370b57811efbbcb25c1ff17",
+     "path": "f/94a6f0c9a5f999d8.jpg"
+    },
+    {
+     "name": "img/cg-camera.jpg",
+     "size": 53722,
+     "sha256": "bc177d9c135525f9c57f375fd217ec998ce2bfad1dd4d839da475e1a328da3df",
+     "path": "f/bc177d9c135525f9.jpg"
+    },
+    {
+     "name": "img/cg-lockscreen.jpg",
+     "size": 68367,
+     "sha256": "c58e947af9700611d83c201fa8e10a52dadae8880aaeba100a47abd04211e9c4",
+     "path": "f/c58e947af9700611.jpg"
+    },
+    {
+     "name": "img/cg-sandal.jpg",
+     "size": 54397,
+     "sha256": "9d8b97e1f16e569e28b2a589b06d5ce1161938f76be8d842583f1f6cc99aa088",
+     "path": "f/9d8b97e1f16e569e.jpg"
+    },
+    {
+     "name": "img/cg-whisper.jpg",
+     "size": 84539,
+     "sha256": "b7551313e339f6531d8360476aca97c60abecec412b388db5f63b81a6b7f92f0",
+     "path": "f/b7551313e339f653.jpg"
+    },
+    {
+     "name": "img/corridor.jpg",
+     "size": 73047,
+     "sha256": "8048e1c38415ffe79c6cfcd889016a2ae1d13b1392085a79129831ea82052992",
+     "path": "f/8048e1c38415ffe7.jpg"
+    },
+    {
+     "name": "img/court.jpg",
+     "size": 100819,
+     "sha256": "21be6d94b1843535b23f93a83c23ec2284e5dc70daee2ef5da4acb6a1da69bc8",
+     "path": "f/21be6d94b1843535.jpg"
+    },
+    {
+     "name": "img/cover.jpg",
+     "size": 77568,
+     "sha256": "581a17a3bb021560cd8bd263a3235659697250380e5e79dc38bbf7d95fd70f06",
+     "path": "f/581a17a3bb021560.jpg"
+    },
+    {
+     "name": "img/dawn.jpg",
+     "size": 84461,
+     "sha256": "854b2f86d7c610d222cb10abb26b2694c6ada6ae8dbe5cd88c407b603e044056",
+     "path": "f/854b2f86d7c610d2.jpg"
+    },
+    {
+     "name": "img/interview.jpg",
+     "size": 43780,
+     "sha256": "53c51822ac1093fb865c00ed73ce8465559107887f98e536f350658c026c56e8",
+     "path": "f/53c51822ac1093fb.jpg"
+    },
+    {
+     "name": "img/jim.webp",
+     "size": 60598,
+     "sha256": "0c9f1011c13b525e5f65c9ad0ac2918308da296acfefa336bb7924fab2257f37",
+     "path": "f/0c9f1011c13b525e.webp"
+    },
+    {
+     "name": "img/judge.webp",
+     "size": 70756,
+     "sha256": "ef69e37375bac739a6db4d33086e3cf392260848074ed2d42da3d39d2921287d",
+     "path": "f/ef69e37375bac739.webp"
+    },
+    {
+     "name": "img/kieran-hope.webp",
+     "size": 41176,
+     "sha256": "adb5d6e51ee34ab53f733ddda27f74f6f7a15ae135e24c8135f69d72954d7b78",
+     "path": "f/adb5d6e51ee34ab5.webp"
+    },
+    {
+     "name": "img/kieran-sad.webp",
+     "size": 58718,
+     "sha256": "363d171e3a005ae1c7094d55b7127a0638f82fe5152b2040c8c6c4f45a056ecd",
+     "path": "f/363d171e3a005ae1.webp"
+    },
+    {
+     "name": "img/kieran-scared.webp",
+     "size": 53680,
+     "sha256": "0eda02dda1a442ed4c859d3bf2ee87135c8330d2d5478dab95923ff5d6f97ab7",
+     "path": "f/0eda02dda1a442ed.webp"
+    },
+    {
+     "name": "img/kieran-shock.webp",
+     "size": 53918,
+     "sha256": "5be39fb4c19448117f9738372869dee82cf8540ee5f59ac0c2e47f6b91bfc434",
+     "path": "f/5be39fb4c1944811.webp"
+    },
+    {
+     "name": "img/kieran.webp",
+     "size": 50766,
+     "sha256": "0cc3ead31938a19619f8c539d67b68d4cb522ea02f2e7f7767cecc4a7eab3789",
+     "path": "f/0cc3ead31938a196.webp"
+    },
+    {
+     "name": "img/owen-angry.webp",
+     "size": 59904,
+     "sha256": "8f6ca7456b32a69b8aeaf571985ad0b88d4c7fac4043031f3d4439d56cd02c76",
+     "path": "f/8f6ca7456b32a69b.webp"
+    },
+    {
+     "name": "img/owen-cold.webp",
+     "size": 58872,
+     "sha256": "d24be21f37238f90ce846385572ee2e465a8f3b8b2e6c80b90888786588fbfa2",
+     "path": "f/d24be21f37238f90.webp"
+    },
+    {
+     "name": "img/owen-smile.webp",
+     "size": 61776,
+     "sha256": "ebd482104354c271bc4398ec17242cd814a6615430e2ed0fe9eeda9ca0bf342f",
+     "path": "f/ebd482104354c271.webp"
+    },
+    {
+     "name": "img/owen.webp",
+     "size": 59532,
+     "sha256": "7b0fb68cf22779c8a6da4f01aef2a5a636db65b06fe6887d290cdda527a4f212",
+     "path": "f/7b0fb68cf22779c8.webp"
+    },
+    {
+     "name": "img/pier.jpg",
+     "size": 63371,
+     "sha256": "864bb33818320287864e32df62cda27fb356b11a6a05ede84354d1f2c9ab28d7",
+     "path": "f/864bb33818320287.jpg"
+    },
+    {
+     "name": "img/pub.jpg",
+     "size": 114326,
+     "sha256": "88752fb8f04b46cafb46ea485468204902e0a1dc130a870c1d8b4b6dc6431e6d",
+     "path": "f/88752fb8f04b46ca.jpg"
+    },
+    {
+     "name": "img/room.jpg",
+     "size": 71652,
+     "sha256": "15a8663a7918d9c68f4169b0bf675fb8ee426faddff18c48ed2174afe6b772fc",
+     "path": "f/15a8663a7918d9c6.jpg"
+    },
+    {
+     "name": "img/ruth-cold.webp",
+     "size": 48686,
+     "sha256": "e51a7b48e61147c3ff97b5f3a8bee95dc2f8dc9d049c5fc36d5f5f8c313450a9",
+     "path": "f/e51a7b48e61147c3.webp"
+    },
+    {
+     "name": "img/ruth-soft.webp",
+     "size": 48242,
+     "sha256": "6cd8d1fb20abc5c49cfe747c21299f5dba76e0d529b1dc2a415f7b3feb68dd29",
+     "path": "f/6cd8d1fb20abc5c4.webp"
+    },
+    {
+     "name": "img/ruth-surprised.webp",
+     "size": 48852,
+     "sha256": "d99a156e1f134b0657c4d8c628a329e36f7d363118208f93587252ddcbc7b20b",
+     "path": "f/d99a156e1f134b06.webp"
+    },
+    {
+     "name": "img/ruth.webp",
+     "size": 47332,
+     "sha256": "97d45aa314cf058b0be8bc123d6026a83b60b6dde3aefd0711a5ec753de9df75",
+     "path": "f/97d45aa314cf058b.webp"
+    },
+    {
+     "name": "img/sam.webp",
+     "size": 49388,
+     "sha256": "f5533907f4639a82dd0ff488b748496fd9b184fca352836409d3628121d5595a",
+     "path": "f/f5533907f4639a82.webp"
     },
     {
      "name": "index.html",
-     "size": 623,
-     "sha256": "e2c8f7c7c3d57f1fb8312e21b5ff6b4683291f006ce1d5b8127344353efba5ca",
-     "path": "f/e2c8f7c7c3d57f1f.html"
+     "size": 783,
+     "sha256": "de80a3ec574c1eb33e7d8af005b7deb5fd8fd1021a390a9bf9d5c3847805ccd3",
+     "path": "f/de80a3ec574c1eb3.html"
     },
     {
      "name": "story/ch1.js",
-     "size": 77072,
-     "sha256": "8da66a7e348bbbea157cc46001f8bf9a5f57597a9a0b1fd3858856a7c550d15f",
-     "path": "f/8da66a7e348bbbea.js"
+     "size": 63925,
+     "sha256": "9c9b7bbf8429e3839346234d0e21f81bd6498832dc182da42aad0ed09f3a785c",
+     "path": "f/9c9b7bbf8429e383.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 3417,
+     "sha256": "a394ba7b0813678a6db67c6350564eb56eac233f301c1d91b11ee120fa93965b",
+     "path": "f/a394ba7b0813678a.js"
     },
     {
      "name": "lib/story/core.js",
-     "size": 39300,
-     "sha256": "cc9d6e841872e413c58e84da57e5a73b25a203eb2dd191a8cf3e768c041e2c05",
-     "path": "f/cc9d6e841872e413.js"
+     "size": 53344,
+     "sha256": "f7ee26e3fe90ff3bcdcd0beb959cf5d3aab5cb542ac6e82907dece66a29401f9",
+     "path": "f/f7ee26e3fe90ff3b.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 33161,
-     "sha256": "fd177c4421880ee1214310226d69798b493eccdb3d72c8fcc7c93425509b636e",
-     "path": "f/fd177c4421880ee1.js"
+     "size": 38399,
+     "sha256": "57417af5b22ab1110cf82c7e1066bb88fdb3652a32e821228d93bd69ebed1e72",
+     "path": "f/57417af5b22ab111.js"
     },
     {
      "name": "lib/story/ui.css",
-     "size": 30463,
-     "sha256": "230dcababa70d065ca08615c6131b738e1cca555f8f7954067e5ac0931210222",
-     "path": "f/230dcababa70d065.css"
+     "size": 55156,
+     "sha256": "ea9f3aefa700ee58d9f2ebd1f8a685d88e55f8ee5d7a86dd843fedbb6dc435ba",
+     "path": "f/ea9f3aefa700ee58.css"
     }
    ],
-   "ver": "3bbe8c39e2",
+   "ver": "d1feea871d",
    "up": "2026-10-28"
   }
  ]

@@ -1,0 +1,47 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.im-car{background-image:url(img/car.jpg)}
+.im-cg-body{background-image:url(img/cg-body.jpg)}
+.im-cg-camera{background-image:url(img/cg-camera.jpg)}
+.im-cg-lockscreen{background-image:url(img/cg-lockscreen.jpg)}
+.im-cg-sandal{background-image:url(img/cg-sandal.jpg)}
+.im-cg-whisper{background-image:url(img/cg-whisper.jpg)}
+.im-corridor{background-image:url(img/corridor.jpg)}
+.im-court{background-image:url(img/court.jpg)}
+.im-cover{background-image:url(img/cover.jpg)}
+.im-dawn{background-image:url(img/dawn.jpg)}
+.im-interview{background-image:url(img/interview.jpg)}
+.im-jim{background-image:url(img/jim.webp)}
+.im-judge{background-image:url(img/judge.webp)}
+.im-kieran-hope{background-image:url(img/kieran-hope.webp)}
+.im-kieran-sad{background-image:url(img/kieran-sad.webp)}
+.im-kieran-scared{background-image:url(img/kieran-scared.webp)}
+.im-kieran-shock{background-image:url(img/kieran-shock.webp)}
+.im-kieran{background-image:url(img/kieran.webp)}
+.im-owen-angry{background-image:url(img/owen-angry.webp)}
+.im-owen-cold{background-image:url(img/owen-cold.webp)}
+.im-owen-smile{background-image:url(img/owen-smile.webp)}
+.im-owen{background-image:url(img/owen.webp)}
+.im-pier{background-image:url(img/pier.jpg)}
+.im-pub{background-image:url(img/pub.jpg)}
+.im-room{background-image:url(img/room.jpg)}
+.im-ruth-cold{background-image:url(img/ruth-cold.webp)}
+.im-ruth-soft{background-image:url(img/ruth-soft.webp)}
+.im-ruth-surprised{background-image:url(img/ruth-surprised.webp)}
+.im-ruth{background-image:url(img/ruth.webp)}
+.im-sam{background-image:url(img/sam.webp)}
+.se-chi:has(.im-jim) .ph{display:none}
+.se-chi:has(.im-judge) .ph{display:none}
+.se-chi:has(.im-kieran-hope) .ph{display:none}
+.se-chi:has(.im-kieran-sad) .ph{display:none}
+.se-chi:has(.im-kieran-scared) .ph{display:none}
+.se-chi:has(.im-kieran-shock) .ph{display:none}
+.se-chi:has(.im-kieran) .ph{display:none}
+.se-chi:has(.im-owen-angry) .ph{display:none}
+.se-chi:has(.im-owen-cold) .ph{display:none}
+.se-chi:has(.im-owen-smile) .ph{display:none}
+.se-chi:has(.im-owen) .ph{display:none}
+.se-chi:has(.im-ruth-cold) .ph{display:none}
+.se-chi:has(.im-ruth-soft) .ph{display:none}
+.se-chi:has(.im-ruth-surprised) .ph{display:none}
+.se-chi:has(.im-ruth) .ph{display:none}
+.se-chi:has(.im-sam) .ph{display:none}
