@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T15:02:43.125Z",
+ "at": "2026-10-28T15:30:38.798Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -1549,7 +1549,7 @@
     "c2": "#e2a24a"
    },
    "count": 0,
-   "size": 2120463,
+   "size": 2439445,
    "badge": "beta",
    "title": {
     "vi": "Lời khai",
@@ -1562,9 +1562,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 2370,
-     "sha256": "3acebff2ee520c9f4b17a04925f0a5c8bf05b8e55df162aeb36a41b8dac7a812",
-     "path": "f/3acebff2ee520c9f.css"
+     "size": 2930,
+     "sha256": "2e6b962e7a4b36d691524602d58ad7ae2c18e71496381c8e4aa4566e33e63916",
+     "path": "f/2e6b962e7a4b36d6.css"
     },
     {
      "name": "art.js",
@@ -1643,6 +1643,66 @@
      "size": 43780,
      "sha256": "53c51822ac1093fb865c00ed73ce8465559107887f98e536f350658c026c56e8",
      "path": "f/53c51822ac1093fb.jpg"
+    },
+    {
+     "name": "img/it-hook.jpg",
+     "size": 35340,
+     "sha256": "27586db27c28dd6696c121728448ccfa0394d48a6f04ba829585d09fbacf23d7",
+     "path": "f/27586db27c28dd66.jpg"
+    },
+    {
+     "name": "img/it-id_card.jpg",
+     "size": 23353,
+     "sha256": "8a471f7e60ef817e66a1a1a8aacc10bbe69bab9a7b3c10d9290ba028e1bea96e",
+     "path": "f/8a471f7e60ef817e.jpg"
+    },
+    {
+     "name": "img/it-jim_note.jpg",
+     "size": 35947,
+     "sha256": "f701b6a56e36541e02c2cd68defeb010cddf64527772ed0d58177549dd4687cf",
+     "path": "f/f701b6a56e36541e.jpg"
+    },
+    {
+     "name": "img/it-leg_it.jpg",
+     "size": 49904,
+     "sha256": "692c2a372b06254881137cbd15ef0cea0f1aaafa798a6a51cb515d3d8eaa4668",
+     "path": "f/692c2a372b062548.jpg"
+    },
+    {
+     "name": "img/it-notes.jpg",
+     "size": 24545,
+     "sha256": "977efd26e2f4e27c25be460ac7c6f442239a725e1b6f0315c3090ca129c4a077",
+     "path": "f/977efd26e2f4e27c.jpg"
+    },
+    {
+     "name": "img/it-phone.jpg",
+     "size": 25441,
+     "sha256": "3108049741d3ced7a00b9e2caf1f6f33583863e9b8970eb35710355f719a8721",
+     "path": "f/3108049741d3ced7.jpg"
+    },
+    {
+     "name": "img/it-sam_photo.jpg",
+     "size": 26878,
+     "sha256": "62e4a1809f33956766220930ba46bf369ba2b5d0b96c25b28d667ceddfc9c4af",
+     "path": "f/62e4a1809f339567.jpg"
+    },
+    {
+     "name": "img/it-trainer.jpg",
+     "size": 32371,
+     "sha256": "63693940f56a35569382d7999af32f2ba9846653275f3595b28a774691adc657",
+     "path": "f/63693940f56a3556.jpg"
+    },
+    {
+     "name": "img/it-voicemail.jpg",
+     "size": 24544,
+     "sha256": "cdcee7697228b2c8e8775beba0fd88ed1022bf7a6eb8fc50efb0aada859fc0f5",
+     "path": "f/cdcee7697228b2c8.jpg"
+    },
+    {
+     "name": "img/it-watch.jpg",
+     "size": 29438,
+     "sha256": "400f5443a47c225c64f8d5ae08c813a3ce9e6253d7ac58fc5930561c8247768c",
+     "path": "f/400f5443a47c225c.jpg"
     },
     {
      "name": "img/jim.webp",
@@ -1772,30 +1832,30 @@
     },
     {
      "name": "story/story.js",
-     "size": 4105,
-     "sha256": "f06bf34cc39b160f1a459b4ee6f3137a56f3d9e3334150e4e8f02e5096015f52",
-     "path": "f/f06bf34cc39b160f.js"
+     "size": 4536,
+     "sha256": "157d1ecaca2d9518b792f356bc78b4fd4fb2efbfb5dc4ecaecdd1ebcbb1b321d",
+     "path": "f/157d1ecaca2d9518.js"
     },
     {
      "name": "lib/story/core.js",
-     "size": 63031,
-     "sha256": "cd51eb601012ec37892ef6ac94afd8d56e49d0b7c0c504ddcc67524af8cabfe8",
-     "path": "f/cd51eb601012ec37.js"
+     "size": 68697,
+     "sha256": "c34ecd95ffbde7938ba0de63096caae5a45ff1427809ae8cd02bc88439b13189",
+     "path": "f/c34ecd95ffbde793.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 38863,
-     "sha256": "bda75ef5830924dcf7e555d106aa229359697ef244698a22f6379bd9ff328cf1",
-     "path": "f/bda75ef5830924dc.js"
+     "size": 38922,
+     "sha256": "b3bc942ec13d2be1b020186a045a6b5a9a359de72742a4c7d9c7b82835641eab",
+     "path": "f/b3bc942ec13d2be1.js"
     },
     {
      "name": "lib/story/ui.css",
-     "size": 62608,
-     "sha256": "8536dc12fd5d819967d70cfd2b5dd3085316d6dc5671eb73e977ed978f984410",
-     "path": "f/8536dc12fd5d8199.css"
+     "size": 67113,
+     "sha256": "34ab56972b41ac5aad7d1cb8c72f9d5bd45a705c5c02b7a33c6b244d210c6118",
+     "path": "f/34ab56972b41ac5a.css"
     }
    ],
-   "ver": "9403eb0676",
+   "ver": "fc8cc2360f",
    "up": "2026-10-28"
   }
  ]
