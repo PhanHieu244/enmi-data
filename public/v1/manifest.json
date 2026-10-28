@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-27T16:01:06.063Z",
+ "at": "2026-10-28T06:42:31.513Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -43,7 +43,6 @@
    "kind": "qbank",
    "lang": "de",
    "count": 1491,
-   "size": 1015315,
    "items": [
     {
      "id": "grammar",
@@ -94,6 +93,42 @@
      "u": "lesson"
     }
    ],
+   "sample": [
+    {
+     "q": "Du ____ sehr gut Deutsch.",
+     "o": [
+      "sprecht",
+      "sprichst",
+      "sprechst",
+      "spreche"
+     ],
+     "a": 1,
+     "lv": "A"
+    },
+    {
+     "q": "Die Leute, mit ____ ich arbeite, sind nett.",
+     "o": [
+      "den",
+      "die",
+      "denen",
+      "deren"
+     ],
+     "a": 2,
+     "lv": "B2"
+    },
+    {
+     "q": "Der ____ Zug hat Verspätung.",
+     "o": [
+      "aus Berlin kommend",
+      "aus Berlin kommende",
+      "aus Berlin gekommen",
+      "aus Berlin kommt"
+     ],
+     "a": 1,
+     "lv": "C1"
+    }
+   ],
+   "size": 1015315,
    "level": "A1–C1",
    "desc": {
     "vi": "Ngữ pháp tiếng Đức theo bậc và các phần thi Goethe.",
@@ -151,7 +186,6 @@
    "kind": "qbank",
    "lang": "en",
    "count": 5301,
-   "size": 4708746,
    "items": [
     {
      "id": "grammar",
@@ -235,6 +269,42 @@
      "u": "lesson"
     }
    ],
+   "sample": [
+    {
+     "q": "The soup ____ delicious.",
+     "o": [
+      "tastes deliciously",
+      "tastes",
+      "is tasting",
+      "taste"
+     ],
+     "a": 1,
+     "lv": "A"
+    },
+    {
+     "q": "She seems ____ about the news.",
+     "o": [
+      "upset",
+      "upsetly",
+      "upsets",
+      "upsettingly"
+     ],
+     "a": 0,
+     "lv": "B2"
+    },
+    {
+     "q": "____ a sense that the company had lost its direction.",
+     "o": [
+      "It was",
+      "There was",
+      "It had",
+      "There had"
+     ],
+     "a": 1,
+     "lv": "C1"
+    }
+   ],
+   "size": 4708746,
    "badge": "hot",
    "level": "A1–C1",
    "desc": {
@@ -455,7 +525,6 @@
    "kind": "qbank",
    "lang": "ja",
    "count": 1582,
-   "size": 1153226,
    "items": [
     {
      "id": "grammar",
@@ -494,6 +563,42 @@
      "u": "lesson"
     }
    ],
+   "sample": [
+    {
+     "q": "会議は 本社 ____ 行われます。",
+     "o": [
+      "に対して",
+      "において",
+      "に関して",
+      "にとって"
+     ],
+     "a": 1,
+     "lv": "N2-N1"
+    },
+    {
+     "q": "あした 雨が ____ と思います。",
+     "o": [
+      "ふります",
+      "ふる",
+      "ふって",
+      "ふりて"
+     ],
+     "a": 1,
+     "lv": "N4"
+    },
+    {
+     "q": "わたしは 今 学生 ____。",
+     "o": [
+      "です",
+      "ます",
+      "でした",
+      "だった"
+     ],
+     "a": 0,
+     "lv": "N5"
+    }
+   ],
+   "size": 1153226,
    "level": "N5–N1",
    "desc": {
     "vi": "Ngữ pháp tiếng Nhật theo bậc JLPT, đọc hiểu, nghe hiểu và từ vựng – chữ Hán.",
@@ -539,7 +644,6 @@
    "kind": "qbank",
    "lang": "ko",
    "count": 1358,
-   "size": 927386,
    "items": [
     {
      "id": "grammar",
@@ -572,6 +676,42 @@
      "u": "lesson"
     }
    ],
+   "sample": [
+    {
+     "q": "저 ____ 베트남 사람이에요.",
+     "o": [
+      "가",
+      "이",
+      "는",
+      "은"
+     ],
+     "a": 2,
+     "lv": "TOPIK 1-2"
+    },
+    {
+     "q": "늦잠을 자 ____ 지각했어요.",
+     "o": [
+      "기 위해서",
+      "는 바람에",
+      "려고",
+      "면"
+     ],
+     "a": 1,
+     "lv": "TOPIK 4"
+    },
+    {
+     "q": "이 제품은 가격이 ____ 품질도 우수하다. (저렴하다)",
+     "o": [
+      "저렴하므로",
+      "저렴하며",
+      "저렴하고자",
+      "저렴하기에는"
+     ],
+     "a": 1,
+     "lv": "TOPIK 5-6"
+    }
+   ],
+   "size": 927386,
    "level": "TOPIK 1–6",
    "desc": {
     "vi": "Ngữ pháp tiếng Hàn theo bậc TOPIK, đọc hiểu và nghe hiểu.",
@@ -611,7 +751,6 @@
    "kind": "qbank",
    "lang": "zh",
    "count": 1354,
-   "size": 796838,
    "items": [
     {
      "id": "grammar",
@@ -644,6 +783,42 @@
      "u": "lesson"
     }
    ],
+   "sample": [
+    {
+     "q": "我 ____ 。",
+     "o": [
+      "中国菜喜欢",
+      "喜欢中国菜",
+      "喜欢我中国菜",
+      "中国菜我喜欢吗"
+     ],
+     "a": 1,
+     "lv": "HSK 1-2"
+    },
+    {
+     "q": "我累 ____ 不想说话。",
+     "o": [
+      "地",
+      "的",
+      "得",
+      "着"
+     ],
+     "a": 2,
+     "lv": "HSK 4"
+    },
+    {
+     "q": "这场比赛的结果真是 ____ 人兴奋。",
+     "o": [
+      "被",
+      "令",
+      "把",
+      "对"
+     ],
+     "a": 1,
+     "lv": "HSK 5-6"
+    }
+   ],
+   "size": 796838,
    "level": "HSK 1–6",
    "desc": {
     "vi": "Ngữ pháp tiếng Trung theo bậc HSK, đọc hiểu và nghe hiểu.",
@@ -677,6 +852,392 @@
    ],
    "ver": "3e2c8b93c3",
    "up": "2026-10-27"
+  },
+  {
+   "id": "font.atkinson",
+   "kind": "font",
+   "title": {
+    "vi": "Atkinson Hyperlegible",
+    "en": "Atkinson Hyperlegible"
+   },
+   "desc": {
+    "vi": "Chữ không chân dễ phân biệt từng chữ cái — làm cho người mắt kém.",
+    "en": "A sans serif with very distinct letters — designed for low vision readers."
+   },
+   "cover": {
+    "c1": "#dcfce7",
+    "c2": "#166534"
+   },
+   "count": 0,
+   "size": 88406,
+   "files": [
+    {
+     "name": "OFL.txt",
+     "size": 4603,
+     "sha256": "e137caeef2ff7c04fbf87078ad09cf3dcba8a3a58a4aa4e2f399d42c50bc4b18",
+     "path": "f/e137caeef2ff7c04.txt"
+    },
+    {
+     "name": "atkinson-hyperlegible-latin-400-italic.woff2",
+     "size": 18292,
+     "sha256": "bc8825fd435d4aa8e31449937826d583a7daaae15a83832c91b38375131ebf08",
+     "path": "f/bc8825fd435d4aa8.woff2"
+    },
+    {
+     "name": "atkinson-hyperlegible-latin-400-normal.woff2",
+     "size": 17208,
+     "sha256": "d64ba838ef5472bba248620ec4fd8b5aa7cf0db2908e0bb230600caf279ba7bc",
+     "path": "f/d64ba838ef5472bb.woff2"
+    },
+    {
+     "name": "atkinson-hyperlegible-latin-700-normal.woff2",
+     "size": 17524,
+     "sha256": "140e2bd25a7315c8a062508391426b0d8c3297400c947b8d847be28f73a199f0",
+     "path": "f/140e2bd25a7315c8.woff2"
+    },
+    {
+     "name": "atkinson-hyperlegible-latin-ext-400-italic.woff2",
+     "size": 9796,
+     "sha256": "90d887d541fe6e912d15f826aae6ca1190efcf172b65401704472475ed771049",
+     "path": "f/90d887d541fe6e91.woff2"
+    },
+    {
+     "name": "atkinson-hyperlegible-latin-ext-400-normal.woff2",
+     "size": 9384,
+     "sha256": "61eeb0eb8b881a84d069e67be1723f5b353b0b9b866ad8e7ad9dba66cdc4dabd",
+     "path": "f/61eeb0eb8b881a84.woff2"
+    },
+    {
+     "name": "atkinson-hyperlegible-latin-ext-700-normal.woff2",
+     "size": 9372,
+     "sha256": "840ced16f975d8abc2594b436d0206649e0c2a7327e36750ff849d3d37c3c02e",
+     "path": "f/840ced16f975d8ab.woff2"
+    },
+    {
+     "name": "font.json",
+     "size": 2227,
+     "sha256": "ed77e760be96f4187ed5ff01ce7b45657eddad15eec6fd085dbaab75cd95a24d",
+     "path": "f/ed77e760be96f418.json"
+    }
+   ],
+   "ver": "23450afc01",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "font.dyslexic",
+   "kind": "font",
+   "title": {
+    "vi": "OpenDyslexic",
+    "en": "OpenDyslexic"
+   },
+   "desc": {
+    "vi": "Đáy chữ đậm giúp người khó đọc (dyslexia) không lẫn chữ.",
+    "en": "Weighted letter bottoms help readers with dyslexia keep letters apart."
+   },
+   "cover": {
+    "c1": "#e0f2fe",
+    "c2": "#075985"
+   },
+   "count": 0,
+   "size": 353169,
+   "files": [
+    {
+     "name": "OFL.txt",
+     "size": 4452,
+     "sha256": "797cb441b593b3326a69fcf83d84264301d89e8871a75b38bae1d101e922e10c",
+     "path": "f/797cb441b593b332.txt"
+    },
+    {
+     "name": "font.json",
+     "size": 721,
+     "sha256": "8e296b13f7707dd710f18091fc9979ec6c918895e3e75a29548a2e708d00f915",
+     "path": "f/8e296b13f7707dd7.json"
+    },
+    {
+     "name": "opendyslexic-latin-400-italic.woff2",
+     "size": 112360,
+     "sha256": "eb6a1bacf7e7c87a08116af4cd00a82064fbe61647b9a0d4d70a339890268f88",
+     "path": "f/eb6a1bacf7e7c87a.woff2"
+    },
+    {
+     "name": "opendyslexic-latin-400-normal.woff2",
+     "size": 115280,
+     "sha256": "f007004af3cda5d8076e57c943f8cc8d00a0da25988b1ae1048683d60e7cac1a",
+     "path": "f/f007004af3cda5d8.woff2"
+    },
+    {
+     "name": "opendyslexic-latin-700-normal.woff2",
+     "size": 120356,
+     "sha256": "dd9fa9c7991113b0dddefe9506a30ad26b48e302b7a8fb91719a4726e8fde85b",
+     "path": "f/dd9fa9c7991113b0.woff2"
+    }
+   ],
+   "ver": "0bcc3eabc3",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "font.literata",
+   "kind": "font",
+   "title": {
+    "vi": "Literata",
+    "en": "Literata"
+   },
+   "desc": {
+    "vi": "Kiểu chữ có chân làm riêng cho đọc sách dài trên màn hình (Google Play Sách).",
+    "en": "A serif typeface designed for long reading on screens (Google Play Books)."
+   },
+   "cover": {
+    "c1": "#fef3c7",
+    "c2": "#92400e"
+   },
+   "count": 0,
+   "size": 140994,
+   "files": [
+    {
+     "name": "OFL.txt",
+     "size": 4506,
+     "sha256": "9895ebc015226accf416b758ac1ca02a2fb4f83a89d316791ef697c3dc0852aa",
+     "path": "f/9895ebc015226acc.txt"
+    },
+    {
+     "name": "font.json",
+     "size": 2872,
+     "sha256": "08de6087f1ce2e70cd8994e61d19a2daa8125ae363a911eb9e3a56433690ccfe",
+     "path": "f/08de6087f1ce2e70.json"
+    },
+    {
+     "name": "literata-latin-400-italic.woff2",
+     "size": 21148,
+     "sha256": "1e98bfbbb4eb8177b9c21b3fd526e1118c4835d21ff870c0d1c25b1ef4409fba",
+     "path": "f/1e98bfbbb4eb8177.woff2"
+    },
+    {
+     "name": "literata-latin-400-normal.woff2",
+     "size": 20420,
+     "sha256": "a60c193b55766b68b922e2327e15c2d8c145532f283a27c3411b9c47a8583d18",
+     "path": "f/a60c193b55766b68.woff2"
+    },
+    {
+     "name": "literata-latin-700-normal.woff2",
+     "size": 22004,
+     "sha256": "1f2985e0fc368aac76f95b847cd05ef6ec4bac2733a648098c62edf990756cf5",
+     "path": "f/1f2985e0fc368aac.woff2"
+    },
+    {
+     "name": "literata-latin-ext-400-italic.woff2",
+     "size": 17576,
+     "sha256": "3c5b9d0314198a54521c8ad5e418f608d6b1ed20d576f93bcbb7a498889b0083",
+     "path": "f/3c5b9d0314198a54.woff2"
+    },
+    {
+     "name": "literata-latin-ext-400-normal.woff2",
+     "size": 17616,
+     "sha256": "726e1239ef9ece4c26f06475f1d35419932e8b0ce0084451110a739dd36c7a14",
+     "path": "f/726e1239ef9ece4c.woff2"
+    },
+    {
+     "name": "literata-latin-ext-700-normal.woff2",
+     "size": 19080,
+     "sha256": "559ab7b701f4d2e40d3d78832fb199a0bcb6a6ce50dfbcb1319b904827214c39",
+     "path": "f/559ab7b701f4d2e4.woff2"
+    },
+    {
+     "name": "literata-vietnamese-400-italic.woff2",
+     "size": 5196,
+     "sha256": "ab0ffa9ddf7e08abe7e2d781291c66a9157f1f55a59a3b945afeef699c9b6fef",
+     "path": "f/ab0ffa9ddf7e08ab.woff2"
+    },
+    {
+     "name": "literata-vietnamese-400-normal.woff2",
+     "size": 5184,
+     "sha256": "32652cb1b7d1a7ce8a0a952da1c78f1ad74c89fe6994f4a1860d910a3eabc2d0",
+     "path": "f/32652cb1b7d1a7ce.woff2"
+    },
+    {
+     "name": "literata-vietnamese-700-normal.woff2",
+     "size": 5392,
+     "sha256": "533d60e35672ae9a174444f9632c8bb1514c97c449c1ba4a55070fdc61020e18",
+     "path": "f/533d60e35672ae9a.woff2"
+    }
+   ],
+   "ver": "a089e7e1e9",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "font.lora",
+   "kind": "font",
+   "title": {
+    "vi": "Lora",
+    "en": "Lora"
+   },
+   "desc": {
+    "vi": "Chữ có chân mềm mại, hợp truyện và tiểu thuyết.",
+    "en": "A soft, elegant serif that suits stories and novels."
+   },
+   "cover": {
+    "c1": "#ffe4e6",
+    "c2": "#9f1239"
+   },
+   "count": 0,
+   "size": 124839,
+   "files": [
+    {
+     "name": "OFL.txt",
+     "size": 4563,
+     "sha256": "948aed765160f7b974105606c21994715a171f89fca48e57bf1e0a23aca0bef1",
+     "path": "f/948aed765160f7b9.txt"
+    },
+    {
+     "name": "font.json",
+     "size": 2768,
+     "sha256": "a89c0dc732392b2c790bec989a38cb364e3f517531192c16e69bfbeefacee3b3",
+     "path": "f/a89c0dc732392b2c.json"
+    },
+    {
+     "name": "lora-latin-400-italic.woff2",
+     "size": 22756,
+     "sha256": "723cc14fe86bc9fadb2f5f34efb421d246edb240a18d2a7828d2edc041d79996",
+     "path": "f/723cc14fe86bc9fa.woff2"
+    },
+    {
+     "name": "lora-latin-400-normal.woff2",
+     "size": 21148,
+     "sha256": "ac079950fd9885261c0f73d9e87233f31b5427333ce0eb20e26c119458493c40",
+     "path": "f/ac079950fd988526.woff2"
+    },
+    {
+     "name": "lora-latin-700-normal.woff2",
+     "size": 21044,
+     "sha256": "c05fd5289492ed310ed882259b944ca5287e76e572a65d92d3941f9f44f0342a",
+     "path": "f/c05fd5289492ed31.woff2"
+    },
+    {
+     "name": "lora-latin-ext-400-italic.woff2",
+     "size": 12460,
+     "sha256": "3bb65e234cd07a69127592cafd08ce4242a1a4ace24dcc4c466881693fc74867",
+     "path": "f/3bb65e234cd07a69.woff2"
+    },
+    {
+     "name": "lora-latin-ext-400-normal.woff2",
+     "size": 12016,
+     "sha256": "525551030c504c0eb42d71b48ce10027e4431bd405d6cd04c468a535ce8d961b",
+     "path": "f/525551030c504c0e.woff2"
+    },
+    {
+     "name": "lora-latin-ext-700-normal.woff2",
+     "size": 11968,
+     "sha256": "eacd7ecd09a1b5cc2706867f2505fb139825c3db70b17123538565fb723d0000",
+     "path": "f/eacd7ecd09a1b5cc.woff2"
+    },
+    {
+     "name": "lora-vietnamese-400-italic.woff2",
+     "size": 5536,
+     "sha256": "a506cef75e0506008fa1d8d34bc1a6eac5e7a2823ae8560c8344f1592a8f01d9",
+     "path": "f/a506cef75e050600.woff2"
+    },
+    {
+     "name": "lora-vietnamese-400-normal.woff2",
+     "size": 5292,
+     "sha256": "b30c3c155e2f2300aad1090dddc1965a6db52b0e48c840eba4a1f72cdb574ba6",
+     "path": "f/b30c3c155e2f2300.woff2"
+    },
+    {
+     "name": "lora-vietnamese-700-normal.woff2",
+     "size": 5288,
+     "sha256": "c6195d771bdd65f6d08633c6eef7320f1d5136030ed0a94c08b7a77cd8583690",
+     "path": "f/c6195d771bdd65f6.woff2"
+    }
+   ],
+   "ver": "bd3f4b8efc",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "font.merriweather",
+   "kind": "font",
+   "title": {
+    "vi": "Merriweather",
+    "en": "Merriweather"
+   },
+   "desc": {
+    "vi": "Chữ có chân đậm, nét rõ — dễ đọc cả khi chữ nhỏ.",
+    "en": "A sturdy serif with clear strokes — readable even at small sizes."
+   },
+   "cover": {
+    "c1": "#e0e7ff",
+    "c2": "#3730a3"
+   },
+   "count": 0,
+   "size": 308556,
+   "files": [
+    {
+     "name": "OFL.txt",
+     "size": 4611,
+     "sha256": "aa677c3f7682d9c4f7aa48fae3f3b9d0f8d70ac6ab47b9bc20a9cc2879e15af0",
+     "path": "f/aa677c3f7682d9c4.txt"
+    },
+    {
+     "name": "font.json",
+     "size": 2893,
+     "sha256": "14b4f8f61c348d93b912351439efbee46792947b5c10a3d3b59d95b10f2c9e0b",
+     "path": "f/14b4f8f61c348d93.json"
+    },
+    {
+     "name": "merriweather-latin-400-italic.woff2",
+     "size": 51836,
+     "sha256": "051559ee0644cd647c8f654cffea1d1a5ce601e573af21d0984528563fb476f6",
+     "path": "f/051559ee0644cd64.woff2"
+    },
+    {
+     "name": "merriweather-latin-400-normal.woff2",
+     "size": 49168,
+     "sha256": "66f5bd22d738a801a9e58d71920559743b0baaced04be299e3c4feca3dce3556",
+     "path": "f/66f5bd22d738a801.woff2"
+    },
+    {
+     "name": "merriweather-latin-700-normal.woff2",
+     "size": 48660,
+     "sha256": "4e1ab49396c02be0d9a2a25eed7bc73781c047d85fcb5dfc2889873eaf992b09",
+     "path": "f/4e1ab49396c02be0.woff2"
+    },
+    {
+     "name": "merriweather-latin-ext-400-italic.woff2",
+     "size": 44924,
+     "sha256": "ac83208e33a7c529dcb22b5f72951bab1e129db035176a584c8f5d68597e6098",
+     "path": "f/ac83208e33a7c529.woff2"
+    },
+    {
+     "name": "merriweather-latin-ext-400-normal.woff2",
+     "size": 42952,
+     "sha256": "be42f8d64ab6410fd300c4d352d9a0943cc1c3b4eb74016b73bcf6b252d74ac5",
+     "path": "f/be42f8d64ab6410f.woff2"
+    },
+    {
+     "name": "merriweather-latin-ext-700-normal.woff2",
+     "size": 42880,
+     "sha256": "c4d28d6ee3414f8e0482f1acd62a35ea6409a2447c427191bcfa2f4f4ee670ff",
+     "path": "f/c4d28d6ee3414f8e.woff2"
+    },
+    {
+     "name": "merriweather-vietnamese-400-italic.woff2",
+     "size": 7308,
+     "sha256": "86836c92783e67552a95910694ca7da5ba5d0c305fef84b6ef16c4b803906989",
+     "path": "f/86836c92783e6755.woff2"
+    },
+    {
+     "name": "merriweather-vietnamese-400-normal.woff2",
+     "size": 6664,
+     "sha256": "5343bf4c31a643c573439ef85c587095b558716fe29d63ec4c53078200d2ea2f",
+     "path": "f/5343bf4c31a643c5.woff2"
+    },
+    {
+     "name": "merriweather-vietnamese-700-normal.woff2",
+     "size": 6660,
+     "sha256": "ffb524044bbe0844e3751f9df121587a08ecc86f6a7301b5a6c03614b01373b2",
+     "path": "f/ffb524044bbe0844.woff2"
+    }
+   ],
+   "ver": "3afa137f7d",
+   "up": "2026-10-28"
   }
  ]
 }

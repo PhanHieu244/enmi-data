@@ -1,0 +1,33 @@
+{
+ "name": "OpenDyslexic",
+ "title": {
+  "vi": "OpenDyslexic",
+  "en": "OpenDyslexic"
+ },
+ "desc": {
+  "vi": "Đáy chữ đậm giúp người khó đọc (dyslexia) không lẫn chữ.",
+  "en": "Weighted letter bottoms help readers with dyslexia keep letters apart."
+ },
+ "cover": {
+  "c1": "#e0f2fe",
+  "c2": "#075985"
+ },
+ "license": "SIL Open Font License 1.1 (via @fontsource/opendyslexic@5.3.0)",
+ "faces": [
+  {
+   "file": "opendyslexic-latin-400-normal.woff2",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "file": "opendyslexic-latin-700-normal.woff2",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "file": "opendyslexic-latin-400-italic.woff2",
+   "weight": "400",
+   "style": "italic"
+  }
+ ]
+}
