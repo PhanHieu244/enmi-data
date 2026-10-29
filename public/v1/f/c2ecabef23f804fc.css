@@ -1,0 +1,22 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.im-act-busk{background-image:url(img/act-busk.jpg)}
+.im-act-football{background-image:url(img/act-football.jpg)}
+.im-act-latte{background-image:url(img/act-latte.jpg)}
+.im-act-library{background-image:url(img/act-library.jpg)}
+.im-act-out-bold{background-image:url(img/act-out-bold.jpg)}
+.im-act-out-comfy{background-image:url(img/act-out-comfy.jpg)}
+.im-act-out-neat{background-image:url(img/act-out-neat.jpg)}
+.im-act-sea{background-image:url(img/act-sea.jpg)}
+.im-act-swim{background-image:url(img/act-swim.jpg)}
+.im-beachnight{background-image:url(img/beachnight.jpg)}
+.im-cafe{background-image:url(img/cafe.jpg)}
+.im-cover{background-image:url(img/cover.jpg)}
+.im-flat{background-image:url(img/flat.jpg)}
+.im-it-apron{background-image:url(img/it-apron.jpg)}
+.im-it-flyer{background-image:url(img/it-flyer.jpg)}
+.im-it-pick{background-image:url(img/it-pick.jpg)}
+.im-pier{background-image:url(img/pier.jpg)}
+.im-promenade{background-image:url(img/promenade.jpg)}
+.im-rosa{background-image:url(img/rosa.webp)}
+.im-train{background-image:url(img/train.jpg)}
+.se-chi:has(.im-rosa) .ph{display:none}

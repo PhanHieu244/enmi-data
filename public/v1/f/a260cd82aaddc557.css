@@ -1,0 +1,25 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.im-act-champagne{background-image:url(img/act-champagne.jpg)}
+.im-act-charger{background-image:url(img/act-charger.jpg)}
+.im-act-key{background-image:url(img/act-key.jpg)}
+.im-act-ledger{background-image:url(img/act-ledger.jpg)}
+.im-act-outfit-jeans{background-image:url(img/act-outfit-jeans.jpg)}
+.im-act-outfit-suit{background-image:url(img/act-outfit-suit.jpg)}
+.im-act-outfit-uniform{background-image:url(img/act-outfit-uniform.jpg)}
+.im-cg-holt{background-image:url(img/cg-holt.jpg)}
+.im-cg-safe{background-image:url(img/cg-safe.jpg)}
+.im-gala{background-image:url(img/gala.jpg)}
+.im-galakitchen{background-image:url(img/galakitchen.jpg)}
+.im-holt-angry{background-image:url(img/holt-angry.webp)}
+.im-holt-cold{background-image:url(img/holt-cold.webp)}
+.im-holt-smug{background-image:url(img/holt-smug.webp)}
+.im-holt{background-image:url(img/holt.webp)}
+.im-it-gp_key{background-image:url(img/it-gp_key.jpg)}
+.im-it-invite{background-image:url(img/it-invite.jpg)}
+.im-it-ledger{background-image:url(img/it-ledger.jpg)}
+.im-it-recorder{background-image:url(img/it-recorder.jpg)}
+.im-study{background-image:url(img/study.jpg)}
+.se-chi:has(.im-holt-angry) .ph{display:none}
+.se-chi:has(.im-holt-cold) .ph{display:none}
+.se-chi:has(.im-holt-smug) .ph{display:none}
+.se-chi:has(.im-holt) .ph{display:none}

@@ -1,0 +1,24 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.im-act-calendar{background-image:url(img/act-calendar.jpg)}
+.im-act-drawer{background-image:url(img/act-drawer.jpg)}
+.im-act-tape{background-image:url(img/act-tape.jpg)}
+.im-act-ticket{background-image:url(img/act-ticket.jpg)}
+.im-archive{background-image:url(img/archive.jpg)}
+.im-cg-ellie{background-image:url(img/cg-ellie.jpg)}
+.im-cg-letter{background-image:url(img/cg-letter.jpg)}
+.im-cg-lighthouse{background-image:url(img/cg-lighthouse.jpg)}
+.im-ellie-angry{background-image:url(img/ellie-angry.webp)}
+.im-ellie-crying{background-image:url(img/ellie-crying.webp)}
+.im-ellie-relief{background-image:url(img/ellie-relief.webp)}
+.im-ellie{background-image:url(img/ellie.webp)}
+.im-hospital{background-image:url(img/hospital.jpg)}
+.im-it-finch_note{background-image:url(img/it-finch_note.jpg)}
+.im-it-finch_report{background-image:url(img/it-finch_report.jpg)}
+.im-it-finch_tape{background-image:url(img/it-finch_tape.jpg)}
+.im-it-letter{background-image:url(img/it-letter.jpg)}
+.im-it-ticket{background-image:url(img/it-ticket.jpg)}
+.im-street{background-image:url(img/street.jpg)}
+.se-chi:has(.im-ellie-angry) .ph{display:none}
+.se-chi:has(.im-ellie-crying) .ph{display:none}
+.se-chi:has(.im-ellie-relief) .ph{display:none}
+.se-chi:has(.im-ellie) .ph{display:none}

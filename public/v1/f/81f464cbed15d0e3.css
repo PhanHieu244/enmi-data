@@ -1,0 +1,10 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.im-act-evidence{background-image:url(img/act-evidence.jpg)}
+.im-act-oath{background-image:url(img/act-oath.jpg)}
+.im-cg-dark{background-image:url(img/cg-dark.jpg)}
+.im-cg-finchletter{background-image:url(img/cg-finchletter.jpg)}
+.im-cg-home{background-image:url(img/cg-home.jpg)}
+.im-cg-verdict{background-image:url(img/cg-verdict.jpg)}
+.im-courthall{background-image:url(img/courthall.jpg)}
+.im-finch{background-image:url(img/finch.webp)}
+.se-chi:has(.im-finch) .ph{display:none}
