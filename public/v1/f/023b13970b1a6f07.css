@@ -1,0 +1,23 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.im-act-flask{background-image:url(img/act-flask.jpg)}
+.im-act-hatch{background-image:url(img/act-hatch.jpg)}
+.im-act-lamp-wave{background-image:url(img/act-lamp-wave.jpg)}
+.im-act-phonebox{background-image:url(img/act-phonebox.jpg)}
+.im-act-pocket{background-image:url(img/act-pocket.jpg)}
+.im-act-prints{background-image:url(img/act-prints.jpg)}
+.im-act-tyres{background-image:url(img/act-tyres.jpg)}
+.im-act-wallphoto{background-image:url(img/act-wallphoto.jpg)}
+.im-backgate{background-image:url(img/backgate.jpg)}
+.im-boat{background-image:url(img/boat.jpg)}
+.im-cg-tom-dead{background-image:url(img/cg-tom-dead.jpg)}
+.im-cottage{background-image:url(img/cottage.jpg)}
+.im-dodd-sad{background-image:url(img/dodd-sad.webp)}
+.im-dodd-smile{background-image:url(img/dodd-smile.webp)}
+.im-dodd-worried{background-image:url(img/dodd-worried.webp)}
+.im-dodd{background-image:url(img/dodd.webp)}
+.im-it-draft{background-image:url(img/it-draft.png)}
+.se-chi:has(.im-dodd-sad) .ph{display:none}
+.se-chi:has(.im-dodd-smile) .ph{display:none}
+.se-chi:has(.im-dodd-worried) .ph{display:none}
+.se-chi:has(.im-dodd) .ph{display:none}
+.se-chi:has(.im-it-draft) .ph{display:none}

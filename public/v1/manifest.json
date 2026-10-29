@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-29T16:17:01.188Z",
+ "at": "2026-10-29T16:23:43.325Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -4228,7 +4228,7 @@
     }
    ],
    "count": 0,
-   "size": 14110218,
+   "size": 13679551,
    "badge": "new",
    "title": {
     "vi": "Giữa hai con nước",
@@ -4241,9 +4241,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 14284,
-     "sha256": "25ac9b7a9c068bbca5002c9315b118ed1938bf734f8f5f55d2c5b5858c3345e6",
-     "path": "f/25ac9b7a9c068bbc.css"
+     "size": 16306,
+     "sha256": "dd9467fb5e0bbdd735364f0d745cb20b7b5c267cff4f9a4208c8df1b8678fb2b",
+     "path": "f/dd9467fb5e0bbdd7.css"
     },
     {
      "name": "art.js",
@@ -5176,16 +5176,16 @@
      "path": "f/9d6f0619c3a6bfe1.jpg"
     },
     {
-     "name": "img/anna-pain.jpg",
-     "size": 127925,
-     "sha256": "2559ba481ce9322a67fe734dcec8676b03ce300a8a58a8c195c3d1417f83a384",
-     "path": "f/2559ba481ce9322a.jpg"
+     "name": "img/anna-pain.webp",
+     "size": 116804,
+     "sha256": "96eab826462472935e9e61f24d767773820225f66eaa8e88c711b26c137cdc49",
+     "path": "f/96eab82646247293.webp"
     },
     {
-     "name": "img/anna-smile.jpg",
-     "size": 128276,
-     "sha256": "347aed400cd59bf46dd963d087009341f43ed5271107d40ebeab384298013f96",
-     "path": "f/347aed400cd59bf4.jpg"
+     "name": "img/anna-smile.webp",
+     "size": 117536,
+     "sha256": "3edb7805f825521e4675bf89e7c1f4513d2b99b1423c4778789dbe76e6dd738c",
+     "path": "f/3edb7805f825521e.webp"
     },
     {
      "name": "img/anna.webp",
@@ -5212,46 +5212,46 @@
      "path": "f/5b2032a4324c1cf2.jpg"
     },
     {
-     "name": "img/callum-angry.jpg",
-     "size": 115920,
-     "sha256": "cb3915819c408d667f2901a70792eb22dea4d796e4cb59e03cf71dcb90409350",
-     "path": "f/cb3915819c408d66.jpg"
+     "name": "img/callum-angry.webp",
+     "size": 102996,
+     "sha256": "e2ebbd01cc5d41e6d299a1e3db3dc8ff58aa28a1365ade8a6f5d24bf9795fe4a",
+     "path": "f/e2ebbd01cc5d41e6.webp"
     },
     {
-     "name": "img/callum-ashamed.jpg",
-     "size": 115544,
-     "sha256": "601063ab13bbf63e2d4bd652d7913d3e9701f7e71a2f4288b220c663f296755c",
-     "path": "f/601063ab13bbf63e.jpg"
+     "name": "img/callum-ashamed.webp",
+     "size": 102858,
+     "sha256": "444c64b6d86581bc252351236ae6854be1590a776061749ad406b5d40788d165",
+     "path": "f/444c64b6d86581bc.webp"
     },
     {
-     "name": "img/callum-cold.jpg",
-     "size": 115829,
-     "sha256": "9899240068aca7e52a4297ecf2000475f690cb4b539a535c8297b1a3047885ed",
-     "path": "f/9899240068aca7e5.jpg"
+     "name": "img/callum-cold.webp",
+     "size": 103152,
+     "sha256": "8dd04dbed7f00a73286230563f808a576d491c65bb9a3b9c6048dc1187c7614b",
+     "path": "f/8dd04dbed7f00a73.webp"
     },
     {
-     "name": "img/callum-crying.jpg",
-     "size": 116113,
-     "sha256": "30d0402de49d4b35532202807d7ae348a8f5a228ebb631d13b5f6d02768c61fe",
-     "path": "f/30d0402de49d4b35.jpg"
+     "name": "img/callum-crying.webp",
+     "size": 103884,
+     "sha256": "74890fc2674848295f6687e874510286ed25ebdde132ab428f3907d1f7c54cad",
+     "path": "f/74890fc267484829.webp"
     },
     {
-     "name": "img/callum-sad.jpg",
-     "size": 115382,
-     "sha256": "95d0cfe8b7466b8dec6bcaa4689f5a47af6d39a5973f055edbd097e6aabf24ab",
-     "path": "f/95d0cfe8b7466b8d.jpg"
+     "name": "img/callum-sad.webp",
+     "size": 103274,
+     "sha256": "bbd0681d74cbd1476e06cfa0995444113e2da671aa311ab843b610c5d70d69df",
+     "path": "f/bbd0681d74cbd147.webp"
     },
     {
-     "name": "img/callum-scared.jpg",
-     "size": 115935,
-     "sha256": "c2252a02d1c0b801e0900e70ff83d58df2ee858457deb75e07232cc43143bba8",
-     "path": "f/c2252a02d1c0b801.jpg"
+     "name": "img/callum-scared.webp",
+     "size": 102902,
+     "sha256": "bdf72287eab75c7737f745069afc34cb0822d4224d12e88462363e9e57b45c3a",
+     "path": "f/bdf72287eab75c77.webp"
     },
     {
-     "name": "img/callum-soft.jpg",
-     "size": 113901,
-     "sha256": "033d0214a3fe52fdddfef3028e1a844a6a924bb45d06c90c95a03797d0ca6d86",
-     "path": "f/033d0214a3fe52fd.jpg"
+     "name": "img/callum-soft.webp",
+     "size": 102294,
+     "sha256": "f988ec5f7120592fdec435ed1a31d880b2a2a87b03c2733ae68dbe1ab5c9cb10",
+     "path": "f/f988ec5f7120592f.webp"
     },
     {
      "name": "img/callum.webp",
@@ -5260,16 +5260,16 @@
      "path": "f/3641e5515823bec8.webp"
     },
     {
-     "name": "img/callum14-crying.jpg",
-     "size": 69860,
-     "sha256": "515c0bc05f05c98b75ebf2d9e13ea22814e8ec837fde488813acd4c018a95be9",
-     "path": "f/515c0bc05f05c98b.jpg"
+     "name": "img/callum14-crying.webp",
+     "size": 65434,
+     "sha256": "6fe0d698317537089a1455b13b9d8622b657eed6fc03cf2581b650399ba38545",
+     "path": "f/6fe0d69831753708.webp"
     },
     {
-     "name": "img/callum14-scared.jpg",
-     "size": 68937,
-     "sha256": "00136bcb2fef5dbb3843555cf5bcc242cd6bc5941ea254cb03fa28fe2ae3f898",
-     "path": "f/00136bcb2fef5dbb.jpg"
+     "name": "img/callum14-scared.webp",
+     "size": 62782,
+     "sha256": "6273be09db730f4ea7a9e9a09a4913c7783e901551b6f332112f42a085a5b767",
+     "path": "f/6273be09db730f4e.webp"
     },
     {
      "name": "img/callum14.webp",
@@ -5374,28 +5374,28 @@
      "path": "f/cfc2bd70f73ba8d5.jpg"
     },
     {
-     "name": "img/fergus-angry.jpg",
-     "size": 99965,
-     "sha256": "eaaa1e7cfcb0846e88ecf75ac3838e8b8b528f4f618779c56de3823888bc0d5c",
-     "path": "f/eaaa1e7cfcb0846e.jpg"
+     "name": "img/fergus-angry.webp",
+     "size": 82224,
+     "sha256": "699c3254b8710d15bc4f6f20c3ea121892ab17a0ecccea721bdf3111948ee70e",
+     "path": "f/699c3254b8710d15.webp"
     },
     {
-     "name": "img/fergus-sad.jpg",
-     "size": 94246,
-     "sha256": "a7ea94ad5239122fd84410fb65f9b18e7e3a1929baee30ef3b3f0d691c539aee",
-     "path": "f/a7ea94ad5239122f.jpg"
+     "name": "img/fergus-sad.webp",
+     "size": 80322,
+     "sha256": "d485910f9a4c35b47419d6efae2fd71abf873533d043d1acfda27478730f05b9",
+     "path": "f/d485910f9a4c35b4.webp"
     },
     {
-     "name": "img/fergus-smile.jpg",
-     "size": 94439,
-     "sha256": "bb70bcf4da10ccad8b206c36e002119dc68677ee982eb302b4d0e0fe355fb02c",
-     "path": "f/bb70bcf4da10ccad.jpg"
+     "name": "img/fergus-smile.webp",
+     "size": 80394,
+     "sha256": "86b74e1911f9985f3ad16f20e898f8cf93f4723fcae36c93c9dc3b3a5b944c66",
+     "path": "f/86b74e1911f9985f.webp"
     },
     {
-     "name": "img/fergus-surprised.jpg",
-     "size": 99265,
-     "sha256": "75bfaea21e7663a6b1cd79b3f18628a803fca2f5844bdb38650a1bdbd3fe348a",
-     "path": "f/75bfaea21e7663a6.jpg"
+     "name": "img/fergus-surprised.webp",
+     "size": 82768,
+     "sha256": "74363671b15b4bf439e4941828448b5d92942d05a3e5445e9619a5aa68eda434",
+     "path": "f/74363671b15b4bf4.webp"
     },
     {
      "name": "img/fergus.webp",
@@ -5404,34 +5404,34 @@
      "path": "f/67b27e84508a812b.webp"
     },
     {
-     "name": "img/gideon-angry.jpg",
-     "size": 100280,
-     "sha256": "4159aaef252af1a26dcd0e553f915c2d48f6b717cd74c22ba765458e9d8a0cea",
-     "path": "f/4159aaef252af1a2.jpg"
+     "name": "img/gideon-angry.webp",
+     "size": 91302,
+     "sha256": "9b82e37b731567e71fc867b9c9b91d6e477fd800cc4a44d6b0b9b019d574bcef",
+     "path": "f/9b82e37b731567e7.webp"
     },
     {
-     "name": "img/gideon-cold.jpg",
-     "size": 104144,
-     "sha256": "ab48d43011a84d5beb2041fa99603cf4174a9da8515f053d24b1f830ad68e880",
-     "path": "f/ab48d43011a84d5b.jpg"
+     "name": "img/gideon-cold.webp",
+     "size": 94616,
+     "sha256": "b9ed3f0769e079f7c820024c0566c725b2cfbe9ca24d5823ab419c9c68d2bbce",
+     "path": "f/b9ed3f0769e079f7.webp"
     },
     {
-     "name": "img/gideon-relieved.jpg",
-     "size": 121718,
-     "sha256": "ac62ba3aaf93502e4ae19019b61ed5a4fb441a79925298c073c565cd33512323",
-     "path": "f/ac62ba3aaf93502e.jpg"
+     "name": "img/gideon-relieved.webp",
+     "size": 104944,
+     "sha256": "c0ff562aa4e6e0a29c039947c5da8c6e973af29d8dce20c2f4b71902200f37e2",
+     "path": "f/c0ff562aa4e6e0a2.webp"
     },
     {
-     "name": "img/gideon-sad.jpg",
-     "size": 102105,
-     "sha256": "f4400f49a93ad44de13c267cfe893f88d4747256166e7ff1e3b45bafd617a84a",
-     "path": "f/f4400f49a93ad44d.jpg"
+     "name": "img/gideon-sad.webp",
+     "size": 90042,
+     "sha256": "1562245babf3ec071b1176e0ca1fc7bd9e3c20f15097266a94928320f9f7c3b7",
+     "path": "f/1562245babf3ec07.webp"
     },
     {
-     "name": "img/gideon-scared.jpg",
-     "size": 104081,
-     "sha256": "6882e1984af755312c271f2d7e09199581c7579cf461f74b0a74ed4ecd8e72f6",
-     "path": "f/6882e1984af75531.jpg"
+     "name": "img/gideon-scared.webp",
+     "size": 91364,
+     "sha256": "d4e43337a69af93f8ac62dda2acaee446e7552bc8faebf6dfe9c61346e16891a",
+     "path": "f/d4e43337a69af93f.webp"
     },
     {
      "name": "img/gideon.webp",
@@ -5452,34 +5452,34 @@
      "path": "f/227ba9345b6ceb1e.jpg"
     },
     {
-     "name": "img/helen-ashamed.jpg",
-     "size": 99677,
-     "sha256": "ca53740d59d2e9e3d4288b4f0b6586f7cc425c67fd79c92a9d519af1eddc4507",
-     "path": "f/ca53740d59d2e9e3.jpg"
+     "name": "img/helen-ashamed.webp",
+     "size": 87268,
+     "sha256": "9c6c9f13179db45db1f7c36a42447f61db338fb302d17446019cbb970f3bccf8",
+     "path": "f/9c6c9f13179db45d.webp"
     },
     {
-     "name": "img/helen-cold.jpg",
-     "size": 100492,
-     "sha256": "017b1607df761c23776f958ff4b7ca558945b3756c65ced9c4653aae129d4699",
-     "path": "f/017b1607df761c23.jpg"
+     "name": "img/helen-cold.webp",
+     "size": 90026,
+     "sha256": "e0a54db328d33b571a57081b7cce5ffac57fa64eac4a9db8a289b5e49e04bcd6",
+     "path": "f/e0a54db328d33b57.webp"
     },
     {
-     "name": "img/helen-crying.jpg",
-     "size": 101108,
-     "sha256": "f832fca571f07b35417f1344595b042b4d30c3dbca4458420f41561b19daa716",
-     "path": "f/f832fca571f07b35.jpg"
+     "name": "img/helen-crying.webp",
+     "size": 90628,
+     "sha256": "f5f325842734d9a1712a005c6196fa52510abbf90bfe7b3c479d3ebb66dcf199",
+     "path": "f/f5f325842734d9a1.webp"
     },
     {
-     "name": "img/helen-sad.jpg",
-     "size": 99335,
-     "sha256": "0585d286d454d1c77ba5e6cf7a69cc06317b5bfeda5f184dcffa9f25317a961b",
-     "path": "f/0585d286d454d1c7.jpg"
+     "name": "img/helen-sad.webp",
+     "size": 90742,
+     "sha256": "3491717321888f34f5f2f72067c74b01c19b29a4764247e7fad55f6bda3572ef",
+     "path": "f/3491717321888f34.webp"
     },
     {
-     "name": "img/helen-scared.jpg",
-     "size": 101575,
-     "sha256": "add59b52df3bae7364b866e56fb090d97f2f64c4c91a9bfc86a0d4276f34215d",
-     "path": "f/add59b52df3bae73.jpg"
+     "name": "img/helen-scared.webp",
+     "size": 92696,
+     "sha256": "55146f693f6fdc4dd41d864c92f79d514ad09bdb2d9aa496862e34ed6b88d31c",
+     "path": "f/55146f693f6fdc4d.webp"
     },
     {
      "name": "img/helen.webp",
@@ -5554,40 +5554,40 @@
      "path": "f/fa9da08837982d9c.jpg"
     },
     {
-     "name": "img/leo-angry.jpg",
-     "size": 106965,
-     "sha256": "06047ed707f0727fa777b022f610ddd258307dc4cd5e79cccbe8088701eef070",
-     "path": "f/06047ed707f0727f.jpg"
+     "name": "img/leo-angry.webp",
+     "size": 94982,
+     "sha256": "0a21df04a1375b78d0c65f46e111952693e924e1e62bfa05ab4e42a8c2389f65",
+     "path": "f/0a21df04a1375b78.webp"
     },
     {
-     "name": "img/leo-cold.jpg",
-     "size": 106459,
-     "sha256": "bf616d86d722e22e7671aac257b6a4daa4b7132bea18fab686d7f547ed67ac0b",
-     "path": "f/bf616d86d722e22e.jpg"
+     "name": "img/leo-cold.webp",
+     "size": 94276,
+     "sha256": "846511966ce9f42c4ad0bb23e241b390ca04599b182d3fc1a3a933238b5fa91d",
+     "path": "f/846511966ce9f42c.webp"
     },
     {
-     "name": "img/leo-determined.jpg",
-     "size": 106967,
-     "sha256": "4d3a8092858e01616bda7c2ae3ab201f30e4d41ed75097e390c30a46bb6b0cc8",
-     "path": "f/4d3a8092858e0161.jpg"
+     "name": "img/leo-determined.webp",
+     "size": 95436,
+     "sha256": "2b37b3173bd61500e91f27504a418f5e6796709d2acae2da438f9b8f1f1c3904",
+     "path": "f/2b37b3173bd61500.webp"
     },
     {
-     "name": "img/leo-sad.jpg",
-     "size": 106496,
-     "sha256": "b0610676d607e0bae330ff0fac8909570582c831fe1a9080c7a0e0fa73a91899",
-     "path": "f/b0610676d607e0ba.jpg"
+     "name": "img/leo-sad.webp",
+     "size": 94956,
+     "sha256": "ca53572dcbf75720e88d8d769b4e646cabac56c309a45279bd8a31c0ac29bf29",
+     "path": "f/ca53572dcbf75720.webp"
     },
     {
-     "name": "img/leo-soft.jpg",
-     "size": 105851,
-     "sha256": "d93d29d29c167ad1659b0af1a72414128075519450091fb22e76eef941451201",
-     "path": "f/d93d29d29c167ad1.jpg"
+     "name": "img/leo-soft.webp",
+     "size": 94006,
+     "sha256": "cba853ca85943e83417024d4d502320f80a4bac5f6d4bce1f990d648c7ecc4be",
+     "path": "f/cba853ca85943e83.webp"
     },
     {
-     "name": "img/leo-surprised.jpg",
-     "size": 106901,
-     "sha256": "e6294e1121ecebb57f7ba24c96b8c740f1cf13a9237738f7ee7fc101915be161",
-     "path": "f/e6294e1121ecebb5.jpg"
+     "name": "img/leo-surprised.webp",
+     "size": 94960,
+     "sha256": "c623f25f75a827495ab85aacb3d5747bc2172ad8fa37a0bd3d8c3bd8594c8eff",
+     "path": "f/c623f25f75a82749.webp"
     },
     {
      "name": "img/leo.webp",
@@ -5596,46 +5596,46 @@
      "path": "f/5652b8e4d7b991d9.webp"
     },
     {
-     "name": "img/nell-broken.jpg",
-     "size": 105679,
-     "sha256": "a9033791ee93d17da09a9e7ed918e640c0d4f62a0b531326949753e246f5012b",
-     "path": "f/a9033791ee93d17d.jpg"
+     "name": "img/nell-broken.webp",
+     "size": 103070,
+     "sha256": "f7c57da4511abf4238cccdbce75232b8a09affe35fdf601d0ca4ec25cd963d66",
+     "path": "f/f7c57da4511abf42.webp"
     },
     {
-     "name": "img/nell-cold.jpg",
-     "size": 104758,
-     "sha256": "7c3abec074db3303952ee15d4d854780e5d283caaa23621d71f9fcb78be88e04",
-     "path": "f/7c3abec074db3303.jpg"
+     "name": "img/nell-cold.webp",
+     "size": 101762,
+     "sha256": "c57d660e2ec109491f1115e9b8f36d6311c4edae6a840901aae48655cd0ad5d9",
+     "path": "f/c57d660e2ec10949.webp"
     },
     {
-     "name": "img/nell-crying.jpg",
-     "size": 104649,
-     "sha256": "a0b4855aabe78fca02e5d14a3f7af68a1f72c5fb2a6c01e755498416c0cdac80",
-     "path": "f/a0b4855aabe78fca.jpg"
+     "name": "img/nell-crying.webp",
+     "size": 102064,
+     "sha256": "9d96eef5144261f5fc556b7bcadd7d0c6e9e9a3b882d317a3c91af1ed5073990",
+     "path": "f/9d96eef5144261f5.webp"
     },
     {
-     "name": "img/nell-pleading.jpg",
-     "size": 111551,
-     "sha256": "a844496ca6c5686b7631c2021a49b4b6cd3003c256d44103024816ce74e0dd3d",
-     "path": "f/a844496ca6c5686b.jpg"
+     "name": "img/nell-pleading.webp",
+     "size": 108818,
+     "sha256": "4ec2b0415e24a44a756cfdb132a8ee87232599fdcab80fed1f4d92f2c6abbdd1",
+     "path": "f/4ec2b0415e24a44a.webp"
     },
     {
-     "name": "img/nell-sad.jpg",
-     "size": 104171,
-     "sha256": "e68097f190adb0c0b8bc5bb006e8e31561d84bb39895f39837c71a65f996ee39",
-     "path": "f/e68097f190adb0c0.jpg"
+     "name": "img/nell-sad.webp",
+     "size": 101752,
+     "sha256": "fa09af61a0515578ebf436bf3f1faa2549c7b1dba3663a97029004b6197fd5fc",
+     "path": "f/fa09af61a0515578.webp"
     },
     {
-     "name": "img/nell-scared.jpg",
-     "size": 105047,
-     "sha256": "9d1b5d668846296a5f3201369425d99ceb78fb62494b28597b885182f124a75f",
-     "path": "f/9d1b5d668846296a.jpg"
+     "name": "img/nell-scared.webp",
+     "size": 101666,
+     "sha256": "32a1fc21672cb894ce52a2ba1dd45091004a5f3a30e4c43408b63b727d6c34ec",
+     "path": "f/32a1fc21672cb894.webp"
     },
     {
-     "name": "img/nell-surprised.jpg",
-     "size": 104618,
-     "sha256": "caaabc55bd5d916ffdceb752e8988ee4a0b3b5b627449ce145d853d5e73b68b5",
-     "path": "f/caaabc55bd5d916f.jpg"
+     "name": "img/nell-surprised.webp",
+     "size": 102136,
+     "sha256": "cbc0628f5f6221ce7dea82f3b46ba5e978c40f1018e75ca0045a50c5692c6263",
+     "path": "f/cbc0628f5f6221ce.webp"
     },
     {
      "name": "img/nell.webp",
@@ -5650,28 +5650,28 @@
      "path": "f/7f267f2b4355b281.jpg"
     },
     {
-     "name": "img/tom-cold.jpg",
-     "size": 107052,
-     "sha256": "987efed8c8e0c12313dec2d708f7ffd126870601640dde8b99924ab8e8ba149f",
-     "path": "f/987efed8c8e0c123.jpg"
+     "name": "img/tom-cold.webp",
+     "size": 95056,
+     "sha256": "e2f8b8952526e2ed5fb05d0e97413808356ef05be4ae447018017e9b5e8dc75c",
+     "path": "f/e2f8b8952526e2ed.webp"
     },
     {
-     "name": "img/tom-sad.jpg",
-     "size": 105366,
-     "sha256": "385f23abdb07cd63f77f4b060d2f9c2d5b49cd7970fedc81cf50e8c0c4a12f1c",
-     "path": "f/385f23abdb07cd63.jpg"
+     "name": "img/tom-sad.webp",
+     "size": 93046,
+     "sha256": "414b60b0723edaf31f0d858b8a7e78f7a89cd020407241ef31bdddea32eff128",
+     "path": "f/414b60b0723edaf3.webp"
     },
     {
-     "name": "img/tom-soft.jpg",
-     "size": 106964,
-     "sha256": "d90a8ff462eed1d6040e668e622d08da81aeada2a67a0e835a3d1960d76935d9",
-     "path": "f/d90a8ff462eed1d6.jpg"
+     "name": "img/tom-soft.webp",
+     "size": 94360,
+     "sha256": "d0ea98d5854c4e55ff4f749fa80af27e1998d4ffefe48f56576361dbc08c7a7e",
+     "path": "f/d0ea98d5854c4e55.webp"
     },
     {
-     "name": "img/tom-tired.jpg",
-     "size": 106511,
-     "sha256": "7ae4a977bd64b8a0e95482c2af00bea90eadc5a207b613101d3abe0563dc1185",
-     "path": "f/7ae4a977bd64b8a0.jpg"
+     "name": "img/tom-tired.webp",
+     "size": 93770,
+     "sha256": "afa60ad10a38aa6081ac3870d5853a7a4876cdf3dad67b7855e57d48317ae580",
+     "path": "f/afa60ad10a38aa60.webp"
     },
     {
      "name": "img/tom.webp",
@@ -5746,7 +5746,7 @@
      "path": "f/d82ade359c7ae0ec.css"
     }
    ],
-   "ver": "2bada319b6",
+   "ver": "0e31247fbb",
    "up": "2026-10-29"
   },
   {
@@ -5760,13 +5760,13 @@
     "vi": "Ngọn đèn trong chòi"
    },
    "count": 0,
-   "size": 2015281,
+   "size": 1956896,
    "files": [
     {
      "name": "art-ch2.css",
-     "size": 1114,
-     "sha256": "aa1f4d997ed6afc34ea6c0157fc5e6989ca47404f89a571d41c50d0d34777ba7",
-     "path": "f/aa1f4d997ed6afc3.css"
+     "size": 1255,
+     "sha256": "023b13970b1a6f073d737ed4889ec5192586afcaf5f72a1aa8a5de0179612212",
+     "path": "f/023b13970b1a6f07.css"
     },
     {
      "name": "img/act-flask.jpg",
@@ -5841,22 +5841,22 @@
      "path": "f/cc333d2a106589ac.jpg"
     },
     {
-     "name": "img/dodd-sad.jpg",
-     "size": 119437,
-     "sha256": "44905b0797ce59c4cb50861ca154260031bd980274332bfa6cb990b153a18542",
-     "path": "f/44905b0797ce59c4.jpg"
+     "name": "img/dodd-sad.webp",
+     "size": 100204,
+     "sha256": "c85090108f645a1a5a6a5cb7137c7aeb5076647b170aecc00fd6716f7df18a8c",
+     "path": "f/c85090108f645a1a.webp"
     },
     {
-     "name": "img/dodd-smile.jpg",
-     "size": 120992,
-     "sha256": "425118c28c02940cc6a36072f20add0a8f59454a5d12ef4e435b1859daebd5c7",
-     "path": "f/425118c28c02940c.jpg"
+     "name": "img/dodd-smile.webp",
+     "size": 101256,
+     "sha256": "f5dde7be1d2c1f07042ba5f1db655290ea4863587f39b3d0f2cfb20d50d82c76",
+     "path": "f/f5dde7be1d2c1f07.webp"
     },
     {
-     "name": "img/dodd-worried.jpg",
-     "size": 120337,
-     "sha256": "3de1743a75a61beeeab9e3426cde19390ffb69695e5e6929d49ad6a439e61ca5",
-     "path": "f/3de1743a75a61bee.jpg"
+     "name": "img/dodd-worried.webp",
+     "size": 100780,
+     "sha256": "d1f575198e6f368b93651f54a6d33fa53aacac22fde51981a5acf4f3ddef5fc1",
+     "path": "f/d1f575198e6f368b.webp"
     },
     {
      "name": "img/dodd.webp",
@@ -5877,7 +5877,7 @@
      "path": "f/34cee6c47dd5759e.js"
     }
    ],
-   "ver": "4dc9fa46fe",
+   "ver": "9b5dfbf2f7",
    "up": "2026-10-29"
   },
   {
