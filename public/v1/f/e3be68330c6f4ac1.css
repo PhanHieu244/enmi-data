@@ -1,0 +1,9 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.im-act-bottle-hand{background-image:url(img/act-bottle-hand.jpg)}
+.im-act-cutting{background-image:url(img/act-cutting.jpg)}
+.im-act-label{background-image:url(img/act-label.jpg)}
+.im-backroom{background-image:url(img/backroom.jpg)}
+.im-cg-photo-seat{background-image:url(img/cg-photo-seat.jpg)}
+.im-it-vial{background-image:url(img/it-vial.png)}
+.im-lifeboat{background-image:url(img/lifeboat.jpg)}
+.se-chi:has(.im-it-vial) .ph{display:none}
