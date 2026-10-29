@@ -1,0 +1,67 @@
+{
+ "vi": {
+  "how": "Xem nghĩa rồi chạm các ô chữ theo đúng thứ tự để ghép thành từ. Ghép liền tay để được combo.",
+  "ask": "Nghĩa:",
+  "sub": "Ghép đúng {n} từ"
+ },
+ "en": {
+  "how": "See the meaning, then tap the letters in order to build the word. Keep going for combos.",
+  "ask": "Meaning:",
+  "sub": "{n} words spelled"
+ },
+ "de": {
+  "how": "Sieh dir die Bedeutung an und tippe die Buchstaben in der richtigen Reihenfolge. Mach weiter für Combos.",
+  "ask": "Bedeutung:",
+  "sub": "{n} Wörter gebaut"
+ },
+ "es": {
+  "how": "Mira el significado y toca las letras en orden para formar la palabra. Sigue para hacer combos.",
+  "ask": "Significado:",
+  "sub": "{n} palabras formadas"
+ },
+ "fr": {
+  "how": "Lis le sens, puis touche les lettres dans l'ordre pour former le mot. Enchaîne pour des combos.",
+  "ask": "Sens :",
+  "sub": "{n} mots formés"
+ },
+ "hi": {
+  "how": "अर्थ देखें, फिर सही क्रम में अक्षर छूकर शब्द बनाएँ। लगातार बनाएँ तो कॉम्बो।",
+  "ask": "अर्थ:",
+  "sub": "{n} शब्द बनाए"
+ },
+ "id": {
+  "how": "Lihat artinya, lalu ketuk huruf sesuai urutan untuk menyusun kata. Terus beruntun untuk kombo.",
+  "ask": "Arti:",
+  "sub": "{n} kata tersusun"
+ },
+ "ja": {
+  "how": "意味を見て、文字を順番にタップして単語を作ろう。続けて正解するとコンボ！",
+  "ask": "意味：",
+  "sub": "{n}語つくれた"
+ },
+ "ko": {
+  "how": "뜻을 보고 글자를 순서대로 눌러 단어를 만들어요. 연속으로 맞히면 콤보!",
+  "ask": "뜻:",
+  "sub": "{n}개 단어 완성"
+ },
+ "pt": {
+  "how": "Veja o significado e toque nas letras na ordem para formar a palavra. Siga acertando para fazer combos.",
+  "ask": "Significado:",
+  "sub": "{n} palavras formadas"
+ },
+ "ru": {
+  "how": "Посмотри на значение и нажимай буквы по порядку, чтобы собрать слово. Без ошибок — комбо.",
+  "ask": "Значение:",
+  "sub": "Собрано слов: {n}"
+ },
+ "th": {
+  "how": "ดูความหมาย แล้วแตะตัวอักษรตามลำดับให้เป็นคำ ทำต่อเนื่องได้คอมโบ",
+  "ask": "ความหมาย:",
+  "sub": "สะกดได้ {n} คำ"
+ },
+ "zh": {
+  "how": "看意思，按顺序点字母拼出单词。连续拼对有连击！",
+  "ask": "意思：",
+  "sub": "拼对 {n} 个词"
+ }
+}

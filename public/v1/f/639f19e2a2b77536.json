@@ -1,0 +1,67 @@
+{
+ "vi": {
+  "how": "Thẻ có từ và 1 nghĩa. Nghĩa đúng thì vuốt phải hoặc chạm ✓, sai thì vuốt trái hoặc chạm ✕. Nhanh tay lên!",
+  "ask": "Nghĩa:",
+  "sub": "Đúng {n} thẻ · chính xác {p}%"
+ },
+ "en": {
+  "how": "Each card shows a word and a meaning. Right? Swipe right or tap ✓. Wrong? Swipe left or tap ✕. Be quick!",
+  "ask": "Meaning:",
+  "sub": "{n} right · {p}% accuracy"
+ },
+ "de": {
+  "how": "Jede Karte zeigt ein Wort und eine Bedeutung. Stimmt? Nach rechts wischen oder ✓. Falsch? Nach links oder ✕. Schnell!",
+  "ask": "Bedeutung:",
+  "sub": "{n} richtig · {p} % Trefferquote"
+ },
+ "es": {
+  "how": "Cada tarjeta muestra una palabra y un significado. ¿Correcto? Desliza a la derecha o ✓. ¿Incorrecto? A la izquierda o ✕. ¡Rápido!",
+  "ask": "Significado:",
+  "sub": "{n} aciertos · {p} % de precisión"
+ },
+ "fr": {
+  "how": "Chaque carte montre un mot et un sens. Juste ? Glisse à droite ou ✓. Faux ? À gauche ou ✕. Vite !",
+  "ask": "Sens :",
+  "sub": "{n} justes · {p} % de précision"
+ },
+ "hi": {
+  "how": "हर कार्ड पर एक शब्द और एक अर्थ है। सही हो तो दाएँ स्वाइप या ✓, गलत हो तो बाएँ या ✕। जल्दी करें!",
+  "ask": "अर्थ:",
+  "sub": "{n} सही · {p}% सटीक"
+ },
+ "id": {
+  "how": "Tiap kartu berisi kata dan arti. Benar? Geser kanan atau ✓. Salah? Geser kiri atau ✕. Cepat!",
+  "ask": "Arti:",
+  "sub": "{n} benar · akurasi {p}%"
+ },
+ "ja": {
+  "how": "カードに単語と意味が出ます。正しければ右へスワイプか ✓、違えば左か ✕。すばやく！",
+  "ask": "意味：",
+  "sub": "正解 {n}・正確さ {p}%"
+ },
+ "ko": {
+  "how": "카드에 단어와 뜻이 나와요. 맞으면 오른쪽으로 밀거나 ✓, 틀리면 왼쪽이나 ✕. 빨리!",
+  "ask": "뜻:",
+  "sub": "{n}개 정답 · 정확도 {p}%"
+ },
+ "pt": {
+  "how": "Cada cartão mostra uma palavra e um significado. Certo? Deslize para a direita ou ✓. Errado? Para a esquerda ou ✕. Rápido!",
+  "ask": "Significado:",
+  "sub": "{n} acertos · {p}% de precisão"
+ },
+ "ru": {
+  "how": "На карточке слово и значение. Верно — свайп вправо или ✓, неверно — влево или ✕. Быстрее!",
+  "ask": "Значение:",
+  "sub": "Верно: {n} · точность {p}%"
+ },
+ "th": {
+  "how": "การ์ดมีคำกับความหมาย ถูกให้ปัดขวาหรือแตะ ✓ ผิดให้ปัดซ้ายหรือ ✕ เร็วเข้า!",
+  "ask": "ความหมาย:",
+  "sub": "ถูก {n} · แม่นยำ {p}%"
+ },
+ "zh": {
+  "how": "每张卡有一个词和一个意思。对就右滑或点 ✓，错就左滑或点 ✕。要快！",
+  "ask": "意思：",
+  "sub": "答对 {n} · 准确率 {p}%"
+ }
+}

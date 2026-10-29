@@ -1,0 +1,22 @@
+:root { --g1: #38bdf8; --g2: #0c2a5c; --ga: #60a5fa; }
+.gk-stage { display: flex; flex-direction: column; min-height: 220px; }
+.sky { position: relative; flex: 1; min-height: 150px; }
+.sky .str { position: absolute; inset: 0; width: 100%; height: 100%; }
+.bl { position: absolute; width: 46px; height: 56px; margin-left: -23px; border-radius: 50% 50% 48% 48%; background: radial-gradient(circle at 34% 30%, rgba(255,255,255,.65), transparent 34%), var(--c); box-shadow: inset -6px -8px 0 rgba(0,0,0,.12); animation: blF 3s ease-in-out infinite; animation-delay: var(--d); }
+.bl::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 8px; height: 7px; margin-left: -4px; background: var(--c); clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+@keyframes blF { 50% { transform: translateY(-6px) rotate(3deg); } }
+.botw { position: absolute; left: 50%; width: 64px; margin-left: -32px; transform: translateY(-100%); transition: top .5s cubic-bezier(.3,1.4,.5,1); }
+.botw .bot { display: block; width: 64px; height: 64px; }
+.botw.low { animation: shk .4s ease-in-out infinite; }
+@keyframes shk { 50% { transform: translateY(-100%) rotate(6deg); } }
+.botw.fall { top: 130% !important; transition: top 1s ease-in; }
+.word { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 10px 16px 14px; }
+.word b { min-width: 32px; height: 42px; padding: 0 4px; display: grid; place-items: center; border-bottom: 4px solid rgba(255,255,255,.7); font-size: 26px; font-weight: 900; }
+.word b.on { animation: wIn .25s cubic-bezier(.2,1.6,.4,1); }
+@keyframes wIn { from { transform: scale(.4); } }
+.word .sp { width: 14px; }
+.keys { display: flex; flex-wrap: wrap; justify-content: center; gap: 7px; padding: 0 12px; }
+.keys button { min-width: 42px; height: 46px; padding: 0 6px; border: 0; border-radius: 12px; background: #fff; color: #0c2a5c; font-family: inherit; font-weight: 900; font-size: 20px; line-height: 1; box-shadow: 0 4px 0 rgba(0,0,0,.25); cursor: pointer; }
+.keys button:active { transform: translateY(3px); box-shadow: 0 1px 0 rgba(0,0,0,.25); }
+.keys .ok { background: #22c55e; color: #fff; pointer-events: none; }
+.keys .no { background: rgba(255,255,255,.15); color: rgba(255,255,255,.4); pointer-events: none; box-shadow: none; }

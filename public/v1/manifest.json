@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-28T23:33:38.253Z",
+ "at": "2026-10-29T05:13:50.586Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -854,139 +854,6 @@
    "up": "2026-10-27"
   },
   {
-   "id": "game.meteor",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [
-    "shield",
-    "slow",
-    "bomb",
-    "hint"
-   ],
-   "rewards": "shared",
-   "cover": {
-    "c1": "#1e1b4b",
-    "c2": "#7c3aed"
-   },
-   "count": 0,
-   "size": 31392,
-   "badge": "beta",
-   "title": {
-    "vi": "Mưa sao từ",
-    "en": "Word Meteors"
-   },
-   "desc": {
-    "vi": "Sao băng mang từ đang rơi — chạm đúng sao có nghĩa ở dưới. Combo, vật phẩm từ rương học tập.",
-    "en": "Meteors carry words — tap the one that matches the meaning. Combos and power-ups from your study chests."
-   },
-   "files": [
-    {
-     "name": "game.css",
-     "size": 4969,
-     "sha256": "071fc66b739cc2383779be5d232f1f8bd631891ce9af621f94c25d241aa940a8",
-     "path": "f/071fc66b739cc238.css"
-    },
-    {
-     "name": "game.js",
-     "size": 12754,
-     "sha256": "427fc7549469389f4b962a9f06596f8754b7dc96d3e9e6b8cac03855d9a3d06e",
-     "path": "f/427fc7549469389f.js"
-    },
-    {
-     "name": "index.html",
-     "size": 600,
-     "sha256": "168870ff5e80f27669148978262e7f8d6680effd58f3940d7b1524c768c0a989",
-     "path": "f/168870ff5e80f276.html"
-    },
-    {
-     "name": "strings.json",
-     "size": 986,
-     "sha256": "b11f245a170040c8e98a4a8dd1546c075f7e019f27fe73b76003996512d3b490",
-     "path": "f/b11f245a170040c8.json"
-    },
-    {
-     "name": "lib/fx.js",
-     "size": 12083,
-     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
-     "path": "f/850195fa3369c9ac.js"
-    }
-   ],
-   "shots": [
-    "f/eeee7cd95b048333.jpg",
-    "f/42efae1f8e62875f.jpg"
-   ],
-   "ver": "bce450c98c",
-   "up": "2026-10-28"
-  },
-  {
-   "id": "game.pairs",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [
-    "hint",
-    "slow",
-    "bomb"
-   ],
-   "rewards": "shared",
-   "cover": {
-    "c1": "#f472b6",
-    "c2": "#f59e0b"
-   },
-   "count": 0,
-   "size": 28400,
-   "badge": "beta",
-   "title": {
-    "vi": "Lật cặp",
-    "en": "Flip Pairs"
-   },
-   "desc": {
-    "vi": "Lật thẻ ghép từ với nghĩa trước khi hết giờ. Ghép liền tay để được combo.",
-    "en": "Flip cards to match words with their meanings before time runs out. Match in a row for combos."
-   },
-   "files": [
-    {
-     "name": "game.css",
-     "size": 7108,
-     "sha256": "fb11a46db34d46e80ff8fea0922dfb0df7a049823ade578d6e032a7f86b02356",
-     "path": "f/fb11a46db34d46e8.css"
-    },
-    {
-     "name": "game.js",
-     "size": 7609,
-     "sha256": "6ddca4281f4de0673ffd1c751bd48a007215052c09bfd9c8ebc56f1b0732fb30",
-     "path": "f/6ddca4281f4de067.js"
-    },
-    {
-     "name": "index.html",
-     "size": 614,
-     "sha256": "a2b36608c3a3422f61e508752a63e63f63535b3e2aa6a233ad1df995130c9b9b",
-     "path": "f/a2b36608c3a3422f.html"
-    },
-    {
-     "name": "strings.json",
-     "size": 986,
-     "sha256": "9ec7f220af316ee47fbd6074ba9cb90cbcd299345850eb3a048aed0b3016fd68",
-     "path": "f/9ec7f220af316ee4.json"
-    },
-    {
-     "name": "lib/fx.js",
-     "size": 12083,
-     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
-     "path": "f/850195fa3369c9ac.js"
-    }
-   ],
-   "shots": [
-    "f/241fc965edaa3207.jpg",
-    "f/28d6c81675baa1b5.jpg"
-   ],
-   "ver": "7ed22bafd6",
-   "up": "2026-10-28"
-  },
-  {
    "id": "font.atkinson",
    "kind": "font",
    "title": {
@@ -1536,6 +1403,1145 @@
    "up": "2026-10-28"
   },
   {
+   "id": "game.balloon",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "hint",
+    "shield",
+    "bomb"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#38bdf8",
+    "c2": "#1d4ed8"
+   },
+   "count": 0,
+   "size": 57280,
+   "badge": "new",
+   "title": {
+    "vi": "Cứu bóng bay",
+    "en": "Balloon Rescue",
+    "de": "Ballonrettung",
+    "es": "Rescate en globo",
+    "fr": "Sauvetage en ballon",
+    "hi": "गुब्बारा बचाओ",
+    "id": "Selamatkan Balon",
+    "ja": "風船レスキュー",
+    "ko": "풍선 구조대",
+    "pt": "Resgate de balões",
+    "ru": "Спаси шарики",
+    "th": "กู้ภัยลูกโป่ง",
+    "zh": "气球救援"
+   },
+   "desc": {
+    "vi": "Đoán từ theo nghĩa bằng từng chữ cái — mỗi lần sai, một quả bóng nâng Enmi bị vỡ.",
+    "en": "Guess the word letter by letter — each miss pops a balloon holding Enmi up."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 2273,
+     "sha256": "c573f14d8104b5476e81c021d7f03d3c391c61384884293085803cd2f18bbaa3",
+     "path": "f/c573f14d8104b547.css"
+    },
+    {
+     "name": "game.js",
+     "size": 6612,
+     "sha256": "52635b3684faf01e57f85b5750c8b92d1c732eabd15dec8e06313f93aa0d6145",
+     "path": "f/52635b3684faf01e.js"
+    },
+    {
+     "name": "index.html",
+     "size": 494,
+     "sha256": "9edd9f8b7358abab2a34238c0599b020ec66e7dda4ee2f39ee626e19faf6aa2e",
+     "path": "f/9edd9f8b7358abab.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 3440,
+     "sha256": "f9df7c0229ef4ae0cc7faa8c3e52e272571b380afa56fa2c2507772eab80a664",
+     "path": "f/f9df7c0229ef4ae0.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    },
+    {
+     "name": "lib/gk.js",
+     "size": 11966,
+     "sha256": "dc9f037b0c660425571dbc23e9ca3b2ddc11a9c7fd644bd9ee769a5630f97547",
+     "path": "f/dc9f037b0c660425.js"
+    },
+    {
+     "name": "lib/gk.css",
+     "size": 4593,
+     "sha256": "fb3990110559ccea719e4531c66e316aeb0d149840d47e28bcdf47b7f32e0a69",
+     "path": "f/fb3990110559ccea.css"
+    },
+    {
+     "name": "lib/snd/click3.m4a",
+     "size": 5008,
+     "sha256": "e01d2c6724e086ab9d23c34411a092f53a72640bf9b87f3e787b2e71fd7faa12",
+     "path": "f/e01d2c6724e086ab.m4a"
+    },
+    {
+     "name": "lib/snd/switch7.m4a",
+     "size": 5643,
+     "sha256": "23370d0e20c9fcafd0d8af485edc357b27ddcc1929756b2c85ced18b20ddea71",
+     "path": "f/23370d0e20c9fcaf.m4a"
+    },
+    {
+     "name": "lib/snd/rollover2.m4a",
+     "size": 4689,
+     "sha256": "96a9daef9ae10063fa5968d72dc32abadd0e75dfaa2076cea62535172378fc57",
+     "path": "f/96a9daef9ae10063.m4a"
+    },
+    {
+     "name": "lib/snd/LICENSE-kenney.txt",
+     "size": 479,
+     "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+     "path": "f/4f88ab3c885c8787.txt"
+    }
+   ],
+   "ver": "9bb59e5d63",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "cover": {
+    "c1": "#1b2d3c",
+    "c2": "#e2a24a"
+   },
+   "chapters": 4,
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "First Shift",
+      "vi": "Ca đầu tiên"
+     },
+     "sum": {
+      "en": "A new town, a broken coffee machine and three strangers who keep coming back.",
+      "vi": "Thị trấn mới, máy pha cà phê hỏng và ba người lạ cứ quay lại mãi."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Mixed Signals",
+      "vi": "Tín hiệu lẫn lộn"
+     },
+     "sum": {
+      "en": "A first date, a letter from the landlord, and a secret under the café floor.",
+      "vi": "Buổi hẹn đầu, lá thư của chủ nhà, và bí mật dưới sàn quán."
+     }
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "The Festival",
+      "vi": "Lễ hội"
+     },
+     "sum": {
+      "en": "One night to save Café Lune. Music, lights — and a kitchen you shouldn't enter.",
+      "vi": "Một đêm để cứu Café Lune. Âm nhạc, đèn hoa — và một căn bếp bạn không nên bước vào."
+     }
+    },
+    {
+     "ch": 4,
+     "title": {
+      "en": "Last Summer Night",
+      "vi": "Đêm cuối mùa hè"
+     },
+     "sum": {
+      "en": "The council decides. You decide who you tell.",
+      "vi": "Hội đồng quyết định. Bạn quyết định nói với ai."
+     }
+    }
+   ],
+   "count": 0,
+   "size": 357293,
+   "badge": "new",
+   "title": {
+    "vi": "Café Lune",
+    "en": "Café Lune"
+   },
+   "desc": {
+    "vi": "Truyện hẹn hò mùa hè ở Brighton: pha cà phê, lên lịch hẹn, tặng quà, nhắn tin — và cứu quán cà phê sắp bị phá. 4 tập, 3 người để yêu, 6 kết thúc.",
+    "en": "A summer romance in Brighton: make coffee, plan dates, choose gifts, text — and save a café about to be torn down. 4 episodes, 3 people to fall for, 6 endings."
+   },
+   "files": [
+    {
+     "name": "art.css",
+     "size": 99,
+     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
+     "path": "f/ea7a249bcb0609fb.css"
+    },
+    {
+     "name": "art.js",
+     "size": 180,
+     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
+     "path": "f/930a3d4da8303c3a.js"
+    },
+    {
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
+    },
+    {
+     "name": "index.html",
+     "size": 1171,
+     "sha256": "c8193208dde8c0c87b8c6f412baaeb8e3880dbdc54e70bd96bd21d272b6a0908",
+     "path": "f/c8193208dde8c0c8.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 21559,
+     "sha256": "8b3021db2c97aeea7538e0086339eaa9f8f32c522d68822a12ecbde6cd25ddd2",
+     "path": "f/8b3021db2c97aeea.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 7668,
+     "sha256": "05c5f5d44bc39a8abd4eed0827e87e6ecf980e1c0d564c3b68c7b6e72d385c81",
+     "path": "f/05c5f5d44bc39a8a.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 92393,
+     "sha256": "b54dbc3c57f4eb143bff79eb03248939e93fa1d6c367e2bc4460a4261c811993",
+     "path": "f/b54dbc3c57f4eb14.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13175,
+     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
+     "path": "f/37f194cfce1f33c2.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 12017,
+     "sha256": "c309b55098c5e8883b517ae1f158019e6a51cde50d32180275e8bde80987dec6",
+     "path": "f/c309b55098c5e888.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 54299,
+     "sha256": "c62f9a31e34f222d32373e60763ef9e5a40a5d7aed5d24a7273bfd66145d87a2",
+     "path": "f/c62f9a31e34f222d.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 45773,
+     "sha256": "3b38a17c99c11f0376927a89d2fc1c5c69262272694adfd5c22dd127cdc68a45",
+     "path": "f/3b38a17c99c11f03.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 108786,
+     "sha256": "dc60a3478aee7857330ae611f3515b81aad6ca26ff3d043a1f9428bee78952a6",
+     "path": "f/dc60a3478aee7857.css"
+    }
+   ],
+   "ver": "7470b07b9d",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune.ch2",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.cafe-lune",
+   "ch": 2,
+   "title": {
+    "en": "Mixed Signals",
+    "vi": "Tín hiệu lẫn lộn"
+   },
+   "count": 0,
+   "size": 27281,
+   "files": [
+    {
+     "name": "story/ch2.js",
+     "size": 27281,
+     "sha256": "11befe422be3e4d209460912e1d4cfb24a81246823247cb46754e24f84d9327b",
+     "path": "f/11befe422be3e4d2.js"
+    }
+   ],
+   "ver": "e906357a16",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune.ch3",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.cafe-lune",
+   "ch": 3,
+   "title": {
+    "en": "The Festival",
+    "vi": "Lễ hội"
+   },
+   "count": 0,
+   "size": 16529,
+   "files": [
+    {
+     "name": "story/ch3.js",
+     "size": 16529,
+     "sha256": "398690d8ec7dc42f8b017eed715764303760e5241483afde8b6a534dd5279b65",
+     "path": "f/398690d8ec7dc42f.js"
+    }
+   ],
+   "ver": "2084a51cd2",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune.ch4",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.cafe-lune",
+   "ch": 4,
+   "title": {
+    "en": "Last Summer Night",
+    "vi": "Đêm cuối mùa hè"
+   },
+   "count": 0,
+   "size": 17653,
+   "files": [
+    {
+     "name": "story/ch4.js",
+     "size": 17653,
+     "sha256": "bbb4d148b1ded6dcfefddc5a37dfc48001c915c0cc55fc8f190f05df574deabd",
+     "path": "f/bbb4d148b1ded6dc.js"
+    }
+   ],
+   "ver": "1b17a6938b",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.connect",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "hint",
+    "slow",
+    "bomb"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#f472b6",
+    "c2": "#9d174d"
+   },
+   "count": 0,
+   "size": 55601,
+   "badge": "new",
+   "title": {
+    "vi": "Nối từ",
+    "en": "Word Link",
+    "de": "Wortverbinder",
+    "es": "Une palabras",
+    "fr": "Relie les mots",
+    "hi": "शब्द जोड़ो",
+    "id": "Hubungkan Kata",
+    "ja": "ことばつなぎ",
+    "ko": "단어 잇기",
+    "pt": "Ligue as palavras",
+    "ru": "Соедини слова",
+    "th": "จับคู่คำ",
+    "zh": "单词连线"
+   },
+   "desc": {
+    "vi": "Nối từ với nghĩa bằng dây màu. 4 lượt, 80 giây, nối liền tay được combo.",
+    "en": "Link each word to its meaning with colorful wires. 4 rounds, 80 seconds, combos for streaks."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 1409,
+     "sha256": "64ea77c57bc5be951c7fe4f42df2fa2c2bda8ba03f557ad50c889d5e947951b4",
+     "path": "f/64ea77c57bc5be95.css"
+    },
+    {
+     "name": "game.js",
+     "size": 6341,
+     "sha256": "2c965b6a8879454ca82f1a7aafd63c5413b66a1877d21d3ff2f33dfda17affdd",
+     "path": "f/2c965b6a8879454c.js"
+    },
+    {
+     "name": "index.html",
+     "size": 494,
+     "sha256": "9edd9f8b7358abab2a34238c0599b020ec66e7dda4ee2f39ee626e19faf6aa2e",
+     "path": "f/9edd9f8b7358abab.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 2896,
+     "sha256": "b3762da860b26dac851aced5e0e7d89fc5fc78c6b704fc4040f740348a2a407e",
+     "path": "f/b3762da860b26dac.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    },
+    {
+     "name": "lib/gk.js",
+     "size": 11966,
+     "sha256": "dc9f037b0c660425571dbc23e9ca3b2ddc11a9c7fd644bd9ee769a5630f97547",
+     "path": "f/dc9f037b0c660425.js"
+    },
+    {
+     "name": "lib/gk.css",
+     "size": 4593,
+     "sha256": "fb3990110559ccea719e4531c66e316aeb0d149840d47e28bcdf47b7f32e0a69",
+     "path": "f/fb3990110559ccea.css"
+    },
+    {
+     "name": "lib/snd/click3.m4a",
+     "size": 5008,
+     "sha256": "e01d2c6724e086ab9d23c34411a092f53a72640bf9b87f3e787b2e71fd7faa12",
+     "path": "f/e01d2c6724e086ab.m4a"
+    },
+    {
+     "name": "lib/snd/switch7.m4a",
+     "size": 5643,
+     "sha256": "23370d0e20c9fcafd0d8af485edc357b27ddcc1929756b2c85ced18b20ddea71",
+     "path": "f/23370d0e20c9fcaf.m4a"
+    },
+    {
+     "name": "lib/snd/rollover2.m4a",
+     "size": 4689,
+     "sha256": "96a9daef9ae10063fa5968d72dc32abadd0e75dfaa2076cea62535172378fc57",
+     "path": "f/96a9daef9ae10063.m4a"
+    },
+    {
+     "name": "lib/snd/LICENSE-kenney.txt",
+     "size": 479,
+     "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+     "path": "f/4f88ab3c885c8787.txt"
+    }
+   ],
+   "ver": "742d2fd57f",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.meteor",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "shield",
+    "slow",
+    "bomb",
+    "hint"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#1e1b4b",
+    "c2": "#7c3aed"
+   },
+   "count": 0,
+   "size": 31392,
+   "badge": "beta",
+   "title": {
+    "vi": "Mưa sao từ",
+    "en": "Word Meteors"
+   },
+   "desc": {
+    "vi": "Sao băng mang từ đang rơi — chạm đúng sao có nghĩa ở dưới. Combo, vật phẩm từ rương học tập.",
+    "en": "Meteors carry words — tap the one that matches the meaning. Combos and power-ups from your study chests."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 4969,
+     "sha256": "071fc66b739cc2383779be5d232f1f8bd631891ce9af621f94c25d241aa940a8",
+     "path": "f/071fc66b739cc238.css"
+    },
+    {
+     "name": "game.js",
+     "size": 12754,
+     "sha256": "427fc7549469389f4b962a9f06596f8754b7dc96d3e9e6b8cac03855d9a3d06e",
+     "path": "f/427fc7549469389f.js"
+    },
+    {
+     "name": "index.html",
+     "size": 600,
+     "sha256": "168870ff5e80f27669148978262e7f8d6680effd58f3940d7b1524c768c0a989",
+     "path": "f/168870ff5e80f276.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 986,
+     "sha256": "b11f245a170040c8e98a4a8dd1546c075f7e019f27fe73b76003996512d3b490",
+     "path": "f/b11f245a170040c8.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    }
+   ],
+   "shots": [
+    "f/eeee7cd95b048333.jpg",
+    "f/42efae1f8e62875f.jpg"
+   ],
+   "ver": "bce450c98c",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "game.pairs",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "hint",
+    "slow",
+    "bomb"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#f472b6",
+    "c2": "#f59e0b"
+   },
+   "count": 0,
+   "size": 28400,
+   "badge": "beta",
+   "title": {
+    "vi": "Lật cặp",
+    "en": "Flip Pairs"
+   },
+   "desc": {
+    "vi": "Lật thẻ ghép từ với nghĩa trước khi hết giờ. Ghép liền tay để được combo.",
+    "en": "Flip cards to match words with their meanings before time runs out. Match in a row for combos."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 7108,
+     "sha256": "fb11a46db34d46e80ff8fea0922dfb0df7a049823ade578d6e032a7f86b02356",
+     "path": "f/fb11a46db34d46e8.css"
+    },
+    {
+     "name": "game.js",
+     "size": 7609,
+     "sha256": "6ddca4281f4de0673ffd1c751bd48a007215052c09bfd9c8ebc56f1b0732fb30",
+     "path": "f/6ddca4281f4de067.js"
+    },
+    {
+     "name": "index.html",
+     "size": 614,
+     "sha256": "a2b36608c3a3422f61e508752a63e63f63535b3e2aa6a233ad1df995130c9b9b",
+     "path": "f/a2b36608c3a3422f.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 986,
+     "sha256": "9ec7f220af316ee47fbd6074ba9cb90cbcd299345850eb3a048aed0b3016fd68",
+     "path": "f/9ec7f220af316ee4.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    }
+   ],
+   "shots": [
+    "f/241fc965edaa3207.jpg",
+    "f/28d6c81675baa1b5.jpg"
+   ],
+   "ver": "7ed22bafd6",
+   "up": "2026-10-28"
+  },
+  {
+   "id": "game.quick",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "shield",
+    "slow",
+    "hint"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#fb923c",
+    "c2": "#c2410c"
+   },
+   "count": 0,
+   "size": 55777,
+   "badge": "new",
+   "title": {
+    "vi": "Đúng hay sai",
+    "en": "True or False",
+    "de": "Richtig oder falsch",
+    "es": "¿Verdadero o falso?",
+    "fr": "Vrai ou faux",
+    "hi": "सही या गलत",
+    "id": "Benar atau Salah",
+    "ja": "○か×か",
+    "ko": "맞다 틀리다",
+    "pt": "Certo ou errado",
+    "ru": "Верно или нет",
+    "th": "ถูกหรือผิด",
+    "zh": "对还是错"
+   },
+   "desc": {
+    "vi": "Từ và nghĩa có khớp không? Vuốt phải / trái thật nhanh trong 45 giây.",
+    "en": "Does the meaning match the word? Swipe right or left as fast as you can for 45 seconds."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 2037,
+     "sha256": "d2f03f99f4c3e3840c5ffc7637f3eb88da4223cf0cd0d7cfa22217653b13409c",
+     "path": "f/d2f03f99f4c3e384.css"
+    },
+    {
+     "name": "game.js",
+     "size": 5797,
+     "sha256": "c0a42aba7e72316afd4c0fb97d4d12295af77d66bae3119310a06dbf97fbaf76",
+     "path": "f/c0a42aba7e72316a.js"
+    },
+    {
+     "name": "index.html",
+     "size": 494,
+     "sha256": "9edd9f8b7358abab2a34238c0599b020ec66e7dda4ee2f39ee626e19faf6aa2e",
+     "path": "f/9edd9f8b7358abab.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 2988,
+     "sha256": "639f19e2a2b77536b6606b283050a6da27d3c37ed9b4ca6152a9a2e443f99c63",
+     "path": "f/639f19e2a2b77536.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    },
+    {
+     "name": "lib/gk.js",
+     "size": 11966,
+     "sha256": "dc9f037b0c660425571dbc23e9ca3b2ddc11a9c7fd644bd9ee769a5630f97547",
+     "path": "f/dc9f037b0c660425.js"
+    },
+    {
+     "name": "lib/gk.css",
+     "size": 4593,
+     "sha256": "fb3990110559ccea719e4531c66e316aeb0d149840d47e28bcdf47b7f32e0a69",
+     "path": "f/fb3990110559ccea.css"
+    },
+    {
+     "name": "lib/snd/click3.m4a",
+     "size": 5008,
+     "sha256": "e01d2c6724e086ab9d23c34411a092f53a72640bf9b87f3e787b2e71fd7faa12",
+     "path": "f/e01d2c6724e086ab.m4a"
+    },
+    {
+     "name": "lib/snd/switch7.m4a",
+     "size": 5643,
+     "sha256": "23370d0e20c9fcafd0d8af485edc357b27ddcc1929756b2c85ced18b20ddea71",
+     "path": "f/23370d0e20c9fcaf.m4a"
+    },
+    {
+     "name": "lib/snd/rollover2.m4a",
+     "size": 4689,
+     "sha256": "96a9daef9ae10063fa5968d72dc32abadd0e75dfaa2076cea62535172378fc57",
+     "path": "f/96a9daef9ae10063.m4a"
+    },
+    {
+     "name": "lib/snd/LICENSE-kenney.txt",
+     "size": 479,
+     "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+     "path": "f/4f88ab3c885c8787.txt"
+    }
+   ],
+   "ver": "4343814c85",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.search",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "hint",
+    "slow"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#a78bfa",
+    "c2": "#5b21b6"
+   },
+   "count": 0,
+   "size": 57020,
+   "badge": "new",
+   "title": {
+    "vi": "Tìm chữ ẩn",
+    "en": "Word Hunt",
+    "de": "Wortsuche",
+    "es": "Sopa de letras",
+    "fr": "Mots cachés",
+    "hi": "शब्द खोज",
+    "id": "Cari Kata",
+    "ja": "単語さがし",
+    "ko": "단어 찾기",
+    "pt": "Caça-palavras",
+    "ru": "Поиск слов",
+    "th": "หาคำซ่อน",
+    "zh": "找单词"
+   },
+   "desc": {
+    "vi": "Lưới chữ giấu 5 từ bạn đang học — kéo tay khoanh từ theo nghĩa. 3 lưới mỗi ván.",
+    "en": "A letter grid hides 5 of your words — drag to circle them by meaning. 3 grids per game."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 1223,
+     "sha256": "ce7bcb469ac3b68854e074f5572b45032a47248ee3e82869b5f2d388692ba6f1",
+     "path": "f/ce7bcb469ac3b688.css"
+    },
+    {
+     "name": "game.js",
+     "size": 7792,
+     "sha256": "101de862b891fd07329d9e4814069a248d15195a38fd024cd11a0a5cd81b7b87",
+     "path": "f/101de862b891fd07.js"
+    },
+    {
+     "name": "index.html",
+     "size": 494,
+     "sha256": "9edd9f8b7358abab2a34238c0599b020ec66e7dda4ee2f39ee626e19faf6aa2e",
+     "path": "f/9edd9f8b7358abab.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 3050,
+     "sha256": "377af2d6f7a1f58b767325baf94076b9d79f9ab32b2195f95d017e0f45b03e87",
+     "path": "f/377af2d6f7a1f58b.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    },
+    {
+     "name": "lib/gk.js",
+     "size": 11966,
+     "sha256": "dc9f037b0c660425571dbc23e9ca3b2ddc11a9c7fd644bd9ee769a5630f97547",
+     "path": "f/dc9f037b0c660425.js"
+    },
+    {
+     "name": "lib/gk.css",
+     "size": 4593,
+     "sha256": "fb3990110559ccea719e4531c66e316aeb0d149840d47e28bcdf47b7f32e0a69",
+     "path": "f/fb3990110559ccea.css"
+    },
+    {
+     "name": "lib/snd/click3.m4a",
+     "size": 5008,
+     "sha256": "e01d2c6724e086ab9d23c34411a092f53a72640bf9b87f3e787b2e71fd7faa12",
+     "path": "f/e01d2c6724e086ab.m4a"
+    },
+    {
+     "name": "lib/snd/switch7.m4a",
+     "size": 5643,
+     "sha256": "23370d0e20c9fcafd0d8af485edc357b27ddcc1929756b2c85ced18b20ddea71",
+     "path": "f/23370d0e20c9fcaf.m4a"
+    },
+    {
+     "name": "lib/snd/rollover2.m4a",
+     "size": 4689,
+     "sha256": "96a9daef9ae10063fa5968d72dc32abadd0e75dfaa2076cea62535172378fc57",
+     "path": "f/96a9daef9ae10063.m4a"
+    },
+    {
+     "name": "lib/snd/LICENSE-kenney.txt",
+     "size": 479,
+     "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+     "path": "f/4f88ab3c885c8787.txt"
+    }
+   ],
+   "ver": "a334e28365",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.seven-mornings",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "cover": {
+    "c1": "#1a2433",
+    "c2": "#7fc8ff"
+   },
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "The First Morning",
+      "vi": "Buổi sáng đầu tiên"
+     },
+     "sum": {
+      "en": "14 February. New flat, six neighbours, a fire at nine.",
+      "vi": "14 tháng 2. Căn hộ mới, sáu người hàng xóm, đám cháy lúc chín giờ."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Patterns",
+      "vi": "Quy luật"
+     },
+     "sum": {
+      "en": "Everyone does the same thing at the same time. Except you.",
+      "vi": "Ai cũng làm đúng việc ấy vào đúng giờ ấy. Trừ bạn."
+     },
+     "soon": true
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "The Last Morning",
+      "vi": "Buổi sáng cuối cùng"
+     },
+     "sum": {
+      "en": "One more loop. Everything you know. Everyone out.",
+      "vi": "Thêm một vòng. Mọi điều bạn biết. Đưa tất cả ra ngoài."
+     },
+     "soon": true
+    }
+   ],
+   "count": 0,
+   "size": 347183,
+   "badge": "new",
+   "title": {
+    "vi": "Bảy buổi sáng",
+    "en": "Seven Mornings"
+   },
+   "desc": {
+    "vi": "Truyện hồi hộp vòng lặp thời gian: chín giờ tối nay toà nhà của bạn cháy, sáng mai lại là sáng nay. Nhớ lời từng người hàng xóm, chọn khác đi, đưa mọi người ra ngoài. Chương 1 đã ra, chương 2–3 sắp ra mắt.",
+    "en": "A time-loop thriller: tonight at nine your building burns, and tomorrow it is this morning again. Remember what each neighbour says, choose differently, get everyone out. Chapter 1 out now, chapters 2–3 coming soon."
+   },
+   "files": [
+    {
+     "name": "art.css",
+     "size": 99,
+     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
+     "path": "f/ea7a249bcb0609fb.css"
+    },
+    {
+     "name": "art.js",
+     "size": 180,
+     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
+     "path": "f/930a3d4da8303c3a.js"
+    },
+    {
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
+    },
+    {
+     "name": "index.html",
+     "size": 1016,
+     "sha256": "b9ffa07d7170d20b791962a1e80afc9dd586f6e6bfe776a3d9df7e96ddf73746",
+     "path": "f/b9ffa07d7170d20b.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 12214,
+     "sha256": "85decde1bbaff1ac914fc18557a2a57ec44013401475867ffd0360a1b5bb0775",
+     "path": "f/85decde1bbaff1ac.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 7058,
+     "sha256": "b0518f6122f178e3aceb311558ddd9ddc380b435fc15720b3e608382464fe07f",
+     "path": "f/b0518f6122f178e3.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 92393,
+     "sha256": "b54dbc3c57f4eb143bff79eb03248939e93fa1d6c367e2bc4460a4261c811993",
+     "path": "f/b54dbc3c57f4eb14.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13175,
+     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
+     "path": "f/37f194cfce1f33c2.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 12017,
+     "sha256": "c309b55098c5e8883b517ae1f158019e6a51cde50d32180275e8bde80987dec6",
+     "path": "f/c309b55098c5e888.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 54299,
+     "sha256": "c62f9a31e34f222d32373e60763ef9e5a40a5d7aed5d24a7273bfd66145d87a2",
+     "path": "f/c62f9a31e34f222d.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 45773,
+     "sha256": "3b38a17c99c11f0376927a89d2fc1c5c69262272694adfd5c22dd127cdc68a45",
+     "path": "f/3b38a17c99c11f03.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 108786,
+     "sha256": "dc60a3478aee7857330ae611f3515b81aad6ca26ff3d043a1f9428bee78952a6",
+     "path": "f/dc60a3478aee7857.css"
+    }
+   ],
+   "ver": "e20d2f15ca",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.snake",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "shield",
+    "slow",
+    "hint"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#4ade80",
+    "c2": "#166534"
+   },
+   "count": 0,
+   "size": 57723,
+   "badge": "new",
+   "title": {
+    "vi": "Rắn săn từ",
+    "en": "Word Snake",
+    "de": "Wortschlange",
+    "es": "Serpiente de palabras",
+    "fr": "Serpent de mots",
+    "hi": "शब्द साँप",
+    "id": "Ular Kata",
+    "ja": "ことばヘビ",
+    "ko": "단어 뱀",
+    "pt": "Cobra de palavras",
+    "ru": "Словозмейка",
+    "th": "งูล่าคำ",
+    "zh": "单词贪吃蛇"
+   },
+   "desc": {
+    "vi": "Lượn rắn tới ăn đúng từ có nghĩa ở trên — càng ăn càng dài, càng nhanh.",
+    "en": "Steer the snake to eat the word that matches the meaning — it grows and speeds up."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 604,
+     "sha256": "384e818b65f999336741025278df8cadcf794f5c6e9eb37914af18f638011cd2",
+     "path": "f/384e818b65f99933.css"
+    },
+    {
+     "name": "game.js",
+     "size": 8943,
+     "sha256": "a3f2c255b95036d3ec377868b69ad0ea59551058974187216630be3dc9725a80",
+     "path": "f/a3f2c255b95036d3.js"
+    },
+    {
+     "name": "index.html",
+     "size": 494,
+     "sha256": "9edd9f8b7358abab2a34238c0599b020ec66e7dda4ee2f39ee626e19faf6aa2e",
+     "path": "f/9edd9f8b7358abab.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 3221,
+     "sha256": "864f07fc091c9547c288529d937cba0260c94e4c54608a5a6269866050a01b77",
+     "path": "f/864f07fc091c9547.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    },
+    {
+     "name": "lib/gk.js",
+     "size": 11966,
+     "sha256": "dc9f037b0c660425571dbc23e9ca3b2ddc11a9c7fd644bd9ee769a5630f97547",
+     "path": "f/dc9f037b0c660425.js"
+    },
+    {
+     "name": "lib/gk.css",
+     "size": 4593,
+     "sha256": "fb3990110559ccea719e4531c66e316aeb0d149840d47e28bcdf47b7f32e0a69",
+     "path": "f/fb3990110559ccea.css"
+    },
+    {
+     "name": "lib/snd/click3.m4a",
+     "size": 5008,
+     "sha256": "e01d2c6724e086ab9d23c34411a092f53a72640bf9b87f3e787b2e71fd7faa12",
+     "path": "f/e01d2c6724e086ab.m4a"
+    },
+    {
+     "name": "lib/snd/switch7.m4a",
+     "size": 5643,
+     "sha256": "23370d0e20c9fcafd0d8af485edc357b27ddcc1929756b2c85ced18b20ddea71",
+     "path": "f/23370d0e20c9fcaf.m4a"
+    },
+    {
+     "name": "lib/snd/rollover2.m4a",
+     "size": 4689,
+     "sha256": "96a9daef9ae10063fa5968d72dc32abadd0e75dfaa2076cea62535172378fc57",
+     "path": "f/96a9daef9ae10063.m4a"
+    },
+    {
+     "name": "lib/snd/LICENSE-kenney.txt",
+     "size": 479,
+     "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+     "path": "f/4f88ab3c885c8787.txt"
+    }
+   ],
+   "ver": "6b5d741b04",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.spell",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [
+    "hint",
+    "slow",
+    "bomb"
+   ],
+   "rewards": "shared",
+   "cover": {
+    "c1": "#2dd4bf",
+    "c2": "#0f766e"
+   },
+   "count": 0,
+   "size": 55606,
+   "badge": "new",
+   "title": {
+    "vi": "Xếp chữ",
+    "en": "Spell It",
+    "de": "Buchstabensalat",
+    "es": "Deletrea",
+    "fr": "Lettres en vrac",
+    "hi": "शब्द बनाओ",
+    "id": "Susun Kata",
+    "ja": "文字ならべ",
+    "ko": "글자 맞추기",
+    "pt": "Soletre",
+    "ru": "Собери слово",
+    "th": "เรียงตัวอักษร",
+    "zh": "拼字"
+   },
+   "desc": {
+    "vi": "Xem nghĩa, chạm ô chữ theo thứ tự để ghép thành từ. 90 giây, combo khi ghép liền tay.",
+    "en": "See the meaning, tap the letters in order to build the word. 90 seconds, combos for streaks."
+   },
+   "files": [
+    {
+     "name": "game.css",
+     "size": 1480,
+     "sha256": "1a404f1c5436b84f33af423c1c1004e06c77bbefe8e86c1844f2d5947b199dc2",
+     "path": "f/1a404f1c5436b84f.css"
+    },
+    {
+     "name": "game.js",
+     "size": 6569,
+     "sha256": "a3d0b4dff56be8f097de5bf8ddc107bbe152975f495e5fc87da9c538cd4f1baf",
+     "path": "f/a3d0b4dff56be8f0.js"
+    },
+    {
+     "name": "index.html",
+     "size": 494,
+     "sha256": "9edd9f8b7358abab2a34238c0599b020ec66e7dda4ee2f39ee626e19faf6aa2e",
+     "path": "f/9edd9f8b7358abab.html"
+    },
+    {
+     "name": "strings.json",
+     "size": 2602,
+     "sha256": "c01b604a5f2d1bab047b91c9ef0de0bcdf4dd8f35dbd2e4f1e1c9d8e991b912f",
+     "path": "f/c01b604a5f2d1bab.json"
+    },
+    {
+     "name": "lib/fx.js",
+     "size": 12083,
+     "sha256": "850195fa3369c9aceb8d8806bcb9c05906b71384bb32ebfa7bb343588718a8f4",
+     "path": "f/850195fa3369c9ac.js"
+    },
+    {
+     "name": "lib/gk.js",
+     "size": 11966,
+     "sha256": "dc9f037b0c660425571dbc23e9ca3b2ddc11a9c7fd644bd9ee769a5630f97547",
+     "path": "f/dc9f037b0c660425.js"
+    },
+    {
+     "name": "lib/gk.css",
+     "size": 4593,
+     "sha256": "fb3990110559ccea719e4531c66e316aeb0d149840d47e28bcdf47b7f32e0a69",
+     "path": "f/fb3990110559ccea.css"
+    },
+    {
+     "name": "lib/snd/click3.m4a",
+     "size": 5008,
+     "sha256": "e01d2c6724e086ab9d23c34411a092f53a72640bf9b87f3e787b2e71fd7faa12",
+     "path": "f/e01d2c6724e086ab.m4a"
+    },
+    {
+     "name": "lib/snd/switch7.m4a",
+     "size": 5643,
+     "sha256": "23370d0e20c9fcafd0d8af485edc357b27ddcc1929756b2c85ced18b20ddea71",
+     "path": "f/23370d0e20c9fcaf.m4a"
+    },
+    {
+     "name": "lib/snd/rollover2.m4a",
+     "size": 4689,
+     "sha256": "96a9daef9ae10063fa5968d72dc32abadd0e75dfaa2076cea62535172378fc57",
+     "path": "f/96a9daef9ae10063.m4a"
+    },
+    {
+     "name": "lib/snd/LICENSE-kenney.txt",
+     "size": 479,
+     "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+     "path": "f/4f88ab3c885c8787.txt"
+    }
+   ],
+   "ver": "08b4399d64",
+   "up": "2026-10-29"
+  },
+  {
    "id": "game.the-interpreter",
    "kind": "game",
    "lang": "",
@@ -1548,16 +2554,85 @@
     "c1": "#1b2d3c",
     "c2": "#e2a24a"
    },
+   "chapters": 6,
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "Lost for Words",
+      "vi": "Một chữ sai"
+     },
+     "sum": {
+      "en": "3 a.m., a body under the pier, and a terrified 16-year-old witness. Write down exactly what he says.",
+      "vi": "3 giờ sáng, một thi thể dưới cầu tàu và nhân chứng 16 tuổi đang run sợ. Ghi lại đúng từng chữ cậu nói."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Fish and Lies",
+      "vi": "Cá và lời dối"
+     },
+     "sum": {
+      "en": "The dead boy is nineteen. A warm chip shop, a silent captain, and a face under a sheet.",
+      "vi": "Người chết mới mười chín tuổi. Một quán cá chiên ấm áp, một thuyền trưởng im lặng và một gương mặt dưới tấm vải."
+     }
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "Witness",
+      "vi": "Nhân chứng"
+     },
+     "sum": {
+      "en": "A nurse who lies in the present perfect, and a dead man who changed children's words.",
+      "vi": "Một cô y tá nói dối bằng thì hiện tại hoàn thành, và một người đã chết từng sửa lời của bọn trẻ."
+     }
+    },
+    {
+     "ch": 4,
+     "title": {
+      "en": "The Benefactor",
+      "vi": "Ân nhân"
+     },
+     "sum": {
+      "en": "A charity gala. A rich man's offer: write carefully, and your brother comes home.",
+      "vi": "Một buổi tiệc từ thiện. Lời đề nghị của người giàu: ghi cẩn thận, và em trai bạn sẽ về nhà."
+     }
+    },
+    {
+     "ch": 5,
+     "title": {
+      "en": "Undertow",
+      "vi": "Sóng ngầm"
+     },
+     "sum": {
+      "en": "A storm, the old cannery, a lighthouse — and the person who was really on the pier at 1:47.",
+      "vi": "Một cơn bão, xưởng đồ hộp cũ, ngọn hải đăng — và kẻ thật sự có mặt trên cầu tàu lúc 1:47."
+     }
+    },
+    {
+     "ch": 6,
+     "title": {
+      "en": "Testimony",
+      "vi": "Lời khai"
+     },
+     "sum": {
+      "en": "Back to the courtroom. Word for word?",
+      "vi": "Trở lại phòng xử. Đúng từng chữ?"
+     }
+    }
+   ],
    "count": 0,
-   "size": 2439445,
+   "size": 3105906,
    "badge": "beta",
    "title": {
     "vi": "Lời khai",
     "en": "The Statement"
    },
    "desc": {
-    "vi": "Trinh thám nhiều nhánh: bạn là thám tử tập sự ở một thị trấn cảng nước Anh. Hỏi cung, khám xét, suy luận — ghi sai một chữ, người vô tội vào tù. Chương 1.",
-    "en": "A branching detective story: you are a trainee detective in an English port town. Question, search, deduce — one wrong word can put an innocent man in prison. Chapter 1."
+    "vi": "Trinh thám nhiều nhánh: bạn là thám tử tập sự ở một thị trấn cảng nước Anh. Hỏi cung, khám xét, suy luận — ghi sai một chữ, người vô tội vào tù. Đủ 6 chương, 12 sự thật, 9 kết thúc.",
+    "en": "A branching detective story: you are a trainee detective in an English port town. Question, search, deduce — one wrong word can put an innocent man in prison. 6 chapters, 12 truths, 9 endings."
    },
    "files": [
     {
@@ -1579,6 +2654,12 @@
      "path": "f/d1c4a183daa37bba.js"
     },
     {
+     "name": "img/act-compare.jpg",
+     "size": 87962,
+     "sha256": "c66919a2503b83c7abf06082f2a70bdcbcee81b5133616e9195290883c69f7de",
+     "path": "f/c66919a2503b83c7.jpg"
+    },
+    {
      "name": "img/car.jpg",
      "size": 61492,
      "sha256": "b5768b58bd8de56aca5ce76ed39061fcb90e71b8de3b9161b027a2b01d9770e7",
@@ -1597,6 +2678,18 @@
      "path": "f/bc177d9c135525f9.jpg"
     },
     {
+     "name": "img/cg-cctv.jpg",
+     "size": 34885,
+     "sha256": "61152e35564c01563519024e916af69b3c403fa9a57c1ddbf7243b243fd2db87",
+     "path": "f/61152e35564c0156.jpg"
+    },
+    {
+     "name": "img/cg-hooks.jpg",
+     "size": 89158,
+     "sha256": "f02303e6b6b4afa625bb4771c68350bc86243c817cbf80e20ca8fb72497a9202",
+     "path": "f/f02303e6b6b4afa6.jpg"
+    },
+    {
      "name": "img/cg-lockscreen.jpg",
      "size": 68367,
      "sha256": "c58e947af9700611d83c201fa8e10a52dadae8880aaeba100a47abd04211e9c4",
@@ -1607,6 +2700,18 @@
      "size": 54397,
      "sha256": "9d8b97e1f16e569e28b2a589b06d5ce1161938f76be8d842583f1f6cc99aa088",
      "path": "f/9d8b97e1f16e569e.jpg"
+    },
+    {
+     "name": "img/cg-steps.jpg",
+     "size": 43510,
+     "sha256": "b6d84f171df273291ebb39055149ffd6200d4e0ca0544aa50c56893a92ab1ef5",
+     "path": "f/b6d84f171df27329.jpg"
+    },
+    {
+     "name": "img/cg-wallet.jpg",
+     "size": 67371,
+     "sha256": "a97054d1336bce3bc5af9f9c619ff7c9b04d0744abcde4d6f8057b7c59a56b13",
+     "path": "f/a97054d1336bce3b.jpg"
     },
     {
      "name": "img/cg-whisper.jpg",
@@ -1820,43 +2925,476 @@
     },
     {
      "name": "index.html",
-     "size": 783,
-     "sha256": "de80a3ec574c1eb33e7d8af005b7deb5fd8fd1021a390a9bf9d5c3847805ccd3",
-     "path": "f/de80a3ec574c1eb3.html"
+     "size": 1856,
+     "sha256": "ac0d05ae4bba3449dbcee67935ec1df960d4a2c6c94c0c5d6a5ec82b9cfbba9a",
+     "path": "f/ac0d05ae4bba3449.html"
     },
     {
      "name": "story/ch1.js",
-     "size": 63925,
-     "sha256": "9c9b7bbf8429e3839346234d0e21f81bd6498832dc182da42aad0ed09f3a785c",
-     "path": "f/9c9b7bbf8429e383.js"
+     "size": 69179,
+     "sha256": "394ad7a54d03ea05f97f1282503637760fa9aa7cbc97e546ec3afb8c99007257",
+     "path": "f/394ad7a54d03ea05.js"
+    },
+    {
+     "name": "story/lang/de.js",
+     "size": 165013,
+     "sha256": "392ae36f0ebd58db9d096417446c949587c375b7a1f0ecbfd0cae0a092ecc940",
+     "path": "f/392ae36f0ebd58db.js"
+    },
+    {
+     "name": "story/lang/ja.js",
+     "size": 10917,
+     "sha256": "fcb85878b05c38bbb0ea2d9f2dfa415c50a575cd9e953feca00bd8f906ee6adb",
+     "path": "f/fcb85878b05c38bb.js"
+    },
+    {
+     "name": "story/lang/ko.js",
+     "size": 193,
+     "sha256": "7008b4ba1bbb9513c45b38d7ed7b90f96dd516ee985cf753ea75c0a46e59e6e9",
+     "path": "f/7008b4ba1bbb9513.js"
+    },
+    {
+     "name": "story/lang/zh.js",
+     "size": 205,
+     "sha256": "e84bce816159f0d7e1e046b34042acc78945649f7566e430bf3372f51e4cdd9d",
+     "path": "f/e84bce816159f0d7.js"
     },
     {
      "name": "story/story.js",
-     "size": 4536,
-     "sha256": "157d1ecaca2d9518b792f356bc78b4fd4fb2efbfb5dc4ecaecdd1ebcbb1b321d",
-     "path": "f/157d1ecaca2d9518.js"
+     "size": 13745,
+     "sha256": "1eae8770bac92bb7bd576aff16a63c1acd4c32c926249e30f9c158223b577c7c",
+     "path": "f/1eae8770bac92bb7.js"
     },
     {
      "name": "lib/story/core.js",
-     "size": 68697,
-     "sha256": "c34ecd95ffbde7938ba0de63096caae5a45ff1427809ae8cd02bc88439b13189",
-     "path": "f/c34ecd95ffbde793.js"
+     "size": 92393,
+     "sha256": "b54dbc3c57f4eb143bff79eb03248939e93fa1d6c367e2bc4460a4261c811993",
+     "path": "f/b54dbc3c57f4eb14.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13175,
+     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
+     "path": "f/37f194cfce1f33c2.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 12017,
+     "sha256": "c309b55098c5e8883b517ae1f158019e6a51cde50d32180275e8bde80987dec6",
+     "path": "f/c309b55098c5e888.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 38922,
-     "sha256": "b3bc942ec13d2be1b020186a045a6b5a9a359de72742a4c7d9c7b82835641eab",
-     "path": "f/b3bc942ec13d2be1.js"
+     "size": 54299,
+     "sha256": "c62f9a31e34f222d32373e60763ef9e5a40a5d7aed5d24a7273bfd66145d87a2",
+     "path": "f/c62f9a31e34f222d.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 45773,
+     "sha256": "3b38a17c99c11f0376927a89d2fc1c5c69262272694adfd5c22dd127cdc68a45",
+     "path": "f/3b38a17c99c11f03.js"
     },
     {
      "name": "lib/story/ui.css",
-     "size": 67113,
-     "sha256": "34ab56972b41ac5aad7d1cb8c72f9d5bd45a705c5c02b7a33c6b244d210c6118",
-     "path": "f/34ab56972b41ac5a.css"
+     "size": 108786,
+     "sha256": "dc60a3478aee7857330ae611f3515b81aad6ca26ff3d043a1f9428bee78952a6",
+     "path": "f/dc60a3478aee7857.css"
     }
    ],
-   "ver": "fc8cc2360f",
-   "up": "2026-10-28"
+   "ver": "677735fcd6",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.the-interpreter.ch2",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.the-interpreter",
+   "ch": 2,
+   "title": {
+    "en": "Fish and Lies",
+    "vi": "Cá và lời dối"
+   },
+   "count": 0,
+   "size": 1255008,
+   "files": [
+    {
+     "name": "img/act-chips.jpg",
+     "size": 70657,
+     "sha256": "77557207846ec31ce1ce1b9c4e5d22fe362e1b15e1ab6782de9d7febd009f3db",
+     "path": "f/77557207846ec31c.jpg"
+    },
+    {
+     "name": "img/act-debtbook.jpg",
+     "size": 89879,
+     "sha256": "3545627414402aeb48a4bfa5a1ea303f895cd1e05fdd87f1d6934c796a5ccd7d",
+     "path": "f/3545627414402aeb.jpg"
+    },
+    {
+     "name": "img/act-jacket.jpg",
+     "size": 55106,
+     "sha256": "79bfbb2d6eda6f8c5061178d2b0d79a4e3d011572dc65347bdaba12eb3c62df1",
+     "path": "f/79bfbb2d6eda6f8c.jpg"
+    },
+    {
+     "name": "img/act-laptop.jpg",
+     "size": 73332,
+     "sha256": "b18df32d171e6acb91fbc5d6b734bb02541867a854b009251416df6e4e991eae",
+     "path": "f/b18df32d171e6acb.jpg"
+    },
+    {
+     "name": "img/act-report.jpg",
+     "size": 94312,
+     "sha256": "4c1890cb377558d1e89022eefe66dadaefcb9edf6516f03f6455a065fc188c1a",
+     "path": "f/4c1890cb377558d1.jpg"
+    },
+    {
+     "name": "img/act-rota.jpg",
+     "size": 72129,
+     "sha256": "5079adb5dad58a43552013b7cfb4dc02d7536567015b2e0e8d766fe35c33191c",
+     "path": "f/5079adb5dad58a43.jpg"
+    },
+    {
+     "name": "img/cells.jpg",
+     "size": 101964,
+     "sha256": "4310db48881233fcf1f6d44aae03cab9d62ec27ac7a6deeb4e3be68671b951a9",
+     "path": "f/4310db48881233fc.jpg"
+    },
+    {
+     "name": "img/cg-morgue.jpg",
+     "size": 77205,
+     "sha256": "2253077bd5f7cd4e082933ea7d009757464d8f520ce9be57257c7b47c0c054c9",
+     "path": "f/2253077bd5f7cd4e.jpg"
+    },
+    {
+     "name": "img/cg-tom.jpg",
+     "size": 75330,
+     "sha256": "0d7da89244aa24920cb9d009c49c53fbadf6d7cc7463d9c57266bed6fc629b82",
+     "path": "f/0d7da89244aa2492.jpg"
+    },
+    {
+     "name": "img/chipshop.jpg",
+     "size": 92448,
+     "sha256": "16fad837180bbf168069930a1b255422ee996ea0e3fe31dce271735e984792e2",
+     "path": "f/16fad837180bbf16.jpg"
+    },
+    {
+     "name": "img/it-debt_book.jpg",
+     "size": 19512,
+     "sha256": "327ae0e2be35601bb89034809853d41e2ffe2376b7c21e709637a19baf6fd3c6",
+     "path": "f/327ae0e2be35601b.jpg"
+    },
+    {
+     "name": "img/it-pm_report.jpg",
+     "size": 25687,
+     "sha256": "39da77eab0eb55ccf3c8ff96e0811b27ab231fcb1511dc899ffeafc8e17fcbad",
+     "path": "f/39da77eab0eb55cc.jpg"
+    },
+    {
+     "name": "img/it-rota.jpg",
+     "size": 52911,
+     "sha256": "7b62a8471712f6824cc55b80e14d604c6a50c22b98dd09443a1293c21368e227",
+     "path": "f/7b62a8471712f682.jpg"
+    },
+    {
+     "name": "img/it-sam_jacket.jpg",
+     "size": 26993,
+     "sha256": "895721ee5ed2d0e5647aa452aca8016eb22ce09570880b9374abc7c546bb8773",
+     "path": "f/895721ee5ed2d0e5.jpg"
+    },
+    {
+     "name": "img/kitchen.jpg",
+     "size": 102089,
+     "sha256": "bdb049a4bd9c47eb97978aab39082b62c2e96b994b8e8467dfcc833a17cb7285",
+     "path": "f/bdb049a4bd9c47eb.jpg"
+    },
+    {
+     "name": "img/morgue.jpg",
+     "size": 63517,
+     "sha256": "bce9097f7d66e0ab6bfbc674fc95c1875139f10a1ef1be899d07097aa12e8fa1",
+     "path": "f/bce9097f7d66e0ab.jpg"
+    },
+    {
+     "name": "img/office.jpg",
+     "size": 116790,
+     "sha256": "faaa36b5479832745b4904f886d1e0a9aa6f70c5a163807dd6932f29b59c7d77",
+     "path": "f/faaa36b547983274.jpg"
+    },
+    {
+     "name": "story/ch2.js",
+     "size": 45147,
+     "sha256": "574931db7ae1c3f15697e89a169f2f0c8afa2e7ed156a6787dabe0e55cf45204",
+     "path": "f/574931db7ae1c3f1.js"
+    }
+   ],
+   "ver": "2fe819900f",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.the-interpreter.ch3",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.the-interpreter",
+   "ch": 3,
+   "title": {
+    "en": "Witness",
+    "vi": "Nhân chứng"
+   },
+   "count": 0,
+   "size": 998565,
+   "files": [
+    {
+     "name": "img/act-calendar.jpg",
+     "size": 71053,
+     "sha256": "4638b591c9ee0899387b512e306ff40251255d2c14d5f2ffe46ac19f3966487d",
+     "path": "f/4638b591c9ee0899.jpg"
+    },
+    {
+     "name": "img/act-drawer.jpg",
+     "size": 55935,
+     "sha256": "fbde11cf556150ae9e39ae694f5611ebefba9db195d07421212693151f0ff137",
+     "path": "f/fbde11cf556150ae.jpg"
+    },
+    {
+     "name": "img/act-tape.jpg",
+     "size": 68137,
+     "sha256": "f94c51c129a51629ad03c0518ded3567b5ba0cebd112973215ea675817656490",
+     "path": "f/f94c51c129a51629.jpg"
+    },
+    {
+     "name": "img/act-ticket.jpg",
+     "size": 80712,
+     "sha256": "136c07ea733b140078b4ff377189b284d4c1a78c6a5ed85004ff3f73072a904f",
+     "path": "f/136c07ea733b1400.jpg"
+    },
+    {
+     "name": "img/archive.jpg",
+     "size": 153906,
+     "sha256": "89ef2d8a8efe747f30142c543d1365e0d6f8554de4780b524e0d0b8fdbe26e44",
+     "path": "f/89ef2d8a8efe747f.jpg"
+    },
+    {
+     "name": "img/cg-ellie.jpg",
+     "size": 60249,
+     "sha256": "00cb7823fb0cf94a68578f5d0f079f3d7cd187d003a907804c361da476b5256b",
+     "path": "f/00cb7823fb0cf94a.jpg"
+    },
+    {
+     "name": "img/cg-letter.jpg",
+     "size": 70302,
+     "sha256": "7be81cd9287801080b297cd8dbc91ebab11e92625c7b4367a03a9bcf23282eb7",
+     "path": "f/7be81cd928780108.jpg"
+    },
+    {
+     "name": "img/cg-lighthouse.jpg",
+     "size": 56551,
+     "sha256": "70fe5948efe0935372a627b937e0af536404d8d52112b2056113550480a53976",
+     "path": "f/70fe5948efe09353.jpg"
+    },
+    {
+     "name": "img/hospital.jpg",
+     "size": 79286,
+     "sha256": "0f2dac6292f73d956a63ab80f645ba80092b2a060416d0f24c4c660bc268a9fd",
+     "path": "f/0f2dac6292f73d95.jpg"
+    },
+    {
+     "name": "img/it-finch_note.jpg",
+     "size": 45500,
+     "sha256": "a5bcef8d6ab53191481b3602364a314dc7593a4ecfb3acea4fb59de6d6c55233",
+     "path": "f/a5bcef8d6ab53191.jpg"
+    },
+    {
+     "name": "img/it-finch_report.jpg",
+     "size": 25306,
+     "sha256": "4482841853c3e93adf8060712eb228be6c2d0545e28e30ff1f1c73e9e3ee0b73",
+     "path": "f/4482841853c3e93a.jpg"
+    },
+    {
+     "name": "img/it-finch_tape.jpg",
+     "size": 19247,
+     "sha256": "4e476ac88baf50938c15176979148ab9dfed7b42cc4d63ec45711d88e76265a7",
+     "path": "f/4e476ac88baf5093.jpg"
+    },
+    {
+     "name": "img/it-letter.jpg",
+     "size": 24140,
+     "sha256": "b7d81940c23d993ee71984be48c202b470bea80bd7253d8c6d3b2eaf4d7bb396",
+     "path": "f/b7d81940c23d993e.jpg"
+    },
+    {
+     "name": "img/it-ticket.jpg",
+     "size": 32350,
+     "sha256": "e46afb58edb3e12feebf092ee8ad0bb14c239446215d1f0ae8de7284502da971",
+     "path": "f/e46afb58edb3e12f.jpg"
+    },
+    {
+     "name": "img/street.jpg",
+     "size": 122753,
+     "sha256": "44fe71390608cb5a398f95356b53c93d7045b4c4380fd2c0b6fb31fa7b5f4375",
+     "path": "f/44fe71390608cb5a.jpg"
+    },
+    {
+     "name": "story/ch3.js",
+     "size": 33138,
+     "sha256": "5d3f74399398c73b057e1733aa8273b96c4b1fe146d971b0e9d893c570339f97",
+     "path": "f/5d3f74399398c73b.js"
+    }
+   ],
+   "ver": "05c9ce13a2",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.the-interpreter.ch4",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.the-interpreter",
+   "ch": 4,
+   "title": {
+    "en": "The Benefactor",
+    "vi": "Ân nhân"
+   },
+   "count": 0,
+   "size": 872693,
+   "files": [
+    {
+     "name": "img/act-champagne.jpg",
+     "size": 52603,
+     "sha256": "2db0b276858f5f1992610a51c098c094ae1beb3fb752f113a11c27040fb6fb71",
+     "path": "f/2db0b276858f5f19.jpg"
+    },
+    {
+     "name": "img/act-charger.jpg",
+     "size": 28861,
+     "sha256": "512405e9f89cc96ad28fe67efe8b47eba8decf65efc8b757a59cc7a803f5c6b5",
+     "path": "f/512405e9f89cc96a.jpg"
+    },
+    {
+     "name": "img/act-key.jpg",
+     "size": 52806,
+     "sha256": "145a56e37897bae5a592b46585d4161ce2b758a7e37c1921c53b21277eaf4777",
+     "path": "f/145a56e37897bae5.jpg"
+    },
+    {
+     "name": "img/act-ledger.jpg",
+     "size": 132878,
+     "sha256": "730fd86674d3a190a0c5b803224b69c62a4ea8a30e0188d726eb34c9fbe748dd",
+     "path": "f/730fd86674d3a190.jpg"
+    },
+    {
+     "name": "img/cg-holt.jpg",
+     "size": 78978,
+     "sha256": "ca6992c30859b4340456032c2784b41077ac701c81300a7b437d4a015bb1b404",
+     "path": "f/ca6992c30859b434.jpg"
+    },
+    {
+     "name": "img/cg-safe.jpg",
+     "size": 62141,
+     "sha256": "c0591a92caa5c9a26c708a4ee95c891f1ebbdcfc623637a666ed06fd51936fe7",
+     "path": "f/c0591a92caa5c9a2.jpg"
+    },
+    {
+     "name": "img/gala.jpg",
+     "size": 126375,
+     "sha256": "aa60b8fde7ba3fd20ae4053a10d731d429ab6ac073b5b4807a2fa87ebd84a796",
+     "path": "f/aa60b8fde7ba3fd2.jpg"
+    },
+    {
+     "name": "img/galakitchen.jpg",
+     "size": 149738,
+     "sha256": "18c01b9a033add68123c293c9f67d612b995f6fc95ff3aa0d10948f358717bbc",
+     "path": "f/18c01b9a033add68.jpg"
+    },
+    {
+     "name": "img/it-gp_key.jpg",
+     "size": 21857,
+     "sha256": "5137492a48ec85a5c27d9821fea22715a4b803f2a8dd85b3e2cad7ef3695f4bc",
+     "path": "f/5137492a48ec85a5.jpg"
+    },
+    {
+     "name": "img/it-ledger.jpg",
+     "size": 31607,
+     "sha256": "ee24cd3aecf0dd281bea61b4728757fe867e7734e13607faab0521bc477aa02b",
+     "path": "f/ee24cd3aecf0dd28.jpg"
+    },
+    {
+     "name": "img/it-recorder.jpg",
+     "size": 16580,
+     "sha256": "9d02eab46a8262754e58c5f07878d02bf1ea5ba9b894061026ef2b846fbe7892",
+     "path": "f/9d02eab46a826275.jpg"
+    },
+    {
+     "name": "img/study.jpg",
+     "size": 87201,
+     "sha256": "7d83c08f6f07b441a59487e72ff1f0c595c5fe0ae9958efa50e2c5ab78d84a70",
+     "path": "f/7d83c08f6f07b441.jpg"
+    },
+    {
+     "name": "story/ch4.js",
+     "size": 31068,
+     "sha256": "5a1f53d5540bdc4840db430169af8a7d756a3111f9d56e6189d38628bab03164",
+     "path": "f/5a1f53d5540bdc48.js"
+    }
+   ],
+   "ver": "02d5192079",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.the-interpreter.ch5",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.the-interpreter",
+   "ch": 5,
+   "title": {
+    "en": "Undertow",
+    "vi": "Sóng ngầm"
+   },
+   "count": 0,
+   "size": 282486,
+   "files": [
+    {
+     "name": "img/gullpoint.jpg",
+     "size": 121791,
+     "sha256": "cb7c7bd15099ef36b3242fb242e5a8c941f4b29583343c23a82f861bf1d6be2d",
+     "path": "f/cb7c7bd15099ef36.jpg"
+    },
+    {
+     "name": "img/storm.jpg",
+     "size": 122359,
+     "sha256": "02a968cbe3f651d2942b66ead3fc02003316bda62faf15ec9aeab198aa9d7d89",
+     "path": "f/02a968cbe3f651d2.jpg"
+    },
+    {
+     "name": "story/ch5.js",
+     "size": 38336,
+     "sha256": "1901aa46ca9b6f265e0998e90f67a0b354fb789d3ec34c38ab68c2eb9d607d6b",
+     "path": "f/1901aa46ca9b6f26.js"
+    }
+   ],
+   "ver": "22e03c1124",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.the-interpreter.ch6",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.the-interpreter",
+   "ch": 6,
+   "title": {
+    "en": "Testimony",
+    "vi": "Lời khai"
+   },
+   "count": 0,
+   "size": 27162,
+   "files": [
+    {
+     "name": "story/ch6.js",
+     "size": 27162,
+     "sha256": "8ee17df74487868809b56ea5dffecf009ee7438e068e9b49ab87e67b9df2e1da",
+     "path": "f/8ee17df744878688.js"
+    }
+   ],
+   "ver": "b6dd0d0dad",
+   "up": "2026-10-29"
   }
  ]
 }

@@ -1,0 +1,14 @@
+:root { --g1: #0f766e; --g2: #052e2b; --ga: #2dd4bf; }
+.gk-stage { display: flex; flex-direction: column; justify-content: center; gap: 28px; padding: 8px 14px; }
+.slots { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+.slots .gap { width: 14px; }
+.sl { width: 42px; height: 50px; border-radius: 12px; border: 2px dashed rgba(255,255,255,.4); background: rgba(255,255,255,.06); color: #fff; font-family: inherit; font-weight: 900; font-size: 24px; line-height: 1; }
+.sl.on { border-style: solid; border-color: #fff; background: rgba(255,255,255,.2); animation: slIn .22s cubic-bezier(.2,1.6,.4,1); }
+@keyframes slIn { from { transform: scale(.6); } }
+.slots.win .sl { border-color: #86efac; background: #16a34a; animation: slWin .5s ease-out; }
+@keyframes slWin { 40% { transform: translateY(-8px); } }
+.tiles { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.tl { width: 52px; height: 56px; border: 0; border-radius: 14px; background: linear-gradient(160deg, #fef3c7, #fcd34d); color: #422006; font-family: inherit; font-weight: 900; font-size: 26px; line-height: 1; box-shadow: 0 5px 0 #b45309; cursor: pointer; transition: transform .12s, opacity .2s; }
+.tl:active { transform: translateY(4px); box-shadow: 0 1px 0 #b45309; }
+.tl.used { opacity: .18; pointer-events: none; transform: scale(.85); }
+@media (max-width: 360px) { .sl { width: 36px; height: 44px; font-size: 21px; } .tl { width: 46px; height: 50px; font-size: 23px; } }

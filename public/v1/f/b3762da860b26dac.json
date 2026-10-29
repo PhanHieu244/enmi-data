@@ -1,0 +1,67 @@
+{
+ "vi": {
+  "how": "Chạm 1 từ bên trái rồi chạm nghĩa của nó bên phải để nối dây. Nối hết các cặp trước khi hết giờ.",
+  "ask": "Nghĩa:",
+  "sub": "Nối đúng {n} cặp"
+ },
+ "en": {
+  "how": "Tap a word on the left, then its meaning on the right to connect them. Link every pair before time runs out.",
+  "ask": "Meaning:",
+  "sub": "{n} pairs linked"
+ },
+ "de": {
+  "how": "Tippe links ein Wort und rechts seine Bedeutung, um sie zu verbinden. Verbinde alle Paare, bevor die Zeit abläuft.",
+  "ask": "Bedeutung:",
+  "sub": "{n} Paare verbunden"
+ },
+ "es": {
+  "how": "Toca una palabra a la izquierda y luego su significado a la derecha para unirlas. Une todas las parejas antes de que acabe el tiempo.",
+  "ask": "Significado:",
+  "sub": "{n} parejas unidas"
+ },
+ "fr": {
+  "how": "Touche un mot à gauche puis son sens à droite pour les relier. Relie toutes les paires avant la fin du temps.",
+  "ask": "Sens :",
+  "sub": "{n} paires reliées"
+ },
+ "hi": {
+  "how": "बाईं ओर एक शब्द छुएँ, फिर दाईं ओर उसका अर्थ — दोनों जुड़ जाएँगे। समय खत्म होने से पहले सारे जोड़े जोड़ें।",
+  "ask": "अर्थ:",
+  "sub": "{n} जोड़े जुड़े"
+ },
+ "id": {
+  "how": "Ketuk kata di kiri, lalu artinya di kanan untuk menghubungkan. Hubungkan semua pasangan sebelum waktu habis.",
+  "ask": "Arti:",
+  "sub": "{n} pasangan terhubung"
+ },
+ "ja": {
+  "how": "左の単語、右の意味の順にタップして線でつなごう。時間内に全部つなげてね。",
+  "ask": "意味：",
+  "sub": "{n}組つないだ"
+ },
+ "ko": {
+  "how": "왼쪽 단어를 누르고 오른쪽 뜻을 눌러 이어요. 시간이 끝나기 전에 모든 짝을 이어요.",
+  "ask": "뜻:",
+  "sub": "{n}쌍 연결"
+ },
+ "pt": {
+  "how": "Toque uma palavra à esquerda e depois o significado à direita para ligar. Ligue todos os pares antes do tempo acabar.",
+  "ask": "Significado:",
+  "sub": "{n} pares ligados"
+ },
+ "ru": {
+  "how": "Нажми слово слева, затем его значение справа, чтобы соединить. Соедини все пары, пока не вышло время.",
+  "ask": "Значение:",
+  "sub": "Соединено пар: {n}"
+ },
+ "th": {
+  "how": "แตะคำทางซ้าย แล้วแตะความหมายทางขวาเพื่อโยงเส้น โยงให้ครบทุกคู่ก่อนหมดเวลา",
+  "ask": "ความหมาย:",
+  "sub": "โยงถูก {n} คู่"
+ },
+ "zh": {
+  "how": "先点左边的单词，再点右边对应的意思来连线。在时间结束前连完所有配对。",
+  "ask": "意思：",
+  "sub": "连对 {n} 对"
+ }
+}

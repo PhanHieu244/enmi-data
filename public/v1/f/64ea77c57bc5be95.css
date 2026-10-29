@@ -1,0 +1,14 @@
+:root { --g1: #be185d; --g2: #2a0717; --ga: #f472b6; }
+.gk-stage { display: grid; grid-template-columns: 1fr 1fr; column-gap: 46px; align-content: center; padding: 6px 14px; }
+.wires { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
+.wires .w { stroke-dasharray: 600; stroke-dashoffset: 600; animation: wDraw .45s ease-out forwards; }
+@keyframes wDraw { to { stroke-dashoffset: 0; } }
+.col { position: relative; z-index: 2; display: grid; gap: 12px; }
+.col button { min-height: 58px; padding: 8px 10px; border: 0; border-radius: 16px; background: #fff; color: #3b0718; font-family: inherit; font-weight: 800; font-size: 16px; line-height: 1.25; text-align: center; overflow-wrap: anywhere; box-shadow: 0 4px 0 rgba(0,0,0,.25); cursor: pointer; transition: transform .12s, background .15s; }
+.col.r button { background: #fdf2f8; font-weight: 700; font-size: 14.5px; }
+.col button.on { background: #fde68a; transform: scale(1.04); }
+.col button.ok { background: hsl(var(--h) 85% 88%); color: hsl(var(--h) 70% 22%); box-shadow: 0 0 0 3px hsl(var(--h) 85% 60%); pointer-events: none; }
+.col button.bad { background: #fecaca; animation: bad .4s; }
+@keyframes bad { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.col button.hint { animation: hint .4s ease-in-out 4; }
+@keyframes hint { 50% { background: #86efac; transform: scale(1.06); } }

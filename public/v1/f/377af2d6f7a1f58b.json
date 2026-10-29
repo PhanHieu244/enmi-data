@@ -1,0 +1,67 @@
+{
+ "vi": {
+  "how": "Tìm các từ ẩn trong lưới theo nghĩa ở dưới. Kéo ngón tay qua các ô để khoanh từ — từ có thể nằm ngang, dọc hoặc chéo.",
+  "ask": "Nghĩa:",
+  "sub": "Tìm được {n} từ"
+ },
+ "en": {
+  "how": "Find the hidden words in the grid using the meanings below. Drag across the letters to circle a word — across, down or diagonal.",
+  "ask": "Meaning:",
+  "sub": "{n} words found"
+ },
+ "de": {
+  "how": "Finde die versteckten Wörter anhand der Bedeutungen unten. Zieh über die Buchstaben — waagerecht, senkrecht oder diagonal.",
+  "ask": "Bedeutung:",
+  "sub": "{n} Wörter gefunden"
+ },
+ "es": {
+  "how": "Encuentra las palabras ocultas con los significados de abajo. Arrastra sobre las letras: en horizontal, vertical o diagonal.",
+  "ask": "Significado:",
+  "sub": "{n} palabras encontradas"
+ },
+ "fr": {
+  "how": "Trouve les mots cachés grâce aux sens en bas. Glisse sur les lettres : horizontal, vertical ou diagonal.",
+  "ask": "Sens :",
+  "sub": "{n} mots trouvés"
+ },
+ "hi": {
+  "how": "नीचे दिए अर्थों से ग्रिड में छिपे शब्द खोजें। अक्षरों पर उँगली खींचें — आड़ा, खड़ा या तिरछा।",
+  "ask": "अर्थ:",
+  "sub": "{n} शब्द मिले"
+ },
+ "id": {
+  "how": "Temukan kata tersembunyi dari arti di bawah. Seret jari di atas huruf — mendatar, menurun, atau diagonal.",
+  "ask": "Arti:",
+  "sub": "{n} kata ditemukan"
+ },
+ "ja": {
+  "how": "下の意味をヒントに、マスに隠れた単語を探そう。文字をなぞって囲みます。横・縦・斜めにあります。",
+  "ask": "意味：",
+  "sub": "{n}語みつけた"
+ },
+ "ko": {
+  "how": "아래 뜻을 보고 칸에 숨은 단어를 찾아요. 글자 위를 끌어 단어를 표시해요. 가로·세로·대각선으로 있어요.",
+  "ask": "뜻:",
+  "sub": "단어 {n}개 찾음"
+ },
+ "pt": {
+  "how": "Encontre as palavras escondidas com os significados abaixo. Arraste sobre as letras — na horizontal, vertical ou diagonal.",
+  "ask": "Significado:",
+  "sub": "{n} palavras encontradas"
+ },
+ "ru": {
+  "how": "Найди спрятанные слова по значениям внизу. Проведи пальцем по буквам — по горизонтали, вертикали или диагонали.",
+  "ask": "Значение:",
+  "sub": "Найдено слов: {n}"
+ },
+ "th": {
+  "how": "หาคำที่ซ่อนในตารางจากความหมายด้านล่าง ลากนิ้วผ่านตัวอักษร — แนวนอน แนวตั้ง หรือแนวทแยง",
+  "ask": "ความหมาย:",
+  "sub": "หาเจอ {n} คำ"
+ },
+ "zh": {
+  "how": "根据下方的意思，在格子里找出隐藏的单词。手指划过字母圈出单词——横、竖、斜都有。",
+  "ask": "意思：",
+  "sub": "找到 {n} 个词"
+ }
+}

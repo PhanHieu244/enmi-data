@@ -1,0 +1,67 @@
+{
+ "vi": {
+  "how": "Lượn rắn tới ăn đúng từ có nghĩa ở trên. Vuốt hoặc dùng nút mũi tên để đổi hướng. Ăn sai hay tự cắn đuôi là mất mạng.",
+  "ask": "Nghĩa:",
+  "sub": "Ăn đúng {n} từ"
+ },
+ "en": {
+  "how": "Steer the snake to eat the word that matches the meaning. Swipe or use the arrows to turn. Wrong word or biting your tail costs a life.",
+  "ask": "Meaning:",
+  "sub": "{n} words eaten"
+ },
+ "de": {
+  "how": "Steuere die Schlange zum Wort mit der passenden Bedeutung. Wische oder nutze die Pfeile. Falsches Wort oder Schwanz beißen kostet ein Leben.",
+  "ask": "Bedeutung:",
+  "sub": "{n} Wörter gefressen"
+ },
+ "es": {
+  "how": "Guía la serpiente hasta la palabra del significado. Desliza o usa las flechas. Si fallas o te muerdes la cola, pierdes una vida.",
+  "ask": "Significado:",
+  "sub": "{n} palabras comidas"
+ },
+ "fr": {
+  "how": "Guide le serpent vers le mot qui correspond au sens. Glisse ou utilise les flèches. Mauvais mot ou queue mordue : une vie en moins.",
+  "ask": "Sens :",
+  "sub": "{n} mots mangés"
+ },
+ "hi": {
+  "how": "साँप को सही अर्थ वाले शब्द तक ले जाएँ। दिशा बदलने के लिए स्वाइप करें या तीर दबाएँ। गलत शब्द या अपनी पूँछ काटने पर एक जान जाती है।",
+  "ask": "अर्थ:",
+  "sub": "{n} शब्द खाए"
+ },
+ "id": {
+  "how": "Arahkan ular ke kata yang sesuai artinya. Geser atau pakai panah untuk berbelok. Salah kata atau menggigit ekor = nyawa berkurang.",
+  "ask": "Arti:",
+  "sub": "{n} kata dimakan"
+ },
+ "ja": {
+  "how": "ヘビを動かして、意味に合う単語を食べよう。スワイプか矢印で向きを変えます。間違いやしっぽをかむとライフが減ります。",
+  "ask": "意味：",
+  "sub": "{n}語たべた"
+ },
+ "ko": {
+  "how": "뱀을 움직여 뜻에 맞는 단어를 먹어요. 밀거나 화살표로 방향을 바꿔요. 틀리거나 꼬리를 물면 목숨이 줄어요.",
+  "ask": "뜻:",
+  "sub": "단어 {n}개 먹음"
+ },
+ "pt": {
+  "how": "Guie a cobra até a palavra do significado. Deslize ou use as setas. Palavra errada ou morder a cauda custa uma vida.",
+  "ask": "Significado:",
+  "sub": "{n} palavras comidas"
+ },
+ "ru": {
+  "how": "Веди змейку к слову с нужным значением. Свайпай или жми стрелки. Не то слово или укус хвоста — минус жизнь.",
+  "ask": "Значение:",
+  "sub": "Съедено слов: {n}"
+ },
+ "th": {
+  "how": "บังคับงูไปกินคำที่ตรงกับความหมาย ปัดหรือกดลูกศรเพื่อเลี้ยว กินผิดหรือกัดหางจะเสียชีวิต",
+  "ask": "ความหมาย:",
+  "sub": "กินถูก {n} คำ"
+ },
+ "zh": {
+  "how": "控制小蛇吃掉与意思对应的单词。滑动或按方向键转向。吃错或咬到尾巴会扣一条命。",
+  "ask": "意思：",
+  "sub": "吃对 {n} 个词"
+ }
+}

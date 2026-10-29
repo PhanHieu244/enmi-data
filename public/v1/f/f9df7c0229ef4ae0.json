@@ -1,0 +1,67 @@
+{
+ "vi": {
+  "how": "Xem nghĩa rồi chọn từng chữ cái để đoán từ. Mỗi lần sai, 1 quả bóng đang nâng Enmi bị vỡ — đừng để vỡ hết!",
+  "ask": "Nghĩa:",
+  "sub": "Đoán đúng {n} từ · từ cuối: {w}"
+ },
+ "en": {
+  "how": "See the meaning and pick letters to guess the word. Each wrong letter pops one of the balloons holding Enmi up — don't pop them all!",
+  "ask": "Meaning:",
+  "sub": "{n} words guessed · last: {w}"
+ },
+ "de": {
+  "how": "Sieh dir die Bedeutung an und wähle Buchstaben, um das Wort zu erraten. Jeder Fehler lässt einen Ballon von Enmi platzen — nicht alle!",
+  "ask": "Bedeutung:",
+  "sub": "{n} Wörter erraten · zuletzt: {w}"
+ },
+ "es": {
+  "how": "Mira el significado y elige letras para adivinar la palabra. Cada error revienta un globo que sostiene a Enmi: ¡no los revientes todos!",
+  "ask": "Significado:",
+  "sub": "{n} palabras adivinadas · última: {w}"
+ },
+ "fr": {
+  "how": "Lis le sens et choisis des lettres pour deviner le mot. Chaque erreur fait éclater un ballon qui porte Enmi — ne les perds pas tous !",
+  "ask": "Sens :",
+  "sub": "{n} mots devinés · dernier : {w}"
+ },
+ "hi": {
+  "how": "अर्थ देखें और अक्षर चुनकर शब्द अनुमान लगाएँ। हर गलती पर Enmi को उठाए एक गुब्बारा फूटता है — सब न फूटने दें!",
+  "ask": "अर्थ:",
+  "sub": "{n} शब्द सही · आखिरी: {w}"
+ },
+ "id": {
+  "how": "Lihat artinya lalu pilih huruf untuk menebak kata. Tiap salah, satu balon yang mengangkat Enmi meletus — jangan sampai habis!",
+  "ask": "Arti:",
+  "sub": "{n} kata tertebak · terakhir: {w}"
+ },
+ "ja": {
+  "how": "意味を見て文字を選び、単語を当てよう。間違えるたびにEnmiを支える風船が1つ割れます。全部割らないで！",
+  "ask": "意味：",
+  "sub": "{n}語あてた・最後：{w}"
+ },
+ "ko": {
+  "how": "뜻을 보고 글자를 골라 단어를 맞혀요. 틀릴 때마다 Enmi를 띄운 풍선이 하나씩 터져요. 다 터지지 않게!",
+  "ask": "뜻:",
+  "sub": "단어 {n}개 맞힘 · 마지막: {w}"
+ },
+ "pt": {
+  "how": "Veja o significado e escolha letras para adivinhar a palavra. Cada erro estoura um balão que segura o Enmi — não estoure todos!",
+  "ask": "Significado:",
+  "sub": "{n} palavras adivinhadas · última: {w}"
+ },
+ "ru": {
+  "how": "Посмотри на значение и выбирай буквы, чтобы угадать слово. Каждая ошибка лопает шарик, на котором держится Enmi — не лопни все!",
+  "ask": "Значение:",
+  "sub": "Угадано слов: {n} · последнее: {w}"
+ },
+ "th": {
+  "how": "ดูความหมายแล้วเลือกตัวอักษรเพื่อทายคำ ผิดแต่ละครั้ง ลูกโป่งที่พยุง Enmi จะแตก 1 ลูก — อย่าให้แตกหมด!",
+  "ask": "ความหมาย:",
+  "sub": "ทายถูก {n} คำ · คำสุดท้าย: {w}"
+ },
+ "zh": {
+  "how": "看意思，选字母猜单词。每错一次，托着 Enmi 的气球就会破一个——别全弄破了！",
+  "ask": "意思：",
+  "sub": "猜对 {n} 个词 · 最后一个：{w}"
+ }
+}
