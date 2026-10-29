@@ -1,0 +1,2 @@
+// SINH bởi tools/games/_lib/story/refs.js — đừng sửa tay (index-html.js tự chạy lại).
+StoryEngine.refs?.({"items":{"phone":5,"sam_photo":2,"watch":1,"id_card":1,"trainer":2,"hook":3,"leg_it":1,"jim_note":1,"notes":6,"voicemail":2,"pm_report":3,"rota":3,"sam_jacket":2,"debt_book":2,"pub_tape":2,"ticket":3,"finch_tape":3,"finch_note":3,"finch_report":3,"letter":3,"invite":4,"recorder":6,"ledger":4,"gp_key":5,"crowbar":5,"finch_tape2":6,"sam_book":6,"oilskin":6}});
