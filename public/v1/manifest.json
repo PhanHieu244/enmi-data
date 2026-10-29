@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-29T11:42:44.442Z",
+ "at": "2026-10-29T11:58:35.929Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -2189,1013 +2189,6 @@
    "up": "2026-10-29"
   },
   {
-   "id": "game.seven-mornings",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [],
-   "rewards": "own",
-   "cover": {
-    "c1": "#1a2433",
-    "c2": "#7fc8ff"
-   },
-   "chList": [
-    {
-     "ch": 1,
-     "title": {
-      "en": "The First Morning",
-      "vi": "Buổi sáng đầu tiên"
-     },
-     "sum": {
-      "en": "14 February. New flat, six neighbours, a fire at nine.",
-      "vi": "14 tháng 2. Căn hộ mới, sáu người hàng xóm, đám cháy lúc chín giờ."
-     }
-    },
-    {
-     "ch": 2,
-     "title": {
-      "en": "Patterns",
-      "vi": "Quy luật"
-     },
-     "sum": {
-      "en": "Everyone does the same thing at the same time. Except you.",
-      "vi": "Ai cũng làm đúng việc ấy vào đúng giờ ấy. Trừ bạn."
-     },
-     "soon": true
-    },
-    {
-     "ch": 3,
-     "title": {
-      "en": "The Last Morning",
-      "vi": "Buổi sáng cuối cùng"
-     },
-     "sum": {
-      "en": "One more loop. Everything you know. Everyone out.",
-      "vi": "Thêm một vòng. Mọi điều bạn biết. Đưa tất cả ra ngoài."
-     },
-     "soon": true
-    }
-   ],
-   "count": 0,
-   "size": 363787,
-   "badge": "new",
-   "title": {
-    "vi": "Bảy buổi sáng",
-    "en": "Seven Mornings"
-   },
-   "desc": {
-    "vi": "Truyện hồi hộp vòng lặp thời gian: chín giờ tối nay toà nhà của bạn cháy, sáng mai lại là sáng nay. Nhớ lời từng người hàng xóm, chọn khác đi, đưa mọi người ra ngoài. Chương 1 đã ra, chương 2–3 sắp ra mắt.",
-    "en": "A time-loop thriller: tonight at nine your building burns, and tomorrow it is this morning again. Remember what each neighbour says, choose differently, get everyone out. Chapter 1 out now, chapters 2–3 coming soon."
-   },
-   "files": [
-    {
-     "name": "art.css",
-     "size": 99,
-     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
-     "path": "f/ea7a249bcb0609fb.css"
-    },
-    {
-     "name": "art.js",
-     "size": 180,
-     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
-     "path": "f/930a3d4da8303c3a.js"
-    },
-    {
-     "name": "boot.js",
-     "size": 173,
-     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
-     "path": "f/d1c4a183daa37bba.js"
-    },
-    {
-     "name": "index.html",
-     "size": 1056,
-     "sha256": "9fa5cbcaf5747b57afbdae7a81484e7e42d7461e83707518f0cfaba10657163d",
-     "path": "f/9fa5cbcaf5747b57.html"
-    },
-    {
-     "name": "story/ch1.js",
-     "size": 12214,
-     "sha256": "85decde1bbaff1ac914fc18557a2a57ec44013401475867ffd0360a1b5bb0775",
-     "path": "f/85decde1bbaff1ac.js"
-    },
-    {
-     "name": "story/refs.js",
-     "size": 154,
-     "sha256": "bde8a6c7cfce8d5c5127509ff6b17137ab897494469e2f63a5c7b9186ee99f36",
-     "path": "f/bde8a6c7cfce8d5c.js"
-    },
-    {
-     "name": "story/story.js",
-     "size": 7058,
-     "sha256": "b0518f6122f178e3aceb311558ddd9ddc380b435fc15720b3e608382464fe07f",
-     "path": "f/b0518f6122f178e3.js"
-    },
-    {
-     "name": "lib/story/core.js",
-     "size": 104271,
-     "sha256": "dca9677546b1ad30330b6fa20f42822add3a4eb5c17802a3a38020b222811dd0",
-     "path": "f/dca9677546b1ad30.js"
-    },
-    {
-     "name": "lib/story/fx.js",
-     "size": 13175,
-     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
-     "path": "f/37f194cfce1f33c2.js"
-    },
-    {
-     "name": "lib/story/flow.js",
-     "size": 12350,
-     "sha256": "dea105e048a624e3554a3ebdabcb9855acbe22a963d521a2fdb624f9cf0f4408",
-     "path": "f/dea105e048a624e3.js"
-    },
-    {
-     "name": "lib/story/mech.js",
-     "size": 56664,
-     "sha256": "4f0bd77b7375f3b468911c586e8334ad60aebf889f70ecdb55a70e575edd4a9d",
-     "path": "f/4f0bd77b7375f3b4.js"
-    },
-    {
-     "name": "lib/story/mech-plus.js",
-     "size": 46135,
-     "sha256": "2a2c5532b99dd9038274078ac8094f2128118cf7c0635aafea0691b8762e3a9c",
-     "path": "f/2a2c5532b99dd903.js"
-    },
-    {
-     "name": "lib/story/ui.css",
-     "size": 110258,
-     "sha256": "3aba0668b881e03cfed480dae7410a52b22df5861e0456da04eebfb46d0c6aad",
-     "path": "f/3aba0668b881e03c.css"
-    }
-   ],
-   "ver": "271c27d142",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.between-tides",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [],
-   "rewards": "own",
-   "cover": {
-    "c1": "#16283a",
-    "c2": "#d9a04a"
-   },
-   "chapters": 5,
-   "chList": [
-    {
-     "ch": 1,
-     "title": {
-      "en": "Low Water",
-      "vi": "Nước ròng"
-     },
-     "sum": {
-      "en": "A ring, a note, and a road that stays dry after the bell.",
-      "vi": "Một chiếc nhẫn, một mẩu thư, và con đường vẫn khô sau tiếng chuông."
-     }
-    },
-    {
-     "ch": 2,
-     "title": {
-      "en": "The Lamp in the Box",
-      "vi": "Ngọn đèn trong chòi"
-     },
-     "sum": {
-      "en": "A light in the refuge box, and a man who never came home.",
-      "vi": "Một ngọn đèn trong chòi trú nạn, và một người không bao giờ về."
-     }
-    },
-    {
-     "ch": 3,
-     "title": {
-      "en": "The Outsider",
-      "vi": "Người ngoài"
-     },
-     "sum": {
-      "en": "Everyone says suicide. You are the stranger in the room.",
-      "vi": "Ai cũng nói là tự tử. Bạn là người lạ trong phòng."
-     }
-    },
-    {
-     "ch": 4,
-     "title": {
-      "en": "The Sea Doesn't Read the Table",
-      "vi": "Biển không đọc bảng giờ"
-     },
-     "sum": {
-      "en": "A withheld call, a doctor's confession, a boy's.",
-      "vi": "Một cuộc gọi giấu số, lời thú của bác sĩ, lời thú của một cậu bé."
-     }
-    },
-    {
-     "ch": 5,
-     "title": {
-      "en": "What the Dunes Kept",
-      "vi": "Điều cồn cát giữ"
-     },
-     "sum": {
-      "en": "What happened on the causeway in 2004 — and what the sand kept.",
-      "vi": "Chuyện gì đã xảy ra trên đường ngầm năm 2004 — và cát đã giữ lại gì."
-     }
-    },
-    {
-     "ch": 6,
-     "title": {
-      "en": "Between Tides",
-      "vi": "Giữa hai con nước"
-     },
-     "soon": true
-    }
-   ],
-   "count": 0,
-   "size": 425735,
-   "badge": "new",
-   "title": {
-    "vi": "Giữa hai con nước",
-    "en": "Between Tides"
-   },
-   "desc": {
-    "vi": "Trinh thám trên một hòn đảo chỉ nối với đất liền khi nước ròng: đêm nay đường ngầm đóng, một người không về. Hỏi chuyện, so giờ thuỷ triều, nghe lời khai — 5 chương đã ra, chương cuối sắp ra mắt.",
-    "en": "A detective story on an island cut off at high tide: tonight the causeway closes and a man never comes home. Question, check the tide times, weigh every statement — 5 chapters out, the final chapter coming soon."
-   },
-   "files": [
-    {
-     "name": "art.css",
-     "size": 99,
-     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
-     "path": "f/ea7a249bcb0609fb.css"
-    },
-    {
-     "name": "art.js",
-     "size": 4606,
-     "sha256": "2f4dcf8135628e46d7d5acec8adf066f2637b32a2003a13b254d849de82f42ce",
-     "path": "f/2f4dcf8135628e46.js"
-    },
-    {
-     "name": "boot.js",
-     "size": 173,
-     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
-     "path": "f/d1c4a183daa37bba.js"
-    },
-    {
-     "name": "index.html",
-     "size": 1267,
-     "sha256": "626f7be82342aa3e60fe02bbc8b2e5a60396eab703e04b0293c67289b354654a",
-     "path": "f/626f7be82342aa3e.html"
-    },
-    {
-     "name": "story/ch1.js",
-     "size": 56640,
-     "sha256": "75df02b6118585ce3d516c95ed6e912df04cc43ff66e3635da52b892e5fa359f",
-     "path": "f/75df02b6118585ce.js"
-    },
-    {
-     "name": "story/refs.js",
-     "size": 252,
-     "sha256": "97f5d4fbfc6d06dbc62fcd8dee0ca9c19e5def83a9323612a6b002a5b7af5442",
-     "path": "f/97f5d4fbfc6d06db.js"
-    },
-    {
-     "name": "story/story.js",
-     "size": 16119,
-     "sha256": "226fd43ac5c0785567457f96cfda1e1a332e73e409b20273de8486475c6fa9b1",
-     "path": "f/226fd43ac5c07855.js"
-    },
-    {
-     "name": "lib/story/core.js",
-     "size": 105539,
-     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
-     "path": "f/d531d7353a91b2db.js"
-    },
-    {
-     "name": "lib/story/fx.js",
-     "size": 13175,
-     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
-     "path": "f/37f194cfce1f33c2.js"
-    },
-    {
-     "name": "lib/story/flow.js",
-     "size": 12496,
-     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
-     "path": "f/8f2f54a8978f03a6.js"
-    },
-    {
-     "name": "lib/story/mech.js",
-     "size": 57331,
-     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
-     "path": "f/073f7ecd0ac011a9.js"
-    },
-    {
-     "name": "lib/story/mech-plus.js",
-     "size": 46680,
-     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
-     "path": "f/d6f17daa10910248.js"
-    },
-    {
-     "name": "lib/story/ui.css",
-     "size": 111358,
-     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
-     "path": "f/d82ade359c7ae0ec.css"
-    }
-   ],
-   "ver": "1124ae87bb",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.between-tides.ch2",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.between-tides",
-   "ch": 2,
-   "title": {
-    "en": "The Lamp in the Box",
-    "vi": "Ngọn đèn trong chòi"
-   },
-   "count": 0,
-   "size": 69552,
-   "files": [
-    {
-     "name": "story/ch2.js",
-     "size": 69552,
-     "sha256": "34cee6c47dd5759e6b530ab3b7129b6de14e46e088c96cb51f25b01173691c6d",
-     "path": "f/34cee6c47dd5759e.js"
-    }
-   ],
-   "ver": "4e42136d36",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.between-tides.ch3",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.between-tides",
-   "ch": 3,
-   "title": {
-    "en": "The Outsider",
-    "vi": "Người ngoài"
-   },
-   "count": 0,
-   "size": 68040,
-   "files": [
-    {
-     "name": "story/ch3.js",
-     "size": 68040,
-     "sha256": "3544a1b1bac69e2bd0b3eb0059e2d8a5d55319cb01572f600d4fb003274af9de",
-     "path": "f/3544a1b1bac69e2b.js"
-    }
-   ],
-   "ver": "45dff6db9f",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.between-tides.ch4",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.between-tides",
-   "ch": 4,
-   "title": {
-    "en": "The Sea Doesn't Read the Table",
-    "vi": "Biển không đọc bảng giờ"
-   },
-   "count": 0,
-   "size": 59148,
-   "files": [
-    {
-     "name": "story/ch4.js",
-     "size": 59148,
-     "sha256": "408b5f7ea7e1444197c574ad83478d6a183fcdbcd7d6cf88b81f4ba8d6a67ad4",
-     "path": "f/408b5f7ea7e14441.js"
-    }
-   ],
-   "ver": "cc7ad9ee1c",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.between-tides.ch5",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.between-tides",
-   "ch": 5,
-   "title": {
-    "en": "What the Dunes Kept",
-    "vi": "Điều cồn cát giữ"
-   },
-   "count": 0,
-   "size": 73732,
-   "files": [
-    {
-     "name": "story/ch5.js",
-     "size": 73732,
-     "sha256": "674301fde7d391f58407a2e8657075bacf5432fbb789c28d2b53a4a2c710380f",
-     "path": "f/674301fde7d391f5.js"
-    }
-   ],
-   "ver": "9468b0b91c",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [],
-   "rewards": "own",
-   "cover": {
-    "c1": "#1b2d3c",
-    "c2": "#e2a24a"
-   },
-   "chapters": 4,
-   "chList": [
-    {
-     "ch": 1,
-     "title": {
-      "en": "First Shift",
-      "vi": "Ca đầu tiên"
-     },
-     "sum": {
-      "en": "A new town, a broken coffee machine and three strangers who keep coming back.",
-      "vi": "Thị trấn mới, máy pha cà phê hỏng và ba người lạ cứ quay lại mãi."
-     }
-    },
-    {
-     "ch": 2,
-     "title": {
-      "en": "Mixed Signals",
-      "vi": "Tín hiệu lẫn lộn"
-     },
-     "sum": {
-      "en": "A first date, a letter from the landlord, and a secret under the café floor.",
-      "vi": "Buổi hẹn đầu, lá thư của chủ nhà, và bí mật dưới sàn quán."
-     }
-    },
-    {
-     "ch": 3,
-     "title": {
-      "en": "The Festival",
-      "vi": "Lễ hội"
-     },
-     "sum": {
-      "en": "One night to save Café Lune. Music, lights — and a kitchen you shouldn't enter.",
-      "vi": "Một đêm để cứu Café Lune. Âm nhạc, đèn hoa — và một căn bếp bạn không nên bước vào."
-     }
-    },
-    {
-     "ch": 4,
-     "title": {
-      "en": "Last Summer Night",
-      "vi": "Đêm cuối mùa hè"
-     },
-     "sum": {
-      "en": "The council decides. You decide who you tell.",
-      "vi": "Hội đồng quyết định. Bạn quyết định nói với ai."
-     }
-    }
-   ],
-   "count": 0,
-   "size": 1488477,
-   "badge": "new",
-   "title": {
-    "vi": "Café Lune",
-    "en": "Café Lune"
-   },
-   "desc": {
-    "vi": "Truyện hẹn hò mùa hè ở Brighton: pha cà phê, lên lịch hẹn, tặng quà, nhắn tin — và cứu quán cà phê sắp bị phá. 4 tập, 3 người để yêu, 6 kết thúc.",
-    "en": "A summer romance in Brighton: make coffee, plan dates, choose gifts, text — and save a café about to be torn down. 4 episodes, 3 people to fall for, 6 endings."
-   },
-   "files": [
-    {
-     "name": "art.css",
-     "size": 1187,
-     "sha256": "c2ecabef23f804fc0751f68b8217860034006ae7e665f9655124ac8aaefa22e8",
-     "path": "f/c2ecabef23f804fc.css"
-    },
-    {
-     "name": "art.js",
-     "size": 180,
-     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
-     "path": "f/930a3d4da8303c3a.js"
-    },
-    {
-     "name": "boot.js",
-     "size": 173,
-     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
-     "path": "f/d1c4a183daa37bba.js"
-    },
-    {
-     "name": "img/act-busk.jpg",
-     "size": 65607,
-     "sha256": "41ac335f0c6bd312f4daa23ad85c375ccd95946f25c48d64ebedfa8885fe1f0a",
-     "path": "f/41ac335f0c6bd312.jpg"
-    },
-    {
-     "name": "img/act-football.jpg",
-     "size": 51654,
-     "sha256": "78ee60793b213d231ae2981bb78055c57abfb373b893f926ba1a357f7661736c",
-     "path": "f/78ee60793b213d23.jpg"
-    },
-    {
-     "name": "img/act-latte.jpg",
-     "size": 35425,
-     "sha256": "539a74e85c5ac20a760b1571d923f092dd29cb8398229c8333b854d2ee9b030c",
-     "path": "f/539a74e85c5ac20a.jpg"
-    },
-    {
-     "name": "img/act-library.jpg",
-     "size": 83555,
-     "sha256": "4da9ffe28e9c8e01b5f373322bed1d191ac6ea6adb95b9cbea3002a7a9f0fbe0",
-     "path": "f/4da9ffe28e9c8e01.jpg"
-    },
-    {
-     "name": "img/act-out-bold.jpg",
-     "size": 31540,
-     "sha256": "f24f48d65896299f80644cc766bf5a32464d47d3a8c1f890b5d32113d564029a",
-     "path": "f/f24f48d65896299f.jpg"
-    },
-    {
-     "name": "img/act-out-comfy.jpg",
-     "size": 57734,
-     "sha256": "869929be70bf21d698a8f85d3c9b45263e6889199f1ecf0f2fc1aba4ff4e34b5",
-     "path": "f/869929be70bf21d6.jpg"
-    },
-    {
-     "name": "img/act-out-neat.jpg",
-     "size": 48762,
-     "sha256": "4e5e9a639308493a8d138eb4341a694d105a881ad4b2a859b5dab1968bfcf7b4",
-     "path": "f/4e5e9a639308493a.jpg"
-    },
-    {
-     "name": "img/act-sea.jpg",
-     "size": 29236,
-     "sha256": "f3c07b350863eeb742b651553a9f6515958cb6ce70e0a81b241fbaddab8bde6e",
-     "path": "f/f3c07b350863eeb7.jpg"
-    },
-    {
-     "name": "img/act-swim.jpg",
-     "size": 62648,
-     "sha256": "8a1d6c910b0f62ee2ab52670f884871398568b892b0dd339e641a0cbb733b0e9",
-     "path": "f/8a1d6c910b0f62ee.jpg"
-    },
-    {
-     "name": "img/beachnight.jpg",
-     "size": 101314,
-     "sha256": "6b443123b8a9c1f0923b0fcf3c18589ed8528e3620512827f5c5e8958056dfc8",
-     "path": "f/6b443123b8a9c1f0.jpg"
-    },
-    {
-     "name": "img/cafe.jpg",
-     "size": 101478,
-     "sha256": "15d039a6eceb2f5d836139f02b46a245d42933cba6225299b95ac7183e6b8efb",
-     "path": "f/15d039a6eceb2f5d.jpg"
-    },
-    {
-     "name": "img/cover.jpg",
-     "size": 78792,
-     "sha256": "988f74ba4e3e56b1a49217f3446550769d1cc0844d6fc61ef214ebdba2c5e2fe",
-     "path": "f/988f74ba4e3e56b1.jpg"
-    },
-    {
-     "name": "img/flat.jpg",
-     "size": 68381,
-     "sha256": "8e352f7af1bcf1c25ca919b1fc4dbd2480980716a5f98295f7c785fbf910c882",
-     "path": "f/8e352f7af1bcf1c2.jpg"
-    },
-    {
-     "name": "img/it-apron.jpg",
-     "size": 29505,
-     "sha256": "8bd80738513a5adbfbb1693832b0f6516ea6490568ddf69bcf80834a18b22b6a",
-     "path": "f/8bd80738513a5adb.jpg"
-    },
-    {
-     "name": "img/it-flyer.jpg",
-     "size": 34099,
-     "sha256": "410399873a8dbdcfef405a4469e708ca789f033d76659931a03a80cb3cb27f07",
-     "path": "f/410399873a8dbdcf.jpg"
-    },
-    {
-     "name": "img/it-pick.jpg",
-     "size": 29352,
-     "sha256": "248c5963d19eb47774e324abc3abd2404f1bf1e71a5298f52b18136feca382bf",
-     "path": "f/248c5963d19eb477.jpg"
-    },
-    {
-     "name": "img/pier.jpg",
-     "size": 54728,
-     "sha256": "bd1a28784044172b603d6dee88cf7d90a031206bef3adfff32f9a2b99989a0c3",
-     "path": "f/bd1a28784044172b.jpg"
-    },
-    {
-     "name": "img/promenade.jpg",
-     "size": 62831,
-     "sha256": "777e0455abb004b46ebb4457ffe8b05eb25acb9984025445417669c1ebd7577f",
-     "path": "f/777e0455abb004b4.jpg"
-    },
-    {
-     "name": "img/rosa.webp",
-     "size": 32552,
-     "sha256": "c9b169cc2ee2ac584fd7c51f94ecf16fc2e576870af8ecb7f95fca1d37beb588",
-     "path": "f/c9b169cc2ee2ac58.webp"
-    },
-    {
-     "name": "img/train.jpg",
-     "size": 50246,
-     "sha256": "26b3dca0f47e21ced57459ca7c9b7168e0bfba128ff61f83d8e83d2cf4473e3c",
-     "path": "f/26b3dca0f47e21ce.jpg"
-    },
-    {
-     "name": "index.html",
-     "size": 1373,
-     "sha256": "aa0d0c2e6f1aa3dbb89e88e640e5176c50c888c629dc81ad75df4e8f2daa935d",
-     "path": "f/aa0d0c2e6f1aa3db.html"
-    },
-    {
-     "name": "story/ch1.js",
-     "size": 21559,
-     "sha256": "8b3021db2c97aeea7538e0086339eaa9f8f32c522d68822a12ecbde6cd25ddd2",
-     "path": "f/8b3021db2c97aeea.js"
-    },
-    {
-     "name": "story/refs.js",
-     "size": 319,
-     "sha256": "6baf08f78c2a5cf15c8a00ea09085343009bef5bca4efc435d054cd6afae39c4",
-     "path": "f/6baf08f78c2a5cf1.js"
-    },
-    {
-     "name": "story/story.js",
-     "size": 7668,
-     "sha256": "05c5f5d44bc39a8abd4eed0827e87e6ecf980e1c0d564c3b68c7b6e72d385c81",
-     "path": "f/05c5f5d44bc39a8a.js"
-    },
-    {
-     "name": "lib/story/core.js",
-     "size": 105539,
-     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
-     "path": "f/d531d7353a91b2db.js"
-    },
-    {
-     "name": "lib/story/fx.js",
-     "size": 13175,
-     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
-     "path": "f/37f194cfce1f33c2.js"
-    },
-    {
-     "name": "lib/story/flow.js",
-     "size": 12496,
-     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
-     "path": "f/8f2f54a8978f03a6.js"
-    },
-    {
-     "name": "lib/story/mech.js",
-     "size": 57331,
-     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
-     "path": "f/073f7ecd0ac011a9.js"
-    },
-    {
-     "name": "lib/story/mech-plus.js",
-     "size": 46680,
-     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
-     "path": "f/d6f17daa10910248.js"
-    },
-    {
-     "name": "lib/story/ui.css",
-     "size": 111358,
-     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
-     "path": "f/d82ade359c7ae0ec.css"
-    }
-   ],
-   "ver": "020a727005",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune.ch2",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.cafe-lune",
-   "ch": 2,
-   "title": {
-    "en": "Mixed Signals",
-    "vi": "Tín hiệu lẫn lộn"
-   },
-   "count": 0,
-   "size": 1577694,
-   "files": [
-    {
-     "name": "art-ch2.css",
-     "size": 1412,
-     "sha256": "f11f05623fd130f9bb433f24566798eb47215132e26c7fd8c9eecfe7bbc3453b",
-     "path": "f/f11f05623fd130f9.css"
-    },
-    {
-     "name": "img/act-arcade.jpg",
-     "size": 73971,
-     "sha256": "af82f00833866c9725af8e84ab261c034d0e49d58fb9aa0e69940849865815e3",
-     "path": "f/af82f00833866c97.jpg"
-    },
-    {
-     "name": "img/act-bookshop.jpg",
-     "size": 85683,
-     "sha256": "0260cb15bafd286092d62d28f4b6dd957098ae724c7a0b346cd881fff5ec4df7",
-     "path": "f/0260cb15bafd2860.jpg"
-    },
-    {
-     "name": "img/act-club.jpg",
-     "size": 65237,
-     "sha256": "5d01b309b3026e443fe7903473f68b3a78da432c9633fbad70fb5fee32465051",
-     "path": "f/5d01b309b3026e44.jpg"
-    },
-    {
-     "name": "img/act-cook.jpg",
-     "size": 40566,
-     "sha256": "490e57bedbc3f9a12ae9f718fc9bfd0397a1679ecaa77066301df027e136c8e0",
-     "path": "f/490e57bedbc3f9a1.jpg"
-    },
-    {
-     "name": "img/act-dinner.jpg",
-     "size": 81744,
-     "sha256": "0e69e0c0af19d0d8f66140b3a51c0277039222211b781da918a9dc0d27808d40",
-     "path": "f/0e69e0c0af19d0d8.jpg"
-    },
-    {
-     "name": "img/act-market.jpg",
-     "size": 100472,
-     "sha256": "e7423df833c740c919b2f2ed666206d99cea1624ef6385a2b6a11d8126212504",
-     "path": "f/e7423df833c740c9.jpg"
-    },
-    {
-     "name": "img/act-museum.jpg",
-     "size": 66368,
-     "sha256": "4844c98e6c2acce779b1335c73ba6e071ab69ce042a765f53faf5495d00d9233",
-     "path": "f/4844c98e6c2acce7.jpg"
-    },
-    {
-     "name": "img/act-notice.jpg",
-     "size": 59214,
-     "sha256": "95219d75f7e0c4ecf94ac06ca44096417bd703dac85fb01d802c1f081c736b15",
-     "path": "f/95219d75f7e0c4ec.jpg"
-    },
-    {
-     "name": "img/act-oldphoto.jpg",
-     "size": 94721,
-     "sha256": "97097af8f3dabdefe6aa1b480c0c2a8e53a9eb0a61e597bc89505a5e5046207c",
-     "path": "f/97097af8f3dabdef.jpg"
-    },
-    {
-     "name": "img/act-pavilion.jpg",
-     "size": 50977,
-     "sha256": "872a1b36e90f9486f7e7f44f89a5bbdc410545898aeda45ff3f659bece663fff",
-     "path": "f/872a1b36e90f9486.jpg"
-    },
-    {
-     "name": "img/act-phone3.jpg",
-     "size": 42815,
-     "sha256": "1f962031bc8901749398bdf4599982a89f627ce4148cb97cb7a27e9381cfb7e5",
-     "path": "f/1f962031bc890174.jpg"
-    },
-    {
-     "name": "img/act-records.jpg",
-     "size": 86398,
-     "sha256": "b970db35aa59d23cdf76070b22b4082802c8e90ad877c612a11a70d13639a419",
-     "path": "f/b970db35aa59d23c.jpg"
-    },
-    {
-     "name": "img/act-sunset.jpg",
-     "size": 84540,
-     "sha256": "86ad3e1d36559eda837f4cd3f614af463ee345ef9c9da64a3b142aec08477310",
-     "path": "f/86ad3e1d36559eda.jpg"
-    },
-    {
-     "name": "img/act-tiles.jpg",
-     "size": 105740,
-     "sha256": "93a1d9ea340a31b6d523add4031be2417491fe4ce44aa5eb7f2e6c0f3642731f",
-     "path": "f/93a1d9ea340a31b6.jpg"
-    },
-    {
-     "name": "img/basement.jpg",
-     "size": 78549,
-     "sha256": "c370b8d8ccaae44c15f09ce6450eac704dfcc0145d1e12a23f176b62f8bcd958",
-     "path": "f/c370b8d8ccaae44c.jpg"
-    },
-    {
-     "name": "img/blanc.jpg",
-     "size": 70019,
-     "sha256": "ce36960f3927f2efe6c8c4be0e0bcf6742834f550656bd72a0f23fdd3cac0a64",
-     "path": "f/ce36960f3927f2ef.jpg"
-    },
-    {
-     "name": "img/it-book.jpg",
-     "size": 41198,
-     "sha256": "9a1e22dbf7de6eb1559afe143205960a1062a95c9949b2461d84412d8845ea3b",
-     "path": "f/9a1e22dbf7de6eb1.jpg"
-    },
-    {
-     "name": "img/it-chilli.jpg",
-     "size": 31788,
-     "sha256": "50e667a492eff545198f984c713cec1e018b139e85ec9b5ced82735edbaa58c7",
-     "path": "f/50e667a492eff545.jpg"
-    },
-    {
-     "name": "img/it-lease.jpg",
-     "size": 34642,
-     "sha256": "a7fcde66c38a15c0586bad7adcce71f638bc652ec5762cfbc06d00a3a8b85de6",
-     "path": "f/a7fcde66c38a15c0.jpg"
-    },
-    {
-     "name": "img/it-notice.jpg",
-     "size": 35649,
-     "sha256": "73a6a82d4d6c2c8b05a8652625575db5c87f9440b208897ec7cb3097c58adfe0",
-     "path": "f/73a6a82d4d6c2c8b.jpg"
-    },
-    {
-     "name": "img/it-oldphoto.jpg",
-     "size": 29586,
-     "sha256": "e2c28dac48f531dc6cc89a7c2c1a0ffc75e432b9de29ce5bb393bad802dbc34b",
-     "path": "f/e2c28dac48f531dc.jpg"
-    },
-    {
-     "name": "img/it-shell.jpg",
-     "size": 22734,
-     "sha256": "9403ab2d98eff027bed834b3d2e07e2ca7f01cf924fc11c89281396d59b01437",
-     "path": "f/9403ab2d98eff027.jpg"
-    },
-    {
-     "name": "img/it-tile.jpg",
-     "size": 55060,
-     "sha256": "fb07d55185b23960df3e0386ed87de968e4671a91bdcd850f6f8c0993366e9ee",
-     "path": "f/fb07d55185b23960.jpg"
-    },
-    {
-     "name": "img/lanes.jpg",
-     "size": 111330,
-     "sha256": "531b75d6a902f6f69679ccc4a6ffc20fad6aeb4b250e76c978c2a38ab41250e7",
-     "path": "f/531b75d6a902f6f6.jpg"
-    },
-    {
-     "name": "story/ch2.js",
-     "size": 27281,
-     "sha256": "11befe422be3e4d209460912e1d4cfb24a81246823247cb46754e24f84d9327b",
-     "path": "f/11befe422be3e4d2.js"
-    }
-   ],
-   "ver": "7bbb511ce3",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune.ch3",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.cafe-lune",
-   "ch": 3,
-   "title": {
-    "en": "The Festival",
-    "vi": "Lễ hội"
-   },
-   "count": 0,
-   "size": 511538,
-   "files": [
-    {
-     "name": "art-ch3.css",
-     "size": 644,
-     "sha256": "01a0512b977da00bbaf58db85a5fb20b29feac9cb031b450d47aac5c88850ffd",
-     "path": "f/01a0512b977da00b.css"
-    },
-    {
-     "name": "img/act-lanterns.jpg",
-     "size": 83855,
-     "sha256": "597c71922146c89c53942ac1c3b87e7f8e9318817f2c24037d62730feaec648f",
-     "path": "f/597c71922146c89c.jpg"
-    },
-    {
-     "name": "img/act-reunion.jpg",
-     "size": 71178,
-     "sha256": "d58ab72c4245dc348d88d35fafb74278bb05904ff1291f7006cdc1b9a94d18ec",
-     "path": "f/d58ab72c4245dc34.jpg"
-    },
-    {
-     "name": "img/act-slip.jpg",
-     "size": 44034,
-     "sha256": "7dfb0b4776d6521ec2970f391876be4293378b7cc2595735563d545d10a257f0",
-     "path": "f/7dfb0b4776d6521e.jpg"
-    },
-    {
-     "name": "img/festival.jpg",
-     "size": 69545,
-     "sha256": "f49bf477ab733d5f8a6838d1e2259d6d505c9f1ec26f27687fa47a79022c93ec",
-     "path": "f/f49bf477ab733d5f.jpg"
-    },
-    {
-     "name": "img/it-beans.jpg",
-     "size": 49090,
-     "sha256": "27da4b189f23e7a95c744dc5c65c9b7bfb8c03a359bdcf4703659a925f36ce0c",
-     "path": "f/27da4b189f23e7a9.jpg"
-    },
-    {
-     "name": "img/it-lanterns.jpg",
-     "size": 33836,
-     "sha256": "fe4b1330f08dfac749eed03a3c2e8712704b68628e4bb3c37e20a2affe9269fc",
-     "path": "f/fe4b1330f08dfac7.jpg"
-    },
-    {
-     "name": "img/it-petition.jpg",
-     "size": 49394,
-     "sha256": "e5b3a6ea2905d0f349f3f0739bb5b87faf97c7078b0c22b204273586dd5554d6",
-     "path": "f/e5b3a6ea2905d0f3.jpg"
-    },
-    {
-     "name": "img/it-receipt.jpg",
-     "size": 26425,
-     "sha256": "a960595eb9c9b3f65d3b8a1233baaefd4a628c34e998e0acc0593334b918e759",
-     "path": "f/a960595eb9c9b3f6.jpg"
-    },
-    {
-     "name": "img/it-sign.jpg",
-     "size": 39443,
-     "sha256": "95364fda00c254a95e59cacfd4fed8ece90059a3155734cb66412219f403488b",
-     "path": "f/95364fda00c254a9.jpg"
-    },
-    {
-     "name": "img/it-torch.jpg",
-     "size": 27565,
-     "sha256": "d0b7062c4951922460f5e17554c352b5a298cb6af73741a309d1d87489d86aaf",
-     "path": "f/d0b7062c49519224.jpg"
-    },
-    {
-     "name": "story/ch3.js",
-     "size": 16529,
-     "sha256": "398690d8ec7dc42f8b017eed715764303760e5241483afde8b6a534dd5279b65",
-     "path": "f/398690d8ec7dc42f.js"
-    }
-   ],
-   "ver": "bd19545410",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune.ch4",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.cafe-lune",
-   "ch": 4,
-   "title": {
-    "en": "Last Summer Night",
-    "vi": "Đêm cuối mùa hè"
-   },
-   "count": 0,
-   "size": 428205,
-   "files": [
-    {
-     "name": "art-ch4.css",
-     "size": 406,
-     "sha256": "d88b89f4c2485954f78387d119d4fe76b7ccec0752e754d31bbbc53fc0bbbb6a",
-     "path": "f/d88b89f4c2485954.css"
-    },
-    {
-     "name": "img/act-vote.jpg",
-     "size": 76835,
-     "sha256": "3971586c61af6ca43512ba7b5a56d93be8bac3f475cf8ce8e7050ebe2c7af3b3",
-     "path": "f/3971586c61af6ca4.jpg"
-    },
-    {
-     "name": "img/cg-ines.jpg",
-     "size": 78246,
-     "sha256": "1fa6474352b3e708c6d82faea4cf398cd0d42c7d257cbfc373915c8057c4e362",
-     "path": "f/1fa6474352b3e708.jpg"
-    },
-    {
-     "name": "img/cg-mila.jpg",
-     "size": 73393,
-     "sha256": "1ace34286cd8a8ae1a425a0db846d810a9da790d202992f5facde2ee83bad89f",
-     "path": "f/1ace34286cd8a8ae.jpg"
-    },
-    {
-     "name": "img/cg-theo.jpg",
-     "size": 67125,
-     "sha256": "447fbb84770a72b4b842bf217c574e8ecab88dd45f81191ef8c830cae847d81b",
-     "path": "f/447fbb84770a72b4.jpg"
-    },
-    {
-     "name": "img/council.jpg",
-     "size": 81205,
-     "sha256": "fc052466ed894746286c17052510a2ee25176ddb1988ffb8012a6bbe32eaf745",
-     "path": "f/fc052466ed894746.jpg"
-    },
-    {
-     "name": "img/it-rosaletter.jpg",
-     "size": 33342,
-     "sha256": "993e14f321d67a0c33909752f91d0f29668657bfd67022a1ef64451628c56ef4",
-     "path": "f/993e14f321d67a0c.jpg"
-    },
-    {
-     "name": "story/ch4.js",
-     "size": 17653,
-     "sha256": "bbb4d148b1ded6dcfefddc5a37dfc48001c915c0cc55fc8f190f05df574deabd",
-     "path": "f/bbb4d148b1ded6dc.js"
-    }
-   ],
-   "ver": "ba8c47cd3f",
-   "up": "2026-10-29"
-  },
-  {
    "id": "game.the-interpreter",
    "kind": "game",
    "lang": "",
@@ -4408,6 +3401,1016 @@
     }
    ],
    "ver": "988c91770a",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.between-tides",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "full": true,
+   "cover": {
+    "c1": "#16283a",
+    "c2": "#d9a04a"
+   },
+   "chapters": 5,
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "Low Water",
+      "vi": "Nước ròng"
+     },
+     "sum": {
+      "en": "A ring, a note, and a road that stays dry after the bell.",
+      "vi": "Một chiếc nhẫn, một mẩu thư, và con đường vẫn khô sau tiếng chuông."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "The Lamp in the Box",
+      "vi": "Ngọn đèn trong chòi"
+     },
+     "sum": {
+      "en": "A light in the refuge box, and a man who never came home.",
+      "vi": "Một ngọn đèn trong chòi trú nạn, và một người không bao giờ về."
+     }
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "The Outsider",
+      "vi": "Người ngoài"
+     },
+     "sum": {
+      "en": "Everyone says suicide. You are the stranger in the room.",
+      "vi": "Ai cũng nói là tự tử. Bạn là người lạ trong phòng."
+     }
+    },
+    {
+     "ch": 4,
+     "title": {
+      "en": "The Sea Doesn't Read the Table",
+      "vi": "Biển không đọc bảng giờ"
+     },
+     "sum": {
+      "en": "A withheld call, a doctor's confession, a boy's.",
+      "vi": "Một cuộc gọi giấu số, lời thú của bác sĩ, lời thú của một cậu bé."
+     }
+    },
+    {
+     "ch": 5,
+     "title": {
+      "en": "What the Dunes Kept",
+      "vi": "Điều cồn cát giữ"
+     },
+     "sum": {
+      "en": "What happened on the causeway in 2004 — and what the sand kept.",
+      "vi": "Chuyện gì đã xảy ra trên đường ngầm năm 2004 — và cát đã giữ lại gì."
+     }
+    },
+    {
+     "ch": 6,
+     "title": {
+      "en": "Between Tides",
+      "vi": "Giữa hai con nước"
+     },
+     "soon": true
+    }
+   ],
+   "count": 0,
+   "size": 425735,
+   "badge": "new",
+   "title": {
+    "vi": "Giữa hai con nước",
+    "en": "Between Tides"
+   },
+   "desc": {
+    "vi": "Trinh thám trên một hòn đảo chỉ nối với đất liền khi nước ròng: đêm nay đường ngầm đóng, một người không về. Hỏi chuyện, so giờ thuỷ triều, nghe lời khai — 5 chương đã ra, chương cuối sắp ra mắt.",
+    "en": "A detective story on an island cut off at high tide: tonight the causeway closes and a man never comes home. Question, check the tide times, weigh every statement — 5 chapters out, the final chapter coming soon."
+   },
+   "files": [
+    {
+     "name": "art.css",
+     "size": 99,
+     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
+     "path": "f/ea7a249bcb0609fb.css"
+    },
+    {
+     "name": "art.js",
+     "size": 4606,
+     "sha256": "2f4dcf8135628e46d7d5acec8adf066f2637b32a2003a13b254d849de82f42ce",
+     "path": "f/2f4dcf8135628e46.js"
+    },
+    {
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
+    },
+    {
+     "name": "index.html",
+     "size": 1267,
+     "sha256": "626f7be82342aa3e60fe02bbc8b2e5a60396eab703e04b0293c67289b354654a",
+     "path": "f/626f7be82342aa3e.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 56640,
+     "sha256": "75df02b6118585ce3d516c95ed6e912df04cc43ff66e3635da52b892e5fa359f",
+     "path": "f/75df02b6118585ce.js"
+    },
+    {
+     "name": "story/refs.js",
+     "size": 252,
+     "sha256": "97f5d4fbfc6d06dbc62fcd8dee0ca9c19e5def83a9323612a6b002a5b7af5442",
+     "path": "f/97f5d4fbfc6d06db.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 16119,
+     "sha256": "226fd43ac5c0785567457f96cfda1e1a332e73e409b20273de8486475c6fa9b1",
+     "path": "f/226fd43ac5c07855.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 105539,
+     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
+     "path": "f/d531d7353a91b2db.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13175,
+     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
+     "path": "f/37f194cfce1f33c2.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 12496,
+     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
+     "path": "f/8f2f54a8978f03a6.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 57331,
+     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
+     "path": "f/073f7ecd0ac011a9.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 46680,
+     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
+     "path": "f/d6f17daa10910248.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 111358,
+     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
+     "path": "f/d82ade359c7ae0ec.css"
+    }
+   ],
+   "ver": "1124ae87bb",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.between-tides.ch2",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.between-tides",
+   "ch": 2,
+   "title": {
+    "en": "The Lamp in the Box",
+    "vi": "Ngọn đèn trong chòi"
+   },
+   "count": 0,
+   "size": 69552,
+   "files": [
+    {
+     "name": "story/ch2.js",
+     "size": 69552,
+     "sha256": "34cee6c47dd5759e6b530ab3b7129b6de14e46e088c96cb51f25b01173691c6d",
+     "path": "f/34cee6c47dd5759e.js"
+    }
+   ],
+   "ver": "4e42136d36",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.between-tides.ch3",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.between-tides",
+   "ch": 3,
+   "title": {
+    "en": "The Outsider",
+    "vi": "Người ngoài"
+   },
+   "count": 0,
+   "size": 68040,
+   "files": [
+    {
+     "name": "story/ch3.js",
+     "size": 68040,
+     "sha256": "3544a1b1bac69e2bd0b3eb0059e2d8a5d55319cb01572f600d4fb003274af9de",
+     "path": "f/3544a1b1bac69e2b.js"
+    }
+   ],
+   "ver": "45dff6db9f",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.between-tides.ch4",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.between-tides",
+   "ch": 4,
+   "title": {
+    "en": "The Sea Doesn't Read the Table",
+    "vi": "Biển không đọc bảng giờ"
+   },
+   "count": 0,
+   "size": 59148,
+   "files": [
+    {
+     "name": "story/ch4.js",
+     "size": 59148,
+     "sha256": "408b5f7ea7e1444197c574ad83478d6a183fcdbcd7d6cf88b81f4ba8d6a67ad4",
+     "path": "f/408b5f7ea7e14441.js"
+    }
+   ],
+   "ver": "cc7ad9ee1c",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.between-tides.ch5",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.between-tides",
+   "ch": 5,
+   "title": {
+    "en": "What the Dunes Kept",
+    "vi": "Điều cồn cát giữ"
+   },
+   "count": 0,
+   "size": 73732,
+   "files": [
+    {
+     "name": "story/ch5.js",
+     "size": 73732,
+     "sha256": "674301fde7d391f58407a2e8657075bacf5432fbb789c28d2b53a4a2c710380f",
+     "path": "f/674301fde7d391f5.js"
+    }
+   ],
+   "ver": "9468b0b91c",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "full": true,
+   "cover": {
+    "c1": "#1b2d3c",
+    "c2": "#e2a24a"
+   },
+   "chapters": 4,
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "First Shift",
+      "vi": "Ca đầu tiên"
+     },
+     "sum": {
+      "en": "A new town, a broken coffee machine and three strangers who keep coming back.",
+      "vi": "Thị trấn mới, máy pha cà phê hỏng và ba người lạ cứ quay lại mãi."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Mixed Signals",
+      "vi": "Tín hiệu lẫn lộn"
+     },
+     "sum": {
+      "en": "A first date, a letter from the landlord, and a secret under the café floor.",
+      "vi": "Buổi hẹn đầu, lá thư của chủ nhà, và bí mật dưới sàn quán."
+     }
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "The Festival",
+      "vi": "Lễ hội"
+     },
+     "sum": {
+      "en": "One night to save Café Lune. Music, lights — and a kitchen you shouldn't enter.",
+      "vi": "Một đêm để cứu Café Lune. Âm nhạc, đèn hoa — và một căn bếp bạn không nên bước vào."
+     }
+    },
+    {
+     "ch": 4,
+     "title": {
+      "en": "Last Summer Night",
+      "vi": "Đêm cuối mùa hè"
+     },
+     "sum": {
+      "en": "The council decides. You decide who you tell.",
+      "vi": "Hội đồng quyết định. Bạn quyết định nói với ai."
+     }
+    }
+   ],
+   "count": 0,
+   "size": 1488477,
+   "badge": "new",
+   "title": {
+    "vi": "Café Lune",
+    "en": "Café Lune"
+   },
+   "desc": {
+    "vi": "Truyện hẹn hò mùa hè ở Brighton: pha cà phê, lên lịch hẹn, tặng quà, nhắn tin — và cứu quán cà phê sắp bị phá. 4 tập, 3 người để yêu, 6 kết thúc.",
+    "en": "A summer romance in Brighton: make coffee, plan dates, choose gifts, text — and save a café about to be torn down. 4 episodes, 3 people to fall for, 6 endings."
+   },
+   "files": [
+    {
+     "name": "art.css",
+     "size": 1187,
+     "sha256": "c2ecabef23f804fc0751f68b8217860034006ae7e665f9655124ac8aaefa22e8",
+     "path": "f/c2ecabef23f804fc.css"
+    },
+    {
+     "name": "art.js",
+     "size": 180,
+     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
+     "path": "f/930a3d4da8303c3a.js"
+    },
+    {
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
+    },
+    {
+     "name": "img/act-busk.jpg",
+     "size": 65607,
+     "sha256": "41ac335f0c6bd312f4daa23ad85c375ccd95946f25c48d64ebedfa8885fe1f0a",
+     "path": "f/41ac335f0c6bd312.jpg"
+    },
+    {
+     "name": "img/act-football.jpg",
+     "size": 51654,
+     "sha256": "78ee60793b213d231ae2981bb78055c57abfb373b893f926ba1a357f7661736c",
+     "path": "f/78ee60793b213d23.jpg"
+    },
+    {
+     "name": "img/act-latte.jpg",
+     "size": 35425,
+     "sha256": "539a74e85c5ac20a760b1571d923f092dd29cb8398229c8333b854d2ee9b030c",
+     "path": "f/539a74e85c5ac20a.jpg"
+    },
+    {
+     "name": "img/act-library.jpg",
+     "size": 83555,
+     "sha256": "4da9ffe28e9c8e01b5f373322bed1d191ac6ea6adb95b9cbea3002a7a9f0fbe0",
+     "path": "f/4da9ffe28e9c8e01.jpg"
+    },
+    {
+     "name": "img/act-out-bold.jpg",
+     "size": 31540,
+     "sha256": "f24f48d65896299f80644cc766bf5a32464d47d3a8c1f890b5d32113d564029a",
+     "path": "f/f24f48d65896299f.jpg"
+    },
+    {
+     "name": "img/act-out-comfy.jpg",
+     "size": 57734,
+     "sha256": "869929be70bf21d698a8f85d3c9b45263e6889199f1ecf0f2fc1aba4ff4e34b5",
+     "path": "f/869929be70bf21d6.jpg"
+    },
+    {
+     "name": "img/act-out-neat.jpg",
+     "size": 48762,
+     "sha256": "4e5e9a639308493a8d138eb4341a694d105a881ad4b2a859b5dab1968bfcf7b4",
+     "path": "f/4e5e9a639308493a.jpg"
+    },
+    {
+     "name": "img/act-sea.jpg",
+     "size": 29236,
+     "sha256": "f3c07b350863eeb742b651553a9f6515958cb6ce70e0a81b241fbaddab8bde6e",
+     "path": "f/f3c07b350863eeb7.jpg"
+    },
+    {
+     "name": "img/act-swim.jpg",
+     "size": 62648,
+     "sha256": "8a1d6c910b0f62ee2ab52670f884871398568b892b0dd339e641a0cbb733b0e9",
+     "path": "f/8a1d6c910b0f62ee.jpg"
+    },
+    {
+     "name": "img/beachnight.jpg",
+     "size": 101314,
+     "sha256": "6b443123b8a9c1f0923b0fcf3c18589ed8528e3620512827f5c5e8958056dfc8",
+     "path": "f/6b443123b8a9c1f0.jpg"
+    },
+    {
+     "name": "img/cafe.jpg",
+     "size": 101478,
+     "sha256": "15d039a6eceb2f5d836139f02b46a245d42933cba6225299b95ac7183e6b8efb",
+     "path": "f/15d039a6eceb2f5d.jpg"
+    },
+    {
+     "name": "img/cover.jpg",
+     "size": 78792,
+     "sha256": "988f74ba4e3e56b1a49217f3446550769d1cc0844d6fc61ef214ebdba2c5e2fe",
+     "path": "f/988f74ba4e3e56b1.jpg"
+    },
+    {
+     "name": "img/flat.jpg",
+     "size": 68381,
+     "sha256": "8e352f7af1bcf1c25ca919b1fc4dbd2480980716a5f98295f7c785fbf910c882",
+     "path": "f/8e352f7af1bcf1c2.jpg"
+    },
+    {
+     "name": "img/it-apron.jpg",
+     "size": 29505,
+     "sha256": "8bd80738513a5adbfbb1693832b0f6516ea6490568ddf69bcf80834a18b22b6a",
+     "path": "f/8bd80738513a5adb.jpg"
+    },
+    {
+     "name": "img/it-flyer.jpg",
+     "size": 34099,
+     "sha256": "410399873a8dbdcfef405a4469e708ca789f033d76659931a03a80cb3cb27f07",
+     "path": "f/410399873a8dbdcf.jpg"
+    },
+    {
+     "name": "img/it-pick.jpg",
+     "size": 29352,
+     "sha256": "248c5963d19eb47774e324abc3abd2404f1bf1e71a5298f52b18136feca382bf",
+     "path": "f/248c5963d19eb477.jpg"
+    },
+    {
+     "name": "img/pier.jpg",
+     "size": 54728,
+     "sha256": "bd1a28784044172b603d6dee88cf7d90a031206bef3adfff32f9a2b99989a0c3",
+     "path": "f/bd1a28784044172b.jpg"
+    },
+    {
+     "name": "img/promenade.jpg",
+     "size": 62831,
+     "sha256": "777e0455abb004b46ebb4457ffe8b05eb25acb9984025445417669c1ebd7577f",
+     "path": "f/777e0455abb004b4.jpg"
+    },
+    {
+     "name": "img/rosa.webp",
+     "size": 32552,
+     "sha256": "c9b169cc2ee2ac584fd7c51f94ecf16fc2e576870af8ecb7f95fca1d37beb588",
+     "path": "f/c9b169cc2ee2ac58.webp"
+    },
+    {
+     "name": "img/train.jpg",
+     "size": 50246,
+     "sha256": "26b3dca0f47e21ced57459ca7c9b7168e0bfba128ff61f83d8e83d2cf4473e3c",
+     "path": "f/26b3dca0f47e21ce.jpg"
+    },
+    {
+     "name": "index.html",
+     "size": 1373,
+     "sha256": "aa0d0c2e6f1aa3dbb89e88e640e5176c50c888c629dc81ad75df4e8f2daa935d",
+     "path": "f/aa0d0c2e6f1aa3db.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 21559,
+     "sha256": "8b3021db2c97aeea7538e0086339eaa9f8f32c522d68822a12ecbde6cd25ddd2",
+     "path": "f/8b3021db2c97aeea.js"
+    },
+    {
+     "name": "story/refs.js",
+     "size": 319,
+     "sha256": "6baf08f78c2a5cf15c8a00ea09085343009bef5bca4efc435d054cd6afae39c4",
+     "path": "f/6baf08f78c2a5cf1.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 7668,
+     "sha256": "05c5f5d44bc39a8abd4eed0827e87e6ecf980e1c0d564c3b68c7b6e72d385c81",
+     "path": "f/05c5f5d44bc39a8a.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 105539,
+     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
+     "path": "f/d531d7353a91b2db.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13175,
+     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
+     "path": "f/37f194cfce1f33c2.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 12496,
+     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
+     "path": "f/8f2f54a8978f03a6.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 57331,
+     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
+     "path": "f/073f7ecd0ac011a9.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 46680,
+     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
+     "path": "f/d6f17daa10910248.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 111358,
+     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
+     "path": "f/d82ade359c7ae0ec.css"
+    }
+   ],
+   "ver": "020a727005",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune.ch2",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.cafe-lune",
+   "ch": 2,
+   "title": {
+    "en": "Mixed Signals",
+    "vi": "Tín hiệu lẫn lộn"
+   },
+   "count": 0,
+   "size": 1577694,
+   "files": [
+    {
+     "name": "art-ch2.css",
+     "size": 1412,
+     "sha256": "f11f05623fd130f9bb433f24566798eb47215132e26c7fd8c9eecfe7bbc3453b",
+     "path": "f/f11f05623fd130f9.css"
+    },
+    {
+     "name": "img/act-arcade.jpg",
+     "size": 73971,
+     "sha256": "af82f00833866c9725af8e84ab261c034d0e49d58fb9aa0e69940849865815e3",
+     "path": "f/af82f00833866c97.jpg"
+    },
+    {
+     "name": "img/act-bookshop.jpg",
+     "size": 85683,
+     "sha256": "0260cb15bafd286092d62d28f4b6dd957098ae724c7a0b346cd881fff5ec4df7",
+     "path": "f/0260cb15bafd2860.jpg"
+    },
+    {
+     "name": "img/act-club.jpg",
+     "size": 65237,
+     "sha256": "5d01b309b3026e443fe7903473f68b3a78da432c9633fbad70fb5fee32465051",
+     "path": "f/5d01b309b3026e44.jpg"
+    },
+    {
+     "name": "img/act-cook.jpg",
+     "size": 40566,
+     "sha256": "490e57bedbc3f9a12ae9f718fc9bfd0397a1679ecaa77066301df027e136c8e0",
+     "path": "f/490e57bedbc3f9a1.jpg"
+    },
+    {
+     "name": "img/act-dinner.jpg",
+     "size": 81744,
+     "sha256": "0e69e0c0af19d0d8f66140b3a51c0277039222211b781da918a9dc0d27808d40",
+     "path": "f/0e69e0c0af19d0d8.jpg"
+    },
+    {
+     "name": "img/act-market.jpg",
+     "size": 100472,
+     "sha256": "e7423df833c740c919b2f2ed666206d99cea1624ef6385a2b6a11d8126212504",
+     "path": "f/e7423df833c740c9.jpg"
+    },
+    {
+     "name": "img/act-museum.jpg",
+     "size": 66368,
+     "sha256": "4844c98e6c2acce779b1335c73ba6e071ab69ce042a765f53faf5495d00d9233",
+     "path": "f/4844c98e6c2acce7.jpg"
+    },
+    {
+     "name": "img/act-notice.jpg",
+     "size": 59214,
+     "sha256": "95219d75f7e0c4ecf94ac06ca44096417bd703dac85fb01d802c1f081c736b15",
+     "path": "f/95219d75f7e0c4ec.jpg"
+    },
+    {
+     "name": "img/act-oldphoto.jpg",
+     "size": 94721,
+     "sha256": "97097af8f3dabdefe6aa1b480c0c2a8e53a9eb0a61e597bc89505a5e5046207c",
+     "path": "f/97097af8f3dabdef.jpg"
+    },
+    {
+     "name": "img/act-pavilion.jpg",
+     "size": 50977,
+     "sha256": "872a1b36e90f9486f7e7f44f89a5bbdc410545898aeda45ff3f659bece663fff",
+     "path": "f/872a1b36e90f9486.jpg"
+    },
+    {
+     "name": "img/act-phone3.jpg",
+     "size": 42815,
+     "sha256": "1f962031bc8901749398bdf4599982a89f627ce4148cb97cb7a27e9381cfb7e5",
+     "path": "f/1f962031bc890174.jpg"
+    },
+    {
+     "name": "img/act-records.jpg",
+     "size": 86398,
+     "sha256": "b970db35aa59d23cdf76070b22b4082802c8e90ad877c612a11a70d13639a419",
+     "path": "f/b970db35aa59d23c.jpg"
+    },
+    {
+     "name": "img/act-sunset.jpg",
+     "size": 84540,
+     "sha256": "86ad3e1d36559eda837f4cd3f614af463ee345ef9c9da64a3b142aec08477310",
+     "path": "f/86ad3e1d36559eda.jpg"
+    },
+    {
+     "name": "img/act-tiles.jpg",
+     "size": 105740,
+     "sha256": "93a1d9ea340a31b6d523add4031be2417491fe4ce44aa5eb7f2e6c0f3642731f",
+     "path": "f/93a1d9ea340a31b6.jpg"
+    },
+    {
+     "name": "img/basement.jpg",
+     "size": 78549,
+     "sha256": "c370b8d8ccaae44c15f09ce6450eac704dfcc0145d1e12a23f176b62f8bcd958",
+     "path": "f/c370b8d8ccaae44c.jpg"
+    },
+    {
+     "name": "img/blanc.jpg",
+     "size": 70019,
+     "sha256": "ce36960f3927f2efe6c8c4be0e0bcf6742834f550656bd72a0f23fdd3cac0a64",
+     "path": "f/ce36960f3927f2ef.jpg"
+    },
+    {
+     "name": "img/it-book.jpg",
+     "size": 41198,
+     "sha256": "9a1e22dbf7de6eb1559afe143205960a1062a95c9949b2461d84412d8845ea3b",
+     "path": "f/9a1e22dbf7de6eb1.jpg"
+    },
+    {
+     "name": "img/it-chilli.jpg",
+     "size": 31788,
+     "sha256": "50e667a492eff545198f984c713cec1e018b139e85ec9b5ced82735edbaa58c7",
+     "path": "f/50e667a492eff545.jpg"
+    },
+    {
+     "name": "img/it-lease.jpg",
+     "size": 34642,
+     "sha256": "a7fcde66c38a15c0586bad7adcce71f638bc652ec5762cfbc06d00a3a8b85de6",
+     "path": "f/a7fcde66c38a15c0.jpg"
+    },
+    {
+     "name": "img/it-notice.jpg",
+     "size": 35649,
+     "sha256": "73a6a82d4d6c2c8b05a8652625575db5c87f9440b208897ec7cb3097c58adfe0",
+     "path": "f/73a6a82d4d6c2c8b.jpg"
+    },
+    {
+     "name": "img/it-oldphoto.jpg",
+     "size": 29586,
+     "sha256": "e2c28dac48f531dc6cc89a7c2c1a0ffc75e432b9de29ce5bb393bad802dbc34b",
+     "path": "f/e2c28dac48f531dc.jpg"
+    },
+    {
+     "name": "img/it-shell.jpg",
+     "size": 22734,
+     "sha256": "9403ab2d98eff027bed834b3d2e07e2ca7f01cf924fc11c89281396d59b01437",
+     "path": "f/9403ab2d98eff027.jpg"
+    },
+    {
+     "name": "img/it-tile.jpg",
+     "size": 55060,
+     "sha256": "fb07d55185b23960df3e0386ed87de968e4671a91bdcd850f6f8c0993366e9ee",
+     "path": "f/fb07d55185b23960.jpg"
+    },
+    {
+     "name": "img/lanes.jpg",
+     "size": 111330,
+     "sha256": "531b75d6a902f6f69679ccc4a6ffc20fad6aeb4b250e76c978c2a38ab41250e7",
+     "path": "f/531b75d6a902f6f6.jpg"
+    },
+    {
+     "name": "story/ch2.js",
+     "size": 27281,
+     "sha256": "11befe422be3e4d209460912e1d4cfb24a81246823247cb46754e24f84d9327b",
+     "path": "f/11befe422be3e4d2.js"
+    }
+   ],
+   "ver": "7bbb511ce3",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune.ch3",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.cafe-lune",
+   "ch": 3,
+   "title": {
+    "en": "The Festival",
+    "vi": "Lễ hội"
+   },
+   "count": 0,
+   "size": 511538,
+   "files": [
+    {
+     "name": "art-ch3.css",
+     "size": 644,
+     "sha256": "01a0512b977da00bbaf58db85a5fb20b29feac9cb031b450d47aac5c88850ffd",
+     "path": "f/01a0512b977da00b.css"
+    },
+    {
+     "name": "img/act-lanterns.jpg",
+     "size": 83855,
+     "sha256": "597c71922146c89c53942ac1c3b87e7f8e9318817f2c24037d62730feaec648f",
+     "path": "f/597c71922146c89c.jpg"
+    },
+    {
+     "name": "img/act-reunion.jpg",
+     "size": 71178,
+     "sha256": "d58ab72c4245dc348d88d35fafb74278bb05904ff1291f7006cdc1b9a94d18ec",
+     "path": "f/d58ab72c4245dc34.jpg"
+    },
+    {
+     "name": "img/act-slip.jpg",
+     "size": 44034,
+     "sha256": "7dfb0b4776d6521ec2970f391876be4293378b7cc2595735563d545d10a257f0",
+     "path": "f/7dfb0b4776d6521e.jpg"
+    },
+    {
+     "name": "img/festival.jpg",
+     "size": 69545,
+     "sha256": "f49bf477ab733d5f8a6838d1e2259d6d505c9f1ec26f27687fa47a79022c93ec",
+     "path": "f/f49bf477ab733d5f.jpg"
+    },
+    {
+     "name": "img/it-beans.jpg",
+     "size": 49090,
+     "sha256": "27da4b189f23e7a95c744dc5c65c9b7bfb8c03a359bdcf4703659a925f36ce0c",
+     "path": "f/27da4b189f23e7a9.jpg"
+    },
+    {
+     "name": "img/it-lanterns.jpg",
+     "size": 33836,
+     "sha256": "fe4b1330f08dfac749eed03a3c2e8712704b68628e4bb3c37e20a2affe9269fc",
+     "path": "f/fe4b1330f08dfac7.jpg"
+    },
+    {
+     "name": "img/it-petition.jpg",
+     "size": 49394,
+     "sha256": "e5b3a6ea2905d0f349f3f0739bb5b87faf97c7078b0c22b204273586dd5554d6",
+     "path": "f/e5b3a6ea2905d0f3.jpg"
+    },
+    {
+     "name": "img/it-receipt.jpg",
+     "size": 26425,
+     "sha256": "a960595eb9c9b3f65d3b8a1233baaefd4a628c34e998e0acc0593334b918e759",
+     "path": "f/a960595eb9c9b3f6.jpg"
+    },
+    {
+     "name": "img/it-sign.jpg",
+     "size": 39443,
+     "sha256": "95364fda00c254a95e59cacfd4fed8ece90059a3155734cb66412219f403488b",
+     "path": "f/95364fda00c254a9.jpg"
+    },
+    {
+     "name": "img/it-torch.jpg",
+     "size": 27565,
+     "sha256": "d0b7062c4951922460f5e17554c352b5a298cb6af73741a309d1d87489d86aaf",
+     "path": "f/d0b7062c49519224.jpg"
+    },
+    {
+     "name": "story/ch3.js",
+     "size": 16529,
+     "sha256": "398690d8ec7dc42f8b017eed715764303760e5241483afde8b6a534dd5279b65",
+     "path": "f/398690d8ec7dc42f.js"
+    }
+   ],
+   "ver": "bd19545410",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.cafe-lune.ch4",
+   "kind": "chapter",
+   "lang": "",
+   "parent": "game.cafe-lune",
+   "ch": 4,
+   "title": {
+    "en": "Last Summer Night",
+    "vi": "Đêm cuối mùa hè"
+   },
+   "count": 0,
+   "size": 428205,
+   "files": [
+    {
+     "name": "art-ch4.css",
+     "size": 406,
+     "sha256": "d88b89f4c2485954f78387d119d4fe76b7ccec0752e754d31bbbc53fc0bbbb6a",
+     "path": "f/d88b89f4c2485954.css"
+    },
+    {
+     "name": "img/act-vote.jpg",
+     "size": 76835,
+     "sha256": "3971586c61af6ca43512ba7b5a56d93be8bac3f475cf8ce8e7050ebe2c7af3b3",
+     "path": "f/3971586c61af6ca4.jpg"
+    },
+    {
+     "name": "img/cg-ines.jpg",
+     "size": 78246,
+     "sha256": "1fa6474352b3e708c6d82faea4cf398cd0d42c7d257cbfc373915c8057c4e362",
+     "path": "f/1fa6474352b3e708.jpg"
+    },
+    {
+     "name": "img/cg-mila.jpg",
+     "size": 73393,
+     "sha256": "1ace34286cd8a8ae1a425a0db846d810a9da790d202992f5facde2ee83bad89f",
+     "path": "f/1ace34286cd8a8ae.jpg"
+    },
+    {
+     "name": "img/cg-theo.jpg",
+     "size": 67125,
+     "sha256": "447fbb84770a72b4b842bf217c574e8ecab88dd45f81191ef8c830cae847d81b",
+     "path": "f/447fbb84770a72b4.jpg"
+    },
+    {
+     "name": "img/council.jpg",
+     "size": 81205,
+     "sha256": "fc052466ed894746286c17052510a2ee25176ddb1988ffb8012a6bbe32eaf745",
+     "path": "f/fc052466ed894746.jpg"
+    },
+    {
+     "name": "img/it-rosaletter.jpg",
+     "size": 33342,
+     "sha256": "993e14f321d67a0c33909752f91d0f29668657bfd67022a1ef64451628c56ef4",
+     "path": "f/993e14f321d67a0c.jpg"
+    },
+    {
+     "name": "story/ch4.js",
+     "size": 17653,
+     "sha256": "bbb4d148b1ded6dcfefddc5a37dfc48001c915c0cc55fc8f190f05df574deabd",
+     "path": "f/bbb4d148b1ded6dc.js"
+    }
+   ],
+   "ver": "ba8c47cd3f",
+   "up": "2026-10-29"
+  },
+  {
+   "id": "game.seven-mornings",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "full": true,
+   "cover": {
+    "c1": "#1a2433",
+    "c2": "#7fc8ff"
+   },
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "The First Morning",
+      "vi": "Buổi sáng đầu tiên"
+     },
+     "sum": {
+      "en": "14 February. New flat, six neighbours, a fire at nine.",
+      "vi": "14 tháng 2. Căn hộ mới, sáu người hàng xóm, đám cháy lúc chín giờ."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Patterns",
+      "vi": "Quy luật"
+     },
+     "sum": {
+      "en": "Everyone does the same thing at the same time. Except you.",
+      "vi": "Ai cũng làm đúng việc ấy vào đúng giờ ấy. Trừ bạn."
+     },
+     "soon": true
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "The Last Morning",
+      "vi": "Buổi sáng cuối cùng"
+     },
+     "sum": {
+      "en": "One more loop. Everything you know. Everyone out.",
+      "vi": "Thêm một vòng. Mọi điều bạn biết. Đưa tất cả ra ngoài."
+     },
+     "soon": true
+    }
+   ],
+   "count": 0,
+   "size": 367540,
+   "badge": "new",
+   "title": {
+    "vi": "Bảy buổi sáng",
+    "en": "Seven Mornings"
+   },
+   "desc": {
+    "vi": "Truyện hồi hộp vòng lặp thời gian: chín giờ tối nay toà nhà của bạn cháy, sáng mai lại là sáng nay. Nhớ lời từng người hàng xóm, chọn khác đi, đưa mọi người ra ngoài. Chương 1 đã ra, chương 2–3 sắp ra mắt.",
+    "en": "A time-loop thriller: tonight at nine your building burns, and tomorrow it is this morning again. Remember what each neighbour says, choose differently, get everyone out. Chapter 1 out now, chapters 2–3 coming soon."
+   },
+   "files": [
+    {
+     "name": "art.css",
+     "size": 99,
+     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
+     "path": "f/ea7a249bcb0609fb.css"
+    },
+    {
+     "name": "art.js",
+     "size": 180,
+     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
+     "path": "f/930a3d4da8303c3a.js"
+    },
+    {
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
+    },
+    {
+     "name": "index.html",
+     "size": 1081,
+     "sha256": "1a2cc05a3c32fdade29f2770612016933450a57a392e3d320eb4bc39396f9014",
+     "path": "f/1a2cc05a3c32fdad.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 12214,
+     "sha256": "85decde1bbaff1ac914fc18557a2a57ec44013401475867ffd0360a1b5bb0775",
+     "path": "f/85decde1bbaff1ac.js"
+    },
+    {
+     "name": "story/refs.js",
+     "size": 156,
+     "sha256": "cad23660342ac08ba2a49d42ebcc1dcb3e82134ac7d8d9a6f2c0e22169d12955",
+     "path": "f/cad23660342ac08b.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 7058,
+     "sha256": "b0518f6122f178e3aceb311558ddd9ddc380b435fc15720b3e608382464fe07f",
+     "path": "f/b0518f6122f178e3.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 105539,
+     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
+     "path": "f/d531d7353a91b2db.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13175,
+     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
+     "path": "f/37f194cfce1f33c2.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 12496,
+     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
+     "path": "f/8f2f54a8978f03a6.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 57331,
+     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
+     "path": "f/073f7ecd0ac011a9.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 46680,
+     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
+     "path": "f/d6f17daa10910248.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 111358,
+     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
+     "path": "f/d82ade359c7ae0ec.css"
+    }
+   ],
+   "ver": "619b6d18ce",
    "up": "2026-10-29"
   }
  ]
