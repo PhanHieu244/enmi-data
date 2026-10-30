@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-29T16:23:43.325Z",
+ "at": "2026-10-30T03:39:50.362Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -4228,7 +4228,7 @@
     }
    ],
    "count": 0,
-   "size": 13679551,
+   "size": 14245834,
    "badge": "new",
    "title": {
     "vi": "Giữa hai con nước",
@@ -4241,9 +4241,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 16306,
-     "sha256": "dd9467fb5e0bbdd735364f0d745cb20b7b5c267cff4f9a4208c8df1b8678fb2b",
-     "path": "f/dd9467fb5e0bbdd7.css"
+     "size": 18144,
+     "sha256": "b872e999f063e69aad66dfd34fc86bf202929c8b78f866e686561d2192c05a62",
+     "path": "f/b872e999f063e69a.css"
     },
     {
      "name": "art.js",
@@ -5146,6 +5146,18 @@
      "path": "f/ba26d8404bd22cd6.jpg"
     },
     {
+     "name": "img/act-bottle-hand.jpg",
+     "size": 85448,
+     "sha256": "03be18812ddc6f2023a4bffe2e21751d29393500f1897ff9eeea14607555ea31",
+     "path": "f/03be18812ddc6f20.jpg"
+    },
+    {
+     "name": "img/act-cuff.jpg",
+     "size": 84483,
+     "sha256": "5f3a7e8cf8b2288af81b30ad55afb3a47ddc16a16c560517d4d92b829f24fbf1",
+     "path": "f/5f3a7e8cf8b2288a.jpg"
+    },
+    {
      "name": "img/act-handset.jpg",
      "size": 94916,
      "sha256": "282dd3e547b368f17f0b6bc0bd0d2ab4bb0f21aa05b2e329443c28a21eb1b582",
@@ -5650,6 +5662,12 @@
      "path": "f/7f267f2b4355b281.jpg"
     },
     {
+     "name": "img/surgery.jpg",
+     "size": 123284,
+     "sha256": "546f4b1ac2ae595501356258ede9a2226324354a7ecaa7066652c34a0a11655d",
+     "path": "f/546f4b1ac2ae5955.jpg"
+    },
+    {
      "name": "img/tom-cold.webp",
      "size": 95056,
      "sha256": "e2f8b8952526e2ed5fb05d0e97413808356ef05be4ae447018017e9b5e8dc75c",
@@ -5686,34 +5704,46 @@
      "path": "f/6c3b8ad728d92bb8.jpg"
     },
     {
+     "name": "img/yard.jpg",
+     "size": 124291,
+     "sha256": "d923549ba0282a5e3ed94b3b3a47dd804ec340216df6180e867f38080240c5b9",
+     "path": "f/d923549ba0282a5e.jpg"
+    },
+    {
      "name": "index.html",
-     "size": 1483,
-     "sha256": "007b3db501fabe97c5bf3b9f2ad99ee2ddedb1ac94cbc4762132a9b7af5bafb2",
-     "path": "f/007b3db501fabe97.html"
+     "size": 1656,
+     "sha256": "1b3a258c427025831958db184066a0585cc9270a0f7397287b41c7684887ff1f",
+     "path": "f/1b3a258c42702583.html"
+    },
+    {
+     "name": "regions.js",
+     "size": 1864,
+     "sha256": "6f24d95a3b606740332947f2b8d05de692a470eedebd60ec36c427cd58f4fe4c",
+     "path": "f/6f24d95a3b606740.js"
     },
     {
      "name": "story/ch1.js",
-     "size": 58203,
-     "sha256": "a0d1631392f2a0e7f422c96e410406421e5f72deaa89f766655a27c22761356c",
-     "path": "f/a0d1631392f2a0e7.js"
+     "size": 69340,
+     "sha256": "a347cea19b29e4e5300fd4f774877480452fe7c16ddaabea87f2354bcb407292",
+     "path": "f/a347cea19b29e4e5.js"
     },
     {
      "name": "story/refs.js",
-     "size": 252,
-     "sha256": "97f5d4fbfc6d06dbc62fcd8dee0ca9c19e5def83a9323612a6b002a5b7af5442",
-     "path": "f/97f5d4fbfc6d06db.js"
+     "size": 275,
+     "sha256": "be75a42de8937dd27db9302690c7dd6c58f3cd475458cdfaf82d1a11ded5952b",
+     "path": "f/be75a42de8937dd2.js"
     },
     {
      "name": "story/story.js",
-     "size": 16119,
-     "sha256": "226fd43ac5c0785567457f96cfda1e1a332e73e409b20273de8486475c6fa9b1",
-     "path": "f/226fd43ac5c07855.js"
+     "size": 18803,
+     "sha256": "8cae7c6f188b23e718add6550a35999e3e245b4c68e0d5dc48b7663850354e67",
+     "path": "f/8cae7c6f188b23e7.js"
     },
     {
      "name": "lib/story/core.js",
-     "size": 107965,
-     "sha256": "33d3867d9e606546427751f655f501cdd54b297122d44eda4900217ec3edb30e",
-     "path": "f/33d3867d9e606546.js"
+     "size": 111776,
+     "sha256": "2586ab08157c5672c07d44cad28d50c45db7b79b8a26f715cdefe601184852aa",
+     "path": "f/2586ab08157c5672.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -5723,31 +5753,49 @@
     },
     {
      "name": "lib/story/flow.js",
-     "size": 12496,
-     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
-     "path": "f/8f2f54a8978f03a6.js"
+     "size": 12350,
+     "sha256": "dea105e048a624e3554a3ebdabcb9855acbe22a963d521a2fdb624f9cf0f4408",
+     "path": "f/dea105e048a624e3.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 57331,
-     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
-     "path": "f/073f7ecd0ac011a9.js"
+     "size": 57967,
+     "sha256": "76afa5ef04488dff7f7264c48a0aff1e8966a983c0d985ee3d0065af840a9b75",
+     "path": "f/76afa5ef04488dff.js"
     },
     {
      "name": "lib/story/mech-plus.js",
-     "size": 46680,
-     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
-     "path": "f/d6f17daa10910248.js"
+     "size": 49278,
+     "sha256": "8658a28e6ad336491af708e54a716d114a4400df077d48071a9cc1b125ff0da0",
+     "path": "f/8658a28e6ad33649.js"
+    },
+    {
+     "name": "lib/story/stage.js",
+     "size": 33691,
+     "sha256": "e580435fd241dfbd2bbd1f7e974782c36c9dd3fddc8e3d841e434c4080efcfa8",
+     "path": "f/e580435fd241dfbd.js"
+    },
+    {
+     "name": "lib/story/place.js",
+     "size": 40665,
+     "sha256": "97b462c08004ab4d29140fecc35b8e8853157a53dc6bd8f844857fa408ae9ce5",
+     "path": "f/97b462c08004ab4d.js"
+    },
+    {
+     "name": "lib/story/action.js",
+     "size": 9018,
+     "sha256": "fef553bd888134e2b6dc7918da86c030bba63bdc62add485e1b3e46d3c78a8e6",
+     "path": "f/fef553bd888134e2.js"
     },
     {
      "name": "lib/story/ui.css",
-     "size": 111358,
-     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
-     "path": "f/d82ade359c7ae0ec.css"
+     "size": 152143,
+     "sha256": "378e3c89c0faa483b31f01dac0c097ec3cd2da2141376d90d943d83c34015efa",
+     "path": "f/378e3c89c0faa483.css"
     }
    ],
-   "ver": "0e31247fbb",
-   "up": "2026-10-29"
+   "ver": "f020473bab",
+   "up": "2026-10-30"
   },
   {
    "id": "game.between-tides.ch2",
@@ -5891,19 +5939,13 @@
     "vi": "Người ngoài"
    },
    "count": 0,
-   "size": 788287,
+   "size": 702772,
    "files": [
     {
      "name": "art-ch3.css",
-     "size": 530,
-     "sha256": "e3be68330c6f4ac19022092a90209a7b2545303554d2aa6946afbf600336a633",
-     "path": "f/e3be68330c6f4ac1.css"
-    },
-    {
-     "name": "img/act-bottle-hand.jpg",
-     "size": 85448,
-     "sha256": "03be18812ddc6f2023a4bffe2e21751d29393500f1897ff9eeea14607555ea31",
-     "path": "f/03be18812ddc6f20.jpg"
+     "size": 463,
+     "sha256": "7fce2e5457f474a48eb70ce9606e057ec43de4a1f64a147cb69924218f278d84",
+     "path": "f/7fce2e5457f474a4.css"
     },
     {
      "name": "img/act-cutting.jpg",
@@ -5948,8 +5990,8 @@
      "path": "f/3544a1b1bac69e2b.js"
     }
    ],
-   "ver": "964770e44a",
-   "up": "2026-10-29"
+   "ver": "dcd46b399d",
+   "up": "2026-10-30"
   },
   {
    "id": "game.between-tides.ch4",
@@ -6009,13 +6051,13 @@
     "vi": "Điều cồn cát giữ"
    },
    "count": 0,
-   "size": 1480553,
+   "size": 1148346,
    "files": [
     {
      "name": "art-ch5.css",
-     "size": 860,
-     "sha256": "5a8fe3ca2d49eaa55a93667a61456374840b9d509fb68bd63c30e3cea0d93446",
-     "path": "f/5a8fe3ca2d49eaa5.css"
+     "size": 711,
+     "sha256": "5593e78f4dab25138fa977f979ffcf9fa189589b6f84cd69065e120aba24b03a",
+     "path": "f/5593e78f4dab2513.css"
     },
     {
      "name": "img/act-bonnet.jpg",
@@ -6028,12 +6070,6 @@
      "size": 82051,
      "sha256": "2282cc2aa31c08505cf8da05c7f53254ea29915ab6dc693c96505ef8a028aab2",
      "path": "f/2282cc2aa31c0850.jpg"
-    },
-    {
-     "name": "img/act-cuff.jpg",
-     "size": 84483,
-     "sha256": "5f3a7e8cf8b2288af81b30ad55afb3a47ddc16a16c560517d4d92b829f24fbf1",
-     "path": "f/5f3a7e8cf8b2288a.jpg"
     },
     {
      "name": "img/act-mapx.jpg",
@@ -6090,26 +6126,14 @@
      "path": "f/8746bd22a3b4f738.jpg"
     },
     {
-     "name": "img/surgery.jpg",
-     "size": 123284,
-     "sha256": "546f4b1ac2ae595501356258ede9a2226324354a7ecaa7066652c34a0a11655d",
-     "path": "f/546f4b1ac2ae5955.jpg"
-    },
-    {
-     "name": "img/yard.jpg",
-     "size": 124291,
-     "sha256": "d923549ba0282a5e3ed94b3b3a47dd804ec340216df6180e867f38080240c5b9",
-     "path": "f/d923549ba0282a5e.jpg"
-    },
-    {
      "name": "story/ch5.js",
      "size": 73732,
      "sha256": "674301fde7d391f58407a2e8657075bacf5432fbb789c28d2b53a4a2c710380f",
      "path": "f/674301fde7d391f5.js"
     }
    ],
-   "ver": "b7f46fe57e",
-   "up": "2026-10-29"
+   "ver": "eae170efbb",
+   "up": "2026-10-30"
   }
  ]
 }
