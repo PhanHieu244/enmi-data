@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-30T14:06:29.671Z",
+ "at": "2026-10-30T14:33:06.082Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -4228,7 +4228,7 @@
     }
    ],
    "count": 0,
-   "size": 19847109,
+   "size": 20766044,
    "badge": "new",
    "title": {
     "vi": "Giữa hai con nước",
@@ -4241,9 +4241,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 19306,
-     "sha256": "451f4ac33933d4a08091ab648d1bb5cd7801644097e8c0f33c2c8c8cd832349f",
-     "path": "f/451f4ac33933d4a0.css"
+     "size": 20649,
+     "sha256": "7f71f77c3944d581360a4db953124e0c54f4757534f6e2e50992e7f572f4435d",
+     "path": "f/7f71f77c3944d581.css"
     },
     {
      "name": "art.js",
@@ -5272,6 +5272,12 @@
      "path": "f/9862da7bf25bf63c.jpg"
     },
     {
+     "name": "img/act-ladder.jpg",
+     "size": 87907,
+     "sha256": "86f0dfc211f05079d975153d77fdfafc7661b7a3ca3b7bb56502e8de85cc0513",
+     "path": "f/86f0dfc211f05079.jpg"
+    },
+    {
      "name": "img/act-letter.jpg",
      "size": 92330,
      "sha256": "9d6f0619c3a6bfe125d0022ff316c236565f911070fbecbb9191e7e6d1abaca9",
@@ -5500,10 +5506,28 @@
      "path": "f/1dea230d28cf47ec.jpg"
     },
     {
+     "name": "img/cg-fergus-glare.jpg",
+     "size": 71865,
+     "sha256": "29178ea18bc297dd99e4c3a98a9bca0da27058822a42cc86a81052c0d793e4d0",
+     "path": "f/29178ea18bc297dd.jpg"
+    },
+    {
+     "name": "img/cg-fergus-toast.jpg",
+     "size": 88026,
+     "sha256": "9b5a9e622d0be90119bcf8fbc5cb2b5450337307c5b6c6dba37b3e3b77fc5943",
+     "path": "f/9b5a9e622d0be901.jpg"
+    },
+    {
      "name": "img/cg-hut-water.jpg",
      "size": 100503,
      "sha256": "a6545799181685a1b5f42a8d3c8bb89aec314368468acdc974d20ec21423efce",
      "path": "f/a6545799181685a1.jpg"
+    },
+    {
+     "name": "img/cg-leo-licence.jpg",
+     "size": 92224,
+     "sha256": "941b840b03688423ead8ca7b4a37a5d6eb768251ed7e1e84d47c17cac28d409c",
+     "path": "f/941b840b03688423.jpg"
     },
     {
      "name": "img/cg-mem-nails.jpg",
@@ -5518,6 +5542,18 @@
      "path": "f/a13978495899e31d.jpg"
     },
     {
+     "name": "img/cg-nell-hug.jpg",
+     "size": 116682,
+     "sha256": "031288949db84830dee03693cc3e37a781ea76d41f1e78ab6a1b4d5ec78b6d00",
+     "path": "f/031288949db84830.jpg"
+    },
+    {
+     "name": "img/cg-nell-tea.jpg",
+     "size": 90759,
+     "sha256": "6e0e10b2b9980684150264ed41a222c17ebe26e0ce1494162621b0d2a3af0b40",
+     "path": "f/6e0e10b2b9980684.jpg"
+    },
+    {
      "name": "img/cg-police.jpg",
      "size": 107943,
      "sha256": "eb12bef9761b4fc33449153e3c58432e0be7693b42d742b1315b39b01e128f72",
@@ -5528,6 +5564,12 @@
      "size": 95652,
      "sha256": "001503d22f58545ae462b248f322f8cdaebb426fabe246189774031e2dda953b",
      "path": "f/001503d22f58545a.jpg"
+    },
+    {
+     "name": "img/cg-tom-pass.jpg",
+     "size": 111545,
+     "sha256": "f174ef0f7d0794a2dcd152db22ec021947120af9600b82e511de4514ee509014",
+     "path": "f/f174ef0f7d0794a2.jpg"
     },
     {
      "name": "img/cover.jpg",
@@ -5746,10 +5788,10 @@
      "path": "f/ed54e9c1c9bf99bc.png"
     },
     {
-     "name": "img/it-jumper.jpg",
-     "size": 43101,
-     "sha256": "5de4e2fbf601e4b4ff121bf2174cf340975196d1a6a2cde84fad1d607fd479af",
-     "path": "f/5de4e2fbf601e4b4.jpg"
+     "name": "img/it-jumper.png",
+     "size": 228942,
+     "sha256": "c2e313cc05178ec38ca6296a6e51017b7c6337326da9d820ae312734476018f5",
+     "path": "f/c2e313cc05178ec3.png"
     },
     {
      "name": "img/it-logbook.png",
@@ -5782,10 +5824,10 @@
      "path": "f/0f0575ac8f6228d7.png"
     },
     {
-     "name": "img/it-roomkey.jpg",
-     "size": 53499,
-     "sha256": "3942e51299660b0b52807a31fd77dbf2120192b392c5d1c64a5e018ab1fa6b55",
-     "path": "f/3942e51299660b0b.jpg"
+     "name": "img/it-roomkey.png",
+     "size": 126075,
+     "sha256": "6337c8a9ae237e8fe2665df09a31bcf4fae88274ad0df74fc1b8e7fe34e31aee",
+     "path": "f/6337c8a9ae237e8f.png"
     },
     {
      "name": "img/it-skull.png",
@@ -6011,9 +6053,9 @@
     },
     {
      "name": "regions.js",
-     "size": 1926,
-     "sha256": "a7e4ca77eb068195f5fa9a7f53dbd8139f75a462138b2103131ebf9e960f2ac3",
-     "path": "f/a7e4ca77eb068195.js"
+     "size": 2093,
+     "sha256": "a13ee1de40ca77818c334a9fcdf3098ef1a7c598c502cddab23216f0115c7979",
+     "path": "f/a13ee1de40ca7781.js"
     },
     {
      "name": "story/ch1.js",
@@ -6100,7 +6142,7 @@
      "path": "f/895f282f4675b583.css"
     }
    ],
-   "ver": "6fb648297b",
+   "ver": "8a465f40dc",
    "up": "2026-10-30"
   },
   {
