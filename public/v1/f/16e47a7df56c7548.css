@@ -1,0 +1,35 @@
+/* Compact record receipts retain visible art and an explicit inspection affordance. */
+.vd .se-t.receipt{padding:0;overflow:hidden;pointer-events:auto;background:#14282bf5;border:1px solid #bca77770;border-radius:13px}
+.se-item-receipt{display:flex;align-items:center;gap:10px;width:100%;min-height:70px;padding:10px 12px;color:inherit;background:none;border:0;text-align:left;cursor:pointer;touch-action:manipulation}
+.se-item-receipt>.se-ia{display:block;flex:none;width:48px;height:54px;min-width:48px;border:1px solid #d1b98150;border-radius:7px;overflow:hidden}
+.se-item-receipt>span:not(.se-ia){flex:1;min-width:0}.se-item-receipt small,.se-item-receipt b,.se-item-receipt em{display:block}
+.se-item-receipt small{font-size:10px;color:#c9b789;letter-spacing:.04em}.se-item-receipt b{margin-top:3px;font-size:13px;line-height:1.4}.se-item-receipt em{margin-top:3px;color:#b9c9c3;font:11px/1.4 var(--se-sans)}
+.se-item-receipt>i{flex:none;width:19px;height:19px;color:#c9b789}.se-item-receipt svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7}
+.vd .rv-st .vd-record-art{display:block;width:100%;height:100%;border-radius:14px;border:1px solid #bca77755;background:#1b2b2a;overflow:hidden}
+.vd .rv-st .vd-record-art>i{position:absolute;inset:0;display:block;background-repeat:no-repeat;background-position:center;background-size:contain}
+.vd .rv-b{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.vd .rv-b button{min-height:44px}
+.vd .se-iv .rv-b{margin-top:16px;padding-top:12px;border-top:1px solid #bca77740}.vd .se-iv .rv-b button{flex:1}
+.vd .se-read .rd-p{user-select:text;-webkit-user-select:text}.vd .se-read .rd-bar{gap:10px;padding-bottom:max(12px,env(safe-area-inset-bottom,0px))}
+.vd .se-fixed-role{flex:none;font-size:11px;color:var(--se-mute)}
+.vd .vd-voice-preview{margin-top:12px}.vd .vd-voice-preview .se-row{display:grid;grid-template-columns:1fr 1fr 44px;gap:8px}.vd .vd-voice-preview button{min-height:44px;display:flex;align-items:center;justify-content:center;gap:7px}.vd .vd-voice-preview button svg{width:17px;height:17px;flex:none}.vd .vd-voice-preview [data-voice-status]{min-height:1.4em;margin:8px 0 0;font-size:12px;line-height:1.45}
+.vd .se-stat{transition:background .22s,border-color .22s,box-shadow .22s}.vd .se-stat.big{box-shadow:0 4px 16px #0002;border-color:#bca77766}
+.vd .se-stat .st-l{animation:vale-location-arrive .36s ease-out}.vd .se-ct b{line-height:1.22;text-wrap:balance}.vd .se-ct i{line-height:1.5;text-wrap:balance}
+/* Long location/time labels stay on two lines; tap their native button for full text. */
+.vd .se-stat{min-height:44px}.vd .se-stat.big.has{height:44px;min-height:44px;padding:4px 8px}
+.vd .se-stat .st-l{width:100%;min-width:0;gap:2px}
+.vd .se-stat .st-n,.vd .se-stat .st-t{display:block;max-width:100%;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-wrap:nowrap;text-align:center}
+@keyframes vale-location-arrive{from{opacity:.3;transform:translateY(3px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.vd .se-txt.ty .c{animation:none;opacity:1}.vd .se-stat,.vd .se-stat .st-l,.vd .se-ct *{animation:none!important;transition:none!important}.vd .se-ct b,.vd .se-ct i{opacity:1;transform:none}}
+/* Keep inspection and dismissal visible on narrow phones; only long notes scroll. */
+@media(max-width:600px) and (min-height:501px){
+ .vd .se-rev{padding:max(12px,env(safe-area-inset-top,0px)) 16px max(12px,env(safe-area-inset-bottom,0px));overflow:hidden}
+ .vd .se-rev .rv-c{width:min(100%,380px);max-height:calc(100dvh - 24px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto minmax(0,1fr) auto auto;gap:7px;min-height:0}
+ .vd .se-rev .rv-k{grid-row:1}
+ .vd .se-rev .rv-st{grid-row:2;width:min(42vw,19dvh,170px);height:min(42vw,19dvh,170px);min-height:0;aspect-ratio:1}
+ .vd .se-rev .rv-n{grid-row:3;font-size:clamp(18px,5.3vw,22px);line-height:1.25}
+ .vd .se-rev .rv-d{grid-row:4;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 5px}
+ .vd .se-rev .rv-b{grid-row:5;gap:6px;margin:0}
+ .vd .se-rev .rv-b:empty{display:none}
+ .vd .se-rev .rv-b button{min-height:44px;padding:8px 14px}
+ .vd .se-rev .rv-tap{grid-row:6;min-height:44px;margin:0;padding:10px 14px;animation:none;border:1px solid #bca77755;border-radius:12px;background:#17292ef5;color:#f1e5ca;font-size:14px}
+}

@@ -1,0 +1,70 @@
+/* Raster scene family bindings. Inspection crops reuse the same scene pixels. */
+.im-p3_stable{background-image:url('img/p3_stable.webp')}
+.im-p3_stable_return{background-image:url('img/p3_stable_return.webp')}
+.im-p3_yard{background-image:url('img/p3_yard.webp')}
+.im-p3_yard_morning{background-image:url('img/p3_yard_morning.webp')}
+.im-p3_yard_morning_alert{background-image:url('img/p3_yard_morning_alert.webp')}
+.im-p3_yard_morning_clean{background-image:url('img/p3_yard_morning_clean.webp')}
+.im-p3_yard_morning_open{background-image:url('img/p3_yard_morning_open.webp')}
+.im-p3_moor{background-image:url('img/p3_moor.webp')}
+.im-p3_hollow{background-image:url('img/p3_hollow.webp')}
+.im-p3_dorn_yard{background-image:url('img/p3_dorn_yard.webp')}
+.im-p3_dorn_gate_closed{background-image:url('img/p3_dorn_gate_closed.webp')}
+.im-p3_office{background-image:url('img/p3_office.webp')}
+.im-p3_office_stored{background-image:url('img/p3_office_stored.webp')}
+.im-p3_finish{background-image:url('img/p3_finish.webp')}
+.im-p3_dorn_morning{background-image:url('img/p3_dorn_morning.webp')}
+.im-p3_dorn_open{background-image:url('img/p3_dorn_open.webp')}
+.im-p3_race{background-image:url('img/p3_race.webp')}
+.im-p3_forehead_before{background-image:url('img/p3_forehead_before.webp')}
+.im-p3_forehead_after{background-image:url('img/p3_forehead_after.webp')}
+.im-p3_stable_outer_closed{background-image:url('img/p3_stable_outer_closed.webp')}
+.im-p3_care_signal{background-image:url('img/p3_care_signal.webp')}
+.im-p3_farrier_check{background-image:url('img/p3_farrier_check.webp')}
+.im-cover{background-image:url('img/p3_yard.webp')}
+.im-study,.im-p2_after{background-image:url('../vale-dossiers/img/study.webp')}
+.im-vale{background-image:url('../vale-dossiers/img/vale.webp')}
+.im-reed{background-image:url('../vale-dossiers/img/stage-reed.webp')}
+.se-chi:has(.im-reed) .ph,.se-chi:has(.im-vale) .ph{display:none}
+.im-reed-full{background-image:url('../vale-dossiers/img/full-reed.webp')}
+.im-reed-concerned{background-image:url('../vale-dossiers/img/reed-concerned.webp')}
+.im-reed-smiling{background-image:url('../vale-dossiers/img/reed-smiling.webp')}
+.im-elin,.im-elin-full{background-image:url('img/p3_elin.webp')}
+.vd .se-chi .im-elin{background-size:185% auto;background-position:50% 0}
+.vd .se-ppi .im-elin,.vd .se-ia.is-testimony .im-elin{background-size:240% auto;background-position:50% 0}
+.se-chi:has(.im-elin) .ph{display:none}
+.im-ben,.im-ben-full{background-image:url('img/p3_ben.webp')}
+.vd .se-chi .im-ben{background-size:185% auto;background-position:50% 0}
+.vd .se-ppi .im-ben,.vd .se-ia.is-testimony .im-ben{background-size:240% auto;background-position:50% 0}
+.se-chi:has(.im-ben) .ph{display:none}
+.im-nora,.im-nora-full{background-image:url('img/p3_nora.webp')}
+.vd .se-chi .im-nora{background-size:185% auto;background-position:50% 0}
+.vd .se-ppi .im-nora,.vd .se-ia.is-testimony .im-nora{background-size:240% auto;background-position:50% 0}
+.se-chi:has(.im-nora) .ph{display:none}
+.im-dorn,.im-dorn-full{background-image:url('img/p3_dorn.webp')}
+.vd .se-chi .im-dorn{background-size:185% auto;background-position:50% 0}
+.vd .se-ppi .im-dorn,.vd .se-ia.is-testimony .im-dorn{background-size:240% auto;background-position:50% 0}
+.se-chi:has(.im-dorn) .ph{display:none}
+.im-elin-concerned{background-image:url('img/p3_elin_concerned.webp')}
+.vd .se-chi .im-elin-concerned{background-size:185% auto;background-position:50% 0}
+.im-ben-relieved,.im-ben-smiling,.im-ben-calm{background-image:url('img/p3_ben_relieved.webp')}
+.vd .se-chi .im-ben-relieved,.vd .se-chi .im-ben-smiling,.vd .se-chi .im-ben-calm{background-size:185% auto;background-position:50% 0}
+.im-nora-concerned{background-image:url('img/p3_nora_concerned.webp')}
+.vd .se-chi .im-nora-concerned{background-size:185% auto;background-position:50% 0}
+.im-dorn-uneasy{background-image:url('img/p3_dorn_uneasy.webp')}
+.vd .se-chi .im-dorn-uneasy{background-size:185% auto;background-position:50% 0}
+.se-bgl:has(.im-p3_stable) .ph,.se-bgl:has(.im-p3_stable_return) .ph,.se-bgl:has(.im-p3_yard) .ph,.se-bgl:has(.im-p3_yard_morning) .ph,.se-bgl:has(.im-p3_yard_morning_alert) .ph,.se-bgl:has(.im-p3_yard_morning_clean) .ph,.se-bgl:has(.im-p3_yard_morning_open) .ph,.se-bgl:has(.im-p3_moor) .ph,.se-bgl:has(.im-p3_hollow) .ph,.se-bgl:has(.im-p3_dorn_yard) .ph,.se-bgl:has(.im-p3_dorn_gate_closed) .ph,.se-bgl:has(.im-p3_office) .ph,.se-bgl:has(.im-p3_office_stored) .ph,.se-bgl:has(.im-p3_finish) .ph,.se-bgl:has(.im-p3_dorn_morning) .ph,.se-bgl:has(.im-p3_dorn_open) .ph,.se-bgl:has(.im-p3_race) .ph,.se-bgl:has(.im-p3_forehead_before) .ph,.se-bgl:has(.im-p3_forehead_after) .ph,.se-bgl:has(.im-p3_stable_outer_closed) .ph,.se-bgl:has(.im-p3_care_signal) .ph,.se-bgl:has(.im-p3_farrier_check) .ph,.se-bgl:has(.im-study) .ph,.se-bgl:has(.im-p2_after) .ph{display:none}
+.im-evidence-paper,.im-evidence-p2_letter,.im-evidence-p2_statement{background-image:url('../vale-dossiers/img/evidence-letter.webp')}
+.im-evidence-p2_ledger{background-image:url('../vale-dossiers/img/evidence-register.webp')}
+.im-evidence-p3_horse,.im-p3_horse{background-image:url('img/p3_horse.webp')}
+.im-evidence-p3_shoe{background-image:url('img/p3_shoe.webp')}
+.im-evidence-p3_cloth{background-image:url('img/p3_cloth.webp')}
+.im-evidence-p3_instrument{background-image:url('img/p3_instrument.webp')}
+.im-evidence-p3_case_closed{background-image:url('img/p3_case_closed.webp')}
+.im-p3_moss_sleep{background-image:url('img/p3_moss_sleep.webp')}
+.im-p3_moss_alert{background-image:url('img/p3_moss_alert.webp')}
+.im-p3_moss_bark{background-image:url('img/p3_moss_bark.webp')}
+.im-p3_ben_moss_settle{background-image:url('img/p3_ben_moss_settle.webp')}
+.im-reed-tea{background-image:url('img/p3_reed_tea.webp')}
+.vd .se-ch[data-face="tea"] .se-chi>.im-reed{visibility:hidden}.vd .se-chi .im-reed-tea{background-size:100% auto;background-position:50% 0}@media(max-width:600px) and (max-height:650px){.vd .se-ch[data-face="tea"]{top:60px;bottom:0;height:calc(100% - 60px)}.vd .se-chi .im-reed-tea{background-size:55% auto}}
+.vd .prp[data-p="moss"] .ii{filter:drop-shadow(0 1px 1px rgba(35,28,17,.25))}.se-bgl:has(.vbw.props .prp[data-p="moss"]) .scene-prop[data-scene-prop="moss"]{visibility:hidden}

@@ -1,0 +1,1081 @@
+/* Vale 0.4 · touch-first case board. No global engine or native-board overrides. */
+.se-panel.caseboard:has(.cb4-root){position:fixed;inset:0;margin:auto;width:100%;max-width:680px;height:100vh;height:100dvh;max-height:100dvh;padding:max(61px,calc(env(safe-area-inset-top,0px) + 53px)) 9px max(7px,env(safe-area-inset-bottom,0px));overflow:hidden;background:linear-gradient(160deg,#203034,#10191b 65%);border:0;border-radius:0;box-sizing:border-box}
+.cb4-root{position:relative;display:flex;flex-direction:column;height:100%;min-height:0;gap:6px;color:#eee8d7;font-family:var(--se-sans,system-ui,sans-serif);font-size:13px;text-align:left}
+.cb4-root *{box-sizing:border-box}.cb4-root button{font:inherit;-webkit-tap-highlight-color:transparent;cursor:pointer}.cb4-root button:disabled{cursor:default;opacity:.4}.cb4-root button:focus-visible{outline:3px solid #f2ce7d;outline-offset:2px}.cb4-root svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none}.cb4-root [hidden]{display:none!important}
+.cb4-head{flex:none;min-width:0;padding-right:43px}.cb4-eyebrow{display:flex;align-items:center;justify-content:space-between;min-height:27px;color:#cfb980;font-size:10px;font-weight:700;letter-spacing:.16em}.cb4-progress{display:flex;align-items:center;gap:6px;min-width:58px;min-height:30px;padding:3px 8px;color:#ead9ad;background:#ffffff08;border:1px solid #cebb8140;border-radius:7px;letter-spacing:0}.cb4-progress svg{width:15px;height:15px}.cb4-head h2{margin:3px 0 2px;max-height:94px;overflow:auto;font-family:Georgia,serif;font-size:14px;font-weight:400;line-height:1.4;color:#f2eee4}.cb4-head h2>small{display:block;margin-top:3px;color:#c6cfca;font:12px/1.4 var(--se-sans,system-ui,sans-serif)}
+.cb4-toolbar{display:flex;align-items:center;gap:5px;flex:none}.cb4-modes{display:flex;flex:1;min-width:0;padding:3px;border:1px solid #85958b45;background:#0d17198f;border-radius:10px}.cb4-modes button{display:flex;align-items:center;justify-content:center;gap:5px;min-height:38px;flex:1;padding:4px 6px;color:#bfcac5;background:transparent;border:0;border-radius:7px;font-size:11px;white-space:nowrap}.cb4-modes button[aria-pressed=true]{color:#243331;background:#ddc486;box-shadow:0 2px 9px #0003}.cb4-modes svg{width:17px;height:17px}.cb4-icon{position:relative;display:inline-flex;align-items:center;justify-content:center;width:42px;min-width:42px;height:44px;padding:8px;color:#d6dfd9;background:#e3eee908;border:1px solid #899e9255;border-radius:9px}.cb4-icon:hover{background:#e3eee912}.cb4-icon.active{color:#eed18b;border-color:#ceb475}.cb4-icon>b{position:absolute;right:3px;top:1px;min-width:14px;height:14px;padding:0 2px;border-radius:6px;background:#c6b37d;color:#203232;font-size:9px;font-weight:750;line-height:14px}.cb4-icon svg{width:19px;height:19px}.cb4-scope{flex:none;margin:0 2px;min-height:15px;color:#b4c0b8;font-size:10px;line-height:15px}
+.cb4-viewport{position:relative;flex:1;min-height:90px;overflow:hidden;border:7px solid #4b3a29;border-radius:9px;background-color:#6e5238;background-image:radial-gradient(#cbb58c2b .8px,transparent 1px),radial-gradient(#261c152a .8px,transparent 1px),linear-gradient(133deg,#8d6e4844,#362a1e55);background-size:7px 7px,11px 11px,100% 100%;background-position:0 0,3px 5px,0 0;box-shadow:inset 0 0 32px #20160d7a,0 1px 0 #b3925e4f,0 8px 20px #0003;touch-action:none;isolation:isolate;overscroll-behavior:contain}.cb4-world{position:absolute;top:0;left:0;transform-origin:0 0;will-change:transform}.cb4-cards{position:absolute;inset:0;z-index:2}.cb4-empty{position:absolute;top:38%;left:15%;right:15%;text-align:center;color:#fff3d6;font-size:14px;pointer-events:none}
+.cb4-card{position:absolute;width:148px;height:170px;color:#2f3b38;background:linear-gradient(135deg,#f6efd9,#e9dfc5);border:1px solid #c5b288;border-radius:2px;box-shadow:2px 4px 8px #21190c66;isolation:isolate;user-select:none;-webkit-user-select:none;touch-action:none}.cb4-card:after{position:absolute;top:-6px;right:9px;width:34px;height:12px;background:#ead8a185;box-shadow:0 1px 1px #725e3a18;content:'';transform:rotate(7deg);pointer-events:none}.cb4-card.testimony{background:linear-gradient(135deg,#edf1dc,#d7dfcc);border-color:#adba9c}.cb4-card.inference{background:linear-gradient(135deg,#f0dfad,#d9c285);border-color:#c0a76a}.cb4-card.selected,.cb4-card.link-target{outline:3px solid #f4cc6a;outline-offset:3px;z-index:3}.cb4-card.dragging{z-index:10;box-shadow:4px 10px 20px #20160b88}.cb4-select{display:flex;flex-direction:column;align-items:stretch;width:100%;height:138px;padding:13px 9px 4px;text-align:left;color:inherit;background:none;border:0;border-radius:0;touch-action:none}.cb4-art{display:flex;align-items:center;justify-content:center;height:44px;min-height:44px;margin-bottom:4px;overflow:hidden}.cb4-art .se-ia{display:block;width:60px!important;height:43px!important;min-width:60px;border:0!important;background-color:transparent!important;box-shadow:none!important}.cb4-art img{width:100%;height:100%;object-fit:contain}.cb4-kind{display:block;flex:none;margin-bottom:3px;color:#656654;font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}.cb4-select>b{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:2;min-height:16px;max-height:32px;font-family:Georgia,serif;font-size:13px;font-weight:700;line-height:16px}.cb4-brief{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:2;margin-top:4px;color:#5e6559;font-size:9px;line-height:12px}.cb4-pin{position:absolute;top:-19px;left:calc(50% - 22px);display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;background:transparent;border:0;z-index:5;touch-action:none}.cb4-pin i{display:block;width:12px;height:12px;border-radius:50%;background:radial-gradient(circle at 33% 25%,#f3ada0 0,#aa4f3e 38%,#562b24 75%);box-shadow:1px 3px 2px #2d1c1688,0 0 0 1px #613525}.cb4-pin[aria-pressed=true] i{background:radial-gradient(circle at 33% 25%,#fff6ca,#dfb448 45%,#927429 75%)}.cb4-read{position:absolute;bottom:0;left:0;display:flex;align-items:center;justify-content:center;gap:5px;width:100%;height:31px;padding:4px;color:#526055;background:#fff5;border:0;border-top:1px solid #a9ab913f;font-size:10px!important}.cb4-read svg{width:13px;height:13px}.cb4-record-icon{display:grid;place-items:center;width:44px;height:40px;color:#756439}.cb4-record-icon svg{width:27px;height:27px}.cb4-record-avatar{position:relative;display:grid;place-items:center;width:44px;height:44px;overflow:hidden;border-radius:50%;background:#718d7940;color:#596c54}.cb4-record-avatar>i{position:absolute;inset:0;background-size:cover;background-position:center}.cb4-record-avatar>b{position:relative;font:34px Georgia,serif;text-shadow:0 1px 1px #fff7}.cb4-wires{position:absolute;top:0;left:0;overflow:visible;pointer-events:none;z-index:4}.cb4-wires g{stroke:var(--wire);fill:var(--wire);filter:drop-shadow(0 1px 1px #211a15cc)}.cb4-wires path{fill:none;stroke-width:3.2;stroke-linecap:round}.cb4-wires circle{stroke:#f2e7cc;stroke-width:1}
+.cb4-zoom{position:absolute;right:6px;bottom:5px;z-index:12;display:flex;align-items:center;gap:2px;padding:3px 4px;background:#152122e8;border:1px solid #c4ad7855;border-radius:10px;box-shadow:0 2px 6px #0003;touch-action:manipulation}.cb4-zoom .cb4-icon{width:36px;min-width:36px;height:38px;padding:7px;border:0;background:transparent}.cb4-zoom small{min-width:31px;text-align:center;color:#c9cbbd;font-size:9px}.cb4-popover{position:absolute;z-index:20;top:7px;left:7px;right:7px;max-height:min(72%,340px);overflow:auto;padding:0 12px 12px;color:#263b37;background:#f1e9d5;border:1px solid #b8a77d;border-radius:7px;box-shadow:0 7px 25px #1c170c66;touch-action:pan-y}.cb4-popover>header{position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;min-height:42px;margin-bottom:5px;background:#f1e9d5;border-bottom:1px solid #b3aa8d55;font-size:12px}.cb4-popover .cb4-icon{width:36px;min-width:36px;height:36px;padding:8px;color:#425851;background:none;border:0}.cb4-hint{font-size:13px;line-height:1.6}.cb4-hint>small,.cb4-conclusion small{display:block;margin-top:5px;color:#536258;font-size:12px;line-height:1.5}.cb4-conclusion{display:flex;align-items:flex-start;gap:7px;padding:9px 0;border-bottom:1px solid #bbb19255;font-size:12px;line-height:1.5}.cb4-conclusion:last-child{border:0}.cb4-conclusion>b{padding-top:1px;color:#537447}.cb4-conclusion>b svg{width:16px;height:16px}.cb4-popover>p{font-size:12px;line-height:1.5}
+.cb4-footer{flex:none;min-height:68px}.cb4-status{height:30px;margin:1px 2px 4px;overflow:auto;color:#c1cec5;font-size:11px;line-height:1.35}.cb4-status.wrong{color:#f0b2a3}.cb4-status.success{color:#c6dbad}.cb4-footer>div{display:flex;align-items:center;gap:6px}.cb4-footer .cb4-icon{width:40px;min-width:40px;height:40px}.cb4-finish{display:flex;align-items:center;justify-content:center;gap:7px;min-height:40px;max-width:calc(100% - 92px);margin-left:auto;padding:6px 13px;color:#d1dbd4;background:#293c3d;border:1px solid #8a9c8d77;border-radius:8px;font-size:12px!important}.cb4-finish.ready{color:#243632;background:linear-gradient(145deg,#ead7a0,#cfb779);border-color:#f3dba1}.cb4-finish svg{width:16px;height:16px}
+.cb4-drawer{position:absolute;bottom:0;left:0;right:0;z-index:25;display:flex;flex-direction:column;height:min(76%,600px);min-height:230px;padding:10px 10px 5px;color:#e8e9df;background:#152629fa;border:1px solid #c4b57e88;border-radius:14px 14px 6px 6px;box-shadow:0 -10px 36px #0008;backdrop-filter:blur(12px)}.cb4-drawer>header{display:flex;align-items:center;justify-content:space-between;flex:none;min-height:40px;margin-bottom:5px}.cb4-drawer h3{margin:0;font:19px Georgia,serif}.cb4-drawer h3 small{margin-left:6px;color:#b3c3b7;font:10px var(--se-sans,system-ui,sans-serif)}.cb4-drawer>header .cb4-icon{width:38px;min-width:38px;height:38px;border:0;background:transparent}.cb4-drawer-tabs{display:flex;flex:none;gap:4px}.cb4-drawer-tabs>button{min-width:0;min-height:39px;flex:1;padding:4px;color:#c0cdc3;background:#ffffff06;border:1px solid #9bb09e38;border-radius:7px;font-size:10px;line-height:1.25}.cb4-drawer-tabs>button[aria-pressed=true]{color:#f4dfab;border-color:#ddc78a;background:#c4ac7019}.cb4-search{display:flex;flex:none;align-items:center;gap:4px;margin-top:8px}.cb4-search input{width:100%;min-width:0;height:42px;padding:7px 10px;color:#f3f0e5;background:#0b1719;border:1px solid #889e8b77;border-radius:7px;font:16px var(--se-sans,system-ui,sans-serif)}.cb4-search input::placeholder{color:#8daba0;font-size:12px}.cb4-search .cb4-icon{width:37px;min-width:37px;height:40px;border:0}.cb4-drawer-scope{display:flex;align-items:center;justify-content:space-between;flex:none;min-height:26px;margin:4px 0;color:#b9c8be;font-size:10px}.cb4-drawer-scope button{padding:5px 8px;color:#e5ce90;background:none;border:0;text-decoration:underline;font-size:11px}.cb4-drawer-list{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;touch-action:pan-y}.cb4-drawer-record{display:flex;align-items:center;gap:5px;padding:5px 1px;border-top:1px solid #c1c9ae20}.cb4-drawer-read{display:flex;align-items:center;gap:9px;flex:1;min-width:0;padding:4px 0;color:inherit;background:transparent;border:0;text-align:left}.cb4-drawer-read>.se-ia,.cb4-drawer-read>.cb4-record-icon,.cb4-drawer-read>.cb4-record-avatar{flex:none;width:44px!important;height:48px!important;min-width:44px}.cb4-drawer-read>span:last-child{display:block;min-width:0}.cb4-drawer-read small{display:block;margin-bottom:3px;color:#a9b9a9;font-size:9px}.cb4-drawer-read b{display:block;color:#e8e7d8;font-size:12px;line-height:1.35}.cb4-drawer-read em{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin-top:3px;color:#aebdb1;font-size:10px;font-style:normal;line-height:1.35}.cb4-drawer-record.testimony .cb4-drawer-read small{color:#aacbc0}.cb4-drawer-record.inference .cb4-drawer-read small{color:#dac48e}.cb4-drawer-record>.cb4-icon{width:37px;min-width:37px;height:42px;border:0}.cb4-no-results{padding:15px 8px;font-size:13px;line-height:1.6;color:#c6cdbf}
+.cb4-record-detail{color:var(--se-text,#e9e6dc);font-size:14px;line-height:1.65}.cb4-record-large{display:flex;align-items:center;justify-content:center;height:145px;margin-bottom:12px;padding:10px;background:#a1b2a80c;border-radius:9px}.cb4-record-large .se-ia{width:120px!important;height:120px!important}.cb4-record-large .cb4-record-icon,.cb4-record-large .cb4-record-avatar{width:110px;height:110px}.cb4-record-large .cb4-record-icon svg{width:64px;height:64px}.cb4-record-large .cb4-record-avatar>b{font-size:80px}.cb4-record-detail>small{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#a6bcad}.cb4-record-detail h3{margin:7px 0 14px;font:24px/1.3 Georgia,serif}.cb4-record-detail h3 small,.cb4-record-detail>div>small,.cb4-record-detail p>small{display:block;margin-top:6px;font:12px/1.6 var(--se-sans,system-ui,sans-serif);color:#aabfb0}.cb4-record-detail .se-btn{margin-top:9px}.cb4-record-detail .se-btn svg{width:16px;height:16px;vertical-align:middle;fill:none;stroke:currentColor;stroke-width:1.7}.cb4-record-source{font-size:12px;color:#acbeb2}
+@media(max-width:370px){.cb4-modes button{gap:3px;padding:4px;font-size:10px}.cb4-modes svg{width:15px;height:15px}.cb4-toolbar>.cb4-icon{width:38px;min-width:38px}.cb4-head h2{font-size:13px}.cb4-head h2>small{font-size:11px}.cb4-toolbar{gap:4px}}
+@media(max-height:680px){.cb4-root{gap:4px}.cb4-head h2{max-height:68px;font-size:12px}.cb4-head h2>small{font-size:10px;line-height:1.35}.cb4-toolbar>.cb4-icon{height:40px}.cb4-modes button{min-height:34px}.cb4-footer{min-height:62px}.cb4-status{height:27px;font-size:10px}.cb4-viewport{border-width:5px}}
+@media(max-height:470px) and (min-width:600px){.se-panel.caseboard:has(.cb4-root){max-width:100%;padding:54px 12px 6px}.cb4-root{display:grid;grid-template-columns:32% 1fr;grid-template-rows:auto auto 1fr auto;gap:7px 10px}.cb4-head{grid-column:1;grid-row:1}.cb4-head h2{max-height:99px}.cb4-toolbar{grid-column:1;grid-row:2;flex-wrap:wrap;justify-content:center}.cb4-modes{flex-basis:100%}.cb4-toolbar>.cb4-icon{flex:1;min-height:35px;height:35px}.cb4-scope{grid-column:1;grid-row:3}.cb4-footer{grid-column:1;grid-row:4}.cb4-footer .cb4-icon{width:34px;min-width:34px}.cb4-finish{padding:6px 8px;font-size:10px!important;max-width:calc(100% - 80px)}.cb4-viewport{grid-column:2;grid-row:1/5}.cb4-drawer{left:33%;height:100%;max-height:none;border-radius:10px}}
+@media(prefers-reduced-motion:reduce){.cb4-root *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* 0.5 — quieter brass/glass controls, consistent touch targets. Board rules,
+   coordinates, cards and wire behavior are unchanged. */
+.se-panel.caseboard:has(.cb4-root){padding-top:max(61px,calc(var(--vale-toolbar-height,55px) + 6px))}
+.cb4-modes{padding:2px;border-color:#adc0b34d;border-radius:13px;background:#0e1d1dde;box-shadow:inset 0 1px 3px #0003}
+.cb4-modes button{min-height:44px;border-radius:10px;color:#bfcec2;line-height:1.15;white-space:normal;transition:background .16s,color .16s,box-shadow .16s}
+.cb4-modes button[aria-pressed=true]{background:linear-gradient(150deg,#e0d1a8,#c7b88b);color:#263b32;box-shadow:0 2px 5px #0003,inset 0 1px 0 #fff5}
+.cb4-modes button:active{background:#b8b492;color:#193128}
+.cb4-icon{width:44px;min-width:44px;height:44px;min-height:44px;padding:10px;border-color:#a7bbac4d;border-radius:12px;color:#d4e1d7;background:linear-gradient(150deg,#c6d7c80d,#6c907807);box-shadow:inset 0 1px 0 #fff06;transition:background .16s,border-color .16s,transform .16s}
+.cb4-icon:hover,.cb4-icon[aria-expanded=true]{background:#b6c9b51b;border-color:#c6c29a80}
+.cb4-icon:active{background:#b4c19d30;transform:translateY(1px)}
+.cb4-icon.active{color:#ecdaa1;border-color:#cfbd83;background:#bfa86a18}
+.cb4-icon>b{top:2px;right:2px;min-width:14px;height:14px;font-size:9px;line-height:14px;border-radius:6px;background:#d0c5a0;color:#263b32;box-shadow:0 0 0 2px #1c2b2a}
+.cb4-progress{min-height:44px;padding:6px 9px;border-radius:10px;background:#c8bd8910;border-color:#c9bc7e45;white-space:nowrap}
+.cb4-progress:hover{background:#c8bd8920}
+.cb4-zoom{gap:1px;padding:3px;border-radius:14px;background:#10231eea;border-color:#b7ab794f;box-shadow:0 3px 10px #0004}
+.cb4-zoom .cb4-icon,.cb4-popover .cb4-icon,.cb4-footer .cb4-icon,.cb4-drawer>header .cb4-icon,.cb4-drawer-record>.cb4-icon,.cb4-search .cb4-icon{width:44px;min-width:44px;height:44px;min-height:44px}
+.cb4-zoom .cb4-icon{padding:11px;border:0;background:transparent;box-shadow:none}
+.cb4-zoom .cb4-icon:active{background:#ccd4a522}
+.cb4-finish{min-height:44px;max-width:calc(100% - 100px);padding:8px 13px;border-radius:12px;background:#233d32;border-color:#a8bba36b;color:#d5e0d2;line-height:1.25;font-weight:650!important;transition:background .16s,transform .16s}
+.cb4-finish.ready{color:#243b2d;background:linear-gradient(150deg,#e2d7af,#c7bb90);border-color:#dfcf9e;box-shadow:0 2px 8px #0003,inset 0 1px 0 #fff4}
+.cb4-finish:active:not(:disabled){transform:translateY(1px);filter:brightness(.95)}
+.cb4-drawer-tabs>button{min-height:44px;border-radius:9px}
+.cb4-drawer-tabs>button[aria-pressed=true]{color:#f0dfac;border-color:#c4b579;background:#b6a96b24;box-shadow:inset 0 1px 0 #fff08}
+.cb4-drawer-scope button{min-height:44px;padding:7px 8px}
+.cb4-read{height:44px;border-top-color:#a2ac9666;background:#fff4;font-size:11px!important;line-height:1.2}
+.cb4-read:hover{background:#fff8}
+.cb4-read svg{width:15px;height:15px}
+.cb4-select{height:126px;padding-top:12px;overflow:hidden}
+.cb4-art{height:35px;min-height:35px;margin-bottom:3px}
+.cb4-art .se-ia{height:35px!important}
+.cb4-brief{margin-top:3px}
+@media(max-width:370px){.cb4-toolbar{gap:4px}.cb4-toolbar>.cb4-icon{width:44px;min-width:44px;height:44px}.cb4-modes button{font-size:10px;padding:4px 3px;gap:3px}.cb4-modes svg{width:15px;height:15px}.cb4-finish{padding-inline:9px;font-size:11px!important}}
+@media(max-height:680px){.cb4-toolbar>.cb4-icon,.cb4-modes button{min-height:44px;height:44px}.cb4-footer{min-height:78px}}
+@media(max-height:470px) and (min-width:600px){.cb4-head h2{max-height:58px}.cb4-toolbar{gap:4px}.cb4-toolbar>.cb4-icon{height:44px;min-height:44px;min-width:44px}.cb4-footer .cb4-icon{width:44px;min-width:44px}.cb4-finish{max-width:calc(100% - 100px);min-height:44px;padding:6px 8px}.cb4-footer{min-height:78px}}
+/* Build 0.4: native phone interface, persistent records and restrained motion. */
+.vd .se-tools .se-autob{order:-10;position:static;inset:auto;margin:0 auto 0 0;flex:0 0 auto;min-width:44px;max-width:120px}
+.vd .se-tools .se-more{margin-left:0;flex:none}
+.vd .se-chi .ii{mask-image:linear-gradient(to bottom,#000 0 88%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0 88%,transparent 100%)}
+.vd .se-bookpane[hidden],.vd .vd-record-card[hidden],.vd .vd-record-chapter[hidden],.vd .vd-record-empty[hidden]{display:none!important}
+.vd .vd-casebook .se-tabs{position:sticky;top:-20px;z-index:3;background:#172323;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;padding-block:6px;margin-top:-8px}
+.vd .vd-casebook .se-tab{display:flex;flex-direction:column;gap:3px;justify-content:center;min-height:52px;padding:5px 2px;font-size:12px;white-space:normal}
+.vd .vd-casebook .se-tab small{font-size:10px;font-weight:400;opacity:.7}
+.vd-record-controls{display:grid;gap:10px;padding:4px 0 12px}
+.vd-record-filters{display:grid;grid-template-columns:.8fr 1.4fr 1fr;gap:5px}
+.vd-record-filters button{min-width:0;display:flex;flex-direction:column;gap:3px;min-height:45px;padding:6px 4px;font-size:11px}
+.vd-record-filters small{font-size:10px;opacity:.72;font-weight:400}
+.vd-record-search{display:grid;gap:5px;font-size:11px;color:#bdc7c1}
+.vd-record-search input{min-width:0;width:100%;font-size:16px;min-height:44px}
+.vd-record-count{margin:0;font-size:11px;color:#a2b6b3}
+.vd-record-chapter{border-top:1px solid #c9b88228;margin-block:4px 12px}
+.vd-record-chapter>summary{padding:14px 2px;font-size:12px;color:#d6c491;cursor:pointer;list-style-position:inside}
+.vd-record-chapter>summary small{float:right;min-width:24px;text-align:center;border:1px solid #d6c49144;border-radius:12px;font-size:10px}
+.vd-record-list{display:grid;gap:8px}
+.vd-record-card{width:100%;display:flex;align-items:flex-start;gap:11px;padding:12px 10px;border:1px solid #d6c49122;border-radius:12px;background:#ffffff04;color:#e1e5df;text-align:left;font:inherit;cursor:pointer;min-height:68px}
+.vd-record-card:focus-visible{outline:2px solid #e2c484;outline-offset:2px}
+.vd-record-copy{display:grid;gap:5px;min-width:0;flex:1}
+.vd-record-copy>b{font-size:13px;line-height:1.45;font-weight:600}
+.vd-record-copy .vd-vi{font-size:.92em;line-height:1.4;margin-top:3px;opacity:.74}
+.vd-record-brief{font-size:12px;line-height:1.5;color:#bdcac5}
+.vd-record-copy>small{font-size:10px;line-height:1.45;color:#93aaa7}
+.vd-record-kind{font-size:9px;letter-spacing:.05em;line-height:1.4;text-transform:uppercase;color:#d8c183}
+.vd-record-kind.is-testimony{color:#b7a2cc}.vd-record-kind.is-inference{color:#91beb3}
+.vd .se-ia.vd-record-art{position:relative;display:block;flex:0 0 56px;width:56px;height:62px;background:#d5ccae;border:1px solid #d6c49144;border-radius:7px;overflow:hidden;box-shadow:0 3px 8px #0005}
+.vd .se-ia.vd-record-art i{position:absolute;inset:0;display:block;background-size:cover;background-position:center;background-repeat:no-repeat}
+.vd .se-ia.vd-record-art.is-testimony{background:#344242;border-color:#b7a2cc66}
+.vd .se-ia.vd-record-art.is-testimony i{background-position:center 8%;background-size:130% auto}
+.vd .se-ia.vd-record-art.sm{width:42px;height:48px;flex-basis:42px}
+.vd .se-ia.vd-record-art.lg{width:150px;height:168px;flex-basis:168px;align-self:center;border-radius:10px}
+.vd .se-ia.vd-record-art.lg.is-testimony i{background-size:125% auto}
+.vd-quote-mark,.vd-inference-mark{position:absolute;right:2px;bottom:0;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#273133e8;color:#e0c9ef;font:24px Georgia,serif}
+.vd-inference-mark{color:#bce5d9;font-size:17px}
+.vd .vd-record-detail .se-ivc{position:relative;max-height:86dvh;overflow:auto;overscroll-behavior:contain;display:flex;flex-direction:column;gap:12px;padding:24px 20px;max-width:390px;text-align:left;background:#172120;border:1px solid #d6c49155;border-radius:18px;box-shadow:0 16px 70px #0009;align-items:stretch}
+.vd .se-ia.vd-record-art.is-testimony i:is(.im-celia,.im-hart,.im-c3_clerk){background-size:230% auto;background-position:50% 0}
+.vd-record-detail .se-ivc>b{font-size:21px;padding-top:5px;line-height:1.35}
+.vd-record-detail .se-ivc>b .vd-vi{font-size:15px;font-weight:400;margin-top:6px}
+.vd-record-detail .se-ivc>p{line-height:1.7;margin:0}
+.vd .vd-record-close{position:absolute;top:6px;right:6px;width:44px;height:44px;min-height:44px;font-size:26px;background:#162626d9}
+.vd-record-source{font-size:12px;color:#9ab8b0}.vd-record-note{font-size:11px;color:#c5b39c;border-top:1px solid #ffffff19;padding-top:10px}
+.vd-conclusion{padding:14px 0;border-bottom:1px solid #d6c49124}
+.vd-conclusion>small{font-size:10px;color:#a4b7b1}.vd-conclusion h3{font-size:15px;line-height:1.6;font-weight:500}
+.vd-conclusion>div{display:grid;gap:7px}.vd-conclusion .se-btn{display:flex;align-items:center;gap:9px;text-align:left;white-space:normal;min-height:52px}
+.vd-settings-quick{display:grid;gap:10px;padding-bottom:16px;margin-bottom:8px;border-bottom:1px solid #d6c49133}
+.vd-settings-links{display:grid;grid-template-columns:1fr 1fr;gap:8px}.vd-settings-links button{min-width:0;width:auto;white-space:normal;font-size:12px}
+.vd-settings-quick>.se-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}.vd-settings-quick>.se-row button{font-size:11px;white-space:normal;min-width:0}
+.vd .vd-settings .se-ovo{min-height:55px}.vd .vd-settings .se-ovo small{line-height:1.5}
+.vd .se-ct{animation:vd-title-arrive .8s ease-out both}.vd .se-ct>small{letter-spacing:.22em;animation:vd-title-line .75s .1s ease-out both}.vd .se-ct>b{animation:vd-title-line .9s .25s ease-out both}.vd .se-ct>i{animation:vd-title-line .75s .5s ease-out both}
+.vd .se-ct>em{height:1px;width:min(200px,60vw);background:linear-gradient(90deg,transparent,#d6b878,transparent);transform-origin:center;animation:vd-title-rule 1s .3s ease-out both}
+.vd .se-end>small,.vd .se-end>h2,.vd .se-end>p{animation:vd-title-line .65s ease-out both}
+.vd-chapter-progress{display:flex;gap:5px;max-width:250px;margin:10px auto 22px}
+.vd-chapter-progress i{height:3px;flex:1;border-radius:2px;background:#a9bab329}.vd-chapter-progress i.done{background:#d6b878}
+.vd-chapter-close,.vd-next-objective{border:1px solid #cdb4762a;border-radius:14px;background:#14262288;padding:15px;text-align:left;margin:16px 0;font-size:14px;line-height:1.7}
+.vd-next-objective>small{display:block;text-transform:uppercase;letter-spacing:.12em;color:#cdb476;font-size:10px;margin-bottom:8px}
+@keyframes vd-title-arrive{from{opacity:0}to{opacity:1}}
+@keyframes vd-title-line{from{opacity:0;transform:translateY(10px);filter:blur(3px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@keyframes vd-title-rule{from{opacity:0;transform:scaleX(.2)}to{opacity:1;transform:scaleX(1)}}
+@media(max-width:360px){.vd-record-card{gap:8px;padding:11px 8px}.vd .se-ia.vd-record-art{width:48px;height:56px;flex-basis:48px}.vd-record-copy>b{font-size:12px}.vd-record-brief{font-size:11px}.vd .vd-casebook .se-tabs{top:-14px}}
+@media(prefers-reduced-motion:reduce){.vd .se-ct,.vd .se-ct>*,.vd .se-end>*{animation:none!important;filter:none!important;transform:none!important}}
+.vd .se-deduce-focus{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 0;font-size:11px;color:#b4c5bf}.vd .se-deduce-focus button{min-height:44px;flex:none;font-size:11px}
+.vd .se-deduce-categories{display:flex;gap:5px;margin-bottom:12px}.vd .se-deduce-categories button{flex:1;min-width:0;min-height:44px;font-size:11px;padding:6px;white-space:normal}
+.vd-case-resolution{border:1px solid #d6b87866;border-radius:12px;background:#d6b8780b;padding:16px;margin:4px 0 18px;line-height:1.65}.vd-case-resolution>small{font-size:10px;letter-spacing:.07em;color:#d6b878}.vd-case-resolution h3{font-size:18px;font-weight:500}.vd-case-resolution p{font-size:14px}
+/* Substantive native investigation text follows Vale's EN/translation policy. */
+.vd .vd-investigation-copy,.vd .vd-investigation-copy>span{display:block;min-width:0;width:auto;height:auto;background:none;border-radius:0;white-space:normal;overflow-wrap:anywhere;place-items:initial;color:inherit}
+.vd .vd-investigation-sub{margin-top:4px;font-size:.88em;line-height:1.45;font-weight:400;opacity:.78;text-transform:none;letter-spacing:normal}
+.vd .vd-investigation-sub[hidden]{display:none!important}
+.vd .tk-t>span,.vd .tk-h>span{min-width:0}.vd .tk-h{flex-wrap:wrap}.vd .tk-h>b{flex:none}.vd .tk-h>span{flex:1 1 170px}
+.vd .tk-t .vd-investigation-sub{color:inherit;opacity:.83}.vd .tk-f .se-btn{white-space:normal;min-width:0}
+.vd .se-ddg{grid-template-columns:repeat(2,minmax(0,1fr))}.vd .se-ddc,.vd .se-eqs{min-width:0}
+.vd .se-ddc>b,.vd .se-ddc>small,.vd .se-eqs>b{min-width:0;max-width:100%;width:100%}
+.vd .se-ddq .vd-investigation-sub{font-family:var(--se-sans);font-size:14px;line-height:1.5}
+.vd .se-eqs>b{font-size:12px;line-height:1.35;overflow-wrap:anywhere}
+.vd .se-rev{overflow-y:auto;overscroll-behavior:contain}
+.vd .rv-c{min-width:0;max-width:100%;margin-block:auto}
+.vd .rv-n,.vd .rv-d{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.vd .rv-d{max-height:28dvh;overflow-y:auto;overscroll-behavior:contain;padding-inline:3px}
+.vd .rv-n .vd-investigation-sub{font-size:15px;line-height:1.4}
+.vd .vd-record-detail .se-ivc>b .vd-investigation-sub{font-size:15px;margin-top:6px}
+.vd .vd-record-copy .vd-investigation-sub{font-size:.92em;line-height:1.4;margin-top:3px;opacity:.74}
+.vd .vd-record-filters button{white-space:normal;overflow-wrap:anywhere}
+.vd .vd-mobile-intro>b,.vd .vd-mobile-intro>small{display:block}.vd .vd-mobile-intro>small{margin:4px 0 8px;color:#b8c7c1}
+/* Compact record receipts retain visible art and an explicit inspection affordance. */
+.vd .se-t.receipt{padding:0;overflow:hidden;pointer-events:auto;background:#14282bf5;border:1px solid #bca77770;border-radius:13px}
+.se-item-receipt{display:flex;align-items:center;gap:10px;width:100%;min-height:70px;padding:10px 12px;color:inherit;background:none;border:0;text-align:left;cursor:pointer;touch-action:manipulation}
+.se-item-receipt>.se-ia{display:block;flex:none;width:48px;height:54px;min-width:48px;border:1px solid #d1b98150;border-radius:7px;overflow:hidden}
+.se-item-receipt>span:not(.se-ia){flex:1;min-width:0}.se-item-receipt small,.se-item-receipt b,.se-item-receipt em{display:block}
+.se-item-receipt small{font-size:10px;color:#c9b789;letter-spacing:.04em}.se-item-receipt b{margin-top:3px;font-size:13px;line-height:1.4}.se-item-receipt em{margin-top:3px;color:#b9c9c3;font:11px/1.4 var(--se-sans)}
+.se-item-receipt>i{flex:none;width:19px;height:19px;color:#c9b789}.se-item-receipt svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7}
+.vd .rv-st .vd-record-art{display:block;width:100%;height:100%;border-radius:14px;border:1px solid #bca77755;background:#1b2b2a;overflow:hidden}
+.vd .rv-st .vd-record-art>i{position:absolute;inset:0;display:block;background-repeat:no-repeat;background-position:center;background-size:contain}
+.vd .rv-b{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.vd .rv-b button{min-height:44px}
+.vd .se-iv .rv-b{margin-top:16px;padding-top:12px;border-top:1px solid #bca77740}.vd .se-iv .rv-b button{flex:1}
+.vd .se-read .rd-p{user-select:text;-webkit-user-select:text}.vd .se-read .rd-bar{gap:10px;padding-bottom:max(12px,env(safe-area-inset-bottom,0px))}
+.vd .se-fixed-role{flex:none;font-size:11px;color:var(--se-mute)}
+.vd .vd-voice-preview{margin-top:12px}.vd .vd-voice-preview .se-row{display:grid;grid-template-columns:1fr 1fr 44px;gap:8px}.vd .vd-voice-preview button{min-height:44px;display:flex;align-items:center;justify-content:center;gap:7px}.vd .vd-voice-preview button svg{width:17px;height:17px;flex:none}.vd .vd-voice-preview [data-voice-status]{min-height:1.4em;margin:8px 0 0;font-size:12px;line-height:1.45}
+.vd .se-stat{transition:background .22s,border-color .22s,box-shadow .22s}.vd .se-stat.big{box-shadow:0 4px 16px #0002;border-color:#bca77766}
+.vd .se-stat .st-l{animation:vale-location-arrive .36s ease-out}.vd .se-ct b{line-height:1.22;text-wrap:balance}.vd .se-ct i{line-height:1.5;text-wrap:balance}
+/* Long location/time labels stay on two lines; tap their native button for full text. */
+.vd .se-stat{min-height:44px}.vd .se-stat.big.has{height:44px;min-height:44px;padding:4px 8px}
+.vd .se-stat .st-l{width:100%;min-width:0;gap:2px}
+.vd .se-stat .st-n,.vd .se-stat .st-t{display:block;max-width:100%;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-wrap:nowrap;text-align:center}
+@keyframes vale-location-arrive{from{opacity:.3;transform:translateY(3px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.vd .se-txt.ty .c{animation:none;opacity:1}.vd .se-stat,.vd .se-stat .st-l,.vd .se-ct *{animation:none!important;transition:none!important}.vd .se-ct b,.vd .se-ct i{opacity:1;transform:none}}
+/* Keep inspection and dismissal visible on narrow phones; only long notes scroll. */
+@media(max-width:600px) and (min-height:501px){
+ .vd .se-rev{padding:max(12px,env(safe-area-inset-top,0px)) 16px max(12px,env(safe-area-inset-bottom,0px));overflow:hidden}
+ .vd .se-rev .rv-c{width:min(100%,380px);max-height:calc(100dvh - 24px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto minmax(0,1fr) auto auto;gap:7px;min-height:0}
+ .vd .se-rev .rv-k{grid-row:1}
+ .vd .se-rev .rv-st{grid-row:2;width:min(42vw,19dvh,170px);height:min(42vw,19dvh,170px);min-height:0;aspect-ratio:1}
+ .vd .se-rev .rv-n{grid-row:3;font-size:clamp(18px,5.3vw,22px);line-height:1.25}
+ .vd .se-rev .rv-d{grid-row:4;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 5px}
+ .vd .se-rev .rv-b{grid-row:5;gap:6px;margin:0}
+ .vd .se-rev .rv-b:empty{display:none}
+ .vd .se-rev .rv-b button{min-height:44px;padding:8px 14px}
+ .vd .se-rev .rv-tap{grid-row:6;min-height:44px;margin:0;padding:10px 14px;animation:none;border:1px solid #bca77755;border-radius:12px;background:#17292ef5;color:#f1e5ca;font-size:14px}
+}
+/* Native choice cards, compact interview preparation. No full-screen replacement. */
+.se-panel.chs.se-interrogation{display:flex;flex-direction:column;gap:8px;padding:12px 10px max(10px,env(safe-area-inset-bottom,0px));max-height:calc(100dvh - max(82px,calc(env(safe-area-inset-top,0px) + 70px)));overflow:hidden;background:linear-gradient(180deg,#131c20f2,#10161afa);border-top:1px solid #bda87755;border-radius:18px 18px 0 0}
+.se-interrogation [hidden]{display:none!important}
+.se-ig-head{flex:none;min-width:0;color:var(--se-fg)}
+.se-ig-person{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:36px}
+.se-ig-person>b{font:600 19px/1.3 var(--se-serif)}
+.se-ig-help{flex:none;width:44px;height:44px;min-height:44px;padding:0;border:1px solid #acbdba55;border-radius:50%;background:#ffffff09;color:var(--se-fg);font:700 18px/1 var(--se-sans);cursor:pointer}
+.se-ig-person .se-ig-help{margin-top:-5px;margin-bottom:-5px}
+.se-ig-state{display:flex;gap:6px;flex-wrap:wrap;margin:1px 0 6px}
+.se-ig-state>span{display:block;border-radius:20px;border:1px solid #d4b87844;background:#d4b87812;color:#dfd1b2;padding:3px 8px;font-size:11px;line-height:1.35}
+.se-ig-reaction{font-size:13px;line-height:1.45;margin:5px 0 8px;color:#d7dfdd}
+.se-ig-approaches{display:flex;gap:6px}
+.se-ig-approaches>button{flex:1;min-width:0;min-height:44px;border:1px solid #a7b5b44d;background:#ffffff08;color:#e6e9e4;padding:6px;border-radius:12px;font-size:13px;line-height:1.3;font-weight:600;cursor:pointer}
+.se-ig-approaches>button[aria-pressed=true]{border-color:var(--se-ac);background:#d8b97122;color:#f8dda1}
+.se-ig-tools{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px}
+.se-ig-tools>button{min-height:44px;border:0;background:transparent;padding:5px 2px;color:#b9c8c5;font-size:12px;text-align:left;cursor:pointer}
+.se-ig-tools>button[aria-pressed=true]{color:#f6d78f;text-decoration:underline;text-underline-offset:4px}
+.se-ig-count{font-size:11px;color:#a9b9b7}
+.se-ig-helptext,.se-ig-empty{margin:5px 0 8px;font-size:13px;line-height:1.5;color:#cad4d1}
+.se-ig-helptext{max-height:90px;overflow:auto;border-left:2px solid #d4b878;padding:5px 8px;white-space:pre-line}
+.se-interrogation>.se-chs{flex:1;min-height:40px;overflow:auto;overscroll-behavior:contain;padding:3px 3px 8px;scrollbar-width:thin}
+.se-interrogation .se-ch-b{flex:none;animation:none;min-height:52px}
+.se-interrogation .se-ch-b>span{font-size:15px}
+.se-interrogation .se-ch-b>small{font-size:12.5px}
+.se-interrogation .se-ch-b.se-ig-prepared{outline:2px solid #e3c67e;outline-offset:1px;background:#fff2ca}
+.se-ig-last{flex:none;font-size:12px;line-height:1.45;color:#c3d1ca}
+.se-ig-last>summary{min-height:44px;display:flex;align-items:center;gap:7px;padding:5px 8px;cursor:pointer;border:1px solid #8b9e9344;border-radius:10px}
+.se-ig-last>summary::before{content:'›';font-size:20px;line-height:1}
+.se-ig-last[open]>summary::before{transform:rotate(90deg)}
+.se-ig-last>.se-q{margin:6px 0;max-height:130px;overflow:auto}
+.se-ig-exit{flex:none;border-top:1px solid #bda87733;padding-top:8px}
+.se-ig-exit>.se-ch-b{width:100%;margin:0;background:#202c30;color:#edf0e9;box-shadow:none;border:1px solid #94a5a149;padding:9px 49px 9px 12px;border-radius:12px}
+.se-ig-exit>.se-ch-b>small{color:#b5c4bf}
+.se-ig-exit>.se-ch-b>.se-tag{display:none}
+.se-ig-sheet .se-shb{display:flex;flex-direction:column;padding:0!important;overflow:hidden;min-height:0}
+.se-ig-scroll{flex:1;min-height:40px;overflow:auto;overscroll-behavior:contain;padding:8px 16px 16px;scrollbar-width:thin}
+.se-ig-sheet .se-ig-copy>span,.se-ig-sheet .se-ig-copy>small{display:block}
+.se-ig-sheet .se-ig-copy>small{margin-top:5px;font-size:.86em;color:#b6c2be;line-height:1.5}
+.se-ig-sheet [hidden]{display:none!important}
+.se-ig-claim-select{display:block;font-size:12px;color:#b5c3bf}
+.se-ig-claim-select>span{display:block;margin:0 0 5px}
+.se-ig-claim-select select{display:block;width:100%;min-height:44px;border-radius:10px;border:1px solid #849b934d;background:#182321;color:#f1eee4;font:600 14px/1.3 var(--se-sans);padding:8px 10px}
+.se-ig-quote{margin:12px 0 14px;border-left:2px solid #d6ba7c;background:#d6ba7c08;padding:10px 12px;font-size:15px;line-height:1.5}
+.se-ig-quote cite{display:block;font-size:11px;color:#b7c3be;font-style:normal;margin-top:7px}
+.se-ig-selected{border:1px solid #bfa87555;background:#bfa8750a;border-radius:12px;padding:12px;margin:0 0 14px}
+.se-ig-checking{display:block;color:#c9b88b;font-size:11px;line-height:1.4;margin:0 0 8px}
+.se-ig-record-title{display:flex;gap:10px;align-items:center;font-size:14px;line-height:1.4}
+.se-ig-record-title>.se-ia{flex:none;width:42px;height:48px}
+.se-ig-explanation{font-size:14px;line-height:1.55;margin:10px 0}
+.se-ig-selected>.se-btn{min-height:44px;padding:6px 12px;font-size:12px}
+.se-ig-follow{border-left:2px solid #80a898;padding:3px 10px;margin:10px 0 16px}
+.se-ig-follow>small{font-size:11px;color:#accabf}
+.se-ig-follow>p{font-size:14px;line-height:1.5;margin:5px 0!important}
+.se-ig-inline-hint{border-left:2px solid var(--se-ac);background:#d4b87813;padding:10px;font-size:14px;line-height:1.5;margin:0 0 12px!important}
+.se-ig-scroll>h3{font-size:13px!important;line-height:1.4;margin:12px 0 8px!important;color:#bccdc7}
+.se-ig-record-list{display:flex;flex-direction:column;gap:7px}
+.se-ig-record-list>button{display:flex;gap:10px;align-items:center;text-align:left;width:100%;min-height:60px;border:1px solid #81998f44;border-radius:12px;padding:9px;background:#16211ff0;color:#edf0e7;font:600 14px/1.4 var(--se-sans);cursor:pointer}
+.se-ig-record-list>button[aria-pressed=true]{border-color:#d6ba7c;background:#d6ba7c18}
+.se-ig-record-list>button>.se-ia{flex:none;width:36px;height:42px}
+.se-ig-record-list>button>span:last-child{min-width:0;overflow-wrap:anywhere}
+.se-ig-compare-foot{flex:none;display:flex;align-items:center;gap:8px;border-top:1px solid #a49c7d44;background:#101a18;padding:10px 12px max(10px,env(safe-area-inset-bottom,0px))}
+.se-ig-compare-foot>.se-btn{display:flex;gap:6px;align-items:center;justify-content:center;min-height:44px;min-width:0;padding:7px 10px;font-size:13px;line-height:1.3}
+.se-ig-compare-foot>.se-btn svg{width:18px;height:18px}
+.se-ig-compare-foot>[data-ig-ask]{flex:1}
+.se-ig-compare-foot>.se-btn:disabled{opacity:.6}
+.se-interrogation button:focus-visible,.se-ig-sheet button:focus-visible,.se-ig-claim-select select:focus-visible{outline:2px solid #f4d994;outline-offset:2px}
+@media(max-height:500px){.se-panel.chs.se-interrogation{max-height:calc(100dvh - 70px);gap:4px;padding-top:7px}.se-ig-head{display:grid;grid-template-columns:minmax(120px,.8fr) minmax(210px,1.2fr);gap:0 12px}.se-ig-person{grid-area:1/1}.se-ig-state{grid-area:2/1}.se-ig-reaction{grid-area:3/1/5/2;font-size:12px;margin:0}.se-ig-approaches{grid-area:1/2/3/3;align-self:center}.se-ig-tools{grid-area:3/2/5/3}.se-ig-helptext{grid-column:1/-1}.se-interrogation>.se-chs{max-height:130px}.se-ig-exit>.se-ch-b{padding-block:6px}.se-ig-exit>.se-ch-b>span{font-size:13px}.se-ig-exit>.se-ch-b>small{font-size:11px}}
+@media(max-width:380px){.se-ig-state>span{font-size:10.5px}.se-ig-reaction{font-size:12px}.se-ig-approaches>button{font-size:12px}.se-ig-scroll{padding-inline:12px}}
+@media(prefers-reduced-motion:reduce){.se-interrogation,.se-ig-sheet .se-shc{animation:none!important}.se-interrogation .se-ch-b{transition:none!important}}
+/* Optional, non-punitive interview preparation on native choice.
+   Native choice remains the only executor of once/cost/effects/voice/branches.
+   This module sorts the questions and compares known records; it never guesses a lie. */
+(() => {
+  const E = globalThis.StoryEngine, esc = E.esc, original = E.mech.choice;
+  const T = (en, vi) => ({ en, vi }), nat = t => E.nat(t);
+  const read = (x, s) => typeof x === 'function' ? x(s) : x;
+  const condition = (x, s) => x == null ? true : typeof x === 'function' ? !!x(s) : typeof x === 'string' ? !!s.f[x] || s.has(x) : !!x;
+  const indexOf = (st, key) => Number.isInteger(key) ? key : st.choice.findIndex(o => o.id === key);
+  const optionKey = (o, i) => o.id || String(i);
+  const text = t => E.ui.investigationText ? E.ui.investigationText(t) : `<span class="se-ig-copy"><span lang="${esc(E.L)}">${esc(E.tgt(t))}</span>${E.sub(t) ? `<small data-ig-tr lang="${esc(E.N)}"${E.G().set.tr ? '' : ' hidden'}>${esc(E.sub(t))}</small>` : ''}</span>`;
+  const labels = {
+    calm: T('Calm', 'Nhẹ nhàng'), direct: T('Direct', 'Hỏi thẳng'),
+    records: T('Records', 'Hồ sơ'), all: T('All questions', 'Mọi câu hỏi'),
+    back: T('Back', 'Quay lại'), compare: T('Compare an account', 'Đối chiếu lời kể'),
+    claim: T('One point to check', 'Một điều cần kiểm tra'),
+    held: T('Records you have', 'Hồ sơ đang có'),
+    ask: T('Review question', 'Xem câu hỏi'), asked: T('Already asked', 'Đã hỏi'),
+    next: T('A question to follow up', 'Câu hỏi tiếp theo'),
+    hint: T('A nudge', 'Gợi ý'), detail: T('Read the record', 'Đọc hồ sơ'),
+    empty: T('You have no records to compare yet. You can return to the questions.', 'Bạn chưa có hồ sơ để đối chiếu. Có thể quay lại hỏi chuyện.'),
+    filtered: T('No unanswered questions in this approach. Try another approach or show all questions.', 'Đã hỏi hết nhóm này. Bạn có thể đổi cách hỏi hoặc xem mọi câu hỏi.'),
+    unknown: T('This record does not address that point. Choose another, or return to the questions.', 'Hồ sơ này chưa trả lời được điều đang kiểm tra. Bạn có thể chọn hồ sơ khác hoặc quay lại hỏi chuyện.'),
+    help: T('Choose a way to ask, or compare one account with a record. You can change your mind before asking. These observations describe the exchange, not whether someone is lying.', 'Chọn cách hỏi, hoặc đối chiếu một lời kể với hồ sơ. Bạn có thể đổi ý trước khi hỏi. Phản hồi mô tả cuộc trò chuyện, không kết luận ai nói dối.'),
+    observation: T('What changed in the exchange', 'Điều vừa thay đổi trong cuộc trò chuyện'),
+    participation: T('Willingness to answer', 'Mức sẵn lòng trả lời'),
+    tension: T('Observed tension', 'Vẻ căng thẳng quan sát được')
+  };
+
+  // Also usable by build tools/tests without starting an interaction.
+  function validate(st, story = E.S()) {
+    const errors = [], C = st?.interrogation, options = st?.choice || [];
+    const validRef = ref => { const i = indexOf({ choice: options }, ref); return i >= 0 && i < options.length; };
+    if (!C || typeof C !== 'object' || Array.isArray(C)) return ['interrogation needs an object'];
+    if (!Array.isArray(st.choice)) return ['interrogation requires a native choice'];
+    for (const k of ['approaches', 'always', 'claims', 'recordIds']) if (C[k] != null && !Array.isArray(C[k])) errors.push(k + ' needs an array');
+    if (C.questions != null && (typeof C.questions !== 'object' || Array.isArray(C.questions))) errors.push('questions needs an object');
+    if (errors.length) return errors;
+    if (!C.id || typeof C.id !== 'string') errors.push('interrogation needs a stable id');
+    if (C.who && !story?.chars?.[C.who]) errors.push('unknown interview character: ' + C.who);
+    if (st.timer) errors.push('interrogation preparation cannot share a timed choice');
+    const ids = new Set();
+    for (const a of C.approaches || []) {
+      if (!a || typeof a !== 'object' || Array.isArray(a)) { errors.push('approach needs an object'); continue; }
+      if (!a.id || typeof a.id !== 'string' || ['all', 'records'].includes(a.id) || ids.has(a.id)) errors.push('approach id is missing, reserved or duplicated');
+      ids.add(a?.id);
+      if (!a?.label || !Array.isArray(a.questions) || !a.questions.length) errors.push('approach needs a label and questions');
+      if (Array.isArray(a.questions)) for (const ref of a.questions) if (!validRef(ref)) errors.push('unknown approach question: ' + ref);
+    }
+    for (const id of C.recordIds || []) if (!story?.items?.[id]) errors.push('unknown interview record: ' + id);
+    for (const ref of C.always || []) if (!validRef(ref)) errors.push('unknown always-visible question: ' + ref);
+    for (const [ref, q] of Object.entries(C.questions || {})) {
+      if (!validRef(ref)) errors.push('unknown reaction question: ' + ref);
+      if (!q || typeof q !== 'object' || Array.isArray(q)) { errors.push('question reaction needs an object: ' + ref); continue; }
+      if (q.reaction && q.complete == null) errors.push('reaction needs an explicit completion condition: ' + ref);
+    }
+    const claims = new Set();
+    for (const claim of C.claims || []) {
+      if (!claim || typeof claim !== 'object' || Array.isArray(claim)) { errors.push('claim needs an object'); continue; }
+      if (!claim?.id || claims.has(claim.id)) errors.push('claim id is missing or duplicated');
+      claims.add(claim?.id);
+      if (!claim?.quote || !claim?.title) errors.push('claim needs a title and known words');
+      if (claim.question != null && !validRef(claim.question)) errors.push('unknown follow-up question: ' + claim.question);
+      if (claim.records != null && (typeof claim.records !== 'object' || Array.isArray(claim.records))) { errors.push('claim records needs an object'); continue; }
+      for (const [id, result] of Object.entries(claim.records || {})) {
+        if (!story?.items?.[id]) errors.push('unknown comparison record: ' + id);
+        if (!result?.note) errors.push('comparison needs an explanation: ' + id);
+      }
+    }
+    return errors;
+  }
+  E.interrogation = { validate };
+  const setTr = E.ui.setTr;
+  E.ui.setTr = (...args) => { const r = setTr(...args); document.querySelectorAll('[data-ig-tr]').forEach(el => { el.hidden = !E.G().set.tr; }); document.querySelectorAll('.se-ig-exit small:not(.se-lh)').forEach(el => { el.hidden = !E.G().set.tr && E.G().set.mode !== 'easy'; }); return r; };
+
+  E.def('choice', c => {
+    const C = c.st.interrogation;
+    if (!C) return original(c);
+    const errors = validate(c.st);
+    if (errors.length) { console.warn('[story] interrogation metadata; using native choice', errors); return original(c); }
+    const pending = original(c), box = document.querySelector('.se-ui > .se-panel.chs');
+    // Native empty/skipIfOne/auto may already have moved on. Never intercept it.
+    if (!box || (c.live && !c.live())) return pending;
+    const R = E.R(), st = c.st, key = C.id, owner = c.key('interrogation');
+    const runs = R.interrogations && typeof R.interrogations === 'object' && !Array.isArray(R.interrogations) ? R.interrogations : (R.interrogations = {});
+    const old = runs[key], saved = runs[key] = old && typeof old === 'object' && !Array.isArray(old) ? old : {};
+    saved.version = 1;
+    saved.approach = (C.approaches || []).some(a => a.id === saved.approach) ? saved.approach : 'all';
+    saved.history = Array.isArray(saved.history) ? saved.history.filter(x => C.questions?.[x]).slice(-12) : [];
+    if (saved.pending) {
+      const q = C.questions?.[saved.pending];
+      if (q && condition(q.complete, E.state())) { saved.last = saved.pending; saved.history.push(saved.pending); saved.history = saved.history.slice(-12); }
+      delete saved.pending;
+    }
+    if (!C.questions?.[saved.last]) delete saved.last;
+    let disposed = false, selecting = false, sheet = null, suppressClose = false;
+    const live = () => !disposed && !selecting && E.R() === R && (!c.live || c.live());
+    const buttons = [...box.querySelectorAll('.se-chs > .se-ch-b[data-i]')];
+    const buttonFor = ref => buttons.find(b => +b.dataset.i === indexOf(st, ref));
+    const available = ref => { const b = buttonFor(ref); return b && !b.disabled && !b.classList.contains('off'); };
+    const reaction = read(C.questions?.[saved.last]?.reaction, E.state()) || read(C.initial, E.state()) || {};
+    const name = C.who ? E.cname(E.S().chars[C.who], true) : nat(C.title || T('Interview', 'Hỏi chuyện'));
+    const head = E.h(`<div class="se-ig-head"><div class="se-ig-person"><b>${esc(name)}</b><button type="button" class="se-ig-help" data-ig-help aria-label="${esc(nat(labels.hint))}">?</button></div><div class="se-ig-state" aria-label="${esc(nat(labels.observation))}">${reaction.openness ? `<span title="${esc(nat(labels.participation))}">${esc(nat(reaction.openness))}</span>` : ''}${reaction.tension ? `<span title="${esc(nat(labels.tension))}">${esc(nat(reaction.tension))}</span>` : ''}</div>${reaction.note ? `<p class="se-ig-reaction" role="status">${esc(nat(reaction.note))}</p>` : ''}<div class="se-ig-approaches" role="group" aria-label="${esc(nat(T('Ways to ask', 'Cách hỏi')))}">${(C.approaches || []).map(a => `<button type="button" data-ig-approach="${esc(a.id)}" aria-pressed="false">${esc(nat(a.label))}</button>`).join('')}${C.claims?.length ? `<button type="button" data-ig-records>${esc(nat(labels.records))}</button>` : ''}</div><div class="se-ig-tools"><button type="button" data-ig-all aria-pressed="true">${esc(nat(labels.all))}</button><span class="se-ig-count" aria-live="polite"></span></div><p class="se-ig-helptext" hidden></p></div>`);
+    box.classList.add('se-interrogation'); box.dataset.interrogation = key;
+    // Keep the native last reply, including its dictionary words, in a compact
+    // disclosure within the scrolling list rather than losing that VN feature.
+    const lastQuote = box.querySelector(':scope > .se-q');
+    box.querySelector(':scope > .se-ask')?.setAttribute('hidden', '');
+    box.prepend(head);
+    const list = box.querySelector('.se-chs'), empty = E.h('<p class="se-ig-empty" role="status" hidden></p>');
+    if (lastQuote) {
+      const last = E.h(`<details class="se-ig-last"><summary>${esc(nat(T('Last reply', 'Lời vừa nói')))}</summary></details>`);
+      last.append(lastQuote); list.prepend(last);
+    }
+    empty.textContent = nat(labels.filtered); list.append(empty);
+    const foot = E.h('<div class="se-ig-exit"></div>');
+    for (const ref of C.always || []) { const b = buttonFor(ref); if (b) foot.append(b); }
+    if (foot.children.length) box.append(foot);
+    function applyApproach(reset = false) {
+      const a = (C.approaches || []).find(x => x.id === saved.approach), wanted = a ? new Set(a.questions.map(ref => indexOf(st, ref))) : null;
+      let count = 0;
+      for (const b of buttons) {
+        if (foot.contains(b)) continue;
+        b.hidden = !!wanted && !wanted.has(+b.dataset.i);
+        if (!b.hidden) count++;
+      }
+      for (const b of buttons) b.classList.toggle('se-ig-prepared', saved.prepared != null && +b.dataset.i === indexOf(st, saved.prepared));
+      const prepared = saved.prepared != null && available(saved.prepared) ? buttonFor(saved.prepared) : null;
+      if (prepared && !foot.contains(prepared)) list.prepend(prepared);
+      empty.hidden = !!count;
+      head.querySelectorAll('[data-ig-approach]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.igApproach === saved.approach)));
+      head.querySelector('[data-ig-all]').setAttribute('aria-pressed', String(!a));
+      head.querySelector('.se-ig-count').textContent = nat(T(`${count} remaining`, `Còn ${count} câu`));
+      if (reset) list.scrollTop = 0;
+    }
+    function remember() { if (live()) E.save(); }
+    function choose(ref) {
+      if (!live() || !available(ref)) return;
+      const b = buttonFor(ref);
+      closeComparison();
+      // The full wording must be visible before committing a question. A small
+      // phone may have scrolled the comparison's preview out of sight.
+      saved.approach = 'all'; saved.prepared = ref; applyApproach();
+      b.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'instant' });
+      b.focus({ preventScroll: true }); remember();
+    }
+    function closeComparison() {
+      saved.view = 'questions';
+      if (sheet && !sheet.hidden && sheet.dataset.igOwner === owner) E.ui.closeSheet();
+      sheet = null;
+    }
+    function openComparison() {
+      if (!live() || E.auto) return;
+      const claims = (C.claims || []).filter(x => condition(x.if, E.state()));
+      if (!claims.length) return;
+      if (!claims.some(x => x.id === saved.claim)) saved.claim = claims[0].id;
+      saved.view = 'records';
+      sheet = E.ui.sheet(nat(labels.compare), '<div class="se-ig-scroll"></div><div class="se-ig-compare-foot"></div>', 'tall se-ig-sheet');
+      sheet.dataset.igOwner = owner;
+      sheet.onclose = () => { if (!suppressClose) { saved.view = 'questions'; remember(); } };
+      const scroll = sheet.querySelector('.se-ig-scroll'), footer = sheet.querySelector('.se-ig-compare-foot');
+      function draw(reset = false) {
+        if (!live() || sheet.hidden || sheet.dataset.igOwner !== owner) return;
+        const claim = claims.find(x => x.id === saved.claim), ids = R.items.filter(id => E.S().items[id] && (!C.recordIds || C.recordIds.includes(id)));
+        if (!ids.includes(saved.record)) delete saved.record;
+        const record = E.S().items[saved.record], outcome = record && claim.records?.[saved.record];
+        const next = claim.question != null && st.choice[indexOf(st, claim.question)];
+        scroll.innerHTML = `<label class="se-ig-claim-select"><span>${esc(nat(labels.claim))}</span><select aria-label="${esc(nat(labels.claim))}">${claims.map(x => `<option value="${esc(x.id)}"${x.id === claim.id ? ' selected' : ''}>${esc(nat(x.title))}</option>`).join('')}</select></label><blockquote class="se-ig-quote">${text(claim.quote)}${claim.source ? `<cite>${esc(nat(claim.source))}</cite>` : ''}</blockquote>${record ? `<article class="se-ig-selected"><div class="se-ig-record-title">${E.itemArt?.(saved.record, 'sm') || ''}<b>${text(record.name)}</b></div><div class="se-ig-explanation" role="status">${text(outcome?.note || claim.unrelated || labels.unknown)}</div><button type="button" class="se-btn" data-ig-read>${esc(nat(labels.detail))}</button></article>` : ''}${next && record ? `<div class="se-ig-follow"><small>${esc(nat(labels.next))}</small><p>${text(next)}</p></div>` : ''}<p class="se-ig-inline-hint" role="status" hidden></p><h3>${esc(nat(labels.held))}</h3><div class="se-ig-record-list">${ids.map(id => `<button type="button" data-ig-record="${esc(id)}" aria-pressed="${id === saved.record}">${E.itemArt?.(id, 'sm') || ''}<span>${text(E.S().items[id].name)}</span></button>`).join('')}</div>${!ids.length ? `<p class="se-ig-empty">${text(labels.empty)}</p>` : ''}`;
+        scroll.querySelector('.se-ig-selected')?.prepend(E.h(`<small class="se-ig-checking">${esc(nat(claim.title))}</small>`));
+        footer.innerHTML = `<button type="button" class="se-btn" data-ig-back>${E.ICON?.back || '‹'}<span>${esc(nat(labels.back))}</span></button><button type="button" class="se-ig-help" data-ig-hint aria-label="${esc(nat(labels.hint))}">?</button>${record && next ? `<button type="button" class="se-btn pri" data-ig-ask${available(claim.question) ? '' : ' disabled'}>${esc(nat(available(claim.question) ? labels.ask : labels.asked))}</button>` : ''}`;
+        if (reset) scroll.scrollTop = 0;
+        // A short landscape sheet cannot fit the claim and a whole result at
+        // once. Put the newly selected record/explanation in the visible area.
+        if (reset === 'record') {
+          const selected = scroll.querySelector('.se-ig-selected');
+          if (selected) scroll.scrollTop = Math.max(0, selected.getBoundingClientRect().top - scroll.getBoundingClientRect().top - 6);
+        }
+      }
+      const change = e => {
+        if (!live() || !e.target.matches('.se-ig-claim-select select')) return;
+        saved.claim = e.target.value; delete saved.record; draw(true); remember();
+      };
+      sheet.addEventListener('change', change);
+      const click = e => {
+        if (!live()) return;
+        const b = e.target.closest('button'); if (!b) return;
+        if (b.hasAttribute('data-x')) return;
+        const claim = claims.find(x => x.id === saved.claim);
+        if (b.hasAttribute('data-ig-back')) { closeComparison(); remember(); }
+        else if (b.dataset.igRecord) { saved.record = b.dataset.igRecord; draw('record'); remember(); }
+        else if (b.hasAttribute('data-ig-read')) E.ui.itemView?.(saved.record);
+        else if (b.hasAttribute('data-ig-ask')) choose(claim.question);
+        else if (b.hasAttribute('data-ig-hint')) {
+          const hint = scroll.querySelector('.se-ig-inline-hint');
+          hint.innerHTML = text(claim.hint || C.hint || labels.help); hint.hidden = false;
+          scroll.prepend(hint); scroll.scrollTop = 0;
+        }
+      };
+      sheet.addEventListener('click', click);
+      // A shared native sheet is reused; remove this session's handlers on close.
+      const onclose = sheet.onclose, sh = sheet;
+      sheet.onclose = () => { sh.removeEventListener('click', click); sh.removeEventListener('change', change); if (sh.dataset.igOwner === owner) delete sh.dataset.igOwner; if (sheet === sh) sheet = null; onclose?.(); };
+      draw(saved.record ? 'record' : true); remember();
+    }
+    function capture(e) {
+      if (!live() || e.target.closest('[data-hear]')) return;
+      const b = e.target.closest('.se-ch-b[data-i]');
+      if (!b || b.disabled || !box.contains(b)) return;
+      const i = +b.dataset.i, ref = optionKey(st.choice[i], i);
+      selecting = true;
+      if (C.questions?.[ref]) saved.pending = ref;
+      delete saved.prepared;
+      saved.view = 'questions';
+      // Do not prevent or re-dispatch: the native handler executes exactly once.
+    }
+    function controls(e) {
+      if (!live()) return;
+      const b = e.target.closest('button'); if (!b) return;
+      if (b.dataset.igApproach) { saved.approach = b.dataset.igApproach; applyApproach(true); remember(); }
+      else if (b.hasAttribute('data-ig-all')) { saved.approach = 'all'; applyApproach(true); remember(); }
+      else if (b.hasAttribute('data-ig-records')) openComparison();
+      else if (b.hasAttribute('data-ig-help')) {
+        const p = head.querySelector('.se-ig-helptext'); p.textContent = [st.prompt, C.hint || labels.help].filter(Boolean).map(nat).join('\n\n'); p.hidden = !p.hidden;
+      }
+    }
+    box.addEventListener('click', capture, true); head.addEventListener('click', controls);
+    const clean = () => {
+      if (disposed) return; disposed = true;
+      box.removeEventListener('click', capture, true); head.removeEventListener('click', controls);
+      if (sheet && !sheet.hidden && sheet.dataset.igOwner === owner) { suppressClose = true; E.ui.closeSheet(); }
+    };
+    (c.onExit || c.onCancel)?.(clean);
+    applyApproach();
+    if (saved.view === 'records') openComparison();
+    return Promise.resolve(pending).finally(clean);
+  });
+})();
+/* Original WebAudio foley. motion.sounds follows action progress. No external samples. */
+(() => {'use strict';
+const E=StoryEngine,cache=new Map(),active=new Set();
+const recipes={
+paper_open:[[0,.20,.22,'paper',1800],[.13,.29,.28,'paper',2400],[.38,.25,.15,'paper',1200]],
+paper_fold:[[0,.27,.20,'paper',1600],[.20,.32,.18,'paper',2100]],paper_slide:[[0,.34,.16,'paper',1100]],paper_down:[[0,.16,.15,'paper',900],[.05,.08,.055,'wood',170]],
+pen_write:[[0,.16,.09,'scratch',2500],[.18,.15,.08,'scratch',2000],[.37,.22,.08,'scratch',2300]],cloth_move:[[0,.42,.14,'cloth',450]],chain_latch:[[0,.12,.11,'metal',1550],[.13,.15,.09,'metal',2150]],
+door_move:[[0,.39,.10,'cloth',250],[.32,.16,.09,'wood',130]],wood_down:[[0,.18,.12,'wood',150]],coin_purse:[[0,.20,.11,'cloth',400],[.06,.20,.07,'metal',2900]],frame_slide:[[0,.35,.12,'cloth',600],[.28,.13,.08,'wood',220]],
+wax_press:[[0,.16,.08,'wood',210],[.12,.16,.07,'cloth',700]],cabinet_slide:[[0,.43,.12,'cloth',360],[.36,.16,.08,'wood',130]],gate_latch:[[0,.19,.09,'metal',850],[.17,.20,.12,'wood',110]],cup_down:[[0,.20,.07,'metal',1800]],
+horse_steps:[[0,.12,.10,'wood',190],[.20,.11,.08,'wood',240],[.47,.11,.07,'wood',190],[.68,.11,.05,'wood',240]],dog_bark:[[0,.25,.12,'bark',145]],bell_soft:[[0,.9,.045,'metal',880]]};
+function samples(a,key){
+ const ck=a.sampleRate+':'+key;if(cache.has(ck))return cache.get(ck);
+ const pulses=recipes[key],seconds=Math.max(...pulses.map(p=>p[0]+p[1]))+.025,b=a.createBuffer(1,Math.ceil(seconds*a.sampleRate),a.sampleRate),d=b.getChannelData(0);
+ let seed=[...key].reduce((v,c)=>(v*31+c.charCodeAt(0))>>>0,29),low=0,previous=0;
+ for(let i=0;i<d.length;i++){
+  seed^=seed<<13;seed^=seed>>>17;seed^=seed<<5;
+  const white=(seed>>>0)/2147483648-1,t=i/a.sampleRate;low=low*.93+white*.07;let value=0;
+  for(const[start,dur,level,material,f]of pulses){
+   const u=(t-start)/dur;if(u<0||u>1)continue;
+   const env=Math.min(1,u/.06)*Math.pow(1-u,['wood','metal'].includes(material)?3:1.1);let texture;
+   if(material==='paper')texture=(white-previous*.6)*(.35+.65*Math.abs(Math.sin((t-start)*f*.11)));
+   else if(material==='scratch')texture=(white-low)*(.25+.75*Math.abs(Math.sin(t*92)));
+   else if(material==='wood')texture=Math.sin(2*Math.PI*f*(t-start))*Math.exp(-u*8)+low*.4;
+   else if(material==='metal')texture=(Math.sin(2*Math.PI*f*(t-start))+.4*Math.sin(2*Math.PI*f*2.71*(t-start)))*.5;
+   else if(material==='bark'){const phase=2*Math.PI*(f*(t-start)-30*(t-start)**2);texture=(.44*Math.sin(phase)+.23*Math.sin(3*phase)+.12*Math.sin(5*phase)+white*.21)*Math.sin(Math.PI*u);}
+   else texture=low*3;
+   value+=texture*level*env;
+  }
+  previous=white;d[i]=Math.max(-.4,Math.min(.4,value));
+ }
+ cache.set(ck,b);return b;
+}
+function play(key){
+ const a=E.sound.ctx();if(!a)return;
+ const s=a.createBufferSource(),g=a.createGain();s.buffer=samples(a,key);g.gain.value=E.sound.level('sfx')*(E.voice?.busy ? .62 : 1);s.connect(g).connect(a.destination);let stopped=false;
+ const h={cue:key,stop(seconds=.04){if(stopped)return;stopped=true;const t=a.currentTime;g.gain.cancelScheduledValues(t);g.gain.setTargetAtTime(.0001,t,Math.max(.003,seconds/3));try{s.stop(t+Math.max(.01,seconds));}catch{}}};
+ active.add(h);s.onended=()=>{active.delete(h);try{s.disconnect();g.disconnect();}catch{}};s.start();E.emit('foley-play',{cue:key,duration:s.buffer.duration,gain:g.gain.value});return h;
+}
+for(const key of Object.keys(recipes))E.SFX[key]=()=>play(key);
+E.sound.foleyCatalog=()=>Object.keys(recipes);
+E.sound.stopFoley=()=>{for(const h of active)h.stop();};
+E.sound.foleyState=()=>({active:[...active].map(h=>h.cue),cached:cache.size});
+E.sound.foleySamples=key=>{const a=E.sound.ctx();return a&&recipes[key]?samples(a,key):null;};
+E.side('foley',(v,st,c)=>{const cue=typeof v==='string'?v:v?.cue;if(!cue)return;const k=c.key('foley',cue),used=E.R().used||={};if(used[k]&&v?.repeat!==true)return;used[k]=true;const h=E.sfx(cue);c.onExit?.(()=>h?.stop?.(.04));});
+E.on('boot',()=>E.sound.stopFoley());
+document.addEventListener('visibilitychange',()=>{if(document.hidden)E.sound.stopFoley();});
+})();
+/* Story-scoped interface. The Enmi interpreter and save state remain authoritative. */
+(() => {
+  const E=StoryEngine, q=s=>document.querySelector(s), esc=E.esc;
+  const clone=x=>JSON.parse(JSON.stringify(x));
+  const V=globalThis.ValeDemo={q,esc,clone,version:'0.6.0',active:null,line:null,storage:true};
+  V.caseMeta=()=>E.S().caseMeta||{part:'I',chapters:6,endings:4,source:'A Scandal in Bohemia',sourceUrl:'https://www.gutenberg.org/ebooks/1661'};
+  V.bi=t=>`<span class="vd-en" lang="en">${esc(E.tgt(t))}</span>${E.sub(t)?`<span class="vd-vi" lang="vi">${esc(E.sub(t))}</span>`:''}`;
+  V.labels={fact:['Observed fact','Dữ kiện quan sát'],testimony:['Testimony','Lời khai'],inference:['Inference','Suy luận']};
+  V.kind=it=>it.kind==='observation'?'fact':it.kind||'fact';
+  V.tag=it=>{const k=V.kind(it),l=V.labels[k]||V.labels.fact;return `<span class="vd-kind ${esc(k)}">${l[0]} · ${l[1]}</span>`;};
+  V.key=()=> 'se.'+E.S().id;
+  // Resolve the case's lazy chapter data before validating a saved nested path.
+  V.prepareSave=async()=>{const n=Math.max(1,...(E.S().chapters||[]).map(c=>c.ch));if(!(await E.loadUpTo(n)))throw Error('Could not load chapter data · Chưa nạp được dữ liệu chương');};
+  V.snapshot=()=>{
+    if(q('.se')?.dataset.m==='ov'){try{const old=JSON.parse(localStorage.getItem(V.key()+'.r'));if(old?.stack)return old;}catch{}}
+    return E.snapshot ? E.snapshot() : clone(E.R());
+  };
+  V.persist=()=>{const r=V.snapshot();E.save();if(E.explore)return r;try{localStorage.setItem(V.key()+'.r',JSON.stringify(r));localStorage.setItem(V.key()+'.g',JSON.stringify(E.G()));V.storage=true;}catch{V.storage=false;}return r;};
+  V.start=()=>{V.active=null;V.line=null;E.ui.closeSheet();E.stop();E.ui.clear();E.ui.hide('*');q('.se-top').hidden=false;E.newRun();};
+  V.home=()=>{V.persist();E.ui.closeSheet();E.stop();E.ui.title();};
+  V.restart=()=>{const sh=E.ui.sheet('Start again · Chơi lại','<p>This replaces the current route. Unlocked chapter outcomes and vocabulary remain.</p><p class="vd-vi">Tuyến đang chơi sẽ bắt đầu lại. Kết chương đã mở và từ đã lưu vẫn được giữ.</p><button class="se-btn pri wide" data-restart>Start chapter 1 again · Chơi lại chương 1</button>');sh.querySelector('[data-restart]').onclick=V.start;};
+  V.exportSave=()=>{const d={format:'vale-dossiers-save',version:1,story:E.S().id,exportedAt:new Date().toISOString(),global:clone(E.G()),run:V.persist()};const url=URL.createObjectURL(new Blob([JSON.stringify(d,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='Vale_Dossiers_Save.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);E.ui.toast('Save exported · Đã xuất bản lưu');};
+  V.importSave=()=>{const input=document.createElement('input');input.type='file';input.accept='.json,application/json';input.onchange=async()=>{const file=input.files[0];if(!file)return;try{
+    if(file.size>2000000)throw Error('Save file too large · Tệp quá lớn');const d=JSON.parse(await file.text());
+    if(d.format!=='vale-dossiers-save'||d.version!==1||d.story!==E.S().id||!d.global?.set||!d.run?.f||!Array.isArray(d.run.stack)||!Array.isArray(d.run.items)||!Array.isArray(d.run.log))throw Error('Incompatible save · Bản lưu không tương thích');
+    await V.prepareSave?.(d);
+    if(!d.run.stack.every(f=>typeof f.n==='string'&&Array.isArray(f.p)&&Number.isInteger(f.i)&&f.i>=0&&Array.isArray(E.walk(f))&&f.i<=E.walk(f).length)||!d.run.items.every(id=>E.S().items[id]))throw Error('Unavailable scene or evidence · Cảnh hoặc chứng cứ không hợp lệ');
+    const sh=E.ui.sheet('Load this save? · Nạp bản lưu?','<p>This replaces the current route in this browser.</p><p class="vd-vi">Bạn có thể xuất tiến độ hiện tại trước khi nạp.</p><div class="se-row"><button class="se-btn" data-export>Export current · Xuất hiện tại</button><button class="se-btn pri" data-load>Load save · Nạp</button></div>');sh.querySelector('[data-export]').onclick=V.exportSave;sh.querySelector('[data-load]').onclick=()=>{try{localStorage.setItem(V.key()+'.g',JSON.stringify(d.global));localStorage.setItem(V.key()+'.r',JSON.stringify(d.run));V.reloading=true;window.removeEventListener('beforeunload',V.unload);location.reload();}catch{E.ui.toast('Browser storage unavailable · Không thể lưu trên trình duyệt này');}};
+  }catch(e){E.ui.toast(esc(e.message),5000);}};input.click();};
+  V.update=()=>{const l=V.line,root=q('.se'),label=q('.vd-reader-label');if(!label)return;label.textContent=l?.kind==='think'?'YOUR THOUGHTS · SUY NGHĨ':l?.kind==='say'?'':'NARRATION · LỜI DẪN';label.hidden=l?.kind==='say';q('.se-txt').lang=l?.lang||E.L;q('.se-sub').lang=(l?.lang||E.L)===E.N?E.L:E.N;root.dataset.vdMask=E.R().f.matthias_masked===false?'off':'on';};
+  V.unload=()=>{if(!V.reloading&&E.R()?.stack?.length)V.persist();};
+  const initPreferences=()=>{const g=E.G().set;if(!g.vdNativeControls){
+    Object.assign(g,{mode:'imm',speed:1,vDlg:true,vNarr:!!E.S().defaultNarration,shadow:true,sfx:true,amb:true,vdInitialized:true,vdNativeControls:true});
+  }return g;};
+  E.on('boot',()=>{E.S().recordReceipts=true;V.wasLegacy=!!E.G().set.vdInitialized&&!E.G().set.vdNativeControls;const g=initPreferences();const root=q('.se');root.classList.add('vd');root.classList.toggle('vd-large',!!g.vdLarge);
+    root.addEventListener('keydown',e=>{const word=e.target.closest?.('.w[data-w]');if(!word||e.repeat||e.altKey||e.ctrlKey||e.metaKey||!['Enter',' '].includes(e.key))return;e.preventDefault();e.stopPropagation();word.click();});
+    const box=q('.se-box'),scroll=document.createElement('div');scroll.className='vd-dialogue-scroll';scroll.tabIndex=0;scroll.setAttribute('aria-label','Story text · Nội dung truyện');scroll.innerHTML='<p class="vd-reader-label"></p>';box.insertBefore(scroll,q('.se-txt'));scroll.append(q('.se-txt'),q('.se-sub'));
+    // Keep native tap-to-read; suppress clicks produced by scrolling a long line.
+    let press=null,moved=false;
+    box.addEventListener('pointerdown',e=>{press=[e.clientX,e.clientY,scroll.scrollTop];moved=false;},{passive:true});
+    box.addEventListener('pointermove',e=>{if(press&&(Math.abs(e.clientX-press[0])+Math.abs(e.clientY-press[1])>12||Math.abs(scroll.scrollTop-press[2])>3))moved=true;},{passive:true});
+    box.addEventListener('pointercancel',()=>{press=null;moved=true;});
+    box.addEventListener('click',e=>{if(moved){e.stopPropagation();moved=false;}press=null;},true);
+    const more=box.querySelector('.se-more');if(more){more.title='Tap to continue · Chạm để tiếp';more.setAttribute('aria-label',more.title);}
+
+    const names={menu:'Menu · Cài đặt',trall:'EN / VI · Bật tắt bản dịch',log:'History · Lịch sử thoại',book:'Casebook · Sổ vụ án',flow:'Routes · Sơ đồ nhánh'};q('.se-top').querySelectorAll('[data-a]').forEach(b=>{if(names[b.dataset.a]){b.setAttribute('aria-label',names[b.dataset.a]);b.title=names[b.dataset.a];}});
+    V.nativeFlow=E.ui.flowSheet;V.nativeMenu=E.ui.menu;V.nativeBook=E.ui.book;const title=E.ui.title;E.ui.title=()=>{title();V.decorateTitle();};E.ui.menu=()=>V.settings();E.ui.book=(...args)=>V.book(...args);E.ui.flowSheet=(...args)=>V.routebook(...args);window.addEventListener('beforeunload',V.unload);
+    document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')V.unload();});
+    try{localStorage.setItem(V.key()+'.probe','1');localStorage.removeItem(V.key()+'.probe');}catch{V.storage=false;}
+  });
+  E.on('step',(type)=>{initPreferences();const f=E.R().stack.at(-1);V.active=f?{type,n:f.n,p:JSON.stringify(f.p),i:f.i-1}:null;V.line=null;queueMicrotask(V.update);});
+  E.on('line',line=>{V.line=line;queueMicrotask(()=>{V.update();const scroll=q('.vd-dialogue-scroll');if(scroll)scroll.scrollTop=0;q('.se-txt')?.querySelectorAll('.w[data-w]').forEach(word=>{word.tabIndex=0;word.setAttribute('role','button');word.setAttribute('aria-label','Look up '+word.dataset.w+' · Tra nghĩa');});});});E.on('end',()=>{V.active=null;});
+})();
+
+;
+
+(() => {
+ const E=StoryEngine,V=ValeDemo,{esc,bi}=V;
+ V.guide=()=>E.ui.sheet('How to investigate · Cách điều tra',`<div class="vd-guide"><p><b>You are Adrian Vale.</b> Read at your own pace, explore the scene and decide which account the evidence supports.</p><p class="vd-vi">Bạn vào vai Adrian Vale: quan sát, hỏi chuyện và quyết định lời kể nào có căn cứ.</p><ol><li><b>Tap to read.</b> While letters appear, one tap reveals the full line; the next continues. Scroll long passages without skipping them.<span class="vd-vi">Khi chữ đang chạy, chạm một lần để hiện hết câu; chạm tiếp để sang câu sau. Có thể cuộn đoạn dài.</span></li><li><b>Choose how to learn.</b> Settings restore the original reading modes, four text speeds and separate voices for dialogue and narration. Translation can be shown or hidden.<span class="vd-vi">Cài đặt có chế độ đọc gốc, bốn tốc độ chữ, giọng hội thoại và lời dẫn riêng. Bật/tắt bản dịch khi cần.</span></li><li><b>Explore the surroundings.</b> Tap a glint on a detail to look closer. Finish its interaction, then use Back to leave the close-up. Swipe or use the edge arrows to change views. Tap people to speak. An optional target list is in Settings.<span class="vd-vi">Chạm điểm sáng trên chi tiết để xem gần. Xem xong, dùng Lùi để ra toàn cảnh. Vuốt hoặc dùng mũi tên ở mép để đổi góc nhìn; chạm người để hỏi chuyện. Có thể bật danh sách điểm chạm trong Cài đặt.</span></li><li><b>Build a supported conclusion.</b> On the case board, Move lets you arrange cards; Connect lets you tap two cards or drag between their pins. A supported pair connects immediately. Narrow the shortlist in stages, or open the records drawer to find another clue. Read a card or undo a wire at any time.<span class="vd-vi">Ở chế độ Kéo, sắp xếp thẻ trên bảng; ở chế độ Nối, chạm hai thẻ hoặc kéo giữa hai ghim. Cặp có căn cứ sẽ tạo dây ngay. Thu hẹp danh sách theo từng mức hoặc mở ngăn hồ sơ để tìm manh mối khác. Có thể đọc thẻ và gỡ dây nối.</span></li><li><b>Watch the action.</b> Short scene actions can be skipped or replayed using the small scene button. This never repeats a choice or a reward. Settings has a reduced-motion option.<span class="vd-vi">Nút nhỏ trên cảnh cho phép bỏ qua hoặc xem lại hành động; không lặp lựa chọn hay nhận thưởng. Có thể giảm chuyển động trong Cài đặt.</span></li><li><b>Review what you heard.</b> History and the casebook retain dialogue, evidence and vocabulary. Listen &amp; speak uses lines already read; recording is optional.<span class="vd-vi">Lịch sử và sổ vụ án giữ thoại, chứng cứ, từ vựng. Nghe và nói theo dùng câu bạn đã đọc; thu âm là tùy chọn.</span></li><li><b>Follow the consequences.</b> Chapter outcomes carry your evidence and decisions forward. This case has ${V.caseMeta().chapters} chapters and ${V.caseMeta().endings} case endings. Use an unlocked checkpoint to explore another route.<span class="vd-vi">Chứng cứ và lựa chọn được giữ sang chương sau. Phần này có ${V.caseMeta().chapters} chương và ${V.caseMeta().endings} kết vụ án. Chơi lại từ mốc đã mở để thử đường khác.</span></li></ol><p class="vd-callout">Progress stays in this browser. Export a save to move devices or keep a backup.<span class="vd-vi">Tiến độ lưu trên trình duyệt này. Xuất bản lưu để chuyển máy hoặc giữ dự phòng.</span></p></div>`,'tall');
+ V.credits=()=>{const m=V.caseMeta();return E.ui.sheet('About this adaptation · Nguồn chuyển thể',`<p>Arthur Conan Doyle, <i>${esc(m.source)}</i>.</p><p>This adaptation uses newly written English dialogue, a close Vietnamese translation, new character names and additional branches.</p><p class="vd-vi">Game viết mới lời Anh, dịch sát sang tiếng Việt, đổi tên nhân vật và thêm nhánh; các vụ án độc lập. Khi nhắc chuyện cũ, truyện theo True Ending.</p><p><a href="${esc(m.sourceUrl)}" target="_blank" rel="noopener">Original source · Nguyên tác</a></p><hr><p>Enmi Story Engine 3.0.0 · Vale build 0.6. Artwork generated for this project.</p><p>${E.recHas()?'Includes synthesized English narration and character voices, generated with Kokoro-82M.':'Uses available device or Enmi voices.'}</p><p class="vd-vi">${E.recHas()?'Có giọng tổng hợp tiếng Anh cho lời dẫn và nhân vật; không phải diễn viên thu âm.':'Dùng giọng khả dụng của thiết bị hoặc Enmi.'} Có thể tắt lời dẫn, thoại hoặc ưu tiên giọng đọc sẵn trong Cài đặt.</p><p>Part ${m.part}: ${m.chapters} chapters, ${m.endings} case endings.</p>`,'tall');};
+ V.dev=()=>E.ui.sheet('Development notebook · Tiến trình',`<p>Vale 0.6 adds short replayable scene actions, expression changes and revised visual states across all three cases. The existing reading, exploration, case-board and learning controls remain available.</p><p class="vd-vi">Bản 0.6 bổ sung hành động ngắn có thể xem lại, thay đổi biểu cảm và chỉnh trạng thái cảnh trong cả ba phần. Các chức năng đọc, khám phá, bảng suy luận và luyện tiếng Anh vẫn được giữ.</p><p>Full validation scope and known limits are included in the release notes.</p>`,'tall');
+ V.settings=()=>{const g=E.G().set;V.nativeMenu();const sh=V.q('.se-sheet'),body=sh.querySelector('.se-shb');
+  sh.classList.add('vd-settings');
+  const quick=document.createElement('div');quick.className='vd-settings-quick';quick.innerHTML='<button class="se-btn pri wide" data-resume>Back to the story · Trở lại truyện</button><div class="vd-settings-links"></div><div class="se-row"><button class="se-btn" data-export>Export save · Xuất bản lưu</button><button class="se-btn" data-import>Import save · Nạp bản lưu</button></div>';
+  const links=quick.querySelector('.vd-settings-links');for(const sel of ['[data-home]','[data-rc]','[data-exit]']){const el=sh.querySelector(sel);if(el)links.append(el);}
+  body.prepend(quick);quick.querySelector('[data-resume]').onclick=()=>E.ui.closeSheet();quick.querySelector('[data-export]').onclick=V.exportSave;quick.querySelector('[data-import]').onclick=V.importSave;
+  const soundGroup=sh.querySelector('[data-ov="amb"]')?.closest('.se-og');
+  if(soundGroup){
+   const mix=document.createElement('div');mix.className='vd-audio-mix';
+   mix.innerHTML=[['ambLevel','Background · Âm nền',.65],['sfxLevel','Actions · Tiếng động',.70]].map(([key,label,fallback])=>{const val=Math.round((Number.isFinite(g[key])?g[key]:fallback)*100);return `<label class="se-fl">${label} <output data-level-label="${key}">${val}%</output><input type="range" min="0" max="100" step="5" value="${val}" data-audio-level="${key}" aria-label="${label}" style="width:100%;min-height:44px;accent-color:#d6b878"></label>`;}).join('')+'<p class="se-mute">Background sound softens during speech. Indoor rain is quieter.<span class="vd-vi">Âm nền tự hạ khi có giọng đọc; mưa trong phòng nghe nhẹ hơn.</span></p>';
+   soundGroup.append(mix);
+   for(const input of mix.querySelectorAll('[data-audio-level]'))input.oninput=()=>{const key=input.dataset.audioLevel;g[key]=Number(input.value)/100;mix.querySelector(`[data-level-label="${key}"]`).textContent=input.value+'%';E.sound.refresh?.();if(key==='sfxLevel'&&!g[key])E.sound.stopFoley?.();V.persist();};
+   // Register on the same body after the native options listener. A button
+   // listener (even its microtask) can run before the delegated toggle.
+   body.addEventListener('click',e=>{if(e.target.closest('[data-ov="sfx"]')&&!g.sfx)E.sound.stopFoley?.();});
+  }
+  const voiceGroup=sh.querySelector('[data-ov="vRec"]')?.closest('.se-og');
+  if(voiceGroup){
+   const sample=who=>{let found=null;const seen=new Set(),visit=v=>{if(found||!v||typeof v!=='object'||seen.has(v))return;seen.add(v);if(v.say===who&&!v.silent&&typeof(v.speak||v.en)==='string'){found=v.speak||v.en;return;}for(const x of Object.values(v))visit(x);};for(const node of Object.values(E.S().nodes||{}))visit(node);return found;};
+   const samples={me:sample('me'),reed:sample('reed')},v=document.createElement('div');v.className='vd-voice-preview';
+   v.innerHTML='<p class="se-mute" data-voice-note></p><div class="se-row"><button class="se-btn" data-voice-sample="me" aria-label="Preview Adrian Vale’s voice · Nghe thử giọng Vale">'+E.ICON.spk+' Vale</button><button class="se-btn" data-voice-sample="reed" aria-label="Preview Eleanor Reed’s voice · Nghe thử giọng Reed">'+E.ICON.spk+' Reed</button><button class="se-ib" data-voice-stop aria-label="Stop voice preview · Dừng nghe thử">'+E.ICON.x+'</button></div><p class="se-mute" role="status" aria-live="polite" data-voice-status></p>';
+   voiceGroup.append(v);let preview=0,playing=false,activeSpeaker='';
+   const status=v.querySelector('[data-voice-status]');
+   const unlisten=E.on('voice-source',source=>{if(playing&&sh.isConnected&&source.speaker===activeSpeaker)status.textContent=E.nat(source.source==='recorded'?{en:'Playing this character’s supplied recording.',vi:'Đang nghe bản dựng sẵn của nhân vật.'}:{en:'Playing the available device or app voice.',vi:'Đang nghe giọng khả dụng của thiết bị hoặc ứng dụng.'});});
+   const note=()=>{v.querySelector('[data-voice-note]').textContent=E.nat(g.vRec!==false?{en:'Preview the English character recordings. Vietnamese narration uses an available device or app voice.',vi:'Nghe thử giọng tiếng Anh riêng của nhân vật. Lời dẫn tiếng Việt dùng giọng có sẵn trên máy hoặc ứng dụng.'}:{en:'Device or app voices are selected. How distinct they sound depends on the available voices.',vi:'Đang dùng giọng trên máy hoặc ứng dụng. Mức phân biệt nhân vật phụ thuộc bộ giọng có sẵn.'});};note();
+   sh.querySelector('[data-ov="vRec"]').addEventListener('click',()=>{if(playing){preview++;playing=false;E.hush();status.textContent=E.nat({en:'Preview stopped.',vi:'Đã dừng nghe thử.'});}note();});
+   for(const b of v.querySelectorAll('[data-voice-sample]')){const who=b.dataset.voiceSample;b.disabled=!samples[who];b.onclick=async()=>{const token=++preview;activeSpeaker=who;playing=true;await E.say(samples[who],who,{force:true,lang:'en'});if(token===preview){playing=false;status.textContent=E.nat({en:'Preview finished.',vi:'Đã nghe xong.'});}};}
+   v.querySelector('[data-voice-stop]').onclick=()=>{preview++;playing=false;E.hush();v.querySelector('[data-voice-status]').textContent=E.nat({en:'Preview stopped.',vi:'Đã dừng nghe thử.'});};
+   const close=sh.onclose;sh.onclose=()=>{preview++;if(playing)E.hush();playing=false;unlisten();close?.();};
+  }
+  const extra=document.createElement('div');extra.className='vd-settings-extra';extra.innerHTML=`<div class="se-og"><h4>Comfort & practice · Đọc và luyện tập</h4><button class="se-ovo" role="switch" aria-checked="${!!g.vdLarge}" data-large><span><b>Larger text · Chữ lớn</b><small>Dialogue and translation · Hội thoại và bản dịch</small></span><i class="se-sw ${g.vdLarge?'on':''}"></i></button><button class="se-ovo" role="switch" aria-checked="${!!g.vdExploreAssist}" data-assist><span><b>Exploration list · Danh sách điểm chạm</b><small>Optional list of visible details and exits · Liệt kê chi tiết và lối đi đang nhìn thấy</small></span><i class="se-sw ${g.vdExploreAssist?'on':''}"></i></button><label class="se-fl">Voice speed · Tốc độ giọng đọc<select class="se-in" data-rate>${[.75,.9,1,1.15].map(x=>`<option value="${x}" ${Math.abs((g.vRate||1)-x)<.01?'selected':''}>${x}×</option>`).join('')}</select></label><button class="se-btn wide" data-practice>Listen & speak · Nghe và nói theo</button></div><div class="se-og"><h4>Help · Hướng dẫn</h4><p class="se-mute">${V.storage?'Tiến độ tự lưu trên trình duyệt này. Xuất bản lưu nếu muốn chuyển máy.':'Trình duyệt chưa cho phép tự lưu. Hãy xuất bản lưu để giữ tiến độ.'}</p><button class="se-btn wide" data-help>How to play · Cách chơi</button></div>`;
+  body.insertBefore(extra,body.lastElementChild);
+  extra.querySelector('[data-large]').onclick=e=>{g.vdLarge=!g.vdLarge;V.q('.se').classList.toggle('vd-large',g.vdLarge);const b=e.currentTarget;b.setAttribute('aria-checked',String(g.vdLarge));b.querySelector('.se-sw').classList.toggle('on',g.vdLarge);V.persist();};
+  extra.querySelector('[data-assist]').onclick=e=>{g.vdExploreAssist=!g.vdExploreAssist;const b=e.currentTarget;b.setAttribute('aria-checked',String(g.vdExploreAssist));b.querySelector('.se-sw').classList.toggle('on',g.vdExploreAssist);V.persist();E.emit('exploreAssist',g.vdExploreAssist);};
+  const motion=document.createElement('label');motion.className='se-fl';motion.innerHTML=`Scene motion · Hoạt ảnh cảnh<select class="se-in" data-motion><option value="auto">Follow device · Theo thiết bị</option><option value="full">Full motion · Đầy đủ</option><option value="reduced">Reduced motion · Giảm chuyển động</option></select><small class="se-mute">Short actions can be skipped or replayed. Reduced motion shows the final pose.<span class="vd-vi">Có thể bỏ qua hoặc xem lại hành động. Chế độ giảm chuyển động hiện ngay tư thế cuối.</span></small>`;extra.querySelector('[data-rate]').closest('label').before(motion);motion.querySelector('select').value=['full','reduced'].includes(g.motion)?g.motion:'auto';motion.querySelector('select').onchange=e=>{g.motion=e.target.value;E.ui.finishMotion?.();V.persist();};
+  extra.querySelector('[data-rate]').onchange=e=>{g.vRate=+e.target.value;V.persist();};
+  extra.querySelector('[data-help]').onclick=V.guide;extra.querySelector('[data-practice]').onclick=()=>V.practice?.();
+  sh.querySelector('[data-home]').onclick=V.home;sh.querySelector('[data-new]').onclick=V.restart;
+ };
+ V.book=(tab='items')=>{V.nativeBook(tab);const sh=V.q('.se-sheet');sh.classList.add('vd-casebook');const labels={items:['Records','Hồ sơ'],truths:['Conclusions','Suy luận'],people:['People','Nhân vật'],words:['Words','Từ đã lưu']};sh.querySelectorAll('.se-tabs [data-tab]').forEach(b=>{const l=labels[b.dataset.tab];b.innerHTML=`<span>${l[0]}</span><small>${l[1]}</small>`;});
+  const controls=document.createElement('div');controls.className='vd-book-extras';controls.innerHTML='<button class="se-btn wide" data-practice>Listen & speak · Nghe và nói theo</button>';sh.querySelector('.se-shb').append(controls);controls.querySelector('[data-practice]').onclick=()=>V.practice?.();
+ };
+ V.casebook=(tab='evidence',filter='all')=>{V.recordBrowser||={filter:'all',query:''};V.recordBrowser.filter=filter==='fact'?'objects':filter==='testimony'?'testimony':'all';V.book(tab==='evidence'?'items':tab);};
+ V.routebook=(ch)=>{
+  if(V.q('.se')?.dataset.m==='ov')Object.assign(E.R(),V.clone(V.snapshot()));
+  V.nativeFlow(ch);
+  const sheet=V.q('.se-sheet');
+  return sheet;
+ };
+
+})();
+
+;
+
+/* Edition metadata belongs to the game, not to the shared interpreter. */
+(() => {
+ const E=StoryEngine,story=E.story;
+ const cases={
+  'vale-dossiers-p1c1-v01':{part:'I',chapters:6,endings:4,source:'A Scandal in Bohemia',sourceUrl:'https://www.gutenberg.org/ebooks/1661'},
+  'vale-dossiers-part2-v01':{part:'II',chapters:6,endings:4,source:'The Adventure of the Speckled Band',sourceUrl:'https://www.gutenberg.org/ebooks/1661'},
+  'vale-dossiers-part3-v01':{part:'III',chapters:5,endings:4,source:'Silver Blaze',sourceUrl:'https://www.gutenberg.org/ebooks/834'}
+ };
+ E.story=b=>story({...b,defaultNarration:true,caseMeta:cases[b.id]||b.caseMeta});
+})();
+/* A document's legible text is authored, never inferred from generated pixels. */
+(() => {
+ const E=StoryEngine;
+ const T=(en,vi)=>({en,vi});
+ const enrich=()=>{
+  const S=E.S();if(!S)return;
+  for(const it of Object.values(S.items||{}))if(it.document&&!it.doc){
+   const d=it.document,t=d.text||d;
+   it.doc={paper:'letter',hand:'print',title:d.title||it.name,lines:Array.isArray(t)?t:[t]};
+  }
+  if(S.items?.sealed_note)S.items.sealed_note.doc={paper:'letter',hand:'script',title:T('The unsigned appointment','Thư hẹn không ký tên'),lines:[T('At eight tonight, a gentleman will call on a matter of consequence. Please receive him alone.','Tám giờ tối nay, một quý ông sẽ đến vì một việc hệ trọng. Xin tiếp ông ấy riêng.'),T('Do not consider a covered face a sign of dishonour. The name is precisely what must remain unknown.','Xin đừng coi việc che mặt là dấu hiệu thiếu danh dự. Chính tên tuổi là điều cần được giữ kín.')]};
+  if(S.items?.invitation)S.items.invitation.doc={paper:'card',hand:'script',title:T('The final line of the invitation','Dòng cuối trong thư mời'),lines:[T('Come to ask, not to collect.','Hãy đến để hỏi, đừng đến để lấy.'),T('C. Voss','C. Voss')]};
+  if(S.items?.c6_letter&&S.docs){const key=E.R()?.f?.c4_route==='alarm'?'c6_letter_alarm':'c6_letter_open';if(S.docs[key])S.items.c6_letter.doc=S.docs[key];}
+ };
+ E.on('boot',enrich);E.on('chapter',enrich);E.on('item',enrich);
+ const view=E.ui.itemView;E.ui.itemView=id=>{enrich();return view(id);};
+ const reveal=E.ui.reveal;E.ui.reveal=(id,o)=>{enrich();return reveal(id,o);};
+})();
+(() => {
+ const E=StoryEngine,V=ValeDemo;
+ E.on('end',(id,hasNext)=>{if(E.auto)return;queueMicrotask(()=>{
+  const el=V.q('.se-end'),ending=E.S().endings?.[id];if(!el||!ending)return;
+  const ch=ending.ch||E.R().ch||1,totalCh=V.caseMeta().chapters||E.S().chapters.length;el.querySelector('small').textContent=ending.final?((ending.open||/unresolved|limited|overstated|partial/.test(id))?'CASE LEFT OPEN · VỤ ÁN CÒN BỎ NGỎ':'CASE OUTCOME · KẾT QUẢ VỤ ÁN'):`CHAPTER ${ch} COMPLETE · XONG CHƯƠNG ${ch}`;
+  const progress=document.createElement('div');progress.className='vd-chapter-progress';progress.style.gridTemplateColumns=`repeat(${totalCh},1fr)`;progress.setAttribute('aria-label',`Chapter ${ch} of ${totalCh} · Chương ${ch} trên ${totalCh}`);progress.innerHTML=Array.from({length:totalCh},(_,i)=>`<i class="${i<ch?'done':''}"></i>`).join('');el.querySelector('small').after(progress);
+  const anchor=el.querySelector('.se-stats')||el.querySelector('.se-col');
+  if(ending.chapterClose&&anchor)anchor.insertAdjacentHTML('beforebegin',`<div class="vd-chapter-close">${(V.recordText||V.bi)(ending.chapterClose)}</div>`);
+  if(ending.nextObjective&&hasNext&&anchor)anchor.insertAdjacentHTML('beforebegin',`<div class="vd-next-objective"><small>Next step · Bước tiếp theo</small>${(V.recordText||V.bi)(ending.nextObjective)}</div>`);
+  const tr=el.querySelector('details');if(tr)tr.open=!!E.G().set.tr;
+  const stats=el.querySelector('.se-stats');if(stats){const total=Object.keys(E.S().endings||{}).filter(k=>E.S().endings[k].ch===ch),unlocked=total.filter(k=>E.G().endings[k]).length;stats.innerHTML=`<div><b>${unlocked}/${total.length}</b><small>Outcomes · Kết chương</small></div><div><b>${E.R().items.length}</b><small>Records · Hồ sơ</small></div><div><b>${Object.keys(E.G().words).length}</b><small>Saved words · Từ đã lưu</small></div>`;}
+  const recap=el.querySelector('.se-recap');if(recap)recap.innerHTML='<b>Your route · Tuyến bạn đã đi</b>'+E.recapList(ch).filter(x=>x.ch===ch).map(x=>'<p>'+V.bi(x.t)+'</p>').join('');
+  if(V.demoOnly)el.querySelector('.se-col')?.insertAdjacentHTML('beforebegin','<p class="se-mute">End of the Chapter 1 demo. The complete Part I is included in the ZIP.<span class="vd-vi">Hết demo Chương 1. Bản đầy đủ Phần I nằm trong gói ZIP.</span></p>');
+  if(!ending.final&&hasNext)el.querySelector('.se-col')?.insertAdjacentHTML('beforebegin','<p class="se-mute">Your choices and evidence carry into the next chapter.<span class="vd-vi">Lựa chọn và chứng cứ của bạn được giữ sang chương tiếp theo.</span></p>');
+ });});
+})();
+/* Shared mobile measurements; scene controls follow the actual HUD, not vh guesses. */
+(() => {
+ const E=StoryEngine;
+ const location=E.ui.loc;
+ E.ui.loc=(...args)=>{
+  location(...args);
+  const status=document.querySelector('.se-stat');
+  if(status){const full=[status.querySelector('.st-n')?.textContent,status.querySelector('.st-t')?.textContent].filter(Boolean).join(' · ');status.title=full;status.setAttribute('aria-label',full||E.nat({en:'Location',vi:'Địa điểm'}));}
+ };
+ const reveal=E.ui.reveal;
+ E.ui.reveal=(id,options={})=>{
+  const pending=reveal(id,options);
+  if(options.fresh&&E.S()?.recordReceipts){
+   const close=document.querySelector('.se-rev.fresh .rv-tap');
+   if(close)close.textContent=E.nat({en:'Continue',vi:'Tiếp tục'});
+  }
+  return pending;
+ };
+ E.on('boot',()=>{
+  const root=document.querySelector('.se'),top=root?.querySelector('.se-top'),ui=root?.querySelector('.se-ui');if(!root||!top||!ui)return;
+  const status=top.querySelector('.se-stat');
+  if(status)status.onclick=event=>{
+   event.stopPropagation();
+   const name=status.querySelector('.st-n')?.textContent,time=status.querySelector('.st-t')?.textContent;
+   if(!name)return;
+   E.ui.sheet(E.nat({en:'Location',vi:'Địa điểm'}),'<p><b>'+E.esc(name)+'</b></p>'+(time?'<p>'+E.esc(time)+'</p>':'')+'<button class="se-btn wide" data-location-back>'+E.esc(E.nat({en:'Back to the story',vi:'Trở lại truyện'}))+'</button>');
+   document.querySelector('[data-location-back]').onclick=()=>E.ui.closeSheet();
+  };
+  let frame=0;
+  const measure=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{
+   const rr=root.getBoundingClientRect(),tr=top.getBoundingClientRect(),ur=ui.getBoundingClientRect();
+   const side=matchMedia('(min-aspect-ratio: 11/10) and (max-height: 560px)').matches;
+   const bottom=!side&&ui.children.length&&ur.width>rr.width*.65?Math.max(0,rr.bottom-ur.top):0;
+   root.style.setProperty('--vale-hud-height',Math.round(bottom)+'px');
+   root.style.setProperty('--vale-toolbar-height',Math.ceil(tr.height+Math.max(0,tr.top-rr.top))+'px');
+  });};
+  const ro=new ResizeObserver(measure);ro.observe(top);ro.observe(ui);ro.observe(root);
+  const mo=new MutationObserver(measure);mo.observe(ui,{childList:true,subtree:false});mo.observe(root,{attributes:true,attributeFilter:['data-m']});
+  addEventListener('resize',measure);E.on('line',measure);E.on('step',measure);E.on('image-plane',measure);measure();
+ });
+})();
+/* Part I interview preparation, attached without inserting/reordering story steps.
+   The original questions, spoken replies, once flags and board remain unchanged. */
+(() => {
+  const E = StoryEngine, T = (en, vi) => ({ en, vi });
+  const install = () => {
+    const S = E.S();
+    if (S?.id !== 'vale-dossiers-p1c1-v01') return;
+    const step = S.nodes?.c1_questions?.[0]; if (!step?.choice) return;
+    step.interrogation = {
+      id: 'c1-matthias', who: 'matthias',
+      approaches: [
+        { id: 'calm', label: T('Calm', 'Nhẹ nhàng'), questions: ['ask_celia', 'ask_scope'] },
+        { id: 'direct', label: T('Direct', 'Hỏi thẳng'), questions: ['ask_warning', 'ask_searches'] }
+      ],
+      always: [4],
+      hint: T('The way you ask changes which question comes first. It does not change an answer you have already heard. Take your time, compare a record, or return to all questions. His manner is not proof of a lie.', 'Cách hỏi giúp bạn chọn điều muốn hỏi trước. Nó không đổi câu trả lời đã nghe. Cứ thong thả đối chiếu hồ sơ hoặc quay lại mọi câu hỏi. Thái độ của ông không phải bằng chứng nói dối.'),
+      initial: s => ['asked_warning', 'asked_searches', 'asked_celia', 'client_accepts_assurance'].some(k => s.f[k]) ? {
+        openness: T('Interview in progress', 'Đang hỏi chuyện'),
+        note: T('Review the answers in History, or choose the next question.', 'Bạn có thể xem lại câu trả lời trong Lịch sử, hoặc chọn câu hỏi tiếp theo.')
+      } : {
+        openness: T('Answering', 'Vẫn trả lời'), tension: T('Guarded', 'Dè chừng'),
+        note: T('He has returned to the deadline and the fee. You still need the details of the danger.', 'Ông vừa quay lại chuyện thời hạn và tiền công. Bạn vẫn cần làm rõ nguy cơ.')
+      },
+      questions: {
+        ask_warning: {
+          complete: s => !!s.f.asked_warning,
+          reaction: {
+            openness: T('More specific', 'Cụ thể hơn'), tension: T('Still guarded', 'Còn dè chừng'),
+            note: T('He adds a condition to the warning. These are still words he recalls, not a letter you have read.', 'Ông bổ sung điều kiện trong lời cảnh báo. Đây vẫn là lời ông nhớ lại, chưa phải lá thư bạn đã đọc.')
+          }
+        },
+        ask_searches: {
+          complete: s => !!s.f.asked_searches,
+          reaction: {
+            openness: T('Keeps answering', 'Vẫn trả lời'), tension: T('Tense', 'Căng thẳng'),
+            note: T('He admits both searches failed. He has not established where the photograph is.', 'Ông thừa nhận cả hai lần tìm kiếm thất bại. Vị trí bức ảnh vẫn chưa được xác định.')
+          }
+        },
+        ask_celia: {
+          complete: s => !!s.f.asked_celia,
+          reaction: {
+            openness: T('Briefly open', 'Thoáng cởi mở'), tension: T('Softened, then guarded', 'Dịu lại rồi dè chừng'),
+            note: T('He recalls a song and her laugh, then sets his feelings aside. That tells you little about what she intends now.', 'Ông nhớ bài hát và tiếng cười của cô, rồi gạt cảm xúc sang một bên. Điều đó chưa nói rõ ý định hiện tại của cô.')
+          }
+        },
+        ask_scope: {
+          complete: s => !!s.f.client_accepts_assurance,
+          reaction: {
+            openness: T('Clarifies his need', 'Nói rõ điều cần'), tension: T('Still uncertain', 'Còn do dự'),
+            note: T('He accepts that a reliable assurance could meet his need. He still asks how he could trust one.', 'Ông chấp nhận rằng một sự bảo đảm đáng tin có thể giải quyết việc này. Nhưng ông vẫn chưa biết nên tin bằng cách nào.')
+          }
+        }
+      },
+      recordIds: ['press_cutting', 'warning_words', 'prior_searches', 'wren_address', 'sealed_note', 'watermark'],
+      claims: [
+        {
+          id: 'deadline', title: T('The Sunday deadline', 'Thời hạn Chủ nhật'),
+          quote: T('The announcement is on Sunday.', 'Thông báo sẽ công bố vào Chủ nhật.'),
+          source: T('Matthias · what he just said', 'Matthias · lời vừa nói'), question: 'ask_scope',
+          records: {
+            press_cutting: { note: T('The newspaper gives the same date. It supports the deadline, but says nothing about whether Celia will send the photograph. You can ask what outcome would make him feel safe.', 'Tờ báo ghi cùng ngày. Nó xác nhận thời hạn, nhưng không cho biết Celia có gửi ảnh đi hay không. Bạn có thể hỏi kết quả nào sẽ khiến ông yên tâm.') }
+          },
+          unrelated: T('This record does not establish the date of the announcement. The newspaper is a separate source for that date; his fear still needs its own questions.', 'Hồ sơ này chưa xác định ngày công bố. Tờ báo là nguồn riêng cho ngày ấy; nỗi lo của ông vẫn cần được hỏi cho rõ.'),
+          hint: T('Check the date in a source separate from his account. A confirmed deadline does not confirm every fear attached to it.', 'Đối chiếu ngày với một nguồn khác lời ông. Thời hạn đúng không có nghĩa mọi nỗi lo gắn với nó đều đã được xác nhận.')
+        },
+        {
+          id: 'warning', title: T('What Celia may do', 'Celia có thể làm gì'),
+          quote: T('She must not be allowed to use it.', 'Không được để cô ta sử dụng nó.'),
+          source: T('Matthias · his opening account', 'Matthias · lời kể ban đầu'), question: 'ask_warning',
+          records: {
+            press_cutting: { note: T('The announcement explains the urgency. It does not tell you what Celia actually said. Ask for her exact words before deciding what the danger is.', 'Thông báo giải thích vì sao ông sốt ruột. Nó không cho biết Celia đã nói gì. Hãy hỏi nguyên văn trước khi xác định nguy cơ.') },
+            warning_words: { note: T('His fuller recollection includes a condition: if his men trouble her again. You have his account of a spoken warning, not a written demand or Celia’s own explanation.', 'Lời ông nhớ đầy đủ hơn có điều kiện: nếu người của ông lại quấy rầy cô. Bạn có lời ông kể về một cảnh báo bằng miệng, chưa có yêu cầu bằng văn bản hay lời giải thích từ Celia.') }
+          },
+          unrelated: T('This record does not contain Celia’s warning. You can ask what she said, without deciding in advance why she said it.', 'Hồ sơ này không có lời cảnh báo của Celia. Bạn có thể hỏi cô đã nói gì, chưa cần kết luận trước vì sao cô nói vậy.'),
+          hint: T('Separate the words he remembers from the meaning he gives them. Ask whether there was a condition, a demand or a written message.', 'Tách những từ ông nhớ khỏi cách ông hiểu chúng. Hỏi xem có điều kiện, yêu cầu hay lời nhắn bằng văn bản nào không.')
+        },
+        {
+          id: 'searches', title: T('Where he thinks the photograph is', 'Nơi ông cho rằng có bức ảnh'),
+          quote: T('My men believe the stolen photograph is still inside.', 'Người của ta tin rằng bức ảnh bị đánh cắp vẫn ở trong đó.'),
+          source: T('Matthias · speaking of Wren House', 'Matthias · nói về nhà Wren'), question: 'ask_searches',
+          records: {
+            wren_address: { note: T('The address comes from Matthias. It tells you where he says Celia lives, not where anyone last saw the photograph. Ask what his men actually checked.', 'Địa chỉ do Matthias cung cấp. Nó cho biết nơi ông nói Celia đang sống, chưa cho biết ai đã thấy ảnh ở đâu lần gần nhất. Hãy hỏi người của ông đã kiểm tra những gì.') },
+            prior_searches: { note: T('The searches found no photograph. That leaves two possibilities in his own account: it was absent, or his men missed it. Neither proves its present location.', 'Những lần lục soát không tìm được ảnh. Chính lời ông để ngỏ hai khả năng: ảnh không ở đó, hoặc người của ông tìm sót. Cả hai đều chưa xác định vị trí hiện tại.') }
+          },
+          unrelated: T('This record does not show a recent sighting of the photograph. Keep an address separate from evidence of what is inside the house.', 'Hồ sơ này không ghi nhận lần nhìn thấy ảnh gần đây. Cần phân biệt một địa chỉ với bằng chứng về những gì ở trong nhà.'),
+          hint: T('An address and an unsuccessful search answer different questions. Start with what his men did and what they actually found.', 'Địa chỉ và một cuộc tìm kiếm thất bại trả lời hai câu hỏi khác nhau. Bắt đầu từ việc người của ông đã làm và thật sự tìm thấy gì.')
+        }
+      ]
+    };
+  };
+  E.on('boot', install); E.on('chapter', install);
+})();
+/* Optional practice using only lines the player has already encountered. */
+(() => {
+ const E=StoryEngine,V=ValeDemo,esc=E.esc;
+ V.practice=(index=0)=>{
+  const log=(E.R().log||[]).filter(x=>x.kind==='say'&&(x.lang==='en'||(x.lang==='vi'&&x.sub))).slice(-16).reverse();
+  const lines=log.map(x=>({text:(x.lang==='en'?x.main:x.sub).replace(/\[\[|\]\]/g,''),vi:x.lang==='en'?x.sub:x.main,who:x.who}));
+  if(!lines.length){E.ui.sheet('English practice · Luyện tiếng Anh','<p>Play a little further to practise the dialogue you have heard.</p><p class="vd-vi">Đọc thêm một chút để luyện lại chính những câu thoại bạn đã gặp.</p>');return;}
+  index=Math.max(0,Math.min(index,lines.length-1));const line=lines[index];
+  const candidates=[...line.text.matchAll(/\b[A-Za-z][A-Za-z'-]{3,}\b/g)].filter(m=>!['that','this','with','have','your','what','from','there','would','could','will','shall'].includes(m[0].toLowerCase()));
+  const word=candidates.find(m=>E.S().words?.[m[0].toLowerCase()])||candidates[Math.floor(candidates.length/2)];
+  let closed=false,recorder=null,stream=null,url=null,chunks=[],recordTimer=null;
+  const capable=!!(navigator.mediaDevices?.getUserMedia&&globalThis.MediaRecorder);
+  const sh=E.ui.sheet('Listen & speak · Nghe và nói theo',`<div class="vd-practice"><p class="se-mute">From your current route · Lấy từ tuyến bạn đã đọc</p><div class="vd-practice-quote" lang="en">${esc(line.text)}</div><details ${E.G().set.tr?'open':''}><summary>Meaning · Nghĩa tiếng Việt</summary><p lang="vi">${esc(line.vi||'')}</p></details><div class="se-row"><button class="se-btn" data-hear>Listen · Nghe</button><button class="se-btn" data-slow>Slower · Nghe chậm</button></div>${word?`<details class="vd-fill"><summary>Fill the missing word · Điền từ còn thiếu</summary><p lang="en">${esc(line.text.slice(0,word.index))}<b>______</b>${esc(line.text.slice(word.index+word[0].length))}</p><label class="se-fl">Your answer · Câu trả lời<input class="se-in" data-answer autocomplete="off" autocapitalize="none" spellcheck="false" inputmode="text"></label><div class="se-row"><button class="se-btn pri" data-check>Check · Kiểm tra</button><button class="se-btn" data-show>Show word · Xem từ</button></div><p data-feedback role="status"></p></details>`:''}<div class="vd-practice-record"><h3>Say it yourself · Tự nói lại</h3><p class="se-mute">Listen, say the line, then compare your recording. This practice has no automatic score.<span class="vd-vi">Nghe, nói lại rồi tự so với câu mẫu. Phần luyện này không chấm điểm tự động.</span></p>${globalThis.Enmi?.shadow?'<button class="se-btn wide" data-shadow>Practise with Enmi · Luyện nói trong Enmi</button>':''}<button class="se-btn wide" data-record ${capable?'':'disabled'}>Record my voice · Thu giọng của tôi</button><p data-record-status class="se-mute" role="status">${capable?'Microphone is used only after you tap Record. The clip stays in this session. · Chỉ bật mic khi bạn bấm Thu; bản thu chỉ nằm trong phiên này.':'Recording is unavailable in this browser context. You can still listen and speak aloud. · Ngữ cảnh trình duyệt này chưa hỗ trợ thu; bạn vẫn có thể nghe và nói theo.'}</p><audio data-audio controls hidden></audio></div><div class="se-row"><button class="se-btn" data-prev ${index?'':'disabled'}>← Newer · Mới hơn</button><button class="se-btn" data-next ${index<lines.length-1?'':'disabled'}>Earlier · Trước đó →</button></div></div>`,'tall');
+  const say=slow=>E.say(line.text,line.who,{force:true,lang:'en',slow});
+  sh.querySelector('[data-hear]').onclick=()=>say(false);sh.querySelector('[data-slow]').onclick=()=>say(true);
+  if(word){const feedback=sh.querySelector('[data-feedback]');const check=()=>{const a=sh.querySelector('[data-answer]').value.trim().toLowerCase();feedback.textContent=a===word[0].toLowerCase()?'✓ Correct. Read the whole sentence once more. · Đúng. Hãy đọc lại cả câu.':'Try again. You can listen to the line. · Thử lại; bạn có thể nghe câu mẫu.';};sh.querySelector('[data-check]').onclick=check;sh.querySelector('[data-answer]').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();check();}};sh.querySelector('[data-show]').onclick=()=>{feedback.textContent=word[0]+(E.S().words?.[word[0].toLowerCase()]?.vi?' — '+E.S().words[word[0].toLowerCase()].vi:'');};}
+  const stopStream=()=>{stream?.getTracks().forEach(t=>t.stop());stream=null;};
+  const stop=()=>{clearTimeout(recordTimer);if(recorder?.state==='recording')recorder.stop();else stopStream();};
+  const rec=sh.querySelector('[data-record]'),status=sh.querySelector('[data-record-status]');
+  rec.onclick=async()=>{if(recorder?.state==='recording'){stop();return;}rec.disabled=true;status.textContent='Requesting microphone… · Đang xin quyền dùng mic…';E.hush();
+   try{stream=await navigator.mediaDevices.getUserMedia({audio:true});if(closed){stopStream();return;}chunks=[];recorder=new MediaRecorder(stream);recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};recorder.onstop=()=>{stopStream();if(closed)return;if(url)URL.revokeObjectURL(url);url=URL.createObjectURL(new Blob(chunks,{type:recorder.mimeType||'audio/webm'}));const a=sh.querySelector('[data-audio]');a.src=url;a.hidden=false;rec.textContent='Record again · Thu lại';rec.disabled=false;status.textContent='Play your clip and compare with the original line. · Nghe bản thu và so với câu mẫu.';};recorder.start();rec.disabled=false;rec.textContent='Stop recording · Dừng thu';status.textContent='Recording… maximum 30 seconds. · Đang thu… tối đa 30 giây.';recordTimer=setTimeout(stop,30000);
+   }catch{stopStream();if(!closed){rec.disabled=false;status.textContent='Microphone could not start. Check your browser permission, or practise aloud without recording. · Chưa mở được mic. Kiểm tra quyền trình duyệt hoặc luyện nói trực tiếp.';}}};
+  const shadow=sh.querySelector('[data-shadow]');if(shadow)shadow.onclick=()=>globalThis.Enmi.shadow(line.text,{tr:line.vi});
+  sh.querySelector('[data-prev]').onclick=()=>V.practice(index-1);sh.querySelector('[data-next]').onclick=()=>V.practice(index+1);
+  const prev=sh.onclose;sh.onclose=()=>{closed=true;stop();stopStream();if(url)URL.revokeObjectURL(url);E.hush();prev?.();};
+ };
+})();
+/* Vale0.6: visual metadata only; original spoken text, paths, grants and branches stay authoritative. */
+(()=>{'use strict';const E=StoryEngine,q=s=>document.querySelector(s),isP1=()=>['vale-dossiers-p1c1-v01','vale-dossiers-chapter1-demo03'].includes(E.S()?.id);let queued=false,observer;
+const sizes={'act-mask-before':[940,1672],'act-mask-mid':[940,1672],'matthias-entry-full':[1024,1536],'cab_stand_departed':[941,1672],'wren-door-chain':[941,1672],'wren-door-note':[941,1671],'wren-observed-gloves':[941,1672],'act-finn-care':[941,1672],'act-finn-turn':[941,1672],study_clear:[941,1672],study_desk_clear:[941,1672],'prop-held-letter':[941,1672],'celia-holding':[1024,1536],'parlour-terms':[1024,1536],'parlour-panel-open':[1024,1536],c5_corner_departed:[1024,1536],'c5-walker-salute':[1024,1536],'act-cuff-pin':[1024,1536],'act-sealed-packet':[1024,1536]};
+Object.assign(sizes,{'parlour-day-empty-panel':[1024,1536],'act-retainer-place':[941,1672],'act-retainer-moved':[941,1671],'act-wedding-ring':[1024,1536],'act-wedding-hands':[1024,1536],'act-register-sign':[1254,1254],'act-register-ready':[1254,1254],'act-photo-return-offer':[941,1672],'act-photo-return-received':[941,1672],'act-client-photo-held':[1024,1536],'act-client-photo-down':[1024,1536],'act-client-photo-packed':[1024,1536],'act-client-empty-wrapping':[1024,1536]});
+const contactRegions={'act-retainer-place':[46,44,25,13],'act-retainer-moved':[53,43,25,11],'act-wedding-ring':[34,41,25,11],'act-wedding-hands':[34,41,25,11],'act-register-sign':[58,59,21,9],'act-register-ready':[58,59,21,9],'act-photo-return-offer':[22,60,25,10],'act-photo-return-received':[36,53,28,10],'act-client-photo-held':[35,61,29,8],'act-client-photo-down':[36,72,31,6],'act-client-photo-packed':[70,69,25,7],'act-client-empty-wrapping':[35,72,30,7]};
+
+Object.assign(sizes,{'c6_study':[941,1672],'c6_after':[941,1672],'act-hart-envelope-search':[1024,1536],'act-hart-envelope-gloves':[1024,1536],'act-hart-envelope-tucked':[1024,1536],'act-hart-envelope-away':[1024,1536],'act-vale-disguise-mirror':[1024,1536],'act-vale-disguise-ready':[1024,1536],'act-vale-stumble-pov':[1024,1536],'act-vale-support-pov':[1024,1536],'act-bell-water-pov':[1024,1536],'act-frame-retrieve-pov':[1024,1536],'act-frame-conceal-pov':[1024,1536],'act-vale-undisguise-pov':[941,1672]});
+Object.assign(contactRegions,{'act-register-sign':[40,64,17,7],'act-register-ready':[43,58,18,7],'act-hart-envelope-search':[41,32,15,10],'act-hart-envelope-gloves':[41,32,15,10],'act-hart-envelope-tucked':[48,32,9,6],'act-hart-envelope-away':[41,34,18,8],'act-vale-disguise-mirror':[36,24,30,13],'act-vale-disguise-ready':[36,24,30,13],'act-vale-stumble-pov':[75,52,15,10],'act-vale-support-pov':[56,52,23,10],'act-bell-water-pov':[39,51,31,9],'act-frame-retrieve-pov':[38,48,31,10],'act-frame-conceal-pov':[40,55,27,10],'act-vale-undisguise-pov':[35,64,36,12]});
+// Every study plate uses the original fireplace-left/window-right camera and left desk lamp.
+for(const id of ['study','study_desk','study_clear','study_desk_clear','study_by_lamp','study_desk_lamp','act-letter-setdown','act-retainer-place','act-retainer-moved','act-terms-write','act-terms-slide','act-terms-sign','act-terms-copy','act-frame-desk','act-frame-wrap','act-frame-wrapped','act-client-photo-held','act-client-photo-down','act-client-photo-packed','act-client-empty-wrapping'])sizes[id]=[941,1672];
+sizes['act-retainer-place']=[941,1671];sizes['act-retainer-moved']=[941,1671];
+for(const id of ['act-bell-water-smoke-pov','act-celia-signs','act-matthias-signs','act-sealed-packet','act-pike-receipts','act-hart-copies'])sizes[id]=[1024,1536];
+Object.assign(contactRegions,{'act-letter-setdown':[47,73,16,6],study_desk_lamp:[21,76,27,5],'act-retainer-place':[44,69,27,9],'act-retainer-moved':[12,62,20,8],'act-terms-write':[48,82,12,4],'act-terms-slide':[42,73,18,6],'act-terms-sign':[47,72,13,5],'act-terms-copy':[40,71,14,5],'act-frame-desk':[32,82,29,6],'act-frame-wrap':[36,78,28,6],'act-frame-wrapped':[36,78,28,6],'act-bell-water-smoke-pov':[13,16,12,17],'act-celia-signs':[57,64,12,6],'act-matthias-signs':[64,63,12,6],'act-sealed-packet':[50,58,16,7],'act-pike-receipts':[57,59,17,6],'act-hart-copies':[59,70,22,7],'act-client-photo-held':[45,59,29,8],'act-client-photo-down':[42,72,26,5],'act-client-photo-packed':[76,69,16,6],'act-client-empty-wrapping':[38,73,26,6]});
+Object.assign(contactRegions,{'act-terms-write':{box:[48,82,12,4],maxScale:5},'act-frame-desk':{box:[63,82,12,3],maxScale:5.5},'act-frame-wrap':{box:[58,83,16,5],maxScale:5.5},'act-frame-wrapped':{box:[40,81,22,4],maxScale:4.5},'act-hart-copies':[68,72,14,4]});
+const letterRegions={c6_after:{r:{'p1-final-portrait':{box:[50.3,75,7.4,4],maxScale:4}}}};for(const id of ['study_desk','study_desk_clear','study_desk_lamp'])letterRegions[id]={r:{'p1-letter':id==='study_desk_lamp'?[25,77,21,4]:[40,79,22,5],'p1-letter-inspect':id==='study_desk_lamp'?[19,74,31,9]:[31,77,35,10],'p1-lamp':[4,56,12,6],'p1-lamp-inspect':[0,50,24,27],'p1-news':[6,81,27,6],'p1-news-inspect':[3,78,40,12]}};
+function letter(){if(!isP1()||!E.R())return'desk';const R=E.R();if(['desk','held','by-lamp'].includes(R.f.p1_letter_location))return R.f.p1_letter_location;const rep=(R.stack||[]).some(f=>f.n==='c1_open'&&f.p?.join('.')==='15.place.views.desk.zones.1.again');let s='desk';if(rep)s='by-lamp';else if(R.shot==='act-watermark')s='held';else{const l=[...(R.log||[])].reverse().flatMap(l=>[{main:l.main},{main:l.sub}]).find(l=>/^(The maker is established\.|The message is short\.|A (?:\[\[)?watermark|Eight tonight\.)/.test(l.main||''));if(l?.main?.startsWith('The maker is established.'))s='by-lamp';else if(R.items?.includes('sealed_note')||R.items?.includes('watermark')||R.pl?.c1_desk?.seen?.['desk/note_text']||R.pl?.c1_desk?.seen?.['desk/note_paper'])s='held';}R.f.p1_letter_location=s;return s;}
+const held=()=>letter()==='held';
+const roomLetter=()=>held()?'study_clear':letter()==='by-lamp'?'study_by_lamp':'study',deskLetter=()=>held()?'study_desk_clear':letter()==='by-lamp'?'study_desk_lamp':'study_desk';
+function retarget(){if(!isP1())return;const b=E.R()?.shotBack;if(b&&/^v:study_desk(?:_clear|_lamp)?$/.test(b.key||''))b.key='v:'+deskLetter();if(b&&['study','study_clear','study_by_lamp'].includes(b.scene))b.scene=roomLetter();}
+const sh=E.ui.shot;E.ui.shot=(id,o)=>{if(isP1()&&!id)retarget();return sh(id,o);};
+const sc=E.ui.scene;E.ui.scene=(id,keep)=>{if(isP1()){if(['study','study_clear','study_by_lamp'].includes(id)&&(E.R()?.ch||1)===1)id=roomLetter();if(id==='cab_stand'&&E.R()?.f?.p1_finn_cab_departed)id='cab_stand_departed';if(id==='c5_corner'&&E.R()?.f?.p1_cab_departed)id='c5_corner_departed';}return sc(id,keep);};
+const nativeSceneProps=E.ui.sceneProps;E.ui.sceneProps=(img,props)=>{if(isP1()&&img==='parlour-terms'&&E.R()?.f?.p1_photo_sealed&&props)props=props.filter(p=>p.id!=='packet');return nativeSceneProps(img,props);};
+function remove(ids){for(const id of ids||[]){delete(E.R().props||{})[id];document.querySelectorAll('.prp').forEach(e=>{if(e.dataset.p===id)e.remove();});}}
+E.side('valePhysical',async p=>{if(!isP1()||!p)return;if(p.letter)E.R().f.p1_letter_location=p.letter;if(p.finnCabDeparted)E.R().f.p1_finn_cab_departed=true;if(p.wrenDoor)E.R().f.p1_wren_door=p.wrenDoor;if(p.invitation)E.R().f.p1_invitation_location=p.invitation;if(p.cabDeparted)E.R().f.p1_cab_departed=true;if('photoSealed'in p){E.R().f.p1_photo_sealed=!!p.photoSealed;if(p.photoSealed&&E.R().sceneProps?.img==='parlour-terms')E.R().sceneProps.items=E.R().sceneProps.items.filter(x=>x.id!=='packet');}remove(p.remove);retarget();queue();});
+E.side('valeStage',async p=>{if(!isP1()||!p)return;for(const id of p.hide||[])E.ui.hide(id);for(const a of p.show||[])E.ui.show(a.id,a.at||E.R()?.cast?.[a.id]?.at||'c',a.face||'');if('look'in p){await E.ui.layerReady?.();E.ui.look(p.look,E.G()?.set.motion==='reduced'?0:(p.ms??650));}});
+function queue(){if(queued)return;queued=true;queueMicrotask(()=>{queued=false;control();});}
+function control(){if(!isP1()||!E.R())return;const h=held(),ps=E.R().pl?.c1_desk,p=q('.se-panel.pl'),d=p&&E.R().vw?.pid==='c1_desk'&&ps?.v==='desk'&&!ps.detail; q('.se')?.classList.toggle('vale-note-held',h);const z=q('.se-bgl.on [data-zone-id="note_text"]');if(z){z.setAttribute('aria-hidden',h?'true':'false');z.tabIndex=h?-1:0;}let b=q('[data-vale-held-note]');if(!h||!d){b?.remove();return;}if(!b){const host=p.querySelector('.pl-bar');if(!host)return;b=document.createElement('button');b.type='button';b.className='pl-ib vale-held-note';b.dataset.valeHeldNote='true';b.setAttribute('aria-label',E.nat({en:'Read the letter in your hand',vi:'Đọc lá thư đang cầm'}));b.title=b.getAttribute('aria-label');b.innerHTML=(E.ICON.book||E.ICON.doc||E.ICON.box)+'<span>'+E.esc(E.nat({en:'Letter',vi:'Thư'}))+'</span>';b.onclick=e=>{e.stopPropagation();q('.se-bgl.on [data-zone-id="note_text"]')?.click();};host.insertBefore(b,host.querySelector('.pl-go'));}}
+const at=(o,p)=>p.reduce((v,k)=>v?.[k],o);function patch(S,n,p,d){const s=at(S.nodes?.[n],p);if(s)Object.assign(s,d);return s;}
+function walk(v,fn){if(!v||typeof v!=='object')return;fn(v);for(const[k,x]of Object.entries(v))if(!['motion','valeStage','valePhysical'].includes(k))walk(x,fn);}
+const actor=(id,face='')=>({id,show:true,frames:[{offset:0,face},{offset:1,face}]});
+const hand=()=>({id:'p1-held-letter',art:'prop-held-letter',at:[50,50],w:100,ar:941/1672,z:4,frames:[{offset:0,at:[50,65],opacity:0},{offset:.25,opacity:1},{offset:1,at:[50,50],opacity:1}]});
+const photo=(from,to,o={})=>({id:'p1-photo',art:'prop-joint-photo',at:from,w:o.w||14,ar:1,z:3,frames:[{offset:0,at:from,opacity:o.fadeIn?0:1,scale:.92},{offset:.2,opacity:1},{offset:1,at:to,scale:1,opacity:o.fadeOut?0:1}],remove:!!o.remove});
+function apply(){if(!isP1())return;const S=E.S();E.regions(letterRegions);E.regions(Object.fromEntries(Object.entries(contactRegions).map(([id,box])=>[id,{r:{'p1-contact':box}}])));E.regions(Object.fromEntries(Object.entries(sizes).map(([id,size])=>[id,{size}])));for(const[id,base]of[['study_clear','study'],['study_by_lamp','study'],['cab_stand_departed','cab_stand'],['parlour-terms','c6_room'],['parlour-panel-open','c4_parlour'],['c5_corner_departed','c5_corner']])if(S.scenes[base])S.scenes[id]={...S.scenes[base],size:sizes[id]};
+// Staging is explicit: remote letter authors and quoted testimony never appear.
+for(const[n,p,id,at,face]of[
+ ['c3_open',[16],'hart','l','smiling'],['c3_open',[35],'hart','l',''],
+ ['c4_open_visit',[2],'bell','c',''],['c4_open_visit',[9],'hart','l',''],['c4_open_visit',[15],'celia','r',''],['c4_open_explore',[2],'celia','r',''],
+ ['c4_disguise',[4],'celia','r','resolute'],['c4_disguise',[13],'bell','l',''],
+ ['c4_alarm_explore',[3],'celia','r',''],['c5_return',[1],'bell','c',''],
+ ['c6_visit',[4],'bell','c',''],['c6_terms',[7],'c3_clerk','l',''],
+ ['c6_terms',[8],'celia','r',''],['c6_terms',[12],'celia','r','smiling'],
+ ['c6_terms',[15],'celia','r','smiling'],['c6_truth',[7],'reed','l',''],
+ ['c6_open_file',[5],'reed','l','']
+])patch(S,n,p,{valeStage:{show:[{id,at,face}]}});
+const entry=S.nodes.c1_open?.[15],desk=entry?.place?.views?.desk;if(desk){
+ desk.img=deskLetter;desk.size=[941,1672];entry.shot=null;entry.valePhysical={remove:['p1-held-letter']};
+ const r=desk.zones.find(z=>z.id==='note_text'),p=desk.zones.find(z=>z.id==='note_paper'),news=desk.zones.find(z=>z.id==='evening_news');
+ Object.assign(r,{r:'p1-letter',inspectR:'p1-letter-inspect'});Object.assign(p,{r:'p1-lamp',inspectR:'p1-lamp-inspect'});Object.assign(news,{r:'p1-news',inspectR:'p1-news-inspect'});
+ for(const[k,a]of[['first',r.then],['again',r.again]])if(a?.[0])Object.assign(a[0],{shot:'study_desk_clear',look:null,valePhysical:{letter:'held'},motion:{id:'p1-c1-note-'+k,ms:1050,tracks:[hand()]}});
+ Object.assign(r.then.at(-1),{shot:null,valePhysical:{remove:['p1-held-letter']}});Object.assign(p.then[0],{valePhysical:{letter:'held',remove:['p1-held-letter']}});Object.assign(p.then[1],{valeStage:{look:[38,26,26,12],ms:850}});
+ Object.assign(p.again[0],{shot:'act-letter-setdown',look:'p1-contact',valePhysical:{letter:'by-lamp',remove:['p1-held-letter']},motion:{id:'p1-c1-note-set-down',ms:1700,backdrop:{frames:[{offset:0,art:'act-letter-setdown'},{offset:.6,art:'study_desk_lamp'},{offset:1,art:'study_desk_lamp'}]}}});
+}
+// Chapter1 actions are performed on the existing lines. No branch or save index moves.
+patch(S,'c1_arrival',[1],{shot:'study_door',look:[36,27,43,38],motion:{id:'p1-c1-masked-entrance',ms:1650,tracks:[{id:'p1-masked-visitor',art:'matthias-entry-full',at:[58,51],w:48,ar:2/3,z:2,frames:[{offset:0,at:[58,51],w:48,opacity:0},{offset:.22,opacity:1},{offset:1,at:[58,48],w:54,opacity:1}]}]}});
+patch(S,'c1_arrival',[3],{shot:null,valePhysical:{remove:['p1-masked-visitor']}});
+patch(S,'c1_arrival',[16],{shot:'act-mask-before',look:[17,10,70,56],motion:{id:'p1-c1-remove-mask',ms:2350,backdrop:{frames:[{offset:0,art:'act-mask-before'},{offset:.34,art:'act-mask-mid'},{offset:.72,art:'act-unmask'},{offset:1,art:'act-unmask'}]}}});
+// Observation is witnessed action, not an identification: no character meet/name cue.
+patch(S,'c1_terms',[0],{shot:'act-retainer-place',look:'p1-contact',motion:{id:'p1-c1-retainer-set-aside',ms:2400,backdrop:{frames:[{offset:0,art:'act-retainer-place'},{offset:.55,art:'act-retainer-moved'},{offset:1,art:'act-retainer-moved'}]}}});
+patch(S,'c1_terms',[1],{shot:null});
+patch(S,'c1_terms',[3,'choice',0,'then',0],{shot:'act-terms-write',look:'p1-contact',motion:{id:'p1-c1-terms-written-and-slid',ms:2800,sounds:[{at:.08,cue:'pen_write'},{at:.55,cue:'paper_slide'}],backdrop:{frames:[{offset:0,art:'act-terms-write'},{offset:.55,art:'act-terms-slide'},{offset:1,art:'act-terms-slide'}]}}});
+patch(S,'c1_terms',[3,'choice',0,'then',1],{shot:null});
+patch(S,'c1_terms',[3,'choice',0,'then',3],{shot:'act-terms-sign',look:'p1-contact',motion:{id:'p1-c1-terms-signed-and-copied',ms:3200,sounds:[{at:.08,cue:'pen_write'},{at:.58,cue:'pen_write'}],backdrop:{frames:[{offset:0,art:'act-terms-sign'},{offset:.55,art:'act-terms-copy'},{offset:1,art:'act-terms-copy'}]}}});
+patch(S,'c1_terms',[4],{shot:null});
+patch(S,'c1_observe',[6],{look:null,motion:{id:'p1-c1-gloves-observed',ms:1300,backdrop:{frames:[{offset:0,art:'wren_door'},{offset:.5,art:'wren-observed-gloves'}]}}});
+patch(S,'c1_observe',[7],{shot:null});
+// Horse care remains a single baked Finn, followed by the original native speaker.
+patch(S,'c1_neighbourhood',[1],{shot:'act-finn-care',look:[32,34,38,30]});
+patch(S,'c1_neighbourhood',[2],{look:[32,34,38,30],motion:{id:'p1-c1-finn-finishes-ear',ms:1700,backdrop:{frames:[{offset:0,art:'act-finn-care'},{offset:.5,art:'act-finn-turn'},{offset:1,art:'act-finn-turn'}]}}});
+patch(S,'c1_neighbourhood',[3],{shot:null});
+patch(S,'c1_neighbourhood',[22],{motion:{id:'p1-c1-finn-boards',ms:850,actors:[{id:'finn',hide:true}]}});
+patch(S,'c1_neighbourhood',[24],{look:null,valePhysical:{finnCabDeparted:true},motion:{id:'p1-c1-finn-cab-departs',ms:1500,backdrop:{frames:[{offset:0,art:'cab_stand'},{offset:.6,art:'cab_stand_departed'},{offset:1,art:'cab_stand_departed'}]}}});
+// Bell stays behind the chain. Each handover resolves to the empty hand, not a duplicate note.
+patch(S,'c1_direct',[4],{look:[36,27,29,29],valePhysical:{wrenDoor:'chained'},motion:{id:'p1-c1-door-chain-opens',ms:1450,backdrop:{frames:[{offset:0,art:'wren_door'},{offset:.45,art:'wren-door-chain'},{offset:1,art:'wren-door-chain'}]}}});
+patch(S,'c1_direct',[12],{valePhysical:{wrenDoor:'closed'},motion:{id:'p1-c1-door-wait',ms:1100,backdrop:{frames:[{offset:0,art:'wren-door-chain'},{offset:.65,art:'wren_door'}]}}});
+patch(S,'c1_direct',[16],{look:[36,27,29,29],valePhysical:{wrenDoor:'chained',invitation:'held'},motion:{id:'p1-c1-invitation-handover',ms:2600,backdrop:{frames:[{offset:0,art:'wren_door'},{offset:.23,art:'wren-door-chain'},{offset:.48,art:'wren-door-note'},{offset:.85,art:'wren-door-chain'},{offset:1,art:'wren-door-chain'}]}}});
+patch(S,'c1_direct',[22],{valePhysical:{wrenDoor:'closed'},motion:{id:'p1-c1-door-final-close',ms:1150,backdrop:{frames:[{offset:0,art:'wren-door-chain'},{offset:.65,art:'wren_door'}]}}});
+// The envelope stays with Hart throughout; native portrait appears only after the action shot.
+patch(S,'c2_call',[8],{shot:'act-hart-envelope-search',look:'p1-contact',motion:{id:'p1-c2-hart-finds-gloves',ms:1900,backdrop:{frames:[{offset:0,art:'act-hart-envelope-search'},{offset:.5,art:'act-hart-envelope-gloves'},{offset:1,art:'act-hart-envelope-gloves'}]}}});
+patch(S,'c2_call',[11],{shot:null});
+patch(S,'c2_call',[14],{shot:'act-hart-envelope-tucked',look:'p1-contact'});
+patch(S,'c2_call',[15],{shot:null});
+patch(S,'c2_call',[18],{shot:'act-hart-envelope-away',look:'p1-contact',motion:{id:'p1-c2-couple-leaves-on-foot',ms:2600,actors:[{id:'hart',hide:true},{id:'celia',hide:true}],backdrop:{frames:[{offset:0,art:'act-hart-envelope-away'},{offset:.7,art:'c2_front_day'},{offset:1,art:'c2_front_day'}]}}});
+patch(S,'c2_call',[20],{shot:null});
+
+// Witnessed wedding and register actions; no historical claim is dramatised as fact.
+patch(S,'c3_open',[14],{shot:'act-wedding-ring',look:'p1-contact',motion:{id:'p1-c3-ring-and-hand',ms:2100,backdrop:{frames:[{offset:0,art:'act-wedding-ring'},{offset:.5,art:'act-wedding-hands'},{offset:1,art:'act-wedding-hands'}]}}});
+patch(S,'c3_open',[16],{shot:null});
+patch(S,'c3_open',[18],{shot:'act-register-sign',look:'p1-contact',motion:{id:'p1-c3-register-signed',ms:2200,backdrop:{frames:[{offset:0,art:'act-register-sign'},{offset:.55,art:'act-register-ready'},{offset:1,art:'act-register-ready'}]}}});
+patch(S,'c3_open',[22],{shot:null});
+patch(S,'c3_open',[29],{valeStage:{look:[31,38,66,44],ms:800}});
+patch(S,'c3_open',[41],{on:'celia',motion:{id:'p1-c3-wedding-to-resolve',ms:1050,actors:[{id:'celia',show:true,frames:[{offset:0,face:'smiling'},{offset:.65,face:'resolute'},{offset:1,face:'resolute'}]}]}});
+// First-person physical chain: reflected dressing, own forearm, visible helpers, then concealment.
+patch(S,'c4_disguise',[0],{shot:'act-vale-disguise-mirror',look:'p1-contact',motion:{id:'p1-c4-disguise-fitted',ms:2200,backdrop:{frames:[{offset:0,art:'act-vale-disguise-mirror'},{offset:.55,art:'act-vale-disguise-ready'},{offset:1,art:'act-vale-disguise-ready'}]}}});
+patch(S,'c4_disguise',[3],{shot:'act-vale-stumble-pov',look:'p1-contact'});
+patch(S,'c4_disguise',[4],{shot:null});
+patch(S,'c4_disguise',[5],{shot:'act-vale-support-pov',look:'p1-contact'});
+patch(S,'c4_disguise',[7],{shot:'act-bell-water-pov',look:'p1-contact',motion:{id:'p1-c4-water-and-smoke',ms:2800,backdrop:{frames:[{offset:0,art:'act-bell-water-pov'},{offset:.55,art:'act-bell-water-smoke-pov'},{offset:1,art:'act-bell-water-smoke-pov'}]}}});
+patch(S,'c4_exit',[6,'then',0],{shot:'act-vale-undisguise-pov',look:'p1-contact'});
+patch(S,'c4_exit',[7],{shot:null});
+// One Celia silhouette; both gloved hands support the original framed photograph.
+for(const[n,p,id]of[['c4_open_visit',[12],'p1-c4-frame-revealed'],['c4_disguise',[9],'p1-c4-frame-protected']])
+ patch(S,n,p,{shot:'parlour-panel-open',look:[53,35,17,13],motion:{id,ms:1350,actors:[{id:'celia',hide:true}],tracks:[{id:'p1-celia-holding',art:'celia-full',at:[58,49],w:40,ar:2/3,z:2,frames:[{offset:0,opacity:0},{offset:.2,opacity:1},{offset:.45,art:'celia-holding'},{offset:1,art:'celia-holding'}]}]}});
+patch(S,'c4_disguise',[10],{look:[53,35,17,13]});
+patch(S,'c4_open_visit',[15],{shot:null,valePhysical:{remove:['p1-celia-holding']}});
+patch(S,'c4_open_explore',[0],{shot:null,valePhysical:{remove:['p1-celia-holding']}});
+for(const[n,p,id]of[['c4_open_explore',[1],'p1-c4-panel-closed'],['c4_disguise',[14],'p1-c4-panel-returned']])
+ patch(S,n,p,{valePhysical:{remove:['p1-celia-holding']},motion:{id,ms:1100,backdrop:{frames:[{offset:0,art:'parlour-panel-open'},{offset:.65,art:'c4_parlour'}]}}});
+patch(S,'c4_open_explore',[2],{shot:null});
+patch(S,'c4_alarm_explore',[0],{shot:null,valePhysical:{remove:['p1-celia-holding']}});
+patch(S,'c4_alarm_explore',[1,'choice',1,'then',0],{shot:'act-frame-retrieve-pov',look:'p1-contact',motion:{id:'p1-c4-panel-taken',ms:2700,backdrop:{frames:[{offset:0,art:'act-frame-retrieve-pov'},{offset:.55,art:'act-frame-conceal-pov'},{offset:1,art:'act-frame-conceal-pov'}]}}});
+patch(S,'c4_alarm_explore',[2],{shot:null});
+patch(S,'c5_open',[4],{look:null,motion:{id:'p1-c5-passerby',ms:1450,tracks:[{id:'p1-walker',art:'c5_walker-full',at:[32,43],w:38,ar:2/3,z:3,frames:[{offset:0,at:[25,43],opacity:0},{offset:.2,opacity:1},{offset:1,at:[51,43],opacity:1}]}]}});
+patch(S,'c5_open',[6],{motion:{id:'p1-c5-two-fingers',ms:2000,tracks:[{id:'p1-walker',art:'c5_walker-full',at:[51,43],w:38,ar:2/3,z:3,frames:[{offset:0,at:[51,43]},{offset:.15,art:'c5-walker-salute'},{offset:.55,at:[54,43],art:'c5-walker-salute'},{offset:.7,art:'c5_walker-full'},{offset:1,at:[88,43],opacity:0}],remove:true}]}});
+const cab=S.nodes.c5_follow?.[2]?.explore?.spots.find(s=>s.id==='cab');if(cab?.then?.[0])Object.assign(cab.then[0],{valePhysical:{cabDeparted:true},motion:{id:'p1-c5-cab-departs',ms:1200,backdrop:{frames:[{offset:0,art:'c5_corner'},{offset:.55,art:'c5_corner_departed'}]}}});
+patch(S,'c5_possession',[3,'then',0],{shot:'act-frame-desk',look:'p1-contact'});
+patch(S,'c5_possession',[3,'then',1,'choice',1,'then',3],{shot:'act-frame-wrap',look:'p1-contact',motion:{id:'p1-c5-frame-wrapped',ms:2500,sounds:[{at:.1,cue:'paper_fold'},{at:.58,cue:'paper_fold'}],backdrop:{frames:[{offset:0,art:'act-frame-wrap'},{offset:.6,art:'act-frame-wrapped'},{offset:1,art:'act-frame-wrapped'}]}}});
+patch(S,'c5_close',[1],{shot:null});
+// The original item drop/receipt remains at c5_return[8–10]; the shot shows who holds it now.
+patch(S,'c5_return',[1],{shot:'act-photo-return-offer',look:'p1-contact'});
+patch(S,'c5_return',[3],{look:'p1-contact',motion:{id:'p1-c5-bell-receives-frame',ms:1800,backdrop:{frames:[{offset:0,art:'act-photo-return-offer'},{offset:.55,art:'act-photo-return-received'},{offset:1,art:'act-photo-return-received'}]}}});
+patch(S,'c5_return',[4],{look:[34,20,27,16]});
+patch(S,'c5_return',[11],{shot:null,valeStage:{hide:['bell']}});
+patch(S,'c6_terms',[4],{bg:'parlour-terms',valePhysical:{photoSealed:false}});patch(S,'c6_terms',[16],{motion:{id:'p1-c6-departure',ms:1300,backdrop:{frames:[{offset:0,art:'parlour-terms'},{offset:.75,art:'c6_room'}]}}});patch(S,'c6_terms',[10],{shot:'act-celia-signs',look:'p1-contact',valePhysical:{photoSealed:true},valeStage:{},motion:{id:'p1-c6-signatures-seal-and-receipts',ms:10000,sounds:[{at:.03,cue:'pen_write'},{at:.23,cue:'pen_write'},{at:.41,cue:'paper_fold'},{at:.46,cue:'wax_press'},{at:.64,cue:'pen_write'},{at:.84,cue:'paper_slide'}],backdrop:{frames:[{offset:0,art:'act-celia-signs'},{offset:.2,art:'act-matthias-signs'},{offset:.4,art:'act-sealed-packet'},{offset:.62,art:'act-pike-receipts'},{offset:.82,art:'act-hart-copies'},{offset:1,art:'act-hart-copies'}]}}});
+patch(S,'c6_visit',[10,'explore','spots',2,'then',1],{shot:'c6_room',look:[70,13,12,20],motion:{id:'p1-c6-empty-recess',ms:2300,backdrop:{frames:[{offset:0,art:'c6_room'},{offset:.22,art:'parlour-day-empty-panel'},{offset:.78,art:'c6_room'},{offset:1,art:'c6_room'}]}}});
+patch(S,'c6_visit',[10,'explore','spots',2,'then',2],{shot:null});
+patch(S,'c6_truth',[6],{look:'p1-final-portrait',motion:{id:'p1-c6-solo-portrait-kept',ms:1400,tracks:[{id:'p1-final-portrait',art:'evidence-portrait',at:[54,77],w:7,ar:1,z:2,frames:[{offset:0,at:[54,87],opacity:0,rotate:-6},{offset:.2,opacity:1},{offset:1,at:[54,77],rotate:0}]}]}});
+// One frame changes custody and orientation; the client's departure leaves only its wrapping.
+patch(S,'c6_delivery',[0],{shot:'act-client-photo-held',look:'p1-contact',motion:{id:'p1-c6-photo-face-down',ms:2400,backdrop:{frames:[{offset:0,art:'act-client-photo-held'},{offset:.56,art:'act-client-photo-down'},{offset:1,art:'act-client-photo-down'}]}}});
+patch(S,'c6_delivery',[1],{look:[40,27,22,13]});
+patch(S,'c6_delivery',[4],{shot:'act-client-photo-down',look:'p1-contact',motion:{id:'p1-c6-photo-into-case',ms:1650,backdrop:{frames:[{offset:0,art:'act-client-photo-down'},{offset:.55,art:'act-client-photo-packed'},{offset:1,art:'act-client-photo-packed'}]}}});
+patch(S,'c6_delivery',[6],{shot:'act-client-photo-packed',look:'p1-contact',valeStage:{hide:['matthias']},motion:{id:'p1-c6-client-departed',ms:1400,backdrop:{frames:[{offset:0,art:'act-client-photo-packed'},{offset:.6,art:'act-client-empty-wrapping'},{offset:1,art:'act-client-empty-wrapping'}]}}});
+patch(S,'c6_delivery',[9],{shot:null});
+}
+E.on('boot',()=>{if(!isP1())return;apply();letter();observer?.disconnect();observer=new MutationObserver(queue);observer.observe(q('.se'),{childList:true,subtree:true});queueMicrotask(apply);queue();});E.on('chapter',()=>{if(isP1()){apply();queueMicrotask(apply);}});E.on('step',(type,st)=>{if(!isP1())return;if(type==='explore'){if(st===E.S().nodes.c5_follow?.[2])st.explore.img=E.R().f.p1_cab_departed?'c5_corner_departed':'c5_corner';if(st===E.S().nodes.c6_terms?.[9]){st.explore.img='parlour-terms';const p=st.explore.spots.find(p=>p.id==='packet');if(p)Object.assign(p,{art:'celia-holding',artR:[18,28,39,39],r:[32,36,12,10],inspectR:[20,26,38,35],x:38,y:41});}}queue();});E.on('line',queue);
+})();
+/* Current-run records, shared by the native casebook and investigation board. */
+(() => {
+ const E=StoryEngine,V=ValeDemo,{esc}=E;
+ const nativeArt=E.itemArt,nativeView=E.ui.itemView,nativeNotice=E.ui.itemNotice;
+ const fold=t=>String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d');
+ const text=t=>typeof t==='string'?t:Object.values(t||{}).filter(v=>typeof v==='string').join(' ');
+ const label={object:{en:'Object / document',vi:'Đồ vật / tài liệu'},testimony:{en:'Testimony',vi:'Lời khai'},observation:{en:'Observed detail',vi:'Chi tiết quan sát'},inference:{en:'Conclusion',vi:'Suy luận'}};
+ const artAliases={letter:'letter',paper:'paper',newspaper:'newspaper',photograph:'photo',portrait:'portrait',invitation:'letter',agreement:'agreement',parcel:'parcel',register:'register',pin:'pin',coat:'coat',receipt:'paper',cab:'cab',gate:'gate'};
+ V.recordText=t=>E.ui.investigationText(t);
+ // Opt in without changing the native engine's default language policy. Keep
+ // semantic text nodes alive when translation changes; never redraw a puzzle.
+ E.ui.investigationText=t=>{
+  const main=E.tgt(t),sub=E.sub(t);
+  return `<span class="vd-investigation-copy"><span class="vd-investigation-main" lang="${esc(E.L)}">${esc(main)}</span>${sub?`<span class="vd-investigation-sub" lang="${esc(E.N)}"${E.G().set.tr?'':' hidden'}>${esc(sub)}</span>`:''}</span>`;
+ };
+ const setTr=E.ui.setTr;
+ E.ui.setTr=(...args)=>{const result=setTr(...args);document.querySelectorAll('.vd-investigation-sub').forEach(el=>{el.hidden=!E.G().set.tr;});return result;};
+ E.ui.itemNotice=id=>{
+  const result=nativeNotice(id),it=E.S()?.items?.[id];if(it&&!E.auto)document.querySelectorAll('.se-item-receipt[data-record-id]').forEach(el=>{if(el.dataset.recordId===id){const title=el.querySelector(':scope>span>b');if(title)title.innerHTML=E.ui.investigationText(it.name);}});return result;
+ };
+ E.evidenceMeta=id=>{
+  const it=E.S()?.items?.[id]||{},raw=it.recordType||it.kind||'observation';
+  const type=raw==='document'?'object':['object','testimony','inference','observation'].includes(raw)?raw:'observation';
+  const who=it.who||'',portrait=who==='matthias'&&E.known(who)?'matthias-unmasked':who;
+  return {type,group:type==='testimony'?'testimony':type==='inference'?'inference':'objects',who,chapter:+it.chapter||+(id.match(/^c(\d)_/)?.[1])||1,art:type==='testimony'&&portrait?'im-'+portrait:id==='visitor_observed'?'im-wren_door':'im-evidence-'+(artAliases[it.artAlias]||it.artAlias||'paper'),brief:it.brief||it.desc,sourceLabel:it.sourceLabel||it.source||label[type]};
+ };
+ E.itemArt=(id,cls='')=>{
+  const it=E.S()?.items?.[id];if(!it)return nativeArt(id,cls);
+  const m=E.evidenceMeta(id);
+  return `<span class="se-ia vd-record-art ${esc(cls)} is-${m.type}" aria-hidden="true"><i class="${esc(m.art)}"></i>${m.type==='testimony'?'<span class="vd-quote-mark">“</span>':m.type==='inference'?'<span class="vd-inference-mark">∴</span>':''}</span>`;
+ };
+ E.ui.itemView=id=>{
+  nativeView(id);const it=E.S()?.items?.[id],v=V.q('.se-iv');if(!it||!v)return;
+  const m=E.evidenceMeta(id),card=v.querySelector('.se-ivc'),heading=card.querySelector(':scope>b'),desc=card.querySelector(':scope>p');
+  v.classList.add('vd-record-detail');v.setAttribute('role','dialog');v.setAttribute('aria-modal','true');v.setAttribute('aria-label',E.tgt(it.name));
+  heading.innerHTML=E.ui.investigationText(it.name);desc.innerHTML=E.ui.investigationText(it.desc);
+  heading.insertAdjacentHTML('beforebegin',`<span class="vd-record-kind is-${m.type}">${E.ui.investigationText(label[m.type])}</span>`);
+  desc.insertAdjacentHTML('afterend',`<p class="vd-record-source">${E.ui.investigationText(m.sourceLabel)}</p>${m.type==='testimony'?`<p class="vd-record-note">${E.ui.investigationText({en:'An account to check against other evidence.',vi:'Lời kể cần được đối chiếu với chứng cứ khác.'})}</p>`:''}`);
+  const hint=card.querySelector(':scope>small');if(hint)hint.remove();
+  const close=document.createElement('button');close.className='se-ib vd-record-close';close.dataset.vdClose='';close.setAttribute('aria-label','Back to records · Về hồ sơ');close.innerHTML='×';card.prepend(close);
+  const click=v.onclick;
+  v.onclick=e=>{if(e.target===v||e.target.closest('[data-vd-close],[data-cw],[data-cwi],.se-cwl'))click?.(e);};
+  v.onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();close.click();}};
+  close.focus({preventScroll:true});
+ };
+ const mountRecords=panel=>{
+  const R=E.R(),S=E.S(),ids=R.items.filter(id=>S.items[id]),groups=[...new Set(ids.map(id=>E.evidenceMeta(id).chapter))].sort((a,b)=>b-a);
+  const state=V.recordBrowser||={filter:'all',query:''};
+  panel.classList.add('vd-record-browser');
+  const card=id=>{const it=S.items[id],m=E.evidenceMeta(id);return `<button class="vd-record-card" data-it="${esc(id)}" data-record-group="${m.group}" data-record-search="${esc(fold(text(it.name)+' '+text(it.desc)+' '+text(m.sourceLabel)))}">${E.itemArt(id)}<span class="vd-record-copy"><span class="vd-record-kind is-${m.type}">${esc(E.nat(label[m.type]))}</span><b>${V.recordText(it.name)}</b><span class="vd-record-brief">${V.recordText(m.brief)}</span><small>${V.recordText(m.sourceLabel)}</small></span></button>`;};
+  panel.innerHTML=`<div class="vd-record-controls"><div class="vd-record-filters" role="group" aria-label="Record type · Loại hồ sơ">${[['all','All','Tất cả'],['objects','Objects & traces','Đồ vật / dấu vết'],['testimony','Testimony','Lời khai']].map(([id,en,vi])=>`<button class="se-btn sm" data-record-filter="${id}" aria-pressed="false"><span>${en}</span><small>${vi}</small></button>`).join('')}</div><label class="vd-record-search"><span>Search records · Tìm hồ sơ</span><input class="se-in" type="search" autocomplete="off" placeholder="Name, detail or source · Tên, chi tiết, nguồn" value="${esc(state.query)}"></label><p class="vd-record-count" role="status" aria-live="polite"></p></div><div class="vd-record-groups">${groups.map((ch,i)=>`<details class="vd-record-chapter" data-record-chapter="${ch}" ${i===0?'open':''}><summary>Chapter ${ch} · Chương ${ch}<small></small></summary><div class="vd-record-list">${ids.filter(id=>E.evidenceMeta(id).chapter===ch).map(card).join('')}</div></details>`).join('')}</div><p class="vd-record-empty" hidden>No matching records.<span class="vd-vi">Không có hồ sơ phù hợp. Thử đổi bộ lọc hoặc từ tìm kiếm.</span></p>`;
+  const apply=()=>{
+   const words=fold(state.query).trim().split(/\s+/).filter(Boolean);let shown=0;
+   panel.querySelectorAll('[data-record-group]').forEach(el=>{const visible=(state.filter==='all'||el.dataset.recordGroup===state.filter)&&words.every(w=>el.dataset.recordSearch.includes(w));el.hidden=!visible;if(visible)shown++;});
+   panel.querySelectorAll('[data-record-chapter]').forEach(el=>{const count=[...el.querySelectorAll('[data-it]')].filter(e=>!e.hidden).length;el.hidden=!count;el.querySelector('summary small').textContent=count?String(count):'';if(state.query.trim())el.open=true;});
+   panel.querySelectorAll('[data-record-filter]').forEach(b=>{const on=b.dataset.recordFilter===state.filter;b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on));});
+   panel.querySelector('.vd-record-count').textContent=`${shown} / ${ids.length} records · hồ sơ`;
+   panel.querySelector('.vd-record-empty').hidden=shown>0;
+  };
+  panel.addEventListener('click',e=>{const b=e.target.closest('[data-record-filter]');if(b){state.filter=b.dataset.recordFilter;apply();E.sfx('tap');}});
+  panel.querySelector('input').oninput=e=>{state.query=e.target.value;apply();};apply();
+ };
+ const mountConclusions=panel=>{
+  const R=E.R(),S=E.S(),earned=Object.values(R.caseConclusions||{}),inferred=R.items.filter(id=>S.items[id]&&E.evidenceMeta(id).type==='inference'),ending=R.done&&S.endings[R.done]?.final?S.endings[R.done]:null;
+  panel.classList.add('vd-conclusions');
+  panel.innerHTML=(ending?`<article class="vd-case-resolution"><small>CASE OUTCOME · KẾT QUẢ VỤ ÁN</small><h3>${V.recordText(ending.title)}</h3><p>${V.recordText(ending.sum)}</p></article>`:'')+`<p class="se-mute">Conclusions as recorded at each chapter. Later evidence may settle an earlier open question.<span class="vd-vi">Suy luận được giữ theo thời điểm từng chương. Chứng cứ về sau có thể giải đáp điều trước đó còn bỏ ngỏ.</span></p>`+earned.map(c=>`<article class="vd-conclusion"><small>Recorded in Chapter ${+c.chapter||1} · Ghi ở Chương ${+c.chapter||1}</small><h3>${V.recordText(c.label)}</h3><div>${(c.sources||[]).filter(id=>R.items.includes(id)&&S.items[id]).map(id=>`<button class="se-btn sm" data-it="${esc(id)}">${E.itemArt(id,'sm')}<span>${V.recordText(S.items[id].name)}</span></button>`).join('')}</div></article>`).join('')+inferred.map(id=>`<button class="vd-record-card" data-it="${esc(id)}">${E.itemArt(id)}<span class="vd-record-copy"><small>Recorded in Chapter ${E.evidenceMeta(id).chapter} · Ghi ở Chương ${E.evidenceMeta(id).chapter}</small><b>${V.recordText(S.items[id].name)}</b><span>${V.recordText(E.evidenceMeta(id).brief)}</span></span></button>`).join('')+(!earned.length&&!inferred.length?'<p>No conclusions yet.<span class="vd-vi">Chưa có suy luận được ghi lại.</span></p>':'');
+ };
+ E.on('bookTab',({tab,panel,first})=>{if(!first)return;if(tab==='items')mountRecords(panel);else if(tab==='truths'&&!Object.keys(E.S().truths||{}).length)mountConclusions(panel);});
+})();
+/* Keep Enmi's original portrait overview; only add story-specific copy/actions. */
+(() => {
+ const E=StoryEngine,V=ValeDemo;
+ V.decorateTitle=()=>{const panel=V.q('.se-panel.ov'),body=V.q('.se-ovb');if(!body)return;
+  const meta=V.caseMeta(),has=E.hasRun(),blurb=body.querySelector('.se-ovd');
+  if(blurb)blurb.innerHTML=V.bi(E.S().tagline||{en:'Investigate at your own pace.',vi:'Điều tra theo nhịp của bạn.'});
+  const coverTitle=panel.querySelector('.se-ovt');if(coverTitle)coverTitle.insertAdjacentHTML('afterbegin',`<em>PART ${meta.part} · THE VALE DOSSIERS · 0.5</em>`);
+  const me=body.querySelector('[data-mebox]');if(me)me.innerHTML='<div class="vd-mobile-intro"><b>You are Adrian Vale · Bạn là thám tử Adrian Vale</b><small>Male protagonist · Nhân vật nam, tên cố định</small><p>Observe, question and draw your own conclusions.<span class="vd-vi">Trực tiếp quan sát, hỏi chuyện và tự suy luận.</span></p></div>';
+  // Native collection counts include intermediate chapter outcomes. Keep its
+  // history/action intact and distinguish it from the four final case endings.
+  const outcomes=body.querySelector('.se-ovend1>span>b');if(outcomes)outcomes.textContent=E.nat({en:'Chapter & case outcomes',vi:'Kết chương và kết vụ án'});
+  body.querySelector('.se-ovn')?.remove();
+  const start=body.querySelector('[data-go="new"]');if(start)start.innerHTML=has?'Begin again · Chơi lại':'Begin investigation · Bắt đầu điều tra';
+  const cont=body.querySelector('[data-go="cont"]');if(cont)cont.innerHTML='Continue · Tiếp tục điều tra';
+  body.insertAdjacentHTML('beforeend',`<div class="vd-title-links"><button class="se-btn" data-vd="guide">How to play · Cách chơi</button><button class="se-btn" data-vd="settings">Settings · Cài đặt</button><button class="se-btn" data-vd="routebook">Routes · Sơ đồ nhánh</button><button class="se-btn" data-vd="credits">Sources · Nguồn</button></div><p class="se-mute">${V.demoOnly?'Chapter 1 demo · 3 chapter outcomes<span class="vd-vi">Demo Chương 1 · 3 kết chương</span>':`Part ${meta.part} · ${meta.chapters} chapters · ${meta.endings} case endings<span class="vd-vi">Phần ${meta.part} · ${meta.chapters} chương · ${meta.endings} kết toàn vụ án</span>`}</p>`);
+  panel.addEventListener('click',e=>{const a=e.target.closest('[data-vd]')?.dataset.vd;if(a){e.stopImmediatePropagation();V[a]?.();return;}if(e.target.closest('[data-go="new"]')){e.stopImmediatePropagation();has?V.restart():V.start();}},true);
+ };
+})();
+/* Physical sound direction; no prose/branch/array changes. */
+(() => {'use strict';const E=StoryEngine;
+const cues={
+'p1-c1-note-first':[[.18,'paper_open']], 'p1-c1-note-again':[[.20,'paper_slide']], 'p1-c1-note-set-down':[[.6,'paper_down']],
+'p1-c1-remove-mask':[[.34,'cloth_move']], 'p1-c1-retainer-set-aside':[[.05,'coin_purse'],[.55,'cloth_move']], 'p1-c1-gloves-observed':[[.5,'cloth_move']], 'p1-c1-finn-cab-departs':[[.35,'horse_steps']],
+'p1-c1-door-chain-opens':[[.30,'chain_latch'],[.45,'door_move']], 'p1-c1-door-wait':[[.60,'door_move']], 'p1-c1-invitation-handover':[[.20,'door_move'],[.48,'paper_fold']], 'p1-c1-door-final-close':[[.60,'door_move']],
+'p1-c3-register-signed':[[.08,'pen_write']], 'p1-c4-frame-revealed':[[.25,'cabinet_slide']], 'p1-c4-frame-protected':[[.25,'cabinet_slide']], 'p1-c4-panel-closed':[[.65,'wood_down']], 'p1-c4-panel-returned':[[.65,'wood_down']], 'p1-c4-panel-taken':[[.35,'cabinet_slide'],[.75,'cloth_move']],
+'p1-c5-cab-departs':[[.32,'horse_steps']], 'p1-c5-bell-receives-frame':[[.23,'chain_latch'],[.55,'frame_slide']], 'p1-c6-photo-face-down':[[.56,'wood_down']], 'p1-c6-photo-into-case':[[.55,'cloth_move']], 'p1-c6-empty-recess':[[.22,'cabinet_slide'],[.78,'wood_down']],
+'p2-v06-correspondence-set-down':[[.8,'paper_down']], 'p2-v06-shutter-test':[[.27,'wood_down'],[.76,'door_move']], 'p2-v06-carrier-heel':[[.5,'frame_slide']],
+'p3-v06-outer-gate':[[.40,'gate_latch']], 'p3-v06-observed-bark':[[.38,'dog_bark'],[.66,'dog_bark']], 'p3-v06-door-sound-check':[[.28,'door_move']], 'p3-v06-private-letters-stored':[[.48,'cabinet_slide']], 'p3-v06-horse-forehead':[[.5,'cloth_move']]};
+const passages=[['You write the limits on a fresh sheet','pen_write'],['He signs. The signature is impatient','pen_write'],['Reed finds the maker in a trade directory.','paper_fold'],['You draw the curtain just far enough','cloth_move'],['Inside, Reed turns a fresh page.','paper_fold'],['You wrap the frame in clean paper.','paper_fold'],['Lydia opens her bag and takes out a folded note.','paper_open'],['When Lydia rises, she leaves the note on your desk','paper_slide'],['She folds the copy along its old crease.','paper_fold'],['She hands you a second note.','paper_slide'],['Later, the starting bell','bell_soft']];
+function walk(v,fn){if(!v||typeof v!=='object')return;fn(v);for(const[k,x]of Object.entries(v))if(!['motion','interrogation'].includes(k))walk(x,fn);}
+function apply(){const S=E.S();if(!S?.id?.startsWith('vale-dossiers'))return;const g=E.G().set;if(!Number.isFinite(g.ambLevel))g.ambLevel=.65;if(!Number.isFinite(g.sfxLevel))g.sfxLevel=.70;
+ for(const[id,sc]of Object.entries(S.scenes||{}))if(sc.amb==='rain'&&(['study','hall','room'].includes(sc.kind)||id==='carriage'))sc.amb='rainInside';
+ for(const tree of[S.nodes,S.places,S.talks])walk(tree,st=>{const list=cues[st.motion?.id];if(list)st.motion.sounds=list.map(([at,cue])=>({at,cue}));const text=typeof st.n==='string'?st.n:st.n?.en;const hit=text&&passages.find(([prefix])=>text.startsWith(prefix));if(hit&&!st.motion?.sounds?.length)st.foley=hit[1];});E.sound.refresh?.();}
+const later=()=>queueMicrotask(apply);E.on('boot',later);E.on('chapter',later);
+})();
