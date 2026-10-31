@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-31T07:53:04.258Z",
+ "at": "2026-10-31T08:04:23.853Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -2189,1822 +2189,6 @@
    "up": "2026-10-29"
   },
   {
-   "id": "game.the-interpreter",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [],
-   "rewards": "own",
-   "full": true,
-   "cover": {
-    "c1": "#1b2d3c",
-    "c2": "#e2a24a"
-   },
-   "chapters": 6,
-   "chList": [
-    {
-     "ch": 1,
-     "title": {
-      "en": "Lost for Words",
-      "vi": "Một chữ sai"
-     },
-     "sum": {
-      "en": "3 a.m., a body under the pier, and a terrified 16-year-old witness. Write down exactly what he says.",
-      "vi": "3 giờ sáng, một thi thể dưới cầu tàu và nhân chứng 16 tuổi đang run sợ. Ghi lại đúng từng chữ cậu nói."
-     }
-    },
-    {
-     "ch": 2,
-     "title": {
-      "en": "Fish and Lies",
-      "vi": "Cá và lời dối"
-     },
-     "sum": {
-      "en": "The dead boy is nineteen. A warm chip shop, a silent captain, and a face under a sheet.",
-      "vi": "Người chết mới mười chín tuổi. Một quán cá chiên ấm áp, một thuyền trưởng im lặng và một gương mặt dưới tấm vải."
-     }
-    },
-    {
-     "ch": 3,
-     "title": {
-      "en": "Witness",
-      "vi": "Nhân chứng"
-     },
-     "sum": {
-      "en": "A nurse who lies in the present perfect, and a dead man who changed children's words.",
-      "vi": "Một cô y tá nói dối bằng thì hiện tại hoàn thành, và một người đã chết từng sửa lời của bọn trẻ."
-     }
-    },
-    {
-     "ch": 4,
-     "title": {
-      "en": "The Benefactor",
-      "vi": "Ân nhân"
-     },
-     "sum": {
-      "en": "A charity gala. A rich man's offer: write carefully, and your brother comes home.",
-      "vi": "Một buổi tiệc từ thiện. Lời đề nghị của người giàu: ghi cẩn thận, và em trai bạn sẽ về nhà."
-     }
-    },
-    {
-     "ch": 5,
-     "title": {
-      "en": "Undertow",
-      "vi": "Sóng ngầm"
-     },
-     "sum": {
-      "en": "A storm, the old cannery, a lighthouse — and the person who was really on the pier at 1:47.",
-      "vi": "Một cơn bão, xưởng đồ hộp cũ, ngọn hải đăng — và kẻ thật sự có mặt trên cầu tàu lúc 1:47."
-     }
-    },
-    {
-     "ch": 6,
-     "title": {
-      "en": "Testimony",
-      "vi": "Lời khai"
-     },
-     "sum": {
-      "en": "Back to the courtroom. Word for word?",
-      "vi": "Trở lại phòng xử. Đúng từng chữ?"
-     }
-    }
-   ],
-   "count": 0,
-   "size": 3545409,
-   "badge": "beta",
-   "title": {
-    "vi": "Lời khai",
-    "en": "The Statement"
-   },
-   "desc": {
-    "vi": "Trinh thám nhiều nhánh: bạn là thám tử tập sự ở một thị trấn cảng nước Anh. Hỏi cung, khám xét, suy luận — ghi sai một chữ, người vô tội vào tù. Đủ 6 chương, 12 sự thật, 9 kết thúc.",
-    "en": "A branching detective story: you are a trainee detective in an English port town. Question, search, deduce — one wrong word can put an innocent man in prison. 6 chapters, 12 truths, 9 endings."
-   },
-   "files": [
-    {
-     "name": "art.css",
-     "size": 3938,
-     "sha256": "897afca216e50a7fbad641c737c5e924da39037905eb4c21f8e683791071acc3",
-     "path": "f/897afca216e50a7f.css"
-    },
-    {
-     "name": "art.js",
-     "size": 6861,
-     "sha256": "3a3e2baa85fe60384bdd9a3c8d43c833061227acb0751383b2e188e36aaae47e",
-     "path": "f/3a3e2baa85fe6038.js"
-    },
-    {
-     "name": "boot.js",
-     "size": 173,
-     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
-     "path": "f/d1c4a183daa37bba.js"
-    },
-    {
-     "name": "img/act-compare.jpg",
-     "size": 87962,
-     "sha256": "c66919a2503b83c7abf06082f2a70bdcbcee81b5133616e9195290883c69f7de",
-     "path": "f/c66919a2503b83c7.jpg"
-    },
-    {
-     "name": "img/car.jpg",
-     "size": 61492,
-     "sha256": "b5768b58bd8de56aca5ce76ed39061fcb90e71b8de3b9161b027a2b01d9770e7",
-     "path": "f/b5768b58bd8de56a.jpg"
-    },
-    {
-     "name": "img/cg-body.jpg",
-     "size": 54007,
-     "sha256": "94a6f0c9a5f999d8241443139272ac25606c8448a370b57811efbbcb25c1ff17",
-     "path": "f/94a6f0c9a5f999d8.jpg"
-    },
-    {
-     "name": "img/cg-camera.jpg",
-     "size": 53722,
-     "sha256": "bc177d9c135525f9c57f375fd217ec998ce2bfad1dd4d839da475e1a328da3df",
-     "path": "f/bc177d9c135525f9.jpg"
-    },
-    {
-     "name": "img/cg-cctv.jpg",
-     "size": 34885,
-     "sha256": "61152e35564c01563519024e916af69b3c403fa9a57c1ddbf7243b243fd2db87",
-     "path": "f/61152e35564c0156.jpg"
-    },
-    {
-     "name": "img/cg-hooks.jpg",
-     "size": 89158,
-     "sha256": "f02303e6b6b4afa625bb4771c68350bc86243c817cbf80e20ca8fb72497a9202",
-     "path": "f/f02303e6b6b4afa6.jpg"
-    },
-    {
-     "name": "img/cg-lockscreen.jpg",
-     "size": 68367,
-     "sha256": "c58e947af9700611d83c201fa8e10a52dadae8880aaeba100a47abd04211e9c4",
-     "path": "f/c58e947af9700611.jpg"
-    },
-    {
-     "name": "img/cg-sandal.jpg",
-     "size": 54397,
-     "sha256": "9d8b97e1f16e569e28b2a589b06d5ce1161938f76be8d842583f1f6cc99aa088",
-     "path": "f/9d8b97e1f16e569e.jpg"
-    },
-    {
-     "name": "img/cg-steps.jpg",
-     "size": 43510,
-     "sha256": "b6d84f171df273291ebb39055149ffd6200d4e0ca0544aa50c56893a92ab1ef5",
-     "path": "f/b6d84f171df27329.jpg"
-    },
-    {
-     "name": "img/cg-wallet.jpg",
-     "size": 67371,
-     "sha256": "a97054d1336bce3bc5af9f9c619ff7c9b04d0744abcde4d6f8057b7c59a56b13",
-     "path": "f/a97054d1336bce3b.jpg"
-    },
-    {
-     "name": "img/cg-whisper.jpg",
-     "size": 84539,
-     "sha256": "b7551313e339f6531d8360476aca97c60abecec412b388db5f63b81a6b7f92f0",
-     "path": "f/b7551313e339f653.jpg"
-    },
-    {
-     "name": "img/corridor.jpg",
-     "size": 73047,
-     "sha256": "8048e1c38415ffe79c6cfcd889016a2ae1d13b1392085a79129831ea82052992",
-     "path": "f/8048e1c38415ffe7.jpg"
-    },
-    {
-     "name": "img/court.jpg",
-     "size": 100819,
-     "sha256": "21be6d94b1843535b23f93a83c23ec2284e5dc70daee2ef5da4acb6a1da69bc8",
-     "path": "f/21be6d94b1843535.jpg"
-    },
-    {
-     "name": "img/cover.jpg",
-     "size": 77568,
-     "sha256": "581a17a3bb021560cd8bd263a3235659697250380e5e79dc38bbf7d95fd70f06",
-     "path": "f/581a17a3bb021560.jpg"
-    },
-    {
-     "name": "img/dawn.jpg",
-     "size": 84461,
-     "sha256": "854b2f86d7c610d222cb10abb26b2694c6ada6ae8dbe5cd88c407b603e044056",
-     "path": "f/854b2f86d7c610d2.jpg"
-    },
-    {
-     "name": "img/interview.jpg",
-     "size": 43780,
-     "sha256": "53c51822ac1093fb865c00ed73ce8465559107887f98e536f350658c026c56e8",
-     "path": "f/53c51822ac1093fb.jpg"
-    },
-    {
-     "name": "img/it-hook.jpg",
-     "size": 35340,
-     "sha256": "27586db27c28dd6696c121728448ccfa0394d48a6f04ba829585d09fbacf23d7",
-     "path": "f/27586db27c28dd66.jpg"
-    },
-    {
-     "name": "img/it-id_card.jpg",
-     "size": 23353,
-     "sha256": "8a471f7e60ef817e66a1a1a8aacc10bbe69bab9a7b3c10d9290ba028e1bea96e",
-     "path": "f/8a471f7e60ef817e.jpg"
-    },
-    {
-     "name": "img/it-jim_note.jpg",
-     "size": 35947,
-     "sha256": "f701b6a56e36541e02c2cd68defeb010cddf64527772ed0d58177549dd4687cf",
-     "path": "f/f701b6a56e36541e.jpg"
-    },
-    {
-     "name": "img/it-leg_it.jpg",
-     "size": 49904,
-     "sha256": "692c2a372b06254881137cbd15ef0cea0f1aaafa798a6a51cb515d3d8eaa4668",
-     "path": "f/692c2a372b062548.jpg"
-    },
-    {
-     "name": "img/it-notes.jpg",
-     "size": 24545,
-     "sha256": "977efd26e2f4e27c25be460ac7c6f442239a725e1b6f0315c3090ca129c4a077",
-     "path": "f/977efd26e2f4e27c.jpg"
-    },
-    {
-     "name": "img/it-phone.jpg",
-     "size": 25441,
-     "sha256": "3108049741d3ced7a00b9e2caf1f6f33583863e9b8970eb35710355f719a8721",
-     "path": "f/3108049741d3ced7.jpg"
-    },
-    {
-     "name": "img/it-sam_photo.jpg",
-     "size": 26878,
-     "sha256": "62e4a1809f33956766220930ba46bf369ba2b5d0b96c25b28d667ceddfc9c4af",
-     "path": "f/62e4a1809f339567.jpg"
-    },
-    {
-     "name": "img/it-trainer.jpg",
-     "size": 32371,
-     "sha256": "63693940f56a35569382d7999af32f2ba9846653275f3595b28a774691adc657",
-     "path": "f/63693940f56a3556.jpg"
-    },
-    {
-     "name": "img/it-voicemail.jpg",
-     "size": 24544,
-     "sha256": "cdcee7697228b2c8e8775beba0fd88ed1022bf7a6eb8fc50efb0aada859fc0f5",
-     "path": "f/cdcee7697228b2c8.jpg"
-    },
-    {
-     "name": "img/it-watch.jpg",
-     "size": 29438,
-     "sha256": "400f5443a47c225c64f8d5ae08c813a3ce9e6253d7ac58fc5930561c8247768c",
-     "path": "f/400f5443a47c225c.jpg"
-    },
-    {
-     "name": "img/jim.webp",
-     "size": 60598,
-     "sha256": "0c9f1011c13b525e5f65c9ad0ac2918308da296acfefa336bb7924fab2257f37",
-     "path": "f/0c9f1011c13b525e.webp"
-    },
-    {
-     "name": "img/judge.webp",
-     "size": 70756,
-     "sha256": "ef69e37375bac739a6db4d33086e3cf392260848074ed2d42da3d39d2921287d",
-     "path": "f/ef69e37375bac739.webp"
-    },
-    {
-     "name": "img/kieran-hope.webp",
-     "size": 41176,
-     "sha256": "adb5d6e51ee34ab53f733ddda27f74f6f7a15ae135e24c8135f69d72954d7b78",
-     "path": "f/adb5d6e51ee34ab5.webp"
-    },
-    {
-     "name": "img/kieran-relief.webp",
-     "size": 49068,
-     "sha256": "cf3e32b2be04686fe87a6b547b38f8e313affa7e360118a5014d62e5b01d8e67",
-     "path": "f/cf3e32b2be04686f.webp"
-    },
-    {
-     "name": "img/kieran-sad.webp",
-     "size": 58718,
-     "sha256": "363d171e3a005ae1c7094d55b7127a0638f82fe5152b2040c8c6c4f45a056ecd",
-     "path": "f/363d171e3a005ae1.webp"
-    },
-    {
-     "name": "img/kieran-scared.webp",
-     "size": 53680,
-     "sha256": "0eda02dda1a442ed4c859d3bf2ee87135c8330d2d5478dab95923ff5d6f97ab7",
-     "path": "f/0eda02dda1a442ed.webp"
-    },
-    {
-     "name": "img/kieran-shock.webp",
-     "size": 53918,
-     "sha256": "5be39fb4c19448117f9738372869dee82cf8540ee5f59ac0c2e47f6b91bfc434",
-     "path": "f/5be39fb4c1944811.webp"
-    },
-    {
-     "name": "img/kieran.webp",
-     "size": 50766,
-     "sha256": "0cc3ead31938a19619f8c539d67b68d4cb522ea02f2e7f7767cecc4a7eab3789",
-     "path": "f/0cc3ead31938a196.webp"
-    },
-    {
-     "name": "img/owen-angry.webp",
-     "size": 59904,
-     "sha256": "8f6ca7456b32a69b8aeaf571985ad0b88d4c7fac4043031f3d4439d56cd02c76",
-     "path": "f/8f6ca7456b32a69b.webp"
-    },
-    {
-     "name": "img/owen-cold.webp",
-     "size": 58872,
-     "sha256": "d24be21f37238f90ce846385572ee2e465a8f3b8b2e6c80b90888786588fbfa2",
-     "path": "f/d24be21f37238f90.webp"
-    },
-    {
-     "name": "img/owen-desperate.webp",
-     "size": 64990,
-     "sha256": "36a140724b38c4a601cd9107149df1284d54a9b76aeed5515dc950e66051b952",
-     "path": "f/36a140724b38c4a6.webp"
-    },
-    {
-     "name": "img/owen-smile.webp",
-     "size": 61776,
-     "sha256": "ebd482104354c271bc4398ec17242cd814a6615430e2ed0fe9eeda9ca0bf342f",
-     "path": "f/ebd482104354c271.webp"
-    },
-    {
-     "name": "img/owen.webp",
-     "size": 59532,
-     "sha256": "7b0fb68cf22779c8a6da4f01aef2a5a636db65b06fe6887d290cdda527a4f212",
-     "path": "f/7b0fb68cf22779c8.webp"
-    },
-    {
-     "name": "img/pier.jpg",
-     "size": 63371,
-     "sha256": "864bb33818320287864e32df62cda27fb356b11a6a05ede84354d1f2c9ab28d7",
-     "path": "f/864bb33818320287.jpg"
-    },
-    {
-     "name": "img/pub.jpg",
-     "size": 114326,
-     "sha256": "88752fb8f04b46cafb46ea485468204902e0a1dc130a870c1d8b4b6dc6431e6d",
-     "path": "f/88752fb8f04b46ca.jpg"
-    },
-    {
-     "name": "img/room.jpg",
-     "size": 71652,
-     "sha256": "15a8663a7918d9c68f4169b0bf675fb8ee426faddff18c48ed2174afe6b772fc",
-     "path": "f/15a8663a7918d9c6.jpg"
-    },
-    {
-     "name": "img/ruth-cold.webp",
-     "size": 48686,
-     "sha256": "e51a7b48e61147c3ff97b5f3a8bee95dc2f8dc9d049c5fc36d5f5f8c313450a9",
-     "path": "f/e51a7b48e61147c3.webp"
-    },
-    {
-     "name": "img/ruth-proud.webp",
-     "size": 48768,
-     "sha256": "cac15e59f9269a7931075f740359a9e0f8a5cebffc325382ec0c5ee809a10512",
-     "path": "f/cac15e59f9269a79.webp"
-    },
-    {
-     "name": "img/ruth-soft.webp",
-     "size": 48242,
-     "sha256": "6cd8d1fb20abc5c49cfe747c21299f5dba76e0d529b1dc2a415f7b3feb68dd29",
-     "path": "f/6cd8d1fb20abc5c4.webp"
-    },
-    {
-     "name": "img/ruth-surprised.webp",
-     "size": 48852,
-     "sha256": "d99a156e1f134b0657c4d8c628a329e36f7d363118208f93587252ddcbc7b20b",
-     "path": "f/d99a156e1f134b06.webp"
-    },
-    {
-     "name": "img/ruth.webp",
-     "size": 47332,
-     "sha256": "97d45aa314cf058b0be8bc123d6026a83b60b6dde3aefd0711a5ec753de9df75",
-     "path": "f/97d45aa314cf058b.webp"
-    },
-    {
-     "name": "img/sam-crying.webp",
-     "size": 50128,
-     "sha256": "f17be8f897b62037d2e57f3fecf422aa3dab78422a8831bc244ad456edb73aa1",
-     "path": "f/f17be8f897b62037.webp"
-    },
-    {
-     "name": "img/sam-sad.webp",
-     "size": 48384,
-     "sha256": "fdd9ead6458d0b0725abffbe2f5e12413e88c68abc7404dbe15ffacb2572070f",
-     "path": "f/fdd9ead6458d0b07.webp"
-    },
-    {
-     "name": "img/sam-scared.webp",
-     "size": 48372,
-     "sha256": "09ec3adfcd738d6a1149aa6987daa6086152185dfb0c1f137841d272f9f7e0c1",
-     "path": "f/09ec3adfcd738d6a.webp"
-    },
-    {
-     "name": "img/sam-smile.webp",
-     "size": 48548,
-     "sha256": "f69801ac31b1ce2bbc2376a17d49286ed94b9ead11af5d9791e07b9adb20926e",
-     "path": "f/f69801ac31b1ce2b.webp"
-    },
-    {
-     "name": "img/sam.webp",
-     "size": 49388,
-     "sha256": "f5533907f4639a82dd0ff488b748496fd9b184fca352836409d3628121d5595a",
-     "path": "f/f5533907f4639a82.webp"
-    },
-    {
-     "name": "index.html",
-     "size": 1810,
-     "sha256": "c0a0de375d2a767b33894adf3e645a00eb67c83dca1c485cab39b8cf0dec4aff",
-     "path": "f/c0a0de375d2a767b.html"
-    },
-    {
-     "name": "story/ch1.js",
-     "size": 69780,
-     "sha256": "3d50440cea58239c3714589e0e4405c9c504c52a87b3fe8db047ef7fe0ede668",
-     "path": "f/3d50440cea58239c.js"
-    },
-    {
-     "name": "story/lang/de.js",
-     "size": 165013,
-     "sha256": "392ae36f0ebd58db9d096417446c949587c375b7a1f0ecbfd0cae0a092ecc940",
-     "path": "f/392ae36f0ebd58db.js"
-    },
-    {
-     "name": "story/lang/ja.js",
-     "size": 69931,
-     "sha256": "752c7f2b29cdc40a5137c2373b478a91ae853c67dc1c61b75c7ea0cae9facd20",
-     "path": "f/752c7f2b29cdc40a.js"
-    },
-    {
-     "name": "story/lang/ko.js",
-     "size": 193,
-     "sha256": "7008b4ba1bbb9513c45b38d7ed7b90f96dd516ee985cf753ea75c0a46e59e6e9",
-     "path": "f/7008b4ba1bbb9513.js"
-    },
-    {
-     "name": "story/lang/zh.js",
-     "size": 205,
-     "sha256": "e84bce816159f0d7e1e046b34042acc78945649f7566e430bf3372f51e4cdd9d",
-     "path": "f/e84bce816159f0d7.js"
-    },
-    {
-     "name": "story/refs.js",
-     "size": 483,
-     "sha256": "06d5437f46eec28ac6e02b22990e18466f8e3a072cb896b3701e5efabe33d76e",
-     "path": "f/06d5437f46eec28a.js"
-    },
-    {
-     "name": "story/story.js",
-     "size": 13794,
-     "sha256": "3e87439b677621823d604a4ab5fff2fbbfd27762dbeaf212bc1b2606bb1ae1d3",
-     "path": "f/3e87439b67762182.js"
-    },
-    {
-     "name": "lib/story/core.js",
-     "size": 105539,
-     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
-     "path": "f/d531d7353a91b2db.js"
-    },
-    {
-     "name": "lib/story/fx.js",
-     "size": 13175,
-     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
-     "path": "f/37f194cfce1f33c2.js"
-    },
-    {
-     "name": "lib/story/flow.js",
-     "size": 12496,
-     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
-     "path": "f/8f2f54a8978f03a6.js"
-    },
-    {
-     "name": "lib/story/mech.js",
-     "size": 57331,
-     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
-     "path": "f/073f7ecd0ac011a9.js"
-    },
-    {
-     "name": "lib/story/mech-plus.js",
-     "size": 46680,
-     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
-     "path": "f/d6f17daa10910248.js"
-    },
-    {
-     "name": "lib/story/ui.css",
-     "size": 111358,
-     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
-     "path": "f/d82ade359c7ae0ec.css"
-    }
-   ],
-   "ver": "984028cc23",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.the-interpreter.ch2",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.the-interpreter",
-   "ch": 2,
-   "title": {
-    "en": "Fish and Lies",
-    "vi": "Cá và lời dối"
-   },
-   "count": 0,
-   "size": 1853521,
-   "files": [
-    {
-     "name": "art-ch2.css",
-     "size": 1879,
-     "sha256": "b021dd76173c6fd2b962e2dd16d56deac353af44d783600a395e0b156bec675e",
-     "path": "f/b021dd76173c6fd2.css"
-    },
-    {
-     "name": "img/act-chips.jpg",
-     "size": 70657,
-     "sha256": "77557207846ec31ce1ce1b9c4e5d22fe362e1b15e1ab6782de9d7febd009f3db",
-     "path": "f/77557207846ec31c.jpg"
-    },
-    {
-     "name": "img/act-debtbook.jpg",
-     "size": 89879,
-     "sha256": "3545627414402aeb48a4bfa5a1ea303f895cd1e05fdd87f1d6934c796a5ccd7d",
-     "path": "f/3545627414402aeb.jpg"
-    },
-    {
-     "name": "img/act-jacket.jpg",
-     "size": 55106,
-     "sha256": "79bfbb2d6eda6f8c5061178d2b0d79a4e3d011572dc65347bdaba12eb3c62df1",
-     "path": "f/79bfbb2d6eda6f8c.jpg"
-    },
-    {
-     "name": "img/act-laptop.jpg",
-     "size": 73332,
-     "sha256": "b18df32d171e6acb91fbc5d6b734bb02541867a854b009251416df6e4e991eae",
-     "path": "f/b18df32d171e6acb.jpg"
-    },
-    {
-     "name": "img/act-report.jpg",
-     "size": 94312,
-     "sha256": "4c1890cb377558d1e89022eefe66dadaefcb9edf6516f03f6455a065fc188c1a",
-     "path": "f/4c1890cb377558d1.jpg"
-    },
-    {
-     "name": "img/act-rota.jpg",
-     "size": 72129,
-     "sha256": "5079adb5dad58a43552013b7cfb4dc02d7536567015b2e0e8d766fe35c33191c",
-     "path": "f/5079adb5dad58a43.jpg"
-    },
-    {
-     "name": "img/cells.jpg",
-     "size": 101964,
-     "sha256": "4310db48881233fcf1f6d44aae03cab9d62ec27ac7a6deeb4e3be68671b951a9",
-     "path": "f/4310db48881233fc.jpg"
-    },
-    {
-     "name": "img/cg-morgue.jpg",
-     "size": 77205,
-     "sha256": "2253077bd5f7cd4e082933ea7d009757464d8f520ce9be57257c7b47c0c054c9",
-     "path": "f/2253077bd5f7cd4e.jpg"
-    },
-    {
-     "name": "img/cg-tom.jpg",
-     "size": 75330,
-     "sha256": "0d7da89244aa24920cb9d009c49c53fbadf6d7cc7463d9c57266bed6fc629b82",
-     "path": "f/0d7da89244aa2492.jpg"
-    },
-    {
-     "name": "img/chipshop.jpg",
-     "size": 92448,
-     "sha256": "16fad837180bbf168069930a1b255422ee996ea0e3fe31dce271735e984792e2",
-     "path": "f/16fad837180bbf16.jpg"
-    },
-    {
-     "name": "img/it-debt_book.jpg",
-     "size": 19512,
-     "sha256": "327ae0e2be35601bb89034809853d41e2ffe2376b7c21e709637a19baf6fd3c6",
-     "path": "f/327ae0e2be35601b.jpg"
-    },
-    {
-     "name": "img/it-pm_report.jpg",
-     "size": 25687,
-     "sha256": "39da77eab0eb55ccf3c8ff96e0811b27ab231fcb1511dc899ffeafc8e17fcbad",
-     "path": "f/39da77eab0eb55cc.jpg"
-    },
-    {
-     "name": "img/it-pub_tape.jpg",
-     "size": 21360,
-     "sha256": "8a4bdaefeccf1f98f5a6ab474609bff34402d4625ca7b7d445dfc23cec06a8b1",
-     "path": "f/8a4bdaefeccf1f98.jpg"
-    },
-    {
-     "name": "img/it-rota.jpg",
-     "size": 52911,
-     "sha256": "7b62a8471712f6824cc55b80e14d604c6a50c22b98dd09443a1293c21368e227",
-     "path": "f/7b62a8471712f682.jpg"
-    },
-    {
-     "name": "img/it-sam_jacket.jpg",
-     "size": 26993,
-     "sha256": "895721ee5ed2d0e5647aa452aca8016eb22ce09570880b9374abc7c546bb8773",
-     "path": "f/895721ee5ed2d0e5.jpg"
-    },
-    {
-     "name": "img/kitchen.jpg",
-     "size": 102089,
-     "sha256": "bdb049a4bd9c47eb97978aab39082b62c2e96b994b8e8467dfcc833a17cb7285",
-     "path": "f/bdb049a4bd9c47eb.jpg"
-    },
-    {
-     "name": "img/maggie-broken.webp",
-     "size": 61718,
-     "sha256": "f4b16c980f51a8e6d82cde641f86b5e3127cc0448670c067379ab64359f8a8f3",
-     "path": "f/f4b16c980f51a8e6.webp"
-    },
-    {
-     "name": "img/maggie-cold.webp",
-     "size": 55778,
-     "sha256": "495f018de0480748184fd33174661bf015ebcfea89186f4d69b5de99e1b9fa5e",
-     "path": "f/495f018de0480748.webp"
-    },
-    {
-     "name": "img/maggie-worried.webp",
-     "size": 54924,
-     "sha256": "af6a499dc1655bcd4bd768897191ecd5b7bf9a6ce622399ace97ceb56f945e90",
-     "path": "f/af6a499dc1655bcd.webp"
-    },
-    {
-     "name": "img/maggie.webp",
-     "size": 54074,
-     "sha256": "81371e853805015ae2c63250a9c454c351a3047c64fafbb8753c2458a04f6cb0",
-     "path": "f/81371e853805015a.webp"
-    },
-    {
-     "name": "img/morgue.jpg",
-     "size": 63517,
-     "sha256": "bce9097f7d66e0ab6bfbc674fc95c1875139f10a1ef1be899d07097aa12e8fa1",
-     "path": "f/bce9097f7d66e0ab.jpg"
-    },
-    {
-     "name": "img/office.jpg",
-     "size": 116790,
-     "sha256": "faaa36b5479832745b4904f886d1e0a9aa6f70c5a163807dd6932f29b59c7d77",
-     "path": "f/faaa36b547983274.jpg"
-    },
-    {
-     "name": "img/tom-angry.webp",
-     "size": 90518,
-     "sha256": "abb7ec5606091ad904d8143e450f3c32df2aee2a15728cb9016bd69435e74981",
-     "path": "f/abb7ec5606091ad9.webp"
-    },
-    {
-     "name": "img/tom-sad.webp",
-     "size": 91300,
-     "sha256": "18743773ec076a55572d9fbcf2cee39d25255b0a178261636393b392fee758a6",
-     "path": "f/18743773ec076a55.webp"
-    },
-    {
-     "name": "img/tom-soft.webp",
-     "size": 85142,
-     "sha256": "0d88a985ecd39b444a2624b80613b398bf6f77d232b22b143ea09b0b847c91ea",
-     "path": "f/0d88a985ecd39b44.webp"
-    },
-    {
-     "name": "img/tom.webp",
-     "size": 81820,
-     "sha256": "5216bee9fa7d0dd713b2a0289b94dbfae7566ece6d409aed8e436299aa2737c0",
-     "path": "f/5216bee9fa7d0dd7.webp"
-    },
-    {
-     "name": "story/ch2.js",
-     "size": 45147,
-     "sha256": "574931db7ae1c3f15697e89a169f2f0c8afa2e7ed156a6787dabe0e55cf45204",
-     "path": "f/574931db7ae1c3f1.js"
-    }
-   ],
-   "ver": "c19f915939",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.the-interpreter.ch3",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.the-interpreter",
-   "ch": 3,
-   "title": {
-    "en": "Witness",
-    "vi": "Nhân chứng"
-   },
-   "count": 0,
-   "size": 1253342,
-   "files": [
-    {
-     "name": "art-ch3.css",
-     "size": 1357,
-     "sha256": "32119769972e8f1e31edfb11a9ab278424dc9628817e0309fd29abf9b1451243",
-     "path": "f/32119769972e8f1e.css"
-    },
-    {
-     "name": "img/act-calendar.jpg",
-     "size": 71053,
-     "sha256": "4638b591c9ee0899387b512e306ff40251255d2c14d5f2ffe46ac19f3966487d",
-     "path": "f/4638b591c9ee0899.jpg"
-    },
-    {
-     "name": "img/act-drawer.jpg",
-     "size": 55935,
-     "sha256": "fbde11cf556150ae9e39ae694f5611ebefba9db195d07421212693151f0ff137",
-     "path": "f/fbde11cf556150ae.jpg"
-    },
-    {
-     "name": "img/act-tape.jpg",
-     "size": 68137,
-     "sha256": "f94c51c129a51629ad03c0518ded3567b5ba0cebd112973215ea675817656490",
-     "path": "f/f94c51c129a51629.jpg"
-    },
-    {
-     "name": "img/act-ticket.jpg",
-     "size": 80712,
-     "sha256": "136c07ea733b140078b4ff377189b284d4c1a78c6a5ed85004ff3f73072a904f",
-     "path": "f/136c07ea733b1400.jpg"
-    },
-    {
-     "name": "img/archive.jpg",
-     "size": 153906,
-     "sha256": "89ef2d8a8efe747f30142c543d1365e0d6f8554de4780b524e0d0b8fdbe26e44",
-     "path": "f/89ef2d8a8efe747f.jpg"
-    },
-    {
-     "name": "img/cg-ellie.jpg",
-     "size": 60249,
-     "sha256": "00cb7823fb0cf94a68578f5d0f079f3d7cd187d003a907804c361da476b5256b",
-     "path": "f/00cb7823fb0cf94a.jpg"
-    },
-    {
-     "name": "img/cg-letter.jpg",
-     "size": 70302,
-     "sha256": "7be81cd9287801080b297cd8dbc91ebab11e92625c7b4367a03a9bcf23282eb7",
-     "path": "f/7be81cd928780108.jpg"
-    },
-    {
-     "name": "img/cg-lighthouse.jpg",
-     "size": 56551,
-     "sha256": "70fe5948efe0935372a627b937e0af536404d8d52112b2056113550480a53976",
-     "path": "f/70fe5948efe09353.jpg"
-    },
-    {
-     "name": "img/ellie-angry.webp",
-     "size": 69082,
-     "sha256": "d464e27e14e349601e20667322603b70a6fc3a291524901daca74133c9702bca",
-     "path": "f/d464e27e14e34960.webp"
-    },
-    {
-     "name": "img/ellie-crying.webp",
-     "size": 67656,
-     "sha256": "b90bcdc0fbc326e5a89d7a481450dce9130035c5a3a0768b75290aa7a7e7b342",
-     "path": "f/b90bcdc0fbc326e5.webp"
-    },
-    {
-     "name": "img/ellie-relief.webp",
-     "size": 58386,
-     "sha256": "eae8ad075998cf1029218f1a26ac1b6c4a0264d4bf24fb5a7c8f03db6e2b5dc7",
-     "path": "f/eae8ad075998cf10.webp"
-    },
-    {
-     "name": "img/ellie.webp",
-     "size": 58296,
-     "sha256": "e1afb182ca48e49ec79d98f7240b1d72adb4bf6cd4e23e0d5f6befb887f59f01",
-     "path": "f/e1afb182ca48e49e.webp"
-    },
-    {
-     "name": "img/hospital.jpg",
-     "size": 79286,
-     "sha256": "0f2dac6292f73d956a63ab80f645ba80092b2a060416d0f24c4c660bc268a9fd",
-     "path": "f/0f2dac6292f73d95.jpg"
-    },
-    {
-     "name": "img/it-finch_note.jpg",
-     "size": 45500,
-     "sha256": "a5bcef8d6ab53191481b3602364a314dc7593a4ecfb3acea4fb59de6d6c55233",
-     "path": "f/a5bcef8d6ab53191.jpg"
-    },
-    {
-     "name": "img/it-finch_report.jpg",
-     "size": 25306,
-     "sha256": "4482841853c3e93adf8060712eb228be6c2d0545e28e30ff1f1c73e9e3ee0b73",
-     "path": "f/4482841853c3e93a.jpg"
-    },
-    {
-     "name": "img/it-finch_tape.jpg",
-     "size": 19247,
-     "sha256": "4e476ac88baf50938c15176979148ab9dfed7b42cc4d63ec45711d88e76265a7",
-     "path": "f/4e476ac88baf5093.jpg"
-    },
-    {
-     "name": "img/it-letter.jpg",
-     "size": 24140,
-     "sha256": "b7d81940c23d993ee71984be48c202b470bea80bd7253d8c6d3b2eaf4d7bb396",
-     "path": "f/b7d81940c23d993e.jpg"
-    },
-    {
-     "name": "img/it-ticket.jpg",
-     "size": 32350,
-     "sha256": "e46afb58edb3e12feebf092ee8ad0bb14c239446215d1f0ae8de7284502da971",
-     "path": "f/e46afb58edb3e12f.jpg"
-    },
-    {
-     "name": "img/street.jpg",
-     "size": 122753,
-     "sha256": "44fe71390608cb5a398f95356b53c93d7045b4c4380fd2c0b6fb31fa7b5f4375",
-     "path": "f/44fe71390608cb5a.jpg"
-    },
-    {
-     "name": "story/ch3.js",
-     "size": 33138,
-     "sha256": "5d3f74399398c73b057e1733aa8273b96c4b1fe146d971b0e9d893c570339f97",
-     "path": "f/5d3f74399398c73b.js"
-    }
-   ],
-   "ver": "2a98e01518",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.the-interpreter.ch4",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.the-interpreter",
-   "ch": 4,
-   "title": {
-    "en": "The Benefactor",
-    "vi": "Ân nhân"
-   },
-   "count": 0,
-   "size": 1273606,
-   "files": [
-    {
-     "name": "art-ch4.css",
-     "size": 1394,
-     "sha256": "a260cd82aaddc55758a795fafb07c6b88f86bd0b4268116140698af2598a34f8",
-     "path": "f/a260cd82aaddc557.css"
-    },
-    {
-     "name": "img/act-champagne.jpg",
-     "size": 52603,
-     "sha256": "2db0b276858f5f1992610a51c098c094ae1beb3fb752f113a11c27040fb6fb71",
-     "path": "f/2db0b276858f5f19.jpg"
-    },
-    {
-     "name": "img/act-charger.jpg",
-     "size": 28861,
-     "sha256": "512405e9f89cc96ad28fe67efe8b47eba8decf65efc8b757a59cc7a803f5c6b5",
-     "path": "f/512405e9f89cc96a.jpg"
-    },
-    {
-     "name": "img/act-key.jpg",
-     "size": 52806,
-     "sha256": "145a56e37897bae5a592b46585d4161ce2b758a7e37c1921c53b21277eaf4777",
-     "path": "f/145a56e37897bae5.jpg"
-    },
-    {
-     "name": "img/act-ledger.jpg",
-     "size": 132878,
-     "sha256": "730fd86674d3a190a0c5b803224b69c62a4ea8a30e0188d726eb34c9fbe748dd",
-     "path": "f/730fd86674d3a190.jpg"
-    },
-    {
-     "name": "img/act-outfit-jeans.jpg",
-     "size": 59628,
-     "sha256": "0435f8a1de2a3c3b67038287015dd3ef5c12692b81c41fddd195effae73a8ee6",
-     "path": "f/0435f8a1de2a3c3b.jpg"
-    },
-    {
-     "name": "img/act-outfit-suit.jpg",
-     "size": 61458,
-     "sha256": "3ad0c5711dfe0aabc6cb1fdc3b020211a432e597c37547b47f56b4d4c6e29446",
-     "path": "f/3ad0c5711dfe0aab.jpg"
-    },
-    {
-     "name": "img/act-outfit-uniform.jpg",
-     "size": 59146,
-     "sha256": "2dd5402fdde8687cd95594642cb10712eedc133778cd103bd92eab5842aec3a6",
-     "path": "f/2dd5402fdde8687c.jpg"
-    },
-    {
-     "name": "img/cg-holt.jpg",
-     "size": 78978,
-     "sha256": "ca6992c30859b4340456032c2784b41077ac701c81300a7b437d4a015bb1b404",
-     "path": "f/ca6992c30859b434.jpg"
-    },
-    {
-     "name": "img/cg-safe.jpg",
-     "size": 62141,
-     "sha256": "c0591a92caa5c9a26c708a4ee95c891f1ebbdcfc623637a666ed06fd51936fe7",
-     "path": "f/c0591a92caa5c9a2.jpg"
-    },
-    {
-     "name": "img/gala.jpg",
-     "size": 126375,
-     "sha256": "aa60b8fde7ba3fd20ae4053a10d731d429ab6ac073b5b4807a2fa87ebd84a796",
-     "path": "f/aa60b8fde7ba3fd2.jpg"
-    },
-    {
-     "name": "img/galakitchen.jpg",
-     "size": 149738,
-     "sha256": "18c01b9a033add68123c293c9f67d612b995f6fc95ff3aa0d10948f358717bbc",
-     "path": "f/18c01b9a033add68.jpg"
-    },
-    {
-     "name": "img/holt-angry.webp",
-     "size": 52480,
-     "sha256": "b8e2e2b77fac300d8397cb29440fdf74ea1054f8b2e413b9345af9b89ac5077f",
-     "path": "f/b8e2e2b77fac300d.webp"
-    },
-    {
-     "name": "img/holt-cold.webp",
-     "size": 46036,
-     "sha256": "4ba9715c74d99f3147057f3b5c5cbf8c8672e5020e3907fdd6006461b39119d6",
-     "path": "f/4ba9715c74d99f31.webp"
-    },
-    {
-     "name": "img/holt-smug.webp",
-     "size": 47862,
-     "sha256": "936110eef8edda004dab4bee05d88f3621d2fc6092780fae9401e6fd3a66eb52",
-     "path": "f/936110eef8edda00.webp"
-    },
-    {
-     "name": "img/holt.webp",
-     "size": 46178,
-     "sha256": "a6302d9b7f93e5ce4e2c68f861309d8743b8c6a681cd5c09bb758c8d944bd25b",
-     "path": "f/a6302d9b7f93e5ce.webp"
-    },
-    {
-     "name": "img/it-gp_key.jpg",
-     "size": 21857,
-     "sha256": "5137492a48ec85a5c27d9821fea22715a4b803f2a8dd85b3e2cad7ef3695f4bc",
-     "path": "f/5137492a48ec85a5.jpg"
-    },
-    {
-     "name": "img/it-invite.jpg",
-     "size": 26731,
-     "sha256": "1eb690542a0a5e5564a9f442f8d3f3d56beccb263a9674ddd9d9d6a086a9cb80",
-     "path": "f/1eb690542a0a5e55.jpg"
-    },
-    {
-     "name": "img/it-ledger.jpg",
-     "size": 31607,
-     "sha256": "ee24cd3aecf0dd281bea61b4728757fe867e7734e13607faab0521bc477aa02b",
-     "path": "f/ee24cd3aecf0dd28.jpg"
-    },
-    {
-     "name": "img/it-recorder.jpg",
-     "size": 16580,
-     "sha256": "9d02eab46a8262754e58c5f07878d02bf1ea5ba9b894061026ef2b846fbe7892",
-     "path": "f/9d02eab46a826275.jpg"
-    },
-    {
-     "name": "img/study.jpg",
-     "size": 87201,
-     "sha256": "7d83c08f6f07b441a59487e72ff1f0c595c5fe0ae9958efa50e2c5ab78d84a70",
-     "path": "f/7d83c08f6f07b441.jpg"
-    },
-    {
-     "name": "story/ch4.js",
-     "size": 31068,
-     "sha256": "5a1f53d5540bdc4840db430169af8a7d756a3111f9d56e6189d38628bab03164",
-     "path": "f/5a1f53d5540bdc48.js"
-    }
-   ],
-   "ver": "0e599d150b",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.the-interpreter.ch5",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.the-interpreter",
-   "ch": 5,
-   "title": {
-    "en": "Undertow",
-    "vi": "Sóng ngầm"
-   },
-   "count": 0,
-   "size": 1593498,
-   "files": [
-    {
-     "name": "art-ch5.css",
-     "size": 1194,
-     "sha256": "166156c10be0f6fdefd761488ecce28cda2ef8dc0a8721b40b3a9e12a64aa213",
-     "path": "f/166156c10be0f6fd.css"
-    },
-    {
-     "name": "img/act-carving.jpg",
-     "size": 79178,
-     "sha256": "cba5e4e614b75fe016c4edde7746acc355e34830521611eb85f8a15b8fea3e97",
-     "path": "f/cba5e4e614b75fe0.jpg"
-    },
-    {
-     "name": "img/act-floor.jpg",
-     "size": 58112,
-     "sha256": "451e48979408a298d3fe303c3703bfa3cd9b5d4b483da8e6fbdfbc16f419dc1d",
-     "path": "f/451e48979408a298.jpg"
-    },
-    {
-     "name": "img/act-message.jpg",
-     "size": 53882,
-     "sha256": "6ff4afc0aeabbc450516b4261922a6f8697415fed25c52978062972c5c61a427",
-     "path": "f/6ff4afc0aeabbc45.jpg"
-    },
-    {
-     "name": "img/act-notebook.jpg",
-     "size": 97558,
-     "sha256": "de89b55bc2a7a401faf40ee5975c0067821eacd94d8e0bf864c4ebeccee179a1",
-     "path": "f/de89b55bc2a7a401.jpg"
-    },
-    {
-     "name": "img/act-torch.jpg",
-     "size": 64144,
-     "sha256": "49ed1bc2888c25708feed59072ab417ffe70b6676c0952f85afddec5b27e871a",
-     "path": "f/49ed1bc2888c2570.jpg"
-    },
-    {
-     "name": "img/cg-cliff.jpg",
-     "size": 93859,
-     "sha256": "8adc9b3451fcf3a48e35c6f515fa4460ace31cd254c9d92c77d50586919fb1c6",
-     "path": "f/8adc9b3451fcf3a4.jpg"
-    },
-    {
-     "name": "img/cg-north.jpg",
-     "size": 73613,
-     "sha256": "b2400c46a5bfdfb2c771847a976ab03e8e3e290e5d4a096e5d6a14cd1a05a50b",
-     "path": "f/b2400c46a5bfdfb2.jpg"
-    },
-    {
-     "name": "img/cg-owen.jpg",
-     "size": 100402,
-     "sha256": "1876ee242b601641fb981e30ea6b711aad51bc3d920471f573df71ef9a2ae925",
-     "path": "f/1876ee242b601641.jpg"
-    },
-    {
-     "name": "img/cg-rescue.jpg",
-     "size": 66752,
-     "sha256": "5200da8dd0ce9c690be40c6cfc63cada6d5f7bcb0821d16a66ff7666149fbfa3",
-     "path": "f/5200da8dd0ce9c69.jpg"
-    },
-    {
-     "name": "img/cg-reunion.jpg",
-     "size": 74847,
-     "sha256": "affff6f5a1079df07fd8dcba107a6ba070b5f277c7fd7abf2e8b3fc007b9102c",
-     "path": "f/affff6f5a1079df0.jpg"
-    },
-    {
-     "name": "img/coldstore.jpg",
-     "size": 125972,
-     "sha256": "fc4f819c27d1f5e1abe26f23b7e18f67719086595ea46ad06e6b45807aa6eff7",
-     "path": "f/fc4f819c27d1f5e1.jpg"
-    },
-    {
-     "name": "img/dorm.jpg",
-     "size": 108968,
-     "sha256": "5f7783ac90777c6f2346c3a0ddabccd9015cec4c206e9c37b89dbc8562581afd",
-     "path": "f/5f7783ac90777c6f.jpg"
-    },
-    {
-     "name": "img/gullpoint.jpg",
-     "size": 121791,
-     "sha256": "cb7c7bd15099ef36b3242fb242e5a8c941f4b29583343c23a82f861bf1d6be2d",
-     "path": "f/cb7c7bd15099ef36.jpg"
-    },
-    {
-     "name": "img/it-crowbar.jpg",
-     "size": 31715,
-     "sha256": "898b524093998e0afe56a72b95c6078fc471169463f7e2e54c9948315bf85119",
-     "path": "f/898b524093998e0a.jpg"
-    },
-    {
-     "name": "img/it-finch_tape2.jpg",
-     "size": 22198,
-     "sha256": "5b91e8a92cc49a0398be7b22ef444666def439f53f894f03ef69b3df0d95f79a",
-     "path": "f/5b91e8a92cc49a03.jpg"
-    },
-    {
-     "name": "img/it-oilskin.jpg",
-     "size": 41728,
-     "sha256": "fd887a2ada911eeeb49bd935cb61f3c1250a7b2a86f004eb42f637a29efaccf3",
-     "path": "f/fd887a2ada911eee.jpg"
-    },
-    {
-     "name": "img/it-sam_book.jpg",
-     "size": 21336,
-     "sha256": "4c62d55c90b8783e2c06958c1e7ceafc03b0d54090f37a1d105fa615a88a41c9",
-     "path": "f/4c62d55c90b8783e.jpg"
-    },
-    {
-     "name": "img/lamproom.jpg",
-     "size": 113209,
-     "sha256": "485cd43d83157ea17212913be43fa5ef3d2e0da8d606a3c9a0787c9b813cb214",
-     "path": "f/485cd43d83157ea1.jpg"
-    },
-    {
-     "name": "img/lighthouse.jpg",
-     "size": 82345,
-     "sha256": "88eba2c08da38995e210b6ce5fd255f9879859b24f72fecb5bce030daa78a79d",
-     "path": "f/88eba2c08da38995.jpg"
-    },
-    {
-     "name": "img/storm.jpg",
-     "size": 122359,
-     "sha256": "02a968cbe3f651d2942b66ead3fc02003316bda62faf15ec9aeab198aa9d7d89",
-     "path": "f/02a968cbe3f651d2.jpg"
-    },
-    {
-     "name": "story/ch5.js",
-     "size": 38336,
-     "sha256": "1901aa46ca9b6f265e0998e90f67a0b354fb789d3ec34c38ab68c2eb9d607d6b",
-     "path": "f/1901aa46ca9b6f26.js"
-    }
-   ],
-   "ver": "df440c604f",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.the-interpreter.ch6",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.the-interpreter",
-   "ch": 6,
-   "title": {
-    "en": "Testimony",
-    "vi": "Lời khai"
-   },
-   "count": 0,
-   "size": 550946,
-   "files": [
-    {
-     "name": "art-ch6.css",
-     "size": 568,
-     "sha256": "81f464cbed15d0e39f1d3f77a0fd39e0770a56023e6450eabdb9c94517cfdc08",
-     "path": "f/81f464cbed15d0e3.css"
-    },
-    {
-     "name": "img/act-evidence.jpg",
-     "size": 61487,
-     "sha256": "47af0a1ed1d45df5a86ea9404c4fc6beb4fe4dae55a3e33384f045fff8a9659a",
-     "path": "f/47af0a1ed1d45df5.jpg"
-    },
-    {
-     "name": "img/act-oath.jpg",
-     "size": 62121,
-     "sha256": "5d8f6a311b095b25c98505d2ce05a95068cdddd1dec38747805e3d327bf0da63",
-     "path": "f/5d8f6a311b095b25.jpg"
-    },
-    {
-     "name": "img/cg-dark.jpg",
-     "size": 62927,
-     "sha256": "b94ded6c2681b25bbff3a2f8e4ef9b745087c36d21f430dce99739530acf0b82",
-     "path": "f/b94ded6c2681b25b.jpg"
-    },
-    {
-     "name": "img/cg-finchletter.jpg",
-     "size": 71400,
-     "sha256": "7ec5e74051b90e1e4bfb4accd1e60d1a86257de07dacc0cf17a9af0899fc3059",
-     "path": "f/7ec5e74051b90e1e.jpg"
-    },
-    {
-     "name": "img/cg-home.jpg",
-     "size": 61600,
-     "sha256": "78d8d3e182131c3245eca25a6dd80880b4a33c3f7c497ac554e4b7d1855354ef",
-     "path": "f/78d8d3e182131c32.jpg"
-    },
-    {
-     "name": "img/cg-verdict.jpg",
-     "size": 46694,
-     "sha256": "2f73a4be15be598851ccd06cf3d57202a45b6d2ad0f617b424b1996758fd9831",
-     "path": "f/2f73a4be15be5988.jpg"
-    },
-    {
-     "name": "img/courthall.jpg",
-     "size": 101617,
-     "sha256": "635b9ee0c0490a4f51eccac7a53877f4257ddc6f5c1131e538592aef602693b1",
-     "path": "f/635b9ee0c0490a4f.jpg"
-    },
-    {
-     "name": "img/finch.webp",
-     "size": 55370,
-     "sha256": "f9c5e97065321f4d4e4d9c5ff7f3e9d18ce90f7ed287c2e2ec622cd525adada0",
-     "path": "f/f9c5e97065321f4d.webp"
-    },
-    {
-     "name": "story/ch6.js",
-     "size": 27162,
-     "sha256": "8ee17df74487868809b56ea5dffecf009ee7438e068e9b49ab87e67b9df2e1da",
-     "path": "f/8ee17df744878688.js"
-    }
-   ],
-   "ver": "988c91770a",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [],
-   "rewards": "own",
-   "full": true,
-   "cover": {
-    "c1": "#1b2d3c",
-    "c2": "#e2a24a"
-   },
-   "chapters": 4,
-   "chList": [
-    {
-     "ch": 1,
-     "title": {
-      "en": "First Shift",
-      "vi": "Ca đầu tiên"
-     },
-     "sum": {
-      "en": "A new town, a broken coffee machine and three strangers who keep coming back.",
-      "vi": "Thị trấn mới, máy pha cà phê hỏng và ba người lạ cứ quay lại mãi."
-     }
-    },
-    {
-     "ch": 2,
-     "title": {
-      "en": "Mixed Signals",
-      "vi": "Tín hiệu lẫn lộn"
-     },
-     "sum": {
-      "en": "A first date, a letter from the landlord, and a secret under the café floor.",
-      "vi": "Buổi hẹn đầu, lá thư của chủ nhà, và bí mật dưới sàn quán."
-     }
-    },
-    {
-     "ch": 3,
-     "title": {
-      "en": "The Festival",
-      "vi": "Lễ hội"
-     },
-     "sum": {
-      "en": "One night to save Café Lune. Music, lights — and a kitchen you shouldn't enter.",
-      "vi": "Một đêm để cứu Café Lune. Âm nhạc, đèn hoa — và một căn bếp bạn không nên bước vào."
-     }
-    },
-    {
-     "ch": 4,
-     "title": {
-      "en": "Last Summer Night",
-      "vi": "Đêm cuối mùa hè"
-     },
-     "sum": {
-      "en": "The council decides. You decide who you tell.",
-      "vi": "Hội đồng quyết định. Bạn quyết định nói với ai."
-     }
-    }
-   ],
-   "count": 0,
-   "size": 1488477,
-   "badge": "new",
-   "title": {
-    "vi": "Café Lune",
-    "en": "Café Lune"
-   },
-   "desc": {
-    "vi": "Truyện hẹn hò mùa hè ở Brighton: pha cà phê, lên lịch hẹn, tặng quà, nhắn tin — và cứu quán cà phê sắp bị phá. 4 tập, 3 người để yêu, 6 kết thúc.",
-    "en": "A summer romance in Brighton: make coffee, plan dates, choose gifts, text — and save a café about to be torn down. 4 episodes, 3 people to fall for, 6 endings."
-   },
-   "files": [
-    {
-     "name": "art.css",
-     "size": 1187,
-     "sha256": "c2ecabef23f804fc0751f68b8217860034006ae7e665f9655124ac8aaefa22e8",
-     "path": "f/c2ecabef23f804fc.css"
-    },
-    {
-     "name": "art.js",
-     "size": 180,
-     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
-     "path": "f/930a3d4da8303c3a.js"
-    },
-    {
-     "name": "boot.js",
-     "size": 173,
-     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
-     "path": "f/d1c4a183daa37bba.js"
-    },
-    {
-     "name": "img/act-busk.jpg",
-     "size": 65607,
-     "sha256": "41ac335f0c6bd312f4daa23ad85c375ccd95946f25c48d64ebedfa8885fe1f0a",
-     "path": "f/41ac335f0c6bd312.jpg"
-    },
-    {
-     "name": "img/act-football.jpg",
-     "size": 51654,
-     "sha256": "78ee60793b213d231ae2981bb78055c57abfb373b893f926ba1a357f7661736c",
-     "path": "f/78ee60793b213d23.jpg"
-    },
-    {
-     "name": "img/act-latte.jpg",
-     "size": 35425,
-     "sha256": "539a74e85c5ac20a760b1571d923f092dd29cb8398229c8333b854d2ee9b030c",
-     "path": "f/539a74e85c5ac20a.jpg"
-    },
-    {
-     "name": "img/act-library.jpg",
-     "size": 83555,
-     "sha256": "4da9ffe28e9c8e01b5f373322bed1d191ac6ea6adb95b9cbea3002a7a9f0fbe0",
-     "path": "f/4da9ffe28e9c8e01.jpg"
-    },
-    {
-     "name": "img/act-out-bold.jpg",
-     "size": 31540,
-     "sha256": "f24f48d65896299f80644cc766bf5a32464d47d3a8c1f890b5d32113d564029a",
-     "path": "f/f24f48d65896299f.jpg"
-    },
-    {
-     "name": "img/act-out-comfy.jpg",
-     "size": 57734,
-     "sha256": "869929be70bf21d698a8f85d3c9b45263e6889199f1ecf0f2fc1aba4ff4e34b5",
-     "path": "f/869929be70bf21d6.jpg"
-    },
-    {
-     "name": "img/act-out-neat.jpg",
-     "size": 48762,
-     "sha256": "4e5e9a639308493a8d138eb4341a694d105a881ad4b2a859b5dab1968bfcf7b4",
-     "path": "f/4e5e9a639308493a.jpg"
-    },
-    {
-     "name": "img/act-sea.jpg",
-     "size": 29236,
-     "sha256": "f3c07b350863eeb742b651553a9f6515958cb6ce70e0a81b241fbaddab8bde6e",
-     "path": "f/f3c07b350863eeb7.jpg"
-    },
-    {
-     "name": "img/act-swim.jpg",
-     "size": 62648,
-     "sha256": "8a1d6c910b0f62ee2ab52670f884871398568b892b0dd339e641a0cbb733b0e9",
-     "path": "f/8a1d6c910b0f62ee.jpg"
-    },
-    {
-     "name": "img/beachnight.jpg",
-     "size": 101314,
-     "sha256": "6b443123b8a9c1f0923b0fcf3c18589ed8528e3620512827f5c5e8958056dfc8",
-     "path": "f/6b443123b8a9c1f0.jpg"
-    },
-    {
-     "name": "img/cafe.jpg",
-     "size": 101478,
-     "sha256": "15d039a6eceb2f5d836139f02b46a245d42933cba6225299b95ac7183e6b8efb",
-     "path": "f/15d039a6eceb2f5d.jpg"
-    },
-    {
-     "name": "img/cover.jpg",
-     "size": 78792,
-     "sha256": "988f74ba4e3e56b1a49217f3446550769d1cc0844d6fc61ef214ebdba2c5e2fe",
-     "path": "f/988f74ba4e3e56b1.jpg"
-    },
-    {
-     "name": "img/flat.jpg",
-     "size": 68381,
-     "sha256": "8e352f7af1bcf1c25ca919b1fc4dbd2480980716a5f98295f7c785fbf910c882",
-     "path": "f/8e352f7af1bcf1c2.jpg"
-    },
-    {
-     "name": "img/it-apron.jpg",
-     "size": 29505,
-     "sha256": "8bd80738513a5adbfbb1693832b0f6516ea6490568ddf69bcf80834a18b22b6a",
-     "path": "f/8bd80738513a5adb.jpg"
-    },
-    {
-     "name": "img/it-flyer.jpg",
-     "size": 34099,
-     "sha256": "410399873a8dbdcfef405a4469e708ca789f033d76659931a03a80cb3cb27f07",
-     "path": "f/410399873a8dbdcf.jpg"
-    },
-    {
-     "name": "img/it-pick.jpg",
-     "size": 29352,
-     "sha256": "248c5963d19eb47774e324abc3abd2404f1bf1e71a5298f52b18136feca382bf",
-     "path": "f/248c5963d19eb477.jpg"
-    },
-    {
-     "name": "img/pier.jpg",
-     "size": 54728,
-     "sha256": "bd1a28784044172b603d6dee88cf7d90a031206bef3adfff32f9a2b99989a0c3",
-     "path": "f/bd1a28784044172b.jpg"
-    },
-    {
-     "name": "img/promenade.jpg",
-     "size": 62831,
-     "sha256": "777e0455abb004b46ebb4457ffe8b05eb25acb9984025445417669c1ebd7577f",
-     "path": "f/777e0455abb004b4.jpg"
-    },
-    {
-     "name": "img/rosa.webp",
-     "size": 32552,
-     "sha256": "c9b169cc2ee2ac584fd7c51f94ecf16fc2e576870af8ecb7f95fca1d37beb588",
-     "path": "f/c9b169cc2ee2ac58.webp"
-    },
-    {
-     "name": "img/train.jpg",
-     "size": 50246,
-     "sha256": "26b3dca0f47e21ced57459ca7c9b7168e0bfba128ff61f83d8e83d2cf4473e3c",
-     "path": "f/26b3dca0f47e21ce.jpg"
-    },
-    {
-     "name": "index.html",
-     "size": 1373,
-     "sha256": "aa0d0c2e6f1aa3dbb89e88e640e5176c50c888c629dc81ad75df4e8f2daa935d",
-     "path": "f/aa0d0c2e6f1aa3db.html"
-    },
-    {
-     "name": "story/ch1.js",
-     "size": 21559,
-     "sha256": "8b3021db2c97aeea7538e0086339eaa9f8f32c522d68822a12ecbde6cd25ddd2",
-     "path": "f/8b3021db2c97aeea.js"
-    },
-    {
-     "name": "story/refs.js",
-     "size": 319,
-     "sha256": "6baf08f78c2a5cf15c8a00ea09085343009bef5bca4efc435d054cd6afae39c4",
-     "path": "f/6baf08f78c2a5cf1.js"
-    },
-    {
-     "name": "story/story.js",
-     "size": 7668,
-     "sha256": "05c5f5d44bc39a8abd4eed0827e87e6ecf980e1c0d564c3b68c7b6e72d385c81",
-     "path": "f/05c5f5d44bc39a8a.js"
-    },
-    {
-     "name": "lib/story/core.js",
-     "size": 105539,
-     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
-     "path": "f/d531d7353a91b2db.js"
-    },
-    {
-     "name": "lib/story/fx.js",
-     "size": 13175,
-     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
-     "path": "f/37f194cfce1f33c2.js"
-    },
-    {
-     "name": "lib/story/flow.js",
-     "size": 12496,
-     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
-     "path": "f/8f2f54a8978f03a6.js"
-    },
-    {
-     "name": "lib/story/mech.js",
-     "size": 57331,
-     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
-     "path": "f/073f7ecd0ac011a9.js"
-    },
-    {
-     "name": "lib/story/mech-plus.js",
-     "size": 46680,
-     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
-     "path": "f/d6f17daa10910248.js"
-    },
-    {
-     "name": "lib/story/ui.css",
-     "size": 111358,
-     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
-     "path": "f/d82ade359c7ae0ec.css"
-    }
-   ],
-   "ver": "020a727005",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune.ch2",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.cafe-lune",
-   "ch": 2,
-   "title": {
-    "en": "Mixed Signals",
-    "vi": "Tín hiệu lẫn lộn"
-   },
-   "count": 0,
-   "size": 1577694,
-   "files": [
-    {
-     "name": "art-ch2.css",
-     "size": 1412,
-     "sha256": "f11f05623fd130f9bb433f24566798eb47215132e26c7fd8c9eecfe7bbc3453b",
-     "path": "f/f11f05623fd130f9.css"
-    },
-    {
-     "name": "img/act-arcade.jpg",
-     "size": 73971,
-     "sha256": "af82f00833866c9725af8e84ab261c034d0e49d58fb9aa0e69940849865815e3",
-     "path": "f/af82f00833866c97.jpg"
-    },
-    {
-     "name": "img/act-bookshop.jpg",
-     "size": 85683,
-     "sha256": "0260cb15bafd286092d62d28f4b6dd957098ae724c7a0b346cd881fff5ec4df7",
-     "path": "f/0260cb15bafd2860.jpg"
-    },
-    {
-     "name": "img/act-club.jpg",
-     "size": 65237,
-     "sha256": "5d01b309b3026e443fe7903473f68b3a78da432c9633fbad70fb5fee32465051",
-     "path": "f/5d01b309b3026e44.jpg"
-    },
-    {
-     "name": "img/act-cook.jpg",
-     "size": 40566,
-     "sha256": "490e57bedbc3f9a12ae9f718fc9bfd0397a1679ecaa77066301df027e136c8e0",
-     "path": "f/490e57bedbc3f9a1.jpg"
-    },
-    {
-     "name": "img/act-dinner.jpg",
-     "size": 81744,
-     "sha256": "0e69e0c0af19d0d8f66140b3a51c0277039222211b781da918a9dc0d27808d40",
-     "path": "f/0e69e0c0af19d0d8.jpg"
-    },
-    {
-     "name": "img/act-market.jpg",
-     "size": 100472,
-     "sha256": "e7423df833c740c919b2f2ed666206d99cea1624ef6385a2b6a11d8126212504",
-     "path": "f/e7423df833c740c9.jpg"
-    },
-    {
-     "name": "img/act-museum.jpg",
-     "size": 66368,
-     "sha256": "4844c98e6c2acce779b1335c73ba6e071ab69ce042a765f53faf5495d00d9233",
-     "path": "f/4844c98e6c2acce7.jpg"
-    },
-    {
-     "name": "img/act-notice.jpg",
-     "size": 59214,
-     "sha256": "95219d75f7e0c4ecf94ac06ca44096417bd703dac85fb01d802c1f081c736b15",
-     "path": "f/95219d75f7e0c4ec.jpg"
-    },
-    {
-     "name": "img/act-oldphoto.jpg",
-     "size": 94721,
-     "sha256": "97097af8f3dabdefe6aa1b480c0c2a8e53a9eb0a61e597bc89505a5e5046207c",
-     "path": "f/97097af8f3dabdef.jpg"
-    },
-    {
-     "name": "img/act-pavilion.jpg",
-     "size": 50977,
-     "sha256": "872a1b36e90f9486f7e7f44f89a5bbdc410545898aeda45ff3f659bece663fff",
-     "path": "f/872a1b36e90f9486.jpg"
-    },
-    {
-     "name": "img/act-phone3.jpg",
-     "size": 42815,
-     "sha256": "1f962031bc8901749398bdf4599982a89f627ce4148cb97cb7a27e9381cfb7e5",
-     "path": "f/1f962031bc890174.jpg"
-    },
-    {
-     "name": "img/act-records.jpg",
-     "size": 86398,
-     "sha256": "b970db35aa59d23cdf76070b22b4082802c8e90ad877c612a11a70d13639a419",
-     "path": "f/b970db35aa59d23c.jpg"
-    },
-    {
-     "name": "img/act-sunset.jpg",
-     "size": 84540,
-     "sha256": "86ad3e1d36559eda837f4cd3f614af463ee345ef9c9da64a3b142aec08477310",
-     "path": "f/86ad3e1d36559eda.jpg"
-    },
-    {
-     "name": "img/act-tiles.jpg",
-     "size": 105740,
-     "sha256": "93a1d9ea340a31b6d523add4031be2417491fe4ce44aa5eb7f2e6c0f3642731f",
-     "path": "f/93a1d9ea340a31b6.jpg"
-    },
-    {
-     "name": "img/basement.jpg",
-     "size": 78549,
-     "sha256": "c370b8d8ccaae44c15f09ce6450eac704dfcc0145d1e12a23f176b62f8bcd958",
-     "path": "f/c370b8d8ccaae44c.jpg"
-    },
-    {
-     "name": "img/blanc.jpg",
-     "size": 70019,
-     "sha256": "ce36960f3927f2efe6c8c4be0e0bcf6742834f550656bd72a0f23fdd3cac0a64",
-     "path": "f/ce36960f3927f2ef.jpg"
-    },
-    {
-     "name": "img/it-book.jpg",
-     "size": 41198,
-     "sha256": "9a1e22dbf7de6eb1559afe143205960a1062a95c9949b2461d84412d8845ea3b",
-     "path": "f/9a1e22dbf7de6eb1.jpg"
-    },
-    {
-     "name": "img/it-chilli.jpg",
-     "size": 31788,
-     "sha256": "50e667a492eff545198f984c713cec1e018b139e85ec9b5ced82735edbaa58c7",
-     "path": "f/50e667a492eff545.jpg"
-    },
-    {
-     "name": "img/it-lease.jpg",
-     "size": 34642,
-     "sha256": "a7fcde66c38a15c0586bad7adcce71f638bc652ec5762cfbc06d00a3a8b85de6",
-     "path": "f/a7fcde66c38a15c0.jpg"
-    },
-    {
-     "name": "img/it-notice.jpg",
-     "size": 35649,
-     "sha256": "73a6a82d4d6c2c8b05a8652625575db5c87f9440b208897ec7cb3097c58adfe0",
-     "path": "f/73a6a82d4d6c2c8b.jpg"
-    },
-    {
-     "name": "img/it-oldphoto.jpg",
-     "size": 29586,
-     "sha256": "e2c28dac48f531dc6cc89a7c2c1a0ffc75e432b9de29ce5bb393bad802dbc34b",
-     "path": "f/e2c28dac48f531dc.jpg"
-    },
-    {
-     "name": "img/it-shell.jpg",
-     "size": 22734,
-     "sha256": "9403ab2d98eff027bed834b3d2e07e2ca7f01cf924fc11c89281396d59b01437",
-     "path": "f/9403ab2d98eff027.jpg"
-    },
-    {
-     "name": "img/it-tile.jpg",
-     "size": 55060,
-     "sha256": "fb07d55185b23960df3e0386ed87de968e4671a91bdcd850f6f8c0993366e9ee",
-     "path": "f/fb07d55185b23960.jpg"
-    },
-    {
-     "name": "img/lanes.jpg",
-     "size": 111330,
-     "sha256": "531b75d6a902f6f69679ccc4a6ffc20fad6aeb4b250e76c978c2a38ab41250e7",
-     "path": "f/531b75d6a902f6f6.jpg"
-    },
-    {
-     "name": "story/ch2.js",
-     "size": 27281,
-     "sha256": "11befe422be3e4d209460912e1d4cfb24a81246823247cb46754e24f84d9327b",
-     "path": "f/11befe422be3e4d2.js"
-    }
-   ],
-   "ver": "7bbb511ce3",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune.ch3",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.cafe-lune",
-   "ch": 3,
-   "title": {
-    "en": "The Festival",
-    "vi": "Lễ hội"
-   },
-   "count": 0,
-   "size": 511538,
-   "files": [
-    {
-     "name": "art-ch3.css",
-     "size": 644,
-     "sha256": "01a0512b977da00bbaf58db85a5fb20b29feac9cb031b450d47aac5c88850ffd",
-     "path": "f/01a0512b977da00b.css"
-    },
-    {
-     "name": "img/act-lanterns.jpg",
-     "size": 83855,
-     "sha256": "597c71922146c89c53942ac1c3b87e7f8e9318817f2c24037d62730feaec648f",
-     "path": "f/597c71922146c89c.jpg"
-    },
-    {
-     "name": "img/act-reunion.jpg",
-     "size": 71178,
-     "sha256": "d58ab72c4245dc348d88d35fafb74278bb05904ff1291f7006cdc1b9a94d18ec",
-     "path": "f/d58ab72c4245dc34.jpg"
-    },
-    {
-     "name": "img/act-slip.jpg",
-     "size": 44034,
-     "sha256": "7dfb0b4776d6521ec2970f391876be4293378b7cc2595735563d545d10a257f0",
-     "path": "f/7dfb0b4776d6521e.jpg"
-    },
-    {
-     "name": "img/festival.jpg",
-     "size": 69545,
-     "sha256": "f49bf477ab733d5f8a6838d1e2259d6d505c9f1ec26f27687fa47a79022c93ec",
-     "path": "f/f49bf477ab733d5f.jpg"
-    },
-    {
-     "name": "img/it-beans.jpg",
-     "size": 49090,
-     "sha256": "27da4b189f23e7a95c744dc5c65c9b7bfb8c03a359bdcf4703659a925f36ce0c",
-     "path": "f/27da4b189f23e7a9.jpg"
-    },
-    {
-     "name": "img/it-lanterns.jpg",
-     "size": 33836,
-     "sha256": "fe4b1330f08dfac749eed03a3c2e8712704b68628e4bb3c37e20a2affe9269fc",
-     "path": "f/fe4b1330f08dfac7.jpg"
-    },
-    {
-     "name": "img/it-petition.jpg",
-     "size": 49394,
-     "sha256": "e5b3a6ea2905d0f349f3f0739bb5b87faf97c7078b0c22b204273586dd5554d6",
-     "path": "f/e5b3a6ea2905d0f3.jpg"
-    },
-    {
-     "name": "img/it-receipt.jpg",
-     "size": 26425,
-     "sha256": "a960595eb9c9b3f65d3b8a1233baaefd4a628c34e998e0acc0593334b918e759",
-     "path": "f/a960595eb9c9b3f6.jpg"
-    },
-    {
-     "name": "img/it-sign.jpg",
-     "size": 39443,
-     "sha256": "95364fda00c254a95e59cacfd4fed8ece90059a3155734cb66412219f403488b",
-     "path": "f/95364fda00c254a9.jpg"
-    },
-    {
-     "name": "img/it-torch.jpg",
-     "size": 27565,
-     "sha256": "d0b7062c4951922460f5e17554c352b5a298cb6af73741a309d1d87489d86aaf",
-     "path": "f/d0b7062c49519224.jpg"
-    },
-    {
-     "name": "story/ch3.js",
-     "size": 16529,
-     "sha256": "398690d8ec7dc42f8b017eed715764303760e5241483afde8b6a534dd5279b65",
-     "path": "f/398690d8ec7dc42f.js"
-    }
-   ],
-   "ver": "bd19545410",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.cafe-lune.ch4",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.cafe-lune",
-   "ch": 4,
-   "title": {
-    "en": "Last Summer Night",
-    "vi": "Đêm cuối mùa hè"
-   },
-   "count": 0,
-   "size": 428205,
-   "files": [
-    {
-     "name": "art-ch4.css",
-     "size": 406,
-     "sha256": "d88b89f4c2485954f78387d119d4fe76b7ccec0752e754d31bbbc53fc0bbbb6a",
-     "path": "f/d88b89f4c2485954.css"
-    },
-    {
-     "name": "img/act-vote.jpg",
-     "size": 76835,
-     "sha256": "3971586c61af6ca43512ba7b5a56d93be8bac3f475cf8ce8e7050ebe2c7af3b3",
-     "path": "f/3971586c61af6ca4.jpg"
-    },
-    {
-     "name": "img/cg-ines.jpg",
-     "size": 78246,
-     "sha256": "1fa6474352b3e708c6d82faea4cf398cd0d42c7d257cbfc373915c8057c4e362",
-     "path": "f/1fa6474352b3e708.jpg"
-    },
-    {
-     "name": "img/cg-mila.jpg",
-     "size": 73393,
-     "sha256": "1ace34286cd8a8ae1a425a0db846d810a9da790d202992f5facde2ee83bad89f",
-     "path": "f/1ace34286cd8a8ae.jpg"
-    },
-    {
-     "name": "img/cg-theo.jpg",
-     "size": 67125,
-     "sha256": "447fbb84770a72b4b842bf217c574e8ecab88dd45f81191ef8c830cae847d81b",
-     "path": "f/447fbb84770a72b4.jpg"
-    },
-    {
-     "name": "img/council.jpg",
-     "size": 81205,
-     "sha256": "fc052466ed894746286c17052510a2ee25176ddb1988ffb8012a6bbe32eaf745",
-     "path": "f/fc052466ed894746.jpg"
-    },
-    {
-     "name": "img/it-rosaletter.jpg",
-     "size": 33342,
-     "sha256": "993e14f321d67a0c33909752f91d0f29668657bfd67022a1ef64451628c56ef4",
-     "path": "f/993e14f321d67a0c.jpg"
-    },
-    {
-     "name": "story/ch4.js",
-     "size": 17653,
-     "sha256": "bbb4d148b1ded6dcfefddc5a37dfc48001c915c0cc55fc8f190f05df574deabd",
-     "path": "f/bbb4d148b1ded6dc.js"
-    }
-   ],
-   "ver": "ba8c47cd3f",
-   "up": "2026-10-29"
-  },
-  {
    "id": "game.seven-mornings",
    "kind": "game",
    "lang": "",
@@ -4161,7 +2345,6 @@
     "c1": "#16283a",
     "c2": "#d9a04a"
    },
-   "chapters": 5,
    "chList": [
     {
      "ch": 1,
@@ -4228,17 +2411,41 @@
     }
    ],
    "count": 0,
-   "size": 20766044,
+   "size": 25023053,
    "badge": "new",
    "title": {
     "vi": "Giữa hai con nước",
     "en": "Between Tides"
    },
    "desc": {
-    "vi": "Trinh thám trên một hòn đảo chỉ nối với đất liền khi nước ròng: đêm nay đường ngầm đóng, một người không về. Hỏi chuyện, so giờ thuỷ triều, nghe lời khai — 5 chương đã ra, chương cuối sắp ra mắt.",
-    "en": "A detective story on an island cut off at high tide: tonight the causeway closes and a man never comes home. Question, check the tide times, weigh every statement — 5 chapters out, the final chapter coming soon."
+    "vi": "Trinh thám trên một hòn đảo chỉ nối với đất liền khi nước ròng: đêm nay đường ngầm đóng, một người không về. Hỏi chuyện, so giờ thuỷ triều, nghe lời khai. Tải một lần là có đủ 5 chương; chương cuối sẽ vào cùng gói ở bản cập nhật.",
+    "en": "A detective story on an island cut off at high tide: tonight the causeway closes and a man never comes home. Question, check the tide times, weigh every statement. One download gives you all 5 chapters; the final chapter will arrive in the same pack as an update."
    },
    "files": [
+    {
+     "name": "art-ch2.css",
+     "size": 1255,
+     "sha256": "023b13970b1a6f073d737ed4889ec5192586afcaf5f72a1aa8a5de0179612212",
+     "path": "f/023b13970b1a6f07.css"
+    },
+    {
+     "name": "art-ch3.css",
+     "size": 463,
+     "sha256": "7fce2e5457f474a48eb70ce9606e057ec43de4a1f64a147cb69924218f278d84",
+     "path": "f/7fce2e5457f474a4.css"
+    },
+    {
+     "name": "art-ch4.css",
+     "size": 263,
+     "sha256": "48da1887cefd9530e038707bececb3d14d7ed5d75615822954fc0c53acc362fa",
+     "path": "f/48da1887cefd9530.css"
+    },
+    {
+     "name": "art-ch5.css",
+     "size": 711,
+     "sha256": "5593e78f4dab25138fa977f979ffcf9fa189589b6f84cd69065e120aba24b03a",
+     "path": "f/5593e78f4dab2513.css"
+    },
     {
      "name": "art.css",
      "size": 20649,
@@ -5224,10 +3431,22 @@
      "path": "f/d1c4a183daa37bba.js"
     },
     {
+     "name": "img/act-1471.jpg",
+     "size": 95626,
+     "sha256": "26e1ebbb5ecbe2c4a14cac2b5820d6a046ea3e1726e081f82b083b871b88647c",
+     "path": "f/26e1ebbb5ecbe2c4.jpg"
+    },
+    {
      "name": "img/act-bell-duck.jpg",
      "size": 86033,
      "sha256": "ba26d8404bd22cd6ec139e3d1ee926ff23e63a7d0d33cf686b811ebc7098ac70",
      "path": "f/ba26d8404bd22cd6.jpg"
+    },
+    {
+     "name": "img/act-bonnet.jpg",
+     "size": 83774,
+     "sha256": "c86fa1876ec8eee41b67004b07c03cb61e809287c056546d86a2162930815266",
+     "path": "f/c86fa1876ec8eee4.jpg"
     },
     {
      "name": "img/act-bottle-hand.jpg",
@@ -5236,16 +3455,34 @@
      "path": "f/03be18812ddc6f20.jpg"
     },
     {
+     "name": "img/act-card.jpg",
+     "size": 82051,
+     "sha256": "2282cc2aa31c08505cf8da05c7f53254ea29915ab6dc693c96505ef8a028aab2",
+     "path": "f/2282cc2aa31c0850.jpg"
+    },
+    {
      "name": "img/act-cuff.jpg",
      "size": 84483,
      "sha256": "5f3a7e8cf8b2288af81b30ad55afb3a47ddc16a16c560517d4d92b829f24fbf1",
      "path": "f/5f3a7e8cf8b2288a.jpg"
     },
     {
+     "name": "img/act-cutting.jpg",
+     "size": 94091,
+     "sha256": "0ebbf2b9f1381210b83ad24d41ed7ed9914e9769a752763c779a76bdeb7f39f0",
+     "path": "f/0ebbf2b9f1381210.jpg"
+    },
+    {
      "name": "img/act-envelope.jpg",
      "size": 157426,
      "sha256": "14f122a104d84eadb3df80be976af1be8c62def40444744e5e33e9f68e56a1fc",
      "path": "f/14f122a104d84ead.jpg"
+    },
+    {
+     "name": "img/act-flask.jpg",
+     "size": 96968,
+     "sha256": "7a757c28b7aed7d366b1b8095aa3c406bcd8892cc06956280bb2f58fc3093cc2",
+     "path": "f/7a757c28b7aed7d3.jpg"
     },
     {
      "name": "img/act-handset.jpg",
@@ -5260,6 +3497,12 @@
      "path": "f/5754cd7518bac7f2.jpg"
     },
     {
+     "name": "img/act-hatch.jpg",
+     "size": 86270,
+     "sha256": "012140ae375d26f37778b2b59675f6e06a4003cbdf52c661422872df1a7e8c12",
+     "path": "f/012140ae375d26f3.jpg"
+    },
+    {
      "name": "img/act-jumper.jpg",
      "size": 83181,
      "sha256": "d268ab3e74d785440ace86f3ebb13b963af27986f0fdb77e6c538aedbe75fb97",
@@ -5272,16 +3515,70 @@
      "path": "f/9862da7bf25bf63c.jpg"
     },
     {
+     "name": "img/act-label.jpg",
+     "size": 80259,
+     "sha256": "ddd0fae8f715c9710acf16f50f1d301d115ab62756ab22c5234e8ca1ca546b78",
+     "path": "f/ddd0fae8f715c971.jpg"
+    },
+    {
      "name": "img/act-ladder.jpg",
      "size": 87907,
      "sha256": "86f0dfc211f05079d975153d77fdfafc7661b7a3ca3b7bb56502e8de85cc0513",
      "path": "f/86f0dfc211f05079.jpg"
     },
     {
+     "name": "img/act-lamp-wave.jpg",
+     "size": 80878,
+     "sha256": "78b71371ff7d4b81050f90d21f734395dd5bc1d08b84e539a62fb08c32c15a3d",
+     "path": "f/78b71371ff7d4b81.jpg"
+    },
+    {
      "name": "img/act-letter.jpg",
      "size": 92330,
      "sha256": "9d6f0619c3a6bfe125d0022ff316c236565f911070fbecbb9191e7e6d1abaca9",
      "path": "f/9d6f0619c3a6bfe1.jpg"
+    },
+    {
+     "name": "img/act-logbook.jpg",
+     "size": 97186,
+     "sha256": "4e976a9e7b746e104fa0a2cc78a873559eaab5a2693c6dbab1c997c06359139c",
+     "path": "f/4e976a9e7b746e10.jpg"
+    },
+    {
+     "name": "img/act-mapx.jpg",
+     "size": 92464,
+     "sha256": "29fea358c25db4c8a2897c61679c8e903331e8af5546b9431bf91749be6e3458",
+     "path": "f/29fea358c25db4c8.jpg"
+    },
+    {
+     "name": "img/act-missed.jpg",
+     "size": 86064,
+     "sha256": "4fc1d96cff383e05d58d35fd22097bed87ad35c91386caf1f14f30f8324eafe7",
+     "path": "f/4fc1d96cff383e05.jpg"
+    },
+    {
+     "name": "img/act-pegs.jpg",
+     "size": 104964,
+     "sha256": "9483dbe0edbc26fa825d8128a8b2a0922579871e378ecd8a13ca002eb4a3a83a",
+     "path": "f/9483dbe0edbc26fa.jpg"
+    },
+    {
+     "name": "img/act-phonebox.jpg",
+     "size": 91032,
+     "sha256": "150af4576a9e52c55b3e3163b783c6432e08164a6716d0ebcd052d63a3f92a5c",
+     "path": "f/150af4576a9e52c5.jpg"
+    },
+    {
+     "name": "img/act-pocket.jpg",
+     "size": 93925,
+     "sha256": "e3453488326b3ebac5b01327a9ede123a1d78e4fc902acb8f082e13f84f1f7e4",
+     "path": "f/e3453488326b3eba.jpg"
+    },
+    {
+     "name": "img/act-prints.jpg",
+     "size": 91643,
+     "sha256": "8916e0c6661f34c82af7f500b2b2591eb8aa9a6f315aadbd6f045dee4c20b7b4",
+     "path": "f/8916e0c6661f34c8.jpg"
     },
     {
      "name": "img/act-ring-palm.jpg",
@@ -5296,10 +3593,34 @@
      "path": "f/39319b7b4d7c91ed.jpg"
     },
     {
+     "name": "img/act-skerry.jpg",
+     "size": 99019,
+     "sha256": "dce02ea5a730dbc750a12229227fdebd4fd79d994bad0c8a91215c763775dc3a",
+     "path": "f/dce02ea5a730dbc7.jpg"
+    },
+    {
      "name": "img/act-taillights.jpg",
      "size": 167574,
      "sha256": "c5c28ddc1ec1dee86bbe1dfc67fbe81fd6107efd9a306eb95e46b69aac5bb0d2",
      "path": "f/c5c28ddc1ec1dee8.jpg"
+    },
+    {
+     "name": "img/act-turnback.jpg",
+     "size": 75461,
+     "sha256": "c916576600fee75f741a4ed51bff7cec1656cae3ad4931788b021c5afa4ae05c",
+     "path": "f/c916576600fee75f.jpg"
+    },
+    {
+     "name": "img/act-tyres.jpg",
+     "size": 95986,
+     "sha256": "2bac807e5072a466d5471a5f2ffeb57421de090f557b29e878fe67cbd8aeb6d3",
+     "path": "f/2bac807e5072a466.jpg"
+    },
+    {
+     "name": "img/act-wallphoto.jpg",
+     "size": 96948,
+     "sha256": "1bf416e930fc4c585e58d062886c511ce8645c916fad93cc26059597f580e3df",
+     "path": "f/1bf416e930fc4c58.jpg"
     },
     {
      "name": "img/anna-pain.webp",
@@ -5320,10 +3641,28 @@
      "path": "f/e006c8eaed052afc.webp"
     },
     {
+     "name": "img/backgate.jpg",
+     "size": 123169,
+     "sha256": "7a4823e7f98e982084c5a033b5322321950da38d9655a20eb56e48d1e20babc5",
+     "path": "f/7a4823e7f98e9820.jpg"
+    },
+    {
      "name": "img/backlane.jpg",
      "size": 135419,
      "sha256": "98059ea3c9305353f70c287dccc1126b5b2f17c9997e1413a4cfea77fba3c3c3",
      "path": "f/98059ea3c9305353.jpg"
+    },
+    {
+     "name": "img/backroom.jpg",
+     "size": 120970,
+     "sha256": "a95ded932d2a78bc22bcce771503c228b4e8ea5411f3ea27dec8f792b115a14c",
+     "path": "f/a95ded932d2a78bc.jpg"
+    },
+    {
+     "name": "img/boat.jpg",
+     "size": 112594,
+     "sha256": "655dbc814df45b9b5beda876409bcff1de9502e814c329be560c753f2de629e8",
+     "path": "f/655dbc814df45b9b.jpg"
     },
     {
      "name": "img/box-door.jpg",
@@ -5476,6 +3815,24 @@
      "path": "f/b6b5cdf137009b6e.jpg"
     },
     {
+     "name": "img/cg-2004-kneel.jpg",
+     "size": 109872,
+     "sha256": "aadbfa458e527bf5c65849a5eb44cb5424eb1c6e48cb87ab152ef6c4a7efbad6",
+     "path": "f/aadbfa458e527bf5.jpg"
+    },
+    {
+     "name": "img/cg-2004-lights.jpg",
+     "size": 97675,
+     "sha256": "7227078bdad374f19624d606dda70cdf782fe973aeca0a71fbc6eb7050c69b8f",
+     "path": "f/7227078bdad374f1.jpg"
+    },
+    {
+     "name": "img/cg-2004-post.jpg",
+     "size": 91772,
+     "sha256": "133f3bc6519506a239e988d5c08d6fb3e37de2929530a6a58b8e424260dc7c3f",
+     "path": "f/133f3bc6519506a2.jpg"
+    },
+    {
      "name": "img/cg-bell.jpg",
      "size": 113361,
      "sha256": "6dab047b5523736d86cf8f63ecc18d567896d529dab2eac82dea6edd121daad5",
@@ -5554,6 +3911,12 @@
      "path": "f/6e0e10b2b9980684.jpg"
     },
     {
+     "name": "img/cg-photo-seat.jpg",
+     "size": 115173,
+     "sha256": "271fa5ac32e0549325bbd45b991156a421fd729a500e7ff46cd34afce0a8ff0e",
+     "path": "f/271fa5ac32e05493.jpg"
+    },
+    {
      "name": "img/cg-police.jpg",
      "size": 107943,
      "sha256": "eb12bef9761b4fc33449153e3c58432e0be7693b42d742b1315b39b01e128f72",
@@ -5566,16 +3929,64 @@
      "path": "f/001503d22f58545a.jpg"
     },
     {
+     "name": "img/cg-skull-ring.jpg",
+     "size": 120513,
+     "sha256": "5a30f8de5d595c51e7afa61580015d0a2cdb5d62d3a91cef38ee381f24412e17",
+     "path": "f/5a30f8de5d595c51.jpg"
+    },
+    {
+     "name": "img/cg-tom-dead.jpg",
+     "size": 120168,
+     "sha256": "84b02382c8dac85db203768c327da0beba58bad559d631c922435950f0f98dfb",
+     "path": "f/84b02382c8dac85d.jpg"
+    },
+    {
      "name": "img/cg-tom-pass.jpg",
      "size": 111545,
      "sha256": "f174ef0f7d0794a2dcd152db22ec021947120af9600b82e511de4514ee509014",
      "path": "f/f174ef0f7d0794a2.jpg"
     },
     {
+     "name": "img/cottage.jpg",
+     "size": 112435,
+     "sha256": "cc333d2a106589acbb11b40bd84f563252927958adf691480d8f0a6b503ed001",
+     "path": "f/cc333d2a106589ac.jpg"
+    },
+    {
      "name": "img/cover.jpg",
      "size": 106765,
      "sha256": "cfc2bd70f73ba8d564b7e9cc73ae9ad5c81fe213ca2969aea3e08809bb683e2c",
      "path": "f/cfc2bd70f73ba8d5.jpg"
+    },
+    {
+     "name": "img/dodd-sad.webp",
+     "size": 100204,
+     "sha256": "c85090108f645a1a5a6a5cb7137c7aeb5076647b170aecc00fd6716f7df18a8c",
+     "path": "f/c85090108f645a1a.webp"
+    },
+    {
+     "name": "img/dodd-smile.webp",
+     "size": 101256,
+     "sha256": "f5dde7be1d2c1f07042ba5f1db655290ea4863587f39b3d0f2cfb20d50d82c76",
+     "path": "f/f5dde7be1d2c1f07.webp"
+    },
+    {
+     "name": "img/dodd-worried.webp",
+     "size": 100780,
+     "sha256": "d1f575198e6f368b93651f54a6d33fa53aacac22fde51981a5acf4f3ddef5fc1",
+     "path": "f/d1f575198e6f368b.webp"
+    },
+    {
+     "name": "img/dodd.webp",
+     "size": 87818,
+     "sha256": "5c16f7a5ade4c39e16e72097444635225ebe84a297fa57dff346149eaa321079",
+     "path": "f/5c16f7a5ade4c39e.webp"
+    },
+    {
+     "name": "img/dunes.jpg",
+     "size": 127949,
+     "sha256": "8746bd22a3b4f738c210f2f46e829f97359af63e3cdb7c1899c2274198690970",
+     "path": "f/8746bd22a3b4f738.jpg"
     },
     {
      "name": "img/fergus-angry.webp",
@@ -5776,6 +4187,12 @@
      "path": "f/c1679e4ce704a9dd.png"
     },
     {
+     "name": "img/it-draft.png",
+     "size": 294015,
+     "sha256": "1061fc2ffd83ed9fd1b81795133b046efa87a215cdad84cb22619fc49d07bc77",
+     "path": "f/1061fc2ffd83ed9f.png"
+    },
+    {
      "name": "img/it-flask.png",
      "size": 154379,
      "sha256": "9974a3120f9241d5f181b799999d10e072ee318b03cb8feace7bdea8af565bca",
@@ -5840,6 +4257,12 @@
      "size": 102959,
      "sha256": "6783297f0d4f66cc61594ddbba63ba1c82ca2c5c3fe9bc2408fc5cc171cebede",
      "path": "f/6783297f0d4f66cc.png"
+    },
+    {
+     "name": "img/it-vial.png",
+     "size": 111238,
+     "sha256": "f873e3362ea8d3878b006609f6c4d6a0719e122fe97905b8bd9496540ee23a9b",
+     "path": "f/f873e3362ea8d387.png"
     },
     {
      "name": "img/lantern-bar.jpg",
@@ -5924,6 +4347,12 @@
      "size": 85642,
      "sha256": "5652b8e4d7b991d916c207cb89de1fc1f8f67fea6490365199d01a9a3fcf19af",
      "path": "f/5652b8e4d7b991d9.webp"
+    },
+    {
+     "name": "img/lifeboat.jpg",
+     "size": 112538,
+     "sha256": "587c93c116189a027f8dcd984f5e86e3e2957b49c63c5b4d3816e838fcecbcec",
+     "path": "f/587c93c116189a02.jpg"
     },
     {
      "name": "img/nell-broken.webp",
@@ -6059,9 +4488,33 @@
     },
     {
      "name": "story/ch1.js",
-     "size": 74939,
-     "sha256": "81e211d1f2f8291e775fce7babfcb2a1d4169efc89ebeed996c7c74cc4be2915",
-     "path": "f/81e211d1f2f8291e.js"
+     "size": 74394,
+     "sha256": "ffa685d8fc0462983101785764a919d29232b3628285c28dcc6a9e831977a4ba",
+     "path": "f/ffa685d8fc046298.js"
+    },
+    {
+     "name": "story/ch2.js",
+     "size": 69659,
+     "sha256": "fcb765f21495c1e642b29ad573f33e19f40f93c7a9ed05c4453bb67cdc2d14f2",
+     "path": "f/fcb765f21495c1e6.js"
+    },
+    {
+     "name": "story/ch3.js",
+     "size": 68040,
+     "sha256": "3544a1b1bac69e2bd0b3eb0059e2d8a5d55319cb01572f600d4fb003274af9de",
+     "path": "f/3544a1b1bac69e2b.js"
+    },
+    {
+     "name": "story/ch4.js",
+     "size": 59148,
+     "sha256": "408b5f7ea7e1444197c574ad83478d6a183fcdbcd7d6cf88b81f4ba8d6a67ad4",
+     "path": "f/408b5f7ea7e14441.js"
+    },
+    {
+     "name": "story/ch5.js",
+     "size": 73732,
+     "sha256": "674301fde7d391f58407a2e8657075bacf5432fbb789c28d2b53a4a2c710380f",
+     "path": "f/674301fde7d391f5.js"
     },
     {
      "name": "story/refs.js",
@@ -6071,9 +4524,9 @@
     },
     {
      "name": "story/story.js",
-     "size": 20097,
-     "sha256": "1e411be7315bc098b15b53e9bdfd69e0d8024266eca1d346e60009775b19ef70",
-     "path": "f/1e411be7315bc098.js"
+     "size": 19943,
+     "sha256": "e84c0bbc47d3d8392df6dc4f7a8fa41a6bc4d4d258829b9040df478371002842",
+     "path": "f/e84c0bbc47d3d839.js"
     },
     {
      "name": "voices-tones.json",
@@ -6083,405 +4536,2546 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 118703,
-     "sha256": "da98e93c297afb5c3b3b09cb6257e33f6b247184cbfe8c2d71d10ffc1c6d573e",
-     "path": "f/da98e93c297afb5c.js"
+     "size": 130807,
+     "sha256": "00e383b5ae816d52a78737cd24c1957862000872dffda08adebc7c33fc6b4c01",
+     "path": "f/00e383b5ae816d52.js"
     },
     {
      "name": "lib/story/fx.js",
-     "size": 13387,
-     "sha256": "69d38fc636a3b79d040eefe39f1b04faf5026bc7322fcc2b793cd4e86806e1b1",
-     "path": "f/69d38fc636a3b79d.js"
+     "size": 13193,
+     "sha256": "52082deb13cdd065747e53b59dabb0a2dc485261023380fac754a097c40a77e7",
+     "path": "f/52082deb13cdd065.js"
     },
     {
      "name": "lib/story/flow.js",
-     "size": 12954,
-     "sha256": "d06ad69b4393a7e026ab215241929d2e222d091f56899f8de13d39030174a2f0",
-     "path": "f/d06ad69b4393a7e0.js"
+     "size": 13843,
+     "sha256": "795ba4ff9d07e608f46b811142f87cf9a519a4f2c2b51e706ad74f9ed95628a0",
+     "path": "f/795ba4ff9d07e608.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 68060,
-     "sha256": "45393eb0bef4bc6e2532871439c1374f0dadbacc5126aef336d726f9a83a7816",
-     "path": "f/45393eb0bef4bc6e.js"
+     "size": 85410,
+     "sha256": "29f7c58e1d00c8c76bb3a68d40786031459da774f474a15f8e3fa487839fd4b5",
+     "path": "f/29f7c58e1d00c8c7.js"
     },
     {
      "name": "lib/story/mech-plus.js",
-     "size": 95957,
-     "sha256": "c97f5836b64c1be2fde2f6cda2b97a3ea3b6ef9a24f9a45a270669335f94f861",
-     "path": "f/c97f5836b64c1be2.js"
+     "size": 103508,
+     "sha256": "14567b97d4e27fd12b54572597bb868698899f951953eab0b66e1e1eeb4608e2",
+     "path": "f/14567b97d4e27fd1.js"
     },
     {
      "name": "lib/story/mech-life.js",
-     "size": 110770,
-     "sha256": "1292f51e6f3ba8e3c2571c6167f36f7326698708af819c19519e60def57b924b",
-     "path": "f/1292f51e6f3ba8e3.js"
+     "size": 113254,
+     "sha256": "6445b831987313bc784eb1bdd5fc5ebb73d9f0d7a9d3307441e91d7deccea9ef",
+     "path": "f/6445b831987313bc.js"
     },
     {
      "name": "lib/story/stage.js",
-     "size": 35441,
-     "sha256": "1f28c69c9f6b908a442b6c6c0535c32d229d6a1de6e549d6842b4f4e879ae477",
-     "path": "f/1f28c69c9f6b908a.js"
+     "size": 76279,
+     "sha256": "6d64688b6ed9b61e16d0742ea0838d17cab7c4c68a1e82563f0250878606516b",
+     "path": "f/6d64688b6ed9b61e.js"
     },
     {
      "name": "lib/story/place.js",
-     "size": 41434,
-     "sha256": "5b6cfcd02a53449c672d4cccf7b3fcc7bd3597cc504ec20c212c83f885583568",
-     "path": "f/5b6cfcd02a53449c.js"
+     "size": 52189,
+     "sha256": "116e3baabe915f05170af3202153149e3c7b4ddc7812c9fe7e50cee64c3ce6aa",
+     "path": "f/116e3baabe915f05.js"
     },
     {
      "name": "lib/story/action.js",
-     "size": 9161,
-     "sha256": "dd09b6b3da593c20d0b894ec18adde681de2e1d16152d1c3b02ad4f0abbc80fe",
-     "path": "f/dd09b6b3da593c20.js"
+     "size": 11531,
+     "sha256": "eb27d378564a4d084ab3b9480759086bd8486a6c4a160e9bda5cbde21ddae103",
+     "path": "f/eb27d378564a4d08.js"
     },
     {
      "name": "lib/story/ui.css",
-     "size": 219910,
-     "sha256": "895f282f4675b5834e172a8bad80f96151fb59342185e9909e414170210dc0f1",
-     "path": "f/895f282f4675b583.css"
+     "size": 225452,
+     "sha256": "13fc4728128edefced20e6baaa5c46a50a369d1d08d5b75fa430072dafa048a9",
+     "path": "f/13fc4728128edefc.css"
     }
    ],
-   "ver": "8a465f40dc",
-   "up": "2026-10-30"
+   "shots": [
+    "f/628d907b7ae59fb3.jpg",
+    "f/328690c01c434cfa.jpg",
+    "f/0733300b0a5882d8.jpg",
+    "f/46ca89f54330a490.jpg"
+   ],
+   "art": "f/7227078bdad374f1.jpg",
+   "bundles": [
+    {
+     "path": "f/e8d7536261a515c3.bin",
+     "size": 3128147,
+     "sha256": "e8d7536261a515c309db476000aac5b545b1d975fecbf208a51503e672ea3375",
+     "items": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+     ]
+    },
+    {
+     "path": "f/444dee67b2efb3dd.bin",
+     "size": 3118870,
+     "sha256": "444dee67b2efb3ddfd6c9349e97721ac028daad53ae411fcab9582dd2bbba3c0",
+     "items": [
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
+     ]
+    },
+    {
+     "path": "f/0577fbf789e8c383.bin",
+     "size": 2993576,
+     "sha256": "0577fbf789e8c383e6820889b1756e335b47fea431af6ed2651a5f46b8c00bb7",
+     "items": [
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
+     ]
+    },
+    {
+     "path": "f/0232113bbc195767.bin",
+     "size": 3076988,
+     "sha256": "0232113bbc1957674238657ce285c9b91cbe7de0f3fe1a6bbe7e6cb4c1938b94",
+     "items": [
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240
+     ]
+    },
+    {
+     "path": "f/8c47d25f24b71366.bin",
+     "size": 3117980,
+     "sha256": "8c47d25f24b71366122a44260f397e27088f2e788baa7ac54ca3fa7773cbe4ff",
+     "items": [
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273
+     ]
+    },
+    {
+     "path": "f/eba3dd6ee76f3998.bin",
+     "size": 3043870,
+     "sha256": "eba3dd6ee76f399827d1e975d82c0a1fbc727398cd2b18443f6bb630d0ef4360",
+     "items": [
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295
+     ]
+    },
+    {
+     "path": "f/fb3b23176b3dd09a.bin",
+     "size": 3077072,
+     "sha256": "fb3b23176b3dd09ae61e19bce08b928882a6ceaf6d0abba4704cb5a5d41e964b",
+     "items": [
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318
+     ]
+    },
+    {
+     "path": "f/e30ce714ff7d1977.bin",
+     "size": 3101099,
+     "sha256": "e30ce714ff7d197766408e6ba9bf414bfd1ef3e0b67dca299e91cf53f7acb9ce",
+     "items": [
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357
+     ]
+    },
+    {
+     "path": "f/6afb8b456e024abe.bin",
+     "size": 365451,
+     "sha256": "6afb8b456e024abeb3416542eb83e91dd986422627363426111dea00ff4c90dd",
+     "items": [
+      358,
+      359,
+      360,
+      361
+     ]
+    }
+   ],
+   "ver": "87e994342d",
+   "up": "2026-10-31"
   },
   {
-   "id": "game.between-tides.ch2",
-   "kind": "chapter",
+   "id": "game.cafe-lune",
+   "kind": "game",
    "lang": "",
-   "parent": "game.between-tides",
-   "ch": 2,
-   "title": {
-    "en": "The Lamp in the Box",
-    "vi": "Ngọn đèn trong chòi"
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "full": true,
+   "cover": {
+    "c1": "#1b2d3c",
+    "c2": "#e2a24a"
    },
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "First Shift",
+      "vi": "Ca đầu tiên"
+     },
+     "sum": {
+      "en": "A new town, a broken coffee machine and three strangers who keep coming back.",
+      "vi": "Thị trấn mới, máy pha cà phê hỏng và ba người lạ cứ quay lại mãi."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Mixed Signals",
+      "vi": "Tín hiệu lẫn lộn"
+     },
+     "sum": {
+      "en": "A first date, a letter from the landlord, and a secret under the café floor.",
+      "vi": "Buổi hẹn đầu, lá thư của chủ nhà, và bí mật dưới sàn quán."
+     }
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "The Festival",
+      "vi": "Lễ hội"
+     },
+     "sum": {
+      "en": "One night to save Café Lune. Music, lights — and a kitchen you shouldn't enter.",
+      "vi": "Một đêm để cứu Café Lune. Âm nhạc, đèn hoa — và một căn bếp bạn không nên bước vào."
+     }
+    },
+    {
+     "ch": 4,
+     "title": {
+      "en": "Last Summer Night",
+      "vi": "Đêm cuối mùa hè"
+     },
+     "sum": {
+      "en": "The council decides. You decide who you tell.",
+      "vi": "Hội đồng quyết định. Bạn quyết định nói với ai."
+     }
+    }
+   ],
    "count": 0,
-   "size": 1957003,
+   "size": 4484986,
+   "badge": "new",
+   "title": {
+    "vi": "Café Lune",
+    "en": "Café Lune"
+   },
+   "desc": {
+    "vi": "Truyện hẹn hò mùa hè ở Brighton: pha cà phê, lên lịch hẹn, tặng quà, nhắn tin — và cứu quán cà phê sắp bị phá. Tải một lần là có đủ 4 tập, 3 người để yêu, 6 kết thúc.",
+    "en": "A summer romance in Brighton: make coffee, plan dates, choose gifts, text — and save a café about to be torn down. One download gives you all 4 episodes, 3 people to fall for, 6 endings."
+   },
    "files": [
     {
      "name": "art-ch2.css",
-     "size": 1255,
-     "sha256": "023b13970b1a6f073d737ed4889ec5192586afcaf5f72a1aa8a5de0179612212",
-     "path": "f/023b13970b1a6f07.css"
+     "size": 1412,
+     "sha256": "f11f05623fd130f9bb433f24566798eb47215132e26c7fd8c9eecfe7bbc3453b",
+     "path": "f/f11f05623fd130f9.css"
     },
     {
-     "name": "img/act-flask.jpg",
-     "size": 96968,
-     "sha256": "7a757c28b7aed7d366b1b8095aa3c406bcd8892cc06956280bb2f58fc3093cc2",
-     "path": "f/7a757c28b7aed7d3.jpg"
+     "name": "art-ch3.css",
+     "size": 644,
+     "sha256": "01a0512b977da00bbaf58db85a5fb20b29feac9cb031b450d47aac5c88850ffd",
+     "path": "f/01a0512b977da00b.css"
     },
     {
-     "name": "img/act-hatch.jpg",
-     "size": 86270,
-     "sha256": "012140ae375d26f37778b2b59675f6e06a4003cbdf52c661422872df1a7e8c12",
-     "path": "f/012140ae375d26f3.jpg"
+     "name": "art-ch4.css",
+     "size": 406,
+     "sha256": "d88b89f4c2485954f78387d119d4fe76b7ccec0752e754d31bbbc53fc0bbbb6a",
+     "path": "f/d88b89f4c2485954.css"
     },
     {
-     "name": "img/act-lamp-wave.jpg",
-     "size": 80878,
-     "sha256": "78b71371ff7d4b81050f90d21f734395dd5bc1d08b84e539a62fb08c32c15a3d",
-     "path": "f/78b71371ff7d4b81.jpg"
+     "name": "art.css",
+     "size": 1187,
+     "sha256": "c2ecabef23f804fc0751f68b8217860034006ae7e665f9655124ac8aaefa22e8",
+     "path": "f/c2ecabef23f804fc.css"
     },
     {
-     "name": "img/act-phonebox.jpg",
-     "size": 91032,
-     "sha256": "150af4576a9e52c55b3e3163b783c6432e08164a6716d0ebcd052d63a3f92a5c",
-     "path": "f/150af4576a9e52c5.jpg"
+     "name": "art.js",
+     "size": 180,
+     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
+     "path": "f/930a3d4da8303c3a.js"
     },
     {
-     "name": "img/act-pocket.jpg",
-     "size": 93925,
-     "sha256": "e3453488326b3ebac5b01327a9ede123a1d78e4fc902acb8f082e13f84f1f7e4",
-     "path": "f/e3453488326b3eba.jpg"
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
     },
     {
-     "name": "img/act-prints.jpg",
-     "size": 91643,
-     "sha256": "8916e0c6661f34c82af7f500b2b2591eb8aa9a6f315aadbd6f045dee4c20b7b4",
-     "path": "f/8916e0c6661f34c8.jpg"
+     "name": "img/act-arcade.jpg",
+     "size": 73971,
+     "sha256": "af82f00833866c9725af8e84ab261c034d0e49d58fb9aa0e69940849865815e3",
+     "path": "f/af82f00833866c97.jpg"
     },
     {
-     "name": "img/act-tyres.jpg",
-     "size": 95986,
-     "sha256": "2bac807e5072a466d5471a5f2ffeb57421de090f557b29e878fe67cbd8aeb6d3",
-     "path": "f/2bac807e5072a466.jpg"
+     "name": "img/act-bookshop.jpg",
+     "size": 85683,
+     "sha256": "0260cb15bafd286092d62d28f4b6dd957098ae724c7a0b346cd881fff5ec4df7",
+     "path": "f/0260cb15bafd2860.jpg"
     },
     {
-     "name": "img/act-wallphoto.jpg",
-     "size": 96948,
-     "sha256": "1bf416e930fc4c585e58d062886c511ce8645c916fad93cc26059597f580e3df",
-     "path": "f/1bf416e930fc4c58.jpg"
+     "name": "img/act-busk.jpg",
+     "size": 65607,
+     "sha256": "41ac335f0c6bd312f4daa23ad85c375ccd95946f25c48d64ebedfa8885fe1f0a",
+     "path": "f/41ac335f0c6bd312.jpg"
     },
     {
-     "name": "img/backgate.jpg",
-     "size": 123169,
-     "sha256": "7a4823e7f98e982084c5a033b5322321950da38d9655a20eb56e48d1e20babc5",
-     "path": "f/7a4823e7f98e9820.jpg"
+     "name": "img/act-club.jpg",
+     "size": 65237,
+     "sha256": "5d01b309b3026e443fe7903473f68b3a78da432c9633fbad70fb5fee32465051",
+     "path": "f/5d01b309b3026e44.jpg"
     },
     {
-     "name": "img/boat.jpg",
-     "size": 112594,
-     "sha256": "655dbc814df45b9b5beda876409bcff1de9502e814c329be560c753f2de629e8",
-     "path": "f/655dbc814df45b9b.jpg"
+     "name": "img/act-cook.jpg",
+     "size": 40566,
+     "sha256": "490e57bedbc3f9a12ae9f718fc9bfd0397a1679ecaa77066301df027e136c8e0",
+     "path": "f/490e57bedbc3f9a1.jpg"
     },
     {
-     "name": "img/cg-tom-dead.jpg",
-     "size": 120168,
-     "sha256": "84b02382c8dac85db203768c327da0beba58bad559d631c922435950f0f98dfb",
-     "path": "f/84b02382c8dac85d.jpg"
+     "name": "img/act-dinner.jpg",
+     "size": 81744,
+     "sha256": "0e69e0c0af19d0d8f66140b3a51c0277039222211b781da918a9dc0d27808d40",
+     "path": "f/0e69e0c0af19d0d8.jpg"
     },
     {
-     "name": "img/cottage.jpg",
-     "size": 112435,
-     "sha256": "cc333d2a106589acbb11b40bd84f563252927958adf691480d8f0a6b503ed001",
-     "path": "f/cc333d2a106589ac.jpg"
+     "name": "img/act-football.jpg",
+     "size": 51654,
+     "sha256": "78ee60793b213d231ae2981bb78055c57abfb373b893f926ba1a357f7661736c",
+     "path": "f/78ee60793b213d23.jpg"
     },
     {
-     "name": "img/dodd-sad.webp",
-     "size": 100204,
-     "sha256": "c85090108f645a1a5a6a5cb7137c7aeb5076647b170aecc00fd6716f7df18a8c",
-     "path": "f/c85090108f645a1a.webp"
+     "name": "img/act-lanterns.jpg",
+     "size": 83855,
+     "sha256": "597c71922146c89c53942ac1c3b87e7f8e9318817f2c24037d62730feaec648f",
+     "path": "f/597c71922146c89c.jpg"
     },
     {
-     "name": "img/dodd-smile.webp",
-     "size": 101256,
-     "sha256": "f5dde7be1d2c1f07042ba5f1db655290ea4863587f39b3d0f2cfb20d50d82c76",
-     "path": "f/f5dde7be1d2c1f07.webp"
+     "name": "img/act-latte.jpg",
+     "size": 35425,
+     "sha256": "539a74e85c5ac20a760b1571d923f092dd29cb8398229c8333b854d2ee9b030c",
+     "path": "f/539a74e85c5ac20a.jpg"
     },
     {
-     "name": "img/dodd-worried.webp",
-     "size": 100780,
-     "sha256": "d1f575198e6f368b93651f54a6d33fa53aacac22fde51981a5acf4f3ddef5fc1",
-     "path": "f/d1f575198e6f368b.webp"
+     "name": "img/act-library.jpg",
+     "size": 83555,
+     "sha256": "4da9ffe28e9c8e01b5f373322bed1d191ac6ea6adb95b9cbea3002a7a9f0fbe0",
+     "path": "f/4da9ffe28e9c8e01.jpg"
     },
     {
-     "name": "img/dodd.webp",
-     "size": 87818,
-     "sha256": "5c16f7a5ade4c39e16e72097444635225ebe84a297fa57dff346149eaa321079",
-     "path": "f/5c16f7a5ade4c39e.webp"
+     "name": "img/act-market.jpg",
+     "size": 100472,
+     "sha256": "e7423df833c740c919b2f2ed666206d99cea1624ef6385a2b6a11d8126212504",
+     "path": "f/e7423df833c740c9.jpg"
     },
     {
-     "name": "img/it-draft.png",
-     "size": 294015,
-     "sha256": "1061fc2ffd83ed9fd1b81795133b046efa87a215cdad84cb22619fc49d07bc77",
-     "path": "f/1061fc2ffd83ed9f.png"
+     "name": "img/act-museum.jpg",
+     "size": 66368,
+     "sha256": "4844c98e6c2acce779b1335c73ba6e071ab69ce042a765f53faf5495d00d9233",
+     "path": "f/4844c98e6c2acce7.jpg"
+    },
+    {
+     "name": "img/act-notice.jpg",
+     "size": 59214,
+     "sha256": "95219d75f7e0c4ecf94ac06ca44096417bd703dac85fb01d802c1f081c736b15",
+     "path": "f/95219d75f7e0c4ec.jpg"
+    },
+    {
+     "name": "img/act-oldphoto.jpg",
+     "size": 94721,
+     "sha256": "97097af8f3dabdefe6aa1b480c0c2a8e53a9eb0a61e597bc89505a5e5046207c",
+     "path": "f/97097af8f3dabdef.jpg"
+    },
+    {
+     "name": "img/act-out-bold.jpg",
+     "size": 31540,
+     "sha256": "f24f48d65896299f80644cc766bf5a32464d47d3a8c1f890b5d32113d564029a",
+     "path": "f/f24f48d65896299f.jpg"
+    },
+    {
+     "name": "img/act-out-comfy.jpg",
+     "size": 57734,
+     "sha256": "869929be70bf21d698a8f85d3c9b45263e6889199f1ecf0f2fc1aba4ff4e34b5",
+     "path": "f/869929be70bf21d6.jpg"
+    },
+    {
+     "name": "img/act-out-neat.jpg",
+     "size": 48762,
+     "sha256": "4e5e9a639308493a8d138eb4341a694d105a881ad4b2a859b5dab1968bfcf7b4",
+     "path": "f/4e5e9a639308493a.jpg"
+    },
+    {
+     "name": "img/act-pavilion.jpg",
+     "size": 50977,
+     "sha256": "872a1b36e90f9486f7e7f44f89a5bbdc410545898aeda45ff3f659bece663fff",
+     "path": "f/872a1b36e90f9486.jpg"
+    },
+    {
+     "name": "img/act-phone3.jpg",
+     "size": 42815,
+     "sha256": "1f962031bc8901749398bdf4599982a89f627ce4148cb97cb7a27e9381cfb7e5",
+     "path": "f/1f962031bc890174.jpg"
+    },
+    {
+     "name": "img/act-records.jpg",
+     "size": 86398,
+     "sha256": "b970db35aa59d23cdf76070b22b4082802c8e90ad877c612a11a70d13639a419",
+     "path": "f/b970db35aa59d23c.jpg"
+    },
+    {
+     "name": "img/act-reunion.jpg",
+     "size": 71178,
+     "sha256": "d58ab72c4245dc348d88d35fafb74278bb05904ff1291f7006cdc1b9a94d18ec",
+     "path": "f/d58ab72c4245dc34.jpg"
+    },
+    {
+     "name": "img/act-sea.jpg",
+     "size": 29236,
+     "sha256": "f3c07b350863eeb742b651553a9f6515958cb6ce70e0a81b241fbaddab8bde6e",
+     "path": "f/f3c07b350863eeb7.jpg"
+    },
+    {
+     "name": "img/act-slip.jpg",
+     "size": 44034,
+     "sha256": "7dfb0b4776d6521ec2970f391876be4293378b7cc2595735563d545d10a257f0",
+     "path": "f/7dfb0b4776d6521e.jpg"
+    },
+    {
+     "name": "img/act-sunset.jpg",
+     "size": 84540,
+     "sha256": "86ad3e1d36559eda837f4cd3f614af463ee345ef9c9da64a3b142aec08477310",
+     "path": "f/86ad3e1d36559eda.jpg"
+    },
+    {
+     "name": "img/act-swim.jpg",
+     "size": 62648,
+     "sha256": "8a1d6c910b0f62ee2ab52670f884871398568b892b0dd339e641a0cbb733b0e9",
+     "path": "f/8a1d6c910b0f62ee.jpg"
+    },
+    {
+     "name": "img/act-tiles.jpg",
+     "size": 105740,
+     "sha256": "93a1d9ea340a31b6d523add4031be2417491fe4ce44aa5eb7f2e6c0f3642731f",
+     "path": "f/93a1d9ea340a31b6.jpg"
+    },
+    {
+     "name": "img/act-vote.jpg",
+     "size": 76835,
+     "sha256": "3971586c61af6ca43512ba7b5a56d93be8bac3f475cf8ce8e7050ebe2c7af3b3",
+     "path": "f/3971586c61af6ca4.jpg"
+    },
+    {
+     "name": "img/basement.jpg",
+     "size": 78549,
+     "sha256": "c370b8d8ccaae44c15f09ce6450eac704dfcc0145d1e12a23f176b62f8bcd958",
+     "path": "f/c370b8d8ccaae44c.jpg"
+    },
+    {
+     "name": "img/beachnight.jpg",
+     "size": 101314,
+     "sha256": "6b443123b8a9c1f0923b0fcf3c18589ed8528e3620512827f5c5e8958056dfc8",
+     "path": "f/6b443123b8a9c1f0.jpg"
+    },
+    {
+     "name": "img/blanc.jpg",
+     "size": 70019,
+     "sha256": "ce36960f3927f2efe6c8c4be0e0bcf6742834f550656bd72a0f23fdd3cac0a64",
+     "path": "f/ce36960f3927f2ef.jpg"
+    },
+    {
+     "name": "img/cafe.jpg",
+     "size": 101478,
+     "sha256": "15d039a6eceb2f5d836139f02b46a245d42933cba6225299b95ac7183e6b8efb",
+     "path": "f/15d039a6eceb2f5d.jpg"
+    },
+    {
+     "name": "img/cg-ines.jpg",
+     "size": 78246,
+     "sha256": "1fa6474352b3e708c6d82faea4cf398cd0d42c7d257cbfc373915c8057c4e362",
+     "path": "f/1fa6474352b3e708.jpg"
+    },
+    {
+     "name": "img/cg-mila.jpg",
+     "size": 73393,
+     "sha256": "1ace34286cd8a8ae1a425a0db846d810a9da790d202992f5facde2ee83bad89f",
+     "path": "f/1ace34286cd8a8ae.jpg"
+    },
+    {
+     "name": "img/cg-theo.jpg",
+     "size": 67125,
+     "sha256": "447fbb84770a72b4b842bf217c574e8ecab88dd45f81191ef8c830cae847d81b",
+     "path": "f/447fbb84770a72b4.jpg"
+    },
+    {
+     "name": "img/council.jpg",
+     "size": 81205,
+     "sha256": "fc052466ed894746286c17052510a2ee25176ddb1988ffb8012a6bbe32eaf745",
+     "path": "f/fc052466ed894746.jpg"
+    },
+    {
+     "name": "img/cover.jpg",
+     "size": 78792,
+     "sha256": "988f74ba4e3e56b1a49217f3446550769d1cc0844d6fc61ef214ebdba2c5e2fe",
+     "path": "f/988f74ba4e3e56b1.jpg"
+    },
+    {
+     "name": "img/festival.jpg",
+     "size": 69545,
+     "sha256": "f49bf477ab733d5f8a6838d1e2259d6d505c9f1ec26f27687fa47a79022c93ec",
+     "path": "f/f49bf477ab733d5f.jpg"
+    },
+    {
+     "name": "img/flat.jpg",
+     "size": 68381,
+     "sha256": "8e352f7af1bcf1c25ca919b1fc4dbd2480980716a5f98295f7c785fbf910c882",
+     "path": "f/8e352f7af1bcf1c2.jpg"
+    },
+    {
+     "name": "img/it-apron.jpg",
+     "size": 29505,
+     "sha256": "8bd80738513a5adbfbb1693832b0f6516ea6490568ddf69bcf80834a18b22b6a",
+     "path": "f/8bd80738513a5adb.jpg"
+    },
+    {
+     "name": "img/it-beans.jpg",
+     "size": 49090,
+     "sha256": "27da4b189f23e7a95c744dc5c65c9b7bfb8c03a359bdcf4703659a925f36ce0c",
+     "path": "f/27da4b189f23e7a9.jpg"
+    },
+    {
+     "name": "img/it-book.jpg",
+     "size": 41198,
+     "sha256": "9a1e22dbf7de6eb1559afe143205960a1062a95c9949b2461d84412d8845ea3b",
+     "path": "f/9a1e22dbf7de6eb1.jpg"
+    },
+    {
+     "name": "img/it-chilli.jpg",
+     "size": 31788,
+     "sha256": "50e667a492eff545198f984c713cec1e018b139e85ec9b5ced82735edbaa58c7",
+     "path": "f/50e667a492eff545.jpg"
+    },
+    {
+     "name": "img/it-flyer.jpg",
+     "size": 34099,
+     "sha256": "410399873a8dbdcfef405a4469e708ca789f033d76659931a03a80cb3cb27f07",
+     "path": "f/410399873a8dbdcf.jpg"
+    },
+    {
+     "name": "img/it-lanterns.jpg",
+     "size": 33836,
+     "sha256": "fe4b1330f08dfac749eed03a3c2e8712704b68628e4bb3c37e20a2affe9269fc",
+     "path": "f/fe4b1330f08dfac7.jpg"
+    },
+    {
+     "name": "img/it-lease.jpg",
+     "size": 34642,
+     "sha256": "a7fcde66c38a15c0586bad7adcce71f638bc652ec5762cfbc06d00a3a8b85de6",
+     "path": "f/a7fcde66c38a15c0.jpg"
+    },
+    {
+     "name": "img/it-notice.jpg",
+     "size": 35649,
+     "sha256": "73a6a82d4d6c2c8b05a8652625575db5c87f9440b208897ec7cb3097c58adfe0",
+     "path": "f/73a6a82d4d6c2c8b.jpg"
+    },
+    {
+     "name": "img/it-oldphoto.jpg",
+     "size": 29586,
+     "sha256": "e2c28dac48f531dc6cc89a7c2c1a0ffc75e432b9de29ce5bb393bad802dbc34b",
+     "path": "f/e2c28dac48f531dc.jpg"
+    },
+    {
+     "name": "img/it-petition.jpg",
+     "size": 49394,
+     "sha256": "e5b3a6ea2905d0f349f3f0739bb5b87faf97c7078b0c22b204273586dd5554d6",
+     "path": "f/e5b3a6ea2905d0f3.jpg"
+    },
+    {
+     "name": "img/it-pick.jpg",
+     "size": 29352,
+     "sha256": "248c5963d19eb47774e324abc3abd2404f1bf1e71a5298f52b18136feca382bf",
+     "path": "f/248c5963d19eb477.jpg"
+    },
+    {
+     "name": "img/it-receipt.jpg",
+     "size": 26425,
+     "sha256": "a960595eb9c9b3f65d3b8a1233baaefd4a628c34e998e0acc0593334b918e759",
+     "path": "f/a960595eb9c9b3f6.jpg"
+    },
+    {
+     "name": "img/it-rosaletter.jpg",
+     "size": 33342,
+     "sha256": "993e14f321d67a0c33909752f91d0f29668657bfd67022a1ef64451628c56ef4",
+     "path": "f/993e14f321d67a0c.jpg"
+    },
+    {
+     "name": "img/it-shell.jpg",
+     "size": 22734,
+     "sha256": "9403ab2d98eff027bed834b3d2e07e2ca7f01cf924fc11c89281396d59b01437",
+     "path": "f/9403ab2d98eff027.jpg"
+    },
+    {
+     "name": "img/it-sign.jpg",
+     "size": 39443,
+     "sha256": "95364fda00c254a95e59cacfd4fed8ece90059a3155734cb66412219f403488b",
+     "path": "f/95364fda00c254a9.jpg"
+    },
+    {
+     "name": "img/it-tile.jpg",
+     "size": 55060,
+     "sha256": "fb07d55185b23960df3e0386ed87de968e4671a91bdcd850f6f8c0993366e9ee",
+     "path": "f/fb07d55185b23960.jpg"
+    },
+    {
+     "name": "img/it-torch.jpg",
+     "size": 27565,
+     "sha256": "d0b7062c4951922460f5e17554c352b5a298cb6af73741a309d1d87489d86aaf",
+     "path": "f/d0b7062c49519224.jpg"
+    },
+    {
+     "name": "img/lanes.jpg",
+     "size": 111330,
+     "sha256": "531b75d6a902f6f69679ccc4a6ffc20fad6aeb4b250e76c978c2a38ab41250e7",
+     "path": "f/531b75d6a902f6f6.jpg"
+    },
+    {
+     "name": "img/pier.jpg",
+     "size": 54728,
+     "sha256": "bd1a28784044172b603d6dee88cf7d90a031206bef3adfff32f9a2b99989a0c3",
+     "path": "f/bd1a28784044172b.jpg"
+    },
+    {
+     "name": "img/promenade.jpg",
+     "size": 62831,
+     "sha256": "777e0455abb004b46ebb4457ffe8b05eb25acb9984025445417669c1ebd7577f",
+     "path": "f/777e0455abb004b4.jpg"
+    },
+    {
+     "name": "img/rosa.webp",
+     "size": 32552,
+     "sha256": "c9b169cc2ee2ac584fd7c51f94ecf16fc2e576870af8ecb7f95fca1d37beb588",
+     "path": "f/c9b169cc2ee2ac58.webp"
+    },
+    {
+     "name": "img/train.jpg",
+     "size": 50246,
+     "sha256": "26b3dca0f47e21ced57459ca7c9b7168e0bfba128ff61f83d8e83d2cf4473e3c",
+     "path": "f/26b3dca0f47e21ce.jpg"
+    },
+    {
+     "name": "index.html",
+     "size": 1558,
+     "sha256": "9330289b2944db65e146126c5f70a7492e52329e7684edbeef3025c11d800f8a",
+     "path": "f/9330289b2944db65.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 21559,
+     "sha256": "8b3021db2c97aeea7538e0086339eaa9f8f32c522d68822a12ecbde6cd25ddd2",
+     "path": "f/8b3021db2c97aeea.js"
     },
     {
      "name": "story/ch2.js",
-     "size": 69659,
-     "sha256": "fcb765f21495c1e642b29ad573f33e19f40f93c7a9ed05c4453bb67cdc2d14f2",
-     "path": "f/fcb765f21495c1e6.js"
-    }
-   ],
-   "ver": "c167d843b2",
-   "up": "2026-10-30"
-  },
-  {
-   "id": "game.between-tides.ch3",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.between-tides",
-   "ch": 3,
-   "title": {
-    "en": "The Outsider",
-    "vi": "Người ngoài"
-   },
-   "count": 0,
-   "size": 702772,
-   "files": [
-    {
-     "name": "art-ch3.css",
-     "size": 463,
-     "sha256": "7fce2e5457f474a48eb70ce9606e057ec43de4a1f64a147cb69924218f278d84",
-     "path": "f/7fce2e5457f474a4.css"
-    },
-    {
-     "name": "img/act-cutting.jpg",
-     "size": 94091,
-     "sha256": "0ebbf2b9f1381210b83ad24d41ed7ed9914e9769a752763c779a76bdeb7f39f0",
-     "path": "f/0ebbf2b9f1381210.jpg"
-    },
-    {
-     "name": "img/act-label.jpg",
-     "size": 80259,
-     "sha256": "ddd0fae8f715c9710acf16f50f1d301d115ab62756ab22c5234e8ca1ca546b78",
-     "path": "f/ddd0fae8f715c971.jpg"
-    },
-    {
-     "name": "img/backroom.jpg",
-     "size": 120970,
-     "sha256": "a95ded932d2a78bc22bcce771503c228b4e8ea5411f3ea27dec8f792b115a14c",
-     "path": "f/a95ded932d2a78bc.jpg"
-    },
-    {
-     "name": "img/cg-photo-seat.jpg",
-     "size": 115173,
-     "sha256": "271fa5ac32e0549325bbd45b991156a421fd729a500e7ff46cd34afce0a8ff0e",
-     "path": "f/271fa5ac32e05493.jpg"
-    },
-    {
-     "name": "img/it-vial.png",
-     "size": 111238,
-     "sha256": "f873e3362ea8d3878b006609f6c4d6a0719e122fe97905b8bd9496540ee23a9b",
-     "path": "f/f873e3362ea8d387.png"
-    },
-    {
-     "name": "img/lifeboat.jpg",
-     "size": 112538,
-     "sha256": "587c93c116189a027f8dcd984f5e86e3e2957b49c63c5b4d3816e838fcecbcec",
-     "path": "f/587c93c116189a02.jpg"
+     "size": 27281,
+     "sha256": "11befe422be3e4d209460912e1d4cfb24a81246823247cb46754e24f84d9327b",
+     "path": "f/11befe422be3e4d2.js"
     },
     {
      "name": "story/ch3.js",
-     "size": 68040,
-     "sha256": "3544a1b1bac69e2bd0b3eb0059e2d8a5d55319cb01572f600d4fb003274af9de",
-     "path": "f/3544a1b1bac69e2b.js"
-    }
-   ],
-   "ver": "dcd46b399d",
-   "up": "2026-10-30"
-  },
-  {
-   "id": "game.between-tides.ch4",
-   "kind": "chapter",
-   "lang": "",
-   "parent": "game.between-tides",
-   "ch": 4,
-   "title": {
-    "en": "The Sea Doesn't Read the Table",
-    "vi": "Biển không đọc bảng giờ"
-   },
-   "count": 0,
-   "size": 349898,
-   "files": [
-    {
-     "name": "art-ch4.css",
-     "size": 263,
-     "sha256": "48da1887cefd9530e038707bececb3d14d7ed5d75615822954fc0c53acc362fa",
-     "path": "f/48da1887cefd9530.css"
-    },
-    {
-     "name": "img/act-1471.jpg",
-     "size": 95626,
-     "sha256": "26e1ebbb5ecbe2c4a14cac2b5820d6a046ea3e1726e081f82b083b871b88647c",
-     "path": "f/26e1ebbb5ecbe2c4.jpg"
-    },
-    {
-     "name": "img/act-logbook.jpg",
-     "size": 97186,
-     "sha256": "4e976a9e7b746e104fa0a2cc78a873559eaab5a2693c6dbab1c997c06359139c",
-     "path": "f/4e976a9e7b746e10.jpg"
-    },
-    {
-     "name": "img/cg-2004-lights.jpg",
-     "size": 97675,
-     "sha256": "7227078bdad374f19624d606dda70cdf782fe973aeca0a71fbc6eb7050c69b8f",
-     "path": "f/7227078bdad374f1.jpg"
+     "size": 16529,
+     "sha256": "398690d8ec7dc42f8b017eed715764303760e5241483afde8b6a534dd5279b65",
+     "path": "f/398690d8ec7dc42f.js"
     },
     {
      "name": "story/ch4.js",
-     "size": 59148,
-     "sha256": "408b5f7ea7e1444197c574ad83478d6a183fcdbcd7d6cf88b81f4ba8d6a67ad4",
-     "path": "f/408b5f7ea7e14441.js"
+     "size": 17653,
+     "sha256": "bbb4d148b1ded6dcfefddc5a37dfc48001c915c0cc55fc8f190f05df574deabd",
+     "path": "f/bbb4d148b1ded6dc.js"
+    },
+    {
+     "name": "story/refs.js",
+     "size": 319,
+     "sha256": "6baf08f78c2a5cf15c8a00ea09085343009bef5bca4efc435d054cd6afae39c4",
+     "path": "f/6baf08f78c2a5cf1.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 7668,
+     "sha256": "05c5f5d44bc39a8abd4eed0827e87e6ecf980e1c0d564c3b68c7b6e72d385c81",
+     "path": "f/05c5f5d44bc39a8a.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 130807,
+     "sha256": "00e383b5ae816d52a78737cd24c1957862000872dffda08adebc7c33fc6b4c01",
+     "path": "f/00e383b5ae816d52.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13193,
+     "sha256": "52082deb13cdd065747e53b59dabb0a2dc485261023380fac754a097c40a77e7",
+     "path": "f/52082deb13cdd065.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 13843,
+     "sha256": "795ba4ff9d07e608f46b811142f87cf9a519a4f2c2b51e706ad74f9ed95628a0",
+     "path": "f/795ba4ff9d07e608.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 85410,
+     "sha256": "29f7c58e1d00c8c76bb3a68d40786031459da774f474a15f8e3fa487839fd4b5",
+     "path": "f/29f7c58e1d00c8c7.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 103508,
+     "sha256": "14567b97d4e27fd12b54572597bb868698899f951953eab0b66e1e1eeb4608e2",
+     "path": "f/14567b97d4e27fd1.js"
+    },
+    {
+     "name": "lib/story/mech-life.js",
+     "size": 113254,
+     "sha256": "6445b831987313bc784eb1bdd5fc5ebb73d9f0d7a9d3307441e91d7deccea9ef",
+     "path": "f/6445b831987313bc.js"
+    },
+    {
+     "name": "lib/story/stage.js",
+     "size": 76279,
+     "sha256": "6d64688b6ed9b61e16d0742ea0838d17cab7c4c68a1e82563f0250878606516b",
+     "path": "f/6d64688b6ed9b61e.js"
+    },
+    {
+     "name": "lib/story/place.js",
+     "size": 52189,
+     "sha256": "116e3baabe915f05170af3202153149e3c7b4ddc7812c9fe7e50cee64c3ce6aa",
+     "path": "f/116e3baabe915f05.js"
+    },
+    {
+     "name": "lib/story/action.js",
+     "size": 11531,
+     "sha256": "eb27d378564a4d084ab3b9480759086bd8486a6c4a160e9bda5cbde21ddae103",
+     "path": "f/eb27d378564a4d08.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 225452,
+     "sha256": "13fc4728128edefced20e6baaa5c46a50a369d1d08d5b75fa430072dafa048a9",
+     "path": "f/13fc4728128edefc.css"
     }
    ],
-   "ver": "583d08a9f5",
-   "up": "2026-10-29"
+   "shots": [
+    "f/86ffccd6d5de66fd.jpg",
+    "f/b9d51d2cd82caf36.jpg",
+    "f/5788c89cdc5058e2.jpg",
+    "f/cf1c0ab07bd0f41d.jpg"
+   ],
+   "art": "f/988f74ba4e3e56b1.jpg",
+   "bundles": [
+    {
+     "path": "f/183e476a68433239.bin",
+     "size": 3133198,
+     "sha256": "183e476a684332393d9465e09e1902af4cee11c42e11d2e8861fae93cc9b56d9",
+     "items": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+     ]
+    },
+    {
+     "path": "f/560be27940e0982e.bin",
+     "size": 1351788,
+     "sha256": "560be27940e0982e04ebc2d8e4dc7122a09782d0cbc31a27521b2d2815c836e8",
+     "items": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+     ]
+    }
+   ],
+   "ver": "c4f383bc18",
+   "up": "2026-10-31"
   },
   {
-   "id": "game.between-tides.ch5",
-   "kind": "chapter",
+   "id": "game.the-interpreter",
+   "kind": "game",
    "lang": "",
-   "parent": "game.between-tides",
-   "ch": 5,
-   "title": {
-    "en": "What the Dunes Kept",
-    "vi": "Điều cồn cát giữ"
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "full": true,
+   "cover": {
+    "c1": "#1b2d3c",
+    "c2": "#e2a24a"
    },
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "Lost for Words",
+      "vi": "Một chữ sai"
+     },
+     "sum": {
+      "en": "3 a.m., a body under the pier, and a terrified 16-year-old witness. Write down exactly what he says.",
+      "vi": "3 giờ sáng, một thi thể dưới cầu tàu và nhân chứng 16 tuổi đang run sợ. Ghi lại đúng từng chữ cậu nói."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Fish and Lies",
+      "vi": "Cá và lời dối"
+     },
+     "sum": {
+      "en": "The dead boy is nineteen. A warm chip shop, a silent captain, and a face under a sheet.",
+      "vi": "Người chết mới mười chín tuổi. Một quán cá chiên ấm áp, một thuyền trưởng im lặng và một gương mặt dưới tấm vải."
+     }
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "Witness",
+      "vi": "Nhân chứng"
+     },
+     "sum": {
+      "en": "A nurse who lies in the present perfect, and a dead man who changed children's words.",
+      "vi": "Một cô y tá nói dối bằng thì hiện tại hoàn thành, và một người đã chết từng sửa lời của bọn trẻ."
+     }
+    },
+    {
+     "ch": 4,
+     "title": {
+      "en": "The Benefactor",
+      "vi": "Ân nhân"
+     },
+     "sum": {
+      "en": "A charity gala. A rich man's offer: write carefully, and your brother comes home.",
+      "vi": "Một buổi tiệc từ thiện. Lời đề nghị của người giàu: ghi cẩn thận, và em trai bạn sẽ về nhà."
+     }
+    },
+    {
+     "ch": 5,
+     "title": {
+      "en": "Undertow",
+      "vi": "Sóng ngầm"
+     },
+     "sum": {
+      "en": "A storm, the old cannery, a lighthouse — and the person who was really on the pier at 1:47.",
+      "vi": "Một cơn bão, xưởng đồ hộp cũ, ngọn hải đăng — và kẻ thật sự có mặt trên cầu tàu lúc 1:47."
+     }
+    },
+    {
+     "ch": 6,
+     "title": {
+      "en": "Testimony",
+      "vi": "Lời khai"
+     },
+     "sum": {
+      "en": "Back to the courtroom. Word for word?",
+      "vi": "Trở lại phòng xử. Đúng từng chữ?"
+     }
+    }
+   ],
    "count": 0,
-   "size": 1148346,
+   "size": 10548756,
+   "badge": "beta",
+   "title": {
+    "vi": "Lời khai",
+    "en": "The Statement"
+   },
+   "desc": {
+    "vi": "Trinh thám nhiều nhánh: bạn là thám tử tập sự ở một thị trấn cảng nước Anh. Hỏi cung, khám xét, suy luận — ghi sai một chữ, người vô tội vào tù. Tải một lần là có đủ 6 chương, 12 sự thật, 9 kết thúc.",
+    "en": "A branching detective story: you are a trainee detective in an English port town. Question, search, deduce — one wrong word can put an innocent man in prison. One download gives you all 6 chapters, 12 truths, 9 endings."
+   },
    "files": [
     {
+     "name": "art-ch2.css",
+     "size": 1879,
+     "sha256": "b021dd76173c6fd2b962e2dd16d56deac353af44d783600a395e0b156bec675e",
+     "path": "f/b021dd76173c6fd2.css"
+    },
+    {
+     "name": "art-ch3.css",
+     "size": 1357,
+     "sha256": "32119769972e8f1e31edfb11a9ab278424dc9628817e0309fd29abf9b1451243",
+     "path": "f/32119769972e8f1e.css"
+    },
+    {
+     "name": "art-ch4.css",
+     "size": 1394,
+     "sha256": "a260cd82aaddc55758a795fafb07c6b88f86bd0b4268116140698af2598a34f8",
+     "path": "f/a260cd82aaddc557.css"
+    },
+    {
      "name": "art-ch5.css",
-     "size": 711,
-     "sha256": "5593e78f4dab25138fa977f979ffcf9fa189589b6f84cd69065e120aba24b03a",
-     "path": "f/5593e78f4dab2513.css"
+     "size": 1194,
+     "sha256": "166156c10be0f6fdefd761488ecce28cda2ef8dc0a8721b40b3a9e12a64aa213",
+     "path": "f/166156c10be0f6fd.css"
     },
     {
-     "name": "img/act-bonnet.jpg",
-     "size": 83774,
-     "sha256": "c86fa1876ec8eee41b67004b07c03cb61e809287c056546d86a2162930815266",
-     "path": "f/c86fa1876ec8eee4.jpg"
+     "name": "art-ch6.css",
+     "size": 568,
+     "sha256": "81f464cbed15d0e39f1d3f77a0fd39e0770a56023e6450eabdb9c94517cfdc08",
+     "path": "f/81f464cbed15d0e3.css"
     },
     {
-     "name": "img/act-card.jpg",
-     "size": 82051,
-     "sha256": "2282cc2aa31c08505cf8da05c7f53254ea29915ab6dc693c96505ef8a028aab2",
-     "path": "f/2282cc2aa31c0850.jpg"
+     "name": "art.css",
+     "size": 3938,
+     "sha256": "897afca216e50a7fbad641c737c5e924da39037905eb4c21f8e683791071acc3",
+     "path": "f/897afca216e50a7f.css"
     },
     {
-     "name": "img/act-mapx.jpg",
-     "size": 92464,
-     "sha256": "29fea358c25db4c8a2897c61679c8e903331e8af5546b9431bf91749be6e3458",
-     "path": "f/29fea358c25db4c8.jpg"
+     "name": "art.js",
+     "size": 6861,
+     "sha256": "3a3e2baa85fe60384bdd9a3c8d43c833061227acb0751383b2e188e36aaae47e",
+     "path": "f/3a3e2baa85fe6038.js"
     },
     {
-     "name": "img/act-missed.jpg",
-     "size": 86064,
-     "sha256": "4fc1d96cff383e05d58d35fd22097bed87ad35c91386caf1f14f30f8324eafe7",
-     "path": "f/4fc1d96cff383e05.jpg"
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
     },
     {
-     "name": "img/act-pegs.jpg",
-     "size": 104964,
-     "sha256": "9483dbe0edbc26fa825d8128a8b2a0922579871e378ecd8a13ca002eb4a3a83a",
-     "path": "f/9483dbe0edbc26fa.jpg"
+     "name": "img/act-calendar.jpg",
+     "size": 71053,
+     "sha256": "4638b591c9ee0899387b512e306ff40251255d2c14d5f2ffe46ac19f3966487d",
+     "path": "f/4638b591c9ee0899.jpg"
     },
     {
-     "name": "img/act-skerry.jpg",
-     "size": 99019,
-     "sha256": "dce02ea5a730dbc750a12229227fdebd4fd79d994bad0c8a91215c763775dc3a",
-     "path": "f/dce02ea5a730dbc7.jpg"
+     "name": "img/act-carving.jpg",
+     "size": 79178,
+     "sha256": "cba5e4e614b75fe016c4edde7746acc355e34830521611eb85f8a15b8fea3e97",
+     "path": "f/cba5e4e614b75fe0.jpg"
     },
     {
-     "name": "img/act-turnback.jpg",
-     "size": 75461,
-     "sha256": "c916576600fee75f741a4ed51bff7cec1656cae3ad4931788b021c5afa4ae05c",
-     "path": "f/c916576600fee75f.jpg"
+     "name": "img/act-champagne.jpg",
+     "size": 52603,
+     "sha256": "2db0b276858f5f1992610a51c098c094ae1beb3fb752f113a11c27040fb6fb71",
+     "path": "f/2db0b276858f5f19.jpg"
     },
     {
-     "name": "img/cg-2004-kneel.jpg",
-     "size": 109872,
-     "sha256": "aadbfa458e527bf5c65849a5eb44cb5424eb1c6e48cb87ab152ef6c4a7efbad6",
-     "path": "f/aadbfa458e527bf5.jpg"
+     "name": "img/act-charger.jpg",
+     "size": 28861,
+     "sha256": "512405e9f89cc96ad28fe67efe8b47eba8decf65efc8b757a59cc7a803f5c6b5",
+     "path": "f/512405e9f89cc96a.jpg"
     },
     {
-     "name": "img/cg-2004-post.jpg",
-     "size": 91772,
-     "sha256": "133f3bc6519506a239e988d5c08d6fb3e37de2929530a6a58b8e424260dc7c3f",
-     "path": "f/133f3bc6519506a2.jpg"
+     "name": "img/act-chips.jpg",
+     "size": 70657,
+     "sha256": "77557207846ec31ce1ce1b9c4e5d22fe362e1b15e1ab6782de9d7febd009f3db",
+     "path": "f/77557207846ec31c.jpg"
     },
     {
-     "name": "img/cg-skull-ring.jpg",
-     "size": 120513,
-     "sha256": "5a30f8de5d595c51e7afa61580015d0a2cdb5d62d3a91cef38ee381f24412e17",
-     "path": "f/5a30f8de5d595c51.jpg"
+     "name": "img/act-compare.jpg",
+     "size": 87962,
+     "sha256": "c66919a2503b83c7abf06082f2a70bdcbcee81b5133616e9195290883c69f7de",
+     "path": "f/c66919a2503b83c7.jpg"
     },
     {
-     "name": "img/dunes.jpg",
-     "size": 127949,
-     "sha256": "8746bd22a3b4f738c210f2f46e829f97359af63e3cdb7c1899c2274198690970",
-     "path": "f/8746bd22a3b4f738.jpg"
+     "name": "img/act-debtbook.jpg",
+     "size": 89879,
+     "sha256": "3545627414402aeb48a4bfa5a1ea303f895cd1e05fdd87f1d6934c796a5ccd7d",
+     "path": "f/3545627414402aeb.jpg"
+    },
+    {
+     "name": "img/act-drawer.jpg",
+     "size": 55935,
+     "sha256": "fbde11cf556150ae9e39ae694f5611ebefba9db195d07421212693151f0ff137",
+     "path": "f/fbde11cf556150ae.jpg"
+    },
+    {
+     "name": "img/act-evidence.jpg",
+     "size": 61487,
+     "sha256": "47af0a1ed1d45df5a86ea9404c4fc6beb4fe4dae55a3e33384f045fff8a9659a",
+     "path": "f/47af0a1ed1d45df5.jpg"
+    },
+    {
+     "name": "img/act-floor.jpg",
+     "size": 58112,
+     "sha256": "451e48979408a298d3fe303c3703bfa3cd9b5d4b483da8e6fbdfbc16f419dc1d",
+     "path": "f/451e48979408a298.jpg"
+    },
+    {
+     "name": "img/act-jacket.jpg",
+     "size": 55106,
+     "sha256": "79bfbb2d6eda6f8c5061178d2b0d79a4e3d011572dc65347bdaba12eb3c62df1",
+     "path": "f/79bfbb2d6eda6f8c.jpg"
+    },
+    {
+     "name": "img/act-key.jpg",
+     "size": 52806,
+     "sha256": "145a56e37897bae5a592b46585d4161ce2b758a7e37c1921c53b21277eaf4777",
+     "path": "f/145a56e37897bae5.jpg"
+    },
+    {
+     "name": "img/act-laptop.jpg",
+     "size": 73332,
+     "sha256": "b18df32d171e6acb91fbc5d6b734bb02541867a854b009251416df6e4e991eae",
+     "path": "f/b18df32d171e6acb.jpg"
+    },
+    {
+     "name": "img/act-ledger.jpg",
+     "size": 132878,
+     "sha256": "730fd86674d3a190a0c5b803224b69c62a4ea8a30e0188d726eb34c9fbe748dd",
+     "path": "f/730fd86674d3a190.jpg"
+    },
+    {
+     "name": "img/act-message.jpg",
+     "size": 53882,
+     "sha256": "6ff4afc0aeabbc450516b4261922a6f8697415fed25c52978062972c5c61a427",
+     "path": "f/6ff4afc0aeabbc45.jpg"
+    },
+    {
+     "name": "img/act-notebook.jpg",
+     "size": 97558,
+     "sha256": "de89b55bc2a7a401faf40ee5975c0067821eacd94d8e0bf864c4ebeccee179a1",
+     "path": "f/de89b55bc2a7a401.jpg"
+    },
+    {
+     "name": "img/act-oath.jpg",
+     "size": 62121,
+     "sha256": "5d8f6a311b095b25c98505d2ce05a95068cdddd1dec38747805e3d327bf0da63",
+     "path": "f/5d8f6a311b095b25.jpg"
+    },
+    {
+     "name": "img/act-outfit-jeans.jpg",
+     "size": 59628,
+     "sha256": "0435f8a1de2a3c3b67038287015dd3ef5c12692b81c41fddd195effae73a8ee6",
+     "path": "f/0435f8a1de2a3c3b.jpg"
+    },
+    {
+     "name": "img/act-outfit-suit.jpg",
+     "size": 61458,
+     "sha256": "3ad0c5711dfe0aabc6cb1fdc3b020211a432e597c37547b47f56b4d4c6e29446",
+     "path": "f/3ad0c5711dfe0aab.jpg"
+    },
+    {
+     "name": "img/act-outfit-uniform.jpg",
+     "size": 59146,
+     "sha256": "2dd5402fdde8687cd95594642cb10712eedc133778cd103bd92eab5842aec3a6",
+     "path": "f/2dd5402fdde8687c.jpg"
+    },
+    {
+     "name": "img/act-report.jpg",
+     "size": 94312,
+     "sha256": "4c1890cb377558d1e89022eefe66dadaefcb9edf6516f03f6455a065fc188c1a",
+     "path": "f/4c1890cb377558d1.jpg"
+    },
+    {
+     "name": "img/act-rota.jpg",
+     "size": 72129,
+     "sha256": "5079adb5dad58a43552013b7cfb4dc02d7536567015b2e0e8d766fe35c33191c",
+     "path": "f/5079adb5dad58a43.jpg"
+    },
+    {
+     "name": "img/act-tape.jpg",
+     "size": 68137,
+     "sha256": "f94c51c129a51629ad03c0518ded3567b5ba0cebd112973215ea675817656490",
+     "path": "f/f94c51c129a51629.jpg"
+    },
+    {
+     "name": "img/act-ticket.jpg",
+     "size": 80712,
+     "sha256": "136c07ea733b140078b4ff377189b284d4c1a78c6a5ed85004ff3f73072a904f",
+     "path": "f/136c07ea733b1400.jpg"
+    },
+    {
+     "name": "img/act-torch.jpg",
+     "size": 64144,
+     "sha256": "49ed1bc2888c25708feed59072ab417ffe70b6676c0952f85afddec5b27e871a",
+     "path": "f/49ed1bc2888c2570.jpg"
+    },
+    {
+     "name": "img/archive.jpg",
+     "size": 153906,
+     "sha256": "89ef2d8a8efe747f30142c543d1365e0d6f8554de4780b524e0d0b8fdbe26e44",
+     "path": "f/89ef2d8a8efe747f.jpg"
+    },
+    {
+     "name": "img/car.jpg",
+     "size": 61492,
+     "sha256": "b5768b58bd8de56aca5ce76ed39061fcb90e71b8de3b9161b027a2b01d9770e7",
+     "path": "f/b5768b58bd8de56a.jpg"
+    },
+    {
+     "name": "img/cells.jpg",
+     "size": 101964,
+     "sha256": "4310db48881233fcf1f6d44aae03cab9d62ec27ac7a6deeb4e3be68671b951a9",
+     "path": "f/4310db48881233fc.jpg"
+    },
+    {
+     "name": "img/cg-body.jpg",
+     "size": 54007,
+     "sha256": "94a6f0c9a5f999d8241443139272ac25606c8448a370b57811efbbcb25c1ff17",
+     "path": "f/94a6f0c9a5f999d8.jpg"
+    },
+    {
+     "name": "img/cg-camera.jpg",
+     "size": 53722,
+     "sha256": "bc177d9c135525f9c57f375fd217ec998ce2bfad1dd4d839da475e1a328da3df",
+     "path": "f/bc177d9c135525f9.jpg"
+    },
+    {
+     "name": "img/cg-cctv.jpg",
+     "size": 34885,
+     "sha256": "61152e35564c01563519024e916af69b3c403fa9a57c1ddbf7243b243fd2db87",
+     "path": "f/61152e35564c0156.jpg"
+    },
+    {
+     "name": "img/cg-cliff.jpg",
+     "size": 93859,
+     "sha256": "8adc9b3451fcf3a48e35c6f515fa4460ace31cd254c9d92c77d50586919fb1c6",
+     "path": "f/8adc9b3451fcf3a4.jpg"
+    },
+    {
+     "name": "img/cg-dark.jpg",
+     "size": 62927,
+     "sha256": "b94ded6c2681b25bbff3a2f8e4ef9b745087c36d21f430dce99739530acf0b82",
+     "path": "f/b94ded6c2681b25b.jpg"
+    },
+    {
+     "name": "img/cg-ellie.jpg",
+     "size": 60249,
+     "sha256": "00cb7823fb0cf94a68578f5d0f079f3d7cd187d003a907804c361da476b5256b",
+     "path": "f/00cb7823fb0cf94a.jpg"
+    },
+    {
+     "name": "img/cg-finchletter.jpg",
+     "size": 71400,
+     "sha256": "7ec5e74051b90e1e4bfb4accd1e60d1a86257de07dacc0cf17a9af0899fc3059",
+     "path": "f/7ec5e74051b90e1e.jpg"
+    },
+    {
+     "name": "img/cg-holt.jpg",
+     "size": 78978,
+     "sha256": "ca6992c30859b4340456032c2784b41077ac701c81300a7b437d4a015bb1b404",
+     "path": "f/ca6992c30859b434.jpg"
+    },
+    {
+     "name": "img/cg-home.jpg",
+     "size": 61600,
+     "sha256": "78d8d3e182131c3245eca25a6dd80880b4a33c3f7c497ac554e4b7d1855354ef",
+     "path": "f/78d8d3e182131c32.jpg"
+    },
+    {
+     "name": "img/cg-hooks.jpg",
+     "size": 89158,
+     "sha256": "f02303e6b6b4afa625bb4771c68350bc86243c817cbf80e20ca8fb72497a9202",
+     "path": "f/f02303e6b6b4afa6.jpg"
+    },
+    {
+     "name": "img/cg-letter.jpg",
+     "size": 70302,
+     "sha256": "7be81cd9287801080b297cd8dbc91ebab11e92625c7b4367a03a9bcf23282eb7",
+     "path": "f/7be81cd928780108.jpg"
+    },
+    {
+     "name": "img/cg-lighthouse.jpg",
+     "size": 56551,
+     "sha256": "70fe5948efe0935372a627b937e0af536404d8d52112b2056113550480a53976",
+     "path": "f/70fe5948efe09353.jpg"
+    },
+    {
+     "name": "img/cg-lockscreen.jpg",
+     "size": 68367,
+     "sha256": "c58e947af9700611d83c201fa8e10a52dadae8880aaeba100a47abd04211e9c4",
+     "path": "f/c58e947af9700611.jpg"
+    },
+    {
+     "name": "img/cg-morgue.jpg",
+     "size": 77205,
+     "sha256": "2253077bd5f7cd4e082933ea7d009757464d8f520ce9be57257c7b47c0c054c9",
+     "path": "f/2253077bd5f7cd4e.jpg"
+    },
+    {
+     "name": "img/cg-north.jpg",
+     "size": 73613,
+     "sha256": "b2400c46a5bfdfb2c771847a976ab03e8e3e290e5d4a096e5d6a14cd1a05a50b",
+     "path": "f/b2400c46a5bfdfb2.jpg"
+    },
+    {
+     "name": "img/cg-owen.jpg",
+     "size": 100402,
+     "sha256": "1876ee242b601641fb981e30ea6b711aad51bc3d920471f573df71ef9a2ae925",
+     "path": "f/1876ee242b601641.jpg"
+    },
+    {
+     "name": "img/cg-rescue.jpg",
+     "size": 66752,
+     "sha256": "5200da8dd0ce9c690be40c6cfc63cada6d5f7bcb0821d16a66ff7666149fbfa3",
+     "path": "f/5200da8dd0ce9c69.jpg"
+    },
+    {
+     "name": "img/cg-reunion.jpg",
+     "size": 74847,
+     "sha256": "affff6f5a1079df07fd8dcba107a6ba070b5f277c7fd7abf2e8b3fc007b9102c",
+     "path": "f/affff6f5a1079df0.jpg"
+    },
+    {
+     "name": "img/cg-safe.jpg",
+     "size": 62141,
+     "sha256": "c0591a92caa5c9a26c708a4ee95c891f1ebbdcfc623637a666ed06fd51936fe7",
+     "path": "f/c0591a92caa5c9a2.jpg"
+    },
+    {
+     "name": "img/cg-sandal.jpg",
+     "size": 54397,
+     "sha256": "9d8b97e1f16e569e28b2a589b06d5ce1161938f76be8d842583f1f6cc99aa088",
+     "path": "f/9d8b97e1f16e569e.jpg"
+    },
+    {
+     "name": "img/cg-steps.jpg",
+     "size": 43510,
+     "sha256": "b6d84f171df273291ebb39055149ffd6200d4e0ca0544aa50c56893a92ab1ef5",
+     "path": "f/b6d84f171df27329.jpg"
+    },
+    {
+     "name": "img/cg-tom.jpg",
+     "size": 75330,
+     "sha256": "0d7da89244aa24920cb9d009c49c53fbadf6d7cc7463d9c57266bed6fc629b82",
+     "path": "f/0d7da89244aa2492.jpg"
+    },
+    {
+     "name": "img/cg-verdict.jpg",
+     "size": 46694,
+     "sha256": "2f73a4be15be598851ccd06cf3d57202a45b6d2ad0f617b424b1996758fd9831",
+     "path": "f/2f73a4be15be5988.jpg"
+    },
+    {
+     "name": "img/cg-wallet.jpg",
+     "size": 67371,
+     "sha256": "a97054d1336bce3bc5af9f9c619ff7c9b04d0744abcde4d6f8057b7c59a56b13",
+     "path": "f/a97054d1336bce3b.jpg"
+    },
+    {
+     "name": "img/cg-whisper.jpg",
+     "size": 84539,
+     "sha256": "b7551313e339f6531d8360476aca97c60abecec412b388db5f63b81a6b7f92f0",
+     "path": "f/b7551313e339f653.jpg"
+    },
+    {
+     "name": "img/chipshop.jpg",
+     "size": 92448,
+     "sha256": "16fad837180bbf168069930a1b255422ee996ea0e3fe31dce271735e984792e2",
+     "path": "f/16fad837180bbf16.jpg"
+    },
+    {
+     "name": "img/coldstore.jpg",
+     "size": 125972,
+     "sha256": "fc4f819c27d1f5e1abe26f23b7e18f67719086595ea46ad06e6b45807aa6eff7",
+     "path": "f/fc4f819c27d1f5e1.jpg"
+    },
+    {
+     "name": "img/corridor.jpg",
+     "size": 73047,
+     "sha256": "8048e1c38415ffe79c6cfcd889016a2ae1d13b1392085a79129831ea82052992",
+     "path": "f/8048e1c38415ffe7.jpg"
+    },
+    {
+     "name": "img/court.jpg",
+     "size": 100819,
+     "sha256": "21be6d94b1843535b23f93a83c23ec2284e5dc70daee2ef5da4acb6a1da69bc8",
+     "path": "f/21be6d94b1843535.jpg"
+    },
+    {
+     "name": "img/courthall.jpg",
+     "size": 101617,
+     "sha256": "635b9ee0c0490a4f51eccac7a53877f4257ddc6f5c1131e538592aef602693b1",
+     "path": "f/635b9ee0c0490a4f.jpg"
+    },
+    {
+     "name": "img/cover.jpg",
+     "size": 77568,
+     "sha256": "581a17a3bb021560cd8bd263a3235659697250380e5e79dc38bbf7d95fd70f06",
+     "path": "f/581a17a3bb021560.jpg"
+    },
+    {
+     "name": "img/dawn.jpg",
+     "size": 84461,
+     "sha256": "854b2f86d7c610d222cb10abb26b2694c6ada6ae8dbe5cd88c407b603e044056",
+     "path": "f/854b2f86d7c610d2.jpg"
+    },
+    {
+     "name": "img/dorm.jpg",
+     "size": 108968,
+     "sha256": "5f7783ac90777c6f2346c3a0ddabccd9015cec4c206e9c37b89dbc8562581afd",
+     "path": "f/5f7783ac90777c6f.jpg"
+    },
+    {
+     "name": "img/ellie-angry.webp",
+     "size": 69082,
+     "sha256": "d464e27e14e349601e20667322603b70a6fc3a291524901daca74133c9702bca",
+     "path": "f/d464e27e14e34960.webp"
+    },
+    {
+     "name": "img/ellie-crying.webp",
+     "size": 67656,
+     "sha256": "b90bcdc0fbc326e5a89d7a481450dce9130035c5a3a0768b75290aa7a7e7b342",
+     "path": "f/b90bcdc0fbc326e5.webp"
+    },
+    {
+     "name": "img/ellie-relief.webp",
+     "size": 58386,
+     "sha256": "eae8ad075998cf1029218f1a26ac1b6c4a0264d4bf24fb5a7c8f03db6e2b5dc7",
+     "path": "f/eae8ad075998cf10.webp"
+    },
+    {
+     "name": "img/ellie.webp",
+     "size": 58296,
+     "sha256": "e1afb182ca48e49ec79d98f7240b1d72adb4bf6cd4e23e0d5f6befb887f59f01",
+     "path": "f/e1afb182ca48e49e.webp"
+    },
+    {
+     "name": "img/finch.webp",
+     "size": 55370,
+     "sha256": "f9c5e97065321f4d4e4d9c5ff7f3e9d18ce90f7ed287c2e2ec622cd525adada0",
+     "path": "f/f9c5e97065321f4d.webp"
+    },
+    {
+     "name": "img/gala.jpg",
+     "size": 126375,
+     "sha256": "aa60b8fde7ba3fd20ae4053a10d731d429ab6ac073b5b4807a2fa87ebd84a796",
+     "path": "f/aa60b8fde7ba3fd2.jpg"
+    },
+    {
+     "name": "img/galakitchen.jpg",
+     "size": 149738,
+     "sha256": "18c01b9a033add68123c293c9f67d612b995f6fc95ff3aa0d10948f358717bbc",
+     "path": "f/18c01b9a033add68.jpg"
+    },
+    {
+     "name": "img/gullpoint.jpg",
+     "size": 121791,
+     "sha256": "cb7c7bd15099ef36b3242fb242e5a8c941f4b29583343c23a82f861bf1d6be2d",
+     "path": "f/cb7c7bd15099ef36.jpg"
+    },
+    {
+     "name": "img/holt-angry.webp",
+     "size": 52480,
+     "sha256": "b8e2e2b77fac300d8397cb29440fdf74ea1054f8b2e413b9345af9b89ac5077f",
+     "path": "f/b8e2e2b77fac300d.webp"
+    },
+    {
+     "name": "img/holt-cold.webp",
+     "size": 46036,
+     "sha256": "4ba9715c74d99f3147057f3b5c5cbf8c8672e5020e3907fdd6006461b39119d6",
+     "path": "f/4ba9715c74d99f31.webp"
+    },
+    {
+     "name": "img/holt-smug.webp",
+     "size": 47862,
+     "sha256": "936110eef8edda004dab4bee05d88f3621d2fc6092780fae9401e6fd3a66eb52",
+     "path": "f/936110eef8edda00.webp"
+    },
+    {
+     "name": "img/holt.webp",
+     "size": 46178,
+     "sha256": "a6302d9b7f93e5ce4e2c68f861309d8743b8c6a681cd5c09bb758c8d944bd25b",
+     "path": "f/a6302d9b7f93e5ce.webp"
+    },
+    {
+     "name": "img/hospital.jpg",
+     "size": 79286,
+     "sha256": "0f2dac6292f73d956a63ab80f645ba80092b2a060416d0f24c4c660bc268a9fd",
+     "path": "f/0f2dac6292f73d95.jpg"
+    },
+    {
+     "name": "img/interview.jpg",
+     "size": 43780,
+     "sha256": "53c51822ac1093fb865c00ed73ce8465559107887f98e536f350658c026c56e8",
+     "path": "f/53c51822ac1093fb.jpg"
+    },
+    {
+     "name": "img/it-crowbar.jpg",
+     "size": 31715,
+     "sha256": "898b524093998e0afe56a72b95c6078fc471169463f7e2e54c9948315bf85119",
+     "path": "f/898b524093998e0a.jpg"
+    },
+    {
+     "name": "img/it-debt_book.jpg",
+     "size": 19512,
+     "sha256": "327ae0e2be35601bb89034809853d41e2ffe2376b7c21e709637a19baf6fd3c6",
+     "path": "f/327ae0e2be35601b.jpg"
+    },
+    {
+     "name": "img/it-finch_note.jpg",
+     "size": 45500,
+     "sha256": "a5bcef8d6ab53191481b3602364a314dc7593a4ecfb3acea4fb59de6d6c55233",
+     "path": "f/a5bcef8d6ab53191.jpg"
+    },
+    {
+     "name": "img/it-finch_report.jpg",
+     "size": 25306,
+     "sha256": "4482841853c3e93adf8060712eb228be6c2d0545e28e30ff1f1c73e9e3ee0b73",
+     "path": "f/4482841853c3e93a.jpg"
+    },
+    {
+     "name": "img/it-finch_tape.jpg",
+     "size": 19247,
+     "sha256": "4e476ac88baf50938c15176979148ab9dfed7b42cc4d63ec45711d88e76265a7",
+     "path": "f/4e476ac88baf5093.jpg"
+    },
+    {
+     "name": "img/it-finch_tape2.jpg",
+     "size": 22198,
+     "sha256": "5b91e8a92cc49a0398be7b22ef444666def439f53f894f03ef69b3df0d95f79a",
+     "path": "f/5b91e8a92cc49a03.jpg"
+    },
+    {
+     "name": "img/it-gp_key.jpg",
+     "size": 21857,
+     "sha256": "5137492a48ec85a5c27d9821fea22715a4b803f2a8dd85b3e2cad7ef3695f4bc",
+     "path": "f/5137492a48ec85a5.jpg"
+    },
+    {
+     "name": "img/it-hook.jpg",
+     "size": 35340,
+     "sha256": "27586db27c28dd6696c121728448ccfa0394d48a6f04ba829585d09fbacf23d7",
+     "path": "f/27586db27c28dd66.jpg"
+    },
+    {
+     "name": "img/it-id_card.jpg",
+     "size": 23353,
+     "sha256": "8a471f7e60ef817e66a1a1a8aacc10bbe69bab9a7b3c10d9290ba028e1bea96e",
+     "path": "f/8a471f7e60ef817e.jpg"
+    },
+    {
+     "name": "img/it-invite.jpg",
+     "size": 26731,
+     "sha256": "1eb690542a0a5e5564a9f442f8d3f3d56beccb263a9674ddd9d9d6a086a9cb80",
+     "path": "f/1eb690542a0a5e55.jpg"
+    },
+    {
+     "name": "img/it-jim_note.jpg",
+     "size": 35947,
+     "sha256": "f701b6a56e36541e02c2cd68defeb010cddf64527772ed0d58177549dd4687cf",
+     "path": "f/f701b6a56e36541e.jpg"
+    },
+    {
+     "name": "img/it-ledger.jpg",
+     "size": 31607,
+     "sha256": "ee24cd3aecf0dd281bea61b4728757fe867e7734e13607faab0521bc477aa02b",
+     "path": "f/ee24cd3aecf0dd28.jpg"
+    },
+    {
+     "name": "img/it-leg_it.jpg",
+     "size": 49904,
+     "sha256": "692c2a372b06254881137cbd15ef0cea0f1aaafa798a6a51cb515d3d8eaa4668",
+     "path": "f/692c2a372b062548.jpg"
+    },
+    {
+     "name": "img/it-letter.jpg",
+     "size": 24140,
+     "sha256": "b7d81940c23d993ee71984be48c202b470bea80bd7253d8c6d3b2eaf4d7bb396",
+     "path": "f/b7d81940c23d993e.jpg"
+    },
+    {
+     "name": "img/it-notes.jpg",
+     "size": 24545,
+     "sha256": "977efd26e2f4e27c25be460ac7c6f442239a725e1b6f0315c3090ca129c4a077",
+     "path": "f/977efd26e2f4e27c.jpg"
+    },
+    {
+     "name": "img/it-oilskin.jpg",
+     "size": 41728,
+     "sha256": "fd887a2ada911eeeb49bd935cb61f3c1250a7b2a86f004eb42f637a29efaccf3",
+     "path": "f/fd887a2ada911eee.jpg"
+    },
+    {
+     "name": "img/it-phone.jpg",
+     "size": 25441,
+     "sha256": "3108049741d3ced7a00b9e2caf1f6f33583863e9b8970eb35710355f719a8721",
+     "path": "f/3108049741d3ced7.jpg"
+    },
+    {
+     "name": "img/it-pm_report.jpg",
+     "size": 25687,
+     "sha256": "39da77eab0eb55ccf3c8ff96e0811b27ab231fcb1511dc899ffeafc8e17fcbad",
+     "path": "f/39da77eab0eb55cc.jpg"
+    },
+    {
+     "name": "img/it-pub_tape.jpg",
+     "size": 21360,
+     "sha256": "8a4bdaefeccf1f98f5a6ab474609bff34402d4625ca7b7d445dfc23cec06a8b1",
+     "path": "f/8a4bdaefeccf1f98.jpg"
+    },
+    {
+     "name": "img/it-recorder.jpg",
+     "size": 16580,
+     "sha256": "9d02eab46a8262754e58c5f07878d02bf1ea5ba9b894061026ef2b846fbe7892",
+     "path": "f/9d02eab46a826275.jpg"
+    },
+    {
+     "name": "img/it-rota.jpg",
+     "size": 52911,
+     "sha256": "7b62a8471712f6824cc55b80e14d604c6a50c22b98dd09443a1293c21368e227",
+     "path": "f/7b62a8471712f682.jpg"
+    },
+    {
+     "name": "img/it-sam_book.jpg",
+     "size": 21336,
+     "sha256": "4c62d55c90b8783e2c06958c1e7ceafc03b0d54090f37a1d105fa615a88a41c9",
+     "path": "f/4c62d55c90b8783e.jpg"
+    },
+    {
+     "name": "img/it-sam_jacket.jpg",
+     "size": 26993,
+     "sha256": "895721ee5ed2d0e5647aa452aca8016eb22ce09570880b9374abc7c546bb8773",
+     "path": "f/895721ee5ed2d0e5.jpg"
+    },
+    {
+     "name": "img/it-sam_photo.jpg",
+     "size": 26878,
+     "sha256": "62e4a1809f33956766220930ba46bf369ba2b5d0b96c25b28d667ceddfc9c4af",
+     "path": "f/62e4a1809f339567.jpg"
+    },
+    {
+     "name": "img/it-ticket.jpg",
+     "size": 32350,
+     "sha256": "e46afb58edb3e12feebf092ee8ad0bb14c239446215d1f0ae8de7284502da971",
+     "path": "f/e46afb58edb3e12f.jpg"
+    },
+    {
+     "name": "img/it-trainer.jpg",
+     "size": 32371,
+     "sha256": "63693940f56a35569382d7999af32f2ba9846653275f3595b28a774691adc657",
+     "path": "f/63693940f56a3556.jpg"
+    },
+    {
+     "name": "img/it-voicemail.jpg",
+     "size": 24544,
+     "sha256": "cdcee7697228b2c8e8775beba0fd88ed1022bf7a6eb8fc50efb0aada859fc0f5",
+     "path": "f/cdcee7697228b2c8.jpg"
+    },
+    {
+     "name": "img/it-watch.jpg",
+     "size": 29438,
+     "sha256": "400f5443a47c225c64f8d5ae08c813a3ce9e6253d7ac58fc5930561c8247768c",
+     "path": "f/400f5443a47c225c.jpg"
+    },
+    {
+     "name": "img/jim.webp",
+     "size": 60598,
+     "sha256": "0c9f1011c13b525e5f65c9ad0ac2918308da296acfefa336bb7924fab2257f37",
+     "path": "f/0c9f1011c13b525e.webp"
+    },
+    {
+     "name": "img/judge.webp",
+     "size": 70756,
+     "sha256": "ef69e37375bac739a6db4d33086e3cf392260848074ed2d42da3d39d2921287d",
+     "path": "f/ef69e37375bac739.webp"
+    },
+    {
+     "name": "img/kieran-hope.webp",
+     "size": 41176,
+     "sha256": "adb5d6e51ee34ab53f733ddda27f74f6f7a15ae135e24c8135f69d72954d7b78",
+     "path": "f/adb5d6e51ee34ab5.webp"
+    },
+    {
+     "name": "img/kieran-relief.webp",
+     "size": 49068,
+     "sha256": "cf3e32b2be04686fe87a6b547b38f8e313affa7e360118a5014d62e5b01d8e67",
+     "path": "f/cf3e32b2be04686f.webp"
+    },
+    {
+     "name": "img/kieran-sad.webp",
+     "size": 58718,
+     "sha256": "363d171e3a005ae1c7094d55b7127a0638f82fe5152b2040c8c6c4f45a056ecd",
+     "path": "f/363d171e3a005ae1.webp"
+    },
+    {
+     "name": "img/kieran-scared.webp",
+     "size": 53680,
+     "sha256": "0eda02dda1a442ed4c859d3bf2ee87135c8330d2d5478dab95923ff5d6f97ab7",
+     "path": "f/0eda02dda1a442ed.webp"
+    },
+    {
+     "name": "img/kieran-shock.webp",
+     "size": 53918,
+     "sha256": "5be39fb4c19448117f9738372869dee82cf8540ee5f59ac0c2e47f6b91bfc434",
+     "path": "f/5be39fb4c1944811.webp"
+    },
+    {
+     "name": "img/kieran.webp",
+     "size": 50766,
+     "sha256": "0cc3ead31938a19619f8c539d67b68d4cb522ea02f2e7f7767cecc4a7eab3789",
+     "path": "f/0cc3ead31938a196.webp"
+    },
+    {
+     "name": "img/kitchen.jpg",
+     "size": 102089,
+     "sha256": "bdb049a4bd9c47eb97978aab39082b62c2e96b994b8e8467dfcc833a17cb7285",
+     "path": "f/bdb049a4bd9c47eb.jpg"
+    },
+    {
+     "name": "img/lamproom.jpg",
+     "size": 113209,
+     "sha256": "485cd43d83157ea17212913be43fa5ef3d2e0da8d606a3c9a0787c9b813cb214",
+     "path": "f/485cd43d83157ea1.jpg"
+    },
+    {
+     "name": "img/lighthouse.jpg",
+     "size": 82345,
+     "sha256": "88eba2c08da38995e210b6ce5fd255f9879859b24f72fecb5bce030daa78a79d",
+     "path": "f/88eba2c08da38995.jpg"
+    },
+    {
+     "name": "img/maggie-broken.webp",
+     "size": 61718,
+     "sha256": "f4b16c980f51a8e6d82cde641f86b5e3127cc0448670c067379ab64359f8a8f3",
+     "path": "f/f4b16c980f51a8e6.webp"
+    },
+    {
+     "name": "img/maggie-cold.webp",
+     "size": 55778,
+     "sha256": "495f018de0480748184fd33174661bf015ebcfea89186f4d69b5de99e1b9fa5e",
+     "path": "f/495f018de0480748.webp"
+    },
+    {
+     "name": "img/maggie-worried.webp",
+     "size": 54924,
+     "sha256": "af6a499dc1655bcd4bd768897191ecd5b7bf9a6ce622399ace97ceb56f945e90",
+     "path": "f/af6a499dc1655bcd.webp"
+    },
+    {
+     "name": "img/maggie.webp",
+     "size": 54074,
+     "sha256": "81371e853805015ae2c63250a9c454c351a3047c64fafbb8753c2458a04f6cb0",
+     "path": "f/81371e853805015a.webp"
+    },
+    {
+     "name": "img/morgue.jpg",
+     "size": 63517,
+     "sha256": "bce9097f7d66e0ab6bfbc674fc95c1875139f10a1ef1be899d07097aa12e8fa1",
+     "path": "f/bce9097f7d66e0ab.jpg"
+    },
+    {
+     "name": "img/office.jpg",
+     "size": 116790,
+     "sha256": "faaa36b5479832745b4904f886d1e0a9aa6f70c5a163807dd6932f29b59c7d77",
+     "path": "f/faaa36b547983274.jpg"
+    },
+    {
+     "name": "img/owen-angry.webp",
+     "size": 59904,
+     "sha256": "8f6ca7456b32a69b8aeaf571985ad0b88d4c7fac4043031f3d4439d56cd02c76",
+     "path": "f/8f6ca7456b32a69b.webp"
+    },
+    {
+     "name": "img/owen-cold.webp",
+     "size": 58872,
+     "sha256": "d24be21f37238f90ce846385572ee2e465a8f3b8b2e6c80b90888786588fbfa2",
+     "path": "f/d24be21f37238f90.webp"
+    },
+    {
+     "name": "img/owen-desperate.webp",
+     "size": 64990,
+     "sha256": "36a140724b38c4a601cd9107149df1284d54a9b76aeed5515dc950e66051b952",
+     "path": "f/36a140724b38c4a6.webp"
+    },
+    {
+     "name": "img/owen-smile.webp",
+     "size": 61776,
+     "sha256": "ebd482104354c271bc4398ec17242cd814a6615430e2ed0fe9eeda9ca0bf342f",
+     "path": "f/ebd482104354c271.webp"
+    },
+    {
+     "name": "img/owen.webp",
+     "size": 59532,
+     "sha256": "7b0fb68cf22779c8a6da4f01aef2a5a636db65b06fe6887d290cdda527a4f212",
+     "path": "f/7b0fb68cf22779c8.webp"
+    },
+    {
+     "name": "img/pier.jpg",
+     "size": 63371,
+     "sha256": "864bb33818320287864e32df62cda27fb356b11a6a05ede84354d1f2c9ab28d7",
+     "path": "f/864bb33818320287.jpg"
+    },
+    {
+     "name": "img/pub.jpg",
+     "size": 114326,
+     "sha256": "88752fb8f04b46cafb46ea485468204902e0a1dc130a870c1d8b4b6dc6431e6d",
+     "path": "f/88752fb8f04b46ca.jpg"
+    },
+    {
+     "name": "img/room.jpg",
+     "size": 71652,
+     "sha256": "15a8663a7918d9c68f4169b0bf675fb8ee426faddff18c48ed2174afe6b772fc",
+     "path": "f/15a8663a7918d9c6.jpg"
+    },
+    {
+     "name": "img/ruth-cold.webp",
+     "size": 48686,
+     "sha256": "e51a7b48e61147c3ff97b5f3a8bee95dc2f8dc9d049c5fc36d5f5f8c313450a9",
+     "path": "f/e51a7b48e61147c3.webp"
+    },
+    {
+     "name": "img/ruth-proud.webp",
+     "size": 48768,
+     "sha256": "cac15e59f9269a7931075f740359a9e0f8a5cebffc325382ec0c5ee809a10512",
+     "path": "f/cac15e59f9269a79.webp"
+    },
+    {
+     "name": "img/ruth-soft.webp",
+     "size": 48242,
+     "sha256": "6cd8d1fb20abc5c49cfe747c21299f5dba76e0d529b1dc2a415f7b3feb68dd29",
+     "path": "f/6cd8d1fb20abc5c4.webp"
+    },
+    {
+     "name": "img/ruth-surprised.webp",
+     "size": 48852,
+     "sha256": "d99a156e1f134b0657c4d8c628a329e36f7d363118208f93587252ddcbc7b20b",
+     "path": "f/d99a156e1f134b06.webp"
+    },
+    {
+     "name": "img/ruth.webp",
+     "size": 47332,
+     "sha256": "97d45aa314cf058b0be8bc123d6026a83b60b6dde3aefd0711a5ec753de9df75",
+     "path": "f/97d45aa314cf058b.webp"
+    },
+    {
+     "name": "img/sam-crying.webp",
+     "size": 50128,
+     "sha256": "f17be8f897b62037d2e57f3fecf422aa3dab78422a8831bc244ad456edb73aa1",
+     "path": "f/f17be8f897b62037.webp"
+    },
+    {
+     "name": "img/sam-sad.webp",
+     "size": 48384,
+     "sha256": "fdd9ead6458d0b0725abffbe2f5e12413e88c68abc7404dbe15ffacb2572070f",
+     "path": "f/fdd9ead6458d0b07.webp"
+    },
+    {
+     "name": "img/sam-scared.webp",
+     "size": 48372,
+     "sha256": "09ec3adfcd738d6a1149aa6987daa6086152185dfb0c1f137841d272f9f7e0c1",
+     "path": "f/09ec3adfcd738d6a.webp"
+    },
+    {
+     "name": "img/sam-smile.webp",
+     "size": 48548,
+     "sha256": "f69801ac31b1ce2bbc2376a17d49286ed94b9ead11af5d9791e07b9adb20926e",
+     "path": "f/f69801ac31b1ce2b.webp"
+    },
+    {
+     "name": "img/sam.webp",
+     "size": 49388,
+     "sha256": "f5533907f4639a82dd0ff488b748496fd9b184fca352836409d3628121d5595a",
+     "path": "f/f5533907f4639a82.webp"
+    },
+    {
+     "name": "img/storm.jpg",
+     "size": 122359,
+     "sha256": "02a968cbe3f651d2942b66ead3fc02003316bda62faf15ec9aeab198aa9d7d89",
+     "path": "f/02a968cbe3f651d2.jpg"
+    },
+    {
+     "name": "img/street.jpg",
+     "size": 122753,
+     "sha256": "44fe71390608cb5a398f95356b53c93d7045b4c4380fd2c0b6fb31fa7b5f4375",
+     "path": "f/44fe71390608cb5a.jpg"
+    },
+    {
+     "name": "img/study.jpg",
+     "size": 87201,
+     "sha256": "7d83c08f6f07b441a59487e72ff1f0c595c5fe0ae9958efa50e2c5ab78d84a70",
+     "path": "f/7d83c08f6f07b441.jpg"
+    },
+    {
+     "name": "img/tom-angry.webp",
+     "size": 90518,
+     "sha256": "abb7ec5606091ad904d8143e450f3c32df2aee2a15728cb9016bd69435e74981",
+     "path": "f/abb7ec5606091ad9.webp"
+    },
+    {
+     "name": "img/tom-sad.webp",
+     "size": 91300,
+     "sha256": "18743773ec076a55572d9fbcf2cee39d25255b0a178261636393b392fee758a6",
+     "path": "f/18743773ec076a55.webp"
+    },
+    {
+     "name": "img/tom-soft.webp",
+     "size": 85142,
+     "sha256": "0d88a985ecd39b444a2624b80613b398bf6f77d232b22b143ea09b0b847c91ea",
+     "path": "f/0d88a985ecd39b44.webp"
+    },
+    {
+     "name": "img/tom.webp",
+     "size": 81820,
+     "sha256": "5216bee9fa7d0dd713b2a0289b94dbfae7566ece6d409aed8e436299aa2737c0",
+     "path": "f/5216bee9fa7d0dd7.webp"
+    },
+    {
+     "name": "index.html",
+     "size": 1995,
+     "sha256": "86d8cb4d7abb0be2723d9ad904983fc7d94d82600983d86b4e8d60d8491986ea",
+     "path": "f/86d8cb4d7abb0be2.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 69191,
+     "sha256": "78587ae7d99a0b8d20ba070cbefc2fa3de40abbae53e5c166c9ee2c08bf75268",
+     "path": "f/78587ae7d99a0b8d.js"
+    },
+    {
+     "name": "story/ch2.js",
+     "size": 45147,
+     "sha256": "574931db7ae1c3f15697e89a169f2f0c8afa2e7ed156a6787dabe0e55cf45204",
+     "path": "f/574931db7ae1c3f1.js"
+    },
+    {
+     "name": "story/ch3.js",
+     "size": 33138,
+     "sha256": "5d3f74399398c73b057e1733aa8273b96c4b1fe146d971b0e9d893c570339f97",
+     "path": "f/5d3f74399398c73b.js"
+    },
+    {
+     "name": "story/ch4.js",
+     "size": 31068,
+     "sha256": "5a1f53d5540bdc4840db430169af8a7d756a3111f9d56e6189d38628bab03164",
+     "path": "f/5a1f53d5540bdc48.js"
     },
     {
      "name": "story/ch5.js",
-     "size": 73732,
-     "sha256": "674301fde7d391f58407a2e8657075bacf5432fbb789c28d2b53a4a2c710380f",
-     "path": "f/674301fde7d391f5.js"
+     "size": 38336,
+     "sha256": "1901aa46ca9b6f265e0998e90f67a0b354fb789d3ec34c38ab68c2eb9d607d6b",
+     "path": "f/1901aa46ca9b6f26.js"
+    },
+    {
+     "name": "story/ch6.js",
+     "size": 27162,
+     "sha256": "8ee17df74487868809b56ea5dffecf009ee7438e068e9b49ab87e67b9df2e1da",
+     "path": "f/8ee17df744878688.js"
+    },
+    {
+     "name": "story/lang/de.js",
+     "size": 165013,
+     "sha256": "392ae36f0ebd58db9d096417446c949587c375b7a1f0ecbfd0cae0a092ecc940",
+     "path": "f/392ae36f0ebd58db.js"
+    },
+    {
+     "name": "story/lang/ja.js",
+     "size": 69931,
+     "sha256": "752c7f2b29cdc40a5137c2373b478a91ae853c67dc1c61b75c7ea0cae9facd20",
+     "path": "f/752c7f2b29cdc40a.js"
+    },
+    {
+     "name": "story/lang/ko.js",
+     "size": 193,
+     "sha256": "7008b4ba1bbb9513c45b38d7ed7b90f96dd516ee985cf753ea75c0a46e59e6e9",
+     "path": "f/7008b4ba1bbb9513.js"
+    },
+    {
+     "name": "story/lang/zh.js",
+     "size": 205,
+     "sha256": "e84bce816159f0d7e1e046b34042acc78945649f7566e430bf3372f51e4cdd9d",
+     "path": "f/e84bce816159f0d7.js"
+    },
+    {
+     "name": "story/refs.js",
+     "size": 483,
+     "sha256": "06d5437f46eec28ac6e02b22990e18466f8e3a072cb896b3701e5efabe33d76e",
+     "path": "f/06d5437f46eec28a.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 13745,
+     "sha256": "1eae8770bac92bb7bd576aff16a63c1acd4c32c926249e30f9c158223b577c7c",
+     "path": "f/1eae8770bac92bb7.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 130807,
+     "sha256": "00e383b5ae816d52a78737cd24c1957862000872dffda08adebc7c33fc6b4c01",
+     "path": "f/00e383b5ae816d52.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13193,
+     "sha256": "52082deb13cdd065747e53b59dabb0a2dc485261023380fac754a097c40a77e7",
+     "path": "f/52082deb13cdd065.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 13843,
+     "sha256": "795ba4ff9d07e608f46b811142f87cf9a519a4f2c2b51e706ad74f9ed95628a0",
+     "path": "f/795ba4ff9d07e608.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 85410,
+     "sha256": "29f7c58e1d00c8c76bb3a68d40786031459da774f474a15f8e3fa487839fd4b5",
+     "path": "f/29f7c58e1d00c8c7.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 103508,
+     "sha256": "14567b97d4e27fd12b54572597bb868698899f951953eab0b66e1e1eeb4608e2",
+     "path": "f/14567b97d4e27fd1.js"
+    },
+    {
+     "name": "lib/story/mech-life.js",
+     "size": 113254,
+     "sha256": "6445b831987313bc784eb1bdd5fc5ebb73d9f0d7a9d3307441e91d7deccea9ef",
+     "path": "f/6445b831987313bc.js"
+    },
+    {
+     "name": "lib/story/stage.js",
+     "size": 76279,
+     "sha256": "6d64688b6ed9b61e16d0742ea0838d17cab7c4c68a1e82563f0250878606516b",
+     "path": "f/6d64688b6ed9b61e.js"
+    },
+    {
+     "name": "lib/story/place.js",
+     "size": 52189,
+     "sha256": "116e3baabe915f05170af3202153149e3c7b4ddc7812c9fe7e50cee64c3ce6aa",
+     "path": "f/116e3baabe915f05.js"
+    },
+    {
+     "name": "lib/story/action.js",
+     "size": 11531,
+     "sha256": "eb27d378564a4d084ab3b9480759086bd8486a6c4a160e9bda5cbde21ddae103",
+     "path": "f/eb27d378564a4d08.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 225452,
+     "sha256": "13fc4728128edefced20e6baaa5c46a50a369d1d08d5b75fa430072dafa048a9",
+     "path": "f/13fc4728128edefc.css"
     }
    ],
-   "ver": "eae170efbb",
-   "up": "2026-10-30"
+   "shots": [
+    "f/6c0d230b835a6342.jpg",
+    "f/86e41b4bb3998189.jpg",
+    "f/2578450b92d7048f.jpg",
+    "f/7062f90e8cc6ff65.jpg"
+   ],
+   "art": "f/8adc9b3451fcf3a4.jpg",
+   "bundles": [
+    {
+     "path": "f/33a32bf5bea3d9d4.bin",
+     "size": 3084625,
+     "sha256": "33a32bf5bea3d9d432ab9bc7c8489ebbfcd6cf76221ee7f7ed97bb569a6b79b2",
+     "items": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+     ]
+    },
+    {
+     "path": "f/ccc4cc5b560c8707.bin",
+     "size": 3132137,
+     "sha256": "ccc4cc5b560c8707be38de2d537071a609fa25db2fa80bf13a0d5d11b41e20b7",
+     "items": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+     ]
+    },
+    {
+     "path": "f/74024a3b15f2e14c.bin",
+     "size": 3127254,
+     "sha256": "74024a3b15f2e14c1de03d01fc450235eaa36f7be8f41aff41b4850f69225e01",
+     "items": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
+     ]
+    },
+    {
+     "path": "f/f59e3c901b771968.bin",
+     "size": 1204740,
+     "sha256": "f59e3c901b7719682774d5b990ca4eb8c6bdfc02da4118fc079519b1298c30e9",
+     "items": [
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
+     ]
+    }
+   ],
+   "ver": "55188c68bd",
+   "up": "2026-10-31"
   },
   {
    "id": "game.vale-dossiers",
@@ -6572,8 +7166,8 @@
     "en": "The Vale Dossiers I: The Portrait and the Crown"
    },
    "desc": {
-    "vi": "Trinh thám kiểu Sherlock Holmes bằng tiếng Anh có dịch: một vị khách đeo mặt nạ thuê bạn lấy lại một bức chân dung. Khám xét hiện trường, hỏi chuyện, nối chứng cứ trên bảng vụ án — 6 chương, 4 kết thúc, có giọng đọc.",
-    "en": "Sherlock-style detective story in English with translation: a masked client hires you to recover a portrait. Search the scene, question people, link evidence on the case board — 6 chapters, 4 endings, voiced."
+    "vi": "Trinh thám kiểu Sherlock Holmes bằng tiếng Anh có dịch: một vị khách đeo mặt nạ thuê bạn lấy lại một bức chân dung. Khám xét hiện trường, hỏi chuyện, nối chứng cứ trên bảng vụ án. Tải một lần là chơi trọn Phần I: 6 chương, 4 kết thúc, có giọng đọc.",
+    "en": "Sherlock-style detective story in English with translation: a masked client hires you to recover a portrait. Search the scene, question people, link evidence on the case board. One download gives you all of Part I: 6 chapters, 4 endings, voiced."
    },
    "files": [
     {
@@ -10825,6 +11419,13 @@
      "path": "f/de187759f0b0bc78.js"
     }
    ],
+   "shots": [
+    "f/b7ccdd50de759cd8.jpg",
+    "f/e62cf96c82ebff1d.jpg",
+    "f/84aa5fcdd4c8b2d7.jpg",
+    "f/db41dbe1f0a41ed1.jpg"
+   ],
+   "art": "f/f90b4f7c210a5ec8.webp",
    "bundles": [
     {
      "path": "f/261f92d9a4f0e923.bin",
@@ -11774,8 +12375,8 @@
     "en": "The Vale Dossiers II: The Room Beyond the Wall"
    },
    "desc": {
-    "vi": "Vụ thứ hai: một căn nhà cũ, một lời cảnh báo ban đêm. Sắp xếp lời kể, đọc giấy tờ, dựng lại kế hoạch đêm — 6 chương, 4 kết thúc, có giọng đọc. Vụ án độc lập với phần I.",
-    "en": "Case two: an old house and a warning in the night. Order the testimony, read the papers, rebuild the night plan — 6 chapters, 4 endings, voiced. Stands alone from Part I."
+    "vi": "Vụ thứ hai: một căn nhà cũ, một lời cảnh báo ban đêm. Sắp xếp lời kể, đọc giấy tờ, dựng lại kế hoạch đêm. Tải một lần là chơi trọn Phần II: 6 chương, 4 kết thúc, có giọng đọc. Vụ án độc lập với Phần I.",
+    "en": "Case two: an old house and a warning in the night. Order the testimony, read the papers, rebuild the night plan. One download gives you all of Part II: 6 chapters, 4 endings, voiced. Stands alone from Part I."
    },
    "files": [
     {
@@ -13921,6 +14522,13 @@
      "path": "f/de187759f0b0bc78.js"
     }
    ],
+   "shots": [
+    "f/6bb63d2c3ec2d943.jpg",
+    "f/b9102d715561f074.jpg",
+    "f/96a9a9b161931aac.jpg",
+    "f/45251bab05addc01.jpg"
+   ],
+   "art": "f/258033677fe06576.webp",
    "bundles": [
     {
      "path": "f/ae4c05277c758e20.bin",
@@ -14417,8 +15025,8 @@
     "en": "The Vale Dossiers III: The Horse That Vanished"
    },
    "desc": {
-    "vi": "Vụ thứ ba: ngựa đua hạng nhất mất tích sát ngày đua, người huấn luyện bị giết. Theo dấu, dựng đường đi, nhận dạng, ưu tiên thời gian — 5 chương, 4 kết thúc, có giọng đọc.",
-    "en": "Case three: a prize racehorse vanishes days before the race and its trainer is dead. Follow the tracks, rebuild the route, identify, prioritise the time — 5 chapters, 4 endings, voiced."
+    "vi": "Vụ thứ ba: ngựa đua hạng nhất mất tích sát ngày đua, người huấn luyện bị giết. Theo dấu, dựng đường đi, nhận dạng, ưu tiên thời gian. Tải một lần là chơi trọn Phần III: 5 chương, 4 kết thúc, có giọng đọc. Vụ án độc lập với Phần I và II.",
+    "en": "Case three: a prize racehorse vanishes days before the race and its trainer is dead. Follow the tracks, rebuild the route, identify, prioritise the time. One download gives you all of Part III: 5 chapters, 4 endings, voiced. Stands alone from Parts I and II."
    },
    "files": [
     {
@@ -16390,6 +16998,13 @@
      "path": "f/de187759f0b0bc78.js"
     }
    ],
+   "shots": [
+    "f/4b0cbd115d65d4e9.jpg",
+    "f/6e9052d9deff1fc6.jpg",
+    "f/59c053e571908516.jpg",
+    "f/d63bf378f6191268.jpg"
+   ],
+   "art": "f/b68bc5af8075d922.webp",
    "bundles": [
     {
      "path": "f/8886e86cf768d84b.bin",
