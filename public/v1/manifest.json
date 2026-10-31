@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-31T08:04:23.853Z",
+ "at": "2026-10-31T08:04:47.481Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -2186,150 +2186,6 @@
     }
    ],
    "ver": "08b4399d64",
-   "up": "2026-10-29"
-  },
-  {
-   "id": "game.seven-mornings",
-   "kind": "game",
-   "lang": "",
-   "entry": "index.html",
-   "sdk": 1,
-   "pw": [],
-   "rewards": "own",
-   "full": true,
-   "cover": {
-    "c1": "#1a2433",
-    "c2": "#7fc8ff"
-   },
-   "chList": [
-    {
-     "ch": 1,
-     "title": {
-      "en": "The First Morning",
-      "vi": "Buổi sáng đầu tiên"
-     },
-     "sum": {
-      "en": "14 February. New flat, six neighbours, a fire at nine.",
-      "vi": "14 tháng 2. Căn hộ mới, sáu người hàng xóm, đám cháy lúc chín giờ."
-     }
-    },
-    {
-     "ch": 2,
-     "title": {
-      "en": "Patterns",
-      "vi": "Quy luật"
-     },
-     "sum": {
-      "en": "Everyone does the same thing at the same time. Except you.",
-      "vi": "Ai cũng làm đúng việc ấy vào đúng giờ ấy. Trừ bạn."
-     },
-     "soon": true
-    },
-    {
-     "ch": 3,
-     "title": {
-      "en": "The Last Morning",
-      "vi": "Buổi sáng cuối cùng"
-     },
-     "sum": {
-      "en": "One more loop. Everything you know. Everyone out.",
-      "vi": "Thêm một vòng. Mọi điều bạn biết. Đưa tất cả ra ngoài."
-     },
-     "soon": true
-    }
-   ],
-   "count": 0,
-   "size": 367540,
-   "badge": "new",
-   "title": {
-    "vi": "Bảy buổi sáng",
-    "en": "Seven Mornings"
-   },
-   "desc": {
-    "vi": "Truyện hồi hộp vòng lặp thời gian: chín giờ tối nay toà nhà của bạn cháy, sáng mai lại là sáng nay. Nhớ lời từng người hàng xóm, chọn khác đi, đưa mọi người ra ngoài. Chương 1 đã ra, chương 2–3 sắp ra mắt.",
-    "en": "A time-loop thriller: tonight at nine your building burns, and tomorrow it is this morning again. Remember what each neighbour says, choose differently, get everyone out. Chapter 1 out now, chapters 2–3 coming soon."
-   },
-   "files": [
-    {
-     "name": "art.css",
-     "size": 99,
-     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
-     "path": "f/ea7a249bcb0609fb.css"
-    },
-    {
-     "name": "art.js",
-     "size": 180,
-     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
-     "path": "f/930a3d4da8303c3a.js"
-    },
-    {
-     "name": "boot.js",
-     "size": 173,
-     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
-     "path": "f/d1c4a183daa37bba.js"
-    },
-    {
-     "name": "index.html",
-     "size": 1081,
-     "sha256": "1a2cc05a3c32fdade29f2770612016933450a57a392e3d320eb4bc39396f9014",
-     "path": "f/1a2cc05a3c32fdad.html"
-    },
-    {
-     "name": "story/ch1.js",
-     "size": 12214,
-     "sha256": "85decde1bbaff1ac914fc18557a2a57ec44013401475867ffd0360a1b5bb0775",
-     "path": "f/85decde1bbaff1ac.js"
-    },
-    {
-     "name": "story/refs.js",
-     "size": 156,
-     "sha256": "cad23660342ac08ba2a49d42ebcc1dcb3e82134ac7d8d9a6f2c0e22169d12955",
-     "path": "f/cad23660342ac08b.js"
-    },
-    {
-     "name": "story/story.js",
-     "size": 7058,
-     "sha256": "b0518f6122f178e3aceb311558ddd9ddc380b435fc15720b3e608382464fe07f",
-     "path": "f/b0518f6122f178e3.js"
-    },
-    {
-     "name": "lib/story/core.js",
-     "size": 105539,
-     "sha256": "d531d7353a91b2db9b6f48ed6936e2dfc806661c09e895c53b80b97d5089bbd3",
-     "path": "f/d531d7353a91b2db.js"
-    },
-    {
-     "name": "lib/story/fx.js",
-     "size": 13175,
-     "sha256": "37f194cfce1f33c247df4a1d5746bdf42945c7b2c4a1f8a5b1ffe20582b921b4",
-     "path": "f/37f194cfce1f33c2.js"
-    },
-    {
-     "name": "lib/story/flow.js",
-     "size": 12496,
-     "sha256": "8f2f54a8978f03a66be8c8e73f4ad5e6404844c2958282ce08e534e5d0199d77",
-     "path": "f/8f2f54a8978f03a6.js"
-    },
-    {
-     "name": "lib/story/mech.js",
-     "size": 57331,
-     "sha256": "073f7ecd0ac011a9763b9a446a120c7ff059b55e584b07815f9fb2ccb0fe3b13",
-     "path": "f/073f7ecd0ac011a9.js"
-    },
-    {
-     "name": "lib/story/mech-plus.js",
-     "size": 46680,
-     "sha256": "d6f17daa1091024862528cdf6aaa53c1c46c2ce2e0c8512154d61815e3ad35fb",
-     "path": "f/d6f17daa10910248.js"
-    },
-    {
-     "name": "lib/story/ui.css",
-     "size": 111358,
-     "sha256": "d82ade359c7ae0ecb9d40d55888085c95abac5fcdd6119e97da7980e77e535fa",
-     "path": "f/d82ade359c7ae0ec.css"
-    }
-   ],
-   "ver": "619b6d18ce",
    "up": "2026-10-29"
   },
   {
@@ -17406,6 +17262,174 @@
     }
    ],
    "ver": "cb56d35ec9",
+   "up": "2026-10-31"
+  },
+  {
+   "id": "game.seven-mornings",
+   "kind": "game",
+   "lang": "",
+   "entry": "index.html",
+   "sdk": 1,
+   "pw": [],
+   "rewards": "own",
+   "full": true,
+   "cover": {
+    "c1": "#1a2433",
+    "c2": "#7fc8ff"
+   },
+   "chList": [
+    {
+     "ch": 1,
+     "title": {
+      "en": "The First Morning",
+      "vi": "Buổi sáng đầu tiên"
+     },
+     "sum": {
+      "en": "14 February. New flat, six neighbours, a fire at nine.",
+      "vi": "14 tháng 2. Căn hộ mới, sáu người hàng xóm, đám cháy lúc chín giờ."
+     }
+    },
+    {
+     "ch": 2,
+     "title": {
+      "en": "Patterns",
+      "vi": "Quy luật"
+     },
+     "sum": {
+      "en": "Everyone does the same thing at the same time. Except you.",
+      "vi": "Ai cũng làm đúng việc ấy vào đúng giờ ấy. Trừ bạn."
+     },
+     "soon": true
+    },
+    {
+     "ch": 3,
+     "title": {
+      "en": "The Last Morning",
+      "vi": "Buổi sáng cuối cùng"
+     },
+     "sum": {
+      "en": "One more loop. Everything you know. Everyone out.",
+      "vi": "Thêm một vòng. Mọi điều bạn biết. Đưa tất cả ra ngoài."
+     },
+     "soon": true
+    }
+   ],
+   "count": 0,
+   "size": 846585,
+   "badge": "new",
+   "title": {
+    "vi": "Bảy buổi sáng",
+    "en": "Seven Mornings"
+   },
+   "desc": {
+    "vi": "Truyện hồi hộp vòng lặp thời gian: chín giờ tối nay toà nhà của bạn cháy, sáng mai lại là sáng nay. Nhớ lời từng người hàng xóm, chọn khác đi, đưa mọi người ra ngoài. Hiện có chương 1; chương 2–3 sẽ vào cùng gói ở bản cập nhật.",
+    "en": "A time-loop thriller: tonight at nine your building burns, and tomorrow it is this morning again. Remember what each neighbour says, choose differently, get everyone out. Chapter 1 is in now; chapters 2–3 will arrive in the same pack as updates."
+   },
+   "files": [
+    {
+     "name": "art.css",
+     "size": 99,
+     "sha256": "ea7a249bcb0609fbff1cbbd1cb7cd79108e6d4db63ba707cca1454579b1726e3",
+     "path": "f/ea7a249bcb0609fb.css"
+    },
+    {
+     "name": "art.js",
+     "size": 180,
+     "sha256": "930a3d4da8303c3abf27b7470de92a86dcb696aedeea8f91ba1ed4a17d979c0f",
+     "path": "f/930a3d4da8303c3a.js"
+    },
+    {
+     "name": "boot.js",
+     "size": 173,
+     "sha256": "d1c4a183daa37bbabfcb76830a8402a66d8dd392c98c90c49088dc20385dc2bc",
+     "path": "f/d1c4a183daa37bba.js"
+    },
+    {
+     "name": "index.html",
+     "size": 1241,
+     "sha256": "c82af3e7207e1dc8290a3b42b35779fa0c7e8ed8494b93a36e7f0572afa2c225",
+     "path": "f/c82af3e7207e1dc8.html"
+    },
+    {
+     "name": "story/ch1.js",
+     "size": 12214,
+     "sha256": "85decde1bbaff1ac914fc18557a2a57ec44013401475867ffd0360a1b5bb0775",
+     "path": "f/85decde1bbaff1ac.js"
+    },
+    {
+     "name": "story/refs.js",
+     "size": 154,
+     "sha256": "bde8a6c7cfce8d5c5127509ff6b17137ab897494469e2f63a5c7b9186ee99f36",
+     "path": "f/bde8a6c7cfce8d5c.js"
+    },
+    {
+     "name": "story/story.js",
+     "size": 7058,
+     "sha256": "b0518f6122f178e3aceb311558ddd9ddc380b435fc15720b3e608382464fe07f",
+     "path": "f/b0518f6122f178e3.js"
+    },
+    {
+     "name": "lib/story/core.js",
+     "size": 130807,
+     "sha256": "00e383b5ae816d52a78737cd24c1957862000872dffda08adebc7c33fc6b4c01",
+     "path": "f/00e383b5ae816d52.js"
+    },
+    {
+     "name": "lib/story/fx.js",
+     "size": 13193,
+     "sha256": "52082deb13cdd065747e53b59dabb0a2dc485261023380fac754a097c40a77e7",
+     "path": "f/52082deb13cdd065.js"
+    },
+    {
+     "name": "lib/story/flow.js",
+     "size": 13843,
+     "sha256": "795ba4ff9d07e608f46b811142f87cf9a519a4f2c2b51e706ad74f9ed95628a0",
+     "path": "f/795ba4ff9d07e608.js"
+    },
+    {
+     "name": "lib/story/mech.js",
+     "size": 85410,
+     "sha256": "29f7c58e1d00c8c76bb3a68d40786031459da774f474a15f8e3fa487839fd4b5",
+     "path": "f/29f7c58e1d00c8c7.js"
+    },
+    {
+     "name": "lib/story/mech-plus.js",
+     "size": 103508,
+     "sha256": "14567b97d4e27fd12b54572597bb868698899f951953eab0b66e1e1eeb4608e2",
+     "path": "f/14567b97d4e27fd1.js"
+    },
+    {
+     "name": "lib/story/mech-life.js",
+     "size": 113254,
+     "sha256": "6445b831987313bc784eb1bdd5fc5ebb73d9f0d7a9d3307441e91d7deccea9ef",
+     "path": "f/6445b831987313bc.js"
+    },
+    {
+     "name": "lib/story/stage.js",
+     "size": 76279,
+     "sha256": "6d64688b6ed9b61e16d0742ea0838d17cab7c4c68a1e82563f0250878606516b",
+     "path": "f/6d64688b6ed9b61e.js"
+    },
+    {
+     "name": "lib/story/place.js",
+     "size": 52189,
+     "sha256": "116e3baabe915f05170af3202153149e3c7b4ddc7812c9fe7e50cee64c3ce6aa",
+     "path": "f/116e3baabe915f05.js"
+    },
+    {
+     "name": "lib/story/action.js",
+     "size": 11531,
+     "sha256": "eb27d378564a4d084ab3b9480759086bd8486a6c4a160e9bda5cbde21ddae103",
+     "path": "f/eb27d378564a4d08.js"
+    },
+    {
+     "name": "lib/story/ui.css",
+     "size": 225452,
+     "sha256": "13fc4728128edefced20e6baaa5c46a50a369d1d08d5b75fa430072dafa048a9",
+     "path": "f/13fc4728128edefc.css"
+    }
+   ],
+   "ver": "5501aac068",
    "up": "2026-10-31"
   }
  ]
