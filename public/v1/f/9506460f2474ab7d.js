@@ -1,0 +1,2 @@
+// SINH bởi tools/games/_lib/story/refs.js — đừng sửa tay (index-html.js tự chạy lại).
+StoryEngine.refs?.({"items":{"p2_memory":1,"p2_words":6,"p2_order":3,"p2_timeline":1,"p2_repairs":3,"p2_income":6,"p2_rusk_account":3,"p2_room_doubt":3,"p2_plan":6,"p2_shutters":4,"p2_cord":4,"p2_vent":6,"p2_bed":4,"p2_alterations":4,"p2_safety":5,"p2_night_observation":6,"p2_night_witness":5,"p2_intervention":5,"p2_medical":6,"p2_rusk_reply":6}});

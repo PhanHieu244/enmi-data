@@ -1,0 +1,59 @@
+/* Vale mobile revision: ui.css owns the native stage, dialogue and title. */
+.se.vd{width:100%;max-width:560px;height:100dvh;--se-think-l:'YOUR THOUGHTS · SUY NGHĨ'}
+.vd button:focus-visible,.vd a:focus-visible,.vd [role="button"]:focus-visible{outline:3px solid var(--se-ac);outline-offset:3px}
+.vd button{touch-action:manipulation}
+.vd button:disabled{cursor:not-allowed;opacity:.45}
+.vd .se-btn,.vd .se-btn.sm,.vd .se-ib,.vd .se-grp button,.vd .se-ovpills button{min-height:44px}
+.vd .se-ib,.vd .se-grp button{min-width:44px}
+.vd .se-shh .se-ib{flex:none}
+.vd .se-top{gap:6px}
+.vd .se-stat{min-height:44px}
+.vd .se-grp{gap:1px}
+.vd .se-grp button{height:44px;width:44px}
+.vd .se-grp button.on{background:rgba(242,184,75,.16);color:var(--se-ac)}
+.vd .se-stat.big.has{padding-inline:8px}
+.vd .st-n{font-size:12px}.vd .st-t{font-size:10px}
+.vd .se-lane{top:calc(max(12px,var(--sat,env(safe-area-inset-top,0px))) + 58px)}
+.vd-en{display:block}
+.vd-vi{display:block;margin-top:6px;font-size:14px;line-height:1.55;color:#b8b6ad;font-weight:400;letter-spacing:0;text-transform:none}
+.vd-kicker{margin:0 0 12px;color:var(--se-ac);font:800 11px/1.5 var(--se-sans);letter-spacing:.09em;text-transform:uppercase}
+
+/* Scroll long bilingual text inside the glass box; name and controls stay visible. */
+.vd .se-box{display:flex;flex-direction:column;gap:10px;min-height:0;max-height:min(64dvh,calc(100dvh - 110px - env(safe-area-inset-top,0px)));padding:24px 16px 12px;cursor:default}
+.vd-dialogue-scroll{min-height:0;flex:1 1 auto;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:0 2px 3px;touch-action:pan-y;scrollbar-width:thin}
+.vd-reader-label{margin:0 0 8px;font:700 10px/1.3 var(--se-sans);letter-spacing:.08em;opacity:.72}
+.vd .se-box.k-say .vd-reader-label,.vd .se-box.k-think .vd-reader-label{display:none}
+.vd .se-box .se-sub{font-size:15px;line-height:1.55;opacity:.88}
+.vd .se-box .se-tools{position:static;flex:none;display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:0;padding:0}
+.vd .se-tools button{min-height:44px;padding:8px 11px;justify-content:center}
+.vd .se-tools .se-more{display:block;margin-left:auto;opacity:.65;width:24px;height:24px}
+.vd .se-box{cursor:pointer}
+.vd .se-cap-note{padding:0 16px 12px;line-height:1.5}
+.vd .se-ovo{min-height:52px}
+.vd .se-seg button{min-height:44px}
+.vd .vd-settings-extra select{min-height:44px}
+.vd .vd-book-extras{display:grid;gap:8px;margin-top:18px}
+.vd .se-box .w.gl{touch-action:manipulation;text-underline-offset:3px}
+.vd.vd-large .se-box .se-txt{font-size:22px;line-height:1.5}
+.vd.vd-large .se-box .se-sub{font-size:18px;line-height:1.6}
+.vd .se-panel.chs{max-height:calc(100dvh - 90px - env(safe-area-inset-top,0px));overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.vd .se-ch-b{min-height:52px}
+.vd .se-ch-b small{line-height:1.5}
+.vd .se-hear{min-width:44px;min-height:44px}
+.vd .se-panel h2 .vd-vi{font-size:15px;line-height:1.55}
+
+/* Keep the original single-column cover and chapter cards on every screen. */
+.vd .se-ovb{padding-bottom:24px}
+.vd .se-ovd{line-height:1.6}
+.vd-mobile-intro{padding:12px 14px;border:1px solid var(--se-line);border-radius:14px;background:rgba(255,255,255,.04);font-size:14px;line-height:1.5}
+.vd-mobile-intro p{margin:0}
+.vd-title-links{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px}
+.vd-title-links button{min-height:48px;padding:10px;border:1px solid var(--se-line);border-radius:12px;background:rgba(255,255,255,.04);color:var(--se-fg);font-size:13px;line-height:1.4;text-align:center}
+.vd-title-links button:active{background:rgba(242,184,75,.12)}
+.vd-build-note{margin:4px 0 0;font-size:11px;line-height:1.5;color:var(--se-mute);text-align:center}
+.vd .se-ovpills button{min-width:44px}
+.vd .se-ovdt summary{min-height:44px}
+.vd .se-ovpt{min-height:52px}
+.vd .se-row{gap:8px;flex-wrap:wrap}
+.vd .se-row>.se-btn{flex:1;min-width:120px}
+.vd .se-col>.se-btn{min-height:48px}

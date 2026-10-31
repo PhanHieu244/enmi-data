@@ -1,0 +1,17 @@
+/* Compact record receipts retain visible art and an explicit inspection affordance. */
+.vd .se-t.receipt{padding:0;overflow:hidden;pointer-events:auto;background:#14282bf5;border:1px solid #bca77770;border-radius:13px}
+.se-item-receipt{display:flex;align-items:center;gap:10px;width:100%;min-height:70px;padding:10px 12px;color:inherit;background:none;border:0;text-align:left;cursor:pointer;touch-action:manipulation}
+.se-item-receipt>.se-ia{display:block;flex:none;width:48px;height:54px;min-width:48px;border:1px solid #d1b98150;border-radius:7px;overflow:hidden}
+.se-item-receipt>span:not(.se-ia){flex:1;min-width:0}.se-item-receipt small,.se-item-receipt b,.se-item-receipt em{display:block}
+.se-item-receipt small{font-size:10px;color:#c9b789;letter-spacing:.04em}.se-item-receipt b{margin-top:3px;font-size:13px;line-height:1.4}.se-item-receipt em{margin-top:3px;color:#b9c9c3;font:11px/1.4 var(--se-sans)}
+.se-item-receipt>i{flex:none;width:19px;height:19px;color:#c9b789}.se-item-receipt svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7}
+.vd .rv-st .vd-record-art{display:block;width:100%;height:100%;border-radius:14px;border:1px solid #bca77755;background:#1b2b2a;overflow:hidden}
+.vd .rv-st .vd-record-art>i{position:absolute;inset:0;display:block;background-repeat:no-repeat;background-position:center;background-size:contain}
+.vd .rv-b{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.vd .rv-b button{min-height:44px}
+.vd .se-iv .rv-b{margin-top:16px;padding-top:12px;border-top:1px solid #bca77740}.vd .se-iv .rv-b button{flex:1}
+.vd .se-read .rd-p{user-select:text;-webkit-user-select:text}.vd .se-read .rd-bar{gap:10px;padding-bottom:max(12px,env(safe-area-inset-bottom,0px))}
+.vd .se-fixed-role{flex:none;font-size:11px;color:var(--se-mute)}
+.vd .se-stat{transition:background .22s,border-color .22s,box-shadow .22s}.vd .se-stat.big{box-shadow:0 4px 16px #0002;border-color:#bca77766}
+.vd .se-stat .st-l{animation:vale-location-arrive .36s ease-out}.vd .se-ct b{line-height:1.22;text-wrap:balance}.vd .se-ct i{line-height:1.5;text-wrap:balance}
+@keyframes vale-location-arrive{from{opacity:.3;transform:translateY(3px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.vd .se-txt.ty .c{animation:none;opacity:1}.vd .se-stat,.vd .se-stat .st-l,.vd .se-ct *{animation:none!important;transition:none!important}.vd .se-ct b,.vd .se-ct i{opacity:1;transform:none}}

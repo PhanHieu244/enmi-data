@@ -1,0 +1,116 @@
+/* Vale 0.4: the original mobile stage, with image-anchored exploration. */
+.vd .se-bgl[data-fit="cover"]>.ii{-webkit-mask-image:none;mask-image:none;background-repeat:no-repeat}
+.vd .se-bgl[data-image]>.ii,.vd .se-bgl[data-image]>.vbw{animation:none}
+.vd .se-bgl{transition:opacity .48s ease}
+.vd .se-bgl:not(.on){pointer-events:none}
+.vd.looking .se-bgw,.vd.looking .se-bgl.on{will-change:auto}
+.vd[data-m="pl"] .se-stage{touch-action:none}
+.vd[data-m="xp"] .se-stage{touch-action:none}
+.vd .se-bgl .vbw.zones{overflow:visible}
+.vd .scene-props,.vd .scene-props .vbx,.vd .scene-prop{pointer-events:none!important}
+.vd .scene-prop{background-size:contain;background-position:center;background-repeat:no-repeat;filter:drop-shadow(0 1px 2px #0007)}
+.vd .scene-prop.im-prop-parcel{background-position:center bottom;filter:drop-shadow(0 3px 2px #0006)}
+/* Foreshorten the open book onto this tabletop. artR includes the transparent
+   canvas margins; the visible pages cover the painted album at x36–256/y629–711. */
+.vd .scene-prop.im-prop-stage-album{transform:scaleY(.64);transform-origin:center bottom;filter:drop-shadow(0 1px 1px #0005)}
+.vd .se-xpnav{position:absolute;inset:0;z-index:7;pointer-events:none}
+.vd:not([data-m="xp"]) .se-xpnav{display:none}
+.vd .se-panel.xp{display:grid;gap:6px;max-height:42dvh;overflow:auto;overscroll-behavior:contain}
+.vd.xp-inspecting .se-panel.xp{max-height:34dvh}
+.vd .xp-zones .pz.need::after{border-style:dashed}
+.vd .se-panel.xp .se-hold{margin:0}
+.vd .se-panel.xp .se-bag{max-height:110px;overflow:auto;overscroll-behavior:contain}
+
+/* Keep a small, quiet mark on inspected physical details. The hit area stays
+   large, centred on the same image coordinate at every viewport size. */
+.vd .pz{min-width:44px;min-height:44px;-webkit-tap-highlight-color:transparent}
+.vd .pz:not(.ng):not(.wg)::before{width:9px;height:9px;margin:-4.5px 0 0 -4.5px;box-shadow:0 0 9px rgba(255,227,165,.34);animation-duration:3.8s}
+.vd .pz:not(.ng):not(.wg)::after{width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-width:1px;animation-duration:3.8s}
+.vd .pz.seen:not(.ng):not(.wg)::before{animation:none;opacity:.63;transform:scale(.76);background:radial-gradient(circle,#e0ded0 0 30%,#9eafa7 45%,transparent 76%)}
+.vd .pz.seen:not(.ng):not(.wg)::after{animation:none;opacity:.52;transform:scale(1.4);border-color:#c3cfc5}
+.vd .pz.ng::before,.vd .pz.ng::after{display:none}
+.vd .pz-nav .pz-x,.vd .pz.ex .pz-x{left:50%;right:auto;top:50%;transform:translate(-50%,-50%);width:34px;height:34px;border:1px solid #d1cabd66;background:#121b1ac9;color:#e2daca;box-shadow:none}
+.vd .pz-nav:active .pz-x{background:#384039}
+.vd .pz-nav .pz-x svg{width:19px;height:19px}
+.vd .pz-l{max-width:min(210px,62vw);white-space:normal;text-align:center;line-height:1.35;pointer-events:none}
+.vd .vbx.hint1 .pz:not(.seen):not(.ng)::before,.vd .vbx.hint2 .pz:not(.seen):not(.ng)::before,.vd .pz.pick:not(.ng)::before{animation-duration:1s;opacity:1}
+.vd .vbx.hint2 .pz-nav .pz-l{opacity:1}
+
+/* A person occupies a grounded, authored region of the scene. Half-body art is
+   only a compatibility fallback; real full-body art never gets a waist mask. */
+.vd .pp.full .pp-i{overflow:visible}
+.vd .pp.full .pp-i>.ii{background-repeat:no-repeat;background-size:contain;background-position:center bottom;-webkit-mask-image:none;mask-image:none;filter:var(--vf,none) drop-shadow(1px 3px 3px #0008)}
+.vd .pp.full .pp-i>.ph{display:none}
+.vd .pp::after{left:18%;width:64%;height:4%;bottom:-1.2%;opacity:.44;filter:blur(3px)}
+.vd .pp-n{top:3%;width:max-content;max-width:min(150px,36vw);padding:5px 9px;border:1px solid #e8ddc747;background:#18211de8;color:#f0e8d9;box-shadow:0 3px 9px #0003;font-size:11px;font-weight:600;white-space:normal;line-height:1.25}
+.vd .pp-n svg{width:14px;height:14px;flex:none}
+.vd .pp.new .pp-n::after{width:5px;height:5px;flex:none;animation:none;opacity:.75}
+.vd .pp.half .pp-i{-webkit-mask-image:linear-gradient(#000 0 64%,transparent 96%);mask-image:linear-gradient(#000 0 64%,transparent 96%)}
+
+/* Scene movement is distinct from inspection. Arrows keep a 44px touch target
+   without competing with the physical details in the picture. */
+.vd .se-plnav .pl-ar{width:44px;height:48px;min-width:44px;min-height:44px;top:43%;border:1px solid #ded5c13d;border-radius:18px;background:#15221dc2;color:#eee5d1;box-shadow:0 3px 12px #0003,inset 0 1px 0 #fff1;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:.86;transition:opacity .18s,background .18s,transform .18s}
+.vd .se-plnav .pl-ar.l{left:8px}
+.vd .se-plnav .pl-ar.r{right:8px}
+.vd .se-plnav .pl-ar svg{width:21px;height:21px;stroke-width:1.8}
+.vd .se-plnav .pl-ar:hover,.vd .se-plnav .pl-ar:focus-visible{color:#fff5de;opacity:1;background:#25382fe8;outline:2px solid #d4c69766;outline-offset:2px}
+.vd .se-plnav .pl-ar:active{color:#fff;opacity:1;background:#394c3fea}
+.vd .se-plnav .pl-back{border:1px solid #d8d0be44;background:#14201dca;color:#eee5d5;box-shadow:none}
+.vd .pl-detail-back{position:absolute;pointer-events:auto;left:50%;top:auto;bottom:calc(var(--vale-hud-height,136px) + max(12px,env(safe-area-inset-bottom,0px)));transform:translateX(-50%);display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:88px;min-height:46px;padding:9px 15px;border:1px solid #d7c6a666;border-radius:24px;background:#101c19ed;color:#f5ead6;font:650 13px/1.2 var(--se-sans);box-shadow:0 4px 15px #0005;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.vd .pl-detail-back svg{width:18px;height:18px;transform:rotate(-90deg)}
+.vd .pl-detail-back:active{background:#394234;transform:translateX(-50%) scale(.96)}
+.vd .pl-detail-back:focus-visible{outline:3px solid #c8d8c2;outline-offset:3px}
+.vd .pl-location{margin-bottom:5px;font-size:11px;letter-spacing:.02em}
+.vd .pl-location>span{color:#c7c7b8}
+.vd .se-panel.pl{gap:6px}
+.vd .pl-bar{gap:7px}
+.vd .pl-goal.compact{flex:1 1 130px;min-height:52px;max-width:100%;height:52px;padding:7px 9px 7px 12px;gap:6px;text-align:left;color:#e9e4d8;cursor:pointer}
+.vd .pl-goal.compact>span{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:12px;line-height:1.4}
+.vd .pl-goal.compact>b{padding:4px 6px;font-size:11px}
+.vd .pl-goal.compact>i{flex:none;display:grid;place-items:center;opacity:.65;transition:transform .2s}
+.vd .pl-goal.compact>i svg{width:12px;height:12px}
+.vd .pl-goal.compact[aria-expanded="true"]>i{transform:rotate(180deg)}
+.vd .pl-goal.compact:active{background:#293229}
+.vd .pl-objective{padding:10px 12px;border:1px solid #cfb27944;border-radius:12px;background:#12211ee8;font-size:13px;line-height:1.5;color:#ebe5d6}
+.vd .pl-msg{font-size:13px;line-height:1.45;border-left:2px solid #bba775;padding:7px 9px;background:#a78d4421;border-radius:0 8px 8px 0}
+.vd.pl-inspecting .se-panel.pl{max-height:34dvh;padding-top:10px}
+.vd.pl-inspecting .pl-location{color:#ead5ae;font-size:13px}
+.vd.pl-inspecting .pl-goal{min-height:0;font-size:12px;line-height:1.4;color:#c2c3b7}
+.vd.pl-inspecting .pl-bar{gap:6px}
+.vd.pl-inspecting .pz:not(.ng)::before{opacity:.4}
+/* Keep the mark quiet when the image itself is magnified. The generous hit
+   region remains unchanged; it need not turn into a large ring over a face. */
+.vd:is(.pl-inspecting,.xp-inspecting) .pz:not(.ng):not(.wg)::before{width:3px;height:3px;margin:-1.5px 0 0 -1.5px;box-shadow:0 0 3px #ffe3a557;opacity:.5}
+.vd:is(.pl-inspecting,.xp-inspecting) .pz:not(.ng):not(.wg)::after{width:3px;height:3px;margin:-1.5px 0 0 -1.5px;border-width:.5px;opacity:.4}
+
+/* On a short landscape screen, a portrait scene keeps its complete composition;
+   the existing controls use the adjacent column. No blurred image-edge strip. */
+@media(min-width:600px) and (max-height:500px){
+ .vd:is([data-m="pl"],[data-m="xp"]){--vale-scene-width:min(52%,calc(100dvh * var(--vale-scene-ar,.563)))}
+ .vd:is([data-m="pl"],[data-m="xp"])>.se-stage,.vd[data-m="pl"]>.se-plnav,.vd[data-m="xp"]>.se-xpnav{width:var(--vale-scene-width);right:auto}
+ .vd:is([data-m="pl"],[data-m="xp"])>.se-ui{left:var(--vale-scene-width)}
+ .vd:is([data-m="pl"],[data-m="xp"]) .se-panel:is(.pl,.xp){padding-inline:12px;max-height:calc(100dvh - 72px);background:linear-gradient(180deg,#13201bef,#101814);border-left:1px solid #d0c2a41c}
+ .vd:is([data-m="pl"],[data-m="xp"]) .pl-goal{font-size:12px;line-height:1.4}
+ .vd .pl-detail-back{left:50%;top:auto;bottom:max(12px,env(safe-area-inset-bottom,0px));padding-inline:12px}
+ .vd .pp-n{font-size:10px;max-width:120px}
+}
+/* Receiving an object is a blocking authored step: its close action must remain
+   reachable in a short landscape viewport, including long evidence descriptions. */
+@media(max-height:500px){
+ .vd .se-rev{padding:12px}
+ .vd .rv-c{width:100%;max-height:calc(100dvh - 24px);grid-template-columns:minmax(100px,.72fr) minmax(0,1fr);grid-template-rows:auto auto minmax(0,1fr) auto auto;column-gap:16px;row-gap:6px;align-items:center}
+ .vd .rv-st{grid-column:1;grid-row:1 / 6;width:100%;max-width:190px;align-self:center;justify-self:center}
+ .vd .rv-k,.vd .rv-n,.vd .rv-d,.vd .rv-b,.vd .rv-tap{grid-column:2;max-width:100%}
+ .vd .rv-k{grid-row:1;font-size:10px;letter-spacing:.12em}
+ .vd .rv-n{grid-row:2;font-size:18px;line-height:1.25}
+ .vd .rv-d{grid-row:3;max-height:27dvh;overflow-y:auto;overscroll-behavior:contain;font-size:14px;line-height:1.45;padding-inline:3px;-webkit-overflow-scrolling:touch}
+ .vd .rv-b{grid-row:4;margin:0;gap:4px}
+ .vd .rv-b:empty{display:none}
+ .vd .rv-b .se-btn{min-height:44px;padding:7px 10px;font-size:12px}
+ .vd .rv-tap{grid-row:5;min-height:44px;margin:0;padding:9px 8px!important;animation:none;background:#d6b8781f!important;border-radius:12px;color:#e8d8b5}
+}
+@media(prefers-reduced-motion:reduce){
+ .vd .se-bgl,.vd .se-bgw{transition:none!important;animation:none!important}
+ .vd .pz:not(.ng):not(.wg)::before{animation:none;opacity:.8}
+ .vd .pz:not(.ng):not(.wg)::after{animation:none;opacity:.3;transform:scale(1.4)}
+}
