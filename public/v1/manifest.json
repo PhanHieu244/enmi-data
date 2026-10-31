@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-31T11:27:43.886Z",
+ "at": "2026-10-31T15:55:54.531Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -7183,7 +7183,7 @@
     }
    ],
    "count": 0,
-   "size": 64228667,
+   "size": 69713449,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale I: Bức chân dung và vương miện",
@@ -7196,9 +7196,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 15865,
-     "sha256": "f5fa5cfbe67b17bb7c9a0a0679888442f73150c325202a0252cc84a12c12d099",
-     "path": "f/f5fa5cfbe67b17bb.css"
+     "size": 16160,
+     "sha256": "99642d304086589feaade9fbe044d5270d4925f61353b13268fc68f136c680fa",
+     "path": "f/99642d304086589f.css"
     },
     {
      "name": "audio/c1-1067kdd.mp3",
@@ -11017,6 +11017,12 @@
      "path": "f/bf35e22d4c49b4d9.webp"
     },
     {
+     "name": "img/prop-open-letter-v09.png",
+     "size": 1516773,
+     "sha256": "09c98033b194f7312f9a1eae6b140cb3ffaf1ba57b837cb3c047255d4675d7fa",
+     "path": "f/09c98033b194f731.png"
+    },
+    {
      "name": "img/prop-parcel.webp",
      "size": 237016,
      "sha256": "2504b4eeec2b6113f14ac232106137512965fe52f1e3a3c2bd19c9f7ca284db0",
@@ -11035,10 +11041,22 @@
      "path": "f/f7aa2a3613864cbb.webp"
     },
     {
+     "name": "img/reed-offer-notebook-v091.png",
+     "size": 1922532,
+     "sha256": "ee37b090f32b92e1541ea81991f983df6fd9c34eecc380d25227d8abb6aa0362",
+     "path": "f/ee37b090f32b92e1.png"
+    },
+    {
      "name": "img/reed-smiling.webp",
      "size": 236088,
      "sha256": "e6f429e74f5b3c5af82a16a7ba06a77ad4200c15d070e1bf118e8c3cab7ea030",
      "path": "f/e6f429e74f5b3c5a.webp"
+    },
+    {
+     "name": "img/reed-writing-v091.png",
+     "size": 1944996,
+     "sha256": "8a53d1a18ad7f6985d4050f47542cff919e23839345f2627de7462fb762ff73b",
+     "path": "f/8a53d1a18ad7f698.png"
     },
     {
      "name": "img/stage-bell.webp",
@@ -11168,9 +11186,9 @@
     },
     {
      "name": "index.html",
-     "size": 2562,
-     "sha256": "74d010a002cbc4d02ce22f846ffd5a71b4423441029b197168830d8c97a86ea9",
-     "path": "f/74d010a002cbc4d0.html"
+     "size": 2909,
+     "sha256": "948b49ee409a3a214ae3cde18e329373eb44fe294ca6fd2b2171ee116f6f7aa0",
+     "path": "f/948b49ee409a3a21.html"
     },
     {
      "name": "plugins/vale-save.js",
@@ -11192,9 +11210,9 @@
     },
     {
      "name": "story/ch1.js",
-     "size": 65811,
-     "sha256": "2c3ac6ed9d68981bfef6889ffc2f7e82c599cefe4caf24ea99d287adcf96c1b2",
-     "path": "f/2c3ac6ed9d68981b.js"
+     "size": 66371,
+     "sha256": "80397911d40e82ba0ba0c7939c79c22df3dd1f9eff2c4497a9ad263f0fb9a582",
+     "path": "f/80397911d40e82ba.js"
     },
     {
      "name": "story/ch2.js",
@@ -11240,9 +11258,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 131062,
-     "sha256": "e1eaea04c36c12f42e24429c09fb1acd7cd5eb2a3815b81bcabbbfd08bb7c944",
-     "path": "f/e1eaea04c36c12f4.js"
+     "size": 132861,
+     "sha256": "222181f345f0d0e8a1c625060a1d6786097cf7aa936c9c5987957a82aad5449b",
+     "path": "f/222181f345f0d0e8.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -11252,15 +11270,15 @@
     },
     {
      "name": "lib/story/flow.js",
-     "size": 13843,
-     "sha256": "795ba4ff9d07e608f46b811142f87cf9a519a4f2c2b51e706ad74f9ed95628a0",
-     "path": "f/795ba4ff9d07e608.js"
+     "size": 14055,
+     "sha256": "27d4c602d55cb0beb6efb3f0d50d8189e851e57706db585e950edc218f74759c",
+     "path": "f/27d4c602d55cb0be.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 85410,
-     "sha256": "29f7c58e1d00c8c76bb3a68d40786031459da774f474a15f8e3fa487839fd4b5",
-     "path": "f/29f7c58e1d00c8c7.js"
+     "size": 90224,
+     "sha256": "bc5c62ceb8c89cc24c3bdbfe30c46acb153f9b487e401605b965edd6ed525b11",
+     "path": "f/bc5c62ceb8c89cc2.js"
     },
     {
      "name": "lib/story/mech-plus.js",
@@ -11276,9 +11294,9 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 87170,
-     "sha256": "b16eadba5bdb17bf5ced163c491dbd9c939b96ce600420fe47a75ba285badb7f",
-     "path": "f/b16eadba5bdb17bf.js"
+     "size": 89647,
+     "sha256": "2e69d173aff91a58f253fce86f80c8e137ff0e6bd8d7f8268b02c28e8b4f5cc3",
+     "path": "f/2e69d173aff91a58.js"
     },
     {
      "name": "lib/story/place.js",
@@ -11306,9 +11324,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 228325,
-     "sha256": "b3b4482391dd67fc1c03018259a881d03334674eafb904f445dc56d303ab8052",
-     "path": "f/b3b4482391dd67fc.css"
+     "size": 228484,
+     "sha256": "e672a2f7509829f0b8ae9050f5532687b276c7cfe98c27d1c5d39bd74b2f04e7",
+     "path": "f/e672a2f7509829f0.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -11359,6 +11377,12 @@
      "path": "f/16e47a7df56c7548.css"
     },
     {
+     "name": "lib/vale/vale-playability.css",
+     "size": 6930,
+     "sha256": "dc9da8d947271c065d7dfb2eee0e75b7dda1d853c77a63e5ccce3f8757965e21",
+     "path": "f/dc9da8d947271c06.css"
+    },
+    {
      "name": "lib/story/interrogation.css",
      "size": 7433,
      "sha256": "b137589956697e77690912b3231da9d0cda514501e32be31c6b7fd366b5fc72c",
@@ -11379,8 +11403,8 @@
     {
      "name": "lib/vale/vale-base.js",
      "size": 8134,
-     "sha256": "5e58de5884cb06ee72f116e3102a12e4b8b6d5c3395072715524ab25180687ca",
-     "path": "f/5e58de5884cb06ee.js"
+     "sha256": "2ff3a7d13c504923e9ad154cb42591f8ae7bf5ca7af0bc7d280195dfd2d993d4",
+     "path": "f/2ff3a7d13c504923.js"
     },
     {
      "name": "lib/vale/vale-book.js",
@@ -11426,9 +11450,9 @@
     },
     {
      "name": "lib/vale/vale-performance.js",
-     "size": 28777,
-     "sha256": "5713ad929719f13b84a46252f5a67a57b8d971fd7fca7b0ec43b81e74350cef2",
-     "path": "f/5713ad929719f13b.js"
+     "size": 30790,
+     "sha256": "8511e132121c151a95ec1320fe94074c7c9222342a63059eea5d289b91c36736",
+     "path": "f/8511e132121c151a.js"
     },
     {
      "name": "lib/vale/vale-records.js",
@@ -11438,15 +11462,45 @@
     },
     {
      "name": "lib/vale/vale-title.js",
-     "size": 2569,
-     "sha256": "8c61312dea82107c15e3c0f7a7320aa0bf86f0be34ceaf62e12f017a7f76b038",
-     "path": "f/8c61312dea82107c.js"
+     "size": 2571,
+     "sha256": "1aacf2d8b601e807afaea2552b57c4749286b716d32ca0890a0589ef6af19bbf",
+     "path": "f/1aacf2d8b601e807.js"
     },
     {
      "name": "lib/vale/vale-z-sound.js",
      "size": 3649,
      "sha256": "6def6536fb82574c149a234b2b47907a46753c01d5315017e5526284a57240fd",
      "path": "f/6def6536fb82574c.js"
+    },
+    {
+     "name": "lib/vale/vale-z8-config.js",
+     "size": 18682,
+     "sha256": "186425a5d1dabb5bfebe76a6918b1b5a3eeff1a0bbf4aefcba4a9123038e504d",
+     "path": "f/186425a5d1dabb5b.js"
+    },
+    {
+     "name": "lib/vale/vale-zz-playability.js",
+     "size": 20860,
+     "sha256": "ccb8823556e5ec8481ecff575a86508401cf1ab4404508ad6d43bf2e482e43e4",
+     "path": "f/ccb8823556e5ec84.js"
+    },
+    {
+     "name": "lib/vale/vale-zzz-continuity.js",
+     "size": 13184,
+     "sha256": "16875f691897fb6cd5312ef2658e7b83aa2b37298a51ab1e9cc4a17e8b3c850b",
+     "path": "f/16875f691897fb6c.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzz-actions-p1-v091.js",
+     "size": 14200,
+     "sha256": "72a5dc819a71b1f5619e0bec51fb7e25d7e006ba2b654e2aa4763cee4907c83a",
+     "path": "f/72a5dc819a71b1f5.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzz-actions23-v091.js",
+     "size": 13947,
+     "sha256": "b2b20434d7e46d60394a8b9c1296a465658de3f34956b2fa78b409d53963d336",
+     "path": "f/b2b20434d7e46d60.js"
     }
    ],
    "shots": [
@@ -11458,9 +11512,9 @@
    "art": "f/f90b4f7c210a5ec8.webp",
    "bundles": [
     {
-     "path": "f/1d082f1d5f420482.bin",
-     "size": 3104080,
-     "sha256": "1d082f1d5f4204829f7f6001d52e1653b87ac96b02c053c654b44268aa17db58",
+     "path": "f/107574fc3bba3153.bin",
+     "size": 3104375,
+     "sha256": "107574fc3bba3153c1fdc29536791a445d87f83b6ebdaaacd417df7ed2825fa3",
      "items": [
       0,
       1,
@@ -12218,8 +12272,8 @@
       634,
       635,
       636,
-      637,
-      638
+      638,
+      639
      ]
     },
     {
@@ -12227,15 +12281,15 @@
      "size": 2871764,
      "sha256": "f91b08245a6ce35aafbbaf39fd9431ef6cfddb85dbb82c8d2272390a2a563c4c",
      "items": [
-      639,
       640,
-      641,
       642,
-      643,
       644,
       645,
       646,
-      647
+      647,
+      648,
+      649,
+      650
      ]
     },
     {
@@ -12243,24 +12297,21 @@
      "size": 2845966,
      "sha256": "0b91fd6df2ea0662fa1820c90eb779e70773f4a599d5b54a6a9864c6c71d9852",
      "items": [
-      648,
-      649,
-      650,
       651,
       652,
       653,
       654,
-      655
+      655,
+      656,
+      657,
+      658
      ]
     },
     {
-     "path": "f/6cd6d995cddf640d.bin",
-     "size": 3127040,
-     "sha256": "6cd6d995cddf640deb81147de3a309e7d70df5e85701ba6c3a2ee0c9153edf29",
+     "path": "f/131329b04ce98f7d.bin",
+     "size": 3129958,
+     "sha256": "131329b04ce98f7d8840032deff116b35f7fb50d2d6ec36fa98fd420fee367b6",
      "items": [
-      656,
-      657,
-      658,
       659,
       660,
       661,
@@ -12278,17 +12329,17 @@
       673,
       674,
       675,
-      676
+      676,
+      677,
+      678,
+      679
      ]
     },
     {
-     "path": "f/8b6be0d4c6e41627.bin",
-     "size": 916975,
-     "sha256": "8b6be0d4c6e416279d66bcfdb5c8eb797a306a0d3d0ba2db1d41c0f2254b8676",
+     "path": "f/9aa7ae334ed31843.bin",
+     "size": 1014243,
+     "sha256": "9aa7ae334ed3184357db171c34c20b2068e6dc131139a3ce21f4446b3fb0400e",
      "items": [
-      677,
-      678,
-      679,
       680,
       681,
       682,
@@ -12317,11 +12368,20 @@
       705,
       706,
       707,
-      708
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717
      ]
     }
    ],
-   "ver": "7a237135e7",
+   "ver": "688a5f1a33",
    "up": "2026-10-31"
   },
   {
@@ -12406,7 +12466,7 @@
     }
    ],
    "count": 0,
-   "size": 25610755,
+   "size": 29976913,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale II: Căn phòng bên kia tường",
@@ -12419,9 +12479,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 6864,
-     "sha256": "95920e55378e5f5e25059623acdb0eb31a6e187b1732a559fa34565d40367df8",
-     "path": "f/95920e55378e5f5e.css"
+     "size": 7142,
+     "sha256": "d9cab5f301bd18e1eac621b6ee0d71f0c1960dae787c2b930725f06d372074b0",
+     "path": "f/d9cab5f301bd18e1.css"
     },
     {
      "name": "audio/c1-16oidpg.mp3",
@@ -14260,16 +14320,34 @@
      "path": "f/7775f1d706142d99.webp"
     },
     {
+     "name": "img/p3_reed_tea.webp",
+     "size": 398726,
+     "sha256": "3c81e0342d4e077864fc07f152199ab6bbf8fc69a725ea0f78b2de963f54b4ef",
+     "path": "f/3c81e0342d4e0778.webp"
+    },
+    {
      "name": "img/reed-concerned.webp",
      "size": 238054,
      "sha256": "f7aa2a3613864cbb634f68c22d32f962c359c61a8b44c2e5599ebfe570c8a1e6",
      "path": "f/f7aa2a3613864cbb.webp"
     },
     {
+     "name": "img/reed-offer-notebook-v091.png",
+     "size": 1922532,
+     "sha256": "ee37b090f32b92e1541ea81991f983df6fd9c34eecc380d25227d8abb6aa0362",
+     "path": "f/ee37b090f32b92e1.png"
+    },
+    {
      "name": "img/reed-smiling.webp",
      "size": 236088,
      "sha256": "e6f429e74f5b3c5af82a16a7ba06a77ad4200c15d070e1bf118e8c3cab7ea030",
      "path": "f/e6f429e74f5b3c5a.webp"
+    },
+    {
+     "name": "img/reed-writing-v091.png",
+     "size": 1944996,
+     "sha256": "8a53d1a18ad7f6985d4050f47542cff919e23839345f2627de7462fb762ff73b",
+     "path": "f/8a53d1a18ad7f698.png"
     },
     {
      "name": "img/stage-reed.webp",
@@ -14291,9 +14369,9 @@
     },
     {
      "name": "index.html",
-     "size": 2499,
-     "sha256": "fb1adc477f626020e9c58651dcf4b8acd6e3a5972312c891cd4e619e88b1a9ca",
-     "path": "f/fb1adc477f626020.html"
+     "size": 2846,
+     "sha256": "48aba5c0a258b2f8c92a807d8a6d4e406a8f39537762f89c743d4606c3ab76d1",
+     "path": "f/48aba5c0a258b2f8.html"
     },
     {
      "name": "layout.js",
@@ -14351,9 +14429,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 131062,
-     "sha256": "e1eaea04c36c12f42e24429c09fb1acd7cd5eb2a3815b81bcabbbfd08bb7c944",
-     "path": "f/e1eaea04c36c12f4.js"
+     "size": 132861,
+     "sha256": "222181f345f0d0e8a1c625060a1d6786097cf7aa936c9c5987957a82aad5449b",
+     "path": "f/222181f345f0d0e8.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -14363,15 +14441,15 @@
     },
     {
      "name": "lib/story/flow.js",
-     "size": 13843,
-     "sha256": "795ba4ff9d07e608f46b811142f87cf9a519a4f2c2b51e706ad74f9ed95628a0",
-     "path": "f/795ba4ff9d07e608.js"
+     "size": 14055,
+     "sha256": "27d4c602d55cb0beb6efb3f0d50d8189e851e57706db585e950edc218f74759c",
+     "path": "f/27d4c602d55cb0be.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 85410,
-     "sha256": "29f7c58e1d00c8c76bb3a68d40786031459da774f474a15f8e3fa487839fd4b5",
-     "path": "f/29f7c58e1d00c8c7.js"
+     "size": 90224,
+     "sha256": "bc5c62ceb8c89cc24c3bdbfe30c46acb153f9b487e401605b965edd6ed525b11",
+     "path": "f/bc5c62ceb8c89cc2.js"
     },
     {
      "name": "lib/story/mech-plus.js",
@@ -14387,9 +14465,9 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 87170,
-     "sha256": "b16eadba5bdb17bf5ced163c491dbd9c939b96ce600420fe47a75ba285badb7f",
-     "path": "f/b16eadba5bdb17bf.js"
+     "size": 89647,
+     "sha256": "2e69d173aff91a58f253fce86f80c8e137ff0e6bd8d7f8268b02c28e8b4f5cc3",
+     "path": "f/2e69d173aff91a58.js"
     },
     {
      "name": "lib/story/place.js",
@@ -14417,9 +14495,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 228325,
-     "sha256": "b3b4482391dd67fc1c03018259a881d03334674eafb904f445dc56d303ab8052",
-     "path": "f/b3b4482391dd67fc.css"
+     "size": 228484,
+     "sha256": "e672a2f7509829f0b8ae9050f5532687b276c7cfe98c27d1c5d39bd74b2f04e7",
+     "path": "f/e672a2f7509829f0.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -14470,6 +14548,12 @@
      "path": "f/16e47a7df56c7548.css"
     },
     {
+     "name": "lib/vale/vale-playability.css",
+     "size": 6930,
+     "sha256": "dc9da8d947271c065d7dfb2eee0e75b7dda1d853c77a63e5ccce3f8757965e21",
+     "path": "f/dc9da8d947271c06.css"
+    },
+    {
      "name": "lib/story/interrogation.css",
      "size": 7433,
      "sha256": "b137589956697e77690912b3231da9d0cda514501e32be31c6b7fd366b5fc72c",
@@ -14490,8 +14574,8 @@
     {
      "name": "lib/vale/vale-base.js",
      "size": 8134,
-     "sha256": "5e58de5884cb06ee72f116e3102a12e4b8b6d5c3395072715524ab25180687ca",
-     "path": "f/5e58de5884cb06ee.js"
+     "sha256": "2ff3a7d13c504923e9ad154cb42591f8ae7bf5ca7af0bc7d280195dfd2d993d4",
+     "path": "f/2ff3a7d13c504923.js"
     },
     {
      "name": "lib/vale/vale-book.js",
@@ -14537,9 +14621,9 @@
     },
     {
      "name": "lib/vale/vale-performance.js",
-     "size": 28777,
-     "sha256": "5713ad929719f13b84a46252f5a67a57b8d971fd7fca7b0ec43b81e74350cef2",
-     "path": "f/5713ad929719f13b.js"
+     "size": 30790,
+     "sha256": "8511e132121c151a95ec1320fe94074c7c9222342a63059eea5d289b91c36736",
+     "path": "f/8511e132121c151a.js"
     },
     {
      "name": "lib/vale/vale-records.js",
@@ -14549,15 +14633,45 @@
     },
     {
      "name": "lib/vale/vale-title.js",
-     "size": 2569,
-     "sha256": "8c61312dea82107c15e3c0f7a7320aa0bf86f0be34ceaf62e12f017a7f76b038",
-     "path": "f/8c61312dea82107c.js"
+     "size": 2571,
+     "sha256": "1aacf2d8b601e807afaea2552b57c4749286b716d32ca0890a0589ef6af19bbf",
+     "path": "f/1aacf2d8b601e807.js"
     },
     {
      "name": "lib/vale/vale-z-sound.js",
      "size": 3649,
      "sha256": "6def6536fb82574c149a234b2b47907a46753c01d5315017e5526284a57240fd",
      "path": "f/6def6536fb82574c.js"
+    },
+    {
+     "name": "lib/vale/vale-z8-config.js",
+     "size": 18682,
+     "sha256": "186425a5d1dabb5bfebe76a6918b1b5a3eeff1a0bbf4aefcba4a9123038e504d",
+     "path": "f/186425a5d1dabb5b.js"
+    },
+    {
+     "name": "lib/vale/vale-zz-playability.js",
+     "size": 20860,
+     "sha256": "ccb8823556e5ec8481ecff575a86508401cf1ab4404508ad6d43bf2e482e43e4",
+     "path": "f/ccb8823556e5ec84.js"
+    },
+    {
+     "name": "lib/vale/vale-zzz-continuity.js",
+     "size": 13184,
+     "sha256": "16875f691897fb6cd5312ef2658e7b83aa2b37298a51ab1e9cc4a17e8b3c850b",
+     "path": "f/16875f691897fb6c.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzz-actions-p1-v091.js",
+     "size": 14200,
+     "sha256": "72a5dc819a71b1f5619e0bec51fb7e25d7e006ba2b654e2aa4763cee4907c83a",
+     "path": "f/72a5dc819a71b1f5.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzz-actions23-v091.js",
+     "size": 13947,
+     "sha256": "b2b20434d7e46d60394a8b9c1296a465658de3f34956b2fa78b409d53963d336",
+     "path": "f/b2b20434d7e46d60.js"
     }
    ],
    "shots": [
@@ -14569,9 +14683,9 @@
    "art": "f/258033677fe06576.webp",
    "bundles": [
     {
-     "path": "f/64c5d37122f97e5b.bin",
-     "size": 3053358,
-     "sha256": "64c5d37122f97e5be039a2d8a4c1bce560696d7c607c4cfd6efca1875d6bfb27",
+     "path": "f/b7e436da63656b7d.bin",
+     "size": 3053636,
+     "sha256": "b7e436da63656b7de1c1e4f23cd3f9e67cde29f8906d1579a8f7309c8abc97f9",
      "items": [
       0,
       1,
@@ -14919,9 +15033,9 @@
      ]
     },
     {
-     "path": "f/5c878ac9bb009996.bin",
-     "size": 3108956,
-     "sha256": "5c878ac9bb0099964e0f279650a0e5c027b95fd21b6748b98a462025bd4ca037",
+     "path": "f/fb660f0d962276c4.bin",
+     "size": 2987334,
+     "sha256": "fb660f0d962276c4e5a1693a397ddfeca4a9b51193fb6f2239ce7a63832d0e77",
      "items": [
       301,
       302,
@@ -14931,11 +15045,16 @@
       306,
       307,
       308,
-      309,
       310,
-      311,
       312,
-      313,
+      313
+     ]
+    },
+    {
+     "path": "f/a5b090e76e966189.bin",
+     "size": 1536949,
+     "sha256": "a5b090e76e96618914db11f5be3c85fe8cff28fae2fbef609ffb04cda0fb8dc6",
+     "items": [
       314,
       315,
       316,
@@ -14946,14 +15065,7 @@
       321,
       322,
       323,
-      324
-     ]
-    },
-    {
-     "path": "f/8b6be0d4c6e41627.bin",
-     "size": 916975,
-     "sha256": "8b6be0d4c6e416279d66bcfdb5c8eb797a306a0d3d0ba2db1d41c0f2254b8676",
-     "items": [
+      324,
       325,
       326,
       327,
@@ -14985,11 +15097,20 @@
       353,
       354,
       355,
-      356
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365
      ]
     }
    ],
-   "ver": "b31920d4fe",
+   "ver": "0e1d40f66e",
    "up": "2026-10-31"
   },
   {
@@ -15063,7 +15184,7 @@
     }
    ],
    "count": 0,
-   "size": 31738493,
+   "size": 37910146,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale III: Con ngựa biến mất",
@@ -15076,9 +15197,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 6115,
-     "sha256": "86ec783aca65c4ff5e9eba361c1de45e405da35946b3eb0c6ab98bc1a5ae4fbd",
-     "path": "f/86ec783aca65c4ff.css"
+     "size": 6423,
+     "sha256": "a842c7bd50b4f9d5109f9b1fa796f09d92f7486a143f52911388076c744d76ed",
+     "path": "f/a842c7bd50b4f9d5.css"
     },
     {
      "name": "audio/c1-13d77gy.mp3",
@@ -16515,6 +16636,12 @@
      "path": "f/9013f8e7313318b8.webp"
     },
     {
+     "name": "img/p3_ben_leading_ember_v091.png",
+     "size": 2204191,
+     "sha256": "2dce83e85e03319d5523bac0718f7f5fc740dde792c19a8af359db56843a855a",
+     "path": "f/2dce83e85e03319d.png"
+    },
+    {
      "name": "img/p3_ben_moss_settle.webp",
      "size": 164948,
      "sha256": "68aafcd7d34dc261a390b9119bae983ef6bd683f3872f4aec8d61bdfcc8c0bf3",
@@ -16755,10 +16882,22 @@
      "path": "f/f7aa2a3613864cbb.webp"
     },
     {
+     "name": "img/reed-offer-notebook-v091.png",
+     "size": 1922532,
+     "sha256": "ee37b090f32b92e1541ea81991f983df6fd9c34eecc380d25227d8abb6aa0362",
+     "path": "f/ee37b090f32b92e1.png"
+    },
+    {
      "name": "img/reed-smiling.webp",
      "size": 236088,
      "sha256": "e6f429e74f5b3c5af82a16a7ba06a77ad4200c15d070e1bf118e8c3cab7ea030",
      "path": "f/e6f429e74f5b3c5a.webp"
+    },
+    {
+     "name": "img/reed-writing-v091.png",
+     "size": 1944996,
+     "sha256": "8a53d1a18ad7f6985d4050f47542cff919e23839345f2627de7462fb762ff73b",
+     "path": "f/8a53d1a18ad7f698.png"
     },
     {
      "name": "img/stage-reed.webp",
@@ -16780,9 +16919,9 @@
     },
     {
      "name": "index.html",
-     "size": 2449,
-     "sha256": "59e72f585f8e66b2e94d9484365becd20b1671b51cbe5c2cef3faafa6d0f919f",
-     "path": "f/59e72f585f8e66b2.html"
+     "size": 2796,
+     "sha256": "c42cb87c3efdcd1d79234d8d825f256a9e47168b82f81d556de548ce71423043",
+     "path": "f/c42cb87c3efdcd1d.html"
     },
     {
      "name": "layout.js",
@@ -16834,9 +16973,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 131062,
-     "sha256": "e1eaea04c36c12f42e24429c09fb1acd7cd5eb2a3815b81bcabbbfd08bb7c944",
-     "path": "f/e1eaea04c36c12f4.js"
+     "size": 132861,
+     "sha256": "222181f345f0d0e8a1c625060a1d6786097cf7aa936c9c5987957a82aad5449b",
+     "path": "f/222181f345f0d0e8.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -16846,15 +16985,15 @@
     },
     {
      "name": "lib/story/flow.js",
-     "size": 13843,
-     "sha256": "795ba4ff9d07e608f46b811142f87cf9a519a4f2c2b51e706ad74f9ed95628a0",
-     "path": "f/795ba4ff9d07e608.js"
+     "size": 14055,
+     "sha256": "27d4c602d55cb0beb6efb3f0d50d8189e851e57706db585e950edc218f74759c",
+     "path": "f/27d4c602d55cb0be.js"
     },
     {
      "name": "lib/story/mech.js",
-     "size": 85410,
-     "sha256": "29f7c58e1d00c8c76bb3a68d40786031459da774f474a15f8e3fa487839fd4b5",
-     "path": "f/29f7c58e1d00c8c7.js"
+     "size": 90224,
+     "sha256": "bc5c62ceb8c89cc24c3bdbfe30c46acb153f9b487e401605b965edd6ed525b11",
+     "path": "f/bc5c62ceb8c89cc2.js"
     },
     {
      "name": "lib/story/mech-plus.js",
@@ -16870,9 +17009,9 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 87170,
-     "sha256": "b16eadba5bdb17bf5ced163c491dbd9c939b96ce600420fe47a75ba285badb7f",
-     "path": "f/b16eadba5bdb17bf.js"
+     "size": 89647,
+     "sha256": "2e69d173aff91a58f253fce86f80c8e137ff0e6bd8d7f8268b02c28e8b4f5cc3",
+     "path": "f/2e69d173aff91a58.js"
     },
     {
      "name": "lib/story/place.js",
@@ -16900,9 +17039,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 228325,
-     "sha256": "b3b4482391dd67fc1c03018259a881d03334674eafb904f445dc56d303ab8052",
-     "path": "f/b3b4482391dd67fc.css"
+     "size": 228484,
+     "sha256": "e672a2f7509829f0b8ae9050f5532687b276c7cfe98c27d1c5d39bd74b2f04e7",
+     "path": "f/e672a2f7509829f0.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -16953,6 +17092,12 @@
      "path": "f/16e47a7df56c7548.css"
     },
     {
+     "name": "lib/vale/vale-playability.css",
+     "size": 6930,
+     "sha256": "dc9da8d947271c065d7dfb2eee0e75b7dda1d853c77a63e5ccce3f8757965e21",
+     "path": "f/dc9da8d947271c06.css"
+    },
+    {
      "name": "lib/story/interrogation.css",
      "size": 7433,
      "sha256": "b137589956697e77690912b3231da9d0cda514501e32be31c6b7fd366b5fc72c",
@@ -16973,8 +17118,8 @@
     {
      "name": "lib/vale/vale-base.js",
      "size": 8134,
-     "sha256": "5e58de5884cb06ee72f116e3102a12e4b8b6d5c3395072715524ab25180687ca",
-     "path": "f/5e58de5884cb06ee.js"
+     "sha256": "2ff3a7d13c504923e9ad154cb42591f8ae7bf5ca7af0bc7d280195dfd2d993d4",
+     "path": "f/2ff3a7d13c504923.js"
     },
     {
      "name": "lib/vale/vale-book.js",
@@ -17020,9 +17165,9 @@
     },
     {
      "name": "lib/vale/vale-performance.js",
-     "size": 28777,
-     "sha256": "5713ad929719f13b84a46252f5a67a57b8d971fd7fca7b0ec43b81e74350cef2",
-     "path": "f/5713ad929719f13b.js"
+     "size": 30790,
+     "sha256": "8511e132121c151a95ec1320fe94074c7c9222342a63059eea5d289b91c36736",
+     "path": "f/8511e132121c151a.js"
     },
     {
      "name": "lib/vale/vale-records.js",
@@ -17032,15 +17177,45 @@
     },
     {
      "name": "lib/vale/vale-title.js",
-     "size": 2569,
-     "sha256": "8c61312dea82107c15e3c0f7a7320aa0bf86f0be34ceaf62e12f017a7f76b038",
-     "path": "f/8c61312dea82107c.js"
+     "size": 2571,
+     "sha256": "1aacf2d8b601e807afaea2552b57c4749286b716d32ca0890a0589ef6af19bbf",
+     "path": "f/1aacf2d8b601e807.js"
     },
     {
      "name": "lib/vale/vale-z-sound.js",
      "size": 3649,
      "sha256": "6def6536fb82574c149a234b2b47907a46753c01d5315017e5526284a57240fd",
      "path": "f/6def6536fb82574c.js"
+    },
+    {
+     "name": "lib/vale/vale-z8-config.js",
+     "size": 18682,
+     "sha256": "186425a5d1dabb5bfebe76a6918b1b5a3eeff1a0bbf4aefcba4a9123038e504d",
+     "path": "f/186425a5d1dabb5b.js"
+    },
+    {
+     "name": "lib/vale/vale-zz-playability.js",
+     "size": 20860,
+     "sha256": "ccb8823556e5ec8481ecff575a86508401cf1ab4404508ad6d43bf2e482e43e4",
+     "path": "f/ccb8823556e5ec84.js"
+    },
+    {
+     "name": "lib/vale/vale-zzz-continuity.js",
+     "size": 13184,
+     "sha256": "16875f691897fb6cd5312ef2658e7b83aa2b37298a51ab1e9cc4a17e8b3c850b",
+     "path": "f/16875f691897fb6c.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzz-actions-p1-v091.js",
+     "size": 14200,
+     "sha256": "72a5dc819a71b1f5619e0bec51fb7e25d7e006ba2b654e2aa4763cee4907c83a",
+     "path": "f/72a5dc819a71b1f5.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzz-actions23-v091.js",
+     "size": 13947,
+     "sha256": "b2b20434d7e46d60394a8b9c1296a465658de3f34956b2fa78b409d53963d336",
+     "path": "f/b2b20434d7e46d60.js"
     }
    ],
    "shots": [
@@ -17052,9 +17227,9 @@
    "art": "f/b68bc5af8075d922.webp",
    "bundles": [
     {
-     "path": "f/b92217a6439bde7f.bin",
-     "size": 3123835,
-     "sha256": "b92217a6439bde7f233e87adf5fbc4d174ce2e431a5918827ed8c801f6c8251f",
+     "path": "f/f08ecd0b1cf761a3.bin",
+     "size": 3124143,
+     "sha256": "f08ecd0b1cf761a31e9ff84511f0c7843762e76f5bdd986988103b7e0d9103cf",
      "items": [
       0,
       1,
@@ -17324,11 +17499,11 @@
       237,
       238,
       239,
-      240,
       241,
       242,
       243,
-      244
+      244,
+      245
      ]
     },
     {
@@ -17336,14 +17511,14 @@
      "size": 2841948,
      "sha256": "1d7ec605455c2ab430d0c0532d944a21d1ff6e01001e4a94355a716c35a332ab",
      "items": [
-      245,
       246,
       247,
       248,
       249,
       250,
       251,
-      252
+      252,
+      253
      ]
     },
     {
@@ -17351,13 +17526,13 @@
      "size": 2914814,
      "sha256": "20cd72f3ac4a581c168d096df51b642d08ce669280a4cafe92c70b0fdb9ed211",
      "items": [
-      253,
       254,
       255,
       256,
       257,
       258,
-      259
+      259,
+      260
      ]
     },
     {
@@ -17365,7 +17540,6 @@
      "size": 2952756,
      "sha256": "6b6ae2814b49d796ff526291860c187ca0667712fb97e933985c66b55c27eb4c",
      "items": [
-      260,
       261,
       262,
       263,
@@ -17373,7 +17547,8 @@
       265,
       266,
       267,
-      268
+      268,
+      269
      ]
     },
     {
@@ -17381,12 +17556,12 @@
      "size": 2722704,
      "sha256": "b4acf259a84b8c300b47436d8b3eb334d427e934117fbebcd4a9be063ab5ed9f",
      "items": [
-      269,
       270,
       271,
       272,
       273,
-      274
+      274,
+      275
      ]
     },
     {
@@ -17394,23 +17569,20 @@
      "size": 2862396,
      "sha256": "d85a81069ddb5ec430d712606549f50d540ba8d11889847b6cfddab02a0b324c",
      "items": [
-      275,
       276,
       277,
       278,
       279,
       280,
-      281
+      282,
+      284
      ]
     },
     {
-     "path": "f/d7bf04c01000b63f.bin",
-     "size": 1852176,
-     "sha256": "d7bf04c01000b63fa7ff41ee08d7f7076a500599a5b2bfc4c62c9355fd98b12c",
+     "path": "f/22029e7e2a33c9d9.bin",
+     "size": 1951802,
+     "sha256": "22029e7e2a33c9d900db87d1c34ef7aad206b4d226f7d27e7d14400ce360e4ad",
      "items": [
-      282,
-      283,
-      284,
       285,
       286,
       287,
@@ -17453,11 +17625,20 @@
       324,
       325,
       326,
-      327
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336
      ]
     }
    ],
-   "ver": "bc9eb4cfe9",
+   "ver": "89814403e4",
    "up": "2026-10-31"
   }
  ]

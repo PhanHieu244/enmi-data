@@ -1,0 +1,207 @@
+.im-study{background-image:url('img/study-c1-desk-news-v06.webp')}
+.im-cover{background-image:url('img/study.webp')}
+.im-carriage,.im-alder_lane,.im-service_lane{background-image:url('img/street.webp')}
+.im-wren_door{background-image:url('img/wren-front.webp')}
+.im-cab_stand{background-image:url('img/cab-stand.webp')}
+.im-vale{background-image:url('img/vale.webp')}
+.im-reed{background-image:url('img/stage-reed.webp')}
+.im-finn{background-image:url('img/stage-finn.webp')}
+.im-bell{background-image:url('img/stage-bell.webp')}
+.im-matthias{background-image:url('img/full-matthias-entry-v06.webp')}
+.im-matthias-unmasked,.vd[data-vd-mask="off"] .se-chi .im-matthias{background-image:url('img/full-matthias-unmasked-v06.webp')}
+.se-bgl:has(.im-study) .ph,.se-bgl:has(.im-carriage) .ph,.se-bgl:has(.im-alder_lane) .ph,.se-bgl:has(.im-service_lane) .ph,.se-bgl:has(.im-wren_door) .ph{display:none}
+/* Keep native entrance, focus and breathing with transparent foreground art. */
+.se-chi:has(.im-reed) .ph,.se-chi:has(.im-matthias) .ph,.se-chi:has(.im-finn) .ph,.se-chi:has(.im-bell) .ph{display:none}
+.vd .se-ch[data-id="matthias"].anon .ii{filter:none;opacity:1}
+
+/* Native place views and action shots, with regions authored against these images. */
+.im-study_desk{background-image:url('img/study-c1-desk-news-v06.webp')}
+.im-study_window{background-image:url('img/study-window.webp')}
+.im-study_door{background-image:url('img/study-door.webp')}
+.im-act-watermark{background-image:url('img/act-watermark.webp')}
+.im-act-unmask{background-image:url('img/act-unmask.webp')}
+.se-bgl:has(.im-study_desk) .ph,.se-bgl:has(.im-study_window) .ph,.se-bgl:has(.im-study_door) .ph,.se-bgl:has(.im-cab_stand) .ph,.se-bgl:has(.im-act-watermark) .ph,.se-bgl:has(.im-act-unmask) .ph{display:none}
+
+.im-finn-full{background-image:url('img/full-finn.webp')}
+.im-bell-full{background-image:url('img/full-bell.webp')}
+.im-reed-full{background-image:url('img/full-reed.webp')}
+/* Continuity art for the later chapters. */
+.im-celia,.im-celia-full{background-image:url('img/full-celia.webp')}
+.im-hart,.im-hart-full{background-image:url('img/full-hart.webp')}
+.im-c3_clerk,.im-c3_clerk-full{background-image:url('img/full-c3_clerk.webp')}
+.im-c5_walker,.im-c5_walker-full{background-image:url('img/full-c5_walker.webp')}
+.se-chi:has(.im-celia) .ph,.se-chi:has(.im-hart) .ph,.se-chi:has(.im-c3_clerk) .ph,.se-chi:has(.im-c5_walker) .ph{display:none}
+.vd .se-chi .im-celia,.vd .se-chi .im-hart,.vd .se-chi .im-c3_clerk,.vd .se-chi .im-c5_walker{background-size:185% auto;background-position:50% 0}
+.vd .se-ppi .im-celia,.vd .se-ppi .im-hart,.vd .se-ppi .im-c3_clerk,.vd .se-ppi .im-c5_walker,.vd .se-ia.is-testimony .im-celia,.vd .se-ia.is-testimony .im-hart,.vd .se-ia.is-testimony .im-c3_clerk{background-size:230% auto;background-position:50% 0}
+.im-c2_front_day,.im-c2_lane_day,.im-c6_wren{background-image:url('img/bg-wren-day.webp')}
+.im-c2_gate_day{background-image:url('img/bg-service-gate.webp')}
+.im-c3_court{background-image:url('img/bg-chapel-court.webp')}
+.im-c3_chapel{background-image:url('img/bg-chapel.webp')}
+.se-bgl:has(.im-c2_front_day) .ph,.se-bgl:has(.im-c2_lane_day) .ph,.se-bgl:has(.im-c6_wren) .ph,.se-bgl:has(.im-c2_gate_day) .ph,.se-bgl:has(.im-c3_court) .ph,.se-bgl:has(.im-c3_chapel) .ph{display:none}
+
+.im-c2_lane_day{background-image:url('img/bg-alder-day.webp')}
+.se-bgl:has(.im-c2_lane_day) .ph{display:none}
+.im-c3_vestry{background-image:url('img/bg-vestry.webp')}
+.se-bgl:has(.im-c3_vestry) .ph{display:none}
+.im-c4_study{background-image:url('img/study-clear-v06.webp')}
+.se-bgl:has(.im-c4_study) .ph{display:none}
+.im-c4_steps{background-image:url('img/wren-front.webp')}
+.se-bgl:has(.im-c4_steps) .ph{display:none}
+.im-c4_parlour{background-image:url('img/bg-parlour.webp')}
+.se-bgl:has(.im-c4_parlour) .ph{display:none}
+.im-c4_lane{background-image:url('img/street.webp')}
+.se-bgl:has(.im-c4_lane) .ph{display:none}
+.im-c5_door{background-image:url('img/bg-wicker-door.webp')}
+.se-bgl:has(.im-c5_door) .ph{display:none}
+.im-c5_corner{background-image:url('img/bg-street-corner.webp')}
+.se-bgl:has(.im-c5_corner) .ph{display:none}
+.im-c5_study{background-image:url('img/study-clear-v06.webp')}
+.se-bgl:has(.im-c5_study) .ph{display:none}
+.im-c5_wren{background-image:url('img/wren-front.webp')}
+.se-bgl:has(.im-c5_wren) .ph{display:none}
+.im-c6_study{background-image:url('img/bg-study-day-v06.webp')}
+.se-bgl:has(.im-c6_study) .ph{display:none}
+.im-c6_after{background-image:url('img/bg-study-day-v06.webp')}
+.se-bgl:has(.im-c6_after) .ph{display:none}
+.im-c6_room{background-image:url('img/bg-parlour.webp')}
+.se-bgl:has(.im-c6_room) .ph{display:none}
+.im-evidence-letter{background-image:url('img/evidence-letter.webp')}
+.im-evidence-photo{background-image:url('img/evidence-photo.webp')}
+.im-evidence-pin{background-image:url('img/evidence-pin.webp')}
+.im-evidence-register{background-image:url('img/evidence-register.webp')}
+.im-evidence-agreement{background-image:url('img/evidence-agreement.webp')}
+.im-evidence-parcel{background-image:url('img/evidence-parcel.webp')}
+.im-evidence-paper{background-image:url('img/act-watermark.webp')}
+.im-evidence-newspaper{background-image:url('img/study-desk.webp')}
+.im-evidence-cab{background-image:url('img/cab-stand.webp')}
+.im-evidence-gate{background-image:url('img/bg-service-gate.webp')}
+.im-evidence-coat{background-image:url('img/full-c5_walker.webp')}
+.im-evidence-portrait{background-image:url('img/full-celia.webp')}
+.vd .se-ia .im-evidence-portrait{background-size:200% auto;background-position:50% 0;filter:sepia(.7)}
+.vd .se-ia .im-evidence-coat{background-size:140% auto;background-position:50% 12%}
+.vd .se-ia .im-evidence-gate{background-size:180% auto;background-position:80% 40%}
+
+/* Actual painted facial variants; calm falls back to the original portrait. */
+.im-reed-concerned{background-image:url('img/reed-concerned.webp')}
+.im-reed-smiling{background-image:url('img/reed-smiling.webp')}
+.im-celia-resolute{background-image:url('img/celia-resolute.webp')}
+.im-celia-smiling{background-image:url('img/celia-smiling.webp')}
+.im-hart-smiling{background-image:url('img/hart-smiling.webp')}
+.im-matthias-concerned{background-image:url('img/full-matthias-concerned-v06.webp')}
+.im-matthias-resolute{background-image:url('img/full-matthias-resolute-v06.webp')}
+.vd .se-chi .im-celia-resolute,.vd .se-chi .im-celia-smiling,.vd .se-chi .im-hart-smiling{background-size:185% auto;background-position:50% 0}
+.vd[data-vd-mask="on"] .se-chi .im-matthias-resolute{background-image:url('img/full-matthias-masked-resolute-v06.webp')}
+.vd[data-vd-mask="on"] .se-chi .im-matthias-concerned{background-image:url('img/full-matthias-entry-v06.webp')}
+.im-prop-parcel{background-image:url('img/prop-parcel.webp')}
+.im-prop-joint-photo{background-image:url('img/prop-joint-photo.webp')}
+.im-evidence-portrait{background-image:url('img/evidence-portrait.webp')}
+.vd .se-ia .im-evidence-portrait{background-size:contain;background-position:center;filter:none}
+.im-evidence-newspaper{background-image:url('img/evidence-newspaper.webp')}
+.im-c6_room{background-image:url('img/bg-parlour-day.webp')}
+.im-act-cuff-pin{background-image:url('img/act-cuff-pin.webp')}
+.im-act-sealed-packet{background-image:url('img/act-sealed-packet-v06.webp')}
+.se-bgl:has(.im-act-cuff-pin) .ph,.se-bgl:has(.im-act-sealed-packet) .ph{display:none}
+/* Vale0.6: matched physical states; originals remain available as sources. */
+.im-act-cuff-pin{background-image:url('img/act-cuff-pin-v06.webp')}
+.im-parlour-terms{background-image:url('img/bg-parlour-terms.webp')}
+.im-parlour-panel-open{background-image:url('img/bg-parlour-panel-open-v06.webp')}
+.im-c5_corner_departed{background-image:url('img/bg-street-corner-departed-v06.webp')}
+.im-c5-walker-salute{background-image:url('img/full-c5-walker-salute-v06.webp')}
+.im-study_clear{background-image:url('img/study-c1-desk-empty-news-v06.webp')}
+.im-study_desk_clear{background-image:url('img/study-c1-desk-empty-news-v06.webp')}
+.im-prop-held-letter{background-image:url('img/prop-held-letter-v06.webp')}
+.vd .se-bgl:has(>.im-study_clear)>.ph,.vd .se-bgl:has(>.im-study_desk_clear)>.ph,.vd .se-bgl:has(>.im-parlour-terms)>.ph,.vd .se-bgl:has(>.im-parlour-panel-open)>.ph,.vd .se-bgl:has(>.im-c5_corner_departed)>.ph{display:none}
+.vd.vale-note-held [data-zone-id="note_text"]{visibility:hidden;pointer-events:none}
+.vd .vale-held-note{display:inline-flex;align-items:center;gap:5px;width:auto;min-width:44px;min-height:44px;padding:7px 10px;font:600 11px/1.1 var(--se-sans);white-space:nowrap}
+.vd .vale-held-note svg{width:17px;height:17px;flex:none}
+.vd .prp[data-p="p1-held-letter"] .ii{filter:none}
+
+.im-celia-holding{background-image:url('img/full-celia-holding-v06.webp')}
+
+/* C1 matched action states, Vale0.6. */
+.im-act-mask-before{background-image:url('img/act-mask-before-v06.webp')}
+.im-act-mask-mid{background-image:url('img/act-mask-mid-v06.webp')}
+.im-matthias-entry-full{background-image:url('img/full-matthias-entry-v06.webp')}
+.im-cab_stand_departed{background-image:url('img/cab-stand-departed-v06.webp')}
+.im-wren-door-chain{background-image:url('img/wren-door-chain-v06.webp')}
+.im-wren-door-note{background-image:url('img/wren-door-note-v06.webp')}
+.im-wren-observed-gloves{background-image:url('img/wren-observed-gloves-v06.webp')}
+.im-act-finn-care{background-image:url('img/act-finn-care-v06.webp')}
+.im-act-finn-turn{background-image:url('img/act-finn-turn-v06.webp')}
+.im-act-retainer-place{background-image:url('img/act-retainer-place-v06.webp')}
+.im-act-retainer-moved{background-image:url('img/act-retainer-moved-v06.webp')}
+.vd .se-bgl:has(>.im-act-retainer-place)>.ph,.vd .se-bgl:has(>.im-act-retainer-moved)>.ph{display:none}
+.vd .se-bgl:has(>.im-act-mask-before)>.ph,.vd .se-bgl:has(>.im-act-mask-mid)>.ph,.vd .se-bgl:has(>.im-cab_stand_departed)>.ph,.vd .se-bgl:has(>.im-wren-door-chain)>.ph,.vd .se-bgl:has(>.im-wren-door-note)>.ph,.vd .se-bgl:has(>.im-wren-observed-gloves)>.ph,.vd .se-bgl:has(>.im-act-finn-care)>.ph,.vd .se-bgl:has(>.im-act-finn-turn)>.ph{display:none}
+
+/* Later Part I witnessed actions, same-camera before/after states. */
+.im-act-wedding-ring{background-image:url('img/act-wedding-ring-v06.webp')}
+.im-act-wedding-hands{background-image:url('img/act-wedding-hands-v06.webp')}
+.im-act-register-sign{background-image:url('img/act-register-sign-v06.webp')}
+.im-act-register-ready{background-image:url('img/act-register-ready-v06.webp')}
+.im-act-photo-return-offer{background-image:url('img/act-photo-return-offer-v06.webp')}
+.im-act-photo-return-received{background-image:url('img/act-photo-return-received-v06.webp')}
+.im-act-client-photo-held{background-image:url('img/act-client-photo-held-v06.webp')}
+.im-act-client-photo-down{background-image:url('img/act-client-photo-down-v06.webp')}
+.im-act-client-photo-packed{background-image:url('img/act-client-photo-packed-v06.webp')}
+.im-act-client-empty-wrapping{background-image:url('img/act-client-empty-wrapping-v06.webp')}
+.vd .se-bgl:has(>.im-act-wedding-ring)>.ph,.vd .se-bgl:has(>.im-act-wedding-hands)>.ph,.vd .se-bgl:has(>.im-act-register-sign)>.ph,.vd .se-bgl:has(>.im-act-register-ready)>.ph,.vd .se-bgl:has(>.im-act-photo-return-offer)>.ph,.vd .se-bgl:has(>.im-act-photo-return-received)>.ph,.vd .se-bgl:has(>.im-act-client-photo-held)>.ph,.vd .se-bgl:has(>.im-act-client-photo-down)>.ph,.vd .se-bgl:has(>.im-act-client-photo-packed)>.ph,.vd .se-bgl:has(>.im-act-client-empty-wrapping)>.ph{display:none}
+
+.im-parlour-day-empty-panel{background-image:url('img/bg-parlour-day-empty-panel-v06.webp')}
+.vd .se-bgl:has(>.im-parlour-day-empty-panel)>.ph{display:none}
+
+/* Complete silhouettes prevent a straight cut along the king’s cloak. */
+.vd .se-chi .im-matthias,.vd .se-chi .im-matthias-unmasked,.vd .se-chi .im-matthias-concerned,.vd .se-chi .im-matthias-resolute{background-size:185% auto;background-position:50% 0}
+.im-act-hart-envelope-search{background-image:url('img/act-hart-envelope-search-v06.webp')}
+.im-act-hart-envelope-gloves{background-image:url('img/act-hart-envelope-gloves-v06.webp')}
+.im-act-hart-envelope-tucked{background-image:url('img/act-hart-envelope-tucked-v06.webp')}
+.im-act-hart-envelope-away{background-image:url('img/act-hart-envelope-away-v06.webp')}
+.im-act-vale-disguise-mirror{background-image:url('img/act-vale-disguise-mirror-v06.webp')}
+.im-act-vale-disguise-ready{background-image:url('img/act-vale-disguise-mirror-ready-v06.webp')}
+.im-act-vale-stumble-pov{background-image:url('img/act-vale-stumble-pov-v06.webp')}
+.im-act-vale-support-pov{background-image:url('img/act-vale-support-pov-v06.webp')}
+.im-act-bell-water-pov{background-image:url('img/act-bell-water-pov-v06.webp')}
+.im-act-frame-retrieve-pov{background-image:url('img/act-frame-retrieve-pov-v06.webp')}
+.im-act-frame-conceal-pov{background-image:url('img/act-frame-conceal-pov-v06.webp')}
+.im-act-vale-undisguise-pov{background-image:url('img/act-vale-undisguise-pov-v06.webp')}
+.vd .se-bgl:has(>.im-act-hart-envelope-search)>.ph,.vd .se-bgl:has(>.im-act-hart-envelope-gloves)>.ph,.vd .se-bgl:has(>.im-act-hart-envelope-tucked)>.ph,.vd .se-bgl:has(>.im-act-hart-envelope-away)>.ph,.vd .se-bgl:has(>.im-act-vale-disguise-mirror)>.ph,.vd .se-bgl:has(>.im-act-vale-disguise-ready)>.ph,.vd .se-bgl:has(>.im-act-vale-stumble-pov)>.ph,.vd .se-bgl:has(>.im-act-vale-support-pov)>.ph,.vd .se-bgl:has(>.im-act-bell-water-pov)>.ph,.vd .se-bgl:has(>.im-act-frame-retrieve-pov)>.ph,.vd .se-bgl:has(>.im-act-frame-conceal-pov)>.ph,.vd .se-bgl:has(>.im-act-vale-undisguise-pov)>.ph{display:none}
+
+/* Canonical ownership and same-room written agreements. */
+.im-study_by_lamp{background-image:url('img/study-c1-note-by-lamp-v06.webp')}
+.vd .se-bgl:has(>.im-study_by_lamp)>.ph{display:none}
+.im-study_desk_lamp{background-image:url('img/study-c1-note-by-lamp-v06.webp')}
+.vd .se-bgl:has(>.im-study_desk_lamp)>.ph{display:none}
+.im-act-letter-setdown{background-image:url('img/act-letter-setdown-v06.webp')}
+.vd .se-bgl:has(>.im-act-letter-setdown)>.ph{display:none}
+.im-act-bell-water-smoke-pov{background-image:url('img/act-bell-water-smoke-pov-v06.webp')}
+.vd .se-bgl:has(>.im-act-bell-water-smoke-pov)>.ph{display:none}
+.im-act-terms-write{background-image:url('img/act-terms-write-v06.webp')}
+.vd .se-bgl:has(>.im-act-terms-write)>.ph{display:none}
+.im-act-terms-slide{background-image:url('img/act-terms-slide-v06.webp')}
+.vd .se-bgl:has(>.im-act-terms-slide)>.ph{display:none}
+.im-act-terms-sign{background-image:url('img/act-terms-sign-v06.webp')}
+.vd .se-bgl:has(>.im-act-terms-sign)>.ph{display:none}
+.im-act-terms-copy{background-image:url('img/act-terms-copy-v06.webp')}
+.vd .se-bgl:has(>.im-act-terms-copy)>.ph{display:none}
+.im-act-frame-desk{background-image:url('img/act-frame-desk-v06.webp')}
+.vd .se-bgl:has(>.im-act-frame-desk)>.ph{display:none}
+.im-act-frame-wrap{background-image:url('img/act-frame-wrap-v06.webp')}
+.vd .se-bgl:has(>.im-act-frame-wrap)>.ph{display:none}
+.im-act-frame-wrapped{background-image:url('img/act-frame-wrapped-v06.webp')}
+.vd .se-bgl:has(>.im-act-frame-wrapped)>.ph{display:none}
+.im-act-celia-signs{background-image:url('img/act-celia-signs-v06.webp')}
+.vd .se-bgl:has(>.im-act-celia-signs)>.ph{display:none}
+.im-act-matthias-signs{background-image:url('img/act-matthias-signs-v06.webp')}
+.vd .se-bgl:has(>.im-act-matthias-signs)>.ph{display:none}
+.im-act-pike-receipts{background-image:url('img/act-pike-receipts-v06.webp')}
+.vd .se-bgl:has(>.im-act-pike-receipts)>.ph{display:none}
+.im-act-hart-copies{background-image:url('img/act-hart-copies-v06.webp')}
+.vd .se-bgl:has(>.im-act-hart-copies)>.ph{display:none}
+
+/* Phần I: đạo cụ riêng của ảnh nền (tách khỏi vale-scene.css dùng chung vì url() tính theo vị trí file CSS) */
+.im-prop-stage-album{background-image:url('img/prop-stage-album.webp')}
+
+.im-prop-open-letter{background-image:url('img/prop-open-letter-v09.png')}
+
+/* 0.9.1 action poses derived from original CHAR_REED. */
+.im-reed-writing-v091{background-image:url('img/reed-writing-v091.png')}
+.im-reed-offer-notebook-v091{background-image:url('img/reed-offer-notebook-v091.png')}
