@@ -1,0 +1,53 @@
+/* Vale 0.9.7: the renderer measures real bodies, not transparent canvases. */
+.se.vd[data-v097-metric] .se-chars .se-chi>.ii[data-v097-art]{
+  background-size:var(--v097-art-size)!important;
+  background-position:var(--v097-art-position)!important;
+  background-repeat:no-repeat;
+}
+.se.vd[data-v097-frame="bust"][data-v093-direction] .se-chars{
+  top:var(--v097-cast-top)!important;
+  height:var(--v097-cast-height)!important;
+  bottom:auto!important;
+}
+.se.vd[data-v097-frame="bust"][data-v093-direction][data-stage] .se-chars .se-ch{
+  left:50%!important;width:100%!important;max-width:none!important;
+}
+.se.vd[data-v097-frame="medium"][data-v093-direction][data-stage] .se-chars .se-ch{
+  left:var(--v097-medium-slot,var(--v093-cast-left))!important;
+}
+.se.vd[data-v097-frame="medium"]>.se-scene-peek{display:none!important}
+/* Stable lighting and layer order distinguish a turn. No horizontal shove. */
+.se.vd[data-v097-metric][data-depth="subtle"] .se-ch.on:not(.out){
+  opacity:1;filter:brightness(.95);z-index:2;
+}
+.se.vd[data-v097-metric][data-depth="subtle"] .se-ch.on.talk,
+.se.vd[data-v097-metric][data-depth="subtle"] .se-ch.on.hold{
+  filter:brightness(1.025);z-index:3;
+}
+.se.vd[data-v097-detail] .se-action-overlay{
+  inset:var(--v097-insert-top,92px) 12px var(--v097-insert-bottom,260px);
+  z-index:5;
+}
+.se.vd[data-v097-detail] .se-action-insert{
+  width:var(--v097-insert-width,280px);max-width:100%;max-height:100%;
+  border:2px solid #b99d69;border-radius:8px;background:#201d18;
+  box-shadow:0 5px 24px #0008;
+}
+.se.vd[data-v097-detail] .se-action-insert>span{
+  font:600 12px/1.4 var(--se-sans);padding:8px 9px;
+  background:#161d1bf2;color:#f2e7ce;white-space:normal;
+}
+.se.vd[data-v097-detail] .se-action-insert>.ii{background-size:contain;bottom:var(--v097-caption-height,0px)}
+@media(max-width:600px) and (max-height:660px){
+  .se.vd[data-v097-detail]>.se-box{max-height:46dvh}
+}
+@media(min-width:600px) and (max-height:500px){
+  .se.vd[data-v097-detail]>.se-stage{width:52%;right:auto}
+  .se.vd[data-v097-detail]>.se-box{
+    left:calc(52% + 8px);right:8px;bottom:6px;
+    max-height:calc(100dvh - 78px);
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .se.vd[data-v097-detail] .se-action-overlay{animation:none}
+}
