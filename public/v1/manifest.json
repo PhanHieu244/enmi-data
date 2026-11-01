@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-11-01T08:15:07.807Z",
+ "at": "2026-11-01T08:28:17.042Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -26763,7 +26763,7 @@
     }
    ],
    "count": 0,
-   "size": 57931537,
+   "size": 57931473,
    "badge": "beta",
    "title": {
     "vi": "Lời khai",
@@ -32122,9 +32122,9 @@
     },
     {
      "name": "index.html",
-     "size": 1823,
-     "sha256": "a5c5ca5d3dce0815dbd41c977e089bd3f44653da02f2cf27c0af71110c7aa709",
-     "path": "f/a5c5ca5d3dce0815.html"
+     "size": 1759,
+     "sha256": "157c2c4d7fc718710e21aca13991c11c8861286e1197a7e6136029bd46c2c68d",
+     "path": "f/157c2c4d7fc71871.html"
     },
     {
      "name": "plugins/statement-runtime.js",
@@ -33323,9 +33323,9 @@
      ]
     },
     {
-     "path": "f/2cb9025e989992ad.bin",
-     "size": 2955967,
-     "sha256": "2cb9025e989992ad4d1c237c957bc80fe78db9ff6643ffbbf19ce707b06c0ad5",
+     "path": "f/7d78f7e7bc5149f3.bin",
+     "size": 2955903,
+     "sha256": "7d78f7e7bc5149f38ddef0163a765e3a643419c7f895414783e840b71e857994",
      "items": [
       887,
       888,
@@ -33371,7 +33371,7 @@
      ]
     }
    ],
-   "ver": "42434bf76b",
+   "ver": "51074edc68",
    "up": "2026-11-01"
   }
  ]
