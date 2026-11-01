@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-10-31T15:55:54.531Z",
+ "at": "2026-11-01T05:58:17.127Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -7183,7 +7183,7 @@
     }
    ],
    "count": 0,
-   "size": 69713449,
+   "size": 66952676,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale I: Bức chân dung và vương miện",
@@ -7196,9 +7196,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 16160,
-     "sha256": "99642d304086589feaade9fbe044d5270d4925f61353b13268fc68f136c680fa",
-     "path": "f/99642d304086589f.css"
+     "size": 18041,
+     "sha256": "1a441a41f9f3a0dbbd5035e15b3c10a097adfd19f76b009e8e7b25c9db0157e3",
+     "path": "f/1a441a41f9f3a0db.css"
     },
     {
      "name": "audio/c1-1067kdd.mp3",
@@ -11005,6 +11005,30 @@
      "path": "f/398811cb243a99b9.webp"
     },
     {
+     "name": "img/matthias-seated-unmasked-v093.webp",
+     "size": 306056,
+     "sha256": "4ef33e88fbc025beaa933738781bfbc0838c4fc982abb34d73c5de53b3b565c6",
+     "path": "f/4ef33e88fbc025be.webp"
+    },
+    {
+     "name": "img/matthias-seated-v093.webp",
+     "size": 313394,
+     "sha256": "f07af4e69762202bdc29be2b10cad31cf5604c8b4b59fc4ce1aed253a17d16e5",
+     "path": "f/f07af4e69762202b.webp"
+    },
+    {
+     "name": "img/porter-flowers-v093.webp",
+     "size": 188638,
+     "sha256": "54d8598ccdb6060390314bdb13e4d0a0c2eb364fb82790d6a9463be65b6510ee",
+     "path": "f/54d8598ccdb60603.webp"
+    },
+    {
+     "name": "img/porter-pickup-v093.webp",
+     "size": 212224,
+     "sha256": "c642f3290d9e7d79445003d1d325b2cf607a449be562931fafde98864e58ec8c",
+     "path": "f/c642f3290d9e7d79.webp"
+    },
+    {
      "name": "img/prop-held-letter-v06.webp",
      "size": 197750,
      "sha256": "9b05baa673ea97524cd125c9c9d0d71107634beaa910ae5b71004da0e860d1b4",
@@ -11017,10 +11041,10 @@
      "path": "f/bf35e22d4c49b4d9.webp"
     },
     {
-     "name": "img/prop-open-letter-v09.png",
-     "size": 1516773,
-     "sha256": "09c98033b194f7312f9a1eae6b140cb3ffaf1ba57b837cb3c047255d4675d7fa",
-     "path": "f/09c98033b194f731.png"
+     "name": "img/prop-open-letter-v09.webp",
+     "size": 246762,
+     "sha256": "1f82fa774476b9fde2cd722de85cc1495a77f5c29a24ae95fa117cfa6512930a",
+     "path": "f/1f82fa774476b9fd.webp"
     },
     {
      "name": "img/prop-parcel.webp",
@@ -11041,10 +11065,22 @@
      "path": "f/f7aa2a3613864cbb.webp"
     },
     {
-     "name": "img/reed-offer-notebook-v091.png",
-     "size": 1922532,
-     "sha256": "ee37b090f32b92e1541ea81991f983df6fd9c34eecc380d25227d8abb6aa0362",
-     "path": "f/ee37b090f32b92e1.png"
+     "name": "img/reed-directory-check-v094.webp",
+     "size": 220758,
+     "sha256": "379c70c8dcfc1669ddbda8c1c95d87fd240527d1ab88c645c3e6ef6441de58d0",
+     "path": "f/379c70c8dcfc1669.webp"
+    },
+    {
+     "name": "img/reed-directory-read-v094.webp",
+     "size": 251722,
+     "sha256": "d9624a854e9320019b455fc8886579f36ba4ac3c9c2b9f3d0d9babc9858b1674",
+     "path": "f/d9624a854e932001.webp"
+    },
+    {
+     "name": "img/reed-offer-notebook-v091.webp",
+     "size": 218756,
+     "sha256": "50be8e0aead78e4caf328e97db729eef575c4b665617029c279243bd9165ac40",
+     "path": "f/50be8e0aead78e4c.webp"
     },
     {
      "name": "img/reed-smiling.webp",
@@ -11053,10 +11089,16 @@
      "path": "f/e6f429e74f5b3c5a.webp"
     },
     {
-     "name": "img/reed-writing-v091.png",
-     "size": 1944996,
-     "sha256": "8a53d1a18ad7f6985d4050f47542cff919e23839345f2627de7462fb762ff73b",
-     "path": "f/8a53d1a18ad7f698.png"
+     "name": "img/reed-tea-v094.webp",
+     "size": 219574,
+     "sha256": "9e11348dba64e2ef1eafa578cb4332d9f6e23e2a8eb892ae81c6e1ae90f9b651",
+     "path": "f/9e11348dba64e2ef.webp"
+    },
+    {
+     "name": "img/reed-writing-v091.webp",
+     "size": 234932,
+     "sha256": "99159986005621ca0803e58bbb510b78e96cd50f605e5eb7dfdd150277b87e0a",
+     "path": "f/99159986005621ca.webp"
     },
     {
      "name": "img/stage-bell.webp",
@@ -11186,9 +11228,9 @@
     },
     {
      "name": "index.html",
-     "size": 2909,
-     "sha256": "948b49ee409a3a214ae3cde18e329373eb44fe294ca6fd2b2171ee116f6f7aa0",
-     "path": "f/948b49ee409a3a21.html"
+     "size": 3601,
+     "sha256": "f369ea199f75be2574cc6015cc97cc45e568a14b0692fbf72ea242eedd3975dc",
+     "path": "f/f369ea199f75be25.html"
     },
     {
      "name": "plugins/vale-save.js",
@@ -11258,9 +11300,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 132861,
-     "sha256": "222181f345f0d0e8a1c625060a1d6786097cf7aa936c9c5987957a82aad5449b",
-     "path": "f/222181f345f0d0e8.js"
+     "size": 137211,
+     "sha256": "ab1a86c87910dab2c0c0dbfa31598be1986b957a2976c139166b34e52c12e5ce",
+     "path": "f/ab1a86c87910dab2.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -11276,15 +11318,15 @@
     },
     {
      "name": "lib/story/mech.js",
-     "size": 90224,
-     "sha256": "bc5c62ceb8c89cc24c3bdbfe30c46acb153f9b487e401605b965edd6ed525b11",
-     "path": "f/bc5c62ceb8c89cc2.js"
+     "size": 102032,
+     "sha256": "ee823b093359bba149538f9fea55b1fd6f432e559401b00d9ff50ee6a1d8c38b",
+     "path": "f/ee823b093359bba1.js"
     },
     {
      "name": "lib/story/mech-plus.js",
-     "size": 103508,
-     "sha256": "14567b97d4e27fd12b54572597bb868698899f951953eab0b66e1e1eeb4608e2",
-     "path": "f/14567b97d4e27fd1.js"
+     "size": 103748,
+     "sha256": "60b6cf8b6f4eeda508ac209cc6e4b9a1f661ccad77760f159b9bd900bcfdf6d5",
+     "path": "f/60b6cf8b6f4eeda5.js"
     },
     {
      "name": "lib/story/mech-life.js",
@@ -11294,15 +11336,15 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 89647,
-     "sha256": "2e69d173aff91a58f253fce86f80c8e137ff0e6bd8d7f8268b02c28e8b4f5cc3",
-     "path": "f/2e69d173aff91a58.js"
+     "size": 99253,
+     "sha256": "444458d89841cbf5327ab0b14b7ec7ae288f87635b880542e1a6cebd82c9f164",
+     "path": "f/444458d89841cbf5.js"
     },
     {
      "name": "lib/story/place.js",
-     "size": 52189,
-     "sha256": "116e3baabe915f05170af3202153149e3c7b4ddc7812c9fe7e50cee64c3ce6aa",
-     "path": "f/116e3baabe915f05.js"
+     "size": 75135,
+     "sha256": "0a9dcd8fc1a5b1bc0fe70f91a8d607e4c49c400474d6baa6b68613cea590ea21",
+     "path": "f/0a9dcd8fc1a5b1bc.js"
     },
     {
      "name": "lib/story/action.js",
@@ -11312,9 +11354,9 @@
     },
     {
      "name": "lib/story/investigation.js",
-     "size": 32644,
-     "sha256": "4c353c949ce6e82588a7b2e1fed0faf6e77a239a03478a1b56f0cd48a8f451f6",
-     "path": "f/4c353c949ce6e825.js"
+     "size": 34952,
+     "sha256": "2065968f3e99cf29b9f34978b5193cfff425b7eea64f4a5ec3ed3c07375eb992",
+     "path": "f/2065968f3e99cf29.js"
     },
     {
      "name": "lib/story/reconstruct.js",
@@ -11324,9 +11366,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 228484,
-     "sha256": "e672a2f7509829f0b8ae9050f5532687b276c7cfe98c27d1c5d39bd74b2f04e7",
-     "path": "f/e672a2f7509829f0.css"
+     "size": 233762,
+     "sha256": "f8942454c26da359186f07947d34b1b035463a9193a21067778a8a73220316c6",
+     "path": "f/f8942454c26da359.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -11336,9 +11378,9 @@
     },
     {
      "name": "lib/vale/vale.css",
-     "size": 3971,
-     "sha256": "9f5d60354ed8706e932fadd22354caec47d9b13eee3aca9888a978830c75c6c0",
-     "path": "f/9f5d60354ed8706e.css"
+     "size": 5192,
+     "sha256": "788c1fe8c6e6b9aa79dffd0a5a759cdd3a6417b1df80c843e00b58e6f0701d53",
+     "path": "f/788c1fe8c6e6b9aa.css"
     },
     {
      "name": "lib/vale/vale-details.css",
@@ -11348,21 +11390,21 @@
     },
     {
      "name": "lib/vale/vale-mobile.css",
-     "size": 2606,
-     "sha256": "1ea35bb20f67e9d679bd9e5efccf3673c8cb1c2b86b087d7a6ddc2340a1abe46",
-     "path": "f/1ea35bb20f67e9d6.css"
+     "size": 2662,
+     "sha256": "5e8956d8e462f03006494a45db13b6b4ba4b240c4f67a3469a5de2dfbb26d721",
+     "path": "f/5e8956d8e462f030.css"
     },
     {
      "name": "lib/vale/vale-scene.css",
-     "size": 9973,
-     "sha256": "1138a005239cebc84db5f8c2fbe890f0f94a8f3a4fcaf2c04f8ecc964851c565",
-     "path": "f/1138a005239cebc8.css"
+     "size": 13626,
+     "sha256": "b3b8b56792cfa7634a3434828c3c799a1d97567df2aa33647deb23e16d5c08b5",
+     "path": "f/b3b8b56792cfa763.css"
     },
     {
      "name": "lib/vale/vale-board.css",
-     "size": 18533,
-     "sha256": "30e3d3d1d2366a73cd9dc67e4a2a9721f507fe1f2df1202f725e963c806dfae6",
-     "path": "f/30e3d3d1d2366a73.css"
+     "size": 20779,
+     "sha256": "f2adf4e47b0fcf2b36326b810c66fb77106401afd2a1c64581b0d90a1efccdcf",
+     "path": "f/f2adf4e47b0fcf2b.css"
     },
     {
      "name": "lib/vale/vale-interface.css",
@@ -11377,10 +11419,22 @@
      "path": "f/16e47a7df56c7548.css"
     },
     {
+     "name": "lib/vale/vale-records-v093.css",
+     "size": 7494,
+     "sha256": "85710880beab4c7f245a55028601e005ab62e11f0ec4be43f70f18e23ddfa263",
+     "path": "f/85710880beab4c7f.css"
+    },
+    {
      "name": "lib/vale/vale-playability.css",
-     "size": 6930,
-     "sha256": "dc9da8d947271c065d7dfb2eee0e75b7dda1d853c77a63e5ccce3f8757965e21",
-     "path": "f/dc9da8d947271c06.css"
+     "size": 13673,
+     "sha256": "cb8ee17c2537bfdd8636d8ccb553574c5f3eae007218a2da83e788e234dcd38d",
+     "path": "f/cb8ee17c2537bfdd.css"
+    },
+    {
+     "name": "lib/vale/vale-toolbar-v093.css",
+     "size": 3719,
+     "sha256": "866f19d2c9fbac43645313a285e5acb1a77092494003111b040d6e0b0ea89d15",
+     "path": "f/866f19d2c9fbac43.css"
     },
     {
      "name": "lib/story/interrogation.css",
@@ -11402,15 +11456,15 @@
     },
     {
      "name": "lib/vale/vale-base.js",
-     "size": 8134,
-     "sha256": "2ff3a7d13c504923e9ad154cb42591f8ae7bf5ca7af0bc7d280195dfd2d993d4",
-     "path": "f/2ff3a7d13c504923.js"
+     "size": 12290,
+     "sha256": "f9476c13ae9fc37a7c90bf25b7ff6ba5b5bf23f96a049a9fe7f9429c0bd13ae7",
+     "path": "f/f9476c13ae9fc37a.js"
     },
     {
      "name": "lib/vale/vale-book.js",
-     "size": 15363,
-     "sha256": "4ec166867e2de1910fc49765f7f155ea14370405786f117268e489c1d0574cc0",
-     "path": "f/4ec166867e2de191.js"
+     "size": 18537,
+     "sha256": "79dd2805ea98a4d09167b4e25f7852804dbad6330504bc1333ace7137634069d",
+     "path": "f/79dd2805ea98a4d0.js"
     },
     {
      "name": "lib/vale/vale-case-config.js",
@@ -11450,21 +11504,21 @@
     },
     {
      "name": "lib/vale/vale-performance.js",
-     "size": 30790,
-     "sha256": "8511e132121c151a95ec1320fe94074c7c9222342a63059eea5d289b91c36736",
-     "path": "f/8511e132121c151a.js"
+     "size": 34423,
+     "sha256": "9711fa7e54d3b0d6d69c63daac0a2553f94a3932ba7f4c7293ec8249db2b47ea",
+     "path": "f/9711fa7e54d3b0d6.js"
     },
     {
      "name": "lib/vale/vale-records.js",
-     "size": 9568,
-     "sha256": "139f590da6bc4426619346fd50af6cf177db319c73770720075fa42e1a70774e",
-     "path": "f/139f590da6bc4426.js"
+     "size": 10031,
+     "sha256": "d5140b0dcfb9977c8d22a2946ba44a3786d2a808cdee8238c78417e9efcaedb1",
+     "path": "f/d5140b0dcfb9977c.js"
     },
     {
      "name": "lib/vale/vale-title.js",
      "size": 2571,
-     "sha256": "1aacf2d8b601e807afaea2552b57c4749286b716d32ca0890a0589ef6af19bbf",
-     "path": "f/1aacf2d8b601e807.js"
+     "sha256": "4be22d1ac4e13b3a3c1781aa37b83128a767aedf5a8d15eb95a48cb4f6433f07",
+     "path": "f/4be22d1ac4e13b3a.js"
     },
     {
      "name": "lib/vale/vale-z-sound.js",
@@ -11480,9 +11534,9 @@
     },
     {
      "name": "lib/vale/vale-zz-playability.js",
-     "size": 20860,
-     "sha256": "ccb8823556e5ec8481ecff575a86508401cf1ab4404508ad6d43bf2e482e43e4",
-     "path": "f/ccb8823556e5ec84.js"
+     "size": 29648,
+     "sha256": "e65c35aadcc4f7a6325a4bf68ff63ffaeed5b48d7a1d72ff78338be458629a71",
+     "path": "f/e65c35aadcc4f7a6.js"
     },
     {
      "name": "lib/vale/vale-zzz-continuity.js",
@@ -11501,6 +11555,60 @@
      "size": 13947,
      "sha256": "b2b20434d7e46d60394a8b9c1296a465658de3f34956b2fa78b409d53963d336",
      "path": "f/b2b20434d7e46d60.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzz-ux-v092.js",
+     "size": 2936,
+     "sha256": "4d6b04e5d9dd8490003215b88a1d37de2f0d29023a36847ff09e0e9cbc721c4b",
+     "path": "f/4d6b04e5d9dd8490.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzz-direction-v093.js",
+     "size": 40552,
+     "sha256": "374467db13a74eeecdc8611cf5c1af5332002be95c611b27203c9d04013221c0",
+     "path": "f/374467db13a74eee.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzz-reasoning-v093.js",
+     "size": 11930,
+     "sha256": "072310bb7950e808677949c71965da8c4a14ac94b52ac9f4a4cafefa3da742d2",
+     "path": "f/072310bb7950e808.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzz-toolbar-v093.js",
+     "size": 5415,
+     "sha256": "0607d934fc141a82ae4d315904b736985b43b4f1eea006b51815f2812661d041",
+     "path": "f/0607d934fc141a82.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-actions-v094.js",
+     "size": 9683,
+     "sha256": "5df8ac9c67838e83eb2065978fb996e2c6d56b681e3eeb59ba1a57e58d22a5b7",
+     "path": "f/5df8ac9c67838e83.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-actions-v095.js",
+     "size": 7269,
+     "sha256": "355ab82b7191a3b28b0ea5d3c319e6a85d6f8e3d9084f420e4aceac6597cafd6",
+     "path": "f/355ab82b7191a3b2.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-choices-v094.js",
+     "size": 10241,
+     "sha256": "dbc0257e3da39bb7e055c93c733b9fae490701018c64e0e7af234e50c05ef62c",
+     "path": "f/dbc0257e3da39bb7.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzzz-spatial-v096.js",
+     "size": 8885,
+     "sha256": "bffb83236c5cd3b39b564532332ccc797476f9087b94379340c37e6ff8c0ddc9",
+     "path": "f/bffb83236c5cd3b3.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzzzz-emotion-v096.js",
+     "size": 9346,
+     "sha256": "96c72ed42cdf727bbef1456db49fefe2d080979413ea6823ff3216eb33e8b7b2",
+     "path": "f/96c72ed42cdf727b.js"
     }
    ],
    "shots": [
@@ -11512,9 +11620,9 @@
    "art": "f/f90b4f7c210a5ec8.webp",
    "bundles": [
     {
-     "path": "f/107574fc3bba3153.bin",
-     "size": 3104375,
-     "sha256": "107574fc3bba3153c1fdc29536791a445d87f83b6ebdaaacd417df7ed2825fa3",
+     "path": "f/28655f4c9ab871cd.bin",
+     "size": 3106256,
+     "sha256": "28655f4c9ab871cd13a7caa221d46d12f2c4a28a2c2805f6fb1965594a993361",
      "items": [
       0,
       1,
@@ -12255,9 +12363,9 @@
      ]
     },
     {
-     "path": "f/f9f5878c476f9951.bin",
-     "size": 2996496,
-     "sha256": "f9f5878c476f99516f312c0d08cfdfa6551cefab3616b5e66a4d15f5ef3c4f5a",
+     "path": "f/79db519afc9867d9.bin",
+     "size": 2997746,
+     "sha256": "79db519afc9867d915ed0512b17e8a20899ff86be38e174b2d1a3119b37e2ae0",
      "items": [
       624,
       625,
@@ -12272,47 +12380,50 @@
       634,
       635,
       636,
-      638,
-      639
+      637,
+      638
      ]
     },
     {
-     "path": "f/f91b08245a6ce35a.bin",
-     "size": 2871764,
-     "sha256": "f91b08245a6ce35aafbbaf39fd9431ef6cfddb85dbb82c8d2272390a2a563c4c",
+     "path": "f/198ef813a4177a03.bin",
+     "size": 3130936,
+     "sha256": "198ef813a4177a03cb27dbcb67529791bdb852fd1c38162619d035ba526ac831",
      "items": [
+      639,
       640,
+      641,
       642,
+      643,
       644,
       645,
       646,
       647,
       648,
       649,
-      650
+      650,
+      651
      ]
     },
     {
-     "path": "f/0b91fd6df2ea0662.bin",
-     "size": 2845966,
-     "sha256": "0b91fd6df2ea0662fa1820c90eb779e70773f4a599d5b54a6a9864c6c71d9852",
+     "path": "f/6c4637cffd65233e.bin",
+     "size": 2902500,
+     "sha256": "6c4637cffd65233e6a7876d0ea7fc02cf6421f65e93824b3b1395fcdc18dd2a6",
      "items": [
-      651,
       652,
       653,
       654,
       655,
       656,
       657,
-      658
+      658,
+      659
      ]
     },
     {
-     "path": "f/131329b04ce98f7d.bin",
-     "size": 3129958,
-     "sha256": "131329b04ce98f7d8840032deff116b35f7fb50d2d6ec36fa98fd420fee367b6",
+     "path": "f/19987ec8df7bafc2.bin",
+     "size": 2737628,
+     "sha256": "19987ec8df7bafc2da29670619e464ccc39afeb23264c380825c1fb3c8658434",
      "items": [
-      659,
       660,
       661,
       662,
@@ -12320,7 +12431,14 @@
       664,
       665,
       666,
-      667,
+      667
+     ]
+    },
+    {
+     "path": "f/c2bf520826daee56.bin",
+     "size": 3055548,
+     "sha256": "c2bf520826daee56ef89b367408868d3be53316f7bc78ab8d9496afa15ed1086",
+     "items": [
       668,
       669,
       670,
@@ -12332,14 +12450,7 @@
       676,
       677,
       678,
-      679
-     ]
-    },
-    {
-     "path": "f/9aa7ae334ed31843.bin",
-     "size": 1014243,
-     "sha256": "9aa7ae334ed3184357db171c34c20b2068e6dc131139a3ce21f4446b3fb0400e",
-     "items": [
+      679,
       680,
       681,
       682,
@@ -12354,7 +12465,14 @@
       691,
       692,
       693,
-      694,
+      694
+     ]
+    },
+    {
+     "path": "f/bbaf2bcd3ef9c873.bin",
+     "size": 655716,
+     "sha256": "bbaf2bcd3ef9c873e3e322ef92fcb4ec7b9523450feb934749fb2f494b1c4488",
+     "items": [
       695,
       696,
       697,
@@ -12377,12 +12495,30 @@
       714,
       715,
       716,
-      717
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735
      ]
     }
    ],
-   "ver": "688a5f1a33",
-   "up": "2026-10-31"
+   "ver": "2ce1b398ba",
+   "up": "2026-11-01"
   },
   {
    "id": "game.vale-part2",
@@ -12466,7 +12602,7 @@
     }
    ],
    "count": 0,
-   "size": 29976913,
+   "size": 27464273,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale II: Căn phòng bên kia tường",
@@ -12479,9 +12615,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 7142,
-     "sha256": "d9cab5f301bd18e1eac621b6ee0d71f0c1960dae787c2b930725f06d372074b0",
-     "path": "f/d9cab5f301bd18e1.css"
+     "size": 7457,
+     "sha256": "0711f496c9f7d4e45cae46f4e5f267d2f20624d5fd5460bb8f600156efac1c03",
+     "path": "f/0711f496c9f7d4e4.css"
     },
     {
      "name": "audio/c1-16oidpg.mp3",
@@ -14332,10 +14468,22 @@
      "path": "f/f7aa2a3613864cbb.webp"
     },
     {
-     "name": "img/reed-offer-notebook-v091.png",
-     "size": 1922532,
-     "sha256": "ee37b090f32b92e1541ea81991f983df6fd9c34eecc380d25227d8abb6aa0362",
-     "path": "f/ee37b090f32b92e1.png"
+     "name": "img/reed-directory-check-v094.webp",
+     "size": 220758,
+     "sha256": "379c70c8dcfc1669ddbda8c1c95d87fd240527d1ab88c645c3e6ef6441de58d0",
+     "path": "f/379c70c8dcfc1669.webp"
+    },
+    {
+     "name": "img/reed-directory-read-v094.webp",
+     "size": 251722,
+     "sha256": "d9624a854e9320019b455fc8886579f36ba4ac3c9c2b9f3d0d9babc9858b1674",
+     "path": "f/d9624a854e932001.webp"
+    },
+    {
+     "name": "img/reed-offer-notebook-v091.webp",
+     "size": 218756,
+     "sha256": "50be8e0aead78e4caf328e97db729eef575c4b665617029c279243bd9165ac40",
+     "path": "f/50be8e0aead78e4c.webp"
     },
     {
      "name": "img/reed-smiling.webp",
@@ -14344,10 +14492,16 @@
      "path": "f/e6f429e74f5b3c5a.webp"
     },
     {
-     "name": "img/reed-writing-v091.png",
-     "size": 1944996,
-     "sha256": "8a53d1a18ad7f6985d4050f47542cff919e23839345f2627de7462fb762ff73b",
-     "path": "f/8a53d1a18ad7f698.png"
+     "name": "img/reed-tea-v094.webp",
+     "size": 219574,
+     "sha256": "9e11348dba64e2ef1eafa578cb4332d9f6e23e2a8eb892ae81c6e1ae90f9b651",
+     "path": "f/9e11348dba64e2ef.webp"
+    },
+    {
+     "name": "img/reed-writing-v091.webp",
+     "size": 234932,
+     "sha256": "99159986005621ca0803e58bbb510b78e96cd50f605e5eb7dfdd150277b87e0a",
+     "path": "f/99159986005621ca.webp"
     },
     {
      "name": "img/stage-reed.webp",
@@ -14369,9 +14523,9 @@
     },
     {
      "name": "index.html",
-     "size": 2846,
-     "sha256": "48aba5c0a258b2f8c92a807d8a6d4e406a8f39537762f89c743d4606c3ab76d1",
-     "path": "f/48aba5c0a258b2f8.html"
+     "size": 3538,
+     "sha256": "4943e7154e21a329d09fe6839a302f878bd142b4c6a183e225d0005beaad051f",
+     "path": "f/4943e7154e21a329.html"
     },
     {
      "name": "layout.js",
@@ -14429,9 +14583,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 132861,
-     "sha256": "222181f345f0d0e8a1c625060a1d6786097cf7aa936c9c5987957a82aad5449b",
-     "path": "f/222181f345f0d0e8.js"
+     "size": 137211,
+     "sha256": "ab1a86c87910dab2c0c0dbfa31598be1986b957a2976c139166b34e52c12e5ce",
+     "path": "f/ab1a86c87910dab2.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -14447,15 +14601,15 @@
     },
     {
      "name": "lib/story/mech.js",
-     "size": 90224,
-     "sha256": "bc5c62ceb8c89cc24c3bdbfe30c46acb153f9b487e401605b965edd6ed525b11",
-     "path": "f/bc5c62ceb8c89cc2.js"
+     "size": 102032,
+     "sha256": "ee823b093359bba149538f9fea55b1fd6f432e559401b00d9ff50ee6a1d8c38b",
+     "path": "f/ee823b093359bba1.js"
     },
     {
      "name": "lib/story/mech-plus.js",
-     "size": 103508,
-     "sha256": "14567b97d4e27fd12b54572597bb868698899f951953eab0b66e1e1eeb4608e2",
-     "path": "f/14567b97d4e27fd1.js"
+     "size": 103748,
+     "sha256": "60b6cf8b6f4eeda508ac209cc6e4b9a1f661ccad77760f159b9bd900bcfdf6d5",
+     "path": "f/60b6cf8b6f4eeda5.js"
     },
     {
      "name": "lib/story/mech-life.js",
@@ -14465,15 +14619,15 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 89647,
-     "sha256": "2e69d173aff91a58f253fce86f80c8e137ff0e6bd8d7f8268b02c28e8b4f5cc3",
-     "path": "f/2e69d173aff91a58.js"
+     "size": 99253,
+     "sha256": "444458d89841cbf5327ab0b14b7ec7ae288f87635b880542e1a6cebd82c9f164",
+     "path": "f/444458d89841cbf5.js"
     },
     {
      "name": "lib/story/place.js",
-     "size": 52189,
-     "sha256": "116e3baabe915f05170af3202153149e3c7b4ddc7812c9fe7e50cee64c3ce6aa",
-     "path": "f/116e3baabe915f05.js"
+     "size": 75135,
+     "sha256": "0a9dcd8fc1a5b1bc0fe70f91a8d607e4c49c400474d6baa6b68613cea590ea21",
+     "path": "f/0a9dcd8fc1a5b1bc.js"
     },
     {
      "name": "lib/story/action.js",
@@ -14483,9 +14637,9 @@
     },
     {
      "name": "lib/story/investigation.js",
-     "size": 32644,
-     "sha256": "4c353c949ce6e82588a7b2e1fed0faf6e77a239a03478a1b56f0cd48a8f451f6",
-     "path": "f/4c353c949ce6e825.js"
+     "size": 34952,
+     "sha256": "2065968f3e99cf29b9f34978b5193cfff425b7eea64f4a5ec3ed3c07375eb992",
+     "path": "f/2065968f3e99cf29.js"
     },
     {
      "name": "lib/story/reconstruct.js",
@@ -14495,9 +14649,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 228484,
-     "sha256": "e672a2f7509829f0b8ae9050f5532687b276c7cfe98c27d1c5d39bd74b2f04e7",
-     "path": "f/e672a2f7509829f0.css"
+     "size": 233762,
+     "sha256": "f8942454c26da359186f07947d34b1b035463a9193a21067778a8a73220316c6",
+     "path": "f/f8942454c26da359.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -14507,9 +14661,9 @@
     },
     {
      "name": "lib/vale/vale.css",
-     "size": 3971,
-     "sha256": "9f5d60354ed8706e932fadd22354caec47d9b13eee3aca9888a978830c75c6c0",
-     "path": "f/9f5d60354ed8706e.css"
+     "size": 5192,
+     "sha256": "788c1fe8c6e6b9aa79dffd0a5a759cdd3a6417b1df80c843e00b58e6f0701d53",
+     "path": "f/788c1fe8c6e6b9aa.css"
     },
     {
      "name": "lib/vale/vale-details.css",
@@ -14519,21 +14673,21 @@
     },
     {
      "name": "lib/vale/vale-mobile.css",
-     "size": 2606,
-     "sha256": "1ea35bb20f67e9d679bd9e5efccf3673c8cb1c2b86b087d7a6ddc2340a1abe46",
-     "path": "f/1ea35bb20f67e9d6.css"
+     "size": 2662,
+     "sha256": "5e8956d8e462f03006494a45db13b6b4ba4b240c4f67a3469a5de2dfbb26d721",
+     "path": "f/5e8956d8e462f030.css"
     },
     {
      "name": "lib/vale/vale-scene.css",
-     "size": 9973,
-     "sha256": "1138a005239cebc84db5f8c2fbe890f0f94a8f3a4fcaf2c04f8ecc964851c565",
-     "path": "f/1138a005239cebc8.css"
+     "size": 13626,
+     "sha256": "b3b8b56792cfa7634a3434828c3c799a1d97567df2aa33647deb23e16d5c08b5",
+     "path": "f/b3b8b56792cfa763.css"
     },
     {
      "name": "lib/vale/vale-board.css",
-     "size": 18533,
-     "sha256": "30e3d3d1d2366a73cd9dc67e4a2a9721f507fe1f2df1202f725e963c806dfae6",
-     "path": "f/30e3d3d1d2366a73.css"
+     "size": 20779,
+     "sha256": "f2adf4e47b0fcf2b36326b810c66fb77106401afd2a1c64581b0d90a1efccdcf",
+     "path": "f/f2adf4e47b0fcf2b.css"
     },
     {
      "name": "lib/vale/vale-interface.css",
@@ -14548,10 +14702,22 @@
      "path": "f/16e47a7df56c7548.css"
     },
     {
+     "name": "lib/vale/vale-records-v093.css",
+     "size": 7494,
+     "sha256": "85710880beab4c7f245a55028601e005ab62e11f0ec4be43f70f18e23ddfa263",
+     "path": "f/85710880beab4c7f.css"
+    },
+    {
      "name": "lib/vale/vale-playability.css",
-     "size": 6930,
-     "sha256": "dc9da8d947271c065d7dfb2eee0e75b7dda1d853c77a63e5ccce3f8757965e21",
-     "path": "f/dc9da8d947271c06.css"
+     "size": 13673,
+     "sha256": "cb8ee17c2537bfdd8636d8ccb553574c5f3eae007218a2da83e788e234dcd38d",
+     "path": "f/cb8ee17c2537bfdd.css"
+    },
+    {
+     "name": "lib/vale/vale-toolbar-v093.css",
+     "size": 3719,
+     "sha256": "866f19d2c9fbac43645313a285e5acb1a77092494003111b040d6e0b0ea89d15",
+     "path": "f/866f19d2c9fbac43.css"
     },
     {
      "name": "lib/story/interrogation.css",
@@ -14573,15 +14739,15 @@
     },
     {
      "name": "lib/vale/vale-base.js",
-     "size": 8134,
-     "sha256": "2ff3a7d13c504923e9ad154cb42591f8ae7bf5ca7af0bc7d280195dfd2d993d4",
-     "path": "f/2ff3a7d13c504923.js"
+     "size": 12290,
+     "sha256": "f9476c13ae9fc37a7c90bf25b7ff6ba5b5bf23f96a049a9fe7f9429c0bd13ae7",
+     "path": "f/f9476c13ae9fc37a.js"
     },
     {
      "name": "lib/vale/vale-book.js",
-     "size": 15363,
-     "sha256": "4ec166867e2de1910fc49765f7f155ea14370405786f117268e489c1d0574cc0",
-     "path": "f/4ec166867e2de191.js"
+     "size": 18537,
+     "sha256": "79dd2805ea98a4d09167b4e25f7852804dbad6330504bc1333ace7137634069d",
+     "path": "f/79dd2805ea98a4d0.js"
     },
     {
      "name": "lib/vale/vale-case-config.js",
@@ -14621,21 +14787,21 @@
     },
     {
      "name": "lib/vale/vale-performance.js",
-     "size": 30790,
-     "sha256": "8511e132121c151a95ec1320fe94074c7c9222342a63059eea5d289b91c36736",
-     "path": "f/8511e132121c151a.js"
+     "size": 34423,
+     "sha256": "9711fa7e54d3b0d6d69c63daac0a2553f94a3932ba7f4c7293ec8249db2b47ea",
+     "path": "f/9711fa7e54d3b0d6.js"
     },
     {
      "name": "lib/vale/vale-records.js",
-     "size": 9568,
-     "sha256": "139f590da6bc4426619346fd50af6cf177db319c73770720075fa42e1a70774e",
-     "path": "f/139f590da6bc4426.js"
+     "size": 10031,
+     "sha256": "d5140b0dcfb9977c8d22a2946ba44a3786d2a808cdee8238c78417e9efcaedb1",
+     "path": "f/d5140b0dcfb9977c.js"
     },
     {
      "name": "lib/vale/vale-title.js",
      "size": 2571,
-     "sha256": "1aacf2d8b601e807afaea2552b57c4749286b716d32ca0890a0589ef6af19bbf",
-     "path": "f/1aacf2d8b601e807.js"
+     "sha256": "4be22d1ac4e13b3a3c1781aa37b83128a767aedf5a8d15eb95a48cb4f6433f07",
+     "path": "f/4be22d1ac4e13b3a.js"
     },
     {
      "name": "lib/vale/vale-z-sound.js",
@@ -14651,9 +14817,9 @@
     },
     {
      "name": "lib/vale/vale-zz-playability.js",
-     "size": 20860,
-     "sha256": "ccb8823556e5ec8481ecff575a86508401cf1ab4404508ad6d43bf2e482e43e4",
-     "path": "f/ccb8823556e5ec84.js"
+     "size": 29648,
+     "sha256": "e65c35aadcc4f7a6325a4bf68ff63ffaeed5b48d7a1d72ff78338be458629a71",
+     "path": "f/e65c35aadcc4f7a6.js"
     },
     {
      "name": "lib/vale/vale-zzz-continuity.js",
@@ -14672,6 +14838,60 @@
      "size": 13947,
      "sha256": "b2b20434d7e46d60394a8b9c1296a465658de3f34956b2fa78b409d53963d336",
      "path": "f/b2b20434d7e46d60.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzz-ux-v092.js",
+     "size": 2936,
+     "sha256": "4d6b04e5d9dd8490003215b88a1d37de2f0d29023a36847ff09e0e9cbc721c4b",
+     "path": "f/4d6b04e5d9dd8490.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzz-direction-v093.js",
+     "size": 40552,
+     "sha256": "374467db13a74eeecdc8611cf5c1af5332002be95c611b27203c9d04013221c0",
+     "path": "f/374467db13a74eee.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzz-reasoning-v093.js",
+     "size": 11930,
+     "sha256": "072310bb7950e808677949c71965da8c4a14ac94b52ac9f4a4cafefa3da742d2",
+     "path": "f/072310bb7950e808.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzz-toolbar-v093.js",
+     "size": 5415,
+     "sha256": "0607d934fc141a82ae4d315904b736985b43b4f1eea006b51815f2812661d041",
+     "path": "f/0607d934fc141a82.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-actions-v094.js",
+     "size": 9683,
+     "sha256": "5df8ac9c67838e83eb2065978fb996e2c6d56b681e3eeb59ba1a57e58d22a5b7",
+     "path": "f/5df8ac9c67838e83.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-actions-v095.js",
+     "size": 7269,
+     "sha256": "355ab82b7191a3b28b0ea5d3c319e6a85d6f8e3d9084f420e4aceac6597cafd6",
+     "path": "f/355ab82b7191a3b2.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-choices-v094.js",
+     "size": 10241,
+     "sha256": "dbc0257e3da39bb7e055c93c733b9fae490701018c64e0e7af234e50c05ef62c",
+     "path": "f/dbc0257e3da39bb7.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzzz-spatial-v096.js",
+     "size": 8885,
+     "sha256": "bffb83236c5cd3b39b564532332ccc797476f9087b94379340c37e6ff8c0ddc9",
+     "path": "f/bffb83236c5cd3b3.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzzzz-emotion-v096.js",
+     "size": 9346,
+     "sha256": "96c72ed42cdf727bbef1456db49fefe2d080979413ea6823ff3216eb33e8b7b2",
+     "path": "f/96c72ed42cdf727b.js"
     }
    ],
    "shots": [
@@ -14683,9 +14903,9 @@
    "art": "f/258033677fe06576.webp",
    "bundles": [
     {
-     "path": "f/b7e436da63656b7d.bin",
-     "size": 3053636,
-     "sha256": "b7e436da63656b7de1c1e4f23cd3f9e67cde29f8906d1579a8f7309c8abc97f9",
+     "path": "f/8b2b3a9b4312d531.bin",
+     "size": 3053951,
+     "sha256": "8b2b3a9b4312d531642cd2dbd37c5d744baa360fddc1c87714a867153d33428a",
      "items": [
       0,
       1,
@@ -15033,9 +15253,9 @@
      ]
     },
     {
-     "path": "f/fb660f0d962276c4.bin",
-     "size": 2987334,
-     "sha256": "fb660f0d962276c4e5a1693a397ddfeca4a9b51193fb6f2239ce7a63832d0e77",
+     "path": "f/15538b869aa3b8c4.bin",
+     "size": 2967682,
+     "sha256": "15538b869aa3b8c44de28251754395e11cc3fabcb73e9ee7a3b2727b6bc31af5",
      "items": [
       301,
       302,
@@ -15045,16 +15265,18 @@
       306,
       307,
       308,
+      309,
       310,
-      312,
-      313
+      311,
+      312
      ]
     },
     {
-     "path": "f/a5b090e76e966189.bin",
-     "size": 1536949,
-     "sha256": "a5b090e76e96618914db11f5be3c85fe8cff28fae2fbef609ffb04cda0fb8dc6",
+     "path": "f/3e9f51e3f9b4c2b8.bin",
+     "size": 2911174,
+     "sha256": "3e9f51e3f9b4c2b88162e577bdfbe3afd1ba40b4381a50c629f75a911eb07461",
      "items": [
+      313,
       314,
       315,
       316,
@@ -15106,12 +15328,26 @@
       362,
       363,
       364,
-      365
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379
      ]
     }
    ],
-   "ver": "0e1d40f66e",
-   "up": "2026-10-31"
+   "ver": "b4b2484727",
+   "up": "2026-11-01"
   },
   {
    "id": "game.vale-part3",
@@ -15184,7 +15420,7 @@
     }
    ],
    "count": 0,
-   "size": 37910146,
+   "size": 34694523,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale III: Con ngựa biến mất",
@@ -15197,9 +15433,9 @@
    "files": [
     {
      "name": "art.css",
-     "size": 6423,
-     "sha256": "a842c7bd50b4f9d5109f9b1fa796f09d92f7486a143f52911388076c744d76ed",
-     "path": "f/a842c7bd50b4f9d5.css"
+     "size": 7342,
+     "sha256": "1c0923b82e90aa2e52233ab5c466cc8a0060bafc078275a39ae43e7caeb0537f",
+     "path": "f/1c0923b82e90aa2e.css"
     },
     {
      "name": "audio/c1-13d77gy.mp3",
@@ -16636,10 +16872,22 @@
      "path": "f/9013f8e7313318b8.webp"
     },
     {
-     "name": "img/p3_ben_leading_ember_v091.png",
-     "size": 2204191,
-     "sha256": "2dce83e85e03319d5523bac0718f7f5fc740dde792c19a8af359db56843a855a",
-     "path": "f/2dce83e85e03319d.png"
+     "name": "img/p3_ben_leading_ember_v091.webp",
+     "size": 283814,
+     "sha256": "9253c1242800a11e4e9de3e3fe979689c0d9f6410f605f3cd68bccd5331dcfd4",
+     "path": "f/9253c1242800a11e.webp"
+    },
+    {
+     "name": "img/p3_ben_moss_collar_done_v094.webp",
+     "size": 246168,
+     "sha256": "c08b132909596b382e3e2c175b30c46fbb5f10e6105f2603c7383b96006f6658",
+     "path": "f/c08b132909596b38.webp"
+    },
+    {
+     "name": "img/p3_ben_moss_collar_v094.webp",
+     "size": 234568,
+     "sha256": "5ea49de0e816a09bdbf1d5738eeff4b56d49f1760a767096b87a7fcbd39f0da8",
+     "path": "f/5ea49de0e816a09b.webp"
     },
     {
      "name": "img/p3_ben_moss_settle.webp",
@@ -16652,6 +16900,18 @@
      "size": 131782,
      "sha256": "7f6c4d34c46e90f9fe10f711650b5754087398c6f3b43b5072dfba5466a694bb",
      "path": "f/7f6c4d34c46e90f9.webp"
+    },
+    {
+     "name": "img/p3_ben_report_folded_v095.webp",
+     "size": 138374,
+     "sha256": "e9237d389d0094f246d310823627d4e4c645030d2b03d6f75bf53672cab55d0c",
+     "path": "f/e9237d389d0094f2.webp"
+    },
+    {
+     "name": "img/p3_ben_report_open_v095.webp",
+     "size": 148458,
+     "sha256": "0b158375492d015047de6aa1d1b395cea1169e5289d3d793ef476512f66c20d3",
+     "path": "f/0b158375492d0150.webp"
     },
     {
      "name": "img/p3_care_signal.webp",
@@ -16792,6 +17052,18 @@
      "path": "f/66f4cbc348862081.webp"
     },
     {
+     "name": "img/p3_nora_brush_contact_v095.webp",
+     "size": 232630,
+     "sha256": "bf35347a64e73c49c86b472c694a92f3cc46c3c4b6e77ba405c54002e7093b76",
+     "path": "f/bf35347a64e73c49.webp"
+    },
+    {
+     "name": "img/p3_nora_brush_paused_v095.webp",
+     "size": 216592,
+     "sha256": "cc37545f48a4de79b26aac9405040ff03b440f6f120cdf4204e1413165b13051",
+     "path": "f/cc37545f48a4de79.webp"
+    },
+    {
      "name": "img/p3_nora_concerned.webp",
      "size": 175134,
      "sha256": "3d2c0037cead283b3a1e82e3e9a10b458d8ae529935fe25b6dd4839f5c216617",
@@ -16882,10 +17154,22 @@
      "path": "f/f7aa2a3613864cbb.webp"
     },
     {
-     "name": "img/reed-offer-notebook-v091.png",
-     "size": 1922532,
-     "sha256": "ee37b090f32b92e1541ea81991f983df6fd9c34eecc380d25227d8abb6aa0362",
-     "path": "f/ee37b090f32b92e1.png"
+     "name": "img/reed-directory-check-v094.webp",
+     "size": 220758,
+     "sha256": "379c70c8dcfc1669ddbda8c1c95d87fd240527d1ab88c645c3e6ef6441de58d0",
+     "path": "f/379c70c8dcfc1669.webp"
+    },
+    {
+     "name": "img/reed-directory-read-v094.webp",
+     "size": 251722,
+     "sha256": "d9624a854e9320019b455fc8886579f36ba4ac3c9c2b9f3d0d9babc9858b1674",
+     "path": "f/d9624a854e932001.webp"
+    },
+    {
+     "name": "img/reed-offer-notebook-v091.webp",
+     "size": 218756,
+     "sha256": "50be8e0aead78e4caf328e97db729eef575c4b665617029c279243bd9165ac40",
+     "path": "f/50be8e0aead78e4c.webp"
     },
     {
      "name": "img/reed-smiling.webp",
@@ -16894,10 +17178,16 @@
      "path": "f/e6f429e74f5b3c5a.webp"
     },
     {
-     "name": "img/reed-writing-v091.png",
-     "size": 1944996,
-     "sha256": "8a53d1a18ad7f6985d4050f47542cff919e23839345f2627de7462fb762ff73b",
-     "path": "f/8a53d1a18ad7f698.png"
+     "name": "img/reed-tea-v094.webp",
+     "size": 219574,
+     "sha256": "9e11348dba64e2ef1eafa578cb4332d9f6e23e2a8eb892ae81c6e1ae90f9b651",
+     "path": "f/9e11348dba64e2ef.webp"
+    },
+    {
+     "name": "img/reed-writing-v091.webp",
+     "size": 234932,
+     "sha256": "99159986005621ca0803e58bbb510b78e96cd50f605e5eb7dfdd150277b87e0a",
+     "path": "f/99159986005621ca.webp"
     },
     {
      "name": "img/stage-reed.webp",
@@ -16919,9 +17209,9 @@
     },
     {
      "name": "index.html",
-     "size": 2796,
-     "sha256": "c42cb87c3efdcd1d79234d8d825f256a9e47168b82f81d556de548ce71423043",
-     "path": "f/c42cb87c3efdcd1d.html"
+     "size": 3488,
+     "sha256": "2b313cba5eb86c23a46531e8648da692336060eb7ff9ee6a5fbc8a3d55c984c2",
+     "path": "f/2b313cba5eb86c23.html"
     },
     {
      "name": "layout.js",
@@ -16973,9 +17263,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 132861,
-     "sha256": "222181f345f0d0e8a1c625060a1d6786097cf7aa936c9c5987957a82aad5449b",
-     "path": "f/222181f345f0d0e8.js"
+     "size": 137211,
+     "sha256": "ab1a86c87910dab2c0c0dbfa31598be1986b957a2976c139166b34e52c12e5ce",
+     "path": "f/ab1a86c87910dab2.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -16991,15 +17281,15 @@
     },
     {
      "name": "lib/story/mech.js",
-     "size": 90224,
-     "sha256": "bc5c62ceb8c89cc24c3bdbfe30c46acb153f9b487e401605b965edd6ed525b11",
-     "path": "f/bc5c62ceb8c89cc2.js"
+     "size": 102032,
+     "sha256": "ee823b093359bba149538f9fea55b1fd6f432e559401b00d9ff50ee6a1d8c38b",
+     "path": "f/ee823b093359bba1.js"
     },
     {
      "name": "lib/story/mech-plus.js",
-     "size": 103508,
-     "sha256": "14567b97d4e27fd12b54572597bb868698899f951953eab0b66e1e1eeb4608e2",
-     "path": "f/14567b97d4e27fd1.js"
+     "size": 103748,
+     "sha256": "60b6cf8b6f4eeda508ac209cc6e4b9a1f661ccad77760f159b9bd900bcfdf6d5",
+     "path": "f/60b6cf8b6f4eeda5.js"
     },
     {
      "name": "lib/story/mech-life.js",
@@ -17009,15 +17299,15 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 89647,
-     "sha256": "2e69d173aff91a58f253fce86f80c8e137ff0e6bd8d7f8268b02c28e8b4f5cc3",
-     "path": "f/2e69d173aff91a58.js"
+     "size": 99253,
+     "sha256": "444458d89841cbf5327ab0b14b7ec7ae288f87635b880542e1a6cebd82c9f164",
+     "path": "f/444458d89841cbf5.js"
     },
     {
      "name": "lib/story/place.js",
-     "size": 52189,
-     "sha256": "116e3baabe915f05170af3202153149e3c7b4ddc7812c9fe7e50cee64c3ce6aa",
-     "path": "f/116e3baabe915f05.js"
+     "size": 75135,
+     "sha256": "0a9dcd8fc1a5b1bc0fe70f91a8d607e4c49c400474d6baa6b68613cea590ea21",
+     "path": "f/0a9dcd8fc1a5b1bc.js"
     },
     {
      "name": "lib/story/action.js",
@@ -17027,9 +17317,9 @@
     },
     {
      "name": "lib/story/investigation.js",
-     "size": 32644,
-     "sha256": "4c353c949ce6e82588a7b2e1fed0faf6e77a239a03478a1b56f0cd48a8f451f6",
-     "path": "f/4c353c949ce6e825.js"
+     "size": 34952,
+     "sha256": "2065968f3e99cf29b9f34978b5193cfff425b7eea64f4a5ec3ed3c07375eb992",
+     "path": "f/2065968f3e99cf29.js"
     },
     {
      "name": "lib/story/reconstruct.js",
@@ -17039,9 +17329,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 228484,
-     "sha256": "e672a2f7509829f0b8ae9050f5532687b276c7cfe98c27d1c5d39bd74b2f04e7",
-     "path": "f/e672a2f7509829f0.css"
+     "size": 233762,
+     "sha256": "f8942454c26da359186f07947d34b1b035463a9193a21067778a8a73220316c6",
+     "path": "f/f8942454c26da359.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -17051,9 +17341,9 @@
     },
     {
      "name": "lib/vale/vale.css",
-     "size": 3971,
-     "sha256": "9f5d60354ed8706e932fadd22354caec47d9b13eee3aca9888a978830c75c6c0",
-     "path": "f/9f5d60354ed8706e.css"
+     "size": 5192,
+     "sha256": "788c1fe8c6e6b9aa79dffd0a5a759cdd3a6417b1df80c843e00b58e6f0701d53",
+     "path": "f/788c1fe8c6e6b9aa.css"
     },
     {
      "name": "lib/vale/vale-details.css",
@@ -17063,21 +17353,21 @@
     },
     {
      "name": "lib/vale/vale-mobile.css",
-     "size": 2606,
-     "sha256": "1ea35bb20f67e9d679bd9e5efccf3673c8cb1c2b86b087d7a6ddc2340a1abe46",
-     "path": "f/1ea35bb20f67e9d6.css"
+     "size": 2662,
+     "sha256": "5e8956d8e462f03006494a45db13b6b4ba4b240c4f67a3469a5de2dfbb26d721",
+     "path": "f/5e8956d8e462f030.css"
     },
     {
      "name": "lib/vale/vale-scene.css",
-     "size": 9973,
-     "sha256": "1138a005239cebc84db5f8c2fbe890f0f94a8f3a4fcaf2c04f8ecc964851c565",
-     "path": "f/1138a005239cebc8.css"
+     "size": 13626,
+     "sha256": "b3b8b56792cfa7634a3434828c3c799a1d97567df2aa33647deb23e16d5c08b5",
+     "path": "f/b3b8b56792cfa763.css"
     },
     {
      "name": "lib/vale/vale-board.css",
-     "size": 18533,
-     "sha256": "30e3d3d1d2366a73cd9dc67e4a2a9721f507fe1f2df1202f725e963c806dfae6",
-     "path": "f/30e3d3d1d2366a73.css"
+     "size": 20779,
+     "sha256": "f2adf4e47b0fcf2b36326b810c66fb77106401afd2a1c64581b0d90a1efccdcf",
+     "path": "f/f2adf4e47b0fcf2b.css"
     },
     {
      "name": "lib/vale/vale-interface.css",
@@ -17092,10 +17382,22 @@
      "path": "f/16e47a7df56c7548.css"
     },
     {
+     "name": "lib/vale/vale-records-v093.css",
+     "size": 7494,
+     "sha256": "85710880beab4c7f245a55028601e005ab62e11f0ec4be43f70f18e23ddfa263",
+     "path": "f/85710880beab4c7f.css"
+    },
+    {
      "name": "lib/vale/vale-playability.css",
-     "size": 6930,
-     "sha256": "dc9da8d947271c065d7dfb2eee0e75b7dda1d853c77a63e5ccce3f8757965e21",
-     "path": "f/dc9da8d947271c06.css"
+     "size": 13673,
+     "sha256": "cb8ee17c2537bfdd8636d8ccb553574c5f3eae007218a2da83e788e234dcd38d",
+     "path": "f/cb8ee17c2537bfdd.css"
+    },
+    {
+     "name": "lib/vale/vale-toolbar-v093.css",
+     "size": 3719,
+     "sha256": "866f19d2c9fbac43645313a285e5acb1a77092494003111b040d6e0b0ea89d15",
+     "path": "f/866f19d2c9fbac43.css"
     },
     {
      "name": "lib/story/interrogation.css",
@@ -17117,15 +17419,15 @@
     },
     {
      "name": "lib/vale/vale-base.js",
-     "size": 8134,
-     "sha256": "2ff3a7d13c504923e9ad154cb42591f8ae7bf5ca7af0bc7d280195dfd2d993d4",
-     "path": "f/2ff3a7d13c504923.js"
+     "size": 12290,
+     "sha256": "f9476c13ae9fc37a7c90bf25b7ff6ba5b5bf23f96a049a9fe7f9429c0bd13ae7",
+     "path": "f/f9476c13ae9fc37a.js"
     },
     {
      "name": "lib/vale/vale-book.js",
-     "size": 15363,
-     "sha256": "4ec166867e2de1910fc49765f7f155ea14370405786f117268e489c1d0574cc0",
-     "path": "f/4ec166867e2de191.js"
+     "size": 18537,
+     "sha256": "79dd2805ea98a4d09167b4e25f7852804dbad6330504bc1333ace7137634069d",
+     "path": "f/79dd2805ea98a4d0.js"
     },
     {
      "name": "lib/vale/vale-case-config.js",
@@ -17165,21 +17467,21 @@
     },
     {
      "name": "lib/vale/vale-performance.js",
-     "size": 30790,
-     "sha256": "8511e132121c151a95ec1320fe94074c7c9222342a63059eea5d289b91c36736",
-     "path": "f/8511e132121c151a.js"
+     "size": 34423,
+     "sha256": "9711fa7e54d3b0d6d69c63daac0a2553f94a3932ba7f4c7293ec8249db2b47ea",
+     "path": "f/9711fa7e54d3b0d6.js"
     },
     {
      "name": "lib/vale/vale-records.js",
-     "size": 9568,
-     "sha256": "139f590da6bc4426619346fd50af6cf177db319c73770720075fa42e1a70774e",
-     "path": "f/139f590da6bc4426.js"
+     "size": 10031,
+     "sha256": "d5140b0dcfb9977c8d22a2946ba44a3786d2a808cdee8238c78417e9efcaedb1",
+     "path": "f/d5140b0dcfb9977c.js"
     },
     {
      "name": "lib/vale/vale-title.js",
      "size": 2571,
-     "sha256": "1aacf2d8b601e807afaea2552b57c4749286b716d32ca0890a0589ef6af19bbf",
-     "path": "f/1aacf2d8b601e807.js"
+     "sha256": "4be22d1ac4e13b3a3c1781aa37b83128a767aedf5a8d15eb95a48cb4f6433f07",
+     "path": "f/4be22d1ac4e13b3a.js"
     },
     {
      "name": "lib/vale/vale-z-sound.js",
@@ -17195,9 +17497,9 @@
     },
     {
      "name": "lib/vale/vale-zz-playability.js",
-     "size": 20860,
-     "sha256": "ccb8823556e5ec8481ecff575a86508401cf1ab4404508ad6d43bf2e482e43e4",
-     "path": "f/ccb8823556e5ec84.js"
+     "size": 29648,
+     "sha256": "e65c35aadcc4f7a6325a4bf68ff63ffaeed5b48d7a1d72ff78338be458629a71",
+     "path": "f/e65c35aadcc4f7a6.js"
     },
     {
      "name": "lib/vale/vale-zzz-continuity.js",
@@ -17216,6 +17518,60 @@
      "size": 13947,
      "sha256": "b2b20434d7e46d60394a8b9c1296a465658de3f34956b2fa78b409d53963d336",
      "path": "f/b2b20434d7e46d60.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzz-ux-v092.js",
+     "size": 2936,
+     "sha256": "4d6b04e5d9dd8490003215b88a1d37de2f0d29023a36847ff09e0e9cbc721c4b",
+     "path": "f/4d6b04e5d9dd8490.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzz-direction-v093.js",
+     "size": 40552,
+     "sha256": "374467db13a74eeecdc8611cf5c1af5332002be95c611b27203c9d04013221c0",
+     "path": "f/374467db13a74eee.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzz-reasoning-v093.js",
+     "size": 11930,
+     "sha256": "072310bb7950e808677949c71965da8c4a14ac94b52ac9f4a4cafefa3da742d2",
+     "path": "f/072310bb7950e808.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzz-toolbar-v093.js",
+     "size": 5415,
+     "sha256": "0607d934fc141a82ae4d315904b736985b43b4f1eea006b51815f2812661d041",
+     "path": "f/0607d934fc141a82.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-actions-v094.js",
+     "size": 9683,
+     "sha256": "5df8ac9c67838e83eb2065978fb996e2c6d56b681e3eeb59ba1a57e58d22a5b7",
+     "path": "f/5df8ac9c67838e83.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-actions-v095.js",
+     "size": 7269,
+     "sha256": "355ab82b7191a3b28b0ea5d3c319e6a85d6f8e3d9084f420e4aceac6597cafd6",
+     "path": "f/355ab82b7191a3b2.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzz-choices-v094.js",
+     "size": 10241,
+     "sha256": "dbc0257e3da39bb7e055c93c733b9fae490701018c64e0e7af234e50c05ef62c",
+     "path": "f/dbc0257e3da39bb7.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzzz-spatial-v096.js",
+     "size": 8885,
+     "sha256": "bffb83236c5cd3b39b564532332ccc797476f9087b94379340c37e6ff8c0ddc9",
+     "path": "f/bffb83236c5cd3b3.js"
+    },
+    {
+     "name": "lib/vale/vale-zzzzzzzzzzz-emotion-v096.js",
+     "size": 9346,
+     "sha256": "96c72ed42cdf727bbef1456db49fefe2d080979413ea6823ff3216eb33e8b7b2",
+     "path": "f/96c72ed42cdf727b.js"
     }
    ],
    "shots": [
@@ -17227,9 +17583,9 @@
    "art": "f/b68bc5af8075d922.webp",
    "bundles": [
     {
-     "path": "f/f08ecd0b1cf761a3.bin",
-     "size": 3124143,
-     "sha256": "f08ecd0b1cf761a31e9ff84511f0c7843762e76f5bdd986988103b7e0d9103cf",
+     "path": "f/b2191d3b72e35c93.bin",
+     "size": 3125062,
+     "sha256": "b2191d3b72e35c93bfba2831b375d596f1e9187826ae5e4d6756f551ee350516",
      "items": [
       0,
       1,
@@ -17477,9 +17833,9 @@
      ]
     },
     {
-     "path": "f/407a0427a2c9e2e4.bin",
-     "size": 3134015,
-     "sha256": "407a0427a2c9e2e46bc9207ae2bd6383dd937dd930b83550b28fd06ad07ff7ae",
+     "path": "f/c766649de4dc1e88.bin",
+     "size": 3100289,
+     "sha256": "c766649de4dc1e880f8092dd946d98807a7a3d3b507f9b638ab47285359516f9",
      "items": [
       222,
       223,
@@ -17499,48 +17855,49 @@
       237,
       238,
       239,
+      240,
       241,
       242,
       243,
       244,
-      245
+      245,
+      246
      ]
     },
     {
-     "path": "f/1d7ec605455c2ab4.bin",
-     "size": 2841948,
-     "sha256": "1d7ec605455c2ab430d0c0532d944a21d1ff6e01001e4a94355a716c35a332ab",
+     "path": "f/c32f2e5d3dea831a.bin",
+     "size": 3004614,
+     "sha256": "c32f2e5d3dea831a312314fcf25011f232281fdeab45acc4d0c77ea76f515920",
      "items": [
-      246,
       247,
       248,
       249,
       250,
       251,
       252,
-      253
+      253,
+      254
      ]
     },
     {
-     "path": "f/20cd72f3ac4a581c.bin",
-     "size": 2914814,
-     "sha256": "20cd72f3ac4a581c168d096df51b642d08ce669280a4cafe92c70b0fdb9ed211",
+     "path": "f/8d2568107aa391a6.bin",
+     "size": 2758612,
+     "sha256": "8d2568107aa391a650beec821d2ed55a4fbdca827f733484e8fdc8eb2eaf8d11",
      "items": [
-      254,
       255,
       256,
       257,
       258,
       259,
-      260
+      260,
+      261
      ]
     },
     {
-     "path": "f/6b6ae2814b49d796.bin",
-     "size": 2952756,
-     "sha256": "6b6ae2814b49d796ff526291860c187ca0667712fb97e933985c66b55c27eb4c",
+     "path": "f/80092d12b157c96b.bin",
+     "size": 3132008,
+     "sha256": "80092d12b157c96b646d374bfb190226fe2c14871dbae804703d938168d77f15",
      "items": [
-      261,
       262,
       263,
       264,
@@ -17548,40 +17905,42 @@
       266,
       267,
       268,
-      269
+      269,
+      270
      ]
     },
     {
-     "path": "f/b4acf259a84b8c30.bin",
-     "size": 2722704,
-     "sha256": "b4acf259a84b8c300b47436d8b3eb334d427e934117fbebcd4a9be063ab5ed9f",
+     "path": "f/e389e724df6586f5.bin",
+     "size": 2989146,
+     "sha256": "e389e724df6586f558e420c7a8946e3ca54054e4005b55a485a1c65c466e1277",
      "items": [
-      270,
       271,
       272,
       273,
       274,
-      275
-     ]
-    },
-    {
-     "path": "f/d85a81069ddb5ec4.bin",
-     "size": 2862396,
-     "sha256": "d85a81069ddb5ec430d712606549f50d540ba8d11889847b6cfddab02a0b324c",
-     "items": [
+      275,
       276,
       277,
       278,
-      279,
+      279
+     ]
+    },
+    {
+     "path": "f/70c4c928e7615f5a.bin",
+     "size": 2603496,
+     "sha256": "70c4c928e7615f5ac2f19a2a1513987a96352ab238856928dc0af7701f84b145",
+     "items": [
       280,
+      281,
       282,
+      283,
       284
      ]
     },
     {
-     "path": "f/22029e7e2a33c9d9.bin",
-     "size": 1951802,
-     "sha256": "22029e7e2a33c9d900db87d1c34ef7aad206b4d226f7d27e7d14400ce360e4ad",
+     "path": "f/13dea0a7b2f8ab66.bin",
+     "size": 3143379,
+     "sha256": "13dea0a7b2f8ab660674dbb8023deb194819dec7b22afdc143ca31275647f9dc",
      "items": [
       285,
       286,
@@ -17595,7 +17954,14 @@
       294,
       295,
       296,
-      297,
+      297
+     ]
+    },
+    {
+     "path": "f/19d632439e5b8a37.bin",
+     "size": 1504068,
+     "sha256": "19d632439e5b8a37d519176cff1fc36b74f5d3ff6ea5b7e7b793e76d11cb1958",
+     "items": [
       298,
       299,
       300,
@@ -17634,12 +18000,32 @@
       333,
       334,
       335,
-      336
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356
      ]
     }
    ],
-   "ver": "89814403e4",
-   "up": "2026-10-31"
+   "ver": "69614f9fae",
+   "up": "2026-11-01"
   }
  ]
 }
