@@ -1,0 +1,7 @@
+/* Detail plates stay still, retain their complete composition and fit between
+   the native header and dialogue. This is presentation only. */
+.vd .se-pic{padding:0;border:1px solid #d6c8a955;border-radius:8px;background:#182420;transform:translateX(-50%);animation:none;box-shadow:0 8px 28px #0006}
+.vd .se-pic .fr,.vd .se-pic i{border-radius:7px}
+.vd .se-pic i{animation:none;background-size:contain;background-repeat:no-repeat}
+.vd .se-pic.out{transform:translateX(-50%);opacity:0}
+.vd:has(.se-pic:not(.out)) .se-chars{opacity:0;pointer-events:none}

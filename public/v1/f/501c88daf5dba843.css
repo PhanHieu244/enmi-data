@@ -1,0 +1,32 @@
+/* Two icon controls; plain location/time remain visible for scene context. */
+.vd.bt-navigation .se-top{z-index:26;display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;gap:8px;min-height:52px;pointer-events:none}
+.bt-navigation .se-top[hidden],.bt-navigation [data-quick-menu][hidden],.bt-navigation .bt-menu-shield[hidden]{display:none!important}
+.vd.bt-navigation .se-top>.bt-top-icon{position:relative;display:grid;place-items:center;width:44px;height:44px;min-width:44px;min-height:44px;padding:10px;border:1px solid #d1bd8844;border-radius:13px;background:#10252ae8;color:#efe5ca;cursor:pointer;pointer-events:auto;touch-action:manipulation}
+.bt-navigation [data-bt-goal]{grid-column:1;grid-row:1}.bt-navigation [data-bt-menu]{grid-column:3;grid-row:1}
+.bt-navigation .bt-top-icon>svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.7}
+.bt-navigation .bt-top-icon[aria-expanded="true"]{background:#2a3c39;border-color:#d1bd88}
+.bt-navigation .bt-menu-dot{position:absolute;right:6px;top:6px;width:6px;height:6px;background:#e2bf71;border-radius:50%}
+.bt-navigation .bt-clue-count{position:absolute;right:-5px;bottom:-4px;border:1px solid #d5c08a55;background:#15282b;color:#eee3c9;border-radius:7px;padding:1px 4px;font:600 10px/1.3 var(--se-sans)}
+.vd.bt-navigation .se-top>.se-stat{grid-column:2;grid-row:1;justify-self:center;display:grid;place-items:center;min-height:40px;max-width:100%;width:auto!important;min-width:0;margin:0;padding:4px 7px;border:0;background:#10252abf;border-radius:11px;box-shadow:none;backdrop-filter:none;pointer-events:none;animation:none}
+.vd.bt-navigation .se-stat .st-l{display:grid;max-width:100%;opacity:1;justify-items:center;gap:2px;transition:none}
+.vd.bt-navigation .se-stat .st-n,.vd.bt-navigation .se-stat .st-t{display:block;max-width:100%;font:600 12px/1.25 var(--se-sans);text-align:center;white-space:normal;overflow:visible;text-overflow:clip;letter-spacing:0}
+.vd.bt-navigation .se-stat .st-t{font-size:10px;color:#dbc68e}.bt-navigation .se-stat .sp-clock{display:none!important}
+.vd.bt-navigation .se-grp.bt-quick-menu,.bt-navigation .bt-objective{position:absolute;z-index:1;top:calc(100% + 3px);right:8px;display:grid;gap:3px;width:min(270px,calc(100% - 16px));max-height:calc(100dvh - 85px);overflow:auto;margin:0;padding:7px;border:1px solid #d0b77b66;border-radius:14px;background:#13272b;box-shadow:0 8px 24px #0005;backdrop-filter:none;-webkit-backdrop-filter:none;pointer-events:auto;animation:bt-menu-in .14s ease-out}
+.bt-navigation .bt-objective{right:auto;left:8px;gap:10px;padding:14px}.bt-navigation .bt-objective p{margin:0;color:#eee6d3;font:400 14px/1.6 var(--se-sans);white-space:normal;overflow-wrap:break-word;hyphens:none}
+.bt-navigation .bt-objective>b{font:600 12px/1.4 var(--se-sans);color:#d8bf80}.bt-navigation .bt-objective button{justify-self:end;min-height:44px;padding:7px 14px;background:#283d3a;border:1px solid #d0b77b66;border-radius:9px;color:#eee6d3}
+.vd.bt-navigation .bt-quick-menu button{display:flex;align-items:center;justify-content:flex-start;gap:12px;width:100%;min-height:48px;height:auto;min-width:0;margin:0;padding:10px 12px;border:0;border-radius:9px;background:none;color:#eae6d6;text-align:left;font:500 14px/1.4 var(--se-sans);cursor:pointer;pointer-events:auto}
+.vd.bt-navigation .bt-quick-menu button:hover,.vd.bt-navigation .bt-quick-menu button:focus-visible{background:#ead09a16;outline:1px solid #d3bd8744;outline-offset:-1px}
+.bt-navigation .bt-quick-menu button svg{flex:none;width:20px;height:20px}.bt-navigation .bt-tool-label{flex:1;min-width:0;display:block;white-space:normal;hyphens:none}
+.bt-navigation .bt-quick-menu .se-dot{position:static;flex:none;order:3;margin-left:auto}.bt-navigation .bt-quick-menu [data-a="trall"].on{background:#d1b3691a;color:#e4c687}
+.bt-navigation>.lf-hud{visibility:hidden}
+.vd.bt-navigation .bt-quick-menu .lf-hud{position:relative;inset:auto;transform:none;animation:none}
+.bt-navigation .bt-quick-menu .lf-hud i{position:static;flex:none;order:3;margin-left:auto}
+.bt-navigation .bt-menu-shield{position:absolute;inset:0;z-index:25;background:#02080b20;touch-action:none;pointer-events:auto}
+.bt-navigation.bt-tools-open :is(.se-motion-control,.se-scene-peek,.se-toast,.se-mem,.se-lane){visibility:hidden;pointer-events:none}
+.bt-navigation .se-panel button[data-objective],.bt-navigation .se-panel button[data-xp-objective]{display:none}
+.bt-navigation .bt-objective-notice{display:flex;align-items:center;gap:8px}.bt-navigation .bt-objective-notice>span{flex:1}.bt-navigation .bt-objective-notice>button{width:44px;height:44px;flex:none;border:0;background:none;color:inherit;font-size:24px}
+/* The real hit box stays unchanged. Hold feedback never draws a rectangle. */
+.bt-navigation .pz.aim{outline:none!important}.bt-navigation .pz.aim:not(.ng):not(.wg)::before,.bt-navigation .pz.aim:not(.ng):not(.wg)::after{left:50%;top:50%;right:auto;bottom:auto;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%}
+@keyframes bt-menu-in{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media(max-width:360px){.vd.bt-navigation .se-top{gap:5px;padding-inline:6px}.vd.bt-navigation .se-stat .st-n{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.bt-navigation .bt-quick-menu,.bt-navigation .bt-objective{animation:none}}

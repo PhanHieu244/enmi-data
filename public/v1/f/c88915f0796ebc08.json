@@ -1,0 +1,120 @@
+{
+  "engine": "kokoro-onnx",
+  "model": "Kokoro v1.0",
+  "language": "en-gb",
+  "note": "Synthetic English voice cast. Direction describes intent; this model uses voice blends and restrained pacing, not performance cloning or prompt-controlled acting.",
+  "speakers": {
+    "narr": {
+      "blend": {
+        "bm_fable": 1
+      },
+      "speed": 0.97,
+      "gender": "M",
+      "direction": "Calm, measured British narration; leave the implications unstated."
+    },
+    "me.M": {
+      "blend": {
+        "bm_lewis": 1
+      },
+      "speed": 1,
+      "gender": "M",
+      "direction": "Clear, observant, quietly determined; thoughts remain the same voice."
+    },
+    "me.F": {
+      "blend": {
+        "bf_alice": 1
+      },
+      "speed": 1,
+      "gender": "F",
+      "direction": "Clear, observant, quietly determined; thoughts remain the same voice."
+    },
+    "nell": {
+      "blend": {
+        "bf_emma": 0.78,
+        "bf_isabella": 0.22
+      },
+      "speed": 0.96,
+      "gender": "F",
+      "direction": "Mature warm landlady; practical, inviting, restrained when threatened."
+    },
+    "tom": {
+      "blend": {
+        "bm_george": 1
+      },
+      "speed": 0.91,
+      "gender": "M",
+      "direction": "Elderly, deliberate and tired; short phrases without theatrical ominousness."
+    },
+    "fergus": {
+      "blend": {
+        "bm_george": 0.65,
+        "bm_daniel": 0.35
+      },
+      "speed": 0.96,
+      "gender": "M",
+      "direction": "Elderly local fisherman, dry and laconic, protective of Tom; gruff warmth, spare phrases and unhurried breath."
+    },
+    "callum": {
+      "blend": {
+        "bm_lewis": 0.58,
+        "bm_george": 0.42
+      },
+      "speed": 0.95,
+      "gender": "M",
+      "direction": "Guarded fisherman, spare phrasing; confession becomes slower."
+    },
+    "leo": {
+      "blend": {
+        "bm_daniel": 1
+      },
+      "speed": 1.03,
+      "gender": "M",
+      "direction": "Young adult, unforced, warm with a defensive edge."
+    },
+    "helen": {
+      "blend": {
+        "bf_lily": 0.72,
+        "bf_emma": 0.28
+      },
+      "speed": 1.02,
+      "gender": "F",
+      "direction": "Doctor, precise and level, caring without overstating certainty."
+    },
+    "gideon": {
+      "blend": {
+        "bm_fable": 0.25,
+        "bm_george": 0.75
+      },
+      "speed": 1.02,
+      "gender": "M",
+      "direction": "Cultivated, dry and slightly theatrical; clear diction."
+    },
+    "dodd": {
+      "blend": {
+        "bf_isabella": 0.65,
+        "bf_emma": 0.35
+      },
+      "speed": 0.93,
+      "gender": "F",
+      "direction": "Elderly local woman on the harbour bench, dry and observant, unhurried."
+    },
+    "anna": {
+      "blend": {
+        "bf_alice": 0.25,
+        "bf_lily": 0.75
+      },
+      "speed": 0.97,
+      "gender": "F",
+      "direction": "Mother in memory, steady and intimate; never read action directions."
+    },
+    "callum14": {
+      "blend": {
+        "bm_lewis": 0.7,
+        "bm_fable": 0.3
+      },
+      "speed": 1.05,
+      "gender": "M",
+      "direction": "Teenage memory voice, tense and hesitant; no artificial falsetto."
+    }
+  }
+}

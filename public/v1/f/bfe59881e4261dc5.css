@@ -1,0 +1,459 @@
+/* SINH TỰ ĐỘNG bởi tools/games/_lib/story/art-css.js — đừng sửa tay */
+.se-chi{-webkit-mask-image:linear-gradient(#000 86%,transparent);mask-image:linear-gradient(#000 86%,transparent)}
+.im-act-bell-duck{background-image:url(img/act-bell-duck.webp)}
+.im-act-bottle-hand{background-image:url(img/act-bottle-hand.webp)}
+.im-act-cuff{background-image:url(img/act-cuff.webp)}
+.im-act-envelope{background-image:url(img/act-envelope.webp)}
+.im-act-handset{background-image:url(img/act-handset.webp)}
+.im-act-hatch-open{background-image:url(img/act-hatch-open.webp)}
+.im-act-jumper{background-image:url(img/act-jumper.webp)}
+.im-act-label-clean{background-image:url(img/act-label-clean.webp)}
+.im-act-ladder{background-image:url(img/act-ladder.webp)}
+.im-act-mirror-hut{background-image:url(img/act-mirror-hut.webp)}
+.im-act-nell-pour{background-image:url(img/act-nell-pour.webp)}
+.im-act-note-fold{background-image:url(img/act-note-fold.webp)}
+.im-act-ring-palm{background-image:url(img/act-ring-palm.webp)}
+.im-act-ring-seabed{background-image:url(img/act-ring-seabed.webp)}
+.im-act-taillights{background-image:url(img/act-taillights.webp)}
+.im-anna-pain{background-image:url(img/anna-pain.webp)}
+.im-anna-smile{background-image:url(img/anna-smile.webp)}
+.im-anna{background-image:url(img/anna.webp)}
+.im-backlane{background-image:url(img/backlane.webp)}
+.im-box-day{background-image:url(img/box-day.webp)}
+.im-box-door{background-image:url(img/box-door.webp)}
+.im-box-gauge-day{background-image:url(img/box-gauge-day.webp)}
+.im-box-line{background-image:url(img/box-line.webp)}
+.im-box-lit-empty{background-image:url(img/box-lit-empty.webp)}
+.im-box-outside{background-image:url(img/box-outside.webp)}
+.im-box-roof{background-image:url(img/box-roof.webp)}
+.im-box-walls{background-image:url(img/box-walls.webp)}
+.im-box{background-image:url(img/box.webp)}
+.im-callum-cold{background-image:url(img/callum-cold.webp)}
+.im-callum-full-kneel{background-image:url(img/callum-full-kneel.webp)}
+.im-callum-full{background-image:url(img/callum-full.webp)}
+.im-callum{background-image:url(img/callum.webp)}
+.im-callum14-crying{background-image:url(img/callum14-crying.webp)}
+.im-callum14-scared{background-image:url(img/callum14-scared.webp)}
+.im-callum14{background-image:url(img/callum14.webp)}
+.im-car{background-image:url(img/car.webp)}
+.im-causeway-night{background-image:url(img/causeway-night.webp)}
+.im-causeway-sign{background-image:url(img/causeway-sign.webp)}
+.im-causeway{background-image:url(img/causeway.webp)}
+.im-cg-bell{background-image:url(img/cg-bell.webp)}
+.im-cg-fergus-glare{background-image:url(img/cg-fergus-glare.webp)}
+.im-cg-fergus-toast{background-image:url(img/cg-fergus-toast.webp)}
+.im-cg-gideon-tom{background-image:url(img/cg-gideon-tom.webp)}
+.im-cg-leo-licence{background-image:url(img/cg-leo-licence.webp)}
+.im-cg-mem-nails{background-image:url(img/cg-mem-nails.webp)}
+.im-cg-mem-seat{background-image:url(img/cg-mem-seat.webp)}
+.im-cg-nell-hug{background-image:url(img/cg-nell-hug.webp)}
+.im-cg-nell-tea{background-image:url(img/cg-nell-tea.webp)}
+.im-cg-tom-pass{background-image:url(img/cg-tom-pass.webp)}
+.im-cottage-open-empty{background-image:url(img/cottage-open-empty.webp)}
+.im-cover{background-image:url(img/cover.webp)}
+.im-fergus-angry{background-image:url(img/fergus-angry.webp)}
+.im-fergus-full-sit{background-image:url(img/fergus-full-sit.webp)}
+.im-fergus-full{background-image:url(img/fergus-full.webp)}
+.im-fergus-smile{background-image:url(img/fergus-smile.webp)}
+.im-fergus-surprised{background-image:url(img/fergus-surprised.webp)}
+.im-fergus{background-image:url(img/fergus.webp)}
+.im-gideon-angry{background-image:url(img/gideon-angry.webp)}
+.im-gideon-cold{background-image:url(img/gideon-cold.webp)}
+.im-gideon-full-stand{background-image:url(img/gideon-full-stand.webp)}
+.im-gideon-full{background-image:url(img/gideon-full.webp)}
+.im-gideon{background-image:url(img/gideon.webp)}
+.im-harbour-lamp{background-image:url(img/harbour-lamp.webp)}
+.im-harbour{background-image:url(img/harbour.webp)}
+.im-helen-cold{background-image:url(img/helen-cold.webp)}
+.im-helen-full-bag{background-image:url(img/helen-full-bag.webp)}
+.im-helen-full{background-image:url(img/helen-full.webp)}
+.im-helen{background-image:url(img/helen.webp)}
+.im-isl-bighouse{background-image:url(img/isl-bighouse.webp)}
+.im-isl-harbour{background-image:url(img/isl-harbour.webp)}
+.im-isl-priory{background-image:url(img/isl-priory.webp)}
+.im-isl-square{background-image:url(img/isl-square.webp)}
+.im-isl-surgery{background-image:url(img/isl-surgery.webp)}
+.im-it-claimfile{background-image:url(img/it-claimfile.webp)}
+.im-it-jumper-cuff{background-image:url(img/it-jumper-cuff.webp)}
+.im-it-jumper{background-image:url(img/it-jumper.webp)}
+.im-it-note{background-image:url(img/it-note.webp)}
+.im-it-ring-in{background-image:url(img/it-ring-in.webp)}
+.im-it-ring{background-image:url(img/it-ring.webp)}
+.im-it-roomkey{background-image:url(img/it-roomkey.webp)}
+.im-lantern-bar{background-image:url(img/lantern-bar.webp)}
+.im-lantern-front{background-image:url(img/lantern-front.webp)}
+.im-lantern-shelf{background-image:url(img/lantern-shelf.webp)}
+.im-lantern-yard{background-image:url(img/lantern-yard.webp)}
+.im-lantern{background-image:url(img/lantern.webp)}
+.im-leo-full-stand{background-image:url(img/leo-full-stand.webp)}
+.im-leo-full{background-image:url(img/leo-full.webp)}
+.im-leo-soft{background-image:url(img/leo-soft.webp)}
+.im-leo{background-image:url(img/leo.webp)}
+.im-nell-crying{background-image:url(img/nell-crying.webp)}
+.im-nell-full{background-image:url(img/nell-full.webp)}
+.im-nell-sad{background-image:url(img/nell-sad.webp)}
+.im-nell-smile{background-image:url(img/nell-smile.webp)}
+.im-nell-surprised{background-image:url(img/nell-surprised.webp)}
+.im-nell{background-image:url(img/nell.webp)}
+.im-tom-cold{background-image:url(img/tom-cold.webp)}
+.im-tom-full{background-image:url(img/tom-full.webp)}
+.im-tom-soft{background-image:url(img/tom-soft.webp)}
+.im-tom{background-image:url(img/tom.webp)}
+.im-village{background-image:url(img/village.webp)}
+.se-chi:has(.im-act-bell-duck) .ph{display:none}
+.se-chi:has(.im-act-bottle-hand) .ph{display:none}
+.se-chi:has(.im-act-cuff) .ph{display:none}
+.se-chi:has(.im-act-envelope) .ph{display:none}
+.se-chi:has(.im-act-handset) .ph{display:none}
+.se-chi:has(.im-act-hatch-open) .ph{display:none}
+.se-chi:has(.im-act-jumper) .ph{display:none}
+.se-chi:has(.im-act-label-clean) .ph{display:none}
+.se-chi:has(.im-act-ladder) .ph{display:none}
+.se-chi:has(.im-act-mirror-hut) .ph{display:none}
+.se-chi:has(.im-act-nell-pour) .ph{display:none}
+.se-chi:has(.im-act-note-fold) .ph{display:none}
+.se-chi:has(.im-act-ring-palm) .ph{display:none}
+.se-chi:has(.im-act-ring-seabed) .ph{display:none}
+.se-chi:has(.im-act-taillights) .ph{display:none}
+.se-chi:has(.im-anna-pain) .ph{display:none}
+.se-chi:has(.im-anna-smile) .ph{display:none}
+.se-chi:has(.im-anna) .ph{display:none}
+.se-chi:has(.im-backlane) .ph{display:none}
+.se-chi:has(.im-box-day) .ph{display:none}
+.se-chi:has(.im-box-door) .ph{display:none}
+.se-chi:has(.im-box-gauge-day) .ph{display:none}
+.se-chi:has(.im-box-line) .ph{display:none}
+.se-chi:has(.im-box-lit-empty) .ph{display:none}
+.se-chi:has(.im-box-outside) .ph{display:none}
+.se-chi:has(.im-box-roof) .ph{display:none}
+.se-chi:has(.im-box-walls) .ph{display:none}
+.se-chi:has(.im-box) .ph{display:none}
+.se-chi:has(.im-callum-cold) .ph{display:none}
+.se-chi:has(.im-callum-full-kneel) .ph{display:none}
+.se-chi:has(.im-callum-full) .ph{display:none}
+.se-chi:has(.im-callum) .ph{display:none}
+.se-chi:has(.im-callum14-crying) .ph{display:none}
+.se-chi:has(.im-callum14-scared) .ph{display:none}
+.se-chi:has(.im-callum14) .ph{display:none}
+.se-chi:has(.im-car) .ph{display:none}
+.se-chi:has(.im-causeway-night) .ph{display:none}
+.se-chi:has(.im-causeway-sign) .ph{display:none}
+.se-chi:has(.im-causeway) .ph{display:none}
+.se-chi:has(.im-cg-bell) .ph{display:none}
+.se-chi:has(.im-cg-fergus-glare) .ph{display:none}
+.se-chi:has(.im-cg-fergus-toast) .ph{display:none}
+.se-chi:has(.im-cg-gideon-tom) .ph{display:none}
+.se-chi:has(.im-cg-leo-licence) .ph{display:none}
+.se-chi:has(.im-cg-mem-nails) .ph{display:none}
+.se-chi:has(.im-cg-mem-seat) .ph{display:none}
+.se-chi:has(.im-cg-nell-hug) .ph{display:none}
+.se-chi:has(.im-cg-nell-tea) .ph{display:none}
+.se-chi:has(.im-cg-tom-pass) .ph{display:none}
+.se-chi:has(.im-cottage-open-empty) .ph{display:none}
+.se-chi:has(.im-cover) .ph{display:none}
+.se-chi:has(.im-fergus-angry) .ph{display:none}
+.se-chi:has(.im-fergus-full-sit) .ph{display:none}
+.se-chi:has(.im-fergus-full) .ph{display:none}
+.se-chi:has(.im-fergus-smile) .ph{display:none}
+.se-chi:has(.im-fergus-surprised) .ph{display:none}
+.se-chi:has(.im-fergus) .ph{display:none}
+.se-chi:has(.im-gideon-angry) .ph{display:none}
+.se-chi:has(.im-gideon-cold) .ph{display:none}
+.se-chi:has(.im-gideon-full-stand) .ph{display:none}
+.se-chi:has(.im-gideon-full) .ph{display:none}
+.se-chi:has(.im-gideon) .ph{display:none}
+.se-chi:has(.im-harbour-lamp) .ph{display:none}
+.se-chi:has(.im-harbour) .ph{display:none}
+.se-chi:has(.im-helen-cold) .ph{display:none}
+.se-chi:has(.im-helen-full-bag) .ph{display:none}
+.se-chi:has(.im-helen-full) .ph{display:none}
+.se-chi:has(.im-helen) .ph{display:none}
+.se-chi:has(.im-isl-bighouse) .ph{display:none}
+.se-chi:has(.im-isl-harbour) .ph{display:none}
+.se-chi:has(.im-isl-priory) .ph{display:none}
+.se-chi:has(.im-isl-square) .ph{display:none}
+.se-chi:has(.im-isl-surgery) .ph{display:none}
+.se-chi:has(.im-it-claimfile) .ph{display:none}
+.se-chi:has(.im-it-jumper-cuff) .ph{display:none}
+.se-chi:has(.im-it-jumper) .ph{display:none}
+.se-chi:has(.im-it-note) .ph{display:none}
+.se-chi:has(.im-it-ring-in) .ph{display:none}
+.se-chi:has(.im-it-ring) .ph{display:none}
+.se-chi:has(.im-it-roomkey) .ph{display:none}
+.se-chi:has(.im-lantern-bar) .ph{display:none}
+.se-chi:has(.im-lantern-front) .ph{display:none}
+.se-chi:has(.im-lantern-shelf) .ph{display:none}
+.se-chi:has(.im-lantern-yard) .ph{display:none}
+.se-chi:has(.im-lantern) .ph{display:none}
+.se-chi:has(.im-leo-full-stand) .ph{display:none}
+.se-chi:has(.im-leo-full) .ph{display:none}
+.se-chi:has(.im-leo-soft) .ph{display:none}
+.se-chi:has(.im-leo) .ph{display:none}
+.se-chi:has(.im-nell-crying) .ph{display:none}
+.se-chi:has(.im-nell-full) .ph{display:none}
+.se-chi:has(.im-nell-sad) .ph{display:none}
+.se-chi:has(.im-nell-smile) .ph{display:none}
+.se-chi:has(.im-nell-surprised) .ph{display:none}
+.se-chi:has(.im-nell) .ph{display:none}
+.se-chi:has(.im-tom-cold) .ph{display:none}
+.se-chi:has(.im-tom-full) .ph{display:none}
+.se-chi:has(.im-tom-soft) .ph{display:none}
+.se-chi:has(.im-tom) .ph{display:none}
+.se-chi:has(.im-village) .ph{display:none}
+.au-has{background-image:url(img/.au)}
+.au-olxq7e{background-image:url(audio/c1-olxq7e.mp3)}
+.au-lo2h6u{background-image:url(audio/c1-lo2h6u.mp3)}
+.au-1e365c2{background-image:url(audio/c1-1e365c2.mp3)}
+.au-b3nhfx{background-image:url(audio/c1-b3nhfx.mp3)}
+.au-1umnkdp{background-image:url(audio/c1-1umnkdp.mp3)}
+.au-10r0jyj{background-image:url(audio/c1-10r0jyj.mp3)}
+.au-guorn8{background-image:url(audio/c1-guorn8.mp3)}
+.au-pvms3l{background-image:url(audio/c1-pvms3l.mp3)}
+.au-1rdm3jp{background-image:url(audio/c1-1rdm3jp.mp3)}
+.au-1ahq4c{background-image:url(audio/c1-1ahq4c.mp3)}
+.au-rcorgw{background-image:url(audio/c1-rcorgw.mp3)}
+.au-ibc6s3{background-image:url(audio/c1-ibc6s3.mp3)}
+.au-5a1i3m{background-image:url(audio/c1-5a1i3m.mp3)}
+.au-6mgsl2{background-image:url(audio/c1-6mgsl2.mp3)}
+.au-m216p5{background-image:url(audio/c1-m216p5.mp3)}
+.au-wo8hon{background-image:url(audio/c1-wo8hon.mp3)}
+.au-1a8mcyy{background-image:url(audio/c1-1a8mcyy.mp3)}
+.au-imezt3{background-image:url(audio/c1-imezt3.mp3)}
+.au-4xb6u8{background-image:url(audio/c1-4xb6u8.mp3)}
+.au-1y9wwaa{background-image:url(audio/c1-1y9wwaa.mp3)}
+.au-12vd5ui{background-image:url(audio/c1-12vd5ui.mp3)}
+.au-1fi6d46{background-image:url(audio/c1-1fi6d46.mp3)}
+.au-60by9v{background-image:url(audio/c1-60by9v.mp3)}
+.au-15omhyl{background-image:url(audio/c1-15omhyl.mp3)}
+.au-td5gac{background-image:url(audio/c1-td5gac.mp3)}
+.au-1lb0634{background-image:url(audio/c1-1lb0634.mp3)}
+.au-12huyxw{background-image:url(audio/c1-12huyxw.mp3)}
+.au-1phy9aa{background-image:url(audio/c1-1phy9aa.mp3)}
+.au-1z0u0h4{background-image:url(audio/c1-1z0u0h4.mp3)}
+.au-1w94wrm{background-image:url(audio/c1-1w94wrm.mp3)}
+.au-5twpg6{background-image:url(audio/c1-5twpg6.mp3)}
+.au-x1kcgz{background-image:url(audio/c1-x1kcgz.mp3)}
+.au-eowuo2{background-image:url(audio/c1-eowuo2.mp3)}
+.au-8mp1t8{background-image:url(audio/c1-8mp1t8.mp3)}
+.au-1fmx23g{background-image:url(audio/c1-1fmx23g.mp3)}
+.au-1jx5us9{background-image:url(audio/c1-1jx5us9.mp3)}
+.au-18ct0im{background-image:url(audio/c1-18ct0im.mp3)}
+.au-naekhl{background-image:url(audio/c1-naekhl.mp3)}
+.au-9sj1xp{background-image:url(audio/c1-9sj1xp.mp3)}
+.au-1x93giz{background-image:url(audio/c1-1x93giz.mp3)}
+.au-16gsq06{background-image:url(audio/c1-16gsq06.mp3)}
+.au-13hkzwc{background-image:url(audio/c1-13hkzwc.mp3)}
+.au-1apm8dd{background-image:url(audio/c1-1apm8dd.mp3)}
+.au-1asq1cb{background-image:url(audio/c1-1asq1cb.mp3)}
+.au-132mb3a{background-image:url(audio/c1-132mb3a.mp3)}
+.au-12nf53l{background-image:url(audio/c1-12nf53l.mp3)}
+.au-1uisjep{background-image:url(audio/c1-1uisjep.mp3)}
+.au-4uyfyn{background-image:url(audio/c1-4uyfyn.mp3)}
+.au-r0ze8q{background-image:url(audio/c1-r0ze8q.mp3)}
+.au-sanboo{background-image:url(audio/c1-sanboo.mp3)}
+.au-18pl33o{background-image:url(audio/c1-18pl33o.mp3)}
+.au-mv7wyk{background-image:url(audio/c1-mv7wyk.mp3)}
+.au-8dbevl{background-image:url(audio/c1-8dbevl.mp3)}
+.au-iys1gu{background-image:url(audio/c1-iys1gu.mp3)}
+.au-kt5qx8{background-image:url(audio/c1-kt5qx8.mp3)}
+.au-1r9ker9{background-image:url(audio/c1-1r9ker9.mp3)}
+.au-1g6rpi8{background-image:url(audio/c1-1g6rpi8.mp3)}
+.au-pdzchk{background-image:url(audio/c1-pdzchk.mp3)}
+.au-jqneer{background-image:url(audio/c1-jqneer.mp3)}
+.au-dvbvz6{background-image:url(audio/c1-dvbvz6.mp3)}
+.au-13nc6ib{background-image:url(audio/c1-13nc6ib.mp3)}
+.au-1ad0g42{background-image:url(audio/c1-1ad0g42.mp3)}
+.au-fep41q{background-image:url(audio/c1-fep41q.mp3)}
+.au-5m6ppc{background-image:url(audio/c1-5m6ppc.mp3)}
+.au-n31fj{background-image:url(audio/c1-n31fj.mp3)}
+.au-gr91yt{background-image:url(audio/c1-gr91yt.mp3)}
+.au-1t8osx9{background-image:url(audio/c1-1t8osx9.mp3)}
+.au-1fbf7nd{background-image:url(audio/c1-1fbf7nd.mp3)}
+.au-oem30l{background-image:url(audio/c1-oem30l.mp3)}
+.au-o0c075{background-image:url(audio/c1-o0c075.mp3)}
+.au-1prxx6x{background-image:url(audio/c1-1prxx6x.mp3)}
+.au-c4iwb4{background-image:url(audio/c1-c4iwb4.mp3)}
+.au-meq1ug{background-image:url(audio/c1-meq1ug.mp3)}
+.au-11pswa1{background-image:url(audio/c1-11pswa1.mp3)}
+.au-19lrd6n{background-image:url(audio/c1-19lrd6n.mp3)}
+.au-uv2tdu{background-image:url(audio/c1-uv2tdu.mp3)}
+.au-j2202b{background-image:url(audio/c1-j2202b.mp3)}
+.au-c7bx64{background-image:url(audio/c1-c7bx64.mp3)}
+.au-a8fo23{background-image:url(audio/c1-a8fo23.mp3)}
+.au-155aalv{background-image:url(audio/c1-155aalv.mp3)}
+.au-16q5jwa{background-image:url(audio/c1-16q5jwa.mp3)}
+.au-v7uno{background-image:url(audio/c1-v7uno.mp3)}
+.au-kb41p3{background-image:url(audio/c1-kb41p3.mp3)}
+.au-halpew{background-image:url(audio/c1-halpew.mp3)}
+.au-rjce4x{background-image:url(audio/c1-rjce4x.mp3)}
+.au-1skvqk5{background-image:url(audio/c1-1skvqk5.mp3)}
+.au-1h2qb2h{background-image:url(audio/c1-1h2qb2h.mp3)}
+.au-17xime7{background-image:url(audio/c1-17xime7.mp3)}
+.au-a0fcf1{background-image:url(audio/c1-a0fcf1.mp3)}
+.au-tmnlwo{background-image:url(audio/c1-tmnlwo.mp3)}
+.au-k2ov90{background-image:url(audio/c1-k2ov90.mp3)}
+.au-1drxbbu{background-image:url(audio/c1-1drxbbu.mp3)}
+.au-gf148m{background-image:url(audio/c1-gf148m.mp3)}
+.au-amhu0e{background-image:url(audio/c1-amhu0e.mp3)}
+.au-s0bmzr{background-image:url(audio/c1-s0bmzr.mp3)}
+.au-e23xho{background-image:url(audio/c1-e23xho.mp3)}
+.au-3dd6hf{background-image:url(audio/c1-3dd6hf.mp3)}
+.au-12ep6s3{background-image:url(audio/c1-12ep6s3.mp3)}
+.au-19ng3oc{background-image:url(audio/c1-19ng3oc.mp3)}
+.au-13xk7l6{background-image:url(audio/c1-13xk7l6.mp3)}
+.au-1br3hma{background-image:url(audio/c1-1br3hma.mp3)}
+.au-ijpnv5{background-image:url(audio/c1-ijpnv5.mp3)}
+.au-1cfliy0{background-image:url(audio/c1-1cfliy0.mp3)}
+.au-1w6djum{background-image:url(audio/c1-1w6djum.mp3)}
+.au-1qdzpb0{background-image:url(audio/c1-1qdzpb0.mp3)}
+.au-tcrndn{background-image:url(audio/c1-tcrndn.mp3)}
+.au-1pt5qw2{background-image:url(audio/c1-1pt5qw2.mp3)}
+.au-5ipe9w{background-image:url(audio/c1-5ipe9w.mp3)}
+.au-1ge1jrf{background-image:url(audio/c1-1ge1jrf.mp3)}
+.au-1llyapl{background-image:url(audio/c1-1llyapl.mp3)}
+.au-or6eyo{background-image:url(audio/c1-or6eyo.mp3)}
+.au-j9dox1{background-image:url(audio/c1-j9dox1.mp3)}
+.au-1947yma{background-image:url(audio/c1-1947yma.mp3)}
+.au-diuwrf{background-image:url(audio/c1-diuwrf.mp3)}
+.au-1e1mv4{background-image:url(audio/c1-1e1mv4.mp3)}
+.au-7n9mjn{background-image:url(audio/c1-7n9mjn.mp3)}
+.au-1uxxarc{background-image:url(audio/c1-1uxxarc.mp3)}
+.au-1h8thsh{background-image:url(audio/c1-1h8thsh.mp3)}
+.au-uaxt7e{background-image:url(audio/c1-uaxt7e.mp3)}
+.au-xx92kj{background-image:url(audio/c1-xx92kj.mp3)}
+.au-15blfpp{background-image:url(audio/c1-15blfpp.mp3)}
+.au-h2gtct{background-image:url(audio/c1-h2gtct.mp3)}
+.au-66y5lw{background-image:url(audio/c1-66y5lw.mp3)}
+.au-qsci0j{background-image:url(audio/c1-qsci0j.mp3)}
+.au-1nttkgk{background-image:url(audio/c1-1nttkgk.mp3)}
+.au-p3w3kq{background-image:url(audio/c1-p3w3kq.mp3)}
+.au-chzwx9{background-image:url(audio/c1-chzwx9.mp3)}
+.au-brucle{background-image:url(audio/c1-brucle.mp3)}
+.au-1ir8s1e{background-image:url(audio/c1-1ir8s1e.mp3)}
+.au-he83it{background-image:url(audio/c1-he83it.mp3)}
+.au-khmv3z{background-image:url(audio/c1-khmv3z.mp3)}
+.au-1ogfrq0{background-image:url(audio/c1-1ogfrq0.mp3)}
+.au-t5ijef{background-image:url(audio/c1-t5ijef.mp3)}
+.au-1h92nfn{background-image:url(audio/c1-1h92nfn.mp3)}
+.au-ozin91{background-image:url(audio/c1-ozin91.mp3)}
+.au-1vcpcfg{background-image:url(audio/c1-1vcpcfg.mp3)}
+.au-1t29s1i{background-image:url(audio/c1-1t29s1i.mp3)}
+.au-1hau4gt{background-image:url(audio/c1-1hau4gt.mp3)}
+.au-16o1jpv{background-image:url(audio/c1-16o1jpv.mp3)}
+.au-gpvnzr{background-image:url(audio/c1-gpvnzr.mp3)}
+.au-1cxvn8w{background-image:url(audio/c1-1cxvn8w.mp3)}
+.au-1awee95{background-image:url(audio/c1-1awee95.mp3)}
+.au-1a1a9iv{background-image:url(audio/c1-1a1a9iv.mp3)}
+.au-ltwcf5{background-image:url(audio/c1-ltwcf5.mp3)}
+.au-bzjmmf{background-image:url(audio/c1-bzjmmf.mp3)}
+.au-1jk6h5f{background-image:url(audio/c1-1jk6h5f.mp3)}
+.au-1lkrgbn{background-image:url(audio/c1-1lkrgbn.mp3)}
+.au-hyd2c9{background-image:url(audio/c1-hyd2c9.mp3)}
+.au-usb7fc{background-image:url(audio/c1-usb7fc.mp3)}
+.au-10zq852{background-image:url(audio/c1-10zq852.mp3)}
+.au-1h5m8y8{background-image:url(audio/c1-1h5m8y8.mp3)}
+.au-1nevam7{background-image:url(audio/c1-1nevam7.mp3)}
+.au-civae5{background-image:url(audio/c1-civae5.mp3)}
+.au-251bka{background-image:url(audio/c1-251bka.mp3)}
+.au-x4au7q{background-image:url(audio/c1-x4au7q.mp3)}
+.au-1bhjfea{background-image:url(audio/c1-1bhjfea.mp3)}
+.au-45vj2p{background-image:url(audio/c1-45vj2p.mp3)}
+.au-ujbvg3{background-image:url(audio/c1-ujbvg3.mp3)}
+.au-7r5kbu{background-image:url(audio/c1-7r5kbu.mp3)}
+.au-5ussyn{background-image:url(audio/c1-5ussyn.mp3)}
+.au-jj1p5r{background-image:url(audio/c1-jj1p5r.mp3)}
+.au-whlv94{background-image:url(audio/c1-whlv94.mp3)}
+.au-1uatd2j{background-image:url(audio/c1-1uatd2j.mp3)}
+.au-1bl2bby{background-image:url(audio/c1-1bl2bby.mp3)}
+.au-r2guud{background-image:url(audio/c1-r2guud.mp3)}
+.au-hhrxsc{background-image:url(audio/c1-hhrxsc.mp3)}
+.au-16oytjz{background-image:url(audio/c1-16oytjz.mp3)}
+.au-8p5ae3{background-image:url(audio/c1-8p5ae3.mp3)}
+.au-15h3fuh{background-image:url(audio/c1-15h3fuh.mp3)}
+.au-1tgu4pr{background-image:url(audio/c1-1tgu4pr.mp3)}
+.au-hc7zu2{background-image:url(audio/c1-hc7zu2.mp3)}
+.au-cybl7g{background-image:url(audio/c1-cybl7g.mp3)}
+.au-18gcud4{background-image:url(audio/c1-18gcud4.mp3)}
+.au-hq15of{background-image:url(audio/c1-hq15of.mp3)}
+.au-cizc94{background-image:url(audio/c1-cizc94.mp3)}
+.au-ondd77{background-image:url(audio/c1-ondd77.mp3)}
+.au-mvlw33{background-image:url(audio/c1-mvlw33.mp3)}
+.au-nv495m{background-image:url(audio/c1-nv495m.mp3)}
+.au-1ovuyt{background-image:url(audio/c1-1ovuyt.mp3)}
+.au-3ay44y{background-image:url(audio/c1-3ay44y.mp3)}
+.au-1krbwnc{background-image:url(audio/c1-1krbwnc.mp3)}
+.au-xzqrlj{background-image:url(audio/c1-xzqrlj.mp3)}
+.au-14uw2eu{background-image:url(audio/c1-14uw2eu.mp3)}
+.au-74rq5q{background-image:url(audio/c1-74rq5q.mp3)}
+.au-1jtgqet{background-image:url(audio/c1-1jtgqet.mp3)}
+.au-krdt8g{background-image:url(audio/c1-krdt8g.mp3)}
+.au-65oh4w{background-image:url(audio/c1-65oh4w.mp3)}
+.au-b718g8{background-image:url(audio/c1-b718g8.mp3)}
+.au-d8ihfz{background-image:url(audio/c1-d8ihfz.mp3)}
+.au-1xnm1bh{background-image:url(audio/c1-1xnm1bh.mp3)}
+.au-3otth0{background-image:url(audio/c1-3otth0.mp3)}
+.au-1x68fno{background-image:url(audio/c1-1x68fno.mp3)}
+.au-kd5lxm{background-image:url(audio/c1-kd5lxm.mp3)}
+.au-1l63meo{background-image:url(audio/c1-1l63meo.mp3)}
+.au-1bvxva1{background-image:url(audio/c1-1bvxva1.mp3)}
+.au-152knt4{background-image:url(audio/c1-152knt4.mp3)}
+.au-3ba6u7{background-image:url(audio/c1-3ba6u7.mp3)}
+.au-10cols8{background-image:url(audio/c1-10cols8.mp3)}
+.au-1kpxwnl{background-image:url(audio/c1-1kpxwnl.mp3)}
+.au-17nejwv{background-image:url(audio/c1-17nejwv.mp3)}
+.au-13v3lzn{background-image:url(audio/c1-13v3lzn.mp3)}
+.au-an4n8z{background-image:url(audio/c1-an4n8z.mp3)}
+.au-1jksz1k{background-image:url(audio/c1-1jksz1k.mp3)}
+.au-10pz65e{background-image:url(audio/c1-10pz65e.mp3)}
+.au-12rgf55{background-image:url(audio/c1-12rgf55.mp3)}
+.au-1qo7jpj{background-image:url(audio/c1-1qo7jpj.mp3)}
+.au-e0z4dt{background-image:url(audio/c1-e0z4dt.mp3)}
+.au-l8zt68{background-image:url(audio/c1-l8zt68.mp3)}
+.au-1rttss{background-image:url(audio/c1-1rttss.mp3)}
+.au-6ou49n{background-image:url(audio/c1-6ou49n.mp3)}
+.au-bv0kgq{background-image:url(audio/c1-bv0kgq.mp3)}
+.au-r3qb8o{background-image:url(audio/c1-r3qb8o.mp3)}
+.au-1dstxxx{background-image:url(audio/c1-1dstxxx.mp3)}
+.au-bgty5m{background-image:url(audio/c1-bgty5m.mp3)}
+.au-9lnfk9{background-image:url(audio/c1-9lnfk9.mp3)}
+.au-1ingqgz{background-image:url(audio/c1-1ingqgz.mp3)}
+.au-1xlx1vk{background-image:url(audio/c1-1xlx1vk.mp3)}
+.au-ccsg7i{background-image:url(audio/c1-ccsg7i.mp3)}
+.au-1oktegy{background-image:url(audio/c1-1oktegy.mp3)}
+.au-15rwbmn{background-image:url(audio/c1-15rwbmn.mp3)}
+.au-us52au{background-image:url(audio/c1-us52au.mp3)}
+.au-jm75ql{background-image:url(audio/c1-jm75ql.mp3)}
+.au-1sxf5v6{background-image:url(audio/c1-1sxf5v6.mp3)}
+.au-1nu7sy9{background-image:url(audio/c1-1nu7sy9.mp3)}
+.au-1amgjdf{background-image:url(audio/c1-1amgjdf.mp3)}
+.au-19tsgbn{background-image:url(audio/c1-19tsgbn.mp3)}
+.au-17euhr7{background-image:url(audio/c1-17euhr7.mp3)}
+.au-1kyvx6x{background-image:url(audio/c1-1kyvx6x.mp3)}
+.au-1hyihjc{background-image:url(audio/c1-1hyihjc.mp3)}
+.am-sea{background-image:url(audio/bt-amb-sea.mp3)}
+.am-room{background-image:url(audio/bt-amb-room.mp3)}
+.am-pub{background-image:url(audio/bt-amb-pub.mp3)}
+.am-hall{background-image:url(audio/bt-amb-hall.mp3)}
+.am-hut{background-image:url(audio/bt-amb-hut.mp3)}
+.am-harbour{background-image:url(audio/bt-amb-harbour.mp3)}
+.am-night{background-image:url(audio/bt-amb-night.mp3)}
+.am-rain{background-image:url(audio/bt-amb-rain.mp3)}
+.sx-door{background-image:url(audio/bt-sfx-door.mp3)}
+.sx-wind{background-image:url(audio/bt-sfx-wind.mp3)}
+.sx-steps{background-image:url(audio/bt-sfx-steps.mp3)}
+.sx-buzz{background-image:url(audio/bt-sfx-buzz.mp3)}
+.sx-page{background-image:url(audio/bt-sfx-page.mp3)}
+.sx-glass{background-image:url(audio/bt-sfx-glass.mp3)}
+.sx-bell{background-image:url(audio/bt-sfx-bell.mp3)}
+.sx-phone{background-image:url(audio/bt-sfx-phone.mp3)}
+.sx-splash{background-image:url(audio/bt-sfx-splash.mp3)}
+.sx-beat{background-image:url(audio/bt-sfx-beat.mp3)}
+.sx-hit{background-image:url(audio/bt-sfx-hit.mp3)}
+.sx-clock{background-image:url(audio/bt-sfx-clock.mp3)}
+.sx-knock{background-image:url(audio/bt-sfx-knock.mp3)}
+.sx-thunder{background-image:url(audio/bt-sfx-thunder.mp3)}
+.sx-sting{background-image:url(audio/bt-sfx-sting.mp3)}
+.sx-car{background-image:url(audio/bt-sfx-car.mp3)}
+.sx-gulls{background-image:url(audio/bt-sfx-gulls.mp3)}
+.sx-kettle{background-image:url(audio/bt-sfx-kettle.mp3)}
+.sx-phone_keys{background-image:url(audio/bt-sfx-phone_keys.mp3)}

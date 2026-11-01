@@ -1,0 +1,10 @@
+/* Retain all five native clue slots; only the kitchen's physical access waits. */
+.se.bt-cottage-locked [data-sp="stove"],
+.se.bt-cottage-locked [data-sp="cabinet"],
+.se.bt-cottage-locked [data-sp="window"],
+.se.bt-cottage-locked [data-sp="back"],
+.se.bt-cottage-phone:not(.bt-cottage-phone-next) [data-sp="phone"],
+.se.bt-cottage-phone.bt-cottage-phone-next:not(.xp-inspecting) [data-sp="label"] {
+  display: none !important;
+  pointer-events: none !important;
+}

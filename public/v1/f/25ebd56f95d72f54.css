@@ -1,0 +1,49 @@
+/* Chỉ áp dụng cho Between Tides; giữ bố cục và mỹ thuật engine gốc. */
+.se.bt-mobile .pl-msg.bt-hint-message {
+  position: relative;
+  padding-right: 52px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.se.bt-mobile .pl-msg.bt-hint-message[hidden] { display: none !important; }
+.se.bt-mobile .bt-hint-close {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: inherit;
+  touch-action: manipulation;
+}
+.se.bt-mobile .bt-hint-close svg { width: 20px; height: 20px; }
+.se.bt-mobile .bt-hint-close:focus-visible,
+.se.bt-mobile [data-bt-easy]:focus-visible {
+  outline: 2px solid var(--se-ac);
+  outline-offset: 2px;
+}
+.se.bt-mobile .bt-hint-close:active { background: #ffffff15; }
+.se.bt-mobile .bt-mobile-settings .se-ovo { min-height: 64px; }
+.se.bt-mobile .pl-ar { min-width: 44px; }
+.se.bt-mobile .pl-back { min-height: 44px; }
+.se.bt-mobile .pl-hold .se-ib.sm { width: 44px; height: 44px; }
+/* Không nới vùng vật chứng: vị trí chạm vẫn neo đúng ảnh gốc. */
+@media (pointer: coarse) {
+  .se.bt-mobile .se-top > .se-ib { width: 44px; height: 44px; }
+  .se.bt-mobile .se-in { font-size: max(16px, 1em); }
+}
+/* stage.js injects its image reveal rules after stylesheets. Stop the animated
+   scale on native image planes while their hotspots are interactive. */
+.se.bt-mobile:is([data-m="xp"],[data-m="pl"]) .se-bgl[data-image] > .ii,
+.se.bt-mobile:is([data-m="xp"],[data-m="pl"]) .se-bgl[data-image] > .vbw,
+.se.bt-mobile:is([data-m="xp"],[data-m="pl"]) .se-bgl[data-image] > .bd {
+  animation: none !important;
+}
+.bt-mobile .vd-record-art.is-object i{background-size:contain;background-position:center}

@@ -1,0 +1,25 @@
+/* Full-figure costume sources are deliberately framed at the upper body on
+   the native portrait layer. Chair/bench, cup and standing legs stay outside
+   this framing; actual in-scene people continue to use native .pp.full. */
+.vd .se-ch[data-bt-costume] .se-chi{overflow:hidden}
+.vd .se-ch[data-bt-costume] .se-chi>.ii:not(.bt-cast-costume),
+.vd .se-ch[data-bt-costume] .se-chi>.ph{opacity:0!important}
+.vd .se-ch[data-bt-costume] .se-chi>.bt-cast-costume{
+  opacity:1!important;background-repeat:no-repeat;background-position:50% 0%;
+  background-size:auto 195%;animation:none;
+  mask-image:linear-gradient(#000 0 82%,transparent 100%);
+  -webkit-mask-image:linear-gradient(#000 0 82%,transparent 100%);
+}
+.vd .se-ch[data-bt-costume="dodd-full-sit"] .se-chi>.bt-cast-costume{background-size:auto 135%;background-position:53% 0%}
+/* Narration supplies these two physical actions. A standing portrait would
+   contradict the described armful of blankets or kneeling movement. */
+.vd.bt-nell-action-narration .se-ch[data-id="nell"]{opacity:0!important;pointer-events:none}
+/* The stool is at the right end of the counter. Keep its long first-meeting
+   name clear of the native right-arrow touch target without moving the actor. */
+.vd .se-bgl[data-image="lantern-bar"] .pp[data-who="fergus"] .pp-n{left:20%}
+/* A 320×568 portrait has no spare letterbox below a 9:16 scene. Reserve the
+   native exit row so full figures end above it. Scene and image-anchored hit
+   regions resize together; the engine still performs all sprite fitting. */
+@media(max-width:480px) and (max-height:640px) and (orientation:portrait){
+  .vd[data-m="pl"]>.se-stage,.vd[data-m="pl"]>.se-plnav{bottom:74px}
+}
