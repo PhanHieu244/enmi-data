@@ -1,0 +1,212 @@
+/* Generated from actual artwork by tools/build-art.py. No bottom fade. */
+.im-archive{background-image:url(img/archive.webp)}
+.im-car{background-image:url(img/car.webp)}
+.im-cells{background-image:url(img/cells.webp)}
+.im-cg-body{background-image:url(img/cg-body.webp)}
+.im-cg-camera{background-image:url(img/cg-camera.webp)}
+.im-cg-cctv{background-image:url(img/cg-cctv.webp)}
+.im-cg-cliff{background-image:url(img/cg-cliff.webp)}
+.im-cg-dark{background-image:url(img/cg-dark.webp)}
+.im-cg-ellie{background-image:url(img/cg-ellie.webp)}
+.im-cg-holt{background-image:url(img/cg-holt.webp)}
+.im-cg-home{background-image:url(img/cg-home.webp)}
+.im-cg-hooks{background-image:url(img/cg-hooks.webp)}
+.im-cg-letter{background-image:url(img/cg-letter.webp)}
+.im-cg-lighthouse{background-image:url(img/cg-lighthouse.webp)}
+.im-cg-lockscreen{background-image:url(img/cg-lockscreen.webp)}
+.im-cg-morgue{background-image:url(img/cg-morgue.webp)}
+.im-cg-north{background-image:url(img/cg-north.webp)}
+.im-cg-owen{background-image:url(img/cg-owen.webp)}
+.im-cg-rescue-ellie{background-image:url(img/cg-rescue-ellie.webp)}
+.im-cg-rescue{background-image:url(img/cg-rescue.webp)}
+.im-cg-reunion{background-image:url(img/cg-reunion.webp)}
+.im-cg-safe{background-image:url(img/cg-safe.webp)}
+.im-cg-sandal{background-image:url(img/cg-sandal.webp)}
+.im-cg-steps{background-image:url(img/cg-steps.webp)}
+.im-cg-wallet{background-image:url(img/cg-wallet.webp)}
+.im-cg-whisper{background-image:url(img/cg-whisper.webp)}
+.im-chipshop{background-image:url(img/chipshop.webp)}
+.im-coldstore{background-image:url(img/coldstore.webp)}
+.im-corridor{background-image:url(img/corridor.webp)}
+.im-court{background-image:url(img/court.webp)}
+.im-courthall{background-image:url(img/courthall.webp)}
+.im-cover{background-image:url(img/cover.webp)}
+.im-dawn{background-image:url(img/dawn.webp)}
+.im-dorm{background-image:url(img/dorm.webp)}
+.im-ellie{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-ellie-neutral{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-ellie-scared{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-ellie-cold{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-ellie-angry{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-ellie-crying{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-ellie-relief{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-ellie-sad{background-image:url(img/ellie-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-ellie) .ph{display:none}
+.im-finch-portrait{background-image:url(img/finch-portrait.webp)}
+.im-gala{background-image:url(img/gala.webp)}
+.im-galakitchen{background-image:url(img/galakitchen.webp)}
+.im-gullpoint{background-image:url(img/gullpoint.webp)}
+.im-holt{background-image:url(img/holt-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-holt-neutral{background-image:url(img/holt-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-holt-smug{background-image:url(img/holt-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-holt-cold{background-image:url(img/holt-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-holt-angry{background-image:url(img/holt-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-holt) .ph{display:none}
+.im-hospital{background-image:url(img/hospital.webp)}
+.im-interview{background-image:url(img/interview.webp)}
+.im-jim{background-image:url(img/jim-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-jim-neutral{background-image:url(img/jim-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-jim-cold{background-image:url(img/jim-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-jim-worried{background-image:url(img/jim-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-jim-soft{background-image:url(img/jim-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-jim) .ph{display:none}
+.im-judge{background-image:url(img/judge-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-judge-neutral{background-image:url(img/judge-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-judge-cold{background-image:url(img/judge-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-judge-question{background-image:url(img/judge-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-judge-thoughtful{background-image:url(img/judge-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-judge) .ph{display:none}
+.im-kieran{background-image:url(img/kieran-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-kieran-neutral{background-image:url(img/kieran-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-kieran-scared{background-image:url(img/kieran-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-kieran-sad{background-image:url(img/kieran-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-kieran-crying{background-image:url(img/kieran-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-kieran-relief{background-image:url(img/kieran-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-kieran-soft{background-image:url(img/kieran-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-kieran) .ph{display:none}
+.im-kitchen{background-image:url(img/kitchen.webp)}
+.im-lamproom{background-image:url(img/lamproom.webp)}
+.im-lighthouse{background-image:url(img/lighthouse.webp)}
+.im-maggie{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-maggie-neutral{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-maggie-smile{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-maggie-cold{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-maggie-angry{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-maggie-worried{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-maggie-broken{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-maggie-sad{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-maggie-crying{background-image:url(img/maggie-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-maggie) .ph{display:none}
+.im-morgue{background-image:url(img/morgue.webp)}
+.im-office{background-image:url(img/office.webp)}
+.im-owen{background-image:url(img/owen-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-owen-neutral{background-image:url(img/owen-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-owen-smile{background-image:url(img/owen-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-owen-cold{background-image:url(img/owen-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-owen-angry{background-image:url(img/owen-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-owen-desperate{background-image:url(img/owen-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-owen-scared{background-image:url(img/owen-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-owen) .ph{display:none}
+.im-pier{background-image:url(img/pier.webp)}
+.im-pub{background-image:url(img/pub.webp)}
+.im-room{background-image:url(img/room.webp)}
+.im-ruth{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-ruth-neutral{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-ruth-surprised{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-ruth-cold{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-ruth-angry{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-ruth-stern{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-ruth-soft{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-ruth-proud{background-image:url(img/ruth-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-ruth) .ph{display:none}
+.im-sam{background-image:url(img/sam-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-sam-neutral{background-image:url(img/sam-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-sam-scared{background-image:url(img/sam-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-sam-sad{background-image:url(img/sam-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-sam-crying{background-image:url(img/sam-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-sam-relief{background-image:url(img/sam-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-sam-soft{background-image:url(img/sam-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-sam) .ph{display:none}
+.im-storm{background-image:url(img/storm.webp)}
+.im-street{background-image:url(img/street.webp)}
+.im-study{background-image:url(img/study.webp)}
+.im-tom{background-image:url(img/tom-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-tom-neutral{background-image:url(img/tom-sheet.webp);background-size:300% 100%!important;background-position:0% 50%!important;background-repeat:no-repeat}
+.im-tom-sad{background-image:url(img/tom-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-tom-soft{background-image:url(img/tom-sheet.webp);background-size:300% 100%!important;background-position:50% 50%!important;background-repeat:no-repeat}
+.im-tom-angry{background-image:url(img/tom-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.im-tom-cold{background-image:url(img/tom-sheet.webp);background-size:300% 100%!important;background-position:100% 50%!important;background-repeat:no-repeat}
+.se-chi:has(.im-tom) .ph{display:none}
+.im-it-phone{background-image:url(img/evidence-sheet-1.webp);background-size:304.36893204% 324.87046632%!important;background-position:0.23752969% 0.23041475%!important;background-repeat:no-repeat;--art-cell-aspect:1.06735751;--art-fit-w:100.00000000%;--art-fit-h:93.68932039%}
+.im-it-sam_photo{background-image:url(img/evidence-sheet-1.webp);background-size:306.60146699% 324.87046632%!important;background-position:49.94082840% 0.23041475%!important;background-repeat:no-repeat;--art-cell-aspect:1.05958549;--art-fit-w:100.00000000%;--art-fit-h:94.37652812%}
+.im-it-watch{background-image:url(img/evidence-sheet-1.webp);background-size:303.63196126% 324.87046632%!important;background-position:99.76218787% 0.23041475%!important;background-repeat:no-repeat;--art-cell-aspect:1.06994819;--art-fit-w:100.00000000%;--art-fit-h:93.46246973%}
+.im-it-id_card{background-image:url(img/evidence-sheet-1.webp);background-size:304.36893204% 336.19302949%!important;background-position:0.23752969% 44.94892168%!important;background-repeat:no-repeat;--art-cell-aspect:1.10455764;--art-fit-w:100.00000000%;--art-fit-h:90.53398058%}
+.im-it-leg_it{background-image:url(img/evidence-sheet-1.webp);background-size:306.60146699% 336.19302949%!important;background-position:49.94082840% 44.94892168%!important;background-repeat:no-repeat;--art-cell-aspect:1.09651475;--art-fit-w:100.00000000%;--art-fit-h:91.19804401%}
+.im-it-jim_note{background-image:url(img/evidence-sheet-1.webp);background-size:303.63196126% 336.19302949%!important;background-position:99.76218787% 44.94892168%!important;background-repeat:no-repeat;--art-cell-aspect:1.10723861;--art-fit-w:100.00000000%;--art-fit-h:90.31476998%}
+.im-it-notes{background-image:url(img/evidence-sheet-1.webp);background-size:304.36893204% 263.44537815%!important;background-position:0.23752969% 99.74293059%!important;background-repeat:no-repeat;--art-cell-aspect:0.86554622;--art-fit-w:86.55462185%;--art-fit-h:100.00000000%}
+.im-it-voicemail{background-image:url(img/evidence-sheet-1.webp);background-size:306.60146699% 263.44537815%!important;background-position:49.94082840% 99.74293059%!important;background-repeat:no-repeat;--art-cell-aspect:0.85924370;--art-fit-w:85.92436975%;--art-fit-h:100.00000000%}
+.im-it-pm_report{background-image:url(img/evidence-sheet-1.webp);background-size:303.63196126% 263.44537815%!important;background-position:99.76218787% 99.74293059%!important;background-repeat:no-repeat;--art-cell-aspect:0.86764706;--art-fit-w:86.76470588%;--art-fit-h:100.00000000%}
+.im-it-rota{background-image:url(img/action-sheet-1.webp);background-size:306.58682635% 307.50750751%!important;background-position:99.80676329% 0.28943560%!important;background-repeat:no-repeat;--art-cell-aspect:1.50450450;--art-fit-w:100.00000000%;--art-fit-h:66.46706587%}
+.im-it-sam_jacket{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 304.36893204%!important;background-position:50.00000000% 0.23752969%!important;background-repeat:no-repeat;--art-cell-aspect:1.00485437;--art-fit-w:100.00000000%;--art-fit-h:99.51690821%}
+.im-it-debt_book{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 304.36893204%!important;background-position:99.76190476% 0.23752969%!important;background-repeat:no-repeat;--art-cell-aspect:1.00485437;--art-fit-w:100.00000000%;--art-fit-h:99.51690821%}
+.im-it-pub_tape{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 321.53846154%!important;background-position:0.23809524% 48.37962963%!important;background-repeat:no-repeat;--art-cell-aspect:1.06153846;--art-fit-w:100.00000000%;--art-fit-h:94.20289855%}
+.im-it-treatment_note{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 321.53846154%!important;background-position:50.00000000% 48.37962963%!important;background-repeat:no-repeat;--art-cell-aspect:1.06153846;--art-fit-w:100.00000000%;--art-fit-h:94.20289855%}
+.im-it-ticket{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 321.53846154%!important;background-position:99.76190476% 48.37962963%!important;background-repeat:no-repeat;--art-cell-aspect:1.06153846;--art-fit-w:100.00000000%;--art-fit-h:94.20289855%}
+.im-it-finch_tape{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 285.00000000%!important;background-position:0.23809524% 99.75429975%!important;background-repeat:no-repeat;--art-cell-aspect:0.94090909;--art-fit-w:94.09090909%;--art-fit-h:100.00000000%}
+.im-it-finch_note{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 285.00000000%!important;background-position:50.00000000% 99.75429975%!important;background-repeat:no-repeat;--art-cell-aspect:0.94090909;--art-fit-w:94.09090909%;--art-fit-h:100.00000000%}
+.im-it-finch_report{background-image:url(img/evidence-sheet-2.webp);background-size:302.89855072% 285.00000000%!important;background-position:99.76190476% 99.75429975%!important;background-repeat:no-repeat;--art-cell-aspect:0.94090909;--art-fit-w:94.09090909%;--art-fit-h:100.00000000%}
+.im-it-letter{background-image:url(img/evidence-sheet-3.webp);background-size:304.36893204% 326.56250000%!important;background-position:0.23752969% 0.22988506%!important;background-repeat:no-repeat;--art-cell-aspect:1.07291667;--art-fit-w:100.00000000%;--art-fit-h:93.20388350%}
+.im-it-invite{background-image:url(img/evidence-sheet-3.webp);background-size:303.63196126% 326.56250000%!important;background-position:49.94054697% 0.22988506%!important;background-repeat:no-repeat;--art-cell-aspect:1.07552083;--art-fit-w:100.00000000%;--art-fit-h:92.97820823%}
+.im-it-recorder{background-image:url(img/evidence-sheet-3.webp);background-size:302.89855072% 326.56250000%!important;background-position:99.76190476% 0.22988506%!important;background-repeat:no-repeat;--art-cell-aspect:1.07812500;--art-fit-w:100.00000000%;--art-fit-h:92.75362319%}
+.im-it-ledger{background-image:url(img/evidence-sheet-3.webp);background-size:304.36893204% 311.16625310%!important;background-position:0.23752969% 46.06345476%!important;background-repeat:no-repeat;--art-cell-aspect:1.02233251;--art-fit-w:100.00000000%;--art-fit-h:97.81553398%}
+.im-it-gp_key{background-image:url(img/evidence-sheet-3.webp);background-size:303.63196126% 311.16625310%!important;background-position:49.94054697% 46.06345476%!important;background-repeat:no-repeat;--art-cell-aspect:1.02481390;--art-fit-w:100.00000000%;--art-fit-h:97.57869249%}
+.im-it-crowbar{background-image:url(img/evidence-sheet-3.webp);background-size:302.89855072% 311.16625310%!important;background-position:99.76190476% 46.06345476%!important;background-repeat:no-repeat;--art-cell-aspect:1.02729529;--art-fit-w:100.00000000%;--art-fit-h:97.34299517%}
+.im-it-finch_tape2{background-image:url(img/evidence-sheet-3.webp);background-size:304.36893204% 278.66666667%!important;background-position:0.23752969% 99.75124378%!important;background-repeat:no-repeat;--art-cell-aspect:0.91555556;--art-fit-w:91.55555556%;--art-fit-h:100.00000000%}
+.im-it-sam_book{background-image:url(img/evidence-sheet-3.webp);background-size:303.63196126% 278.66666667%!important;background-position:49.94054697% 99.75124378%!important;background-repeat:no-repeat;--art-cell-aspect:0.91777778;--art-fit-w:91.77777778%;--art-fit-h:100.00000000%}
+.im-it-oilskin{background-image:url(img/evidence-sheet-3.webp);background-size:302.89855072% 278.66666667%!important;background-position:99.76190476% 99.75124378%!important;background-repeat:no-repeat;--art-cell-aspect:0.92000000;--art-fit-w:92.00000000%;--art-fit-h:100.00000000%}
+.im-it-trainer{background-image:url(img/cg-sandal.webp);background-size:100.00000000% 100.00000000%!important;background-position:50.00000000% 50.00000000%!important;background-repeat:no-repeat;--art-cell-aspect:0.66666667;--art-fit-w:66.66666667%;--art-fit-h:100.00000000%}
+.im-it-hook{background-image:url(img/cg-hooks.webp);background-size:100.00000000% 100.00000000%!important;background-position:50.00000000% 50.00000000%!important;background-repeat:no-repeat;--art-cell-aspect:0.66666667;--art-fit-w:66.66666667%;--art-fit-h:100.00000000%}
+.im-act-chips{background-image:url(img/action-sheet-1.webp);background-size:304.76190476% 307.50750751%!important;background-position:0.19379845% 0.28943560%!important;background-repeat:no-repeat;--art-cell-aspect:1.51351351;--art-fit-w:100.00000000%;--art-fit-h:66.07142857%}
+.statement .se-pic:has(i.im-act-chips){--statement-pic-aspect:1.51351351}
+.im-act-jacket{background-image:url(img/action-sheet-1.webp);background-size:303.55731225% 307.50750751%!important;background-position:50.09708738% 0.28943560%!important;background-repeat:no-repeat;--art-cell-aspect:1.51951952;--art-fit-w:100.00000000%;--art-fit-h:65.81027668%}
+.statement .se-pic:has(i.im-act-jacket){--statement-pic-aspect:1.51951952}
+.im-act-rota{background-image:url(img/action-sheet-1.webp);background-size:306.58682635% 307.50750751%!important;background-position:99.80676329% 0.28943560%!important;background-repeat:no-repeat;--art-cell-aspect:1.50450450;--art-fit-w:100.00000000%;--art-fit-h:66.46706587%}
+.statement .se-pic:has(i.im-act-rota){--statement-pic-aspect:1.50450450}
+.im-act-debtbook{background-image:url(img/action-sheet-1.webp);background-size:304.76190476% 312.19512195%!important;background-position:0.19379845% 49.56896552%!important;background-repeat:no-repeat;--art-cell-aspect:1.53658537;--art-fit-w:100.00000000%;--art-fit-h:65.07936508%}
+.statement .se-pic:has(i.im-act-debtbook){--statement-pic-aspect:1.53658537}
+.im-act-laptop{background-image:url(img/action-sheet-1.webp);background-size:303.55731225% 312.19512195%!important;background-position:50.09708738% 49.56896552%!important;background-repeat:no-repeat;--art-cell-aspect:1.54268293;--art-fit-w:100.00000000%;--art-fit-h:64.82213439%}
+.statement .se-pic:has(i.im-act-laptop){--statement-pic-aspect:1.54268293}
+.im-act-report{background-image:url(img/action-sheet-1.webp);background-size:306.58682635% 312.19512195%!important;background-position:99.80676329% 49.56896552%!important;background-repeat:no-repeat;--art-cell-aspect:1.52743902;--art-fit-w:100.00000000%;--art-fit-h:65.46906188%}
+.statement .se-pic:has(i.im-act-report){--statement-pic-aspect:1.52743902}
+.im-act-ticket{background-image:url(img/action-sheet-1.webp);background-size:304.76190476% 301.17647059%!important;background-position:0.19379845% 99.70760234%!important;background-repeat:no-repeat;--art-cell-aspect:1.48235294;--art-fit-w:100.00000000%;--art-fit-h:67.46031746%}
+.statement .se-pic:has(i.im-act-ticket){--statement-pic-aspect:1.48235294}
+.im-act-tape{background-image:url(img/action-sheet-1.webp);background-size:303.55731225% 301.17647059%!important;background-position:50.09708738% 99.70760234%!important;background-repeat:no-repeat;--art-cell-aspect:1.48823529;--art-fit-w:100.00000000%;--art-fit-h:67.19367589%}
+.statement .se-pic:has(i.im-act-tape){--statement-pic-aspect:1.48823529}
+.im-act-drawer{background-image:url(img/action-sheet-1.webp);background-size:306.58682635% 301.17647059%!important;background-position:99.80676329% 99.70760234%!important;background-repeat:no-repeat;--art-cell-aspect:1.47352941;--art-fit-w:100.00000000%;--art-fit-h:67.86427146%}
+.statement .se-pic:has(i.im-act-drawer){--statement-pic-aspect:1.47352941}
+.im-act-calendar{background-image:url(img/action-sheet-2.webp);background-size:302.36220472% 305.67164179%!important;background-position:0.19455253% 0.29027576%!important;background-repeat:no-repeat;--art-cell-aspect:1.51641791;--art-fit-w:100.00000000%;--art-fit-h:65.94488189%}
+.statement .se-pic:has(i.im-act-calendar){--statement-pic-aspect:1.51641791}
+.im-act-compare{background-image:url(img/action-sheet-2.webp);background-size:301.76817289% 305.67164179%!important;background-position:50.04868549% 0.29027576%!important;background-repeat:no-repeat;--art-cell-aspect:1.51940299;--art-fit-w:100.00000000%;--art-fit-h:65.81532417%}
+.statement .se-pic:has(i.im-act-compare){--statement-pic-aspect:1.51940299}
+.im-act-champagne{background-image:url(img/action-sheet-2.webp);background-size:302.95857988% 305.67164179%!important;background-position:99.80563654% 0.29027576%!important;background-repeat:no-repeat;--art-cell-aspect:1.51343284;--art-fit-w:100.00000000%;--art-fit-h:66.07495069%}
+.statement .se-pic:has(i.im-act-champagne){--statement-pic-aspect:1.51343284}
+.im-act-charger{background-image:url(img/action-sheet-2.webp);background-size:302.36220472% 303.85756677%!important;background-position:0.19455253% 49.78165939%!important;background-repeat:no-repeat;--art-cell-aspect:1.50741840;--art-fit-w:100.00000000%;--art-fit-h:66.33858268%}
+.statement .se-pic:has(i.im-act-charger){--statement-pic-aspect:1.50741840}
+.im-act-ledger{background-image:url(img/action-sheet-2.webp);background-size:301.76817289% 303.85756677%!important;background-position:50.04868549% 49.78165939%!important;background-repeat:no-repeat;--art-cell-aspect:1.51038576;--art-fit-w:100.00000000%;--art-fit-h:66.20825147%}
+.statement .se-pic:has(i.im-act-ledger){--statement-pic-aspect:1.51038576}
+.im-act-key{background-image:url(img/action-sheet-2.webp);background-size:302.95857988% 303.85756677%!important;background-position:99.80563654% 49.78165939%!important;background-repeat:no-repeat;--art-cell-aspect:1.50445104;--art-fit-w:100.00000000%;--art-fit-h:66.46942801%}
+.statement .se-pic:has(i.im-act-key){--statement-pic-aspect:1.50445104}
+.im-act-torch{background-image:url(img/action-sheet-2.webp);background-size:302.36220472% 302.95857988%!important;background-position:0.19455253% 99.70845481%!important;background-repeat:no-repeat;--art-cell-aspect:1.50295858;--art-fit-w:100.00000000%;--art-fit-h:66.53543307%}
+.statement .se-pic:has(i.im-act-torch){--statement-pic-aspect:1.50295858}
+.im-act-carving{background-image:url(img/action-sheet-2.webp);background-size:301.76817289% 302.95857988%!important;background-position:50.04868549% 99.70845481%!important;background-repeat:no-repeat;--art-cell-aspect:1.50591716;--art-fit-w:100.00000000%;--art-fit-h:66.40471513%}
+.statement .se-pic:has(i.im-act-carving){--statement-pic-aspect:1.50591716}
+.im-act-floor{background-image:url(img/action-sheet-2.webp);background-size:302.95857988% 302.95857988%!important;background-position:99.80563654% 99.70845481%!important;background-repeat:no-repeat;--art-cell-aspect:1.50000000;--art-fit-w:100.00000000%;--art-fit-h:66.66666667%}
+.statement .se-pic:has(i.im-act-floor){--statement-pic-aspect:1.50000000}
+.im-act-message{background-image:url(img/action-sheet-3.webp);background-size:303.55731225% 305.67164179%!important;background-position:0.19417476% 0.29027576%!important;background-repeat:no-repeat;--art-cell-aspect:1.51044776;--art-fit-w:100.00000000%;--art-fit-h:66.20553360%}
+.statement .se-pic:has(i.im-act-message){--statement-pic-aspect:1.51044776}
+.im-act-notebook{background-image:url(img/action-sheet-3.webp);background-size:303.55731225% 305.67164179%!important;background-position:50.00000000% 0.29027576%!important;background-repeat:no-repeat;--art-cell-aspect:1.51044776;--art-fit-w:100.00000000%;--art-fit-h:66.20553360%}
+.statement .se-pic:has(i.im-act-notebook){--statement-pic-aspect:1.51044776}
+.im-act-oath{background-image:url(img/action-sheet-3.webp);background-size:304.15841584% 305.67164179%!important;background-position:99.80601358% 0.29027576%!important;background-repeat:no-repeat;--art-cell-aspect:1.50746269;--art-fit-w:100.00000000%;--art-fit-h:66.33663366%}
+.statement .se-pic:has(i.im-act-oath){--statement-pic-aspect:1.50746269}
+.im-act-evidence{background-image:url(img/action-sheet-3.webp);background-size:303.55731225% 306.58682635%!important;background-position:0.19417476% 50.00000000%!important;background-repeat:no-repeat;--art-cell-aspect:1.51497006;--art-fit-w:100.00000000%;--art-fit-h:66.00790514%}
+.statement .se-pic:has(i.im-act-evidence){--statement-pic-aspect:1.51497006}
+.im-act-outfit-suit{background-image:url(img/action-sheet-3.webp);background-size:303.55731225% 322.01257862%!important;background-position:50.00000000% 48.86685552%!important;background-repeat:no-repeat;--art-cell-aspect:1.59119497;--art-fit-w:100.00000000%;--art-fit-h:62.84584980%}
+.statement .se-pic:has(i.im-act-outfit-suit){--statement-pic-aspect:1.59119497}
+.im-act-outfit-uniform{background-image:url(img/action-sheet-3.webp);background-size:304.15841584% 306.58682635%!important;background-position:99.80601358% 50.00000000%!important;background-repeat:no-repeat;--art-cell-aspect:1.51197605;--art-fit-w:100.00000000%;--art-fit-h:66.13861386%}
+.statement .se-pic:has(i.im-act-outfit-uniform){--statement-pic-aspect:1.51197605}
+.im-act-outfit-jeans{background-image:url(img/action-sheet-3.webp);background-size:303.55731225% 305.67164179%!important;background-position:0.19417476% 99.70972424%!important;background-repeat:no-repeat;--art-cell-aspect:1.51044776;--art-fit-w:100.00000000%;--art-fit-h:66.20553360%}
+.statement .se-pic:has(i.im-act-outfit-jeans){--statement-pic-aspect:1.51044776}
+.im-act-photograph{background-image:url(img/action-sheet-3.webp);background-size:303.55731225% 305.67164179%!important;background-position:50.00000000% 99.70972424%!important;background-repeat:no-repeat;--art-cell-aspect:1.51044776;--art-fit-w:100.00000000%;--art-fit-h:66.20553360%}
+.statement .se-pic:has(i.im-act-photograph){--statement-pic-aspect:1.51044776}
+.im-act-record{background-image:url(img/action-sheet-3.webp);background-size:304.15841584% 305.67164179%!important;background-position:99.80601358% 99.70972424%!important;background-repeat:no-repeat;--art-cell-aspect:1.50746269;--art-fit-w:100.00000000%;--art-fit-h:66.33663366%}
+.statement .se-pic:has(i.im-act-record){--statement-pic-aspect:1.50746269}

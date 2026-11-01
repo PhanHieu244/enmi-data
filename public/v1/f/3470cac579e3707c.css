@@ -1,0 +1,28 @@
+/* Location at left, one menu at right; the folded objective sits beneath. */
+.statement.statement-toolbar .se-top{z-index:26;gap:10px;min-height:44px;align-items:center;justify-content:space-between}
+.statement.statement-toolbar .se-top>.se-stat{order:0;flex:0 1 auto;max-width:calc(100% - 92px);min-width:0;width:max-content;min-height:44px;margin-right:auto;padding:5px 12px;border-radius:13px;background:#0c171dde;backdrop-filter:none;-webkit-backdrop-filter:none;animation:none;box-shadow:none}
+.statement.statement-toolbar .se-stat .st-l{max-width:100%;opacity:1;align-items:start;justify-items:start;gap:3px;transition:none}
+.statement.statement-toolbar .se-stat :is(.st-n,.st-t){text-align:left;width:100%;font-size:12px;line-height:1.3;letter-spacing:.01em}
+.statement.statement-toolbar .se-stat .st-t{font-size:10px;color:#dbc68e}
+.statement.statement-toolbar .se-stat.has .sp-clock{display:none}
+.statement.statement-toolbar .statement-quick-toggle{order:2;position:relative;display:flex;align-items:center;justify-content:center;gap:0;flex:none;width:44px;min-width:44px;height:44px;min-height:44px;padding:10px;border:1px solid #d1bd8844;border-radius:13px;background:#0c171deb;color:#efe5ca;font:600 12px/1.4 var(--se-sans);cursor:pointer;touch-action:manipulation}
+.statement.statement-toolbar .statement-quick-toggle>svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7}
+.statement.statement-toolbar .statement-quick-toggle[aria-expanded="true"]{border-color:#d1bd88;background:#24342f}
+.statement.statement-toolbar .statement-menu-dot{position:absolute;top:6px;right:6px;width:5px;height:5px;border-radius:50%;background:#e2bf71}
+.statement.statement-toolbar .se-grp.statement-quick-menu{position:absolute;z-index:1;right:12px;top:calc(100% + 3px);display:grid;gap:2px;width:min(236px,calc(100% - 24px));max-height:calc(100dvh - 92px);overflow:auto;margin:0;padding:6px;border:1px solid #d0b77b77;border-radius:14px;background:#132528;box-shadow:0 8px 26px #0005;backdrop-filter:none;-webkit-backdrop-filter:none;animation:statement-menu-in .14s ease-out}
+.statement.statement-toolbar .statement-quick-menu>button{display:flex;align-items:center;justify-content:flex-start;gap:12px;width:100%;min-height:48px;height:auto;min-width:0;margin:0;padding:10px 12px;border:0;border-radius:9px;background:none;color:#eae6d6;text-align:left;font:500 14px/1.4 var(--se-sans);cursor:pointer}
+.statement.statement-toolbar .statement-quick-menu>button:hover,.statement.statement-toolbar .statement-quick-menu>button:focus-visible{background:#ead09a16;outline:1px solid #d3bd8744;outline-offset:-1px}
+.statement.statement-toolbar .statement-quick-menu>button svg{flex:none;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7}
+.statement.statement-toolbar .statement-quick-menu>button .statement-tool-label{flex:1;min-width:0;display:block}
+.statement.statement-toolbar .statement-quick-menu>[data-quick-exit]{border-top:1px solid #d3bd8733;border-radius:0 0 9px 9px;margin-top:4px;padding-top:12px}
+.statement.statement-toolbar .statement-quick-menu .se-dot{position:static;flex:none;order:3;width:6px;height:6px;margin-left:auto}
+.statement.statement-toolbar .statement-quick-menu [data-a="trall"].on{background:#d1b3691a;color:#e4c687}
+.statement.statement-toolbar .statement-menu-shield{position:absolute;inset:0;z-index:25;background:#02080b25;touch-action:none}
+.statement.statement-toolbar.statement-menu-open :is(.se-motion-control,.se-scene-peek){visibility:hidden}
+@keyframes statement-menu-in{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
+@media(max-width:360px){.statement.statement-toolbar .se-top{gap:8px}.statement.statement-toolbar .se-top>.se-stat{max-width:calc(100% - 85px);padding:5px 9px}.statement.statement-toolbar .se-grp.statement-quick-menu{right:8px}}
+@media(prefers-reduced-motion:reduce){.statement.statement-toolbar .se-grp.statement-quick-menu{animation:none}}
+
+/* A temporary notification must never cover the open menu's native controls. */
+.statement.statement-menu-open .se-toast{visibility:hidden;pointer-events:none}
+.statement.statement-menu-open .se-toast .se-t{pointer-events:none}
