@@ -1,0 +1,75 @@
+/* Between Tides D4 addendum: presentation metadata only, on shared 1.0.4.
+ * Coordinates describe objects visible in the approved masters. They are
+ * native line-focus targets, not new hit regions, room geometry or save data.
+ * Pending close-ups use the existing D4 opt-in loader / native detail owner.
+ */
+globalThis.BT_D4_INSPECTION_DATA = Object.freeze({
+  version: 'd4b-1',
+  hitRegions: [
+    { image: 'lantern-bar', name: 'bt-d4-hatch-visible', box: [27, 46, 12, 8], path: 'places.c1_bar.views.bar.zones.1', inspectR: 'hatch', reason: 'The left portion of the closed hatch remains visible beside Fergus; keep its hit centre there instead of through his body. Native minimum44px remains.' },
+  ],
+  // Proposal only. Shared restorePlaceView currently rejects a saved R.look,
+  // so line focus inside a suspended place can resume on the narrative room
+  // instead of its view. Keep these candidates out of runtime until Enmi fixes
+  // that native restore contract. Adding scene would also remove place people.
+  deferredPlaceFocus: [
+    { path: 'places.c1_box.views.walls.zones.0.then.0', r: [16, 25, 69, 21], reason: 'Read the existing soot field before its exact native document.' },
+    { path: 'places.c1_box.views.walls.zones.1.then.0', r: [13, 55, 76, 13], reason: 'The bench is physically present; a small push retains its room context.' },
+    { path: 'places.c1_box.views.roof.zones.0.then.0', r: [23, 40, 20, 20], reason: 'The approved roof view already has a real close hook and soot.' },
+    { path: 'places.c1_bar.views.bar.zones.1.then.0', r: 'hatch', reason: 'Point towards the closed hatch without depicting an unperformed opening.' },
+    { path: 'places.c1_bar.views.bar.zones.2.then.0', r: 'phone', reason: 'Locate the rotary telephone when its pending close-up is unavailable.' },
+    { path: 'places.c1_island.views.square.zones.0.then.0', r: 'fingerpost', reason: 'Locate the real fingerpost; exact place names remain in the source line.' },
+    { path: 'places.c1_island.views.priory.zones.0.then.0', r: 'ruin', reason: 'Follow the tower mentioned by the line, retaining the road below.' },
+    { path: 'places.c1_island.views.bighouse.zones.0.then.0', r: 'landrover', reason: 'Look beyond the gates at the visible estate vehicle; do not walk into the yard.' },
+    { path: 'places.c6_cellar.views.room.zones.1.then.0', r: 'c6_sink', reason: 'Use the native region of the active cellar geometry, including optional portrait master.' },
+    { path: 'places.c6_cellar.views.room.zones.1.again.0', r: 'c6_sink', reason: 'A repeat remains inspectable and adds no inference to the whisky smell.' },
+  ],
+  focus: [
+    { path: 'nodes.c2_cottage.17.explore.spots.0.again.0', r: 'bt-kitchen', reason: 'The already-open kitchen is the subject; do not replay the opening action.' },
+    { path: 'nodes.c2_cottage.17.explore.spots.1.then.0', r: 'bt-stove', reason: 'Find the warm grate; taking the paper remains a later original choice.' },
+    { path: 'nodes.c2_cottage.17.explore.spots.2.then.0', r: 'bt-cabinet', reason: 'Locate the cabinet before its existing optional ampoule close-up.' },
+    { path: 'nodes.c2_cottage.17.explore.spots.3.then.0', r: 'bt-pegs', reason: 'Locate the existing three empty hooks; a pending close-up resolves their small scale.' },
+    { path: 'nodes.c2_cottage.17.explore.spots.4.then.0', r: [26, 42, 28, 17], reason: 'Frame the phone, pencil and tide sheet together before the label detail.' },
+    { path: 'nodes.c2_cottage.17.explore.spots.7.then.0', r: 'bt-window', reason: 'Look through the existing window towards the causeway, without inventing a new exterior.' },
+    { path: 'nodes.c2_boat.29.explore.spots.0.then.0', r: [7, 61, 18, 13], reason: 'Locate the visibly resting hand; generated close-up is needed for soot fingertips.' },
+    { path: 'nodes.c2_boat.29.explore.spots.1.then.0', r: [2.5, 63, 24, 15], reason: 'The flask and right hand are physically adjacent in the night master.' },
+    { path: 'nodes.c2_boat.29.explore.spots.3.then.0', r: [19, 24, 18, 13], reason: 'Keep the lamp on its real hook; no new interaction or moved object.' },
+    { path: 'nodes.c3_pocket.7.explore.spots.0.then.0', r: [2, 20, 19, 66], reason: 'Inspect the leftmost sealed bag; preserve evidence ownership.' },
+    { path: 'nodes.c3_pocket.7.explore.spots.1.then.0', r: [22, 20, 16, 66], reason: 'Inspect the pencil through its sealed bag.' },
+    { path: 'nodes.c3_pocket.7.explore.spots.2.then.0', r: [40, 20, 20, 66], reason: 'Inspect the folded handkerchief through its sealed bag.' },
+    { path: 'nodes.c3_pocket.7.explore.spots.4.then.0', r: [78, 20, 21, 66], reason: 'Inspect the rightmost sealed flask bag; the original item reward remains later.' },
+    { path: 'nodes.c4_cottage.16.explore.spots.0.then.0', r: 'bt-phone', reason: 'Locate the label before the existing optional label close-up.' },
+    { path: 'nodes.c4_cottage.16.explore.spots.2.then.0', r: 'bt-dog', reason: 'Skerry stays on the existing rug, with his red collar and long muzzle.' },
+    { path: 'nodes.c4_cottage.16.explore.spots.3.then.0', r: 'bt-cabinet', reason: 'Look through the doorway; do not prematurely bag the ampoules.' },
+    { path: 'nodes.c5_dunes.15.explore.spots.0.then.0', r: [12, 55, 29, 17], reason: 'Establish the heap before the existing native act-pegs insert.' },
+    { path: 'nodes.c5_dunes.15.explore.spots.0.again.0', r: [12, 55, 29, 17], reason: 'The three pegs can be examined again after reading them.' },
+    { path: 'nodes.c5_dunes.15.explore.spots.1.then.0', r: [41, 44, 38, 30], reason: 'Frame the hollow and upright spade before the conditional Callum action.' },
+    { path: 'nodes.c5_dunes.15.explore.spots.1.again.0', r: [38, 58, 42, 18], reason: 'Repeat inspection concerns the disturbed sand, not a new time estimate.' },
+    { path: 'nodes.c5_dunes.15.explore.spots.2.then.0', r: [80, 28, 20, 16], reason: 'The distant unlit house is visible at upper right; retain its distance.' },
+  ],
+  closeups: [
+    { id: 'r4b-refuge-door-closeup', path: 'nodes.c1_causeway.24', reason: 'Physically painted REFUGE BOX replaces the detached SVG sign treatment; source words stay exact.' },
+    { id: 'r4b-bar-phone-closeup', path: 'places.c1_bar.views.bar.zones.2.then.0' },
+    { id: 'r4b-bar-phone-closeup', path: 'places.c1_bar.views.bar.zones.2.again.0', mode: 'read' },
+    { id: 'r4b-cottage-pegs-closeup', path: 'nodes.c2_cottage.17.explore.spots.3.then.0' },
+    { id: 'r4b-cottage-pegs-closeup', path: 'nodes.c2_cottage.17.explore.spots.3.again.0', mode: 'read' },
+    { id: 'r4b-refuge-hand-closeup', path: 'nodes.c2_boat.29.explore.spots.0.then.0' },
+    { id: 'r4b-refuge-hand-closeup', path: 'nodes.c2_boat.29.explore.spots.0.again.0', mode: 'read' },
+    { id: 'r4b-refuge-lamp-closeup', path: 'nodes.c2_boat.29.explore.spots.3.then.0' },
+    { id: 'r4b-refuge-lamp-closeup', path: 'nodes.c2_boat.29.explore.spots.3.again.0', mode: 'read' },
+    { id: 'r4b-skerry-rug-closeup', path: 'nodes.c4_cottage.16.explore.spots.2.then.0' },
+    { id: 'r4b-skerry-rug-closeup', path: 'nodes.c4_cottage.16.explore.spots.2.again.0', mode: 'read' },
+    { id: 'r4b-cellar-sink-closeup', path: 'places.c6_cellar.views.room.zones.1.then.0' },
+    { id: 'r4b-cellar-sink-closeup', path: 'places.c6_cellar.views.room.zones.1.again.0' },
+    { id: 'act-hatch', path: 'places.c1_bar.views.bar.zones.1.then.0', reason: 'Reuse the approved close view of the closed hatch; no duplicate generated bitmap.' },
+    { id: 'act-hatch', path: 'places.c1_bar.views.bar.zones.1.again.0', mode: 'read' },
+    { id: 'r4b-refuge-bench-closeup', path: 'places.c1_box.views.walls.zones.1.then.0' },
+    { id: 'r4b-refuge-bench-closeup', path: 'places.c1_box.views.walls.zones.1.again.0', mode: 'read' },
+    { id: 'r4b-square-fingerpost-closeup', path: 'places.c1_island.views.square.zones.0.then.0' },
+    { id: 'r4b-square-fingerpost-closeup', path: 'places.c1_island.views.square.zones.0.again.0', mode: 'read' },
+    { id: 'r4b-priory-tower-closeup', path: 'places.c1_island.views.priory.zones.0.then.0' },
+    { id: 'r4b-priory-tower-closeup', path: 'places.c1_island.views.priory.zones.0.again.0', mode: 'read' },
+    { id: 'r4b-estate-rover-closeup', path: 'places.c1_island.views.bighouse.zones.0.then.0' },
+    { id: 'r4b-estate-rover-closeup', path: 'places.c1_island.views.bighouse.zones.0.again.0', mode: 'read' },
+  ],
+});

@@ -1,0 +1,98 @@
+/* BT's existing dialogue/menu panels retain all their native geometry. Only
+   the portrait blocking and the BT control presentation are changed. */
+.se.bt-d4-staging[data-stage] .se-chars>.se-ch {
+  top:var(--bt-d4-cast-top,72px);bottom:auto;height:var(--bt-d4-cast-height,480px);
+  width:var(--bt-d4-cast-width,320px)!important;max-width:none;
+  left:var(--bt-d4-slot,50%)!important;--push:0%;--out:0%;
+  transform:translateX(-50%)!important;transform-origin:50% 0;
+  transition:opacity .24s ease,filter .22s ease!important;
+}
+.se.bt-d4-staging[data-stage] .se-chars>.se-ch.on:not(.out) {
+  opacity:1;transform:translateX(-50%)!important;filter:brightness(.88) saturate(.96);z-index:2;
+}
+.se.bt-d4-staging[data-stage] .se-chars>.se-ch.on.talk:not(.out) {filter:brightness(1.02);z-index:3}
+.se.bt-d4-staging[data-stage][data-talk="0"] .se-chars>.se-ch.on:not(.out),
+.se.bt-d4-staging[data-stage][data-talk="me"] .se-chars>.se-ch.on:not(.out) {filter:brightness(.94) saturate(.98)}
+.se.bt-d4-staging[data-stage] .se-chars>.se-ch.out {opacity:0}
+.se.bt-d4-staging[data-stage] .se-chars>.se-ch>.se-chi {animation:none!important}
+.se.bt-d4-staging[data-stage] .se-chars>.se-ch>.se-chi>.ii {background-position:50% 0}
+/* Existing costume source crops stay in use; only their common root is fixed. */
+.se.bt-d4-staging .se-top {justify-content:space-between;pointer-events:none}
+.se.bt-d4-staging .se-top>button {pointer-events:auto;width:44px;height:44px;flex:0 0 44px}
+.se.bt-d4-staging .se-top>button svg {width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.se.bt-d4-staging .bt-d4-quick-menu {
+  position:absolute;left:8px;right:8px;top:calc(100% + 4px);z-index:31;pointer-events:auto;
+  display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:10px;
+  max-height:calc(100dvh - 86px);overflow:auto;overscroll-behavior:contain;
+  border:1px solid #bda88380;border-radius:18px;background:#132b2df7;box-shadow:0 14px 34px #0008;
+}
+.se.bt-d4-staging .bt-d4-quick-menu[hidden] {display:none!important}
+.se.bt-d4-staging .bt-d4-quick-menu .bt-d4-native-menu-control {
+  position:relative;inset:auto;display:flex;align-items:center;justify-content:flex-start;gap:9px;
+  width:100%;height:auto;min-height:48px;padding:10px;border:1px solid #bda88340;border-radius:12px;
+  color:#f0e8db;background:#203b3d;text-align:left;font-size:12px;line-height:1.35;
+}
+.se.bt-d4-staging .bt-d4-quick-menu svg {width:21px;height:21px;flex:none}
+.se.bt-d4-staging .bt-d4-quick-menu .se-stat {grid-column:1/-1;position:relative;width:100%;height:auto;min-height:44px;padding:6px 8px}
+.se.bt-d4-staging .bt-d4-quick-menu .se-stat .st-l {display:flex;max-width:100%;opacity:1;white-space:normal}
+.se.bt-d4-staging .bt-d4-quick-menu .se-stat .st-n,
+.se.bt-d4-staging .bt-d4-quick-menu .se-stat .st-t {white-space:normal;text-overflow:clip;overflow:visible}
+.se.bt-d4-staging .bt-d4-quick-menu .se-stat .sp-clock {display:none}
+.se.bt-d4-staging .bt-d4-quick-menu [data-bt-d4-home] {grid-column:1/-1}
+.se.bt-d4-staging.bt-d4-menu-open .se-mem {visibility:hidden}
+.se.bt-d4-staging .bt-d4-objective {
+  position:absolute;z-index:12;top:calc(max(6px,env(safe-area-inset-top,0px)) + 58px);right:8px;
+  width:min(310px,calc(100% - 16px));box-sizing:border-box;padding:8px 10px 12px;
+  border:1px solid #c6b38b99;border-radius:15px;background:#182e30f5;color:#f1e9db;box-shadow:0 8px 24px #0006;
+}
+.se.bt-d4-staging .bt-d4-objective>header {display:flex;align-items:center;gap:16px;min-height:44px}
+.se.bt-d4-staging .bt-d4-objective>header>b {flex:1;font-size:12px;letter-spacing:.04em}
+.se.bt-d4-staging .bt-d4-objective>header>button {position:static;flex:0 0 44px;width:44px;height:44px}
+.se.bt-d4-staging .bt-d4-objective>p {margin:3px 2px 0;font-size:13px;line-height:1.45;max-height:25dvh;overflow:auto}
+/* The same objective is available above; retain its native progress badge in
+   the lower lane without a duplicate expandable goal control. */
+.se.bt-d4-staging .pl-goal.compact {flex:0 0 auto;width:auto;min-height:44px;height:44px;padding:4px 8px;pointer-events:none;cursor:default;background:none;border:0}
+.se.bt-d4-staging .pl-goal.compact>span,
+.se.bt-d4-staging .pl-goal.compact>i {display:none}
+.se.bt-d4-staging .pl-goal.compact:not(:has(b)) {display:none}
+.se.bt-d4-staging .pl-objective {display:none}
+@media(max-width:480px) and (max-height:640px) and (orientation:portrait) {
+  .se.bt-d4-staging[data-m="pl"]>.se-stage,
+  .se.bt-d4-staging[data-m="pl"]>.se-plnav {bottom:var(--bt-d4-place-bottom,112px)}
+}
+@media(orientation:portrait) {
+  .se.bt-d4-staging[data-m="pl"]:not([data-bt-d4-cast="0"])>.se-stage,
+  .se.bt-d4-staging[data-m="pl"]:not([data-bt-d4-cast="0"])>.se-plnav,
+  .se.bt-d4-staging[data-m="pl"]:has(.pp[data-who="fergus"])>.se-stage,
+  .se.bt-d4-staging[data-m="pl"]:has(.pp[data-who="fergus"])>.se-plnav {bottom:var(--bt-d4-place-bottom,112px)}
+}
+@media(prefers-reduced-motion:reduce) {
+  .se.bt-d4-staging[data-stage] .se-chars>.se-ch {transition:none!important}
+}
+
+.se.bt-d4-staging .bt-d4-objective[data-automatic="true"] {
+  top:max(6px,env(safe-area-inset-top,0px));left:64px;right:64px;width:auto;height:44px;
+  display:flex;align-items:center;padding:0 0 0 8px;border-radius:12px;box-shadow:none;
+}
+.se.bt-d4-staging .bt-d4-objective[data-automatic="true"]>button {
+  position:static;min-height:44px;border:0;background:none;color:inherit;
+}
+.se.bt-d4-staging .bt-d4-objective[data-automatic="true"]>[data-bt-d4-goal-open] {
+  flex:1;min-width:0;padding:2px;text-align:left;font-size:11px;line-height:1.3;
+}
+.se.bt-d4-staging .bt-d4-objective[data-automatic="true"]>[data-bt-d4-goal-close] {width:44px;flex:0 0 44px}
+
+.se.bt-d4-staging .se-lane .se-t.bt-d4-note {
+  position:absolute;top:-54px;left:52px;right:52px;width:auto;max-width:none;height:44px;min-height:44px;
+  padding:0 0 0 8px;display:flex;align-items:center;gap:0;border-radius:12px;box-sizing:border-box;
+  background:#182e30f7;border-color:#c6b38b99;pointer-events:auto;animation:none;
+}
+.se.bt-d4-staging .bt-d4-note>button {position:static;height:44px;min-height:44px;border:0;background:none;color:inherit;display:flex;align-items:center;gap:6px}
+.se.bt-d4-staging .bt-d4-note>[data-bt-d4-note-open] {flex:1;min-width:0;padding:0 2px;text-align:left;font-size:11px;line-height:1.3}
+.se.bt-d4-staging .bt-d4-note>[data-bt-d4-note-close] {flex:0 0 44px;width:44px;justify-content:center}
+.se.bt-d4-staging .bt-d4-note svg {width:17px;height:17px;flex:none}
+.se.bt-d4-staging .bt-d4-note-reader {position:relative;padding-top:46px}
+.se.bt-d4-staging .bt-d4-note-reader>p {font-size:16px;line-height:1.55;margin:8px 0}
+.se.bt-d4-staging .bt-d4-quick-menu .se-stat {animation:none!important;transform:none!important}
+
+.se.bt-d4-staging[data-stage] .se-chars>.se-ch.bt-d4-offscreen {visibility:hidden!important}

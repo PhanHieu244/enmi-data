@@ -1,0 +1,59 @@
+/* Vale 0.9.4 toolbar composition, adapted to the existing BT/native owners.
+   Only BT is scoped. No Vale scene/cast rules or shared engine CSS are copied. */
+.se.bt-d4-staging.bt-d4-vale-ui .se-top {gap:8px;min-height:44px;align-items:center;justify-content:space-between}
+.se.bt-d4-vale-ui .bt-d4-context-tools {display:flex;align-items:center;gap:8px;margin-right:auto;pointer-events:auto}
+.se.bt-d4-vale-ui .bt-d4-context-tools>button,
+.se.bt-d4-vale-ui .se-top>[data-bt-d4-menu] {display:grid;place-items:center;box-sizing:border-box;width:44px;min-width:44px;height:44px;min-height:44px;padding:10px;border:1px solid #d1bd8844;border-radius:13px;background:#0c171deb;color:#efe5ca;touch-action:manipulation;cursor:pointer}
+.se.bt-d4-vale-ui .bt-d4-context-tools>button>svg,
+.se.bt-d4-vale-ui .se-top>[data-bt-d4-menu]>svg {width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7}
+.se.bt-d4-vale-ui .se-top>[data-bt-d4-menu] {margin-left:auto;order:2}
+.se.bt-d4-vale-ui .se-top [aria-expanded="true"] {border-color:#d1bd88;background:#24342f}
+.se.bt-d4-vale-ui .bt-d4-status-source[hidden] {display:none!important}
+.se.bt-d4-staging.bt-d4-vale-ui .bt-d4-quick-menu {left:auto;right:12px;top:calc(100% + 3px);display:grid;grid-template-columns:1fr;gap:2px;width:min(252px,calc(100% - 24px));max-height:calc(100dvh - 92px);margin:0;padding:6px;border:1px solid #d0b77b77;border-radius:14px;background:#132528;box-shadow:0 8px 26px #0005}
+.se.bt-d4-staging.bt-d4-vale-ui .bt-d4-quick-menu .bt-d4-native-menu-control {display:flex;align-items:center;gap:12px;min-height:48px;width:100%;padding:10px 12px;border:0;border-radius:9px;background:none;color:#eae6d6;font-size:14px;line-height:1.4}
+.se.bt-d4-vale-ui .bt-d4-quick-menu .bt-d4-native-menu-control:hover,
+.se.bt-d4-vale-ui .bt-d4-quick-menu .bt-d4-native-menu-control:focus-visible {background:#ead09a16;outline:1px solid #d3bd8744;outline-offset:-1px}
+.se.bt-d4-vale-ui .bt-d4-quick-menu [data-bt-d4-home] {border-top:1px solid #d3bd8733!important;border-radius:0 0 9px 9px!important;margin-top:4px;padding-top:12px!important}
+.se.bt-d4-staging.bt-d4-vale-ui .bt-d4-objective,
+.se.bt-d4-staging.bt-d4-vale-ui .bt-d4-objective[data-automatic="true"] {position:absolute;z-index:27;left:12px;right:auto;top:calc(max(12px,env(safe-area-inset-top,0px)) + 54px);display:flex;align-items:flex-start;gap:4px;width:min(360px,calc(100% - 24px));height:auto;max-height:min(40dvh,250px);box-sizing:border-box;padding:4px 4px 4px 14px;border:1px solid #bba67575;border-radius:13px;background:#132528fa;color:#f2ead7;box-shadow:0 6px 24px #0004;pointer-events:auto}
+.se.bt-d4-vale-ui .bt-d4-objective-copy {flex:1;min-width:0;max-height:calc(min(40dvh,250px) - 10px);overflow:auto;overscroll-behavior:contain;padding:9px 0 10px;touch-action:pan-y}
+.se.bt-d4-vale-ui .bt-d4-objective-copy>small {display:block;color:#dbc58b;font-size:10px;font-weight:650;letter-spacing:.06em;text-transform:uppercase}
+.se.bt-d4-vale-ui .bt-d4-objective-copy>p {margin:6px 0 0;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+.se.bt-d4-vale-ui .bt-d4-scene-meta {margin-top:8px;font-size:11px;line-height:1.45;color:#c8bb9a;white-space:normal;overflow-wrap:anywhere}
+.se.bt-d4-vale-ui .bt-d4-objective>[data-bt-d4-goal-close] {display:grid;place-items:center;position:static;flex:0 0 44px;width:44px;min-width:44px;height:44px;min-height:44px;padding:12px;border:0;border-radius:9px;background:none;color:#e5d7b4;cursor:pointer}
+.se.bt-d4-vale-ui .bt-d4-objective>[data-bt-d4-goal-close]>svg {width:20px;height:20px}
+.se.bt-d4-vale-ui .bt-d4-scene-brief {font-size:15px;line-height:1.6}
+.se.bt-d4-vale-ui .bt-d4-scene-brief h3 {margin:20px 0 6px;font-size:13px;color:#d8c28e}
+.se.bt-d4-vale-ui .bt-d4-scene-brief>.se-btn {margin-top:20px}
+/* Engine 1.0.4 already renders a single SVG. The legacy BT pseudo icon caused
+   the duplicate seen in cmp-bt; retain the actual native SVG and its handler. */
+.se.bt-d4-vale-ui .se-reading-toggle:has(>svg)::before {content:none;display:none}
+.se.bt-native-v104.bt-d4-vale-ui .se-box .se-tools>[data-a="tr"],
+.se.bt-native-v104.bt-d4-vale-ui:has(.se-detail-overlay) .se-box:is(.k-n,.k-think) .se-tools>[data-a="tr"] {position:static;inset:auto;order:0;flex:0 0 44px;width:44px;min-width:44px;height:44px;min-height:44px;margin:0;padding:0;background:#cbb98a10;color:inherit}
+.se.bt-d4-vale-ui .se-box .se-tools>[data-a="tr"]>svg {width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7}
+.se.bt-native-v104.bt-d4-vale-ui .se-box .se-tools {display:flex;flex-wrap:nowrap;align-items:center;gap:6px}
+.se.bt-d4-vale-ui .se-box .se-tools .se-autob {order:-10;flex:0 1 auto;min-width:44px;max-width:82px;margin-right:auto;padding-inline:8px;gap:4px;font-size:11px;line-height:1.3;white-space:nowrap}
+.se.bt-d4-vale-ui .se-box .se-tools>[data-a="re"] {order:1}
+.se.bt-d4-vale-ui .se-box .se-tools>.bt-history-shortcut {order:2}
+.se.bt-native-v104.bt-d4-vale-ui .se-box .se-tools>.se-more {order:3;flex:0 0 60px;min-width:60px;width:60px;max-width:60px;min-height:44px;margin-left:0;padding:6px 5px;display:grid;place-items:center;border:1px solid #efe1b570;background:#d9c58f;color:#1d1707;font-size:12px;font-weight:650;line-height:1.3;opacity:1;animation:none}
+/* Flashbacks keep EN+VI in one scroll owner. The card grows naturally up to a
+   bounded height; its tools never scroll offscreen or sit over the prose. */
+.se.bt-native-v104.bt-d4-vale-ui:is([data-mood="flashback"],[data-mood="memory"])>.se-box {height:auto;min-height:min(220px,40dvh);max-height:min(72dvh,calc(100dvh - 84px - env(safe-area-inset-top,0px)));padding-top:24px}
+.se.bt-d4-vale-ui .bt-d4-flashback-scroll {min-height:0;flex:1 1 auto;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;touch-action:pan-y;padding:0 2px 3px}
+.se.bt-native-v104.bt-d4-vale-ui .bt-d4-flashback-scroll>.se-txt,
+.se.bt-native-v104.bt-d4-vale-ui .bt-d4-flashback-scroll>.se-sub {display:block;flex:none;min-height:0;max-height:none;height:auto;overflow:visible;text-overflow:clip;white-space:normal;-webkit-line-clamp:unset;line-clamp:unset;hyphens:none}
+.se.bt-d4-vale-ui .bt-d4-flashback-scroll>.se-sub[hidden] {display:none!important}
+@media(max-width:360px) {
+  .se.bt-d4-vale-ui .bt-d4-context-tools {gap:8px}
+  .se.bt-d4-staging.bt-d4-vale-ui .bt-d4-quick-menu {right:8px}
+  .se.bt-d4-staging.bt-d4-vale-ui .bt-d4-objective,
+  .se.bt-d4-staging.bt-d4-vale-ui .bt-d4-objective[data-automatic="true"] {left:8px;width:calc(100% - 16px)}
+  .se.bt-native-v104.bt-d4-vale-ui .se-box .se-tools {gap:4px}
+  .se.bt-d4-vale-ui .se-box .se-tools .se-autob {max-width:66px;padding-inline:5px;font-size:11px}
+  .se.bt-native-v104.bt-d4-vale-ui .se-box .se-tools>.se-more {flex-basis:52px;min-width:52px;width:52px;max-width:52px;font-size:11px}
+}
+@media(max-height:450px) {
+  .se.bt-d4-staging.bt-d4-vale-ui .bt-d4-objective,
+  .se.bt-d4-staging.bt-d4-vale-ui .bt-d4-objective[data-automatic="true"] {top:60px}
+  .se.bt-native-v104.bt-d4-vale-ui:is([data-mood="flashback"],[data-mood="memory"])>.se-box {min-height:150px;max-height:calc(100dvh - 84px);padding-top:18px}
+}
