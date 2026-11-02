@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-11-02T11:42:28.506Z",
+ "at": "2026-11-02T12:08:27.162Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -27176,7 +27176,7 @@
     }
    ],
    "count": 0,
-   "size": 68766907,
+   "size": 68766969,
    "badge": "beta",
    "title": {
     "vi": "Lời khai",
@@ -32961,9 +32961,9 @@
     },
     {
      "name": "plugins/statement-phone-data.js",
-     "size": 6994,
-     "sha256": "4f17922a39d1c60d40f08868df9fc14cebf5dba61e7f891e4058db716dbe73dc",
-     "path": "f/4f17922a39d1c60d.js"
+     "size": 6999,
+     "sha256": "fdf93e93fd6a235c3601fe01448e2b945714ff398fac0c1f5838eda531398b44",
+     "path": "f/fdf93e93fd6a235c.js"
     },
     {
      "name": "plugins/statement-phone.js",
@@ -33051,9 +33051,9 @@
     },
     {
      "name": "story/ch4.js",
-     "size": 32973,
-     "sha256": "ae012d2d41cec063fbfdd6d3ed48f1cb589301dbbe5e52b3009a29b28d362018",
-     "path": "f/ae012d2d41cec063.js"
+     "size": 33030,
+     "sha256": "a24a42fe7c6bc03e965d28fe9db85eea84b948e7ff6892b17b58c87b6c6ebc69",
+     "path": "f/a24a42fe7c6bc03e.js"
     },
     {
      "name": "story/ch5.js",
@@ -34278,9 +34278,9 @@
      ]
     },
     {
-     "path": "f/1f77e9c58f653ade.bin",
-     "size": 3101784,
-     "sha256": "1f77e9c58f653ade1ff8d23e6adec2ba2759ac44566313dd5e34e2c488c3530b",
+     "path": "f/d4f3b0f890e99740.bin",
+     "size": 3101846,
+     "sha256": "d4f3b0f890e99740f21b3682bed45c33d1c1ec502f791ac6d169f95a46211929",
      "items": [
       952,
       953,
@@ -34337,7 +34337,7 @@
      ]
     }
    ],
-   "ver": "9f08824c0d",
+   "ver": "c51d9e4bcc",
    "up": "2026-11-02"
   }
  ]
