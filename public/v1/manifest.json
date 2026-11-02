@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-11-02T03:11:17.603Z",
+ "at": "2026-11-02T03:18:23.788Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -15795,7 +15795,7 @@
     }
    ],
    "count": 0,
-   "size": 72063197,
+   "size": 72064861,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale I: Bức chân dung và vương miện",
@@ -19996,9 +19996,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 180505,
-     "sha256": "b599525664e483e5df98e52a7a07bef401bb4955c6024907c5e7b37929964c31",
-     "path": "f/b599525664e483e5.js"
+     "size": 180822,
+     "sha256": "20f6ef4219ffbf29b23a84dbfc246cd11613fc73045ded5aff1b4fcf6a25d4b2",
+     "path": "f/20f6ef4219ffbf29.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -20032,15 +20032,15 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 127307,
-     "sha256": "992a32662186647e8d39f73093ebb12ee31f28a96cbdf14f5782c126b4973936",
-     "path": "f/992a32662186647e.js"
+     "size": 127363,
+     "sha256": "711a2e8d19cac9907090a035282680fc036b8c522fba4dc790063d9ae7d9a708",
+     "path": "f/711a2e8d19cac990.js"
     },
     {
      "name": "lib/story/place.js",
-     "size": 77976,
-     "sha256": "19bcfe0c632beffa16311d72428304630469e7f20f5386e5197b900d122eb8e0",
-     "path": "f/19bcfe0c632beffa.js"
+     "size": 78004,
+     "sha256": "356f140e974c0ece5ffccb73a98de2eea5c812321ffbc94038af4a30679a6146",
+     "path": "f/356f140e974c0ece.js"
     },
     {
      "name": "lib/story/action.js",
@@ -20062,9 +20062,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 315619,
-     "sha256": "137d7e4b0c661cb62fa181e4c3c56723269b517c3fd5ed29367790fe1c44ec13",
-     "path": "f/137d7e4b0c661cb6.css"
+     "size": 316882,
+     "sha256": "559e642342b0c1d3e2fbb8e2aaf0608633e7f0cdae3a3c0a1f3021c88af1112f",
+     "path": "f/559e642342b0c1d3.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -21190,9 +21190,9 @@
      ]
     },
     {
-     "path": "f/00ba0ad1fbf4e29d.bin",
-     "size": 2981050,
-     "sha256": "00ba0ad1fbf4e29df7c97c1f41387a94d3d79e47315152bfa95d6deb7b1f9541",
+     "path": "f/ea3d1034ec7287f8.bin",
+     "size": 2982714,
+     "sha256": "ea3d1034ec7287f8f0a456821e0d4271a5fb554eefe9a4ac0310b1424aadf6e7",
      "items": [
       683,
       684,
@@ -21269,7 +21269,7 @@
      ]
     }
    ],
-   "ver": "2b5a190deb",
+   "ver": "007fca6987",
    "up": "2026-11-02"
   },
   {
@@ -21354,7 +21354,7 @@
     }
    ],
    "count": 0,
-   "size": 32556682,
+   "size": 32558346,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale II: Căn phòng bên kia tường",
@@ -23419,9 +23419,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 180505,
-     "sha256": "b599525664e483e5df98e52a7a07bef401bb4955c6024907c5e7b37929964c31",
-     "path": "f/b599525664e483e5.js"
+     "size": 180822,
+     "sha256": "20f6ef4219ffbf29b23a84dbfc246cd11613fc73045ded5aff1b4fcf6a25d4b2",
+     "path": "f/20f6ef4219ffbf29.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -23455,15 +23455,15 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 127307,
-     "sha256": "992a32662186647e8d39f73093ebb12ee31f28a96cbdf14f5782c126b4973936",
-     "path": "f/992a32662186647e.js"
+     "size": 127363,
+     "sha256": "711a2e8d19cac9907090a035282680fc036b8c522fba4dc790063d9ae7d9a708",
+     "path": "f/711a2e8d19cac990.js"
     },
     {
      "name": "lib/story/place.js",
-     "size": 77976,
-     "sha256": "19bcfe0c632beffa16311d72428304630469e7f20f5386e5197b900d122eb8e0",
-     "path": "f/19bcfe0c632beffa.js"
+     "size": 78004,
+     "sha256": "356f140e974c0ece5ffccb73a98de2eea5c812321ffbc94038af4a30679a6146",
+     "path": "f/356f140e974c0ece.js"
     },
     {
      "name": "lib/story/action.js",
@@ -23485,9 +23485,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 315619,
-     "sha256": "137d7e4b0c661cb62fa181e4c3c56723269b517c3fd5ed29367790fe1c44ec13",
-     "path": "f/137d7e4b0c661cb6.css"
+     "size": 316882,
+     "sha256": "559e642342b0c1d3e2fbb8e2aaf0608633e7f0cdae3a3c0a1f3021c88af1112f",
+     "path": "f/559e642342b0c1d3.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -24169,9 +24169,9 @@
      ]
     },
     {
-     "path": "f/12ade87b2a53c0c3.bin",
-     "size": 2004716,
-     "sha256": "12ade87b2a53c0c3ecacff6002451a16f5e62d6209f5922af2bf3df344916f02",
+     "path": "f/d6a10d1f64e58e03.bin",
+     "size": 2006380,
+     "sha256": "d6a10d1f64e58e0345b0c9dc3ca050e95c54acbb2e8b9e478ebecacc042a568a",
      "items": [
       330,
       331,
@@ -24245,7 +24245,7 @@
      ]
     }
    ],
-   "ver": "283cb95643",
+   "ver": "d0d25eb2fc",
    "up": "2026-11-02"
   },
   {
@@ -24319,7 +24319,7 @@
     }
    ],
    "count": 0,
-   "size": 41655958,
+   "size": 41657622,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale III: Con ngựa biến mất",
@@ -26258,9 +26258,9 @@
     },
     {
      "name": "lib/story/core.js",
-     "size": 180505,
-     "sha256": "b599525664e483e5df98e52a7a07bef401bb4955c6024907c5e7b37929964c31",
-     "path": "f/b599525664e483e5.js"
+     "size": 180822,
+     "sha256": "20f6ef4219ffbf29b23a84dbfc246cd11613fc73045ded5aff1b4fcf6a25d4b2",
+     "path": "f/20f6ef4219ffbf29.js"
     },
     {
      "name": "lib/story/fx.js",
@@ -26294,15 +26294,15 @@
     },
     {
      "name": "lib/story/stage.js",
-     "size": 127307,
-     "sha256": "992a32662186647e8d39f73093ebb12ee31f28a96cbdf14f5782c126b4973936",
-     "path": "f/992a32662186647e.js"
+     "size": 127363,
+     "sha256": "711a2e8d19cac9907090a035282680fc036b8c522fba4dc790063d9ae7d9a708",
+     "path": "f/711a2e8d19cac990.js"
     },
     {
      "name": "lib/story/place.js",
-     "size": 77976,
-     "sha256": "19bcfe0c632beffa16311d72428304630469e7f20f5386e5197b900d122eb8e0",
-     "path": "f/19bcfe0c632beffa.js"
+     "size": 78004,
+     "sha256": "356f140e974c0ece5ffccb73a98de2eea5c812321ffbc94038af4a30679a6146",
+     "path": "f/356f140e974c0ece.js"
     },
     {
      "name": "lib/story/action.js",
@@ -26324,9 +26324,9 @@
     },
     {
      "name": "lib/story/ui.css",
-     "size": 315619,
-     "sha256": "137d7e4b0c661cb62fa181e4c3c56723269b517c3fd5ed29367790fe1c44ec13",
-     "path": "f/137d7e4b0c661cb6.css"
+     "size": 316882,
+     "sha256": "559e642342b0c1d3e2fbb8e2aaf0608633e7f0cdae3a3c0a1f3021c88af1112f",
+     "path": "f/559e642342b0c1d3.css"
     },
     {
      "name": "lib/story/reconstruct.css",
@@ -27004,9 +27004,9 @@
      ]
     },
     {
-     "path": "f/3ea7701be01f2db6.bin",
-     "size": 3132250,
-     "sha256": "3ea7701be01f2db61a4a315f9ead8a282211c780e0473288a60c635f37298052",
+     "path": "f/92f73e72f24c985e.bin",
+     "size": 3133914,
+     "sha256": "92f73e72f24c985ef341055ecee3fb5572a5b34c0f69ad153b4930832a55be18",
      "items": [
       305,
       306,
@@ -27091,7 +27091,7 @@
      ]
     }
    ],
-   "ver": "e6be7a7596",
+   "ver": "0175458c8c",
    "up": "2026-11-02"
   },
   {
