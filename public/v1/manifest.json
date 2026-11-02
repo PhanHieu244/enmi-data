@@ -1,6 +1,6 @@
 {
  "v": 1,
- "at": "2026-11-02T02:56:56.955Z",
+ "at": "2026-11-02T03:00:18.336Z",
  "featured": [
   {
    "pack": "qbank.en",
@@ -15795,7 +15795,7 @@
     }
    ],
    "count": 0,
-   "size": 72061691,
+   "size": 72061720,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale I: Bức chân dung và vương miện",
@@ -19918,9 +19918,9 @@
     },
     {
      "name": "index.html",
-     "size": 3963,
-     "sha256": "b40dad993d5889c59bf4bde1aa9b6a3ff8c09cbf3bbdb3415001a9ce6b112133",
-     "path": "f/b40dad993d5889c5.html"
+     "size": 3992,
+     "sha256": "7f4cbe26b9e72a813660df35def0e7c048aea299054571020cf6b2fb78b4f854",
+     "path": "f/7f4cbe26b9e72a81.html"
     },
     {
      "name": "plugins/vale-save.js",
@@ -21190,9 +21190,9 @@
      ]
     },
     {
-     "path": "f/e67c56c588208293.bin",
-     "size": 2979544,
-     "sha256": "e67c56c588208293217bcfae7f3d25cee93770db191f38cc5fdf22cd0c40898e",
+     "path": "f/6c21127232cbe3bf.bin",
+     "size": 2979573,
+     "sha256": "6c21127232cbe3bf56b11e8bbc4d6b189a8233878addd37edb8f83ae7174f290",
      "items": [
       683,
       684,
@@ -21269,7 +21269,7 @@
      ]
     }
    ],
-   "ver": "d3cd1e3ede",
+   "ver": "fcb92d902a",
    "up": "2026-11-02"
   },
   {
@@ -21354,7 +21354,7 @@
     }
    ],
    "count": 0,
-   "size": 32555176,
+   "size": 32555205,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale II: Căn phòng bên kia tường",
@@ -23353,9 +23353,9 @@
     },
     {
      "name": "index.html",
-     "size": 3900,
-     "sha256": "5dea4df2b52db71c5a35c6b91b930446f3b86c366d9e1283ce7fe8b9ee35a1f3",
-     "path": "f/5dea4df2b52db71c.html"
+     "size": 3929,
+     "sha256": "0f5cce52325eaedbced86999c873f0f80001de1aac7334448699d0040d3d60db",
+     "path": "f/0f5cce52325eaedb.html"
     },
     {
      "name": "layout.js",
@@ -24169,9 +24169,9 @@
      ]
     },
     {
-     "path": "f/8a0b30c5605a5369.bin",
-     "size": 2003210,
-     "sha256": "8a0b30c5605a5369e8663020a9014d657a2809aa27e034bdfc0535ab632981de",
+     "path": "f/47ae17f8bce81859.bin",
+     "size": 2003239,
+     "sha256": "47ae17f8bce81859118a3df7d1d640a43e7c8be190ba19bb25c70aae422c5dd6",
      "items": [
       330,
       331,
@@ -24245,7 +24245,7 @@
      ]
     }
    ],
-   "ver": "f76fb2d327",
+   "ver": "002527ac4a",
    "up": "2026-11-02"
   },
   {
@@ -24319,7 +24319,7 @@
     }
    ],
    "count": 0,
-   "size": 41654452,
+   "size": 41654481,
    "badge": "new",
    "title": {
     "vi": "Hồ sơ Vale III: Con ngựa biến mất",
@@ -26198,9 +26198,9 @@
     },
     {
      "name": "index.html",
-     "size": 3850,
-     "sha256": "2b2cd764882c438a7f2dd44cc7fe213df0cc6b06eb3e7bdd825944e1321c495e",
-     "path": "f/2b2cd764882c438a.html"
+     "size": 3879,
+     "sha256": "7bad4c8d38c42ecddcf9590e2e72b8a9ee59f43acc9428025b3969e5f57b69d8",
+     "path": "f/7bad4c8d38c42ecd.html"
     },
     {
      "name": "layout.js",
@@ -27004,9 +27004,9 @@
      ]
     },
     {
-     "path": "f/f06faf850571e64c.bin",
-     "size": 3130744,
-     "sha256": "f06faf850571e64cba698795633c969f531272df29cd57c7f7f55d42bab9fbea",
+     "path": "f/fc1e26064d846511.bin",
+     "size": 3130773,
+     "sha256": "fc1e26064d84651133c48da08eb8b4fbb1c28759a60e1459a40fce5e5c485f06",
      "items": [
       305,
       306,
@@ -27091,7 +27091,7 @@
      ]
     }
    ],
-   "ver": "f4733f6e9a",
+   "ver": "d452edaa68",
    "up": "2026-11-02"
   },
   {
