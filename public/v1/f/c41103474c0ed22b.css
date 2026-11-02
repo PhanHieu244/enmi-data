@@ -1,0 +1,106 @@
+/* Between Tides palette and compact controls on unmodified native surfaces.
+   No diagram/board/card geometry or detail lifecycle is implemented here. */
+.se.bt-native-v104 {
+  --bt-translation-icon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 5h9M8.5 3v2M6 5c0 4 3 7 6 8M11 5c-1 4-4 7-7 8M13 21l4-9 4 9M14.5 18h5'/%3E%3C/svg%3E");
+}
+.se.bt-native-v104 :is(.se-reading-toggle,[data-trv]) {
+  display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;
+  width:44px;min-width:44px;max-width:44px;height:44px;min-height:44px;
+  padding:0;overflow:hidden;font-size:0;line-height:0;letter-spacing:0;
+  border:1px solid #cbb98a66;border-radius:10px;background:#cbb98a10;color:inherit;
+}
+.se.bt-native-v104 :is(.se-reading-toggle,[data-trv])::before {
+  content:"";display:block;width:20px;height:20px;flex:none;background:currentColor;
+  -webkit-mask:var(--bt-translation-icon) center/contain no-repeat;
+  mask:var(--bt-translation-icon) center/contain no-repeat;
+}
+.se.bt-native-v104 :is(.se-reading-toggle,[data-trv])[aria-pressed="true"] { background:#cbb98a30;border-color:#e1c585; }
+.se.bt-native-v104 [data-reading-toggle][hidden] { display:none!important; }
+.se.bt-native-v104 :is(.se-shh,.se-record-detail-tools,.bt-item-tools) { gap:12px; }
+.se.bt-native-v104 .se-shh > [data-reading-toggle] { order:-1;margin:0 4px 0 0; }
+.se.bt-native-v104 .se-shh > b { flex:1;min-width:0;margin:0; }
+.se.bt-native-v104 .se-record-detail-tools { justify-content:space-between; }
+.se.bt-native-v104 .se-record-detail-tools > [data-record-close] { margin-left:auto; }
+.se.bt-native-v104 .bt-item-tools { display:flex;align-items:center;justify-content:space-between;width:100%;margin:0 0 10px; }
+.se.bt-native-v104 .bt-item-tools > .se-ib { margin-left:auto; }
+
+/* Translation is in its own frame corner. Its native action is unchanged. */
+.se.bt-native-v104 .bt-corner-reading {
+  position:absolute;top:8px;right:8px;z-index:3;
+  display:inline-flex;align-items:center;justify-content:center;
+  width:44px;min-width:44px;max-width:44px;height:44px;min-height:44px;padding:0;
+}
+.se.bt-native-v104 .bt-corner-reading > span { display:none; }
+.se.bt-native-v104 .bt-corner-reading > svg { width:20px;height:20px; }
+.se.bt-native-v104 .rd-p > .bt-corner-reading { color:#3c382d;background:#f4ecd9;border:1px solid #8c7f625c; }
+.se.bt-native-v104 .rd-p:has(>.bt-corner-reading) > .rd-t { min-height:30px;padding-right:42px; }
+.se.bt-native-v104 .rd-p:has(>.bt-corner-reading):not(:has(>.rd-t)) { padding-top:60px; }
+.se.bt-native-v104 .se-read .rd-bar { justify-content:flex-end; }
+.se.bt-native-v104 .se-read .rd-bar > [data-x] { flex:0 1 220px;margin-left:auto; }
+.se.bt-native-v104 .se-rev .rv-c { position:relative; }
+.se.bt-native-v104 .se-rev .rv-c:has(>.bt-corner-reading) > .rv-k { padding-inline:48px;min-height:44px;display:flex;align-items:center;justify-content:center; }
+/* A compact receipt already places its native Close control at top right.
+   Keep translation in the lower corner beside View details, with a 16px gap.
+   Expanded item readers retain their existing corner and native handlers. */
+.se.bt-native-v104 .se-rev.receipt-notice .rv-c:has(>.bt-corner-reading) > .rv-k { padding-inline:0;min-height:0;display:block; }
+.se.bt-native-v104 .se-rev.receipt-notice .rv-c > .bt-corner-reading { top:auto;bottom:12px;right:12px; }
+.se.bt-native-v104 .se-rev.receipt-notice .rv-c:has(>.bt-corner-reading) > .rv-b { margin-right:60px;min-width:0; }
+.se.bt-native-v104 .rv-b:not(:has(>button:not([hidden]))) { display:none; }
+.se.bt-native-v104 .se-detail-overlay .se-action-insert:has(>.bt-corner-reading) > .se-detail-title { padding-right:58px; }
+.se.bt-native-v104 .se-detail-overlay .se-action-insert:has(>.bt-corner-reading):not(:has(>.se-detail-title)) > .se-detail-caption { padding-right:58px; }
+
+/* Keep the established question/answer frame and the native speaker badge.
+   Long prose scrolls inside that frame; its controls remain reachable. */
+.se.bt-native-v104 .se-box { display:flex;flex-direction:column;min-height:0;padding-top:32px;gap:8px; }
+.se.bt-native-v104 .se-box > .se-txt { min-height:0;flex:1 1 auto;overflow:auto;overscroll-behavior:contain;touch-action:pan-y;scrollbar-width:thin; }
+.se.bt-native-v104 .se-box > .se-sub { min-height:0;max-height:22dvh;overflow:auto;overscroll-behavior:contain;touch-action:pan-y;flex:0 1 auto; }
+.se.bt-native-v104 .se-box .se-name { max-width:calc(100% - 76px); }
+.se.bt-native-v104 .se-box .se-tools > [data-a="tr"] {
+  position:absolute;top:-15px;right:10px;z-index:2;
+  width:44px;min-width:44px;height:44px;min-height:44px;padding:0;
+  background:#233331;border:1px solid #cbb98a66;border-radius:10px;color:#f2ead8;
+}
+.se.bt-native-v104 .se-box .se-tools > [data-a="tr"] > span { display:none; }
+.se.bt-native-v104 .se-box .se-tools > [data-a="tr"] > svg { width:20px;height:20px; }
+.se.bt-native-v104 .se-box .se-tools > [data-a="tr"][aria-pressed="true"] { border-color:#e1c585;background:#354b40; }
+/* Tall bilingual narration can reach the profile button in landscape.
+   Keep its compact toggle one control-width inward only beside a detail
+   insert; the native panel and speaker/question layout do not move. */
+@media(orientation:landscape) {
+  .se.bt-native-v104:has(.se-detail-overlay) .se-box:is(.k-n,.k-think) .se-tools > [data-a="tr"] { right:60px; }
+}
+.se.bt-native-v104 .se-box .se-tools { flex-wrap:nowrap;gap:6px; }
+.se.bt-native-v104 .se-box .se-tools > :is(.bt-history-shortcut,[data-a="re"]) { flex:0 0 44px;width:44px;min-width:44px;max-width:44px;padding:0; }
+.se.bt-native-v104 .se-box .se-tools .se-more {
+  display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;
+  width:44px;min-width:44px;height:44px;min-height:44px;margin-left:auto;padding:0;
+  border:1px solid #cbb98a66;border-radius:10px;background:#cbb98a10;cursor:pointer;
+}
+.se.bt-native-v104 .se-box .se-tools .se-more svg { width:22px;height:22px; }
+.se.bt-native-v104 .se-box .se-autob { min-width:44px;max-width:90px;padding-inline:8px; }
+
+/* The actual theory and two ordering tasks can be taller than a phone. Keep
+   their native controls in one bounded scroll area below the existing HUD;
+   without this, the first event/blank sits underneath the header buttons. */
+.se.bt-native-v104 .se-panel:is(.theory,.orderp) {
+  max-height:calc(100dvh - max(112px, calc(var(--action-hud-bottom, 0px) + 12px), calc(env(safe-area-inset-top, 0px) + 104px)));
+  overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+  padding:16px 12px max(12px, env(safe-area-inset-bottom, 0px));
+  border-top:1px solid #d0c2a440;border-radius:18px 18px 0 0;
+  background:linear-gradient(180deg,#1a2a25f7,#101b17fa);
+  scroll-padding-block:12px;
+}
+.se.bt-native-v104 .se-panel.theory :is(.lf-bl,.lf-w) { min-height:44px; }
+.se.bt-native-v104 .se-panel.theory .lf-bank { overscroll-behavior:contain; }
+.se.bt-native-v104 .se-panel.theory .se-ddh { gap:8px; }
+.se.bt-native-v104 .se-panel.theory .se-ddh > small { flex:1;min-width:0; }
+.se.bt-native-v104 .se-panel.theory .se-ddh > [data-reading-toggle] { margin-left:auto; }
+.se.bt-native-v104 .se-panel.theory .lf-w .se-reading-text { display:block; }
+.se.bt-native-v104 .se-panel.theory .lf-tl :is(.se-reading-text,[data-reading-primary],[data-reading-native]) { display:inline; }
+.se.bt-native-v104 .se-panel.orderp .se-askr { align-items:flex-start; }
+.se.bt-native-v104 .se-panel.orderp .se-trs { margin:0 0 0 auto; }
+@media(max-width:360px) {
+  .se.bt-native-v104 .se-shh { gap:8px;padding-inline:10px; }
+  .se.bt-native-v104 .se-shh > b { font-size:17px; }
+  .se.bt-native-v104 .se-box .se-tools { gap:4px; }
+}

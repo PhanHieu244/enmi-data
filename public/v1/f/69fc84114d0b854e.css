@@ -1,0 +1,17 @@
+/* 1.0.4 owns detail measurement, bitmap containment, entry and awaited exit.
+   Keep only the story palette; do not override native geometry or animation. */
+.se.vd .se-detail-overlay .se-action-insert{border-color:#e2cfaaab;background:#d5c8ad}
+.se.vd .se-detail-overlay .se-detail-title,.se.vd .se-detail-overlay .se-detail-caption{background:#17312f}
+/* The old picture layer hid portraits during its single inspection beat.
+   Keep that staging choice while the shared detail owner is present. */
+.se.vd:has(>.se-stage>.se-detail-overlay) .se-chars{opacity:0;pointer-events:none}
+/* The complete game supplies bitmap art for every scene. Native fallback SVG
+   furniture must not show through the letterbox of a landscape evidence shot. */
+.vd .se-bgl[data-image]>.ph{display:none}
+/* Keep the letterbox fill blurred: the native reveal animation ends at
+   filter:none and otherwise leaves a second sharp copy of scene fixtures. */
+.vd .se-bgl[data-image]>.bd{animation:none!important}
+/* Outline the native action crop using the engine's own measured image plane.
+   No second camera/zoom calculation and no interception of exploration taps. */
+.vd .se-bgl[data-action-frame]::after{content:"";position:absolute;pointer-events:none;z-index:3;box-sizing:border-box;left:calc(var(--image-x) + var(--af-l));top:calc(var(--image-y) + var(--af-t));width:calc(var(--af-r) - var(--af-l));height:calc(var(--af-b) - var(--af-t));border:2px solid #e2cfaa;border-radius:8px;box-shadow:0 0 0 2px #102326,0 8px 28px #0009}
+.vd .se-bgl[data-action-frame]>.bd{filter:blur(20px) brightness(.30) saturate(.6)}

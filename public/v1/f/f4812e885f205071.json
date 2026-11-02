@@ -1,0 +1,2097 @@
+{
+  "pairedArrays": 367,
+  "persistentIndexContracts": 1,
+  "sourceArrayCount": 379,
+  "sourceCursorCount": 2601,
+  "mappedCursorCount": 2562,
+  "sourceDigest": "9a8ab326979a99125656740f1e4fbebc21606ab31906bb2805b9c3ae689bc5d8",
+  "targetMappingDigest": "a5ba7ba29d67f30be5ba8988e358433d0e3f515bd123c7c523b4e125b7ad3b60",
+  "targetScriptHashes": {
+    "story/story.js": "643336c539d74f88364aa99e0692826dc9d6fdbdb7d2ed0e3ed55ba33302626e",
+    "story/ch1.js": "dada797b00cd81744d9d0eb5594f63f8b7085246af3a84a8076c98102b0eaa83",
+    "story/ch2.js": "fb8837d995ae90a8eefa2cdfa9ea32aa737ac3c4f90c1242120c412dca1f00a0",
+    "story/ch3.js": "aac1a364cbf79ad304b71eb7cdb513a1c225819a161a1138e571baf09d6333b2",
+    "story/ch4.js": "995acd784097ae371f0830ce1cb174bcb2ca7c1406a8c425599c2df83ed6c0f5",
+    "story/ch5.js": "ad675b076e5783632d1f1e84a7f345257ce203e565eda987f593545d7902ba82",
+    "story/ch6.js": "149174520fb2572b66f4df74d23fc41b0f1a854599917b785a218189a322912e"
+  },
+  "targetDigest": "a9ddd987aeb90f82ab5b6554e6635e98850188394b876dbf5e3d6ed8c04c2557",
+  "revision": "bt-complete-a9ddd987aeb90f82",
+  "unsafe": [
+    {
+      "n": "c1_bell",
+      "p": [
+        38,
+        "quiz",
+        "qs",
+        0,
+        "opts"
+      ],
+      "i": 0,
+      "kind": "",
+      "text": ""
+    },
+    {
+      "n": "c1_bell",
+      "p": [
+        38,
+        "quiz",
+        "qs",
+        0,
+        "opts"
+      ],
+      "i": 1,
+      "kind": "",
+      "text": ""
+    },
+    {
+      "n": "c1_bell",
+      "p": [
+        38,
+        "quiz",
+        "qs",
+        0,
+        "opts"
+      ],
+      "i": 2,
+      "kind": "",
+      "text": ""
+    },
+    {
+      "n": "c2_open",
+      "p": [],
+      "i": 0,
+      "kind": "set",
+      "text": ""
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 34,
+      "kind": "sfx",
+      "text": ""
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 35,
+      "kind": "n",
+      "text": "A minute later Leo comes over the top of the dune, bent double, breathing hard."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 36,
+      "kind": "show",
+      "text": ""
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 37,
+      "kind": "say",
+      "text": "I heard it."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 38,
+      "kind": "n",
+      "text": "He stands listening to the last of it, his hands on his knees."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [
+        10
+      ],
+      "kind": "if",
+      "reason": "Changed condition: active nested branch recovers at preserved node."
+    },
+    {
+      "n": "c5_yard",
+      "p": [
+        4,
+        "then"
+      ],
+      "i": 5,
+      "kind": "n",
+      "text": "At the surgery door Dr Vosper stops, says goodnight to nobody in particular, and goes in."
+    },
+    {
+      "n": "c5_reading",
+      "p": [],
+      "i": 5,
+      "kind": "n",
+      "text": "Nobody moves. You think of a woman on the sand, talking to a boy. It's all right. You're a child."
+    },
+    {
+      "n": "c5_reading",
+      "p": [],
+      "i": 6,
+      "kind": "deduce",
+      "reason": "Revised evidence puzzle; restart its preserved scene."
+    },
+    {
+      "n": "c5_reading",
+      "p": [],
+      "i": 7,
+      "kind": "set",
+      "reason": "Revised evidence puzzle; restart its preserved scene."
+    },
+    {
+      "n": "c5_reading",
+      "p": [],
+      "i": 8,
+      "kind": "truth",
+      "reason": "Revised evidence puzzle; restart its preserved scene."
+    }
+  ],
+  "review": [
+    {
+      "n": "c2_open",
+      "p": [],
+      "i": 27,
+      "to": [
+        "c2_open",
+        [],
+        29
+      ],
+      "kind": "say",
+      "score": 15.2,
+      "old": "I used to think that meant something.",
+      "new": "I thought if we wrote things down carefully, we couldn't do much harm."
+    },
+    {
+      "n": "c2_bar",
+      "p": [],
+      "i": 3,
+      "to": [
+        "c2_bar",
+        [],
+        3
+      ],
+      "kind": "n",
+      "score": 42,
+      "old": "The pub thins out, but it doesn't empty. You stay where you are, your back to the wall, the clock over the bar in front of you.",
+      "new": "The pub thins out but doesn't empty. You stay against the wall, facing the clock above the bar."
+    },
+    {
+      "n": "c2_bar",
+      "p": [],
+      "i": 42,
+      "to": [
+        "c2_bar",
+        [],
+        44
+      ],
+      "kind": "n",
+      "score": 27,
+      "old": "The road has gone.",
+      "new": "The near stretch has gone under. Farther out, pale patches of road still show between the posts."
+    },
+    {
+      "n": "c2_harbour",
+      "p": [],
+      "i": 20,
+      "to": [
+        "c2_harbour",
+        [],
+        20
+      ],
+      "kind": "n",
+      "score": 44.7,
+      "old": "A quarter past nine. At the island end of the causeway, a pair of headlights flash twice and go out onto the road.",
+      "new": "Thirteen minutes past nine. At the island end, headlights flash twice and move onto the causeway."
+    },
+    {
+      "n": "c2_cottage",
+      "p": [],
+      "i": 18,
+      "to": [
+        "c2_cottage",
+        [],
+        20
+      ],
+      "kind": "think",
+      "score": 40.1,
+      "old": "Assessor's eye. If a man goes out to sit out a big tide, the way he has for forty years — what does his house look like?",
+      "new": "Assessor's eye. Tom has waited out big tides for forty years. If tonight were routine, what would his house look like?"
+    },
+    {
+      "n": "c2_tellfull",
+      "p": [],
+      "i": 7,
+      "to": [
+        "c2_tellfull",
+        [],
+        7
+      ],
+      "kind": "say",
+      "score": 22.9,
+      "old": "You've seen his cabinet. Get in.",
+      "new": "You've seen the cabinet. Tell Helen exactly what was there. Then I may need another pair of hands."
+    },
+    {
+      "n": "c2_tellfull",
+      "p": [],
+      "i": 9,
+      "to": [
+        "c2_tellfull",
+        [],
+        9
+      ],
+      "kind": "n",
+      "score": 43.1,
+      "old": "On the way down to the harbour he talks into his radio, short and flat: he is going out to the refuge box with a local boat.",
+      "new": "On the way to the harbour, he radios in, clipped and flat: he is taking a local boat to the refuge box."
+    },
+    {
+      "n": "c2_boat",
+      "p": [
+        25,
+        "explore",
+        "spots",
+        0,
+        "then"
+      ],
+      "i": 1,
+      "to": [
+        "c2_boat",
+        [
+          29,
+          "explore",
+          "spots",
+          0,
+          "then"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 43.6,
+      "old": "You kneel and touch Tom's hand. It's as cold as the iron ladder.",
+      "new": "When Leo needs room, you move Tom's hand aside. It's as cold as the iron ladder."
+    },
+    {
+      "n": "c2_boat",
+      "p": [],
+      "i": 32,
+      "to": [
+        "c2_boat",
+        [],
+        36
+      ],
+      "kind": "say",
+      "score": 24,
+      "old": "We take him back. Nobody's dead till they're [[warm and dead]].",
+      "new": "We take him back. The doctor decides. Get him out of this cold."
+    },
+    {
+      "n": "c2_wait",
+      "p": [],
+      "i": 2,
+      "to": [
+        "c2_wait",
+        [],
+        2
+      ],
+      "kind": "n",
+      "score": 16,
+      "old": "He doesn't say anything else.",
+      "new": "Leo lowers the binoculars. He looks from the hut to the harbour."
+    },
+    {
+      "n": "c2_slip",
+      "p": [],
+      "i": 10,
+      "to": [
+        "c2_slip",
+        [],
+        10
+      ],
+      "kind": "n",
+      "score": 21.4,
+      "old": "Dr Vosper kneels on the wet stone and lifts each of Tom's eyelids with her thumb.",
+      "new": "Dr Vosper checks Tom while Leo tells her what happened in the hut. Everyone else is made to stand back."
+    },
+    {
+      "n": "c2_slip",
+      "p": [],
+      "i": 12,
+      "to": [
+        "c2_slip",
+        [],
+        13
+      ],
+      "kind": "say",
+      "score": 37.7,
+      "old": "He's been gone an hour, Leo. I'm calling it.",
+      "new": "He's gone, Leo. I'm recording the time."
+    },
+    {
+      "n": "c2_slip",
+      "p": [],
+      "i": 19,
+      "to": [
+        "c2_slip",
+        [],
+        20
+      ],
+      "kind": "say",
+      "score": 23.1,
+      "old": "Pinpoint. I can't be sure without bloods. But that's an [[opioid]]. And the cold did the rest.",
+      "new": "Pinpoint. We need blood tests. An [[opioid]] is possible. The cold may have contributed."
+    },
+    {
+      "n": "c2_slip",
+      "p": [],
+      "i": 23,
+      "to": [
+        "c2_slip",
+        [],
+        24
+      ],
+      "kind": "say",
+      "score": 22,
+      "old": "Sweet. Whisky's not sweet.",
+      "new": "Sweet. Like medicine."
+    },
+    {
+      "n": "c2_slip",
+      "p": [
+        40,
+        "deduce",
+        "ok"
+      ],
+      "i": 0,
+      "to": [
+        "c2_slip",
+        [
+          41,
+          "deduce",
+          "ok"
+        ],
+        0
+      ],
+      "kind": "think",
+      "score": 28.9,
+      "old": "Into his whisky. The bottle in his pocket is empty, and the flask is sweet and sticky. Tom drank his medicine without wanting to.",
+      "new": "The whisky may contain his medicine. The empty bottle and sticky flask support that. They do not tell me who put it there."
+    },
+    {
+      "n": "c2_slip",
+      "p": [
+        40,
+        "deduce",
+        "fail"
+      ],
+      "i": 0,
+      "to": [
+        "c2_slip",
+        [
+          41,
+          "deduce",
+          "fail"
+        ],
+        0
+      ],
+      "kind": "think",
+      "score": 16.8,
+      "old": "Sweet. Whisky's not sweet. Whatever was in that bottle ended up in the flask.",
+      "new": "An empty medicine bottle. A sticky flask. A possible connection, but I still need more."
+    },
+    {
+      "n": "c3_station",
+      "p": [],
+      "i": 11,
+      "to": [
+        "c3_station",
+        [],
+        12
+      ],
+      "kind": "n",
+      "score": 32.7,
+      "old": "Leo closes the door on him gently, the way you'd close it on someone sleeping. Then he turns the key and puts it in his pocket.",
+      "new": "Leo closes the door gently, as if Tom were sleeping. He locks it and pockets the key."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        16,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c3_station",
+        [
+          17,
+          "then"
+        ],
+        0
+      ],
+      "kind": "say",
+      "score": 44.9,
+      "old": "You're a stranger. He asked you to his house at ten. You were alone in it. And you knew something was missing from his cabinet before anybod",
+      "new": "He invited you for ten. A stranger, alone in his house. You knew something was missing from his cabinet before anyone else told me."
+    },
+    {
+      "n": "c3_station",
+      "p": [],
+      "i": 17,
+      "to": [
+        "c3_station",
+        [],
+        18
+      ],
+      "kind": "say",
+      "score": 16.7,
+      "old": "Probably he did it himself. Probably. But when CID get here, they'll ask me about you first. So I'd like to have an answer.",
+      "new": "I don't know how he died. I do know you were in his house. Start with why."
+    },
+    {
+      "n": "c3_station",
+      "p": [],
+      "i": 20,
+      "to": [
+        "c3_station",
+        [],
+        21
+      ],
+      "kind": "say",
+      "score": 26.3,
+      "old": "Keys, please. I want you where I can see you.",
+      "new": "Leave your keys with me, please. The road's underwater, and I need to know where you are."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        22,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c3_station",
+        [
+          23,
+          "then"
+        ],
+        0
+      ],
+      "kind": "think",
+      "score": 28.7,
+      "old": "The draft. If he searches you, he'll find it.",
+      "new": "The draft. He is asking what you found, and you still haven't shown it."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        22,
+        "then",
+        1,
+        "choice",
+        0,
+        "then"
+      ],
+      "i": 2,
+      "to": [
+        "c3_station",
+        [
+          23,
+          "then",
+          1,
+          "choice",
+          0,
+          "then"
+        ],
+        2
+      ],
+      "kind": "say",
+      "score": 19.5,
+      "old": "You took that from a dead man's stove.",
+      "new": "From the stove? Tell me exactly where it was."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        22,
+        "then",
+        1,
+        "choice",
+        0,
+        "then"
+      ],
+      "i": 3,
+      "to": [
+        "c3_station",
+        [
+          23,
+          "then",
+          1,
+          "choice",
+          0,
+          "then"
+        ],
+        3
+      ],
+      "kind": "say",
+      "score": 14.9,
+      "old": "At least I didn't have to find it.",
+      "new": "Thank you for telling me. Next time, leave it where it is and call me."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        22,
+        "then",
+        1,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c3_station",
+        [
+          23,
+          "then",
+          1,
+          "choice",
+          1,
+          "then"
+        ],
+        0
+      ],
+      "kind": "say",
+      "score": 21.2,
+      "old": "And your pockets. All of them.",
+      "new": "Anything else from the cottage? Empty your pockets, please."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        22,
+        "then",
+        1,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 1,
+      "to": [
+        "c3_station",
+        [
+          23,
+          "then",
+          1,
+          "choice",
+          1,
+          "then"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 36.5,
+      "old": "He finds the half-burnt letter on the second pocket. He reads it twice, holding it by one corner.",
+      "new": "You empty the second pocket last. The half-burnt letter lands between you. Leo reads it twice."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        22,
+        "then",
+        1,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 2,
+      "to": [
+        "c3_station",
+        [
+          23,
+          "then",
+          1,
+          "choice",
+          1,
+          "then"
+        ],
+        2
+      ],
+      "kind": "say",
+      "score": 19.5,
+      "old": "You took that from a dead man's stove.",
+      "new": "From the stove? Tell me exactly where it was."
+    },
+    {
+      "n": "c3_station",
+      "p": [
+        22,
+        "then",
+        1,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 3,
+      "to": [
+        "c3_station",
+        [
+          23,
+          "then",
+          1,
+          "choice",
+          1,
+          "then"
+        ],
+        3
+      ],
+      "kind": "n",
+      "score": 24,
+      "old": "He bags it without another word. For the rest of the night, he doesn't use your name.",
+      "new": "He bags it. The next question comes more slowly. He is checking every word now."
+    },
+    {
+      "n": "c3_door",
+      "p": [],
+      "i": 0,
+      "to": [
+        "c3_door",
+        [],
+        0
+      ],
+      "kind": "n",
+      "score": 43,
+      "old": "You stand at the door with your hand on the latch. Outside, the sea is loud. The road has been under it for an hour and a half.",
+      "new": "Your hand rests on the latch. Outside, the sea roars. The causeway has been underwater for an hour and a half."
+    },
+    {
+      "n": "c3_photo",
+      "p": [],
+      "i": 4,
+      "to": [
+        "c3_photo",
+        [],
+        4
+      ],
+      "kind": "n",
+      "score": 37,
+      "old": "Through the wall, in the back room, a man you never got to speak to is lying under a pub blanket.",
+      "new": "Beyond the wall, the man who never got to answer your question lies under a pub blanket."
+    },
+    {
+      "n": "c3_photo",
+      "p": [],
+      "i": 17,
+      "to": [
+        "c3_photo",
+        [],
+        17
+      ],
+      "kind": "n",
+      "score": 27.6,
+      "old": "Photo 4. The same car on the sand, after the tide. Somebody has taken a picture through the open door.",
+      "new": "Photo 4. The car at low water, before recovery. Someone photographed the driver's seat through the open door."
+    },
+    {
+      "n": "c3_photo",
+      "p": [
+        20,
+        "compare",
+        "fail"
+      ],
+      "i": 0,
+      "to": [
+        "c3_photo",
+        [
+          23,
+          "compare",
+          "fail"
+        ],
+        0
+      ],
+      "kind": "think",
+      "score": 12,
+      "old": "Look again.",
+      "new": "The recovery note fixes when the photograph was taken. Compare the driving position, not the water around the car."
+    },
+    {
+      "n": "c3_seat",
+      "p": [],
+      "i": 0,
+      "to": [
+        "c3_seat",
+        [],
+        0
+      ],
+      "kind": "n",
+      "score": 32.6,
+      "old": "There was never room for your feet behind her. You used to sit with your knees against the back of her seat and complain, and she never move",
+      "new": "Behind her seat, you could stretch your legs. She needed it close to the pedals. She never drove with it pushed back."
+    },
+    {
+      "n": "c3_gideon",
+      "p": [],
+      "i": 7,
+      "to": [
+        "c3_gideon",
+        [],
+        7
+      ],
+      "kind": "say",
+      "score": 25.3,
+      "old": "You were at Tom's door at half six, Mr Marsh.",
+      "new": "Did you see Tom before he came into the pub, Mr Marsh?"
+    },
+    {
+      "n": "c3_gideon",
+      "p": [],
+      "i": 8,
+      "to": [
+        "c3_gideon",
+        [],
+        8
+      ],
+      "kind": "say",
+      "score": 40.2,
+      "old": "On his step. He never let me past the step.",
+      "new": "Half past six. At his cottage. On the step, actually. He wouldn't let me inside."
+    },
+    {
+      "n": "c3_gideon",
+      "p": [],
+      "i": 19,
+      "to": [
+        "c3_gideon",
+        [],
+        20
+      ],
+      "kind": "say",
+      "score": 23.4,
+      "old": "I thought it was hello. I didn't stop.",
+      "new": "I told myself he was signalling the boat. They'd seen each other. They didn't need me."
+    },
+    {
+      "n": "c3_gideon",
+      "p": [],
+      "i": 24,
+      "to": [
+        "c3_gideon",
+        [],
+        25
+      ],
+      "kind": "say",
+      "score": 15.5,
+      "old": "Dad checked.",
+      "new": "My father's notes say that was checked. I've asked CID to check it again."
+    },
+    {
+      "n": "c3_gideon",
+      "p": [],
+      "i": 31,
+      "to": [
+        "c3_gideon",
+        [],
+        32
+      ],
+      "kind": "say",
+      "score": 42,
+      "old": "Nobody sits seven minutes on the phone with the sea coming in. Not about dinner. \"Friday will finish me.\" I heard you say it to Tom at ten t",
+      "new": "Seven minutes, with the sea coming in. Not about dinner. \"Friday will finish me.\" That's what you told Tom at 19:50."
+    },
+    {
+      "n": "c3_gideon",
+      "p": [],
+      "i": 38,
+      "to": [
+        "c3_gideon",
+        [],
+        40
+      ],
+      "kind": "say",
+      "score": 26.5,
+      "old": "A [[bribe]] is a fine and a scandal. The other thing is the rest of your life. You understand why I'd rather you knew the first.",
+      "new": "Yes, a [[bribe]]. You think I killed him. I'd rather you knew what I was actually doing."
+    },
+    {
+      "n": "c3_gideon",
+      "p": [
+        40,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 4,
+      "to": [
+        "c3_gideon",
+        [
+          42,
+          "choice",
+          1,
+          "then"
+        ],
+        4
+      ],
+      "kind": "say",
+      "score": 12,
+      "old": "First straight thing anyone's told me tonight.",
+      "new": "Thank you. I'll record what he said. The call still needs checking."
+    },
+    {
+      "n": "c3_pocket",
+      "p": [
+        10,
+        "compare",
+        "fail"
+      ],
+      "i": 0,
+      "to": [
+        "c3_pocket",
+        [
+          11,
+          "compare",
+          "fail"
+        ],
+        0
+      ],
+      "kind": "think",
+      "score": 12,
+      "old": "Look again.",
+      "new": "The clean bottle and full flask need explaining. Neither tells you who added anything, or when."
+    },
+    {
+      "n": "c3_notsuicide",
+      "p": [],
+      "i": 0,
+      "to": [
+        "c3_notsuicide",
+        [],
+        0
+      ],
+      "kind": "n",
+      "score": 32.6,
+      "old": "A man with shaking hands pours a bottle of syrup into a flask, in the wind, in the dark. Then he polishes the empty bottle, and puts it back",
+      "new": "Suppose Tom added the medicine himself. He then cleaned the empty bottle, despite his shaking hands, and returned it to a sooty pocket."
+    },
+    {
+      "n": "c3_notsuicide",
+      "p": [],
+      "i": 1,
+      "to": [
+        "c3_notsuicide",
+        [],
+        1
+      ],
+      "kind": "n",
+      "score": 12,
+      "old": "Nobody does that.",
+      "new": "Possible. But it leaves a lot unexplained."
+    },
+    {
+      "n": "c3_notsuicide",
+      "p": [],
+      "i": 2,
+      "to": [
+        "c3_notsuicide",
+        [],
+        2
+      ],
+      "kind": "n",
+      "score": 25.5,
+      "old": "And the flask. Fill it. Long night. Fergus filled it to the top at nine. A full flask has no room for a bottle of syrup.",
+      "new": "Fergus filled the flask at nine. Tom could have emptied some later. The full flask alone proves nothing."
+    },
+    {
+      "n": "c3_notsuicide",
+      "p": [],
+      "i": 3,
+      "to": [
+        "c3_notsuicide",
+        [],
+        3
+      ],
+      "kind": "n",
+      "score": 16.8,
+      "old": "Whatever was in it was in the whisky before it was poured.",
+      "new": "But somebody rinsed the TOM bottle while the boat was out. Why clean the source, if Tom only dosed his own flask?"
+    },
+    {
+      "n": "c3_notsuicide",
+      "p": [],
+      "i": 6,
+      "to": [
+        "c3_notsuicide",
+        [],
+        6
+      ],
+      "kind": "say",
+      "score": 12,
+      "old": "He didn't touch that bottle. Not tonight.",
+      "new": "The medicine could already have been in the whisky. The clean vial could have been planted."
+    },
+    {
+      "n": "c3_notsuicide",
+      "p": [],
+      "i": 8,
+      "to": [
+        "c3_notsuicide",
+        [],
+        8
+      ],
+      "kind": "say",
+      "score": 22.9,
+      "old": "Then it's not suicide.",
+      "new": "Then we can't treat this as suicide."
+    },
+    {
+      "n": "c3_notsuicide",
+      "p": [],
+      "i": 10,
+      "to": [
+        "c3_notsuicide",
+        [],
+        11
+      ],
+      "kind": "note",
+      "score": 25,
+      "old": "Not suicide: clean syrup bottle in a sooty pocket; flask full at nine — the drug was in the TOM bottle before Fergus poured. Then someone ri",
+      "new": "Working theory: the TOM whisky may have been tampered with before Fergus poured it. The rinsed bottle and clean vial need investigation and "
+    },
+    {
+      "n": "c3_out",
+      "p": [],
+      "i": 2,
+      "to": [
+        "c3_out",
+        [],
+        2
+      ],
+      "kind": "say",
+      "score": 15.5,
+      "old": "You can go. Where I can see you.",
+      "new": "Stay near the harbour. If you remember anything else, come straight back."
+    },
+    {
+      "n": "c4_open",
+      "p": [],
+      "i": 28,
+      "to": [
+        "c4_open",
+        [],
+        32
+      ],
+      "kind": "say",
+      "score": 41,
+      "old": "Leo's car was at the head of the road. I had my bag on the seat beside me. I thought, if he stops me and asks what's in it…",
+      "new": "Leo was at the head of the causeway. My bag on the next seat. If he stopped me and asked what was inside…"
+    },
+    {
+      "n": "c4_open",
+      "p": [
+        39,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 9,
+      "to": [
+        "c4_open",
+        [
+          43,
+          "choice",
+          1,
+          "then"
+        ],
+        9
+      ],
+      "kind": "say",
+      "score": 18.2,
+      "old": "Right. Thank you. That's the first time tonight anyone's told me before I had to ask.",
+      "new": "All right. I'll record both things: what she brought, and what you saw still sealed."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [],
+      "i": 13,
+      "to": [
+        "c4_cottage",
+        [],
+        13
+      ],
+      "kind": "n",
+      "score": 29.1,
+      "old": "The keeper's cottage is dark. When Leo opens the door, Skerry is lying in the hall. His nose is against the bottom of the back door, the doo",
+      "new": "The hall lamp is still on. Leo opens the door. Skerry is lying on the rug."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        15,
+        "explore",
+        "spots",
+        0,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c4_cottage",
+        [
+          16,
+          "explore",
+          "spots",
+          0,
+          "then"
+        ],
+        0
+      ],
+      "kind": "n",
+      "score": 38.4,
+      "old": "The label under the dial is yellow with age. The number is written in the same hard, careful hand as every label in this house.",
+      "new": "The label below the keypad has yellowed. The number is written in the same careful hand as every other label here."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        15,
+        "explore",
+        "spots",
+        1,
+        "then"
+      ],
+      "i": 5,
+      "to": [
+        "c4_cottage",
+        [
+          16,
+          "explore",
+          "spots",
+          1,
+          "then"
+        ],
+        5
+      ],
+      "kind": "n",
+      "score": 43.6,
+      "old": "“You were called today at twenty-one eleven hours. The caller [[withheld]] their number.”",
+      "new": "“Your last call was received at twenty-one eleven hours. The caller [[withheld]] their number.”"
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        15,
+        "explore",
+        "spots",
+        1,
+        "then"
+      ],
+      "i": 10,
+      "to": [
+        "c4_cottage",
+        [
+          16,
+          "explore",
+          "spots",
+          1,
+          "then"
+        ],
+        10
+      ],
+      "kind": "say",
+      "score": 23.4,
+      "old": "The phone company can. That's [[paperwork]]. Days.",
+      "new": "I've asked for the records. That's [[paperwork]]. They won't reach us before the tide turns."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        15,
+        "explore",
+        "spots",
+        2,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c4_cottage",
+        [
+          16,
+          "explore",
+          "spots",
+          2,
+          "then"
+        ],
+        0
+      ],
+      "kind": "n",
+      "score": 40.9,
+      "old": "Skerry doesn't lift his chin from the floor. Only his eyes follow you. He is still waiting for one particular step on the path.",
+      "new": "Skerry follows you with his eyes. He stays on the rug, waiting for one particular step on the path."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        18,
+        "else"
+      ],
+      "i": 0,
+      "to": [
+        "c4_cottage",
+        [
+          19,
+          "else"
+        ],
+        0
+      ],
+      "kind": "think",
+      "score": 25.3,
+      "old": "You stayed on the slipway while they went out. This is the first time you see the inside of the box tonight.",
+      "new": "Leo showed you these on the slipway. Now there is time to read the wall properly."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        37,
+        "compare",
+        "ok"
+      ],
+      "i": 1,
+      "to": [
+        "c4_cottage",
+        [
+          39,
+          "compare",
+          "ok"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 23.1,
+      "old": "A man going out to die doesn't wave a lamp at the sea. He waves it at someone.",
+      "new": "He kept signalling towards the boat. It looks as though he was trying to reach someone."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        37,
+        "compare",
+        "fail"
+      ],
+      "i": 0,
+      "to": [
+        "c4_cottage",
+        [
+          39,
+          "compare",
+          "fail"
+        ],
+        0
+      ],
+      "kind": "say",
+      "score": 18.7,
+      "old": "Look again. Dying men don't do the readings.",
+      "new": "Look at the lamp. He was signalling towards the boat, not the shore."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [
+        37,
+        "compare",
+        "fail"
+      ],
+      "i": 1,
+      "to": [
+        "c4_cottage",
+        [
+          39,
+          "compare",
+          "fail"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 23.1,
+      "old": "A man going out to die doesn't wave a lamp at the sea. He waves it at someone.",
+      "new": "He kept signalling towards the boat. It looks as though he was trying to reach someone."
+    },
+    {
+      "n": "c4_cottage",
+      "p": [],
+      "i": 46,
+      "to": [
+        "c4_cottage",
+        [],
+        48
+      ],
+      "kind": "n",
+      "score": 33.3,
+      "old": "Mobiles: Callum (harbour, getting the boat ready). Gideon (causeway — on a call?). Leo (head of the road). Dr Vosper (driving back to Tom's)",
+      "new": "Mobiles: Callum, preparing his boat. Gideon, an incoming call on the mainland. Leo, at the road. Dr Vosper, near the pub."
+    },
+    {
+      "n": "c4_boat",
+      "p": [
+        22,
+        "choice",
+        0,
+        "then"
+      ],
+      "i": 11,
+      "to": [
+        "c4_boat",
+        [
+          24,
+          "choice",
+          0,
+          "then"
+        ],
+        12
+      ],
+      "kind": "n",
+      "score": 24.4,
+      "old": "That's how he knows who you are. You realise you've been waiting all night for someone to say her name to your face.",
+      "new": "He says her name as if he knows what it costs you to hear it."
+    },
+    {
+      "n": "c4_boat",
+      "p": [
+        22,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 1,
+      "to": [
+        "c4_boat",
+        [
+          24,
+          "choice",
+          1,
+          "then"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 40.7,
+      "old": "He stands up so fast the boat rocks under him. Skerry is on his feet too, very still.",
+      "new": "He steps towards you so sharply the boat rocks under him. Skerry rises too, very still."
+    },
+    {
+      "n": "c4_boat",
+      "p": [
+        22,
+        "choice",
+        1,
+        "then"
+      ],
+      "i": 8,
+      "to": [
+        "c4_boat",
+        [
+          24,
+          "choice",
+          1,
+          "then"
+        ],
+        9
+      ],
+      "kind": "n",
+      "score": 35.5,
+      "old": "Tom's tide logbook. It falls open at a page it has fallen open at many times.",
+      "new": "You fold back the plastic. Tom's tide logbook falls open at a page worn softer than the rest."
+    },
+    {
+      "n": "c5_open",
+      "p": [
+        6,
+        "then"
+      ],
+      "i": 1,
+      "to": [
+        "c5_open",
+        [
+          7,
+          "then"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 30.8,
+      "old": "Twenty past one. Callum stands in the wheelhouse door with his arms folded. He hasn't sat down since you said the word 'hearing'.",
+      "new": "Callum moves to the wheelhouse door and folds his arms. Twenty past one. Your threat still hangs between you."
+    },
+    {
+      "n": "c5_open",
+      "p": [],
+      "i": 7,
+      "to": [
+        "c5_open",
+        [],
+        8
+      ],
+      "kind": "n",
+      "score": 16,
+      "old": "You don't say anything. You have waited twenty years. You can wait a little longer.",
+      "new": "You take one step back. His mouth keeps moving. For a moment, you cannot make the words join up."
+    },
+    {
+      "n": "c5_open",
+      "p": [],
+      "i": 39,
+      "to": [
+        "c5_open",
+        [],
+        43
+      ],
+      "kind": "n",
+      "score": 42,
+      "old": "You have never heard your mother's last words. You hear them now, in a fisherman's voice, twenty years late.",
+      "new": "You have never heard what your mother said after the crash. Now a fisherman gives you those words, twenty years late."
+    },
+    {
+      "n": "c5_after",
+      "p": [
+        2,
+        "then"
+      ],
+      "i": 1,
+      "to": [
+        "c5_after",
+        [
+          3,
+          "then"
+        ],
+        1
+      ],
+      "kind": "say",
+      "score": 19.1,
+      "old": "I believed her. I wanted to.",
+      "new": "I let her say it. That was easier than asking who she'd called."
+    },
+    {
+      "n": "c5_after",
+      "p": [
+        2,
+        "then"
+      ],
+      "i": 4,
+      "to": [
+        "c5_after",
+        [
+          3,
+          "then"
+        ],
+        4
+      ],
+      "kind": "n",
+      "score": 19.8,
+      "old": "He says it without bitterness, like the weather on a day long gone.",
+      "new": "He says it carefully. Each word gives him somewhere to stop. He doesn't stop."
+    },
+    {
+      "n": "c5_after",
+      "p": [],
+      "i": 16,
+      "to": [
+        "c5_after",
+        [],
+        21
+      ],
+      "kind": "n",
+      "score": 43.2,
+      "old": "He takes out his phone again. Not for the photo this time. He thumbs to the call list and holds it out to you.",
+      "new": "Callum takes out his phone and opens the call list. The screen lights his face. He holds it out to you."
+    },
+    {
+      "n": "c5_book",
+      "p": [
+        6,
+        "then"
+      ],
+      "i": 3,
+      "to": [
+        "c5_book",
+        [
+          6,
+          "then"
+        ],
+        3
+      ],
+      "kind": "say",
+      "score": 42,
+      "old": "I couldn't open it.",
+      "new": "I couldn't make myself read it."
+    },
+    {
+      "n": "c5_book",
+      "p": [
+        6,
+        "else"
+      ],
+      "i": 2,
+      "to": [
+        "c5_book",
+        [
+          6,
+          "else"
+        ],
+        2
+      ],
+      "kind": "say",
+      "score": 42,
+      "old": "I couldn't open it.",
+      "new": "I couldn't make myself read it."
+    },
+    {
+      "n": "c5_book",
+      "p": [],
+      "i": 7,
+      "to": [
+        "c5_book",
+        [],
+        7
+      ],
+      "kind": "n",
+      "score": 21.7,
+      "old": "Leo takes it. For a second he just holds it, like a baby someone has pushed into his arms.",
+      "new": "Leo writes Callum's words down before he takes the book. Then he checks the wrapper and holds it under the lamp."
+    },
+    {
+      "n": "c5_book",
+      "p": [
+        27,
+        "compare",
+        "ok"
+      ],
+      "i": 0,
+      "to": [
+        "c5_book",
+        [
+          28,
+          "compare",
+          "ok"
+        ],
+        0
+      ],
+      "kind": "think",
+      "score": 29.6,
+      "old": "At half past eight the road was dry. 0.0. Someone made it flooded afterwards, in a different pen. And someone came for Tom at a quarter to n",
+      "new": "At 20:30 the road was dry. Someone later changed that to 'flooded', using another pen. At 20:45, someone fetched Tom."
+    },
+    {
+      "n": "c5_book",
+      "p": [],
+      "i": 33,
+      "to": [
+        "c5_book",
+        [],
+        34
+      ],
+      "kind": "say",
+      "score": 14.2,
+      "old": "Find bones on that site and nothing gets built for a year.",
+      "new": "If there's a grave under those footings, the rigs can't simply dig through it."
+    },
+    {
+      "n": "c5_choose",
+      "p": [
+        6,
+        "choice",
+        0,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c5_choose",
+        [
+          8,
+          "choice",
+          0,
+          "then"
+        ],
+        0
+      ],
+      "kind": "say",
+      "score": 16,
+      "old": "I thought you might.",
+      "new": "All right. We stay together. Tell me if you need to stop."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 2,
+      "to": [
+        "c5_dunes",
+        [],
+        2
+      ],
+      "kind": "title",
+      "score": 32,
+      "old": "2:00 A.M.",
+      "new": "1:58 A.M."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 10,
+      "to": [
+        "c5_dunes",
+        [],
+        12
+      ],
+      "kind": "if",
+      "score": 4,
+      "old": "",
+      "new": ""
+    },
+    {
+      "n": "c5_dunes",
+      "p": [
+        13,
+        "explore",
+        "spots",
+        0,
+        "then"
+      ],
+      "i": 1,
+      "to": [
+        "c5_dunes",
+        [
+          15,
+          "explore",
+          "spots",
+          0,
+          "then"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 42,
+      "old": "Wooden [[survey pegs]] with orange tape, the kind they hammer in before the drilling starts. They have been pulled up and thrown aside in a ",
+      "new": "Wooden [[survey pegs]], orange tape: markers hammered in before drilling. Someone pulled them up and threw them aside in a heap."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [
+        13,
+        "explore",
+        "spots",
+        0,
+        "again"
+      ],
+      "i": 0,
+      "to": [
+        "c5_dunes",
+        [
+          15,
+          "explore",
+          "spots",
+          0,
+          "again"
+        ],
+        0
+      ],
+      "kind": "n",
+      "score": 40,
+      "old": "Three pegs. Pulled tonight — the sand on their points is still damp.",
+      "new": "Three uprooted pegs. Damp sand still clings to their points."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [
+        13,
+        "explore",
+        "spots",
+        1,
+        "again"
+      ],
+      "i": 0,
+      "to": [
+        "c5_dunes",
+        [
+          15,
+          "explore",
+          "spots",
+          1,
+          "again"
+        ],
+        0
+      ],
+      "kind": "n",
+      "score": 24,
+      "old": "Dark, fresh sand. Someone has been digging here for a long time.",
+      "new": "Dark sand, freshly disturbed. You cannot tell how long the digging took."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 43,
+      "to": [
+        "c5_dunes",
+        [],
+        41
+      ],
+      "kind": "n",
+      "score": 17,
+      "old": "Leo doesn't stop him. Neither do you.",
+      "new": "Leo catches Skerry's collar and draws him back. A pale curve already shows through the disturbed sand."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 44,
+      "to": [
+        "c5_dunes",
+        [],
+        42
+      ],
+      "kind": "n",
+      "score": 16.3,
+      "old": "It doesn't take long. Whoever was here had already done most of the work.",
+      "new": "Leo photographs the hollow before he touches anything. Whoever came before you has left the sand loose."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 54,
+      "to": [
+        "c5_dunes",
+        [],
+        53
+      ],
+      "kind": "n",
+      "score": 14.9,
+      "old": "Leo digs on with his hands, wider, deeper. Nothing.",
+      "new": "He sweeps the torch over the exposed hollow, keeping his feet outside its edge."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 55,
+      "to": [
+        "c5_dunes",
+        [],
+        54
+      ],
+      "kind": "say",
+      "score": 16.8,
+      "old": "That's all of her that's here. Whoever it was took the rest.",
+      "new": "Only this is exposed. The rest may have been moved. We need a proper search."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [],
+      "i": 56,
+      "to": [
+        "c5_dunes",
+        [],
+        55
+      ],
+      "kind": "note",
+      "score": 18.9,
+      "old": "The dunes: only the skull was left. Whoever dug took the rest of her.",
+      "new": "The dunes: a skull in a freshly disturbed hollow. No other remains visible. Someone drove away without lights."
+    },
+    {
+      "n": "c5_dunes",
+      "p": [
+        73,
+        "then"
+      ],
+      "i": 1,
+      "to": [
+        "c5_dunes",
+        [
+          73,
+          "then"
+        ],
+        1
+      ],
+      "kind": "n",
+      "score": 26,
+      "old": "Dr Vosper kneels beside the hollow before Leo can seal the bag. She doesn't touch what is inside. She turns it in the torchlight, slowly, wi",
+      "new": "Dr Vosper kneels beside the hollow. She holds the bag by its edges and turns it towards the torch. She never touches the skull."
+    },
+    {
+      "n": "c5_yard",
+      "p": [
+        4,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c5_yard",
+        [
+          4,
+          "then"
+        ],
+        0
+      ],
+      "kind": "n",
+      "score": 42,
+      "old": "Ten past two. Leo is waiting for you at the estate gate below the big house. The estate's old Land Rover is standing in Gideon's yard, mud t",
+      "new": "Ten past two. Leo is waiting at the estate gate below the big house."
+    },
+    {
+      "n": "c5_yard",
+      "p": [],
+      "i": 6,
+      "to": [
+        "c5_yard",
+        [],
+        6
+      ],
+      "kind": "n",
+      "score": 16.4,
+      "old": "He doesn't knock. Not alone, not with that bag in his hand.",
+      "new": "He keeps the bag close. One officer, an unsecured house, and people he has to get back safely."
+    },
+    {
+      "n": "c5_yard",
+      "p": [],
+      "i": 7,
+      "to": [
+        "c5_yard",
+        [],
+        7
+      ],
+      "kind": "say",
+      "score": 16.6,
+      "old": "CID can knock.",
+      "new": "We'll come back with CID. Nobody goes in there now."
+    },
+    {
+      "n": "c5_card",
+      "p": [],
+      "i": 5,
+      "to": [
+        "c5_card",
+        [],
+        6
+      ],
+      "kind": "say",
+      "score": 26.4,
+      "old": "Twenty years and more I've been a good doctor. Except for one morning.",
+      "new": "I've told myself one morning didn't make me a bad doctor. It didn't make that morning go away."
+    },
+    {
+      "n": "c5_wait",
+      "p": [],
+      "i": 1,
+      "to": [
+        "c5_wait",
+        [],
+        1
+      ],
+      "kind": "say",
+      "score": 14.6,
+      "old": "It's the middle of the night. It can wait for the light.",
+      "new": "I can't face what might be up there tonight. Go. I'll stay here."
+    },
+    {
+      "n": "c5_wait",
+      "p": [],
+      "i": 3,
+      "to": [
+        "c5_wait",
+        [],
+        4
+      ],
+      "kind": "n",
+      "score": 24,
+      "old": "Leo looks at you. Then he goes alone.",
+      "new": "Leo goes down to the Mairi Rose. You wait under the harbour lamp while he talks to Callum."
+    },
+    {
+      "n": "@places",
+      "p": [
+        "c1_bar",
+        "views",
+        "bar",
+        "zones",
+        2,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "@places",
+        [
+          "c1_bar",
+          "views",
+          "bar",
+          "zones",
+          2,
+          "then"
+        ],
+        0
+      ],
+      "kind": "n",
+      "score": 40.7,
+      "old": "An old cream telephone on a shelf behind the bar, its cord long enough to reach the cellar steps.",
+      "new": "An old cream telephone sits on the shelf behind the bar. Its curled cord rests beside the receiver."
+    },
+    {
+      "n": "@places",
+      "p": [
+        "c1_bar",
+        "views",
+        "bar",
+        "people",
+        0,
+        "talk",
+        "topics",
+        1,
+        "then"
+      ],
+      "i": 5,
+      "to": [
+        "@places",
+        [
+          "c1_bar",
+          "views",
+          "bar",
+          "people",
+          0,
+          "talk",
+          "topics",
+          1,
+          "then"
+        ],
+        5
+      ],
+      "kind": "pic",
+      "score": 33.4,
+      "old": "Nell pulls it without a word. Fergus lifts the glass an inch towards you, then towards the bottle on the shelf.",
+      "new": "You call down for a half. Nell returns to pour it. Fergus raises the glass towards you, then towards Tom's bottle."
+    },
+    {
+      "n": "@places",
+      "p": [
+        "c1_bar",
+        "views",
+        "bar",
+        "people",
+        0,
+        "go",
+        0,
+        "talk",
+        "topics",
+        1,
+        "then"
+      ],
+      "i": 5,
+      "to": [
+        "@places",
+        [
+          "c1_bar",
+          "views",
+          "bar",
+          "people",
+          0,
+          "go",
+          0,
+          "talk",
+          "topics",
+          1,
+          "then"
+        ],
+        5
+      ],
+      "kind": "pic",
+      "score": 33.4,
+      "old": "Nell pulls it without a word. Fergus lifts the glass an inch towards you, then towards the bottle on the shelf.",
+      "new": "You call down for a half. Nell returns to pour it. Fergus raises the glass towards you, then towards Tom's bottle."
+    },
+    {
+      "n": "@places",
+      "p": [
+        "c1_island",
+        "views",
+        "priory",
+        "people",
+        0,
+        "talk",
+        "hello"
+      ],
+      "i": 9,
+      "to": [
+        "@places",
+        [
+          "c1_island",
+          "views",
+          "priory",
+          "people",
+          0,
+          "talk",
+          "hello"
+        ],
+        10
+      ],
+      "kind": "say",
+      "score": 44.9,
+      "old": "He taught me the road when I was a kid. Made me say it back to him, like a times table. Never walk it at the flood. If it catches you, climb",
+      "new": "He taught me as a kid. Like learning my times tables. Never walk it at the flood. If it catches you, climb."
+    },
+    {
+      "n": "@places",
+      "p": [
+        "c1_island",
+        "views",
+        "priory",
+        "people",
+        0,
+        "go",
+        0,
+        "talk",
+        "hello"
+      ],
+      "i": 9,
+      "to": [
+        "@places",
+        [
+          "c1_island",
+          "views",
+          "priory",
+          "people",
+          0,
+          "go",
+          0,
+          "talk",
+          "hello"
+        ],
+        10
+      ],
+      "kind": "say",
+      "score": 44.9,
+      "old": "He taught me the road when I was a kid. Made me say it back to him, like a times table. Never walk it at the flood. If it catches you, climb",
+      "new": "He taught me as a kid. Like learning my times tables. Never walk it at the flood. If it catches you, climb."
+    },
+    {
+      "n": "@places",
+      "p": [
+        "c1_island",
+        "views",
+        "surgery",
+        "people",
+        0,
+        "talk",
+        "hello"
+      ],
+      "i": 2,
+      "to": [
+        "@places",
+        [
+          "c1_island",
+          "views",
+          "surgery",
+          "people",
+          0,
+          "talk",
+          "hello"
+        ],
+        3
+      ],
+      "kind": "say",
+      "score": 30,
+      "old": "If it's about Tom Ashby, he's my patient and I can't discuss him. If it's about anything else, I'm late.",
+      "new": "Then ask Tom what he wants to tell you. He's my patient. I won't discuss him on a doorstep."
+    },
+    {
+      "n": "@places",
+      "p": [
+        "c1_island",
+        "views",
+        "surgery",
+        "people",
+        0,
+        "go",
+        0,
+        "talk",
+        "hello"
+      ],
+      "i": 2,
+      "to": [
+        "@places",
+        [
+          "c1_island",
+          "views",
+          "surgery",
+          "people",
+          0,
+          "go",
+          0,
+          "talk",
+          "hello"
+        ],
+        3
+      ],
+      "kind": "say",
+      "score": 30,
+      "old": "If it's about Tom Ashby, he's my patient and I can't discuss him. If it's about anything else, I'm late.",
+      "new": "Then ask Tom what he wants to tell you. He's my patient. I won't discuss him on a doorstep."
+    },
+    {
+      "n": "c5_reading",
+      "p": [],
+      "i": 2,
+      "to": [
+        "c5_reading",
+        [],
+        2
+      ],
+      "kind": "say",
+      "score": 22.6,
+      "old": "Whoever had that wasn't talking after it.",
+      "new": "A serious blow. I wouldn't expect anyone to speak after that."
+    },
+    {
+      "n": "c5_reading",
+      "p": [
+        9,
+        "then"
+      ],
+      "i": 0,
+      "to": [
+        "c5_reading_after",
+        [
+          0,
+          "then"
+        ],
+        0
+      ],
+      "kind": "say",
+      "score": 40.7,
+      "old": "I wrote “fell from the harbour wall”. I didn't send him for an X-ray. I knew where the harbour wall was, and I knew where the causeway was.",
+      "new": "I wrote “fell from the harbour wall”. No X-ray. I knew that wall. I knew the causeway too."
+    }
+  ],
+  "outputBytes": 306878,
+  "identityMigration": {
+    "from": "bt-complete-7831b4ccba2e1db0",
+    "to": "bt-complete-a9ddd987aeb90f82",
+    "shapeDigest": "36aec31fe954c087409a7d82cfb7c240b656d37b7f6123f1abc028decb550540",
+    "unchangedArrayCount": 717,
+    "unchangedCursorCount": 3882,
+    "ignoredFields": [
+      "en",
+      "vi",
+      "easy",
+      "tone",
+      "face"
+    ],
+    "presentationExceptions": [
+      {
+        "field": "tag",
+        "selector": "choice.set.took_draft is boolean",
+        "reason": "Native mech.js uses choice.tag only as a stance badge. Remove misleading bluff/polite badges from Take/Leave physical evidence actions; preserve every choice effect and index."
+      },
+      {
+        "path": "nodes.c1_lantern[30]",
+        "allowed": [
+          "n with on:nell",
+          "say:me"
+        ],
+        "reason": "One blocking narrator beat becomes one player question, preserving cursor and all gates/effects. Extra side effects at this path are not ignored."
+      }
+    ],
+    "legacyFramesPreserved": 2562,
+    "lineageFile": "bt-save-lineage-7831b4ccba2e1db0-v2.json"
+  }
+}

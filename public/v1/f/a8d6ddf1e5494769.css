@@ -1,0 +1,60 @@
+/* Direction d1. Local Statement scope; no selectors change shared engine CSS. */
+.statement-phone-layer{--sp-top:64px;--sp-height:450px;position:absolute;inset:0;z-index:30;pointer-events:none;font-family:var(--se-sans,system-ui,sans-serif);color:#f7f1df}
+.statement-phone-layer[hidden]{display:none!important}
+.statement-phone-layer .sp-body{position:absolute;top:var(--sp-top);left:12px;right:12px;height:var(--sp-height);min-height:132px;display:grid;place-items:center;isolation:isolate}
+.statement-phone-layer .sp-art{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;border-radius:18px;z-index:-1;filter:brightness(.65)}
+.statement-phone-layer .sp-screen{box-sizing:border-box;width:min(232px,76%);max-height:100%;overflow:auto;display:flex;align-items:center;flex-direction:column;gap:8px;padding:12px 16px 16px;border:6px solid #111a1e;border-radius:30px;background:#142c34f5;box-shadow:0 12px 35px #0007;text-align:center}
+.statement-phone-layer .sp-earpiece{width:36px;height:4px;min-height:4px;border-radius:4px;background:#030a0c}
+.statement-phone-layer .sp-kind{font-size:12px;font-weight:600;margin:3px 0;letter-spacing:.02em;color:#d1dcd8}
+.statement-phone-layer .sp-name{font-family:inherit;font-size:21px;line-height:1.15;margin:4px 0;color:#fff5df;overflow-wrap:anywhere}
+.statement-phone-layer .sp-avatar{width:76px;height:76px;object-fit:cover;border-radius:50%;border:2px solid #c58b4980;background:#263b42}
+.statement-phone-layer .sp-status{font-size:12px;line-height:1.35;min-height:0;margin:0;color:#e5bf8d}
+.statement-phone-layer .sp-status:empty{display:none}
+.statement-phone-layer .sp-battery{font-size:32px;color:#f4ad82}
+.statement-phone-layer .sp-actions{display:flex;gap:10px;width:100%;justify-content:center;margin-top:8px}
+.statement-phone-layer .sp-actions:empty{display:none}
+.statement-phone-layer .sp-button{appearance:none;touch-action:manipulation;min-width:72px;min-height:48px;max-width:100%;border:1px solid #b6bfb8;border-radius:15px;padding:10px 11px;background:#273f45;color:#f5efde;font:600 14px/1.2 inherit;cursor:pointer;pointer-events:auto;white-space:normal}
+.statement-phone-layer .sp-button:focus-visible{outline:3px solid #e3bf77;outline-offset:4px}
+.statement-phone-layer .sp-button:disabled{cursor:default}
+.statement-phone-layer .sp-primary{background:#d7e0ce;color:#15252c;border-color:#e5ebdf}
+.statement-phone-layer .sp-wave{display:flex;gap:3px;align-items:center;justify-content:center;height:46px;width:100%;max-width:180px;padding:4px 0}
+.statement-phone-layer .sp-wave i{display:block;flex:1;max-width:4px;min-height:4px;border-radius:2px;background:#d4ad73}
+.statement-phone-layer.sp-gate{pointer-events:auto;background:linear-gradient(#07151938,#07151928 70%,#071519bb)}
+.statement-phone-layer.sp-gate .sp-screen{pointer-events:auto}
+.statement-phone-layer.sp-native{z-index:2}
+.statement-phone-layer.sp-native .sp-screen{width:min(168px,50%);padding:8px 10px;border-width:4px;border-radius:20px;align-self:start}
+.statement-phone-layer.sp-native .sp-avatar{width:45px;height:45px}
+.statement-phone-layer.sp-native .sp-name{font-size:15px}
+.statement-phone-layer.sp-native .sp-art{opacity:.55}
+.statement-phone-layer[data-mode=connected] .sp-screen{width:min(154px,42%);justify-self:end;align-self:start;margin:6px 6px 0 0;border-width:4px;border-radius:20px;padding:8px 10px}
+.statement-phone-layer[data-mode=connected] .sp-name{font-size:16px}
+.statement-phone-layer[data-mode=connected] .sp-avatar{width:54px;height:54px}
+.statement-phone-layer[data-mode=connected] .sp-art{filter:none}
+.statement-phone-layer[data-mode=ended] .sp-avatar,.statement-phone-layer[data-mode=missed] .sp-avatar{width:56px;height:56px}
+.statement-phone-layer[data-mode=poweroff] .sp-screen{background:#0b1115}
+.statement-phone-layer[data-mode=poweroff] .sp-kind{color:#b4c0c2}
+.statement-phone-layer[data-mode=incoming]:not(.sp-silenced) .sp-earpiece{background:#c58b49}
+@media(max-width:340px){.statement-phone-layer .sp-body{left:8px;right:8px}.statement-phone-layer .sp-screen{width:214px;gap:6px;padding:8px 10px 12px;border-radius:24px}.statement-phone-layer .sp-name{font-size:18px}.statement-phone-layer .sp-avatar{width:60px;height:60px}.statement-phone-layer .sp-button{font-size:13px}}
+@media(max-height:600px){.statement-phone-layer .sp-screen{gap:3px;padding:6px 9px 9px;border-radius:20px;border-width:4px}.statement-phone-layer .sp-avatar{width:48px;height:48px}.statement-phone-layer .sp-name{font-size:17px}.statement-phone-layer .sp-kind{font-size:11px}.statement-phone-layer .sp-wave{height:30px}.statement-phone-layer .sp-actions{margin-top:3px}.statement-phone-layer .sp-status{font-size:11px}}
+@media(orientation:landscape) and (max-height:600px){.statement-phone-layer .sp-body{left:4%;right:4%;min-height:72px;justify-items:center}.statement-phone-layer .sp-screen{width:min(620px,100%);display:grid;grid-template-columns:48px minmax(100px,1fr) auto;gap:2px 10px;align-items:center;padding:6px 10px}.statement-phone-layer .sp-earpiece{display:none}.statement-phone-layer .sp-kind,.statement-phone-layer .sp-name,.statement-phone-layer .sp-status{grid-column:2;margin:0}.statement-phone-layer .sp-avatar{grid-column:1;grid-row:1/4}.statement-phone-layer .sp-actions{grid-column:3;grid-row:1/4;margin:0}.statement-phone-layer .sp-wave{display:none}.statement-phone-layer .sp-art{object-position:center}.statement-phone-layer[data-mode=connected] .sp-screen{width:min(360px,65%);justify-self:end;margin:0}.statement-phone-layer.sp-native .sp-screen{width:min(320px,60%)}}
+@media(prefers-reduced-motion:reduce){.statement-phone-layer *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.statement-phone-layer .sp-photo-label{font-size:10px;line-height:1.2;color:#a9bbb9;margin-top:-5px}
+.statement-phone-layer.sp-physical .sp-art{filter:none}
+.statement-phone-layer.sp-physical .sp-body{display:flex;justify-content:center;align-items:flex-end}
+.statement-phone-layer .sp-caption{font-size:12px;line-height:1.3;background:#142c34ec;border:1px solid #778783;padding:7px 12px;border-radius:9px;max-width:90%;margin:0 0 6px;box-shadow:0 2px 8px #0008}
+.statement-phone-layer[data-mode=connected] .sp-screen{border:1px solid #80908a;border-radius:13px;background:#142c34f5}
+.statement-phone-layer[data-mode=connected] .sp-earpiece,.statement-phone-layer[data-mode=recording-playback] .sp-earpiece{display:none}
+.statement-phone-layer[data-mode=recording-playback] .sp-screen{border-radius:14px;border-width:2px}
+@media(orientation:landscape) and (max-height:600px){.statement-phone-layer .sp-photo-label{grid-column:2;margin:0;font-size:9px}.statement-phone-layer .sp-avatar{grid-row:1/5}.statement-phone-layer .sp-actions{grid-row:1/5}.statement-phone-layer .sp-screen{column-gap:8px}}
+.statement-phone-layer .sp-physical-plane{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);isolation:isolate}
+.statement-phone-layer .sp-physical-plane .sp-art{object-fit:fill}
+.statement-phone-layer .sp-physical-screen{position:absolute;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.45em;padding:7%;overflow:hidden;isolation:isolate;text-align:center;color:#f6e7c8;border-radius:4%;line-height:1.2}
+.statement-phone-layer .sp-physical-kind{font-size:.65em;color:#d3dfd9}
+.statement-phone-layer .sp-physical-name{font-size:1em;line-height:1.15;overflow-wrap:anywhere}
+.statement-phone-layer .sp-physical-avatar{width:45%;max-height:30%;object-fit:contain;border-radius:50%;border:1px solid #d5bc78}
+.statement-phone-layer .sp-physical-label{font-size:.5em;color:#bbc8bf}
+.statement-phone-layer .sp-physical-screen .sp-wave{height:24%;min-height:12px;max-height:30px;width:90%;gap:2px;padding:0}
+.statement-phone-layer .sp-physical-screen .sp-wave i{background:#dfbf80}
+@keyframes statement-phone-buzz{0%,100%{transform:translate(-50%,-50%)}25%{transform:translate(calc(-50% - 1px),-50%)}75%{transform:translate(calc(-50% + 1px),-50%)}}
+.statement-phone-layer.sp-physical[data-mode=incoming] .sp-physical-plane{animation:statement-phone-buzz .18s 3 linear}
+@media(prefers-reduced-motion:reduce){.statement-phone-layer.sp-physical[data-mode=incoming] .sp-physical-plane{animation:none}}

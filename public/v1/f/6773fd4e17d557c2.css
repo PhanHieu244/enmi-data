@@ -1,0 +1,60 @@
+/* Candidate direction layer for The Statement; load AFTER statement.css/art.css.
+   Owns presentation only. No engine/save/branch contract is changed. */
+.statement[data-statement-direction="1"] .se-chars{
+ left:0!important;right:0!important;top:144px!important;bottom:282px!important;height:auto!important;
+ overflow:hidden!important;
+}
+.statement[data-statement-direction="1"] .se-ch{
+ margin:0!important;max-width:none!important;transform:translateX(-50%)!important;
+ transition:opacity .24s ease,filter .2s ease!important;
+}
+.statement[data-statement-direction="1"] .se-ch.on:not(.out){opacity:1}
+.statement[data-statement-direction="1"] .se-chi{
+ position:absolute!important;left:50%!important;right:auto!important;margin:0!important;
+ transform:translateX(-50%)!important;animation:none!important;
+}
+.statement[data-statement-direction="1"] .se-chi>.ii{
+ left:0!important;top:0!important;width:100%!important;height:100%!important;
+ transform:none!important;
+}
+.statement[data-statement-direction="1"] .se-ch.on:not(.talk){filter:brightness(.94)}
+.statement[data-statement-direction="1"] .se-ch.on.talk{filter:brightness(1.04)}
+.statement[data-statement-direction="1"] .se-mem{
+ top:66px!important;left:12px!important;right:62px!important;width:auto!important;
+ max-width:none!important;transform:none!important;z-index:26!important;
+}
+.statement[data-statement-direction="1"] .se-rm[data-statement-notice]{
+ position:relative!important;margin:0!important;width:100%!important;box-sizing:border-box;
+ min-height:44px;padding-right:46px!important;max-height:76px;overflow:auto;animation:statement-direction-notice-in .18s ease-out both;
+}
+.statement[data-statement-direction="1"] .se-rm[data-statement-notice="queued"],
+.statement[data-statement-direction="1"] .se-rm[data-statement-notice="closed"]{display:none!important}
+.statement[data-statement-direction="1"] .statement-notice-dismiss{
+ position:absolute;right:0;top:0;min-width:44px;min-height:44px;padding:0;border:0;
+ background:transparent;color:inherit;font:24px/1 system-ui;cursor:pointer;
+}
+.statement[data-statement-direction="1"]:has(.statement-objective:not([hidden])) .se-mem{visibility:hidden}
+.statement[data-statement-direction="1"] .statement-objective[hidden],
+.statement[data-statement-direction="1"] [data-objective-icon][hidden]{display:none!important}
+.statement[data-statement-direction="1"] .statement-objective{max-height:72px;overflow:auto;box-sizing:border-box;animation:statement-direction-notice-in .18s ease-out both}
+.statement[data-statement-direction="1"] .se-toast{top:auto;bottom:272px;max-height:140px;overflow-y:auto}
+@media(max-height:640px) and (max-width:599px){
+ .statement[data-statement-direction="1"] .se-box{height:210px}
+ .statement[data-statement-direction="1"] .se-chars{top:128px!important;bottom:226px!important}
+ .statement[data-statement-direction="1"] .se-mem{top:62px!important}
+ .statement[data-statement-direction="1"] .statement-objective{max-height:56px}
+ .statement[data-statement-direction="1"] .se-toast{bottom:226px;max-height:100px}
+ .statement[data-statement-direction="1"] .se-rm[data-statement-notice]{max-height:62px}
+}
+@media(min-width:600px) and (max-height:500px){
+ .statement[data-statement-direction="1"] .se-chars{top:74px!important;bottom:15px!important}
+ .statement[data-statement-direction="1"] .se-mem{left:53%!important;right:62px!important;top:12px!important}
+ .statement[data-statement-direction="1"] .se-rm[data-statement-notice]{max-height:54px}
+ .statement[data-statement-direction="1"] .statement-objective{left:53%!important;right:62px!important;top:12px!important;max-height:54px;overflow:auto;box-sizing:border-box}
+ .statement[data-statement-direction="1"] .se-toast{left:53%;right:12px;top:72px;bottom:auto;max-height:72px}
+}
+@media(prefers-reduced-motion:reduce){
+ .statement[data-statement-direction="1"] .se-ch{transition:none!important}
+}
+
+@keyframes statement-direction-notice-in{from{opacity:0}to{opacity:1}}

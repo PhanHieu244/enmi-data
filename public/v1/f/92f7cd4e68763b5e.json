@@ -1,0 +1,799 @@
+{
+  "schema": 1,
+  "game": "the-interpreter",
+  "engineBaseline": "1.0.4",
+  "revision": "direction-d1",
+  "runtimeAutoLoader": false,
+  "approved": false,
+  "assets": [
+    {
+      "id": "phone-closeup-base-d1",
+      "runtime_file": "img/phone-closeup-base-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "7754cd85634b2323a959c9c66719d0dfdfe770894f0eea542552abcb6e474496",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "phone-hand-incoming-d1",
+      "runtime_file": "img/phone-hand-incoming-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "ec7781c31444a9dfccb7727f3ce280a03f4306d2e1c81c73168b4256fd70a1af",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "phone-voicemail-d1",
+      "runtime_file": "img/phone-voicemail-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "f54f91006bfb10382cfa02c23ea69bf5fec0dd0989bb85d7dc939c0b9b354532",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "player-listening-room-d1",
+      "runtime_file": "img/player-listening-room-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "d34aa68ec54315020f9fe5c61c26a60bb7162eb49a952bbf2766c111483b0f8c",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "avatar-sam-d1",
+      "runtime_file": "img/avatar-sam-d1.webp",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "ef6ba3bac6e49396529f69f74f9ea6a54ec65aabcf902907d8a54164a8d012a8",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "avatar-ruth-d1",
+      "runtime_file": "img/avatar-ruth-d1.webp",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "40f6e75c14f0400df1a879177d1a3eead7596cc4498f20ae2d0b4648a2ff3e00",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "avatar-maggie-d1",
+      "runtime_file": "img/avatar-maggie-d1.webp",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "1de4bc3d196dba7cdafb6edd3d4000028aded6ff986d03c139fd32a8e7ae7432",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "avatar-kieran-d1",
+      "runtime_file": "img/avatar-kieran-d1.webp",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "62959eb035886c8aeb8a0b4ef17abe066fd7ce3e444332a7c14d99a736739a8b",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "phone-lockscreen-kieran-d1",
+      "runtime_file": "img/phone-lockscreen-kieran-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "5fd018c1ca46d64736d4560f5d5312470f04545ec600025e1a48bd6444ba54c8",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "phone-shell-neutral-d1",
+      "runtime_file": "img/phone-shell-neutral-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "3790e0279b8d08ab690286a7fd66bee5f254c80a7536487e1102e3bf8af5c370",
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "bbox_gt0": [
+          141,
+          22,
+          940,
+          1522
+        ]
+      },
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "phone-charging-record-d1",
+      "runtime_file": "img/phone-charging-record-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "98fe46b9f9fe1aba9a47d1d45b3041db5d6de162903f1d2e1998492b6ed7b4cf",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "phone-message-compose-d1",
+      "runtime_file": "img/phone-message-compose-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "1165a944a1fed5372d09746072b29220340abdb8f937e9dbb39d974d4a160fbf",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-knuckles-d1",
+      "runtime_file": "img/st-act-knuckles-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "2705d7dd3b49e8dec26453417605f1ae29fe6e6677b95c94f9f8bc1ff5690cc8",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a1-inspect-knuckles-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-safe-closed-d1",
+      "runtime_file": "img/st-act-safe-closed-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "e2ef72663e567ed2dfeb3825d2deb26ad5a38d39a8e80005553d53e1fc5d5c56",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a4-move-painting-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-bg-hospital-stairs-d1",
+      "runtime_file": "img/st-bg-hospital-stairs-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "58bf204df8e61c0b8a2023b2da80309425ba70e1c1cc3dc6c750ab10a1271a98",
+      "alpha": null,
+      "role": "Review-only candidate; not automatically bound to story/atlas",
+      "action_anchors": [],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-photo-wall-d1",
+      "runtime_file": "img/st-act-photo-wall-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "1fbbff21d1b57dbd2b1f891cc1fb68e3cef1b87115ff621c22a9082b2e420e46",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a2-inspect-photo-wall-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-oilskin-label-d1",
+      "runtime_file": "img/st-act-oilskin-label-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "19312c8df8808d9a0df35913b5d6a4054c689a008f73287e9250cda75bfc0a06",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a5-inspect-torn-oilskin-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-court-records-d1",
+      "runtime_file": "img/st-act-court-records-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "af02b104d5cebe9cf8e002954056ea7b787db20f93b2f3aab953af187111782c",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a6-arrange-court-records-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "phone-lockscreen-reveal-d1",
+      "runtime_file": "img/phone-lockscreen-reveal-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "2a3056627221a931a1ff81a21938464725db60c7b3cf0803057d4ff3e88d0100",
+      "alpha": null,
+      "role": "Phone catalog candidate; use only where configured anchor selects this role",
+      "action_anchors": [],
+      "phone_catalog": true,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-pallet-before-d1",
+      "runtime_file": "img/st-act-pallet-before-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "d96ff64d7a77da5723412b006ce5936a1d28539ce09574a3cddd4db5780d7032",
+      "alpha": null,
+      "role": "Review-only candidate; not automatically bound to story/atlas",
+      "action_anchors": [],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-pallet-after-d1",
+      "runtime_file": "img/st-act-pallet-after-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "676befccc6454ba86e93589296995d97a94e60c4749d9c8401c69b237ff9950d",
+      "alpha": null,
+      "role": "Review-only candidate; not automatically bound to story/atlas",
+      "action_anchors": [],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-actor-owen-oilskin-d1",
+      "runtime_file": "img/st-actor-owen-oilskin-d1.webp",
+      "actual_size": [
+        887,
+        1774
+      ],
+      "mode": "RGBA",
+      "sha256": "6b99fc64c79d5efb6ce12132a4d30391bcea4c6748f2bd8e916805a7c3ee24dd",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox_gt0": [
+          94,
+          19,
+          867,
+          1774
+        ]
+      },
+      "role": "Review-only candidate; not automatically bound to story/atlas",
+      "action_anchors": [],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-cg-kieran-seated-d1",
+      "runtime_file": "img/st-cg-kieran-seated-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "19fe3eaedd7c35fe306121d5896dac1b1f13722f0a0893d7509bf4bdf0d8a4b2",
+      "alpha": null,
+      "role": "Review-only candidate; not automatically bound to story/atlas",
+      "action_anchors": [],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-cg-tom-seated-d1",
+      "runtime_file": "img/st-cg-tom-seated-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "6d0742cccb098020512012ddb5886b61ed4c0743df4ac6dfb09d90cdb0d60a72",
+      "alpha": null,
+      "role": "Review-only candidate; not automatically bound to story/atlas",
+      "action_anchors": [],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": "Tom interview exact hour unspecified. Clock14:10 is proposed within after-lunch/before18:15 interval; director must confirm."
+    },
+    {
+      "id": "st-act-finch-letter-d1",
+      "runtime_file": "img/st-act-finch-letter-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "48709f2b3c6cbc6baf67304c8090b9d12ab57c742b7f2044c21e369da9ba1bb0",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a6-open-finch-letter-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-ticket-d1",
+      "runtime_file": "img/st-act-ticket-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "bdbdad22f867ada5129c9c0f1cc808d2a525c334952590c0f9207d4192ee94f7",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a3-read-parking-ticket-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-tape-d1",
+      "runtime_file": "img/st-act-tape-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "ca52347314b3061a3a5669d95b2b8694b36e94536bf0e4a36784d9dcf11caa7c",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a3-play-lewis-tape-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-flowers-card-d1",
+      "runtime_file": "img/st-act-flowers-card-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "12d4291fb3a5742da82e1d144939b7d60b0554ee30a514b5ddea4fd150ff3b89",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a6-turn-holt-card-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-warrant-d1",
+      "runtime_file": "img/st-act-warrant-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "2d9331aa315a028aca91fd37b5a533360a3bca9c10af0cde1c623e5ff69e6e49",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a6-place-warrant-card-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-watch-d1",
+      "runtime_file": "img/st-act-watch-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "725806e810a307e6e40582a9306853d87beb65f1983bf1cb6ad64d8a13d5fd8e",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a1-photograph-watch-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-sam-photo-d1",
+      "runtime_file": "img/st-act-sam-photo-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "b47a599a27a22c4d8878fa58b0ca230120ce453cbdf2e1f08996a31b2af1a09b",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a1-slide-sam-photo-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-invite-d1",
+      "runtime_file": "img/st-act-invite-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "584d0bd8e175ecf58dbe328a0856d24e01101c00a4b77e710f2cd6a2a1503aa3",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a4-take-invitation-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-crowbar-d1",
+      "runtime_file": "img/st-act-crowbar-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "16afb95a4422f7452b3963fb59ed41704e4e5935fb3df977447d769eb1f9e923",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a5-pick-up-crowbar-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    },
+    {
+      "id": "st-act-rescue-note-d1",
+      "runtime_file": "img/st-act-rescue-note-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "23c74e030044efa5c41aefc5856b042df50c3fd26f9f231fdfb548f6b3d541ca",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a5-leave-rescue-note-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": "Metal ledge is proposed note placement, not an established fixed prop from an approved full-resolution master."
+    },
+    {
+      "id": "st-act-wristband-d1",
+      "runtime_file": "img/st-act-wristband-d1.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "f09783a86ded38f9a3c230397b2c126df68d8a9ea2ba39e2837de39275ed8162",
+      "alpha": null,
+      "role": "Action candidate; active only at existing narration anchor and when enabled/asset loaded",
+      "action_anchors": [
+        "st-a1-read-wristband-d1"
+      ],
+      "phone_catalog": false,
+      "approval": {
+        "art": false,
+        "identity": false,
+        "feeling": false,
+        "production": false
+      },
+      "staging_assumption": ""
+    }
+  ]
+}
