@@ -1,0 +1,32 @@
+/* Keep story paintings quiet. Hit targets, clues, native hint dots, accessible
+   names and a high-contrast keyboard focus indicator remain available. */
+.se.bt-d4-inspection .pz-l,
+.se.bt-d4-inspection .pp-n{opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+.se.bt-d4-inspection .pz{min-width:44px;min-height:44px;border-color:transparent;background-color:transparent}
+.se.bt-d4-inspection .pz:focus-visible,
+.se.bt-d4-inspection .pp:focus-visible{outline:2px solid #f1d692;outline-offset:3px;border-radius:10px}
+.se.bt-d4-inspection .pz.pick:not(.wg){outline:2px solid #f1d69299;outline-offset:2px}
+/* Fergus' transparent sprite button overlaps the phone above his shoulder.
+   The visible phone needs its own hit priority; do not raise the floor hatch
+   through his body or change any room / object coordinates. */
+.se.bt-d4-inspection .se-bgl[data-image="lantern-bar"] .pz[data-zone-id="phone"]{z-index:4!important}
+/* Chấm chi tiết nhấp sáng như Vale: chấm 10px + vòng 18px lan ra; chạm/lấy nét thì to và sáng hơn. Giảm chuyển động thì đứng yên. */
+.se.bt-d4-inspection .pz{--dot:10px;--ring:18px}
+.se.bt-d4-inspection .pz:not(.ng):not(.wg)::before{box-sizing:border-box;left:calc(50% - var(--dot)/2);top:calc(50% - var(--dot)/2);width:var(--dot);height:var(--dot);margin:0;transform-origin:50% 50%;box-shadow:0 0 9px rgba(255,227,165,.34);animation:bt-hotspot-dot 3.8s ease-in-out infinite}
+.se.bt-d4-inspection .pz:not(.ng):not(.wg)::after{box-sizing:border-box;left:calc(50% - var(--ring)/2);top:calc(50% - var(--ring)/2);width:var(--ring);height:var(--ring);margin:0;border-width:1px;transform-origin:50% 50%;animation:bt-hotspot-ring 3.8s ease-out infinite}
+.se.bt-d4-inspection .pz.aim{outline:0;outline-offset:0;--dot:14px;--ring:25px}
+.se.bt-d4-inspection .pz:is(.aim,.hov,.pick,:focus-visible):not(.seen):not(.ng)::before{box-shadow:0 0 14px #ffe2a3aa;animation-duration:1.5s;opacity:1}
+.se.bt-d4-inspection .pz:is(.aim,.hov,.pick,:focus-visible):not(.seen):not(.ng)::after{border-color:#ffe6aa;animation-duration:1.5s}
+.se.bt-d4-inspection .pz.seen::before,.se.bt-d4-inspection .pz.seen::after{animation:none;opacity:.35}
+@keyframes bt-hotspot-dot{0%,100%{transform:scale(.88);opacity:.68}50%{transform:scale(1.1);opacity:1}}
+@keyframes bt-hotspot-ring{0%{transform:scale(.8);opacity:.7}75%,100%{transform:scale(1.5);opacity:0}}
+@media (prefers-reduced-motion:reduce){.se.bt-d4-inspection .pz::before,.se.bt-d4-inspection .pz::after{animation:none!important}}
+.se.bt-d4-inspection .pz-nav .pz-x,
+.se.bt-d4-inspection .pz.ex .pz-x{width:28px;height:28px;border-color:#d4d3c073;background:#17221bcc;box-shadow:none}
+.se.bt-d4-inspection .pz-nav .pz-x svg,
+.se.bt-d4-inspection .pz.ex .pz-x svg{width:16px;height:16px}
+.se.bt-d4-inspection .bt-inspection-caption{margin:0;padding:3px 2px 5px;color:#eee5d6;font:600 12px/1.35 var(--se-sans);overflow-wrap:anywhere}
+.se.bt-d4-inspection .bt-inspection-caption[hidden]{display:none}
+.se.bt-d4-inspection .bt-inspection-real .wire{display:none!important}
+.se.bt-d4-inspection .bt-refuge-svg>[data-bt-refuge-sign="caption"]{display:none}
+/* SVG numeral paths and gauge marks are deliberately not selected here. */
