@@ -1,0 +1,104 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#10232b"><title>The Statement · Lời khai</title><link rel="stylesheet" href="lib/story/ui.css"><link rel="stylesheet" href="lib/story/reconstruct.css"><link rel="stylesheet" href="lib/story/interrogation.css"><link rel="stylesheet" href="art.css"><link rel="stylesheet" href="statement.css"><link rel="stylesheet" href="statement-toolbar.css"><link rel="stylesheet" href="statement-records.css"><link rel="stylesheet" href="audio.css"><link rel="stylesheet" href="phone-surface.css"><link rel="stylesheet" href="statement-phone.css"><link rel="stylesheet" href="statement-actions.css"><link rel="stylesheet" href="statement-direction.css"></head><body><noscript>Bật JavaScript để chơi · Enable JavaScript to play.</noscript><script src="lib/story/core.js"></script>
+<script src="lib/story/fx.js"></script>
+<script src="lib/story/flow.js"></script>
+<script src="lib/story/mech.js"></script>
+<script src="lib/story/mech-plus.js"></script>
+<script src="lib/story/mech-life.js"></script>
+<script src="lib/story/stage.js"></script>
+<script src="lib/story/place.js"></script>
+<script src="lib/story/action.js"></script>
+<script src="lib/story/investigation.js"></script>
+<script src="lib/story/reconstruct.js"></script>
+<script src="lib/story/interrogation.js"></script>
+<script src="lib/story/foley.js"></script>
+<script src="plugins/statement-runtime.js"></script>
+<script src="plugins/statement-toolbar.js"></script>
+<script src="plugins/statement-staging-data.js"></script>
+<script src="plugins/statement-staging.js"></script>
+<script src="story/story.js"></script>
+<script src="story/ch1.js"></script>
+<script src="story/ch2.js"></script>
+<script src="story/ch3.js"></script>
+<script src="story/ch4.js"></script>
+<script src="story/ch5.js"></script>
+<script src="story/ch6.js"></script>
+<script>
+  // Explicit preview opt-in. Change either field to false before page load
+  // to suppress that candidate feature. This object belongs to this loader,
+  // not to the shared engine. It does not express release/feeling approval.
+  globalThis.StatementDirectionOptIn = Object.freeze({
+    phone: true,
+    actions: true
+  });
+  globalThis.StatementStagingOptions = {cameraPans:true, reviewPoses:true, expressionCloseups:true, groupCloseups:true};
+  globalThis.StatementDirection?.configure(globalThis.StatementStagingOptions);
+  globalThis.StatementPhoneEnable = globalThis.StatementDirectionOptIn.phone;
+  globalThis.StatementPhoneOptions = {
+    gates: true,
+    assetBase: new URL('./', document.baseURI).href
+  };
+</script>
+
+<script src="plugins/phone-surface.js"></script>
+<script src="plugins/statement-phone-data.js"></script>
+<script src="plugins/statement-phone.js"></script>
+<script src="plugins/statement-actions-data.js"></script>
+<script src="plugins/statement-actions.js"></script>
+
+<script>
+  (() => {
+    'use strict';
+    const E = globalThis.StoryEngine;
+    const enabled = globalThis.StatementDirectionOptIn;
+    if (!E || typeof E.on !== 'function' || typeof E.S !== 'function') {
+      throw new Error('Direction d2: insert after engine registration and before the existing boot.');
+    }
+    if (!globalThis.StatementActions) {
+      throw new Error('Direction d2: actions adapter/data did not load. Check paths and script order.');
+    }
+
+    // Actions has no StatementActionsEnable flag. It installs on evaluation.
+    // This public setter runs synchronously before any story beat can begin.
+    globalThis.StatementActions.disabled = !enabled.actions;
+
+    // install() is idempotent and returns the same adapter result if the
+    // explicit StatementPhoneEnable flag already installed it above.
+    globalThis.StatementPhoneIntegration = enabled.phone
+      ? globalThis.StatementPhone.install(E, globalThis.StatementPhoneData,
+          globalThis.StatementPhoneOptions)
+      : null;
+
+    // Read-only integration diagnostics. Call again after the real boot or
+    // after a deliberate content reload. This is not full-engine validation.
+    globalThis.StatementDirectionReport = () => {
+      const S = E.S();
+      const phone = globalThis.StatementPhoneIntegration;
+      return {
+        engineTarget: '1.0.4',
+        engineSourceProvided: true,
+        engineRuntimeVersion: E.VERSION,
+        game: S?.id || null,
+        missingChapterMarkers: ['call', 'c2_text', 'c3_night', 'c4_kitchen',
+          'c5_cold', 'c6_court'].filter(node => !Array.isArray(S?.nodes?.[node])),
+        phone: phone ? {
+          installed: phone.installed,
+          reason: phone.reason || null,
+          handlers: phone.handlers?.slice() || [],
+          unavailableHandlers: phone.unavailableHandlers?.slice() || [],
+          invalidAnchors: phone.invalidAnchors?.slice() || [],
+          gatesEnabled: phone.gatesEnabled
+        } : { enabled: false },
+        actions: {
+          disabled: globalThis.StatementActions.disabled,
+          ...globalThis.StatementActions.audit()
+        },
+        releaseReady: false,
+        feelingApproved: false
+      };
+    };
+    E.on('boot', () => queueMicrotask(() => {
+      globalThis.StatementDirectionLastReport = globalThis.StatementDirectionReport();
+    }));
+  })();
+</script>
+<script src="boot.js"></script></body></html>

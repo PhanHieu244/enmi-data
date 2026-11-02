@@ -1,0 +1,6 @@
+/* Statement theme only. Shared geometry belongs to phone-surface.css. */
+.statement .enmi-phone-layer{--phone-ink:#10262e;--phone-slate:#344b55;--phone-amber:#c58b49}
+
+.statement{--statement-phone-lane-top:var(--phone-lane-top,-1px);--statement-phone-lane-height:var(--phone-lane-height,0px)}
+.statement[data-phone-layout=closeup]>.statement-objective{visibility:hidden!important}
+.statement:has(.statement-action:not([hidden]))>.enmi-phone-layer{visibility:hidden}

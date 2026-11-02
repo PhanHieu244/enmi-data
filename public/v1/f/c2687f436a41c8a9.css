@@ -1,0 +1,128 @@
+/* Candidate direction layer for The Statement; load AFTER statement.css/art.css.
+   Owns presentation only. No engine/save/branch contract is changed. */
+.statement[data-statement-direction="2"] .se-chars{
+ left:0!important;right:0!important;top:144px!important;bottom:282px!important;height:auto!important;
+ overflow:hidden!important;
+}
+.statement[data-statement-direction="2"] .se-ch{
+ margin:0!important;max-width:none!important;transform:translateX(-50%)!important;
+ transition:opacity .24s ease,filter .2s ease!important;
+}
+.statement[data-statement-direction="2"] .se-ch.on:not(.out){opacity:1}
+.statement[data-statement-direction="2"] .se-chi{
+ position:absolute!important;left:0!important;right:auto!important;margin:0!important;
+ transform:none!important;animation:none!important;
+}
+.statement[data-statement-direction="2"] .se-chi>.ii{
+ left:0!important;top:0!important;width:100%!important;height:100%!important;
+ transform:none!important;
+}
+.statement[data-statement-direction="2"] .se-ch.on:not(.talk){filter:brightness(.94)}
+.statement[data-statement-direction="2"] .se-ch.on.talk{filter:brightness(1.04)}
+.statement[data-statement-direction="2"] .se-mem{
+ top:66px!important;left:12px!important;right:62px!important;width:auto!important;
+ max-width:none!important;transform:none!important;z-index:26!important;
+}
+.statement[data-statement-direction="2"] :is(.se-rm,.se-meet)[data-statement-notice]{
+ position:relative!important;margin:0!important;width:100%!important;box-sizing:border-box;
+ min-height:44px;padding-right:46px!important;max-height:76px;overflow:auto;animation:statement-direction-notice-in .18s ease-out both;
+}
+.statement[data-statement-direction="2"] :is(.se-rm,.se-meet)[data-statement-notice="queued"],
+.statement[data-statement-direction="2"] :is(.se-rm,.se-meet)[data-statement-notice="closed"]{display:none!important}
+.statement[data-statement-direction="2"] .statement-notice-dismiss{
+ position:absolute;right:0;top:0;min-width:44px;min-height:44px;padding:0;border:0;
+ background:transparent;color:inherit;font:24px/1 system-ui;cursor:pointer;
+}
+.statement[data-statement-direction="2"]:has(.statement-objective:not([hidden])) .se-mem{visibility:hidden}
+.statement[data-statement-direction="2"] .statement-objective[hidden],
+.statement[data-statement-direction="2"] [data-objective-icon][hidden]{display:none!important}
+.statement[data-statement-direction="2"] .statement-objective{max-height:72px;overflow:auto;box-sizing:border-box;animation:statement-direction-notice-in .18s ease-out both}
+.statement[data-statement-direction="2"] .se-toast{top:auto;bottom:272px;max-height:140px;overflow-y:auto}
+@media(max-height:640px) and (max-width:599px){
+ .statement[data-statement-direction="2"] .se-box{height:210px}
+ .statement[data-statement-direction="2"] .se-chars{top:128px!important;bottom:226px!important}
+ .statement[data-statement-direction="2"] .se-mem{top:62px!important}
+ .statement[data-statement-direction="2"] .statement-objective{max-height:56px}
+ .statement[data-statement-direction="2"] .se-toast{bottom:226px;max-height:100px}
+ .statement[data-statement-direction="2"] :is(.se-rm,.se-meet)[data-statement-notice]{max-height:62px}
+}
+@media(min-width:600px) and (max-height:500px){
+ .statement[data-statement-direction="2"] .se-chars{top:74px!important;bottom:15px!important}
+ .statement[data-statement-direction="2"] .se-mem{left:53%!important;right:62px!important;top:12px!important}
+ .statement[data-statement-direction="2"] :is(.se-rm,.se-meet)[data-statement-notice]{max-height:54px}
+ .statement[data-statement-direction="2"] .statement-objective{left:53%!important;right:62px!important;top:12px!important;max-height:54px;overflow:auto;box-sizing:border-box}
+ .statement[data-statement-direction="2"] .se-toast{left:53%;right:12px;top:72px;bottom:auto;max-height:72px}
+}
+@media(prefers-reduced-motion:reduce){
+ .statement[data-statement-direction="2"] .se-ch{transition:none!important}
+}
+
+@keyframes statement-direction-notice-in{from{opacity:0}to{opacity:1}}
+
+/* d2 owns only Statement's atlas paint. Shared adaptive layout remains intact
+   for other games; its duplicate full-sheet paint is excluded here. */
+.se.statement[data-statement-direction="2"][data-stage] .se-chars .se-dialogue-art{display:none!important}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars .se-chi>.ii{
+ clip-path:none!important;animation:none!important;transition:none!important;
+}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars .se-chi>.ph{display:none!important}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars>.se-ch[data-statement-actor]>.se-chi{
+ animation:none!important;transform:none!important;transform-origin:50% 0;
+}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars>.se-ch[data-statement-actor]{
+ transition:opacity .18s ease,filter .18s ease!important;
+}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars>.se-ch[data-statement-focus="listener"]{
+ opacity:0!important;visibility:hidden!important;
+}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars>.se-ch[data-statement-focus="speaker"]{
+ opacity:1!important;filter:brightness(1.025)!important;visibility:visible!important;
+}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars>.se-ch[data-statement-focus="group"]{
+ visibility:visible!important;filter:brightness(.98)!important;
+}
+.se.statement[data-statement-direction="2"][data-stage] .se-chars>.se-ch[data-statement-actor].out{opacity:0!important}
+.se.statement[data-statement-direction="2"] .statement-directed-shot{
+ position:absolute;z-index:6;overflow:hidden;pointer-events:none;display:grid;place-items:center;
+}
+.se.statement[data-statement-direction="2"] .statement-directed-shot[hidden]{display:none!important}
+.se.statement[data-statement-direction="2"] .statement-directed-shot img{
+ width:100%;height:100%;object-fit:contain;object-position:50% 0;max-width:100%;max-height:100%;
+}
+.se.statement[data-statement-direction="2"][data-statement-directed-shot="seated"] .se-chars,
+.se.statement[data-statement-direction="2"][data-statement-directed-shot="expression"] .se-chars{
+ visibility:hidden!important;opacity:0!important;
+}
+.se.statement[data-statement-direction="2"] .statement-pan-skip{
+ position:absolute;z-index:9;left:12px;top:98px;min-height:44px;max-width:calc(100% - 24px);
+ border:1px solid #71848b;border-radius:8px;padding:8px 12px;background:#10262e;color:#d4d8d2;font:13px/1.3 system-ui;
+}
+.se.statement[data-statement-direction="2"][data-statement-pan] .se-chars{visibility:hidden!important;opacity:0!important}
+.se.statement[data-statement-direction="2"][data-phone-layout="closeup"] .statement-directed-shot,
+.se.statement[data-statement-direction="2"][data-phone-layout="closeup"] .se-chars{visibility:hidden!important}
+@media(min-width:600px) and (max-height:500px){
+ .se.statement[data-statement-direction="2"] .statement-pan-skip{top:76px;left:8px;min-height:44px}
+}
+@media(prefers-reduced-motion:reduce){
+ .se.statement[data-statement-direction="2"] .statement-directed-shot,.se.statement[data-statement-direction="2"] .se-chars>*{transition:none!important}
+}
+/* Source sheets already contain full poses; transient old-pose paint would
+   double a face during the native 260 ms expression crossfade. Cut the pose. */
+.se.statement[data-statement-direction="2"] .se-chi>.fo,
+.se.statement[data-statement-direction="2"] .se-chi>.bk{display:none!important}
+
+.se.statement[data-statement-direction="2"] .se-mem{gap:0!important}
+.se.statement[data-statement-direction="2"] .se-meet[data-statement-notice]{border-radius:10px;box-shadow:none;max-width:none;align-items:start}
+.se.statement[data-statement-direction="2"] .se-meet[data-statement-notice] small{font-size:9px;letter-spacing:.08em}
+.se.statement[data-statement-direction="2"] .se-meet[data-statement-notice] b{font-size:13px}
+.se.statement[data-statement-direction="2"] .se-meet[data-statement-notice] em{font-size:11px}
+/* Hide the containing paint plane, even when its measured child has an
+   explicit visibility/opacity. Closeup phone exclusively owns the scene. */
+.se.statement[data-statement-direction="2"][data-phone-layout="closeup"] .se-chars,
+.se.statement[data-statement-direction="2"][data-phone-layout="closeup"] .statement-directed-shot{opacity:0!important}
+/* A seated scene replaces the room plate while active. No second clock/door
+   from the old room may show behind a differently framed room illustration. */
+.se.statement[data-statement-direction="2"][data-statement-directed-shot="seated"] .se-bgw{opacity:0!important}
+.se.statement[data-statement-direction="2"] .statement-directed-shot[data-kind="seated"]{background:#10262e}
+
+.se.statement[data-statement-direction="2"][data-statement-cast-hidden="phone-panel-space"] .se-chars{opacity:0!important;visibility:hidden!important}
